@@ -4,11 +4,25 @@
          "id":1,
          "date":"29 de Febrero de 2020",
          "title":"Conoce tus documentos",
-         "description":" Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda",
+         "description":" Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos",
          "image":"images/bot-framework.png",
          "url":"boot-framework-azure-cognitive-search.html",
          "folder":"AI",
-         "content":[],
+         "content":[
+            {"type":"","text":"Actualmente existen diferentes sitios web en los que podemos observar \"el poder\" del metadato de un archivo y de su contenido, cómo por ejemplo:<ul><li><a href=\"https://jfk-demo.azurewebsites.net/\">JFK Files </a></li><li><a href=\"https://wolterskluwereap.azurewebsites.net/\">Business Documents Demo - Wolters Kluwer</a></li><li><a href=\"http://webmedsearch.azurewebsites.net/\">Healthcare – Ctakes</a></li></ul>"},
+            {"type":"","text":"en ellas podemos observar que al buscar una palabra, la encontramos en documentos digitalizados segmentados y tageados, pero ¿nosotros podemos hacer esto?"},
+            {"type":"t","text":"#1. Antes de Azure Cognitive Search"},
+            {"type":"","text":"Para poder realizar este sistema de clasificación de documentos y extraer información relevante que se puede pasar por alto en las tareas de gestión debíamos generar una arquitectura similar a esta:"},
+            {"type":"","text":"<img src=\"images/pre-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"},
+            {"type":"","text":"Debíamos soportar diversos servicios (computer visión, app services, azure search) con los consecuentes costes de desarrollo y mantenimiento además de la latencia que se generaba en el proceso de obtención de información de un documento o imagen."},
+            {"type":"t","text":"#2. Con Azure Cognitive Search"},            
+            {"type":"","text":"<img src=\"images/cognitive-search.png\" alt=\"\" class=\"img-fluid\">"},
+            {"type":"","text":"Con este servicio no necesitamos tener grandes costes de desarrollo y mantenimiento, además de simplificar la arquitectura, pero no sólo eso sino que es un servicio administrado que nos permite escalar recursos facilmente, realizar búsquedas geoespaciales mientras que la inteligencia artificial integrada extraemos frases claves. Pero si es un chollo!"},
+            {"type":"","text":"<img src=\"images/generate-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"},
+            {"type":"","text":"Parecía un chollo pero al ver el coste de generación observamos que el almacenamiento es por partición, ¿qué significa eso? que podemos escalar hasta 12 réplicas y 12 particiones, en total 144 unidades de búsqueda disponibles, en función del tipo del plan de tarifa tendrás que jugar con las réplicas y las particiones ya que en los servicios \"Estándard\" sólo te permiten un máximo de 36 unidades de búsqueda."},
+            {"type":"","text":"Una vez generado el servicio de Azure Cognitive Services, deberemos realizar la importación de datos, este pude ser subiendo archivos de forma manual o desde de una <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/AddUpdate-or-Delete-Documents\">api</a> para generar un indice que se puede exportar a un blob storage, azure sql database o cosmosdb"},
+            {"type":"","text":"Cuando tenemos nuestros indice generado podemos realizar consultas utilizando el explorador de búsqueda incluido en el servicio, además sporta solicitudes api rest para ello deberás mirar el <a href=\"https://docs.microsoft.com/es-es/azure/search/query-lucene-syntax\">analizador de consultas completo de Lucene </a> además de los parámetros disponibles en la <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/search-documents#bkmk_examples\">búsqueda de documentos</a>"}
+         ],
          "tags":["Vue","React","Azure","Static Apps","App Service"]
         },
         {
@@ -20,7 +34,7 @@
             "url":"azure-cognitive-services-api.html",
             "folder":"AI", 
             "content":[],
-            "tags":["Vue","React","Azure","Static Apps","App Service"]        
+            "tags":["AI","Computer vision","Cognitive services","Azure"]        
         },
         {
             "id":3,

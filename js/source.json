@@ -1,0 +1,51 @@
+{
+   "posts":[             
+        {
+         "id":1,
+         "date":"29 de Febrero de 2020",
+         "title":"Conoce tus documentos",
+         "description":" Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda",
+         "image":"images/bot-framework.png",
+         "url":"boot-framework-azure-cognitive-search.html",
+         "folder":"AI",
+         "content":[],
+         "tags":["Vue","React","Azure","Static Apps","App Service"]
+        },
+        {
+            "id":2,
+            "date":"5 de Septiembre de 2020",
+            "title":"Testeando Azure computer vision",
+            "description":"Cómo conectar al servicio cognitivo de azure, algo de código de ejemplo",
+            "image":"images/cognitive-services.png",
+            "url":"azure-cognitive-services-api.html",
+            "folder":"AI", 
+            "content":[],
+            "tags":["Vue","React","Azure","Static Apps","App Service"]        
+        },
+        {
+            "id":3,
+            "date":"9 de Octubre de 2020",
+            "title":"Publicar una app de Vue / React en Azure",
+            "description":"Que opciones tenemos para publicar una app de Vue / React en Azure podemos usar un appservice o una web estática",
+            "image":"images/static-apps.png",
+            "url":"vue-or-react-azure-static-app.html",
+            "folder":"Azure",
+            "content":[
+             {"type":"t", "text":"#1. Crear app services"},
+             {"type":"p", "text":"Actualmente para desplegar una aplicación Vue o React tenemos diferentes opciones en Azure, pero ¿cuál es la mejor? depende de tus necesidades, yo sin duda me quedo con el servicio que actualmente encontramos en preview pero vamos al detalle"},
+             {"type":"", "text":"<img src=\"images/vue-react-app-appservice-linux.png\" alt=\"\" class=\"img-fluid\">"},
+             {"type":"", "text":"Podemos generar un app services en linux estableciendo la pila de ejecución del entorno a node, también podemos generar este appservice en windows pero para ello deberemos seguir las instrucciones de <a href=\"https://www.returngis.net/2019/03/desplegar-una-web-app-con-react-js-a-traves-de-azure-devops-en-app-service/\">Gisela Torres</a> en la que deberemos incluir un web.config similar al que se muestra a continuación: "},
+             {"type":"", "text":"<img src=\"images/react-web-config.png\" alt=\"\" class=\"img-fluid\">"},
+             {"type":"t", "text":"#2. Crear apliación estática"},
+             {"type":"", "text":"Yo prefiero esta opción ya que existe la posibilidad que un app service de linux no se aprovisione correctamente, y el coste de un app service puede ser elevado, cuando lo único que necesitamos es renderizar unas pocas páginas, este servicio es totalmente gratuito y se encuentra en preview"},
+             {"type":"", "text":"<img src=\"images/vue-react-app-static-pages.png\" alt=\"\" class=\"img-fluid\">"},
+             {"type":"", "text":"Para ello generaremos una aplcación estatica que conectaremos con nuestro repositorio de github tal y cómo muestra la imagen anterior, en la opción de compilación selecionaremos el motor en el que se basa nuestra aplicación, que permite los siguientes:<ul><li>Angular</li><li>React</li><li>Vue.js</li><li>Blazor</li><li>Gatsby</li><li>Hugo</li><li>VuePress</li><li>Custom</li></ul>"},
+             {"type":"", "text":"Una vez generado, tarda unos minutos en ser visible, pero ya tenemos nuestra app vue / react funcionando con normalidad, si necesitamos que esté en un appservice una solución alternativa sería generar una applicación mvc en netcore y configurar el SPA de la siguiente forma: "},
+             {"type":"", "text":"<img src=\"images/mvc-static-app-configuration.png\" alt=\"\" class=\"img-fluid\">"},
+             {"type":"", "text":"de esta forma aprovisionamos mediante appservice"}
+             ],
+            "tags":["Vue","React","Azure","Static Apps","App Service"]
+        }        
+
+   ]
+}

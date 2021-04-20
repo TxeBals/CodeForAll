@@ -141,6 +141,40 @@
               {"type":"", "text":""}
               ],
              "tags":["azure","form recognizer","c#"]
-         }         
+         },
+{
+             "id":6,
+             "date":"20 de Abril de 2021",
+             "title":"Recuperación de una máquina migrada",
+             "description":"Cuando se migra una máquina con Azure Migrate, puede ser que contenga problemas, para poder solventarlo deberemos seguir estos pasos",
+             "image":"images/microsoft-azure-migration.png",
+             "url":"azure-virtual-machine-recuescue-os-disk.html",
+             "folder":"VM",
+             "content":[
+              {"type":"t", "text":"#1.Crear una maquina virtual Dv3 o Ev3"},
+              {"type":"p", "text":"Para ello en el portal de azure dentro de un grupo de recurso, presionamos agregar y buscamos máquina virtual, con Windows Server 2016 Datacenter - Gen2"},
+              {"type":"", "text":"<img src=\"images/create-azure-virtual-machine.png\" alt=\"\" class=\"img-fluid\">"},
+              {"type":"", "text":"Ya tenemos nuestra máquina virtual de rescate, ahora instalamos Hyper-V agregando roles y características, es muy importante que sea Dv3 o Ev3 porque sino no podremos instalar Hyper-V. Una vez ya hemos instalado Hyper-V empezamos a preparar el entorno para realizar la recuperación del disco"},              
+			  {"type":"", "text":"Creamos una máquina en Hyper-V de Generacion 1, asignamos la memoria y en la parte de disco, le decimos que agregaremos el disco más tarde, y finalizamos"},       
+			  {"type":"", "text":"<img src=\"images/azure-vm-hyper-v-attach-disk-later.png\" alt=\"\" class=\"img-fluid\">"},
+              {"type":"t", "text":"#2. Crear instantánea (snapshot) del disco"},
+              {"type":"", "text":"Creamos una instantánea de nuestro disco y una vez creado creamos el disco desde la instantánea"},
+			  {"type":"", "text":"<img src=\"images/azure-vm-disk-snapshot.png\" alt=\"\" class=\"img-fluid\">"},
+			  {"type":"", "text":"<img src=\"images/azure-vm-disk-from-snapshot.png\" alt=\"\" class=\"img-fluid\">"},	
+			  {"type":"t", "text":"#3. Agregar disco a la máquina de rescate y a la máquina de Hyper-V"},			  
+              {"type":"", "text":"Desde la gestión de discos de la máquina de rescate agregamos el nuevo disco que hemos creado desde la instantánea"},
+			  {"type":"", "text":"<img src=\"images/azure-vm-asign-disk.png\" alt=\"\" class=\"img-fluid\">"},			 			  
+              {"type":"", "text":"Una vez asignado, nos vamos a nuestra máquina virtual, en la parte de Hyper-V, en configuración de la máquina asignamos el disco al IDE-0 indicando que es un disco físico, si no nos aparece el disco deberemos ir al gestor de discos del equipo y poner el disco en desconectado"},
+			  {"type":"", "text":"<img src=\"images/ azure-vm-set-disk-offline.png\" alt=\"\" class=\"img-fluid\">"},	
+			  {"type":"", "text":"<img src=\"images/azure-set-disk-to-hyper-v-vm.png\" alt=\"\" class=\"img-fluid\">"},	
+              {"type":"", "text":"Y ya podemos iniciar nuestra máquina de Hyper-V para realizar las correcciones necesarias, una vez finalizadas las correcciones y logramos recuperar la máquina, desasociamos el disco a la máquina de rescate y realizamos el reemplazo del disco del sistema operativo de la máquina que tenía los errores"},
+			  {"type":"t", "text":"#4. Cambiar disco del sistema operativo por el nuevo"},
+			  {"type":"", "text":"<img src=\"images/azure-vm-swap-os-disk.png\" alt=\"\" class=\"img-fluid\">"},	        
+			  {"type":"", "text":"<img src=\"images/azure-vm-swap-os-disk-done.png\" alt=\"\" class=\"img-fluid\">"},	        			  
+			  {"type":"", "text":"Y ya podemos iniciar nuestra máquina recuperada!!!"},
+              {"type":"", "text":""}
+              ],
+             "tags":["azure","virtual machines","recovery disk"]
+         }                  
     ]
  }

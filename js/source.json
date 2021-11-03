@@ -254,7 +254,7 @@
              {"type":"", "text":"<pre><code>(/|$)(.*)</pre></code>"},
              {"type":"", "text":""}
              ],
-            "tags":["azure","AI","Custom Vision"]
+            "tags":["azure","AKS","Https Ingress]
         }                          
     ]
  }

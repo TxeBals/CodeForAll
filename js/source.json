@@ -869,7 +869,7 @@
 				},
 				{
 					"type": "",
-					"text": "En este <a href=\"https://github.com/TxeBals/aks-private-ip-ingress-and-certsf-with-terraform\">repo</a> tenéis los módulos terraform para realizar el despliegue del AKS con el ingress, certificado propio y ip privada, <b><i>todas las variables se han de setear para su despliegue</i></b>"
+					"text": "En este <a href=\"https://github.com/TxeBals/aks-private-ip-ingress-and-certsf-with-terraform\" target=\"_blank\">repo</a> tenéis los módulos terraform para realizar el despliegue del AKS con el ingress, certificado propio y ip privada, <b><i>todas las variables se han de setear para su despliegue</i></b>"
 				},
 				{
 					"type": "",

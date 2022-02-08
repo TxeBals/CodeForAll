@@ -255,6 +255,45 @@
              {"type":"", "text":""}
              ],
             "tags":["azure","AKS","Https Ingress"]
-        }                          
+        },
+	{
+            "id":9,
+            "date":"8 de Febrero de 2022",
+            "title":"Terraform + AKS + UAI + Ingress Controller",
+            "description":"Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet",
+            "image":"images/aks-azure.jpg",
+            "url":"desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service",
+            "folder":"AKS",
+            "content":[
+             {"type":"t", "text":"#1.Familiarizarnos con los comandos de inicialización y multientorno de Terraform"},
+             {"type":"p", "text":"El primer comando que usaremos será terraform init, pero si queremos guardar el tfstate del Terraform en un storage account y este que dependa del entorno lo podemos realizar de dos maneras: <ul><li> Utilizando locals</li><ul><li> Utilizando directorios</li></ul> en este artículo nos vamos a centrar en la parte de directorios ya que bajo mi punto de vista es la mejor opción"},
+             {"type":"p", "text":"Pero antes de ir al punto en el que creamos directorios por entorno os voy a explicar la primera opción usando locals en un fichero de variables, por ejemplo tenemos unas variables que dependen del entorno y otras que son fijas para nuestro despliegue del AKS, en el siguiente ejemplo veréis su uso"},
+             {"type":"", "text":"<pre><code>locals { <br>  env = merge(<br>        yamldecode(file(\"env/variables-${var.environment}.yaml\"))<br>     )<br> }<br>variable \"location\" {<br>      description = \"localización del grupo de recursos\"<br>}</code></pre>"},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""},
+             {"type":"", "text":""}
+            ],
+           "tags":["Azure","AKS","Https ingress"]
+        }                                        
     ]
  }

@@ -522,7 +522,7 @@
 			"title": "AKS Ingress con https",
 			"description": "Cómo generar un ingress con letsencrypt",
 			"image": "images/aks-azure.jpg",
-			"url": "aks-ingress-https",
+			"url": "aks-ingress-https.html",
 			"folder": "AKS",
 			"content": [{
 					"type": "t",
@@ -733,7 +733,7 @@
 			"title": "Terraform + AKS + UAI + Ingress Controller",
 			"description": "Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet",
 			"image": "images/aks-azure.jpg",
-			"url": "desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service",
+			"url": "desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html",
 			"folder": "AKS",
 			"content": [{
 					"type": "t",
@@ -923,12 +923,12 @@
 			"tags": ["Azure", "AKS", "Https ingress"]
 		},
         {
-			"id": 9,
-			"date": "8 de Febrero de 2022",
+			"id": 10,
+			"date": "24 de Marzo de 2022",
 			"title": "Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table",
 			"description": "Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas",
 			"image": "images/aks-azure.jpg",
-			"url": "test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table",
+			"url": "test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html",
 			"folder": "AKS",
 			"content": [{
 					"type": "t",
@@ -936,7 +936,7 @@
 				},
                 {
 					"type": "",
-					"text": "<img src=\"images/webapp_test_escenario.png\" alt=\"\" class=\"img-fluid\">"
+					"text": "<img src=\"images/escenario_aks.png\" alt=\"\" class=\"img-fluid\">"
 				},
                 {
 					"type": "t",
@@ -944,7 +944,7 @@
 				},
                 {
 					"type": "",
-					"text": "<img src=\"images/escenario_aks.png\" alt=\"\" class=\"img-fluid\">"
+					"text": "<img src=\"images/webapp_test_escenario.png\" alt=\"\" class=\"img-fluid\">"
 				},
                 {
 					"type": "t",

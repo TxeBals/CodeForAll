@@ -921,6 +921,69 @@
 				}
 			],
 			"tags": ["Azure", "AKS", "Https ingress"]
+		},
+        {
+			"id": 9,
+			"date": "8 de Febrero de 2022",
+			"title": "Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table",
+			"description": "Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas",
+			"image": "images/aks-azure.jpg",
+			"url": "test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table",
+			"folder": "AKS",
+			"content": [{
+					"type": "t",
+					"text": "#1.Esquema ejemplo de Infrastructura AKS en Azure"
+				},
+                {
+					"type": "",
+					"text": "<img src=\"images/webapp_test_escenario.png\" alt=\"\" class=\"img-fluid\">"
+				},
+                {
+					"type": "t",
+					"text": "#2.Esquema ejemplo de Infrastructura de aplicación de testo del AKS en Azure"
+				},
+                {
+					"type": "",
+					"text": "<img src=\"images/escenario_aks.png\" alt=\"\" class=\"img-fluid\">"
+				},
+                {
+					"type": "t",
+					"text": "#3.Pasos a realizar para testear las reglas de firewall de un cluster de AKS en Azure"
+				},
+				{
+					"type": "p",
+					"text": "Descargar aplicación de test desarrollada en netcore 3.1, para ello debes descargar la aplicación que encontrarás en este repositorio: <a href=\"https://github.com/TxeBals/CheckAKSFirewallRoules\" target=\"_blank\">repo</a>"
+				},
+				{
+					"type": "",
+					"text": "Desplegar la aplicación en una web app de Azure, asignar la subnet que tiene asignada la tabla de rutas a la web app, para ello deberemos irnos a la sección de Networking de la web app y en el outbound traffic asignar mediante VNet integration dicha subnet, la y cómo se muestra en la siguiente imagen:"
+				},
+                {
+					"type": "",
+					"text": "<img src=\"images/webapp_asign_vnet.png\" alt=\"\" class=\"img-fluid\">"
+				},
+                {
+					"type": "",
+					"text": "Con la aplicación desplegada ya podemos acceder al dirección generado por la web app y visualizaremos un formulario, en él incluiremos la dirección de la api del AKS y la region en la que se encuentra."
+				},
+                {
+					"type": "",
+					"text": "<img src=\"images/chk_aks_form.png\" alt=\"\" class=\"img-fluid\">"
+				},
+                {
+					"type": "",
+					"text": "Al presionar check connectivity se realizará la petición al controlador que obtendrá la tabla de urls y puertos que deben estar abiertos para que Azure pueda monitorizar el AKS tal y montaráuna tabla con el nombre la descripción el puerto y estado, así como la respuesta de la llamada"
+				},
+                {
+					"type": "",
+					"text": "<img src=\"images/chk_aks_result.png\" alt=\"\" class=\"img-fluid\">"
+				},
+                {
+					"type": "",
+					"text": "Mientras no aparezcan un 502 de Bad Gateway, y aparezca códigos 200, 404 o 400 significa que el puerto está abierto, de lo contrario está cerrado"
+				}                              				
+			],
+			"tags": ["Azure", "AKS", "Testing vnet firewall routes"]
 		}
 	]
 }

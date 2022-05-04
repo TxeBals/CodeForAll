@@ -1,989 +1,1084 @@
 {
-	"posts": [{
-			"id": 1,
-			"date": "29 de Febrero de 2020",
-			"title": "Conoce tus documentos",
-			"description": " Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda",
-			"image": "images/bot-framework.png",
-			"url": "boot-framework-azure-cognitive-search.html",
-			"folder": "AI",
-			"content": [{
-					"type": "",
-					"text": "Actualmente existen diferentes sitios web en los que podemos observar \"el poder\" del metadato de un archivo y de su contenido, cómo por ejemplo:<ul><li><a href=\"https://jfk-demo.azurewebsites.net/\">JFK Files </a></li><li><a href=\"https://wolterskluwereap.azurewebsites.net/\">Business Documents Demo - Wolters Kluwer</a></li><li><a href=\"http://webmedsearch.azurewebsites.net/\">Healthcare – Ctakes</a></li></ul>"
-				},
-				{
-					"type": "",
-					"text": "en ellas podemos observar que al buscar una palabra, la encontramos en documentos digitalizados segmentados y tageados, pero ¿nosotros podemos hacer esto?"
-				},
-				{
-					"type": "t",
-					"text": "#1. Antes de Azure Cognitive Search"
-				},
-				{
-					"type": "",
-					"text": "Para poder realizar este sistema de clasificación de documentos y extraer información relevante que se puede pasar por alto en las tareas de gestión debíamos generar una arquitectura similar a esta:"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/pre-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Debíamos soportar diversos servicios (computer visión, app services, azure search) con los consecuentes costes de desarrollo y mantenimiento además de la latencia que se generaba en el proceso de obtención de información de un documento o imagen."
-				},
-				{
-					"type": "t",
-					"text": "#2. Con Azure Cognitive Search"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Con este servicio no necesitamos tener grandes costes de desarrollo y mantenimiento, además de simplificar la arquitectura, pero no sólo eso sino que es un servicio administrado que nos permite escalar recursos facilmente, realizar búsquedas geoespaciales mientras que la inteligencia artificial integrada extraemos frases claves. Pero si es un chollo!"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/generate-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Parecía un chollo pero al ver el coste de generación observamos que el almacenamiento es por partición, ¿qué significa eso? que podemos escalar hasta 12 réplicas y 12 particiones, en total 144 unidades de búsqueda disponibles, en función del tipo del plan de tarifa tendrás que jugar con las réplicas y las particiones ya que en los servicios \"Estándard\" sólo te permiten un máximo de 36 unidades de búsqueda."
-				},
-				{
-					"type": "",
-					"text": "Una vez generado el servicio de Azure Cognitive Services, deberemos realizar la importación de datos, este pude ser subiendo archivos de forma manual o desde de una <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/AddUpdate-or-Delete-Documents\">api</a> para generar un indice que se puede exportar a un blob storage, azure sql database o cosmosdb"
-				},
-				{
-					"type": "",
-					"text": "Cuando tenemos nuestros indice generado podemos realizar consultas utilizando el explorador de búsqueda incluido en el servicio, además sporta solicitudes api rest para ello deberás mirar el <a href=\"https://docs.microsoft.com/es-es/azure/search/query-lucene-syntax\">analizador de consultas completo de Lucene </a> además de los parámetros disponibles en la <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/search-documents#bkmk_examples\">búsqueda de documentos</a>"
-				}
-			],
-			"tags": ["Vue", "React", "Azure", "Static Apps", "App Service"]
-		},
-		{
-			"id": 2,
-			"date": "5 de Septiembre de 2020",
-			"title": "Testeando Azure computer vision",
-			"description": "Cómo conectar al servicio cognitivo de azure, algo de código de ejemplo",
-			"image": "images/cognitive-services.png",
-			"url": "azure-cognitive-services-api.html",
-			"folder": "AI",
-			"content": [{
-					"type": "t",
-					"text": "#1. Computer Vision"
-				},
-				{
-					"type": "",
-					"text": "Lo primero que tenemos que hacer es crear un servicio de computer vision"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/crear-custom-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Una vez generado el servicio custom vision y queremos realizar la integración de este en nuestra aplicación debemos agregar el paquete <a href=\"https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.Vision.ComputerVision/6.0.0\">Nuget Microsoft.Azure.CognitiveServices.Vision.ComputerVision</a> con el podremos generar la autenticación del cliente, analizar una imagen o un texto"
-				},
-				{
-					"type": "",
-					"text": "En nuestro caso he decido crear una clase base que mediante unos métodos nos genere el cliente y obtenga las claves de configuración del servicio que obtenemos del servicio, tal y cómo se muestra en la seguiente imagen"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/key-endpoint-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Debemos generar un ComputerVisionClient al que se le pasaran los ServiceClientCredentials que llamaremos Creteclient(), un ServiceClientCredentials que recibirá como parámetro la clave que queremos usar y el endpoint al que nos vamos a conectar, en este caso las claves y los endpoints estarán en una clase de configuración llamada Keys"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/base-class-custom-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Extenderemos esta clase con las acciones que queremos realizar de forma individual, por ejemplo, por un lado realizaremos el análisis de imagen y por otro el reconocimiento de texto, empezamos por el reconocimiento de imagen. Para ello deberemos extender de nuestra clase e implementar la interfaz \"IComputerVisionImage\" que tiene el método AnalyzeImage sobrecargado uno para un Stream y otro para un string, para personalizar más la solicitud de características de la imagen realizaremos unos métodos adicionales que nos permitirán extrer sólo la información deseada de la imagen (categorías, descripción, caras, tipo de imagen, tags)."
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/features-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Una vez generados estos métodos de características de imagenes generamos la implementación de la interfaz IComputerVisionImage, dónde generaremos el cliente, y llamaremos al método correspondiente en funcón del tipo de imagen recibida (stream o string)"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/call-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Para el reconocimiento de texto realizaremos la misma opción, extenderemos de la clase base e implementaremos el interfaz IComputerVision"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/text-recognize-computer-vision-1.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/text-recognize-computer-vision-2.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "El problema en el reconocimiento de texto, es que a veces, tarda más de la cuenta y entonces hemos de guardar el identificador de proceso llamado <b>operationId</b> para poder consultar si el proceso ha terminado y recuperar la información extraida"
-				},
-				{
-					"type": "",
-					"text": "Una vez generadas estas clases, sólo hemos de generar un manager que nos instancie las clases y poder realizar la llamda directamente pasando el stream, o la url"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/manager-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "realizando la llamada return await new AzureManagement().ImageRecgnizeService.AnalyzeImage o return await new AzureManagement().TextRecognizeService"
-				}
-			],
-			"tags": ["Vue", "React", "Azure", "Static Apps", "App Service"]
-		},
-		{
-			"id": 3,
-			"date": "9 de Octubre de 2020",
-			"title": "Publicar una app de Vue / React en Azure",
-			"description": "Que opciones tenemos para publicar una app de Vue / React en Azure podemos usar un appservice o una web estática",
-			"image": "images/static-apps.png",
-			"url": "vue-or-react-azure-static-app.html",
-			"folder": "Azure",
-			"content": [{
-					"type": "t",
-					"text": "#1. Crear app services"
-				},
-				{
-					"type": "p",
-					"text": "Actualmente para desplegar una aplicación Vue o React tenemos diferentes opciones en Azure, pero ¿cuál es la mejor? depende de tus necesidades, yo sin duda me quedo con el servicio que actualmente encontramos en preview pero vamos al detalle"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/vue-react-app-appservice-linux.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Podemos generar un app services en linux estableciendo la pila de ejecución del entorno a node, también podemos generar este appservice en windows pero para ello deberemos seguir las instrucciones de <a href=\"https://www.returngis.net/2019/03/desplegar-una-web-app-con-react-js-a-traves-de-azure-devops-en-app-service/\">Gisela Torres</a> en la que deberemos incluir un web.config similar al que se muestra a continuación: "
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/react-web-config.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "t",
-					"text": "#2. Crear apliación estática"
-				},
-				{
-					"type": "",
-					"text": "Yo prefiero esta opción ya que existe la posibilidad que un app service de linux no se aprovisione correctamente, y el coste de un app service puede ser elevado, cuando lo único que necesitamos es renderizar unas pocas páginas, este servicio es totalmente gratuito y se encuentra en preview"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/vue-react-app-static-pages.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Para ello generaremos una aplcación estatica que conectaremos con nuestro repositorio de github tal y cómo muestra la imagen anterior, en la opción de compilación selecionaremos el motor en el que se basa nuestra aplicación, que permite los siguientes:<ul><li>Angular</li><li>React</li><li>Vue.js</li><li>Blazor</li><li>Gatsby</li><li>Hugo</li><li>VuePress</li><li>Custom</li></ul>"
-				},
-				{
-					"type": "",
-					"text": "Una vez generado, tarda unos minutos en ser visible, pero ya tenemos nuestra app vue / react funcionando con normalidad, si necesitamos que esté en un appservice una solución alternativa sería generar una applicación mvc en netcore y configurar el SPA de la siguiente forma: "
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/mvc-static-app-configuration.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "de esta forma aprovisionamos mediante appservice"
-				}
-			],
-			"tags": ["Vue", "React", "Azure", "Static Apps", "App Service"]
-		},
-		{
-			"id": 4,
-			"date": "03 de Noviembre de 2020",
-			"title": "Crear tarjetas customizadas en Bot Framework Composer",
-			"description": "Utilizando https://adaptivecards.io/designer/ podemos generar tarjetas customizadas y aplicar este diseño en bot framework composer",
-			"image": "images/composer.png",
-			"url": "bot-framework-composer-adaptive-cards.html",
-			"folder": "bot framework",
-			"content": [{
-					"type": "t",
-					"text": "#1. Crear un nuevo diálogo"
-				},
-				{
-					"type": "p",
-					"text": "Para ello dentro de Bot Framework Composer hemos de realizar la acción ADD / Add new dialog"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/add-new-dialog-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Una vez tenemos el diálogo debemos establecer el nombre y la descripción, es este caso lo vamos a llamar customcard  "
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/define-conversation-objective-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "t",
-					"text": "#2. Generar la respuesta"
-				},
-				{
-					"type": "",
-					"text": "Una vez hemos creado el diálogo agregaremos una respuesta presionando el botón <b>+</b> que encontramos en la siguiente imagen, agregando una respuesta e introduciremos un texto cualquiera en la respuesta"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/add-response-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Ya tenemos un componente que podemos agregar a nuestro diálogo principal, pero aún no es una tarjeta customizada, deberemos ir a la sección de bot responses y ahí seleccionar nuestro diálogo llamado customcard, en ella veremos lo siguiente:"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/bot-responses-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Ahora el siguiente paso es ir a adaptivecards y generar la tarjeta que queramos mostrar en nuestro bot, una vez la tengamos en el cad payload editor tendremos el json que debermos agregar en la respuesta.<br> Si agregamos este json directamente nos dará un error para solventarlo deberemos hacer que la respuesta interprete el json cómo un string y no cómo un objeto"
-				},
-				{
-					"type": "",
-					"text": "deberemos seleccionar la respuesta y activar el botón edit mode, este nos mostrará un texto parecido a este <pre><code>[import](common.lg)<br># SendActivity_ViTR8q()<br>- Respuesta</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "dónde # SendActivity_ViTR8q hace referencia al método de respuesta que ejecutará nuestra actividad, ahora crearemos una respuesta de la siguiente forma:"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>#customcardjson<br>-``` { json custom card / cad payload editor } ```</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "fijaros que la respuesta empieza con <b>-``` y finaliza con ```</b> esto es muy importante ya que de esta forma le estamos indicando que ese json lo trate cómo string"
-				},
-				{
-					"type": "",
-					"text": "después generaremos una nueva sección que incluya el parseo del json que tenemos en el string de esta forma podremos redenderizar la tarjeta"
-				},
-				{
-					"type": "",
-					"text": "<pre><code># CustomCard<br>[Activity<br><tab>    Attachments = ${json(customcardjson())}<br>]</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "y por último en el método que hemos mencionado al principio cambiaremos <b>-Respuesta</b> por <b>$-{CustomCard()}</b>"
-				},
-				{
-					"type": "",
-					"text": "es muy importante que veas al inicio del editor esto: <b>[import](common.lg)</b> si no lo ves ponlo ya que sino no podrá procesar el json y generar la tarjeta personalizada."
-				},
-				{
-					"type": "",
-					"text": "quedando todo el código de esta forma:<br>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>[import](common.lg)<br># SendActivity_ViTR8q()<br>- ${CustomCard()}<br># CustomCard<br>[Activity<br>  Attachments = ${json(customcardjson())}<br>]<br>#customcardjson<br>-``` <br>{ <br> \"$schema\": \"http://adaptivecards.io/schemas/adaptive-card.json\", <br> \"type\": \"AdaptiveCard\", <br> \"version\": \"1.0\", <br> \"body\": [ <br> { <br> \"type\": \"Image\", <br> \"url\": \"https://secure.meetupstatic.com/photos/event/9/5/0/f/highres_468758159.jpeg\", <br> \"size\": \"stretch\" <br> }, <br> { <br> \"type\": \"TextBlock\", <br> \"spacing\": \"medium\", <br> \"size\": \"default\", <br> \"weight\": \"bolder\", <br> \"text\": \"Bienvenido al assitente virtual de Catzure!\", <br> \"wrap\": true, <br> \"maxLines\": 0 <br> }, <br> { <br> \"type\": \"TextBlock\", <br> \"size\": \"default\", <br> \"isSubtle\": true, <br> \"text\": \"A continuación tienes disponible información sobre nosotros\", <br> \"wrap\": true, <br> \"maxLines\": 0 <br> } <br> ], <br> \"actions\": [ <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"NetCoreConf - Un pedazo de evento\", <br> \"url\": \"https://netcoreconf.com/\" <br> }, <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"Agenda eventos\", <br> \"url\": \"https://www.meetup.com/es-ES/CATzure/\" <br> }, <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"Siguenos en twitter y subscribete en nuestro canal de Youtube\", <br> \"url\": \"https://www.youtube.com/channel/UCjH-d3eG2yFcVpx8i-K2Zkw/featured\" <br> } <br> ] <br>}```</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Si lo hemos realizado correctamente y salimos del modo editor de respuesta de bot responses veremos que en customcard tendremos tres respuestas que son los segmentos que hemos creado en los pasos anteriores:<br>"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/final-responses-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
-				}
-			],
-			"tags": ["custom cards", "adaptive cards", "Bot Framework", "Azure bot"]
-		},
-		{
-			"id": 5,
-			"date": "11 de Marzo de 2021",
-			"title": "C# y Form Recognizer",
-			"description": "Integración rápida con C# y Form Recognizer",
-			"image": "images/form_recognizer_logo.png",
-			"url": "c-sharp-and-form-recognizer.html",
-			"folder": "AI",
-			"content": [{
-					"type": "t",
-					"text": "#1. From Recognizer"
-				},
-				{
-					"type": "p",
-					"text": "Para ello en el portal de azure dentro de un grupo de recurso, presionamos agregar y buscamos form recognizer, nos aparecerá lo siguiente "
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/create-form-recognizer.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Una vez hemos lo hemos creado nos generará un endpoint y unas claves para su uso "
-				},
-				{
-					"type": "t",
-					"text": "#2. Código de integración"
-				},
-				{
-					"type": "",
-					"text": "Deberemos instalar el nuget Azure.AI.FormRecognizer e integarlo en nuestro código realizando los siguientes using"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>using Azure;<br>using Azure.AI.FormRecognizer;<br>using Azure.AI.FormRecognizer.Models;<br>using Azure.AI.FormRecognizer.Training;</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Deberemos generar un cliente de conexión para poder analizar los documentos y un cliente para entrenar los modelos, para ello utilzaremos el siguiente código"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>private static FormRecognizerClient AutenticarCliente()<br>{<br>   return new FormRecognizerClient(endpoint: new Uri(endPoint), credential: new AzureKeyCredential(apiKey));<br>}<br></code></pre>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>private static FormTrainingClient AutenticarClienteEntrenador()<br>{<br>   return new FormTrainingClient(endpoint: new Uri(endPoint), credential:  new AzureKeyCredential(apiKey));<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Si queremos realizar un modelo de etiquetas debermos utilizar la herramienta: <a href=\"javascript:window.open('https://fott.azurewebsites.net/')\">https://fott.azurewebsites.net/</a> en la <a href=\"javascript:window.open('https://www.youtube.com/watch?v=Tov4GoNs1s8&list=PLbNXjE8OQW5x-J99ApH6Vp3j5FLudKWTh&index=3&ab_channel=Catzure');\">charla</a> se explica cómo utilizar la herramienta de etiquetado de documentos y cómo funciona estos fragmentos de código."
-				},
-				{
-					"type": "",
-					"text": "Para entrenar un modelo utilizaremos la url del contendor de nuestra cuenta de almacenamiento cómo servicio SAS y el siguiente fragmento de código: <pre><code>private static async Task<string> EntrenarModelo(FormTrainingClient clienteEntrenador, string urlSasContenedor, bool etiquetas = false)<br>{<br>   CustomFormModel customFormModel = await clienteEntrenador.StartTrainingAsync(new Uri(urlSasContenedor), etiquetas).WaitForCompletionAsync();<br>   if (customFormModel.Errors.Count>0)<br>   {<br>      foreach (var err in customFormModel.Errors) <br>      {<br>           Console.WriteLine(\"  Error: \" + err.ErrorCode + \" - \" + err.Message);<br>      }<br>   }<br>   return customFormModel.ModelId;<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para analizar el documento utilizaremos este código: <pre><code>private static async Task AnalizarDocumento(FormRecognizerClient cliente, string modelo, string urlFichero)<br>        {<br>            RecognizedFormCollection forms = await cliente.StartRecognizeCustomFormsFromUri(modelo, new Uri(urlFichero)).WaitForCompletionAsync();<br><br>            foreach (RecognizedForm form in forms)<br>            {<br>                Console.WriteLine($\"Tipo de documento: {form.FormType}\");<br>                foreach (FormField field in form.Fields.Values)<br>                {<br>                    Console.WriteLine($\"campo '{field.Name}: \");<br><br>                    if (field.LabelData != null)<br>                    {<br>                        Console.WriteLine($\"    etiqueta: '{field.LabelData.Text}\");<br>                    }<br><br>                    Console.WriteLine($\"    Valor: '{field.ValueData.Text}\");<br>                    Console.WriteLine($\"    Confidence: '{field.Confidence}\");<br>                }<br>                Console.WriteLine(\"Tabla:\");<br>                foreach (FormPage page in form.Pages)<br>                {<br>                    for (int i = 0; i < page.Tables.Count; i++)<br>                    {<br>                        FormTable table = page.Tables[i];<br>                        Console.WriteLine($\"Tablas {i} tiene {table.RowCount} filas y {table.ColumnCount} columnas.\");<br>                        foreach (FormTableCell cell in table.Cells)<br>                        {<br>                            Console.WriteLine($\"    Celda ({cell.RowIndex}, {cell.ColumnIndex}) contiene {(cell.IsHeader ? \"cabecera\" : \"texto\")}: '{cell.Text}'\");<br>                        }<br>                    }<br>                }<br>            }<br>        }</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para consultar los modelos generados mediante el cliente entrenador de modelos: <pre><code>private static async Task ConsultarModelos(FormTrainingClient cliente)<br>        {<br>            AccountProperties accountProperties = cliente.GetAccountProperties();<br><br>            Console.WriteLine($\"La cuenta tiene {accountProperties.CustomModelCount} modelos.\");<br>            Console.WriteLine($\"Límite de modelos en la cuenta {accountProperties.CustomModelLimit} modelos.\");<br><br>            Pageable<CustomFormModelInfo> models = cliente.GetCustomModels();<br><br>            foreach (CustomFormModelInfo modelInfo in models)<br>            {<br>                Console.WriteLine($\"Información del modelo:\");<br>                Console.WriteLine($\"    Id Modelo: {modelInfo.ModelId}\");<br>                Console.WriteLine($\"    Estado: {modelInfo.Status}\");<br>                Console.WriteLine($\"    Iniciado: {modelInfo.TrainingStartedOn}\");<br>                Console.WriteLine($\"    Finalizado: {modelInfo.TrainingCompletedOn}\");<br>            }<br><br><br>        }</code></pre>"
-				},
-				{
-					"type": "",
-					"text": ""
-				}
-			],
-			"tags": ["azure", "form recognizer", "c#"]
-		},
-		{
-			"id": 6,
-			"date": "20 de Abril de 2021",
-			"title": "Recuperación de una máquina migrada",
-			"description": "Cuando se migra una máquina con Azure Migrate, puede ser que contenga problemas, para poder solventarlo deberemos seguir estos pasos",
-			"image": "images/microsoft-azure-migration.png",
-			"url": "azure-virtual-machine-recuescue-os-disk.html",
-			"folder": "VM",
-			"content": [{
-					"type": "t",
-					"text": "#1.Crear una maquina virtual Dv3 o Ev3"
-				},
-				{
-					"type": "p",
-					"text": "Para ello en el portal de azure dentro de un grupo de recurso, presionamos agregar y buscamos máquina virtual, con Windows Server 2016 Datacenter - Gen2"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/create-azure-virtual-machine.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Ya tenemos nuestra máquina virtual de rescate, ahora instalamos Hyper-V agregando roles y características, es muy importante que sea Dv3 o Ev3 porque sino no podremos instalar Hyper-V. Una vez ya hemos instalado Hyper-V empezamos a preparar el entorno para realizar la recuperación del disco"
-				},
-				{
-					"type": "",
-					"text": "Creamos una máquina en Hyper-V de Generacion 1, asignamos la memoria y en la parte de disco, le decimos que agregaremos el disco más tarde, y finalizamos"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-hyper-v-attach-disk-later.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "t",
-					"text": "#2. Crear instantánea (snapshot) del disco"
-				},
-				{
-					"type": "",
-					"text": "Creamos una instantánea de nuestro disco y una vez creado creamos el disco desde la instantánea"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-disk-snapshot.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-disk-from-snapshot.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "t",
-					"text": "#3. Agregar disco a la máquina de rescate y a la máquina de Hyper-V"
-				},
-				{
-					"type": "",
-					"text": "Desde la gestión de discos de la máquina de rescate agregamos el nuevo disco que hemos creado desde la instantánea"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-asign-disk.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Una vez asignado, nos vamos a nuestra máquina virtual, en la parte de Hyper-V, en configuración de la máquina asignamos el disco al IDE-0 indicando que es un disco físico, si no nos aparece el disco deberemos ir al gestor de discos del equipo y poner el disco en desconectado"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/ azure-vm-set-disk-offline.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-set-disk-to-hyper-v-vm.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Y ya podemos iniciar nuestra máquina de Hyper-V para realizar las correcciones necesarias, una vez finalizadas las correcciones y logramos recuperar la máquina, desasociamos el disco a la máquina de rescate y realizamos el reemplazo del disco del sistema operativo de la máquina que tenía los errores"
-				},
-				{
-					"type": "t",
-					"text": "#4. Cambiar disco del sistema operativo por el nuevo"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-swap-os-disk.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "<img src=\"images/azure-vm-swap-os-disk-done.png\" alt=\"\" class=\"img-fluid\">"
-				},
-				{
-					"type": "",
-					"text": "Y ya podemos iniciar nuestra máquina recuperada!!!"
-				},
-				{
-					"type": "",
-					"text": ""
-				}
-			],
-			"tags": ["azure", "virtual machines", "recovery disk"]
-		},
-		{
-			"id": 7,
-			"date": "7 de Octubre de 2021",
-			"title": "Del dibujo al código",
-			"description": "Cómo entrenar un modelo personalizado para la generación automática de código",
-			"image": "images/custom-vision.jpg",
-			"url": "del-dibujo-al-codigo.html",
-			"folder": "AI",
-			"content": [{
-					"type": "t",
-					"text": "#1.Acceder al canal de Youtube de Catzure y busca la charla del dibujo al código"
-				},
-				{
-					"type": "p",
-					"text": "Para ir directamente al video haz click <a href=\"https://www.youtube.com/watch?v=_CuJtRValG0&ab_channel=Catzure\">aquí</a>"
-				},
-				{
-					"type": "",
-					"text": "Sería un detallazo que te subscibieses y le dieses like, por aquello de fomentar el canal de conocimiento tecnológico."
-				},
-				{
-					"type": "",
-					"text": "En el vídeo te explica como hacer el entreno del modelo y toda la información necesaria para su creación pero si quieres trastear <a href=\"https://github.com/TxeBals/deldibujoalcodigo\">aquí</a> tienes el repositorio dónde descargar el código y jugar"
-				},
-				{
-					"type": "",
-					"text": "A trastear!!"
-				},
-				{
-					"type": "",
-					"text": ""
-				}
-			],
-			"tags": ["azure", "AI", "Custom Vision"]
-		},
-		{
-			"id": 8,
-			"date": "8 de Octubre de 2021",
-			"title": "AKS Ingress con https",
-			"description": "Cómo generar un ingress con letsencrypt",
-			"image": "images/aks-azure.jpg",
-			"url": "aks-ingress-https.html",
-			"folder": "AKS",
-			"content": [{
-					"type": "t",
-					"text": "#1.Crear un Ingress Controller si no tenemos uno"
-				},
-				{
-					"type": "p",
-					"text": "Para ello deberemos seguir los siguientes pasos:<ul><li>Crear un namespace</li><li>Agregar el ingress-nginx a nuestro repositorio</li><li>Instalar el nginx en nuestro namespace</li></ul>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>alias k=kubectl</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>k create namespace ingress-basic</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm repo update</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm install nginx-ingress ingress-nginx/ingress-nginx --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector.\"kubernetes\\.io/os\"=linux --set defaultBackend.nodeSelector.\"kubernetes\\.io/os\"=linux --set controller.service.loadBalancerIP=$IPPUBLICA$</pre></code>"
-				},
-				{
-					"type": "t",
-					"text": "#2.Instalar el cert-manager"
-				},
-				{
-					"type": "p",
-					"text": "Para ello deberemos seguir los siguientes pasos:<ul><li>Labelar el namespace</li><li>Agregar el cert-manager a nuestro repositorio</li><li>Instalar el cert-manager en nuestro namespace</li></ul>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>k label namespace ingress-basic cert-manager.io/disable-validation=true</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm repo add jetstack https://charts.jetstack.io</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm repo update</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>helm install cert-manager jetstack1/cert-manager   --namespace ingress-basic  --set nodeSelector.\"kubernetes\\.io/os\"=linux   --set installCRDs=true</pre></code>"
-				},
-				{
-					"type": "t",
-					"text": "#3.Issuer o ClusterIssuer"
-				},
-				{
-					"type": "p",
-					"text": "Si queremos establecer una única configuración para todo el cluster de AKS necesitaremos configurar un ClusterIssuer mientras que si queremos que sólo se aplique a un namespace deberemos configurar un Issuer"
-				},
-				{
-					"type": "p",
-					"text": "En este caso nos vamos a centrar en el ClusterIssuer, una vez instalado el cert-manager deberemos generar un yaml como el siguiente:"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>apiVersion: cert-manager.io/v1</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>kind: ClusterIssuer</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>metadata:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    name: letsencrypt-staging</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>spec:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    acme:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>        server:https://acme-staging-v02.api.letsencrypt.org/directory</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>        email:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>        privateKeySecretRef:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>            name: letsencrypt-staging</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    solvers:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    - http01:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>        ingress:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>            class: nginx</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>                podTemplate:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>                    spec:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>                        nodeSelector:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>                            \"kubernetes.io/os\": Linux</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "Una vez tenemos nuestro yaml lo aplicamos a nuestro namespace"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>k apply -f letsencrypt-staging  --namespace ingress-basic</pre></code>"
-				},
-				{
-					"type": "p",
-					"text": "En nuestro yaml del ingress deberemos realizar las siguientes modificaciones para activar el https con letsencrypt"
-				},
-				{
-					"type": "p",
-					"text": "En la sección metadata annotations"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>cert-manager.io/cluster-issuer: letsencrypt-staging</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>kubernetes.io/ingress.class: nginx</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>nginx.ingress.kubernetes.io/rewrite-target: /$1</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>nginx.ingress.kubernetes.io/use-regex: \"true\"</pre></code>"
-				},
-				{
-					"type": "p",
-					"text": "En la sección spec justo antes de rules, para activar el tls deberemos agregar lo siguiente"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>tls:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code> - hosts:</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    - midominio de aks.region.cloudapp.azure.com</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>    secretName: nombre</pre></code>"
-				},
-				{
-					"type": "p",
-					"text": "Si la configuración va por path se deberá agregar al final del path la regex siguiente"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>(/|$)(.*)</pre></code>"
-				},
-				{
-					"type": "",
-					"text": ""
-				}
-			],
-			"tags": ["azure", "AKS", "Https Ingress"]
-		},
-		{
-			"id": 9,
-			"date": "8 de Febrero de 2022",
-			"title": "Terraform + AKS + UAI + Ingress Controller",
-			"description": "Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet",
-			"image": "images/aks-azure.jpg",
-			"url": "desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html",
-			"folder": "AKS",
-			"content": [{
-					"type": "t",
-					"text": "#1.Familiarizarnos con los comandos de inicialización y multientorno de Terraform"
-				},
-				{
-					"type": "p",
-					"text": "El primer comando que usaremos será terraform init, pero si queremos guardar el tfstate del Terraform en un storage account y este que dependa del entorno lo podemos realizar de dos maneras: <ul><li> Utilizando locals</li><li> Utilizando directorios</li></ul> en este artículo nos vamos a centrar en la parte de directorios ya que bajo mi punto de vista es la mejor opción"
-				},
-				{
-					"type": "",
-					"text": "Pero antes de ir al punto en el que creamos directorios por entorno os voy a explicar la primera opción usando locals en un fichero de variables, por ejemplo tenemos unas variables que dependen del entorno y otras que son fijas para nuestro despliegue del AKS, en el siguiente ejemplo veréis su uso"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>locals { <br>  env = merge(<br>        yamldecode(file(\"env/variables-${var.environment}.yaml\"))<br>     )<br> }<br>variable \"location\" {<br>      description = \"localización del grupo de recursos\"<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "En el fichero de yaml tendremos el nombre de la variable y el valor de la siguiente forma: <pre><code>location: northeurope</pre></code>"
-				},
-				{
-					"type": "",
-					"text": "En la parte de directorios crearemos la estructura que nos vaya bien, en mi caso he creado una carpeta aks y dentro los subdirectorios por entorno, en cada uno de los entornos crearemos un fichero llamado backend.hcl. En el deberemos establecer el resource group name, el storage account, el container name y la key con la que queramos guardar el tfstate, en el siguiente ejemplo verás el contenido del fichero"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>resource_group_name  = \"nuestro grupo de recursos\" <br>storage_account_name = \"nuestro storage account\" <br>container_name       = \"el container donde almacenaremos\"<br> key                  = \"la clave, en mi caso le he puesto terraform.aks.tfstate por ejemplo\"</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para que esta configuración tenga efecto deberemos configurar el provider de terraform indicando que el backend es azure de la siguiente forma"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>terraform {<br>  required_version = \"~> 1.1.2\"<br>  backend \"azurerm\" {}<br></code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para inicializar el terraform con el backend en función del entorno deberemos poner el comando terraform init -backend-config=\"ruta\backend.hcl\" en mi caso es de la siguiente manera"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>terraform init -backend-config=\"pre/backend.hcl\"</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para aplicar la variables por entorno utilizaremos la ruta del entorno y un fichero con el nombre.tfvars en él definiremos las variables que son específicas por entorno pero están declaradas en nuestro variables.tf, por ejemplo para la identidad administrada usaremos una variable llamada aksuai_name en el fichero de variables lo definiremos de la siguiente forma:"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>variable \"aksuai_name\"{<br>  description = \"(Required) Name of user asssigned identity\"<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Y en nuestro fichero de pre.tfvars o el nombre que queráis por entorno estableceremos el valor así"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>aksuai_name                                     =\"usraksadminidentity\"</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para aplicar los cambios al terraform en función del entorno o destruir este deberemos usar el comando terraform apply / destroy -var-file=\"ruta fichero tfvars\""
-				},
-				{
-					"type": "",
-					"text": "<pre><code>terraform apply -var-file=\"./pre/pre.tfvars\" -auto-approve  </code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Con esto ya sabemos aplicar variables en función del entorno"
-				},
-				{
-					"type": "t",
-					"text": "#2 Definir outputs y recuperar el output del storage account"
-				},
-				{
-					"type": "p",
-					"text": "Los outputs se utilizan para recuperar información que deberemos utilizar en otros elementos de la infrastructura por ejemplo, al crear una vnet con subnets y una de estas subnets las queremos asignar al AKS debemos tener el id de la subnet, lo mismo ocurre con la identidad administrada"
-				},
-				{
-					"type": "",
-					"text": "En el siguiente terraform veremos la definición de una identidad administrada"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>resource \"azurerm_user_assigned_identity\" \"aksuai\" {<br>  resource_group_name = var.resource_group_name <br>  location            = var.location<br> name = var.aksuai_name<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Generaremos un fichero llamado outputs.tf en el cual definiremos los datos que queremos recuperar de nuestra identidad administrada. En este caso queremos recuperar la id y el principal id de la identidad"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>output \"uai_id\" {<br>  description = \"The ID of user assigned identity\" <br>  value       = azurerm_user_assigned_identity.aksuai.id<br>}<br><br>output \"uai_principal_id\" {<br>  description = \"The ID of user assigned identity\"<br>  value       = azurerm_user_assigned_identity.aksuai.principal_id<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para recuperar esta información del tfstate y aplicarla al aks deberemos de definir en el main lo siguiente"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>data \"terraform_remote_state\" \"uaistate\"{<br>    backend =\"azurerm\" <br>    config = {<br>    resource_group_name = format(\"%s\",var.storage_resource_group)<br>       storage_account_name = format(\"%s\",var.storage_account_name)<br>        container_name = format(\"%s\",var.container_name)<br>        key = \"clave donde se almacena el tfstate en mi caso terraform.userassigned.tfstate\"<br>        access_key =format(\"%s\",var.storage_access)<br>    }<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Para usar los outputs que hemos cargado deberemos usarla de la siguiente forma <b>data.terraform_remote_state.{clave}.outputs.{valor output}</b> en nuestro caso la usaremos en el aks así"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>  identity {<br>    type = \"UserAssigned\"<br>    user_assigned_identity_id = data.terraform_remote_state.uaistate.outputs.uai_id    <br>  }</code></pre>"
-				},
-				{
-					"type": "t",
-					"text": "3# Desplegar ingress en AKS desde terraform"
-				},
-				{
-					"type": "p",
-					"text": "Deberemos utilizar el helm provider de la siguiente manera:"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>provider \"helm\" {<br>  kubernetes {<br>    host = azurerm_kubernetes_cluster.aks.kube_config[0].host<br>    client_certificate = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].client_certificate)<br>    client_key = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].client_key)<br>    cluster_ca_certificate = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].cluster_ca_certificate)<br>      }<br>  debug = true<br>}<br></code></pre>"
-				},
-				{
-					"type": "",
-					"text": "Crearemos un fichero llamado aks-ingress.tf en el que introduciremos lo siguiente"
-				},
-				{
-					"type": "",
-					"text": "<pre><code>resource \"helm_release\" \"ingress\" {<br>  name             = \"ingress\"<br>  repository       = \"https://kubernetes.github.io/ingress-nginx\"<br>  chart            = \"ingress-nginx\"<br>  namespace        = \"ingress\"<br>  version          = \"4.0.13\"<br>  timeout          = 180<br>  create_namespace = true<br>  force_update     = true <br>  values = [file(\"pre/aks-ingress-values.yaml\")]<br>  set {<br>    name  = \"controller.service.loadBalancerIP\"<br>    value = var.aks_private_ip<br>  }<br>  set {<br>    name  = \"controller.replicaCount\" <br>    value = \"2\"  }<br>  set {<br>    name  = \"controller.kind\"<br>    value = \"DaemonSet\"<br>  }<br>  set {<br>    name  = \"controller.daemonset.useHostPort\"<br>    value = \"false\"<br>  }<br>  set {<br>        name  = \"controller.nodeSelector\\kubernetes.io/os\"<br>    value = \"linux\"<br>  }<br>  set {<br>        name  = \"defaultBackend.nodeSelector\\kubernetes.io/os\"<br>    value = \"linux\"<br>  }<br>  depends_on = [<br>    azurerm_kubernetes_cluster.aks<br>  ]<br>}</code></pre>"
-				},
-				{
-					"type": "",
-					"text": "En este <a href=\"https://github.com/TxeBals/aks-private-ip-ingress-and-certsf-with-terraform\" target=\"_blank\">repo</a> tenéis los módulos terraform para realizar el despliegue del AKS con el ingress, certificado propio y ip privada, <b><i>todas las variables se han de setear para su despliegue</i></b>"
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				},
-				{
-					"type": "",
-					"text": ""
-				}
-			],
-			"tags": ["Azure", "AKS", "Https ingress"]
-		},
-        {
-			"id": 10,
-			"date": "24 de Marzo de 2022",
-			"title": "Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table",
-			"description": "Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas",
-			"image": "images/aks-azure.jpg",
-			"url": "test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html",
-			"folder": "AKS",
-			"content": [{
-					"type": "t",
-					"text": "#1.Esquema ejemplo de Infrastructura AKS en Azure"
-				},
-                {
-					"type": "",
-					"text": "<img src=\"images/escenario_aks.png\" alt=\"\" class=\"img-fluid\">"
-				},
-                {
-					"type": "t",
-					"text": "#2.Esquema ejemplo de Infrastructura de aplicación de testo del AKS en Azure"
-				},
-                {
-					"type": "",
-					"text": "<img src=\"images/webapp_test_escenario.png\" alt=\"\" class=\"img-fluid\">"
-				},
-                {
-					"type": "t",
-					"text": "#3.Pasos a realizar para testear las reglas de firewall de un cluster de AKS en Azure"
-				},
-				{
-					"type": "p",
-					"text": "Descargar aplicación de test desarrollada en netcore 3.1, para ello debes descargar la aplicación que encontrarás en este repositorio: <a href=\"https://github.com/TxeBals/CheckAKSFirewallRoules\" target=\"_blank\">repo</a>"
-				},
-				{
-					"type": "",
-					"text": "Desplegar la aplicación en una web app de Azure, asignar la subnet que tiene asignada la tabla de rutas a la web app, para ello deberemos irnos a la sección de Networking de la web app y en el outbound traffic asignar mediante VNet integration dicha subnet, la y cómo se muestra en la siguiente imagen:"
-				},
-                {
-					"type": "",
-					"text": "<img src=\"images/webapp_asign_vnet.png\" alt=\"\" class=\"img-fluid\">"
-				},
-                {
-					"type": "",
-					"text": "Con la aplicación desplegada ya podemos acceder al dirección generado por la web app y visualizaremos un formulario, en él incluiremos la dirección de la api del AKS y la region en la que se encuentra."
-				},
-                {
-					"type": "",
-					"text": "<img src=\"images/chk_aks_form.png\" alt=\"\" class=\"img-fluid\">"
-				},
-                {
-					"type": "",
-					"text": "Al presionar check connectivity se realizará la petición al controlador que obtendrá la tabla de urls y puertos que deben estar abiertos para que Azure pueda monitorizar el AKS tal y montaráuna tabla con el nombre la descripción el puerto y estado, así como la respuesta de la llamada"
-				},
-                {
-					"type": "",
-					"text": "<img src=\"images/chk_aks_result.png\" alt=\"\" class=\"img-fluid\">"
-				},
-                {
-					"type": "",
-					"text": "Mientras no aparezcan un 502 de Bad Gateway, y aparezca códigos 200, 404 o 400 significa que el puerto está abierto, de lo contrario está cerrado"
-				}                              				
-			],
-			"tags": ["Azure", "AKS", "Testing vnet firewall routes"]
-		}
-	]
+   "posts":[
+      {
+         "id":1,
+         "date":"29 de Febrero de 2020",
+         "title":"Conoce tus documentos",
+         "description":" Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda",
+         "image":"images/bot-framework.png",
+         "url":"boot-framework-azure-cognitive-search.html",
+         "folder":"AI",
+         "content":[
+            {
+               "type":"",
+               "text":"Actualmente existen diferentes sitios web en los que podemos observar \"el poder\" del metadato de un archivo y de su contenido, cómo por ejemplo:<ul><li><a href=\"https://jfk-demo.azurewebsites.net/\">JFK Files </a></li><li><a href=\"https://wolterskluwereap.azurewebsites.net/\">Business Documents Demo - Wolters Kluwer</a></li><li><a href=\"http://webmedsearch.azurewebsites.net/\">Healthcare – Ctakes</a></li></ul>"
+            },
+            {
+               "type":"",
+               "text":"en ellas podemos observar que al buscar una palabra, la encontramos en documentos digitalizados segmentados y tageados, pero ¿nosotros podemos hacer esto?"
+            },
+            {
+               "type":"t",
+               "text":"#1. Antes de Azure Cognitive Search"
+            },
+            {
+               "type":"",
+               "text":"Para poder realizar este sistema de clasificación de documentos y extraer información relevante que se puede pasar por alto en las tareas de gestión debíamos generar una arquitectura similar a esta:"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/pre-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Debíamos soportar diversos servicios (computer visión, app services, azure search) con los consecuentes costes de desarrollo y mantenimiento además de la latencia que se generaba en el proceso de obtención de información de un documento o imagen."
+            },
+            {
+               "type":"t",
+               "text":"#2. Con Azure Cognitive Search"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Con este servicio no necesitamos tener grandes costes de desarrollo y mantenimiento, además de simplificar la arquitectura, pero no sólo eso sino que es un servicio administrado que nos permite escalar recursos facilmente, realizar búsquedas geoespaciales mientras que la inteligencia artificial integrada extraemos frases claves. Pero si es un chollo!"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/generate-cognitive-search.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Parecía un chollo pero al ver el coste de generación observamos que el almacenamiento es por partición, ¿qué significa eso? que podemos escalar hasta 12 réplicas y 12 particiones, en total 144 unidades de búsqueda disponibles, en función del tipo del plan de tarifa tendrás que jugar con las réplicas y las particiones ya que en los servicios \"Estándard\" sólo te permiten un máximo de 36 unidades de búsqueda."
+            },
+            {
+               "type":"",
+               "text":"Una vez generado el servicio de Azure Cognitive Services, deberemos realizar la importación de datos, este pude ser subiendo archivos de forma manual o desde de una <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/AddUpdate-or-Delete-Documents\">api</a> para generar un indice que se puede exportar a un blob storage, azure sql database o cosmosdb"
+            },
+            {
+               "type":"",
+               "text":"Cuando tenemos nuestros indice generado podemos realizar consultas utilizando el explorador de búsqueda incluido en el servicio, además sporta solicitudes api rest para ello deberás mirar el <a href=\"https://docs.microsoft.com/es-es/azure/search/query-lucene-syntax\">analizador de consultas completo de Lucene </a> además de los parámetros disponibles en la <a href=\"https://docs.microsoft.com/es-es/rest/api/searchservice/search-documents#bkmk_examples\">búsqueda de documentos</a>"
+            }
+         ],
+         "tags":[
+            "Vue",
+            "React",
+            "Azure",
+            "Static Apps",
+            "App Service"
+         ]
+      },
+      {
+         "id":2,
+         "date":"5 de Septiembre de 2020",
+         "title":"Testeando Azure computer vision",
+         "description":"Cómo conectar al servicio cognitivo de azure, algo de código de ejemplo",
+         "image":"images/cognitive-services.png",
+         "url":"azure-cognitive-services-api.html",
+         "folder":"AI",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1. Computer Vision"
+            },
+            {
+               "type":"",
+               "text":"Lo primero que tenemos que hacer es crear un servicio de computer vision"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/crear-custom-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Una vez generado el servicio custom vision y queremos realizar la integración de este en nuestra aplicación debemos agregar el paquete <a href=\"https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.Vision.ComputerVision/6.0.0\">Nuget Microsoft.Azure.CognitiveServices.Vision.ComputerVision</a> con el podremos generar la autenticación del cliente, analizar una imagen o un texto"
+            },
+            {
+               "type":"",
+               "text":"En nuestro caso he decido crear una clase base que mediante unos métodos nos genere el cliente y obtenga las claves de configuración del servicio que obtenemos del servicio, tal y cómo se muestra en la seguiente imagen"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/key-endpoint-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Debemos generar un ComputerVisionClient al que se le pasaran los ServiceClientCredentials que llamaremos Creteclient(), un ServiceClientCredentials que recibirá como parámetro la clave que queremos usar y el endpoint al que nos vamos a conectar, en este caso las claves y los endpoints estarán en una clase de configuración llamada Keys"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/base-class-custom-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Extenderemos esta clase con las acciones que queremos realizar de forma individual, por ejemplo, por un lado realizaremos el análisis de imagen y por otro el reconocimiento de texto, empezamos por el reconocimiento de imagen. Para ello deberemos extender de nuestra clase e implementar la interfaz \"IComputerVisionImage\" que tiene el método AnalyzeImage sobrecargado uno para un Stream y otro para un string, para personalizar más la solicitud de características de la imagen realizaremos unos métodos adicionales que nos permitirán extrer sólo la información deseada de la imagen (categorías, descripción, caras, tipo de imagen, tags)."
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/features-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Una vez generados estos métodos de características de imagenes generamos la implementación de la interfaz IComputerVisionImage, dónde generaremos el cliente, y llamaremos al método correspondiente en funcón del tipo de imagen recibida (stream o string)"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/call-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Para el reconocimiento de texto realizaremos la misma opción, extenderemos de la clase base e implementaremos el interfaz IComputerVision"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/text-recognize-computer-vision-1.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/text-recognize-computer-vision-2.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"El problema en el reconocimiento de texto, es que a veces, tarda más de la cuenta y entonces hemos de guardar el identificador de proceso llamado <b>operationId</b> para poder consultar si el proceso ha terminado y recuperar la información extraida"
+            },
+            {
+               "type":"",
+               "text":"Una vez generadas estas clases, sólo hemos de generar un manager que nos instancie las clases y poder realizar la llamda directamente pasando el stream, o la url"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/manager-computer-vision.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"realizando la llamada return await new AzureManagement().ImageRecgnizeService.AnalyzeImage o return await new AzureManagement().TextRecognizeService"
+            }
+         ],
+         "tags":[
+            "Vue",
+            "React",
+            "Azure",
+            "Static Apps",
+            "App Service"
+         ]
+      },
+      {
+         "id":3,
+         "date":"9 de Octubre de 2020",
+         "title":"Publicar una app de Vue / React en Azure",
+         "description":"Que opciones tenemos para publicar una app de Vue / React en Azure podemos usar un appservice o una web estática",
+         "image":"images/static-apps.png",
+         "url":"vue-or-react-azure-static-app.html",
+         "folder":"Azure",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1. Crear app services"
+            },
+            {
+               "type":"p",
+               "text":"Actualmente para desplegar una aplicación Vue o React tenemos diferentes opciones en Azure, pero ¿cuál es la mejor? depende de tus necesidades, yo sin duda me quedo con el servicio que actualmente encontramos en preview pero vamos al detalle"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/vue-react-app-appservice-linux.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Podemos generar un app services en linux estableciendo la pila de ejecución del entorno a node, también podemos generar este appservice en windows pero para ello deberemos seguir las instrucciones de <a href=\"https://www.returngis.net/2019/03/desplegar-una-web-app-con-react-js-a-traves-de-azure-devops-en-app-service/\">Gisela Torres</a> en la que deberemos incluir un web.config similar al que se muestra a continuación: "
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/react-web-config.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#2. Crear apliación estática"
+            },
+            {
+               "type":"",
+               "text":"Yo prefiero esta opción ya que existe la posibilidad que un app service de linux no se aprovisione correctamente, y el coste de un app service puede ser elevado, cuando lo único que necesitamos es renderizar unas pocas páginas, este servicio es totalmente gratuito y se encuentra en preview"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/vue-react-app-static-pages.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Para ello generaremos una aplcación estatica que conectaremos con nuestro repositorio de github tal y cómo muestra la imagen anterior, en la opción de compilación selecionaremos el motor en el que se basa nuestra aplicación, que permite los siguientes:<ul><li>Angular</li><li>React</li><li>Vue.js</li><li>Blazor</li><li>Gatsby</li><li>Hugo</li><li>VuePress</li><li>Custom</li></ul>"
+            },
+            {
+               "type":"",
+               "text":"Una vez generado, tarda unos minutos en ser visible, pero ya tenemos nuestra app vue / react funcionando con normalidad, si necesitamos que esté en un appservice una solución alternativa sería generar una applicación mvc en netcore y configurar el SPA de la siguiente forma: "
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/mvc-static-app-configuration.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"de esta forma aprovisionamos mediante appservice"
+            }
+         ],
+         "tags":[
+            "Vue",
+            "React",
+            "Azure",
+            "Static Apps",
+            "App Service"
+         ]
+      },
+      {
+         "id":4,
+         "date":"03 de Noviembre de 2020",
+         "title":"Crear tarjetas customizadas en Bot Framework Composer",
+         "description":"Utilizando https://adaptivecards.io/designer/ podemos generar tarjetas customizadas y aplicar este diseño en bot framework composer",
+         "image":"images/composer.png",
+         "url":"bot-framework-composer-adaptive-cards.html",
+         "folder":"bot framework",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1. Crear un nuevo diálogo"
+            },
+            {
+               "type":"p",
+               "text":"Para ello dentro de Bot Framework Composer hemos de realizar la acción ADD / Add new dialog"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/add-new-dialog-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Una vez tenemos el diálogo debemos establecer el nombre y la descripción, es este caso lo vamos a llamar customcard  "
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/define-conversation-objective-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#2. Generar la respuesta"
+            },
+            {
+               "type":"",
+               "text":"Una vez hemos creado el diálogo agregaremos una respuesta presionando el botón <b>+</b> que encontramos en la siguiente imagen, agregando una respuesta e introduciremos un texto cualquiera en la respuesta"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/add-response-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Ya tenemos un componente que podemos agregar a nuestro diálogo principal, pero aún no es una tarjeta customizada, deberemos ir a la sección de bot responses y ahí seleccionar nuestro diálogo llamado customcard, en ella veremos lo siguiente:"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/bot-responses-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Ahora el siguiente paso es ir a adaptivecards y generar la tarjeta que queramos mostrar en nuestro bot, una vez la tengamos en el cad payload editor tendremos el json que debermos agregar en la respuesta.<br> Si agregamos este json directamente nos dará un error para solventarlo deberemos hacer que la respuesta interprete el json cómo un string y no cómo un objeto"
+            },
+            {
+               "type":"",
+               "text":"deberemos seleccionar la respuesta y activar el botón edit mode, este nos mostrará un texto parecido a este <pre><code>[import](common.lg)<br># SendActivity_ViTR8q()<br>- Respuesta</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"dónde # SendActivity_ViTR8q hace referencia al método de respuesta que ejecutará nuestra actividad, ahora crearemos una respuesta de la siguiente forma:"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>#customcardjson<br>-``` { json custom card / cad payload editor } ```</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"fijaros que la respuesta empieza con <b>-``` y finaliza con ```</b> esto es muy importante ya que de esta forma le estamos indicando que ese json lo trate cómo string"
+            },
+            {
+               "type":"",
+               "text":"después generaremos una nueva sección que incluya el parseo del json que tenemos en el string de esta forma podremos redenderizar la tarjeta"
+            },
+            {
+               "type":"",
+               "text":"<pre><code># CustomCard<br>[Activity<br><tab>    Attachments = ${json(customcardjson())}<br>]</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"y por último en el método que hemos mencionado al principio cambiaremos <b>-Respuesta</b> por <b>$-{CustomCard()}</b>"
+            },
+            {
+               "type":"",
+               "text":"es muy importante que veas al inicio del editor esto: <b>[import](common.lg)</b> si no lo ves ponlo ya que sino no podrá procesar el json y generar la tarjeta personalizada."
+            },
+            {
+               "type":"",
+               "text":"quedando todo el código de esta forma:<br>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>[import](common.lg)<br># SendActivity_ViTR8q()<br>- ${CustomCard()}<br># CustomCard<br>[Activity<br>  Attachments = ${json(customcardjson())}<br>]<br>#customcardjson<br>-``` <br>{ <br> \"$schema\": \"http://adaptivecards.io/schemas/adaptive-card.json\", <br> \"type\": \"AdaptiveCard\", <br> \"version\": \"1.0\", <br> \"body\": [ <br> { <br> \"type\": \"Image\", <br> \"url\": \"https://secure.meetupstatic.com/photos/event/9/5/0/f/highres_468758159.jpeg\", <br> \"size\": \"stretch\" <br> }, <br> { <br> \"type\": \"TextBlock\", <br> \"spacing\": \"medium\", <br> \"size\": \"default\", <br> \"weight\": \"bolder\", <br> \"text\": \"Bienvenido al assitente virtual de Catzure!\", <br> \"wrap\": true, <br> \"maxLines\": 0 <br> }, <br> { <br> \"type\": \"TextBlock\", <br> \"size\": \"default\", <br> \"isSubtle\": true, <br> \"text\": \"A continuación tienes disponible información sobre nosotros\", <br> \"wrap\": true, <br> \"maxLines\": 0 <br> } <br> ], <br> \"actions\": [ <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"NetCoreConf - Un pedazo de evento\", <br> \"url\": \"https://netcoreconf.com/\" <br> }, <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"Agenda eventos\", <br> \"url\": \"https://www.meetup.com/es-ES/CATzure/\" <br> }, <br> { <br> \"type\": \"Action.OpenUrl\", <br> \"title\": \"Siguenos en twitter y subscribete en nuestro canal de Youtube\", <br> \"url\": \"https://www.youtube.com/channel/UCjH-d3eG2yFcVpx8i-K2Zkw/featured\" <br> } <br> ] <br>}```</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Si lo hemos realizado correctamente y salimos del modo editor de respuesta de bot responses veremos que en customcard tendremos tres respuestas que son los segmentos que hemos creado en los pasos anteriores:<br>"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/final-responses-bot-framework.png\" alt=\"\" class=\"img-fluid\">"
+            }
+         ],
+         "tags":[
+            "custom cards",
+            "adaptive cards",
+            "Bot Framework",
+            "Azure bot"
+         ]
+      },
+      {
+         "id":5,
+         "date":"11 de Marzo de 2021",
+         "title":"C# y Form Recognizer",
+         "description":"Integración rápida con C# y Form Recognizer",
+         "image":"images/form_recognizer_logo.png",
+         "url":"c-sharp-and-form-recognizer.html",
+         "folder":"AI",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1. From Recognizer"
+            },
+            {
+               "type":"p",
+               "text":"Para ello en el portal de azure dentro de un grupo de recurso, presionamos agregar y buscamos form recognizer, nos aparecerá lo siguiente "
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/create-form-recognizer.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Una vez hemos lo hemos creado nos generará un endpoint y unas claves para su uso "
+            },
+            {
+               "type":"t",
+               "text":"#2. Código de integración"
+            },
+            {
+               "type":"",
+               "text":"Deberemos instalar el nuget Azure.AI.FormRecognizer e integarlo en nuestro código realizando los siguientes using"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>using Azure;<br>using Azure.AI.FormRecognizer;<br>using Azure.AI.FormRecognizer.Models;<br>using Azure.AI.FormRecognizer.Training;</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Deberemos generar un cliente de conexión para poder analizar los documentos y un cliente para entrenar los modelos, para ello utilzaremos el siguiente código"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>private static FormRecognizerClient AutenticarCliente()<br>{<br>   return new FormRecognizerClient(endpoint: new Uri(endPoint), credential: new AzureKeyCredential(apiKey));<br>}<br></code></pre>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>private static FormTrainingClient AutenticarClienteEntrenador()<br>{<br>   return new FormTrainingClient(endpoint: new Uri(endPoint), credential:  new AzureKeyCredential(apiKey));<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Si queremos realizar un modelo de etiquetas debermos utilizar la herramienta: <a href=\"javascript:window.open('https://fott.azurewebsites.net/')\">https://fott.azurewebsites.net/</a> en la <a href=\"javascript:window.open('https://www.youtube.com/watch?v=Tov4GoNs1s8&list=PLbNXjE8OQW5x-J99ApH6Vp3j5FLudKWTh&index=3&ab_channel=Catzure');\">charla</a> se explica cómo utilizar la herramienta de etiquetado de documentos y cómo funciona estos fragmentos de código."
+            },
+            {
+               "type":"",
+               "text":"Para entrenar un modelo utilizaremos la url del contendor de nuestra cuenta de almacenamiento cómo servicio SAS y el siguiente fragmento de código: <pre><code>private static async Task<string> EntrenarModelo(FormTrainingClient clienteEntrenador, string urlSasContenedor, bool etiquetas = false)<br>{<br>   CustomFormModel customFormModel = await clienteEntrenador.StartTrainingAsync(new Uri(urlSasContenedor), etiquetas).WaitForCompletionAsync();<br>   if (customFormModel.Errors.Count>0)<br>   {<br>      foreach (var err in customFormModel.Errors) <br>      {<br>           Console.WriteLine(\"  Error: \" + err.ErrorCode + \" - \" + err.Message);<br>      }<br>   }<br>   return customFormModel.ModelId;<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para analizar el documento utilizaremos este código: <pre><code>private static async Task AnalizarDocumento(FormRecognizerClient cliente, string modelo, string urlFichero)<br>        {<br>            RecognizedFormCollection forms = await cliente.StartRecognizeCustomFormsFromUri(modelo, new Uri(urlFichero)).WaitForCompletionAsync();<br><br>            foreach (RecognizedForm form in forms)<br>            {<br>                Console.WriteLine($\"Tipo de documento: {form.FormType}\");<br>                foreach (FormField field in form.Fields.Values)<br>                {<br>                    Console.WriteLine($\"campo '{field.Name}: \");<br><br>                    if (field.LabelData != null)<br>                    {<br>                        Console.WriteLine($\"    etiqueta: '{field.LabelData.Text}\");<br>                    }<br><br>                    Console.WriteLine($\"    Valor: '{field.ValueData.Text}\");<br>                    Console.WriteLine($\"    Confidence: '{field.Confidence}\");<br>                }<br>                Console.WriteLine(\"Tabla:\");<br>                foreach (FormPage page in form.Pages)<br>                {<br>                    for (int i = 0; i < page.Tables.Count; i++)<br>                    {<br>                        FormTable table = page.Tables[i];<br>                        Console.WriteLine($\"Tablas {i} tiene {table.RowCount} filas y {table.ColumnCount} columnas.\");<br>                        foreach (FormTableCell cell in table.Cells)<br>                        {<br>                            Console.WriteLine($\"    Celda ({cell.RowIndex}, {cell.ColumnIndex}) contiene {(cell.IsHeader ? \"cabecera\" : \"texto\")}: '{cell.Text}'\");<br>                        }<br>                    }<br>                }<br>            }<br>        }</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para consultar los modelos generados mediante el cliente entrenador de modelos: <pre><code>private static async Task ConsultarModelos(FormTrainingClient cliente)<br>        {<br>            AccountProperties accountProperties = cliente.GetAccountProperties();<br><br>            Console.WriteLine($\"La cuenta tiene {accountProperties.CustomModelCount} modelos.\");<br>            Console.WriteLine($\"Límite de modelos en la cuenta {accountProperties.CustomModelLimit} modelos.\");<br><br>            Pageable<CustomFormModelInfo> models = cliente.GetCustomModels();<br><br>            foreach (CustomFormModelInfo modelInfo in models)<br>            {<br>                Console.WriteLine($\"Información del modelo:\");<br>                Console.WriteLine($\"    Id Modelo: {modelInfo.ModelId}\");<br>                Console.WriteLine($\"    Estado: {modelInfo.Status}\");<br>                Console.WriteLine($\"    Iniciado: {modelInfo.TrainingStartedOn}\");<br>                Console.WriteLine($\"    Finalizado: {modelInfo.TrainingCompletedOn}\");<br>            }<br><br><br>        }</code></pre>"
+            },
+            {
+               "type":"",
+               "text":""
+            }
+         ],
+         "tags":[
+            "azure",
+            "form recognizer",
+            "c#"
+         ]
+      },
+      {
+         "id":6,
+         "date":"20 de Abril de 2021",
+         "title":"Recuperación de una máquina migrada",
+         "description":"Cuando se migra una máquina con Azure Migrate, puede ser que contenga problemas, para poder solventarlo deberemos seguir estos pasos",
+         "image":"images/microsoft-azure-migration.png",
+         "url":"azure-virtual-machine-recuescue-os-disk.html",
+         "folder":"VM",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Crear una maquina virtual Dv3 o Ev3"
+            },
+            {
+               "type":"p",
+               "text":"Para ello en el portal de azure dentro de un grupo de recurso, presionamos agregar y buscamos máquina virtual, con Windows Server 2016 Datacenter - Gen2"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/create-azure-virtual-machine.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Ya tenemos nuestra máquina virtual de rescate, ahora instalamos Hyper-V agregando roles y características, es muy importante que sea Dv3 o Ev3 porque sino no podremos instalar Hyper-V. Una vez ya hemos instalado Hyper-V empezamos a preparar el entorno para realizar la recuperación del disco"
+            },
+            {
+               "type":"",
+               "text":"Creamos una máquina en Hyper-V de Generacion 1, asignamos la memoria y en la parte de disco, le decimos que agregaremos el disco más tarde, y finalizamos"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-hyper-v-attach-disk-later.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#2. Crear instantánea (snapshot) del disco"
+            },
+            {
+               "type":"",
+               "text":"Creamos una instantánea de nuestro disco y una vez creado creamos el disco desde la instantánea"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-disk-snapshot.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-disk-from-snapshot.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#3. Agregar disco a la máquina de rescate y a la máquina de Hyper-V"
+            },
+            {
+               "type":"",
+               "text":"Desde la gestión de discos de la máquina de rescate agregamos el nuevo disco que hemos creado desde la instantánea"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-asign-disk.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Una vez asignado, nos vamos a nuestra máquina virtual, en la parte de Hyper-V, en configuración de la máquina asignamos el disco al IDE-0 indicando que es un disco físico, si no nos aparece el disco deberemos ir al gestor de discos del equipo y poner el disco en desconectado"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/ azure-vm-set-disk-offline.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-set-disk-to-hyper-v-vm.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Y ya podemos iniciar nuestra máquina de Hyper-V para realizar las correcciones necesarias, una vez finalizadas las correcciones y logramos recuperar la máquina, desasociamos el disco a la máquina de rescate y realizamos el reemplazo del disco del sistema operativo de la máquina que tenía los errores"
+            },
+            {
+               "type":"t",
+               "text":"#4. Cambiar disco del sistema operativo por el nuevo"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-swap-os-disk.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/azure-vm-swap-os-disk-done.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Y ya podemos iniciar nuestra máquina recuperada!!!"
+            },
+            {
+               "type":"",
+               "text":""
+            }
+         ],
+         "tags":[
+            "azure",
+            "virtual machines",
+            "recovery disk"
+         ]
+      },
+      {
+         "id":7,
+         "date":"7 de Octubre de 2021",
+         "title":"Del dibujo al código",
+         "description":"Cómo entrenar un modelo personalizado para la generación automática de código",
+         "image":"images/custom-vision.jpg",
+         "url":"del-dibujo-al-codigo.html",
+         "folder":"AI",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Acceder al canal de Youtube de Catzure y busca la charla del dibujo al código"
+            },
+            {
+               "type":"p",
+               "text":"Para ir directamente al video haz click <a href=\"https://www.youtube.com/watch?v=_CuJtRValG0&ab_channel=Catzure\">aquí</a>"
+            },
+            {
+               "type":"",
+               "text":"Sería un detallazo que te subscibieses y le dieses like, por aquello de fomentar el canal de conocimiento tecnológico."
+            },
+            {
+               "type":"",
+               "text":"En el vídeo te explica como hacer el entreno del modelo y toda la información necesaria para su creación pero si quieres trastear <a href=\"https://github.com/TxeBals/deldibujoalcodigo\">aquí</a> tienes el repositorio dónde descargar el código y jugar"
+            },
+            {
+               "type":"",
+               "text":"A trastear!!"
+            },
+            {
+               "type":"",
+               "text":""
+            }
+         ],
+         "tags":[
+            "azure",
+            "AI",
+            "Custom Vision"
+         ]
+      },
+      {
+         "id":8,
+         "date":"8 de Octubre de 2021",
+         "title":"AKS Ingress con https",
+         "description":"Cómo generar un ingress con letsencrypt",
+         "image":"images/aks-azure.jpg",
+         "url":"aks-ingress-https.html",
+         "folder":"AKS",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Crear un Ingress Controller si no tenemos uno"
+            },
+            {
+               "type":"p",
+               "text":"Para ello deberemos seguir los siguientes pasos:<ul><li>Crear un namespace</li><li>Agregar el ingress-nginx a nuestro repositorio</li><li>Instalar el nginx en nuestro namespace</li></ul>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>alias k=kubectl</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>k create namespace ingress-basic</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm repo update</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm install nginx-ingress ingress-nginx/ingress-nginx --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector.\"kubernetes\\.io/os\"=linux --set defaultBackend.nodeSelector.\"kubernetes\\.io/os\"=linux --set controller.service.loadBalancerIP=$IPPUBLICA$</pre></code>"
+            },
+            {
+               "type":"t",
+               "text":"#2.Instalar el cert-manager"
+            },
+            {
+               "type":"p",
+               "text":"Para ello deberemos seguir los siguientes pasos:<ul><li>Labelar el namespace</li><li>Agregar el cert-manager a nuestro repositorio</li><li>Instalar el cert-manager en nuestro namespace</li></ul>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>k label namespace ingress-basic cert-manager.io/disable-validation=true</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm repo add jetstack https://charts.jetstack.io</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm repo update</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>helm install cert-manager jetstack1/cert-manager   --namespace ingress-basic  --set nodeSelector.\"kubernetes\\.io/os\"=linux   --set installCRDs=true</pre></code>"
+            },
+            {
+               "type":"t",
+               "text":"#3.Issuer o ClusterIssuer"
+            },
+            {
+               "type":"p",
+               "text":"Si queremos establecer una única configuración para todo el cluster de AKS necesitaremos configurar un ClusterIssuer mientras que si queremos que sólo se aplique a un namespace deberemos configurar un Issuer"
+            },
+            {
+               "type":"p",
+               "text":"En este caso nos vamos a centrar en el ClusterIssuer, una vez instalado el cert-manager deberemos generar un yaml como el siguiente:"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>apiVersion: cert-manager.io/v1</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>kind: ClusterIssuer</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>metadata:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    name: letsencrypt-staging</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>spec:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    acme:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>        server:https://acme-staging-v02.api.letsencrypt.org/directory</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>        email:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>        privateKeySecretRef:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>            name: letsencrypt-staging</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    solvers:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    - http01:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>        ingress:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>            class: nginx</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>                podTemplate:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>                    spec:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>                        nodeSelector:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>                            \"kubernetes.io/os\": Linux</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"Una vez tenemos nuestro yaml lo aplicamos a nuestro namespace"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>k apply -f letsencrypt-staging  --namespace ingress-basic</pre></code>"
+            },
+            {
+               "type":"p",
+               "text":"En nuestro yaml del ingress deberemos realizar las siguientes modificaciones para activar el https con letsencrypt"
+            },
+            {
+               "type":"p",
+               "text":"En la sección metadata annotations"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>cert-manager.io/cluster-issuer: letsencrypt-staging</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>kubernetes.io/ingress.class: nginx</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>nginx.ingress.kubernetes.io/rewrite-target: /$1</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>nginx.ingress.kubernetes.io/use-regex: \"true\"</pre></code>"
+            },
+            {
+               "type":"p",
+               "text":"En la sección spec justo antes de rules, para activar el tls deberemos agregar lo siguiente"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>tls:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code> - hosts:</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    - midominio de aks.region.cloudapp.azure.com</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>    secretName: nombre</pre></code>"
+            },
+            {
+               "type":"p",
+               "text":"Si la configuración va por path se deberá agregar al final del path la regex siguiente"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>(/|$)(.*)</pre></code>"
+            },
+            {
+               "type":"",
+               "text":""
+            }
+         ],
+         "tags":[
+            "azure",
+            "AKS",
+            "Https Ingress"
+         ]
+      },
+      {
+         "id":9,
+         "date":"8 de Febrero de 2022",
+         "title":"Terraform + AKS + UAI + Ingress Controller",
+         "description":"Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet",
+         "image":"images/aks-azure.jpg",
+         "url":"desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html",
+         "folder":"AKS",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Familiarizarnos con los comandos de inicialización y multientorno de Terraform"
+            },
+            {
+               "type":"p",
+               "text":"El primer comando que usaremos será terraform init, pero si queremos guardar el tfstate del Terraform en un storage account y este que dependa del entorno lo podemos realizar de dos maneras: <ul><li> Utilizando locals</li><li> Utilizando directorios</li></ul> en este artículo nos vamos a centrar en la parte de directorios ya que bajo mi punto de vista es la mejor opción"
+            },
+            {
+               "type":"",
+               "text":"Pero antes de ir al punto en el que creamos directorios por entorno os voy a explicar la primera opción usando locals en un fichero de variables, por ejemplo tenemos unas variables que dependen del entorno y otras que son fijas para nuestro despliegue del AKS, en el siguiente ejemplo veréis su uso"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>locals { <br>  env = merge(<br>        yamldecode(file(\"env/variables-${var.environment}.yaml\"))<br>     )<br> }<br>variable \"location\" {<br>      description = \"localización del grupo de recursos\"<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"En el fichero de yaml tendremos el nombre de la variable y el valor de la siguiente forma: <pre><code>location: northeurope</pre></code>"
+            },
+            {
+               "type":"",
+               "text":"En la parte de directorios crearemos la estructura que nos vaya bien, en mi caso he creado una carpeta aks y dentro los subdirectorios por entorno, en cada uno de los entornos crearemos un fichero llamado backend.hcl. En el deberemos establecer el resource group name, el storage account, el container name y la key con la que queramos guardar el tfstate, en el siguiente ejemplo verás el contenido del fichero"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>resource_group_name  = \"nuestro grupo de recursos\" <br>storage_account_name = \"nuestro storage account\" <br>container_name       = \"el container donde almacenaremos\"<br> key                  = \"la clave, en mi caso le he puesto terraform.aks.tfstate por ejemplo\"</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para que esta configuración tenga efecto deberemos configurar el provider de terraform indicando que el backend es azure de la siguiente forma"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>terraform {<br>  required_version = \"~> 1.1.2\"<br>  backend \"azurerm\" {}<br></code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para inicializar el terraform con el backend en función del entorno deberemos poner el comando terraform init -backend-config=\"ruta\backend.hcl\" en mi caso es de la siguiente manera"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>terraform init -backend-config=\"pre/backend.hcl\"</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para aplicar la variables por entorno utilizaremos la ruta del entorno y un fichero con el nombre.tfvars en él definiremos las variables que son específicas por entorno pero están declaradas en nuestro variables.tf, por ejemplo para la identidad administrada usaremos una variable llamada aksuai_name en el fichero de variables lo definiremos de la siguiente forma:"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>variable \"aksuai_name\"{<br>  description = \"(Required) Name of user asssigned identity\"<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Y en nuestro fichero de pre.tfvars o el nombre que queráis por entorno estableceremos el valor así"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>aksuai_name                                     =\"usraksadminidentity\"</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para aplicar los cambios al terraform en función del entorno o destruir este deberemos usar el comando terraform apply / destroy -var-file=\"ruta fichero tfvars\""
+            },
+            {
+               "type":"",
+               "text":"<pre><code>terraform apply -var-file=\"./pre/pre.tfvars\" -auto-approve  </code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Con esto ya sabemos aplicar variables en función del entorno"
+            },
+            {
+               "type":"t",
+               "text":"#2 Definir outputs y recuperar el output del storage account"
+            },
+            {
+               "type":"p",
+               "text":"Los outputs se utilizan para recuperar información que deberemos utilizar en otros elementos de la infrastructura por ejemplo, al crear una vnet con subnets y una de estas subnets las queremos asignar al AKS debemos tener el id de la subnet, lo mismo ocurre con la identidad administrada"
+            },
+            {
+               "type":"",
+               "text":"En el siguiente terraform veremos la definición de una identidad administrada"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>resource \"azurerm_user_assigned_identity\" \"aksuai\" {<br>  resource_group_name = var.resource_group_name <br>  location            = var.location<br> name = var.aksuai_name<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Generaremos un fichero llamado outputs.tf en el cual definiremos los datos que queremos recuperar de nuestra identidad administrada. En este caso queremos recuperar la id y el principal id de la identidad"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>output \"uai_id\" {<br>  description = \"The ID of user assigned identity\" <br>  value       = azurerm_user_assigned_identity.aksuai.id<br>}<br><br>output \"uai_principal_id\" {<br>  description = \"The ID of user assigned identity\"<br>  value       = azurerm_user_assigned_identity.aksuai.principal_id<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para recuperar esta información del tfstate y aplicarla al aks deberemos de definir en el main lo siguiente"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>data \"terraform_remote_state\" \"uaistate\"{<br>    backend =\"azurerm\" <br>    config = {<br>    resource_group_name = format(\"%s\",var.storage_resource_group)<br>       storage_account_name = format(\"%s\",var.storage_account_name)<br>        container_name = format(\"%s\",var.container_name)<br>        key = \"clave donde se almacena el tfstate en mi caso terraform.userassigned.tfstate\"<br>        access_key =format(\"%s\",var.storage_access)<br>    }<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Para usar los outputs que hemos cargado deberemos usarla de la siguiente forma <b>data.terraform_remote_state.{clave}.outputs.{valor output}</b> en nuestro caso la usaremos en el aks así"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>  identity {<br>    type = \"UserAssigned\"<br>    user_assigned_identity_id = data.terraform_remote_state.uaistate.outputs.uai_id    <br>  }</code></pre>"
+            },
+            {
+               "type":"t",
+               "text":"3# Desplegar ingress en AKS desde terraform"
+            },
+            {
+               "type":"p",
+               "text":"Deberemos utilizar el helm provider de la siguiente manera:"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>provider \"helm\" {<br>  kubernetes {<br>    host = azurerm_kubernetes_cluster.aks.kube_config[0].host<br>    client_certificate = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].client_certificate)<br>    client_key = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].client_key)<br>    cluster_ca_certificate = base64decode(azurerm_kubernetes_cluster.aks.kube_config[0].cluster_ca_certificate)<br>      }<br>  debug = true<br>}<br></code></pre>"
+            },
+            {
+               "type":"",
+               "text":"Crearemos un fichero llamado aks-ingress.tf en el que introduciremos lo siguiente"
+            },
+            {
+               "type":"",
+               "text":"<pre><code>resource \"helm_release\" \"ingress\" {<br>  name             = \"ingress\"<br>  repository       = \"https://kubernetes.github.io/ingress-nginx\"<br>  chart            = \"ingress-nginx\"<br>  namespace        = \"ingress\"<br>  version          = \"4.0.13\"<br>  timeout          = 180<br>  create_namespace = true<br>  force_update     = true <br>  values = [file(\"pre/aks-ingress-values.yaml\")]<br>  set {<br>    name  = \"controller.service.loadBalancerIP\"<br>    value = var.aks_private_ip<br>  }<br>  set {<br>    name  = \"controller.replicaCount\" <br>    value = \"2\"  }<br>  set {<br>    name  = \"controller.kind\"<br>    value = \"DaemonSet\"<br>  }<br>  set {<br>    name  = \"controller.daemonset.useHostPort\"<br>    value = \"false\"<br>  }<br>  set {<br>        name  = \"controller.nodeSelector\\kubernetes.io/os\"<br>    value = \"linux\"<br>  }<br>  set {<br>        name  = \"defaultBackend.nodeSelector\\kubernetes.io/os\"<br>    value = \"linux\"<br>  }<br>  depends_on = [<br>    azurerm_kubernetes_cluster.aks<br>  ]<br>}</code></pre>"
+            },
+            {
+               "type":"",
+               "text":"En este <a href=\"https://github.com/TxeBals/aks-private-ip-ingress-and-certsf-with-terraform\" target=\"_blank\">repo</a> tenéis los módulos terraform para realizar el despliegue del AKS con el ingress, certificado propio y ip privada, <b><i>todas las variables se han de setear para su despliegue</i></b>"
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            },
+            {
+               "type":"",
+               "text":""
+            }
+         ],
+         "tags":[
+            "Azure",
+            "AKS",
+            "Https ingress"
+         ]
+      },
+      {
+         "id":10,
+         "date":"24 de Marzo de 2022",
+         "title":"Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table",
+         "description":"Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas",
+         "image":"images/aks-azure.jpg",
+         "url":"test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html",
+         "folder":"AKS",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Esquema ejemplo de Infrastructura AKS en Azure"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/escenario_aks.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#2.Esquema ejemplo de Infrastructura de aplicación de testo del AKS en Azure"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/webapp_test_escenario.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"t",
+               "text":"#3.Pasos a realizar para testear las reglas de firewall de un cluster de AKS en Azure"
+            },
+            {
+               "type":"p",
+               "text":"Descargar aplicación de test desarrollada en netcore 3.1, para ello debes descargar la aplicación que encontrarás en este repositorio: <a href=\"https://github.com/TxeBals/CheckAKSFirewallRoules\" target=\"_blank\">repo</a>"
+            },
+            {
+               "type":"",
+               "text":"Desplegar la aplicación en una web app de Azure, asignar la subnet que tiene asignada la tabla de rutas a la web app, para ello deberemos irnos a la sección de Networking de la web app y en el outbound traffic asignar mediante VNet integration dicha subnet, la y cómo se muestra en la siguiente imagen:"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/webapp_asign_vnet.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Con la aplicación desplegada ya podemos acceder al dirección generado por la web app y visualizaremos un formulario, en él incluiremos la dirección de la api del AKS y la region en la que se encuentra."
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/chk_aks_form.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Al presionar check connectivity se realizará la petición al controlador que obtendrá la tabla de urls y puertos que deben estar abiertos para que Azure pueda monitorizar el AKS tal y montaráuna tabla con el nombre la descripción el puerto y estado, así como la respuesta de la llamada"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"images/chk_aks_result.png\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"",
+               "text":"Mientras no aparezcan un 502 de Bad Gateway, y aparezca códigos 200, 404 o 400 significa que el puerto está abierto, de lo contrario está cerrado"
+            }
+         ],
+         "tags":[
+            "Azure",
+            "AKS",
+            "Testing vnet firewall routes"
+         ]
+      },
+      {
+         "id":11,
+         "date":"4 de Mayo de 2022",
+         "title":"Azure Percept y Custom Vision",
+         "description":"Presentación de Azure Percept usando modelos generados en custom vision y el despliegue desantendido en el dispositivo",
+         "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.microsoft.com%2Fes-es%2Fazure%2Fazure-percept%2Foverview-azure-percept-dk&psig=AOvVaw1VqO6qodm96zUnYbQQ5Ms2&ust=1651763888654000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICvrZKSxvcCFQAAAAAdAAAAABAD",
+         "url":"azure-percept-samples.html",
+         "folder":"IOT",
+         "content":[
+            {
+               "type":"t",
+               "text":"#1.Azure Percept IoT Edge con modelos de Inteligencia Artificial"
+            },
+            {
+               "type":"",
+               "text":"<img src=\"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.microsoft.com%2Fes-es%2Fazure%2Fazure-percept%2Foverview-azure-percept-dk&psig=AOvVaw1VqO6qodm96zUnYbQQ5Ms2&ust=1651763888654000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICvrZKSxvcCFQAAAAAdAAAAABAD\" alt=\"\" class=\"img-fluid\">"
+            },
+            {
+               "type":"p",
+               "text":"En este artículo simplemente voy a compartir el contenido que he creado y copiado :D en el siguiente repositorio <a href=\"https://github.com/TxeBals/Azure-Percept\" target=\"_blank\">repo</a> en él encontrarás un Power Point con la charla que doy en la Global Azure, pero además también encontrarás ejemplos de implementación de modelos en dispositivos IoT Edge sacados de Microsoft"
+            },
+            {
+               "type":"",
+               "text":"La lista de los proyectos són los siguientes: <ul><li>Detectar si los usuarios se lavaron las manos durante más de 20 segundos utilizando <a href=\"https://github.com/TxeBals/Azure-Percept/tree/master/hand-hygiene-compliance-with-azure-percept\">Azure Custom Vision y Azure Percept Vision.</a></li><li>Detectar y contar personas en un espacio con <a href=\"https://github.com/TxeBals/Azure-Percept/tree/master/people-counting-with-azure-percept-vision\"> Azure Percept y Power BI</a></li><li>Capturar una imagen al detectar un objeto y procesar la información con OCR <a href=\"https://github.com/TxeBals/Azure-Percept/tree/master/samples/image-capture-with-ocr\"></a></li><li>Un ejemplo de <a href=\"https://github.com/TxeBals/Azure-Percept/tree/master/voice-control-inventory-management\">Azure Percept audio</a></li></ul>"
+            },
+             {
+               "type":"",
+               "text":""
+            },
+         ],
+         "tags":[
+            "Azure",
+            "IOT",
+            "AI",
+			"Custom Vision"
+         ]
+      }
+   ]
 }

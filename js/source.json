@@ -1048,7 +1048,7 @@
          "date":"4 de Mayo de 2022",
          "title":"Azure Percept y Custom Vision",
          "description":"Presentación de Azure Percept usando modelos generados en custom vision y el despliegue desantendido en el dispositivo",
-         "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.microsoft.com%2Fes-es%2Fazure%2Fazure-percept%2Foverview-azure-percept-dk&psig=AOvVaw1VqO6qodm96zUnYbQQ5Ms2&ust=1651763888654000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICvrZKSxvcCFQAAAAAdAAAAABAD",
+         "image":"images/Azure-Percept-platform-1.jpg",
          "url":"azure-percept-samples.html",
          "folder":"IOT",
          "content":[
@@ -1058,7 +1058,7 @@
             },
             {
                "type":"",
-               "text":"<img src=\"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.microsoft.com%2Fes-es%2Fazure%2Fazure-percept%2Foverview-azure-percept-dk&psig=AOvVaw1VqO6qodm96zUnYbQQ5Ms2&ust=1651763888654000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICvrZKSxvcCFQAAAAAdAAAAABAD\" alt=\"\" class=\"img-fluid\">"
+               "text":"<img src=\"images/Azure-Percept-platform-1.jpg\" alt=\"\" class=\"img-fluid\">"
             },
             {
                "type":"p",

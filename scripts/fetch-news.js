@@ -9,35 +9,60 @@ const POSTS_DIR = path.join(__dirname, '..', 'posts');
 // Ensure posts/ directory exists
 if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
 
+// ── Rate-limit aware API call with retry ──
+
+async function callAPI(params, label) {
+  const MAX_RETRIES = 5;
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      console.log('[API] ' + label + ' (intento ' + attempt + ')...');
+      const response = await client.messages.create(params);
+      return response;
+    } catch (e) {
+      if (e.status === 429 || (e.error && e.error.error && e.error.error.type === 'rate_limit_error')) {
+        // Parse retry-after from headers or error, default to escalating wait
+        let waitSecs = 60 * attempt; // 60s, 120s, 180s...
+        if (e.headers && e.headers['retry-after']) {
+          waitSecs = Math.max(parseInt(e.headers['retry-after']) + 5, waitSecs);
+        }
+        console.log('[Rate limit] Esperando ' + waitSecs + 's antes de reintentar...');
+        await sleep(waitSecs * 1000);
+      } else if (e.status === 529 || e.status === 503) {
+        // Overloaded
+        const waitSecs = 30 * attempt;
+        console.log('[Overloaded] Esperando ' + waitSecs + 's...');
+        await sleep(waitSecs * 1000);
+      } else {
+        throw e; // Non-retryable error
+      }
+    }
+  }
+  throw new Error('Agotados todos los reintentos para: ' + label);
+}
+
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
+
 async function main() {
   const today = new Date().toISOString().split('T')[0];
   console.log('Buscando noticias de IA para ' + today + '...');
 
-  // 1. Ask Claude to search for real news of the day
-  const searchResponse = await client.messages.create({
+  // ── STEP 1: Search for news (single call with web_search) ──
+  const searchResponse = await callAPI({
     model: 'claude-sonnet-4-20250514',
-    max_tokens: 4000,
+    max_tokens: 3000,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
     messages: [{
       role: 'user',
-      content: 'Busca las noticias m\u00e1s importantes de HOY sobre Inteligencia Artificial, enfocadas en:\n' +
-        '- Nuevos modelos de lenguaje (LLMs) y sus lanzamientos\n' +
-        '- Frameworks y herramientas para desarrollo con IA (LangChain, CrewAI, LangGraph, etc.)\n' +
-        '- Mejores pr\u00e1cticas de desarrollo de agentes de IA\n' +
-        '- Repositorios de GitHub relevantes y trending en ML/AI\n' +
-        '- Novedades relevantes para desarrolladores que trabajan con LLMs\n\n' +
-        'Necesito exactamente 4 noticias reales y recientes (de hoy o ayer m\u00e1ximo).\n\n' +
-        'Para CADA noticia devuelve un JSON con:\n' +
-        '- title: t\u00edtulo en espa\u00f1ol (conciso, informativo)\n' +
-        '- description: resumen de 2-3 frases en espa\u00f1ol\n' +
-        '- sourceUrl: URL real del art\u00edculo o repo original\n' +
-        '- sourceName: nombre de la fuente (TechCrunch, GitHub, ArXiv, etc.)\n' +
-        '- category: UNA de: LLM, AGENTES, HERRAMIENTAS, GITHUB_REPO, BUENAS_PRACTICAS, INVESTIGACION\n' +
-        '- tags: array de 3-5 tags relevantes en espa\u00f1ol o ingl\u00e9s t\u00e9cnico\n' +
-        '- keyPoints: array de 3-5 puntos clave del art\u00edculo\n\n' +
-        'Devuelve SOLO un JSON array v\u00e1lido, sin backticks ni texto adicional.'
+      content: 'Busca 4 noticias de IA de hoy. Para cada una devuelve JSON:\n' +
+        '[{"title":"titulo en espanol","description":"2 frases","sourceUrl":"url","sourceName":"fuente",' +
+        '"category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION",' +
+        '"tags":["t1","t2","t3"],"keyPoints":["p1","p2","p3"]}]\n' +
+        'Temas: LLMs, agentes IA, herramientas dev, repos GitHub ML/AI.\n' +
+        'SOLO JSON array, sin backticks.'
     }]
-  });
+  }, 'Busqueda de noticias');
 
   // 2. Extract text from response
   const textBlocks = searchResponse.content.filter(b => b.type === 'text');
@@ -61,47 +86,49 @@ async function main() {
   const postsData = JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8'));
   const maxId = Math.max(...postsData.posts.map(p => p.id), 0);
 
-  // 4. For each news item, generate full article
+  // ── STEP 2: Generate articles one by one with long pauses ──
+  // Wait 65s after search to let rate limit window reset
+  console.log('[Pausa] Esperando 65s para respetar rate limits...');
+  await sleep(65000);
+
   for (let i = 0; i < newsItems.length; i++) {
     const item = newsItems[i];
     const newId = maxId + i + 1;
     const slug = slugify(item.title);
 
-    console.log('Generando art\u00edculo ' + (i + 1) + '/' + newsItems.length + ': ' + item.title);
-
-    // Generate full article
-    const articleResponse = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 3000,
-      tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-      messages: [{
-        role: 'user',
-        content: 'Busca m\u00e1s detalles sobre: "' + item.title + '" (fuente: ' + item.sourceName + ', ' + item.sourceUrl + ').\n\n' +
-          'Escribe un art\u00edculo t\u00e9cnico en espa\u00f1ol (400-600 palabras) para un blog de desarrolladores.\n' +
-          'El p\u00fablico son developers que trabajan con LLMs y agentes de IA.\n\n' +
-          'Estructura el art\u00edculo as\u00ed:\n' +
-          '1. Contexto: qu\u00e9 ha pasado y por qu\u00e9 es importante para developers\n' +
-          '2. Detalles t\u00e9cnicos: qu\u00e9 tecnolog\u00edas implica, c\u00f3mo funciona\n' +
-          '3. Impacto pr\u00e1ctico: c\u00f3mo afecta al trabajo diario de un developer\n' +
-          '4. Para saber m\u00e1s: menciona recursos, repos o docs relevantes\n\n' +
-          'Devuelve el art\u00edculo como un JSON array de bloques de contenido:\n' +
-          '[{"type": "t", "text": "#1. T\u00edtulo de secci\u00f3n"}, {"type": "p", "text": "P\u00e1rrafo de texto..."}]\n\n' +
-          'SOLO el JSON array, sin backticks ni texto extra.'
-      }]
-    });
-
-    const articleText = articleResponse.content
-      .filter(b => b.type === 'text')
-      .map(b => b.text)
-      .join('\n');
+    console.log('Generando articulo ' + (i + 1) + '/' + newsItems.length + ': ' + item.title);
 
     let contentBlocks;
     try {
+      // Use haiku for articles - much lower token usage, faster, cheaper
+      const articleResponse = await callAPI({
+        model: 'claude-haiku-4-20250414',
+        max_tokens: 2000,
+        messages: [{
+          role: 'user',
+          content: 'Escribe un articulo tecnico en espanol (300-500 palabras) sobre:\n' +
+            'Titulo: ' + item.title + '\n' +
+            'Fuente: ' + item.sourceName + '\n' +
+            'Descripcion: ' + item.description + '\n' +
+            'Puntos clave: ' + (item.keyPoints || []).join('; ') + '\n\n' +
+            'Secciones: 1)Contexto 2)Detalles tecnicos 3)Impacto practico 4)Recursos\n' +
+            'Formato: JSON array de bloques:\n' +
+            '[{"type":"t","text":"#1. Seccion"},{"type":"p","text":"Parrafo..."}]\n' +
+            'SOLO JSON array.'
+        }]
+      }, 'Articulo ' + (i + 1));
+
+      const articleText = articleResponse.content
+        .filter(b => b.type === 'text')
+        .map(b => b.text)
+        .join('\n');
+
       const artMatch = articleText.replace(/```json|```/g, '').trim().match(/\[[\s\S]*\]/);
       contentBlocks = JSON.parse(artMatch[0]);
     } catch (e) {
-      console.warn('Error parseando art\u00edculo ' + (i + 1) + ', usando descripci\u00f3n como fallback');
+      console.warn('Error en articulo ' + (i + 1) + ' (' + e.message + '), usando fallback');
       contentBlocks = [
+        { type: 't', text: '#1. ' + item.title },
         { type: 'p', text: item.description },
         { type: 'p', text: 'Puntos clave: ' + (item.keyPoints || []).join('. ') },
         { type: 'p', text: 'Fuente original: <a href="' + item.sourceUrl + '" target="_blank">' + item.sourceName + '</a>' }
@@ -130,9 +157,10 @@ async function main() {
 
     postsData.posts.unshift(newPost);
 
-    // Rate limit pause
+    // Wait 65s between article generations to respect per-minute limits
     if (i < newsItems.length - 1) {
-      await new Promise(r => setTimeout(r, 2000));
+      console.log('[Pausa] Esperando 65s entre articulos...');
+      await sleep(65000);
     }
   }
 
@@ -185,9 +213,7 @@ function generateSitemap(posts) {
   xml += '  <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>\n';
   xml += '  <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>\n';
   posts.forEach(p => {
-    const loc = p.url.startsWith('post.html')
-      ? 'https://txemagonzalez.com/' + p.url
-      : 'https://txemagonzalez.com/' + p.url;
+    const loc = 'https://txemagonzalez.com/' + p.url;
     xml += '  <url><loc>' + loc + '</loc><lastmod>' + p.date + '</lastmod></url>\n';
   });
   xml += '</urlset>';

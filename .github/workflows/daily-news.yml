@@ -12,6 +12,7 @@ permissions:
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
@@ -28,6 +29,7 @@ jobs:
       - name: Fetch and generate AI news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        timeout-minutes: 12
         run: node scripts/fetch-news.js
 
       - name: Commit and push changes

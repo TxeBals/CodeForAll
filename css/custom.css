@@ -310,6 +310,16 @@
   color: #fff;
 }
 
+/* -- View Counter -- */
+.post-views {
+  color: #999;
+  font-size: 13px;
+}
+
+.post-views i {
+  font-size: 14px;
+}
+
 /* -- Blog entry improvements -- */
 .blog-entry .text .post-badges {
   margin-bottom: 6px;

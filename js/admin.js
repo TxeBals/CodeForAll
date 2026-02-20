@@ -346,7 +346,7 @@ function submitNewForm() {
 }
 
 function showSection(section) {
-  var sections = ['postsSection', 'newsSection', 'newSection', 'editSection'];
+  var sections = ['postsSection', 'newsSection', 'statsSection', 'newSection', 'editSection'];
   sections.forEach(function(s) {
     document.getElementById(s).style.display = 'none';
   });
@@ -354,7 +354,7 @@ function showSection(section) {
 
   // Update nav button active state
   document.querySelectorAll('.nav-btn').forEach(function(b) { b.classList.remove('active'); });
-  var btnMap = { posts: 0, news: 1, 'new': 2 };
+  var btnMap = { posts: 0, news: 1, stats: 2, 'new': 3 };
   var navBtns = document.querySelectorAll('.admin-nav-actions .nav-btn');
   if (btnMap[section] !== undefined && navBtns[btnMap[section]]) {
     navBtns[btnMap[section]].classList.add('active');
@@ -362,6 +362,96 @@ function showSection(section) {
 
   if (section === 'new') showNewForm();
   if (section === 'news') renderNewsList();
+  if (section === 'stats') renderStats();
+}
+
+// ── Stats / Analytics ──
+
+function renderStats() {
+  var container = document.getElementById('statsSection');
+  if (!container) return;
+
+  var totalViews = (typeof PostAnalytics !== 'undefined') ? PostAnalytics.getTotalViews() : 0;
+  var topPosts = (typeof PostAnalytics !== 'undefined') ? PostAnalytics.getTopPosts(20) : [];
+  var allViews = (typeof PostAnalytics !== 'undefined') ? PostAnalytics.getAllViews() : {};
+
+  // Build a slug-to-title map from postsData
+  var slugToTitle = {};
+  var slugToFolder = {};
+  if (postsData && postsData.posts) {
+    postsData.posts.forEach(function(p) {
+      slugToTitle[p.slug] = p.title;
+      slugToFolder[p.slug] = p.folder;
+    });
+  }
+
+  var html = '<h2>Estad\u00edsticas de Visitas</h2>';
+
+  // Summary cards
+  html += '<div class="stats-summary">' +
+    '<div class="stat-card">' +
+    '<div class="stat-number">' + totalViews + '</div>' +
+    '<div class="stat-label">Visitas totales</div>' +
+    '</div>' +
+    '<div class="stat-card">' +
+    '<div class="stat-number">' + Object.keys(allViews).length + '</div>' +
+    '<div class="stat-label">Posts visitados</div>' +
+    '</div>' +
+    '<div class="stat-card">' +
+    '<div class="stat-number">' + (postsData ? postsData.posts.length : 0) + '</div>' +
+    '<div class="stat-label">Posts totales</div>' +
+    '</div>' +
+    '</div>';
+
+  // Info note
+  html += '<div class="stats-note">' +
+    '<strong>Nota:</strong> Las visitas se registran con localStorage en cada navegador. ' +
+    'Estos datos son del navegador actual. Para anal\u00edticas globales, ' +
+    'consulta <a href="https://github.com/' + REPO_OWNER + '/' + REPO_NAME + '/graphs/traffic" target="_blank" rel="noopener">' +
+    'GitHub Insights &rarr; Traffic</a>.' +
+    '</div>';
+
+  // Top posts table
+  if (topPosts.length > 0) {
+    html += '<h3 class="stats-subtitle">Top Posts por Visitas</h3>';
+    html += '<table class="stats-table">' +
+      '<thead><tr><th>#</th><th>Post</th><th>Categor\u00eda</th><th>Visitas</th><th>\u00daltima visita</th></tr></thead>' +
+      '<tbody>';
+
+    topPosts.forEach(function(item, i) {
+      var title = slugToTitle[item.slug] || item.slug;
+      var folder = slugToFolder[item.slug] || '-';
+      html += '<tr>' +
+        '<td>' + (i + 1) + '</td>' +
+        '<td title="' + escapeAttr(item.slug) + '">' + escapeHtml(title) + '</td>' +
+        '<td><span class="badge badge-cat">' + escapeHtml(folder) + '</span></td>' +
+        '<td><strong>' + item.count + '</strong></td>' +
+        '<td>' + (item.lastVisit || '-') + '</td>' +
+        '</tr>';
+    });
+
+    html += '</tbody></table>';
+  } else {
+    html += '<p>No hay datos de visitas a\u00fan. Las visitas se registran cuando los usuarios leen los posts.</p>';
+  }
+
+  // Posts without views
+  if (postsData && postsData.posts) {
+    var unviewedPosts = postsData.posts.filter(function(p) {
+      return !allViews[p.slug] || allViews[p.slug].count === 0;
+    });
+
+    if (unviewedPosts.length > 0) {
+      html += '<h3 class="stats-subtitle">Posts sin visitas (' + unviewedPosts.length + ')</h3>';
+      html += '<div class="unviewed-list">';
+      unviewedPosts.forEach(function(p) {
+        html += '<span class="unviewed-item">' + escapeHtml(p.title) + '</span>';
+      });
+      html += '</div>';
+    }
+  }
+
+  container.innerHTML = html;
 }
 
 // ── Helpers ──

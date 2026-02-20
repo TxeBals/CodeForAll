@@ -112,6 +112,7 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
+  <script src="js/analytics.js"></script>
   <script src="js/main.js"></script>
   <script>
   (async function() {
@@ -128,6 +129,9 @@
         document.getElementById('postContent').innerHTML = '<p>Post no encontrado</p>';
         return;
       }
+
+      // Track view
+      var viewCount = PostAnalytics.trackView(slug);
 
       // Update page title and meta tags
       document.title = post.title + ' - Code 4 All';
@@ -147,10 +151,12 @@
       // Render title
       document.getElementById('title').textContent = post.title;
 
-      // Render meta info
+      // Render meta info with view counter
+      var viewsText = PostAnalytics.formatViews(viewCount);
       var metaHtml = '<p class="meta">' +
         '<span><i class="icon-calendar mr-2"></i>' + (post.dateDisplay || post.date) + '</span>' +
         '<span><i class="icon-folder-o mr-2"></i>' + post.folder + '</span>' +
+        (viewsText ? '<span class="post-views"><i class="icon-eye mr-1"></i>' + viewsText + '</span>' : '') +
         '</p>';
       document.getElementById('postMeta').innerHTML = metaHtml;
 

@@ -51,16 +51,33 @@ async function main() {
   // ── STEP 1: Search for news (single call with web_search) ──
   const searchResponse = await callAPI({
     model: 'claude-sonnet-4-20250514',
-    max_tokens: 3000,
+    max_tokens: 4000,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
     messages: [{
       role: 'user',
-      content: 'Busca 4 noticias de IA de hoy. Para cada una devuelve JSON:\n' +
-        '[{"title":"titulo en espanol","description":"2 frases","sourceUrl":"url","sourceName":"fuente",' +
+      content: 'Eres un curador de contenido tecnico para un blog de desarrolladores de software que trabajan con IA.\n\n' +
+        'Busca exactamente 6 noticias TECNICAS de hoy o ayer sobre IA orientadas a DESARROLLADORES.\n\n' +
+        'CRITERIOS DE SELECCION (MUY IMPORTANTE):\n' +
+        '- PRIORIZAR: lanzamientos de modelos/APIs, nuevos frameworks, librerias, SDKs, tutoriales tecnicos, ' +
+        'patrones de arquitectura con IA, integraciones, actualizaciones de herramientas dev, repos trending en GitHub\n' +
+        '- EVITAR: noticias politicas sobre IA, regulacion, opiniones editoriales, noticias corporativas sin impacto tecnico, ' +
+        'articulos genericos tipo "la IA cambiara el mundo"\n' +
+        '- Cada noticia debe tener VALOR PRACTICO para un developer: algo que pueda usar, probar, implementar o aprender\n\n' +
+        'BUSCA EN ESTAS FUENTES:\n' +
+        '- GitHub Trending, Hacker News, dev.to, The Verge (tech), TechCrunch (dev), ArXiv (papers relevantes)\n' +
+        '- Blogs oficiales: OpenAI, Anthropic, Google AI, Hugging Face, LangChain, Microsoft Dev Blog\n' +
+        '- Reddit: r/MachineLearning, r/LocalLLaMA, r/langchain\n\n' +
+        'DISTRIBUCION IDEAL de las 6 noticias:\n' +
+        '- 1-2 sobre nuevos modelos LLM, APIs o benchmarks\n' +
+        '- 1-2 sobre frameworks/herramientas para agentes, RAG, fine-tuning\n' +
+        '- 1 sobre un repo de GitHub trending en ML/AI\n' +
+        '- 1 sobre buenas practicas, arquitectura o tutorial tecnico\n\n' +
+        'Devuelve SOLO un JSON array valido con este formato exacto:\n' +
+        '[{"title":"titulo conciso en espanol","description":"2-3 frases tecnicas en espanol",' +
+        '"sourceUrl":"url real","sourceName":"nombre fuente",' +
         '"category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION",' +
-        '"tags":["t1","t2","t3"],"keyPoints":["p1","p2","p3"]}]\n' +
-        'Temas: LLMs, agentes IA, herramientas dev, repos GitHub ML/AI.\n' +
-        'SOLO JSON array, sin backticks.'
+        '"tags":["tag1","tag2","tag3"],"keyPoints":["punto1","punto2","punto3"]}]\n' +
+        'Sin backticks, sin texto extra, SOLO el JSON array.'
     }]
   }, 'Busqueda de noticias');
 
@@ -102,7 +119,7 @@ async function main() {
     try {
       // Use haiku for articles - much lower token usage, faster, cheaper
       const articleResponse = await callAPI({
-        model: 'claude-haiku-4-20250414',
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: 2000,
         messages: [{
           role: 'user',

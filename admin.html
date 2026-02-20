@@ -30,6 +30,7 @@
       <div class="admin-nav-actions">
         <button class="nav-btn active" onclick="showSection('posts')">Posts</button>
         <button class="nav-btn" onclick="showSection('news')">Noticias Auto</button>
+        <button class="nav-btn" onclick="showSection('stats')">Visitas</button>
         <button class="nav-btn" onclick="showSection('new')">Nuevo Post</button>
         <button class="nav-btn nav-btn-action" onclick="triggerNewsAction()">Generar Noticias Ahora</button>
         <button class="nav-btn nav-btn-danger" onclick="logout()">Salir</button>
@@ -39,11 +40,13 @@
     <main class="admin-main">
       <div id="postsSection"></div>
       <div id="newsSection" style="display:none"></div>
+      <div id="statsSection" style="display:none"></div>
       <div id="newSection" style="display:none"></div>
       <div id="editSection" style="display:none"></div>
     </main>
   </div>
 
+  <script src="js/analytics.js"></script>
   <script src="js/admin.js"></script>
 </body>
 </html>

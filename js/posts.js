@@ -142,6 +142,12 @@ function mountPostCard(post) {
       '</div>';
   }
 
+  // View counter
+  var viewCount = (typeof PostAnalytics !== 'undefined') ? PostAnalytics.getViews(post.slug) : 0;
+  var viewsHtml = viewCount > 0
+    ? '<span class="post-views"><i class="icon-eye mr-1"></i>' + PostAnalytics.formatViews(viewCount) + '</span>'
+    : '';
+
   return '<div class="col-md-12">' +
     '<div class="blog-entry ftco-animate d-md-flex fadeInUp ftco-animated">' +
     '<a href="' + postUrl + '" class="img img-2" style="background-image: url(' + post.image + ');"></a>' +
@@ -152,6 +158,7 @@ function mountPostCard(post) {
     '<p class="meta">' +
     '<span><i class="icon-calendar mr-2"></i>' + (post.dateDisplay || post.date) + '</span>' +
     '<span><a href="' + postUrl + '"><i class="icon-folder-o mr-2"></i>' + post.folder + '</a></span>' +
+    viewsHtml +
     '</p>' +
     '</div>' +
     '<p class="mb-2">' + post.description + '</p>' +

@@ -338,6 +338,124 @@
   background: #ccc !important;
 }
 
+/* -- Stats Section -- */
+.stats-summary {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  flex: 1;
+  min-width: 140px;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #F96D00;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.stats-note {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #664d03;
+  margin-bottom: 25px;
+}
+
+.stats-note a {
+  color: #F96D00;
+  font-weight: 600;
+}
+
+.stats-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 25px 0 12px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.stats-table thead {
+  background: #f8f9fa;
+}
+
+.stats-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.stats-table td {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.stats-table tr:last-child td {
+  border-bottom: none;
+}
+
+.stats-table tr:hover {
+  background: #f8f9fa;
+}
+
+.stats-table td:nth-child(1) {
+  color: #999;
+  width: 40px;
+  text-align: center;
+}
+
+.stats-table td:nth-child(4) {
+  color: #F96D00;
+  font-weight: 600;
+}
+
+.unviewed-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.unviewed-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: #777;
+}
+
 /* -- Responsive -- */
 @media (max-width: 768px) {
   .admin-nav {
@@ -364,5 +482,22 @@
 
   .admin-form {
     padding: 20px;
+  }
+
+  .stats-summary {
+    flex-direction: column;
+  }
+
+  .stat-card {
+    min-width: auto;
+  }
+
+  .stats-table {
+    font-size: 12px;
+  }
+
+  .stats-table th,
+  .stats-table td {
+    padding: 8px 10px;
   }
 }

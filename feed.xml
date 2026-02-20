@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Code 4 All - Txema González Balseiro</title>
+  <link>https://txemagonzalez.com/</link>
+  <description>Blog de desarrollo, IA y Azure</description>
+  <language>es</language>
+  <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>GitHub trending: NVIDIA colabora con Hugging Face en modelos de IA física y robótica</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-trending-nvidia-colabora-con-hugging-face-en-modelos-</link>
+    <description>&lt;cite index=&quot;39-1,39-2&quot;&gt;NVIDIA colabora con Hugging Face para integrar modelos NVIDIA Isaac y bibliotecas en LeRobot, uniendo 2 millones de desarrolladores de robótica de NVIDIA con 13 millones de constructores de IA de Hugging Face.&lt;/cite&gt; &lt;cite index=&quot;39-16,39-17&quot;&gt;Los modelos GR00T N y Isaac Lab-Arena están disponibles en la biblioteca LeRobot para fine-tuning y evaluación fácil, junto con el nuevo módulo Jetson T4000 que ofrece 4x mayor eficiencia energética.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-trending-nvidia-colabora-con-hugging-face-en-modelos-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>DSPy framework evoluciona como alternativa de programación declarativa a prompt engineering</title>
+    <link>https://txemagonzalez.com/post.html?slug=dspy-framework-evoluciona-como-alternativa-de-programacion-d</link>
+    <description>&lt;cite index=&quot;51-1,51-4&quot;&gt;DSPy es el framework para programar—en lugar de hacer prompting—modelos de lenguaje, permitiendo iteración rápida en sistemas de IA modulares con algoritmos para optimizar prompts y pesos.&lt;/cite&gt; &lt;cite index=&quot;52-4,52-6&quot;&gt;Permite construir software de IA desde módulos de lenguaje natural y componerlos genéricamente con diferentes modelos, estrategias de inferencia o algoritmos de aprendizaje, haciendo el software más confiable y portable.&lt;/cite&gt; &lt;cite index=&quot;30-10,30-27&quot;&gt;En benchmarks recientes con componentes estandarizados, DSPy logró 100% de precisión junto con otros frameworks como LangChain y LlamaIndex.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=dspy-framework-evoluciona-como-alternativa-de-programacion-d</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 enfoca en inferencia optimizada y kernels especializados</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoca-en-inferencia-optimizada</link>
+    <description>&lt;cite index=&quot;34-2,34-17&quot;&gt;Transformers v5 introduce cambios de paradigma significativos con kernels especializados, mejores valores por defecto, nuevas APIs y soporte para motores de inferencia optimizados.&lt;/cite&gt; &lt;cite index=&quot;34-20,34-21&quot;&gt;Incluye soporte para continuous batching y mecanismos de paged attention, utilizados internamente y optimizándose para uso general.&lt;/cite&gt; &lt;cite index=&quot;34-11,34-14&quot;&gt;El entrenamiento sigue siendo un gran foco, mejorando soporte para pre-entrenamiento a escala y colaborando estrechamente con herramientas de fine-tuning como Unsloth, Axolotl y TRL.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoca-en-inferencia-optimizada</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Sonnet 4.6 con capacidades de Computer Use y Context Compaction</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-capacidades-de-compute</link>
+    <description>&lt;cite index=&quot;44-27,44-29&quot;&gt;Claude ahora puede ver pantallas, hacer clic con el mouse y escribir en teclados como lo haría una persona, sin APIs especiales ni conectores diseñados específicamente.&lt;/cite&gt; &lt;cite index=&quot;50-21,50-5&quot;&gt;Introduce Context Compaction que permite a Claude resumir su propio contexto y realizar tareas de mayor duración sin chocar contra límites de tokens.&lt;/cite&gt; &lt;cite index=&quot;50-16,50-17&quot;&gt;El pensamiento adaptativo permite que Claude decida cuándo usar razonamiento más profundo basado en pistas contextuales.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-capacidades-de-compute</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain optimiza marcos RAG con enfoque agéntico para producción 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-optimiza-marcos-rag-con-enfoque-agentico-para-prod</link>
+    <description>&lt;cite index=&quot;21-8,21-13&quot;&gt;LangChain evoluciona significativamente hacia diseños RAG más confiables y agénticos en 2025-2026. Los enfoques agénticos mejoran el manejo de consultas complejas en 35-50% pero aumentan latencia en 200-400ms.&lt;/cite&gt; &lt;cite index=&quot;22-27,22-31&quot;&gt;Los sistemas de producción optimizados pueden reducir costos en 30-45% mediante enrutamiento inteligente, caché y degradación de modelos.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-optimiza-marcos-rag-con-enfoque-agentico-para-prod</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex y nuevos modelos de imagen para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-nuevos-modelos-de-imagen-para-d</link>
+    <description>&lt;cite index=&quot;11-19,11-21,17-1,17-6&quot;&gt;OpenAI introduce GPT-5.3-Codex, el modelo de codificación agéntica más capaz hasta la fecha, optimizado para tareas de programación complejas. El modelo funciona 25% más rápido gracias a mejoras en infraestructura y está diseñado específicamente para trabajar con NVIDIA GB200 NVL72.&lt;/cite&gt; &lt;cite index=&quot;13-29,13-30&quot;&gt;También lanzan gpt-image-1, un nuevo modelo de generación de imágenes que establece un nuevo estándar con mejor calidad y seguimiento de instrucciones.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-nuevos-modelos-de-imagen-para-d</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Azure Percept y Custom Vision</title>
+    <link>https://txemagonzalez.com/azure-percept-samples.html</link>
+    <description>Presentación de Azure Percept usando modelos generados en custom vision y el despliegue desantendido en el dispositivo</description>
+    <pubDate>Wed, 04 May 2022 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/azure-percept-samples.html</guid>
+    <category>IOT</category>
+  </item>
+  <item>
+    <title>Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table</title>
+    <link>https://txemagonzalez.com/test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html</link>
+    <description>Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas</description>
+    <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html</guid>
+    <category>AKS</category>
+  </item>
+  <item>
+    <title>Terraform + AKS + UAI + Ingress Controller</title>
+    <link>https://txemagonzalez.com/desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html</link>
+    <description>Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet</description>
+    <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html</guid>
+    <category>AKS</category>
+  </item>
+  <item>
+    <title>AKS Ingress con https</title>
+    <link>https://txemagonzalez.com/aks-ingress-https.html</link>
+    <description>Cómo generar un ingress con letsencrypt</description>
+    <pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/aks-ingress-https.html</guid>
+    <category>AKS</category>
+  </item>
+  <item>
+    <title>Del dibujo al código</title>
+    <link>https://txemagonzalez.com/del-dibujo-al-codigo.html</link>
+    <description>Cómo entrenar un modelo personalizado para la generación automática de código</description>
+    <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/del-dibujo-al-codigo.html</guid>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Recuperación de una máquina migrada</title>
+    <link>https://txemagonzalez.com/azure-virtual-machine-recuescue-os-disk.html</link>
+    <description>Cuando se migra una máquina con Azure Migrate, puede ser que contenga problemas, para poder solventarlo deberemos seguir estos pasos</description>
+    <pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/azure-virtual-machine-recuescue-os-disk.html</guid>
+    <category>VM</category>
+  </item>
+  <item>
+    <title>C# y Form Recognizer</title>
+    <link>https://txemagonzalez.com/c-sharp-and-form-recognizer.html</link>
+    <description>Integración rápida con C# y Form Recognizer</description>
+    <pubDate>Thu, 11 Mar 2021 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/c-sharp-and-form-recognizer.html</guid>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Crear tarjetas customizadas en Bot Framework Composer</title>
+    <link>https://txemagonzalez.com/bot-framework-composer-adaptive-cards.html</link>
+    <description>Utilizando https://adaptivecards.io/designer/ podemos generar tarjetas customizadas y aplicar este diseño en bot framework composer</description>
+    <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/bot-framework-composer-adaptive-cards.html</guid>
+    <category>bot framework</category>
+  </item>
+  <item>
+    <title>Publicar una app de Vue / React en Azure</title>
+    <link>https://txemagonzalez.com/vue-or-react-azure-static-app.html</link>
+    <description>Que opciones tenemos para publicar una app de Vue / React en Azure podemos usar un appservice o una web estática</description>
+    <pubDate>Fri, 09 Oct 2020 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/vue-or-react-azure-static-app.html</guid>
+    <category>Azure</category>
+  </item>
+  <item>
+    <title>Testeando Azure computer vision</title>
+    <link>https://txemagonzalez.com/azure-cognitive-services-api.html</link>
+    <description>Cómo conectar al servicio cognitivo de azure, algo de código de ejemplo</description>
+    <pubDate>Sat, 05 Sep 2020 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/azure-cognitive-services-api.html</guid>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Conoce tus documentos</title>
+    <link>https://txemagonzalez.com/boot-framework-azure-cognitive-search.html</link>
+    <description>Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda</description>
+    <pubDate>Sat, 29 Feb 2020 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/boot-framework-azure-cognitive-search.html</guid>
+    <category>AI</category>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Admin - Code 4 All</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+  <!-- Login Section -->
+  <div id="loginSection" class="admin-login">
+    <div class="login-card">
+      <h1>Backoffice</h1>
+      <p>Introduce tu GitHub Personal Access Token</p>
+      <input type="password" id="ghToken" placeholder="GitHub Personal Access Token" autocomplete="off">
+      <button onclick="authenticate()">Entrar</button>
+    </div>
+  </div>
+
+  <!-- Admin Panel (hidden until login) -->
+  <div id="adminPanel" style="display:none">
+    <nav class="admin-nav">
+      <div class="admin-nav-brand">
+        <h2>Admin - Code 4 All</h2>
+      </div>
+      <div class="admin-nav-actions">
+        <button class="nav-btn active" onclick="showSection('posts')">Posts</button>
+        <button class="nav-btn" onclick="showSection('news')">Noticias Auto</button>
+        <button class="nav-btn" onclick="showSection('new')">Nuevo Post</button>
+        <button class="nav-btn nav-btn-action" onclick="triggerNewsAction()">Generar Noticias Ahora</button>
+        <button class="nav-btn nav-btn-danger" onclick="logout()">Salir</button>
+      </div>
+    </nav>
+
+    <main class="admin-main">
+      <div id="postsSection"></div>
+      <div id="newsSection" style="display:none"></div>
+      <div id="newSection" style="display:none"></div>
+      <div id="editSection" style="display:none"></div>
+    </main>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

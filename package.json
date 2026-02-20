@@ -1,0 +1,10 @@
+{
+  "name": "code4all-news",
+  "private": true,
+  "scripts": {
+    "fetch-news": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

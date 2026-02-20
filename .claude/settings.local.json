@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/generate-placeholders.js:*)",
+      "Bash(node:*)",
+      "Bash(test:*)"
+    ]
+  }
+}

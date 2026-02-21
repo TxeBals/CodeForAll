@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Nuevos papers de investigación sobre RAG agnético y arquitecturas avanzadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</link>
+    <description>&lt;cite index=&apos;62-6,62-7&apos;&gt;Un survey completo sobre Agentic RAG muestra cómo los agentes autónomos embebidos en pipelines RAG pueden manejar estrategias de recuperación dinámicas y refinamiento iterativo&lt;/cite&gt;. &lt;cite index=&apos;61-4,61-5&apos;&gt;Otro paper presenta taxonomía completa de arquitecturas RAG categorizadas en diseños centrados en recuperador, generador, híbridos y orientados a robustez&lt;/cite&gt;. &lt;cite index=&apos;68-7,68-8,68-9&apos;&gt;RAG-Anything introduce framework unificado para recuperación multimodal reconceptualizando contenido como entidades de conocimiento interconectadas con construcción dual-graph&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework unifica Semantic Kernel y AutoGen</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</link>
+    <description>&lt;cite index=&apos;53-12,53-13&apos;&gt;Microsoft lanzó Agent Framework como SDK open-source que combina las capacidades de Semantic Kernel y AutoGen en un marco unificado para .NET y Python&lt;/cite&gt;. &lt;cite index=&apos;53-8&apos;&gt;Los workflows son orquestaciones basadas en grafos que conectan múltiples agentes y funciones para realizar tareas complejas de múltiples pasos&lt;/cite&gt;. &lt;cite index=&apos;58-4,58-5,58-6&apos;&gt;Está diseñado para ser el framework principal para aplicaciones basadas en agentes, con API de workflow que permite definir flujos multi-agente complejos usando enfoque basado en grafos&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.0 con arquitectura modular y PyTorch nativo</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-con-arquitectura-modular-y-py</link>
+    <description>&lt;cite index=&apos;41-11,41-12,41-13&apos;&gt;Hugging Face lanzó Transformers v5.0.0rc-0 después de cinco años, ahora con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales&lt;/cite&gt;. &lt;cite index=&apos;44-13&apos;&gt;La v5 incluye refactorización significativa con enfoque solo en PyTorch, eliminando el soporte para Flax/TensorFlow, y nueva API de carga de pesos mejorada&lt;/cite&gt;. &lt;cite index=&apos;43-19,43-20,43-21&apos;&gt;Cambiarán a lanzamientos menores semanales en lugar de cada 5 semanas para acceso más rápido a nuevos modelos&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-con-arquitectura-modular-y-py</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Computer Use 2.0 con nuevos comandos y herramientas</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-computer-use-2-0-con-nuevos-comandos-y-herra</link>
+    <description>&lt;cite index=&apos;33-1,33-2&apos;&gt;Anthropic actualizó la herramienta computer use con nuevos comandos incluyendo &apos;hold_key&apos;, &apos;left_mouse_down&apos;, &apos;left_mouse_up&apos;, &apos;scroll&apos;, &apos;triple_click&apos; y &apos;wait&apos;&lt;/cite&gt;. &lt;cite index=&apos;31-1,31-3,31-4&apos;&gt;Introdujeron Programmatic Tool Calling que permite a Claude orquestar herramientas a través de código en lugar de llamadas API individuales, escribiendo Python que maneja múltiples herramientas&lt;/cite&gt;. &lt;cite index=&apos;33-21,33-22,33-23&apos;&gt;También lanzaron Agent Skills, carpetas organizadas de instrucciones y scripts que Claude carga dinámicamente para tareas especializadas&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-computer-use-2-0-con-nuevos-comandos-y-herra</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain Graph Platform GA y nuevas funciones para agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-graph-platform-ga-y-nuevas-funciones-para-agentes</link>
+    <description>&lt;cite index=&apos;23-31,23-32&apos;&gt;LangGraph Platform ya está generalmente disponible como plataforma de despliegue para agentes con estado de larga duración, con despliegue de un clic&lt;/cite&gt;. &lt;cite index=&apos;23-33,23-34,23-35&apos;&gt;Lanzaron Open Agent Platform, un constructor de agentes sin código que permite seleccionar herramientas MCP, personalizar prompts y conectar fuentes de datos&lt;/cite&gt;. &lt;cite index=&apos;23-20,23-21&apos;&gt;LangSmith Observability ahora incluye métricas específicas para agentes con soporte para seguimiento de herramientas y trayectorias&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-graph-platform-ga-y-nuevas-funciones-para-agentes</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-4.1 con 1M tokens de contexto y nueva API Responses</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-con-1m-tokens-de-contexto-y-nueva-api-r</link>
+    <description>&lt;cite index=&apos;18-9,18-10,18-11&apos;&gt;OpenAI lanzó tres nuevos modelos: GPT-4.1, GPT-4.1 mini y GPT-4.1 nano con mejoras significativas en codificación y seguimiento de instrucciones. Los modelos soportan hasta 1 millón de tokens de contexto con mejor comprensión de contexto largo&lt;/cite&gt;. &lt;cite index=&apos;13-34,13-35,13-36&apos;&gt;También lanzaron la Responses API para crear agentes con herramientas integradas y el Agents SDK para orquestación de agentes&lt;/cite&gt;.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-con-1m-tokens-de-contexto-y-nueva-api-r</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>GitHub trending: NVIDIA colabora con Hugging Face en modelos de IA física y robótica</title>
     <link>https://txemagonzalez.com/post.html?slug=github-trending-nvidia-colabora-con-hugging-face-en-modelos-</link>
     <description>&lt;cite index=&quot;39-1,39-2&quot;&gt;NVIDIA colabora con Hugging Face para integrar modelos NVIDIA Isaac y bibliotecas en LeRobot, uniendo 2 millones de desarrolladores de robótica de NVIDIA con 13 millones de constructores de IA de Hugging Face.&lt;/cite&gt; &lt;cite index=&quot;39-16,39-17&quot;&gt;Los modelos GR00T N y Isaac Lab-Arena están disponibles en la biblioteca LeRobot para fine-tuning y evaluación fácil, junto con el nuevo módulo Jetson T4000 que ofrece 4x mayor eficiencia energética.&lt;/cite&gt;</description>
@@ -117,30 +165,6 @@
     <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/bot-framework-composer-adaptive-cards.html</guid>
     <category>bot framework</category>
-  </item>
-  <item>
-    <title>Publicar una app de Vue / React en Azure</title>
-    <link>https://txemagonzalez.com/vue-or-react-azure-static-app.html</link>
-    <description>Que opciones tenemos para publicar una app de Vue / React en Azure podemos usar un appservice o una web estática</description>
-    <pubDate>Fri, 09 Oct 2020 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/vue-or-react-azure-static-app.html</guid>
-    <category>Azure</category>
-  </item>
-  <item>
-    <title>Testeando Azure computer vision</title>
-    <link>https://txemagonzalez.com/azure-cognitive-services-api.html</link>
-    <description>Cómo conectar al servicio cognitivo de azure, algo de código de ejemplo</description>
-    <pubDate>Sat, 05 Sep 2020 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/azure-cognitive-services-api.html</guid>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Conoce tus documentos</title>
-    <link>https://txemagonzalez.com/boot-framework-azure-cognitive-search.html</link>
-    <description>Mediante Azure Cognitive Search podremos extraer información de los documentos extraiga información de los documentos y un bot que te muestre esos documentos por palabras clave de búsqueda</description>
-    <pubDate>Sat, 29 Feb 2020 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/boot-framework-azure-cognitive-search.html</guid>
-    <category>AI</category>
   </item>
 </channel>
 </rss>

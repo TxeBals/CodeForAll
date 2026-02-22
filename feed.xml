@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Anthropic publica guía completa para construir Skills en Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</link>
+    <description>Anthropic ha lanzado una guía de 32 páginas para construir Skills en Claude, proporcionando documentación detallada sobre cómo crear capacidades reutilizables que permiten a Claude seguir flujos de trabajo específicos de forma consistente. Incluye integración con MCP para acceso a herramientas externas.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Microsoft Visual Studio 2026 mejora IA para desarrollo agentic</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</link>
+    <description>Microsoft ha detallado las nuevas funciones de IA confiabilidad para Visual Studio 2026, centradas en experiencias de codificación basadas en agentes. Incluye un Planning Agent dedicado, integración mejorada del Copilot CLI, y soporte para Agent Skills con una vista unificada de sesiones.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>NVIDIA lanza Nemotron 3 Nano con arquitectura híbrida MoE</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</link>
+    <description>NVIDIA presenta Nemotron 3 Nano 30B A3B, un modelo híbrido Mamba-Transformer con Mixture-of-Experts y ventana de contexto de 1M tokens. Incluye NeMo Gym para entrenamiento RL y un dataset de seguridad agentic con 11,000 trazas etiquetadas para desarrollo responsable.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con enfoque en PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-en-pytorch</link>
+    <description>Hugging Face ha lanzado Transformers v5.0.0 con un diseño completamente modular y enfoque exclusivo en PyTorch. La nueva versión incluye más de 400 arquitecturas de modelos y mejora significativamente el proceso de incorporación de nuevos modelos con soporte optimizado para entrenamiento a escala.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-en-pytorch</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain lanza nuevo framework de observabilidad para agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-nuevo-framework-de-observabilidad-para-agent</link>
+    <description>LangChain presenta un framework revolucionario de observabilidad diseñado específicamente para debugging de sistemas no deterministas de IA. Introduce primitivas para capturar pasos de ejecución individuales, evaluación de un solo turno y evaluación multi-turno para agentes complejos.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-nuevo-framework-de-observabilidad-para-agent</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2-Codex para desarrollo de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-para-desarrollo-de-agentes</link>
+    <description>OpenAI ha liberado GPT-5.2-Codex a través de la Responses API, una versión optimizada de GPT-5.2 específicamente diseñada para tareas de programación agentic en entornos Codex. Incluye mejoras significativas en la inferencia con una optimización del 40% más rápida para desarrolladores API.</description>
+    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-para-desarrollo-de-agentes</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Nuevos papers de investigación sobre RAG agnético y arquitecturas avanzadas</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</link>
     <description>&lt;cite index=&apos;62-6,62-7&apos;&gt;Un survey completo sobre Agentic RAG muestra cómo los agentes autónomos embebidos en pipelines RAG pueden manejar estrategias de recuperación dinámicas y refinamiento iterativo&lt;/cite&gt;. &lt;cite index=&apos;61-4,61-5&apos;&gt;Otro paper presenta taxonomía completa de arquitecturas RAG categorizadas en diseños centrados en recuperador, generador, híbridos y orientados a robustez&lt;/cite&gt;. &lt;cite index=&apos;68-7,68-8,68-9&apos;&gt;RAG-Anything introduce framework unificado para recuperación multimodal reconceptualizando contenido como entidades de conocimiento interconectadas con construcción dual-graph&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html</guid>
     <category>AKS</category>
-  </item>
-  <item>
-    <title>Terraform + AKS + UAI + Ingress Controller</title>
-    <link>https://txemagonzalez.com/desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html</link>
-    <description>Desplegar un cluster de AKS y el ingress controller con Terraform, utilizando una identidad administrada para su gestión además de redirigir todo el tráfico de salida del cluster a otra vnet</description>
-    <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/desplegar-aks-con-terraform-usando-identidad-administradada-user-defined-routes-ingress-controller-full-service.html</guid>
-    <category>AKS</category>
-  </item>
-  <item>
-    <title>AKS Ingress con https</title>
-    <link>https://txemagonzalez.com/aks-ingress-https.html</link>
-    <description>Cómo generar un ingress con letsencrypt</description>
-    <pubDate>Fri, 08 Oct 2021 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/aks-ingress-https.html</guid>
-    <category>AKS</category>
-  </item>
-  <item>
-    <title>Del dibujo al código</title>
-    <link>https://txemagonzalez.com/del-dibujo-al-codigo.html</link>
-    <description>Cómo entrenar un modelo personalizado para la generación automática de código</description>
-    <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/del-dibujo-al-codigo.html</guid>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Recuperación de una máquina migrada</title>
-    <link>https://txemagonzalez.com/azure-virtual-machine-recuescue-os-disk.html</link>
-    <description>Cuando se migra una máquina con Azure Migrate, puede ser que contenga problemas, para poder solventarlo deberemos seguir estos pasos</description>
-    <pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/azure-virtual-machine-recuescue-os-disk.html</guid>
-    <category>VM</category>
-  </item>
-  <item>
-    <title>C# y Form Recognizer</title>
-    <link>https://txemagonzalez.com/c-sharp-and-form-recognizer.html</link>
-    <description>Integración rápida con C# y Form Recognizer</description>
-    <pubDate>Thu, 11 Mar 2021 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/c-sharp-and-form-recognizer.html</guid>
-    <category>AI</category>
-  </item>
-  <item>
-    <title>Crear tarjetas customizadas en Bot Framework Composer</title>
-    <link>https://txemagonzalez.com/bot-framework-composer-adaptive-cards.html</link>
-    <description>Utilizando https://adaptivecards.io/designer/ podemos generar tarjetas customizadas y aplicar este diseño en bot framework composer</description>
-    <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/bot-framework-composer-adaptive-cards.html</guid>
-    <category>bot framework</category>
   </item>
 </channel>
 </rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-en-pytorch</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-nuevo-framework-de-observabilidad-para-agent</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-para-desarrollo-de-agentes</loc><lastmod>2026-02-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</loc><lastmod>2026-02-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</loc><lastmod>2026-02-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-con-arquitectura-modular-y-py</loc><lastmod>2026-02-21</lastmod></url>

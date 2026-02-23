@@ -14,6 +14,7 @@
 
 var PostAnalytics = (function() {
   var STORAGE_KEY = 'c4a_views';
+  var MAX_AGE_MONTHS = 13; // AEPD/ePrivacy: max 13 months retention
 
   function _getData() {
     try {
@@ -28,6 +29,30 @@ var PostAnalytics = (function() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     } catch (e) { /* localStorage full or unavailable */ }
   }
+
+  /**
+   * Purge entries older than MAX_AGE_MONTHS (GDPR/AEPD compliance).
+   * Runs on every page load but only does work if there are expired entries.
+   */
+  function _purgeExpired() {
+    var data = _getData();
+    var cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - MAX_AGE_MONTHS);
+    var cutoffStr = cutoff.toISOString().split('T')[0];
+    var changed = false;
+
+    Object.keys(data).forEach(function(slug) {
+      if (data[slug].lastVisit && data[slug].lastVisit < cutoffStr) {
+        delete data[slug];
+        changed = true;
+      }
+    });
+
+    if (changed) _saveData(data);
+  }
+
+  // Run purge on load
+  _purgeExpired();
 
   /**
    * Register a view for a post.

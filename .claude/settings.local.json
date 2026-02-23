@@ -3,7 +3,16 @@
     "allow": [
       "Bash(node scripts/generate-placeholders.js:*)",
       "Bash(node:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(curl:*)",
+      "Bash(where:*)",
+      "Bash(\"C:/Windows/System32/curl.exe\" -sL -o poppins-300.woff2 \"https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2\")",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2'' -OutFile ''poppins-300.woff2''\")",
+      "Bash(powershell -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/poppins-300.woff2''; Write-Host ''OK''\")",
+      "Bash(powershell -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/poppins-400.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/poppins-500.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/poppins-600.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/poppins-700.woff2''; Write-Host ''Poppins OK''\")",
+      "Bash(powershell -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkq0.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/lora-400.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkq0.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/lora-400i.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787wsuxJBkq0.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/lora-700.woff2''; Invoke-WebRequest -Uri ''https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787z5sBJBkq0.woff2'' -OutFile ''E:/Txema/Proyectos/CodeForAll/fonts/lora-700i.woff2''; Write-Host ''Lora OK''\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File:*)",
+      "Bash(powershell -Command:*)"
     ]
   }
 }

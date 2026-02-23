@@ -67,32 +67,69 @@
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
-    		<section class="ftco-section ftco-no-pt ftco-no-pb">
-      		<div class="container">
-      			<div class="row d-flex">
-      				<div class="col-lg-8 px-md-5 py-5">
-      					<div class="row pt-md-4">
-      						<!-- Auto-generated banner -->
-      						<div id="autoGenBanner" class="auto-gen-banner" style="display:none">
-      							<span>&#129302;</span> Este art&iacute;culo fue generado autom&aacute;ticamente con IA.
-      							<a id="autoGenSource" href="#" target="_blank" rel="noopener">Ver fuente original</a>
-      						</div>
+			<!-- Article Hero Header -->
+			<div class="article-hero" id="articleHero">
+				<div class="article-hero-overlay"></div>
+				<div class="article-hero-content">
+					<div class="article-hero-badges" id="heroBadges"></div>
+					<h1 class="article-hero-title" id="title"></h1>
+					<p class="article-hero-desc" id="heroDesc"></p>
+					<div class="article-hero-meta" id="heroMeta"></div>
+				</div>
+			</div>
 
-      						<div id="postMeta" class="post-meta-header"></div>
-      						<h1 class="mb-3" id="title"></h1>
-      						<div id="postContent"></div>
+			<!-- Article Body -->
+			<article class="article-body">
+				<div class="article-container">
+					<!-- Auto-generated banner -->
+					<div id="autoGenBanner" class="article-ai-banner" style="display:none">
+						<div class="ai-banner-icon">&#129302;</div>
+						<div class="ai-banner-text">
+							<strong>Art&iacute;culo generado con IA</strong>
+							<span>Contenido auto-generado a partir de fuentes verificadas</span>
+						</div>
+						<a id="autoGenSource" href="#" target="_blank" rel="noopener" class="ai-banner-link">Ver fuente &rarr;</a>
+					</div>
 
-      						<div class="tag-widget post-tag-container mb-5 mt-5">
-      							<div class="tagcloud" id="tags">
-      							</div>
-      						</div>
+					<!-- Table of Contents -->
+					<nav class="article-toc" id="articleToc" style="display:none">
+						<div class="toc-header" onclick="toggleToc()">
+							<span>&#128203; Contenido del art&iacute;culo</span>
+							<span class="toc-toggle" id="tocToggle">&#9660;</span>
+						</div>
+						<ol class="toc-list" id="tocList"></ol>
+					</nav>
 
-      						<a href="index.html" class="btn-custom">&larr; Volver al inicio</a>
-      					</div>
-      				</div>
-      			</div>
-      		</div>
-    		</section>
+					<!-- Article Content -->
+					<div class="article-content" id="postContent"></div>
+
+					<!-- Tags -->
+					<div class="article-tags" id="tagsSection" style="display:none">
+						<div class="article-tags-label">Etiquetas</div>
+						<div class="article-tags-list" id="tags"></div>
+					</div>
+
+					<!-- Source Card (for auto-generated) -->
+					<div class="article-source-card" id="sourceCard" style="display:none">
+						<div class="source-card-icon">&#128279;</div>
+						<div class="source-card-info">
+							<div class="source-card-label">Fuente original</div>
+							<a id="sourceCardLink" href="#" target="_blank" rel="noopener" class="source-card-url"></a>
+						</div>
+					</div>
+
+					<!-- Share + Navigation -->
+					<div class="article-footer">
+						<div class="article-share">
+							<span class="share-label">Compartir:</span>
+							<a href="#" id="shareTwitter" target="_blank" rel="noopener" class="share-btn share-twitter" title="Twitter">&#120143;</a>
+							<a href="#" id="shareLinkedIn" target="_blank" rel="noopener" class="share-btn share-linkedin" title="LinkedIn">in</a>
+							<button class="share-btn share-copy" id="shareCopy" title="Copiar enlace" onclick="copyLink()">&#128203;</button>
+						</div>
+						<a href="index.html" class="article-back-btn">&larr; Volver al inicio</a>
+					</div>
+				</div>
+			</article>
 		</div><!-- END COLORLIB-MAIN -->
 	</div><!-- END COLORLIB-PAGE -->
 
@@ -115,6 +152,59 @@
   <script src="js/analytics.js"></script>
   <script src="js/main.js"></script>
   <script>
+  // ── TOC toggle ──
+  function toggleToc() {
+    var list = document.getElementById('tocList');
+    var toggle = document.getElementById('tocToggle');
+    if (list.style.display === 'none') {
+      list.style.display = 'block';
+      toggle.innerHTML = '&#9650;';
+    } else {
+      list.style.display = 'none';
+      toggle.innerHTML = '&#9660;';
+    }
+  }
+
+  // ── Copy link ──
+  function copyLink() {
+    navigator.clipboard.writeText(window.location.href).then(function() {
+      var btn = document.getElementById('shareCopy');
+      btn.innerHTML = '&#10003;';
+      setTimeout(function() { btn.innerHTML = '&#128203;'; }, 2000);
+    });
+  }
+
+  // ── Category config ──
+  var categoryConfig = {
+    LLM:               { icon: '&#129504;', color: '#0d47a1', bg: '#e3f2fd',  label: 'LLM' },
+    AGENTES:           { icon: '&#129302;', color: '#880e4f', bg: '#fce4ec',  label: 'Agentes' },
+    HERRAMIENTAS:      { icon: '&#128736;', color: '#006064', bg: '#e0f7fa',  label: 'Herramientas' },
+    GITHUB_REPO:       { icon: '&#128230;', color: '#3e2723', bg: '#efebe9',  label: 'GitHub Repo' },
+    BUENAS_PRACTICAS:  { icon: '&#9989;',   color: '#33691e', bg: '#f1f8e9',  label: 'Buenas Pr\u00e1cticas' },
+    INVESTIGACION:     { icon: '&#128300;', color: '#4527a0', bg: '#ede7f6',  label: 'Investigaci\u00f3n' },
+    AI:                { icon: '&#129302;', color: '#1565c0', bg: '#e3f2fd',  label: 'AI' },
+  };
+
+  // ── Clean heading text (remove markdown ##) ──
+  function cleanHeading(text) {
+    return text.replace(/^#+\s*\d*\.?\s*/, '').trim();
+  }
+
+  // ── Estimated reading time ──
+  function getReadingTime(content) {
+    if (!content) return 1;
+    var totalWords = 0;
+    content.forEach(function(block) {
+      if (block.text) totalWords += block.text.split(/\s+/).length;
+    });
+    return Math.max(1, Math.round(totalWords / 200));
+  }
+
+  // ── Strip HTML for description ──
+  function stripHtml(str) {
+    return str.replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, ' ').trim();
+  }
+
   (async function() {
     var params = new URLSearchParams(window.location.search);
     var slug = params.get('slug');
@@ -126,7 +216,7 @@
       var post = data.posts.find(function(p) { return p.slug === slug; });
 
       if (!post) {
-        document.getElementById('postContent').innerHTML = '<p>Post no encontrado</p>';
+        document.getElementById('postContent').innerHTML = '<div class="article-empty"><h2>Post no encontrado</h2><p>El art\u00edculo que buscas no existe.</p><a href="index.html" class="article-back-btn">&larr; Volver al inicio</a></div>';
         return;
       }
 
@@ -136,56 +226,97 @@
       // Update page title and meta tags
       document.title = post.title + ' - Code 4 All';
       var metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc) metaDesc.content = post.description;
+      if (metaDesc) metaDesc.content = stripHtml(post.description);
       var ogTitle = document.querySelector('meta[property="og:title"]');
       if (ogTitle) ogTitle.content = post.title;
       var ogDesc = document.querySelector('meta[property="og:description"]');
-      if (ogDesc) ogDesc.content = post.description;
+      if (ogDesc) ogDesc.content = stripHtml(post.description);
       var ogUrl = document.querySelector('meta[property="og:url"]');
       if (ogUrl) ogUrl.content = 'https://txemagonzalez.com/post.html?slug=' + slug;
       var twTitle = document.querySelector('meta[name="twitter:title"]');
       if (twTitle) twTitle.content = post.title;
       var twDesc = document.querySelector('meta[name="twitter:description"]');
-      if (twDesc) twDesc.content = post.description;
+      if (twDesc) twDesc.content = stripHtml(post.description);
 
-      // Render title
+      // ── Hero Header ──
+      var cat = categoryConfig[post.category || post.folder] || categoryConfig['AI'];
+      var heroEl = document.getElementById('articleHero');
+      heroEl.style.backgroundImage = 'url(' + (post.image || 'images/posts/ai-news-default.svg') + ')';
+
+      // Hero badges
+      var badgesHtml = '';
+      if (post.autoGenerated) {
+        badgesHtml += '<span class="hero-badge hero-badge-ai">&#129302; Auto-generado</span>';
+      }
+      badgesHtml += '<span class="hero-badge" style="background:' + cat.bg + ';color:' + cat.color + '">' + cat.icon + ' ' + cat.label + '</span>';
+      document.getElementById('heroBadges').innerHTML = badgesHtml;
+
+      // Hero title
       document.getElementById('title').textContent = post.title;
 
-      // Render meta info with view counter
-      var viewsText = PostAnalytics.formatViews(viewCount);
-      var metaHtml = '<p class="meta">' +
-        '<span><i class="icon-calendar mr-2"></i>' + (post.dateDisplay || post.date) + '</span>' +
-        '<span><i class="icon-folder-o mr-2"></i>' + post.folder + '</span>' +
-        (viewsText ? '<span class="post-views"><i class="icon-eye mr-1"></i>' + viewsText + '</span>' : '') +
-        '</p>';
-      document.getElementById('postMeta').innerHTML = metaHtml;
+      // Hero description
+      document.getElementById('heroDesc').textContent = stripHtml(post.description).substring(0, 200);
 
-      // Show auto-generated banner if applicable
+      // Hero meta
+      var readTime = getReadingTime(post.content);
+      var viewsText = PostAnalytics.formatViews(viewCount);
+      var metaHtml = '<span>&#128197; ' + (post.dateDisplay || post.date) + '</span>' +
+        '<span>&#9201; ' + readTime + ' min lectura</span>' +
+        (viewsText ? '<span>&#128065; ' + viewsText + '</span>' : '');
+      document.getElementById('heroMeta').innerHTML = metaHtml;
+
+      // ── Auto-generated banner ──
       if (post.autoGenerated) {
-        var banner = document.getElementById('autoGenBanner');
-        banner.style.display = 'flex';
+        document.getElementById('autoGenBanner').style.display = 'flex';
         if (post.sourceUrl) {
           var sourceLink = document.getElementById('autoGenSource');
           sourceLink.href = post.sourceUrl;
-          sourceLink.textContent = (post.sourceName || 'Fuente original');
+          sourceLink.textContent = (post.sourceName || 'Ver fuente') + ' \u2192';
+        }
+        // Source card
+        if (post.sourceUrl) {
+          document.getElementById('sourceCard').style.display = 'flex';
+          var cardLink = document.getElementById('sourceCardLink');
+          cardLink.href = post.sourceUrl;
+          cardLink.textContent = post.sourceName || post.sourceUrl;
         }
       }
 
-      // Render content
+      // ── Render Content with section numbers ──
       var contentHtml = '';
+      var tocItems = [];
+      var sectionNum = 0;
+
       if (post.content) {
-        post.content.forEach(function(block) {
+        post.content.forEach(function(block, idx) {
           switch (block.type) {
             case 't':
-              contentHtml += '<h2 class="mb-3 mt-5">' + block.text + '</h2>';
+              var headingText = cleanHeading(block.text);
+              // Skip if heading is same as title
+              if (headingText.toLowerCase() === post.title.toLowerCase()) break;
+              sectionNum++;
+              var anchorId = 'section-' + sectionNum;
+              tocItems.push({ id: anchorId, text: headingText, num: sectionNum });
+              contentHtml += '<h2 class="article-heading" id="' + anchorId + '">' +
+                '<span class="heading-num">' + sectionNum + '</span>' +
+                headingText + '</h2>';
               break;
             case 'code':
-              contentHtml += '<pre><code>' + block.text + '</code></pre>';
+              contentHtml += '<div class="article-code-block"><pre><code>' + block.text + '</code></pre></div>';
+              break;
+            case 'list':
+              contentHtml += '<ul class="article-list">';
+              if (Array.isArray(block.items)) {
+                block.items.forEach(function(item) {
+                  contentHtml += '<li>' + item + '</li>';
+                });
+              }
+              contentHtml += '</ul>';
               break;
             case 'p':
             default:
               if (block.text && block.text.trim() !== '') {
-                contentHtml += '<p>' + block.text + '</p>';
+                contentHtml += '<p class="article-paragraph">' + block.text + '</p>';
               }
               break;
           }
@@ -193,21 +324,39 @@
       }
       document.getElementById('postContent').innerHTML = contentHtml;
 
-      // Render tags
+      // ── Table of Contents ──
+      if (tocItems.length >= 2) {
+        var tocEl = document.getElementById('articleToc');
+        tocEl.style.display = 'block';
+        var tocHtml = '';
+        tocItems.forEach(function(item) {
+          tocHtml += '<li><a href="#' + item.id + '">' + item.text + '</a></li>';
+        });
+        document.getElementById('tocList').innerHTML = tocHtml;
+      }
+
+      // ── Tags ──
       var tagContainer = document.getElementById('tags');
-      if (post.tags) {
+      if (post.tags && post.tags.length > 0) {
+        document.getElementById('tagsSection').style.display = 'block';
         post.tags.forEach(function(tag) {
           var el = document.createElement('a');
-          el.href = '#';
-          el.className = 'tag-cloud-link';
-          el.textContent = tag;
+          el.href = 'index.html';
+          el.className = 'article-tag';
+          el.textContent = '#' + tag;
           tagContainer.appendChild(el);
         });
       }
 
+      // ── Share links ──
+      var pageUrl = encodeURIComponent(window.location.href);
+      var pageTitle = encodeURIComponent(post.title);
+      document.getElementById('shareTwitter').href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+      document.getElementById('shareLinkedIn').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+
     } catch (e) {
       console.error('Error loading post:', e);
-      document.getElementById('postContent').innerHTML = '<p>Error cargando el post.</p>';
+      document.getElementById('postContent').innerHTML = '<div class="article-empty"><h2>Error</h2><p>Error cargando el post.</p></div>';
     }
   })();
   </script>

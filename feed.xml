@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura RAG evolucionan hacia especialización en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-evolucionan-hacia-especializaci</link>
+    <description>&lt;cite index=&quot;57-1,57-2,57-4,57-5&quot;&gt;A medida que los sistemas agénticos maduran, la recuperación de talla única ha muerto. Las arquitecturas RAG ahora se dividen en patrones especializados, cada uno optimizado para precisión, profundidad de razonamiento, comprensión de relaciones o velocidad&lt;/cite&gt;. Se identifican 10 arquitecturas RAG críticas incluyendo Standard, Conversational, Self-RAG, Fusion, HyDE, Agentic y GraphRAG.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-evolucionan-hacia-especializaci</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza guía completa de 32 páginas para Claude Skills</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-guia-completa-de-32-paginas-para-claude-skil</link>
+    <description>&lt;cite index=&quot;42-1,42-4&quot;&gt;El 29 de enero de 2026, Anthropic publicó &apos;La Guía Completa para Construir Skills para Claude&apos;—un PDF comprensivo de 32 páginas. Combinado con MCP para acceso a herramientas, Skills representa un paso significativo hacia asistentes de IA que no solo entienden el lenguaje sino que entienden cómo realmente se hace el trabajo dentro de una organización específica&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-guia-completa-de-32-paginas-para-claude-skil</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain redefine debugging de agentes con nuevo framework de observabilidad</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</link>
+    <description>&lt;cite index=&quot;32-3,32-4&quot;&gt;Un agente podría llamar herramientas en un bucle, mantener estado a través de docenas de interacciones, y adaptar comportamiento basado en contexto—todo sin ninguna ruta de ejecución predecible. La pregunta de debugging cambia de &apos;¿qué función falló?&apos; a &apos;¿por qué el agente llamó edit_file en lugar de read_file en el paso 23 de 200?&apos;&lt;/cite&gt; El framework introduce primitivas de observabilidad diseñadas para sistemas no-deterministas.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>nanoclaw: Alternativa ligera a Clawdbot trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=nanoclaw-alternativa-ligera-a-clawdbot-trending-en-github</link>
+    <description>&lt;cite index=&quot;23-7,23-8&quot;&gt;Una alternativa ligera a Clawdbot / OpenClaw que funciona en contenedores para seguridad. Se conecta a WhatsApp, tiene memoria, trabajos programados, y funciona directamente en el SDK de Agentes de Anthropic&lt;/cite&gt;. El repositorio ha ganado 10.5k estrellas y demuestra el creciente interés en soluciones de agentes containerizadas.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nanoclaw-alternativa-ligera-a-clawdbot-trending-en-github</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face adquiere ggml.ai para impulsar IA local</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-impulsar-ia-local</link>
+    <description>&lt;cite index=&quot;14-16,14-17,14-18&quot;&gt;Hugging Face adquirió ggml.ai para asegurar el progreso a largo plazo de la IA local. El impacto de Georgi Gerganov en el espacio de modelos locales es difícil de exagerar. En marzo 2023 su lanzamiento de llama.cpp hizo posible ejecutar un LLM local en hardware de consumo&lt;/cite&gt;. La adquisición promete mejor integración con la biblioteca Transformers.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-impulsar-ia-local</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GPT-5.3 Codex y Claude Opus 4.6 dominan el desarrollo con IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-3-codex-y-claude-opus-4-6-dominan-el-desarrollo-con-ia</link>
+    <description>&lt;cite index=&quot;5-41,5-42,5-43&quot;&gt;OpenAI lanzó GPT-5.3-Codex y Anthropic desplegó Claude Opus 4.6 el 7 de febrero. También China&apos;s Zhipu lanzó GLM-5 que lidera benchmarks open-source. Los tres modelos se enfocan fuertemente en programación&lt;/cite&gt;, ofreciendo capacidades mejoradas para generación de código, debugging y asistencia técnica.</description>
+    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-3-codex-y-claude-opus-4-6-dominan-el-desarrollo-con-ia</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Anthropic publica guía completa para construir Skills en Claude</title>
     <link>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</link>
     <description>Anthropic ha lanzado una guía de 32 páginas para construir Skills en Claude, proporcionando documentación detallada sobre cómo crear capacidades reutilizables que permiten a Claude seguir flujos de trabajo específicos de forma consistente. Incluye integración con MCP para acceso a herramientas externas.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=dspy-framework-evoluciona-como-alternativa-de-programacion-d</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 enfoca en inferencia optimizada y kernels especializados</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoca-en-inferencia-optimizada</link>
-    <description>&lt;cite index=&quot;34-2,34-17&quot;&gt;Transformers v5 introduce cambios de paradigma significativos con kernels especializados, mejores valores por defecto, nuevas APIs y soporte para motores de inferencia optimizados.&lt;/cite&gt; &lt;cite index=&quot;34-20,34-21&quot;&gt;Incluye soporte para continuous batching y mecanismos de paged attention, utilizados internamente y optimizándose para uso general.&lt;/cite&gt; &lt;cite index=&quot;34-11,34-14&quot;&gt;El entrenamiento sigue siendo un gran foco, mejorando soporte para pre-entrenamiento a escala y colaborando estrechamente con herramientas de fine-tuning como Unsloth, Axolotl y TRL.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoca-en-inferencia-optimizada</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Sonnet 4.6 con capacidades de Computer Use y Context Compaction</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-capacidades-de-compute</link>
-    <description>&lt;cite index=&quot;44-27,44-29&quot;&gt;Claude ahora puede ver pantallas, hacer clic con el mouse y escribir en teclados como lo haría una persona, sin APIs especiales ni conectores diseñados específicamente.&lt;/cite&gt; &lt;cite index=&quot;50-21,50-5&quot;&gt;Introduce Context Compaction que permite a Claude resumir su propio contexto y realizar tareas de mayor duración sin chocar contra límites de tokens.&lt;/cite&gt; &lt;cite index=&quot;50-16,50-17&quot;&gt;El pensamiento adaptativo permite que Claude decida cuándo usar razonamiento más profundo basado en pistas contextuales.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-capacidades-de-compute</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain optimiza marcos RAG con enfoque agéntico para producción 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-optimiza-marcos-rag-con-enfoque-agentico-para-prod</link>
-    <description>&lt;cite index=&quot;21-8,21-13&quot;&gt;LangChain evoluciona significativamente hacia diseños RAG más confiables y agénticos en 2025-2026. Los enfoques agénticos mejoran el manejo de consultas complejas en 35-50% pero aumentan latencia en 200-400ms.&lt;/cite&gt; &lt;cite index=&quot;22-27,22-31&quot;&gt;Los sistemas de producción optimizados pueden reducir costos en 30-45% mediante enrutamiento inteligente, caché y degradación de modelos.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-optimiza-marcos-rag-con-enfoque-agentico-para-prod</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex y nuevos modelos de imagen para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-nuevos-modelos-de-imagen-para-d</link>
-    <description>&lt;cite index=&quot;11-19,11-21,17-1,17-6&quot;&gt;OpenAI introduce GPT-5.3-Codex, el modelo de codificación agéntica más capaz hasta la fecha, optimizado para tareas de programación complejas. El modelo funciona 25% más rápido gracias a mejoras en infraestructura y está diseñado específicamente para trabajar con NVIDIA GB200 NVL72.&lt;/cite&gt; &lt;cite index=&quot;13-29,13-30&quot;&gt;También lanzan gpt-image-1, un nuevo modelo de generación de imágenes que establece un nuevo estándar con mejor calidad y seguimiento de instrucciones.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-nuevos-modelos-de-imagen-para-d</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Azure Percept y Custom Vision</title>
-    <link>https://txemagonzalez.com/azure-percept-samples.html</link>
-    <description>Presentación de Azure Percept usando modelos generados en custom vision y el despliegue desantendido en el dispositivo</description>
-    <pubDate>Wed, 04 May 2022 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/azure-percept-samples.html</guid>
-    <category>IOT</category>
-  </item>
-  <item>
-    <title>Testing Firewall Roules for Azure AKS outbound traffic to Vnet with route table</title>
-    <link>https://txemagonzalez.com/test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html</link>
-    <description>Testear las reglas asociadas para la monitorización de un cluster de AKS en Azure que sale a través de una Vnet con una tabla de rutas</description>
-    <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/test-firewall-rules-for-aks-outbound-traffic-to-vnet-with-route-table.html</guid>
-    <category>AKS</category>
   </item>
 </channel>
 </rss>

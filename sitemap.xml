@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-evolucionan-hacia-especializaci</loc><lastmod>2026-02-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-guia-completa-de-32-paginas-para-claude-skil</loc><lastmod>2026-02-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</loc><lastmod>2026-02-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nanoclaw-alternativa-ligera-a-clawdbot-trending-en-github</loc><lastmod>2026-02-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-impulsar-ia-local</loc><lastmod>2026-02-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-3-codex-y-claude-opus-4-6-dominan-el-desarrollo-con-ia</loc><lastmod>2026-02-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</loc><lastmod>2026-02-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</loc><lastmod>2026-02-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</loc><lastmod>2026-02-22</lastmod></url>

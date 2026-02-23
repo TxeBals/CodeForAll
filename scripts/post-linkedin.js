@@ -100,51 +100,49 @@ REGLAS:
   return response.content[0].text.trim();
 }
 
-// ── Publicar en LinkedIn ──
+// ── Publicar en LinkedIn (API /rest/posts — versión actual) ──
 async function publishToLinkedIn(text) {
-  console.log('📤 Publicando en LinkedIn...');
+  console.log('📤 Publicando en LinkedIn con API /rest/posts...');
 
   const body = {
     author: `urn:li:person:${LINKEDIN_PERSON_URN}`,
-    lifecycleState: 'PUBLISHED',
-    specificContent: {
-      'com.linkedin.ugc.ShareContent': {
-        shareCommentary: {
-          text: text,
-        },
-        shareMediaCategory: 'ARTICLE',
-        media: [
-          {
-            status: 'READY',
-            originalUrl: 'https://txemagonzalez.com/',
-            title: {
-              text: '🤖 Noticias IA del día - Code 4 All',
-            },
-            description: {
-              text: 'Noticias diarias de IA, LLMs, agentes y herramientas para developers',
-            },
-          },
-        ],
+    commentary: text,
+    visibility: 'PUBLIC',
+    distribution: {
+      feedDistribution: 'MAIN_FEED',
+      targetEntities: [],
+      thirdPartyDistributionChannels: [],
+    },
+    content: {
+      article: {
+        source: 'https://txemagonzalez.com/',
+        title: '🤖 Noticias IA del día - Code 4 All',
+        description: 'Noticias diarias de IA, LLMs, agentes y herramientas para developers',
       },
     },
-    visibility: {
-      'com.linkedin.ugc.MemberNetworkVisibility': 'PUBLIC',
-    },
+    lifecycleState: 'PUBLISHED',
+    isReshareDisabledByAuthor: false,
   };
 
-  const res = await fetch('https://api.linkedin.com/v2/ugcPosts', {
+  const headers = {
+    'Authorization': `Bearer ${LINKEDIN_ACCESS_TOKEN}`,
+    'Content-Type': 'application/json',
+    'X-Restli-Protocol-Version': '2.0.0',
+    'LinkedIn-Version': '202402',
+  };
+
+  console.log('📋 Request body:', JSON.stringify(body, null, 2));
+
+  const res = await fetch('https://api.linkedin.com/rest/posts', {
     method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${LINKEDIN_ACCESS_TOKEN}`,
-      'Content-Type': 'application/json',
-      'X-Restli-Protocol-Version': '2.0.0',
-    },
+    headers: headers,
     body: JSON.stringify(body),
   });
 
+  // La API /rest/posts devuelve 201 sin body, el ID viene en el header x-restli-id
   if (res.ok || res.status === 201) {
-    const data = await res.json();
-    console.log('✅ Publicado en LinkedIn. ID:', data.id);
+    const postId = res.headers.get('x-restli-id') || res.headers.get('x-linkedin-id') || '(ver perfil)';
+    console.log('✅ Publicado en LinkedIn. ID:', postId);
     return;
   }
 
@@ -156,20 +154,16 @@ async function publishToLinkedIn(text) {
     console.log('🔄 Token expirado. Intentando refresh...');
     const newToken = await refreshToken();
     if (newToken) {
-      // Reintentar con token nuevo
-      const res2 = await fetch('https://api.linkedin.com/v2/ugcPosts', {
+      headers['Authorization'] = `Bearer ${newToken}`;
+      const res2 = await fetch('https://api.linkedin.com/rest/posts', {
         method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${newToken}`,
-          'Content-Type': 'application/json',
-          'X-Restli-Protocol-Version': '2.0.0',
-        },
+        headers: headers,
         body: JSON.stringify(body),
       });
 
       if (res2.ok || res2.status === 201) {
-        const data2 = await res2.json();
-        console.log('✅ Publicado con token renovado. ID:', data2.id);
+        const postId2 = res2.headers.get('x-restli-id') || '(ver perfil)';
+        console.log('✅ Publicado con token renovado. ID:', postId2);
         return;
       }
 

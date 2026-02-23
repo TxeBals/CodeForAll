@@ -33,9 +33,28 @@ jobs:
         run: node scripts/fetch-news.js
 
       - name: Commit and push changes
+        id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "AI News Bot"
           git add -A
-          git diff --staged --quiet || git commit -m "Auto: noticias IA $(date +'%Y-%m-%d')"
-          git push
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "⚠️ Sin cambios. No se commitea."
+          else
+            git commit -m "🤖 Auto: noticias IA $(date +'%Y-%m-%d')"
+            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Cambios commiteados y pusheados"
+          fi
+
+      - name: Post summary to LinkedIn
+        if: steps.commit.outputs.has_changes == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+        run: node scripts/post-linkedin.js

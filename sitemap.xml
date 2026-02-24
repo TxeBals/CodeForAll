@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</loc><lastmod>2026-02-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</loc><lastmod>2026-02-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=sistema-de-prompts-y-modelos-de-herramientas-de-ia-trending-</loc><lastmod>2026-02-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=actualizacion-de-langchain-para-sistemas-rag-agenticos-multi</loc><lastmod>2026-02-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-77-1-en-arc-agi-2-para-tarea</loc><lastmod>2026-02-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-para-escaneo-automatico</loc><lastmod>2026-02-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-evolucionan-hacia-especializaci</loc><lastmod>2026-02-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-guia-completa-de-32-paginas-para-claude-skil</loc><lastmod>2026-02-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</loc><lastmod>2026-02-23</lastmod></url>

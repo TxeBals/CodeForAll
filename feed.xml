@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Multi-Agent RAG con LangChain 0.5 y Claude Sonnet 4.5</title>
+    <link>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</link>
+    <description>Tutorial paso a paso para construir sistemas RAG multi-agente usando la última versión de LangChain. Cada agente especializado maneja dominios específicos con retrievers independientes.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Comparativa de frameworks RAG 2026: LangChain vs LlamaIndex para producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</link>
+    <description>Análisis técnico de arquitecturas para sistemas RAG en producción. LangChain domina orquestación y workflows, mientras LlamaIndex excede en ingesta de datos e indexación avanzada.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Sistema de prompts y modelos de herramientas de IA trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=sistema-de-prompts-y-modelos-de-herramientas-de-ia-trending-</link>
+    <description>Repositorio con 118k estrellas que recopila system prompts de herramientas como Claude Code, Cursor, Devin AI, y otras. Incluye configuraciones internas y modelos de IA para desarrolladores.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=sistema-de-prompts-y-modelos-de-herramientas-de-ia-trending-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Actualización de LangChain para sistemas RAG agenticos multi-paso</title>
+    <link>https://txemagonzalez.com/post.html?slug=actualizacion-de-langchain-para-sistemas-rag-agenticos-multi</link>
+    <description>Framework evoluciona hacia arquitecturas más confiables con LangGraph para sistemas agenticos. Nuevas capacidades de routing inteligente y evaluación automatizada para pipelines RAG de producción.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=actualizacion-de-langchain-para-sistemas-rag-agenticos-multi</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.1 Pro con 77.1% en ARC-AGI-2 para tareas de ingeniería</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-77-1-en-arc-agi-2-para-tarea</link>
+    <description>Nuevo modelo de razonamiento que duplica el rendimiento de su predecesor en benchmarks de lógica abstracta. Optimizado para workflows agenticos, ingeniería de software y ventana de contexto de 1M tokens.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-77-1-en-arc-agi-2-para-tarea</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Code Security para escaneo automático de vulnerabilidades</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-para-escaneo-automatico</link>
+    <description>Nueva herramienta de IA integrada en Claude Code que puede escanear repositorios completos de código en busca de vulnerabilidades complejas y sugerir parches específicos. Ya encontró 500+ vulnerabilidades zero-day en proyectos open source populares.</description>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-para-escaneo-automatico</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura RAG evolucionan hacia especialización en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-evolucionan-hacia-especializaci</link>
     <description>&lt;cite index=&quot;57-1,57-2,57-4,57-5&quot;&gt;A medida que los sistemas agénticos maduran, la recuperación de talla única ha muerto. Las arquitecturas RAG ahora se dividen en patrones especializados, cada uno optimizado para precisión, profundidad de razonamiento, comprensión de relaciones o velocidad&lt;/cite&gt;. Se identifican 10 arquitecturas RAG críticas incluyendo Standard, Conversational, Self-RAG, Fusion, HyDE, Agentic y GraphRAG.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.0 con arquitectura modular y PyTorch nativo</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-con-arquitectura-modular-y-py</link>
-    <description>&lt;cite index=&apos;41-11,41-12,41-13&apos;&gt;Hugging Face lanzó Transformers v5.0.0rc-0 después de cinco años, ahora con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales&lt;/cite&gt;. &lt;cite index=&apos;44-13&apos;&gt;La v5 incluye refactorización significativa con enfoque solo en PyTorch, eliminando el soporte para Flax/TensorFlow, y nueva API de carga de pesos mejorada&lt;/cite&gt;. &lt;cite index=&apos;43-19,43-20,43-21&apos;&gt;Cambiarán a lanzamientos menores semanales en lugar de cada 5 semanas para acceso más rápido a nuevos modelos&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-con-arquitectura-modular-y-py</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Computer Use 2.0 con nuevos comandos y herramientas</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-computer-use-2-0-con-nuevos-comandos-y-herra</link>
-    <description>&lt;cite index=&apos;33-1,33-2&apos;&gt;Anthropic actualizó la herramienta computer use con nuevos comandos incluyendo &apos;hold_key&apos;, &apos;left_mouse_down&apos;, &apos;left_mouse_up&apos;, &apos;scroll&apos;, &apos;triple_click&apos; y &apos;wait&apos;&lt;/cite&gt;. &lt;cite index=&apos;31-1,31-3,31-4&apos;&gt;Introdujeron Programmatic Tool Calling que permite a Claude orquestar herramientas a través de código en lugar de llamadas API individuales, escribiendo Python que maneja múltiples herramientas&lt;/cite&gt;. &lt;cite index=&apos;33-21,33-22,33-23&apos;&gt;También lanzaron Agent Skills, carpetas organizadas de instrucciones y scripts que Claude carga dinámicamente para tareas especializadas&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-computer-use-2-0-con-nuevos-comandos-y-herra</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain Graph Platform GA y nuevas funciones para agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-graph-platform-ga-y-nuevas-funciones-para-agentes</link>
-    <description>&lt;cite index=&apos;23-31,23-32&apos;&gt;LangGraph Platform ya está generalmente disponible como plataforma de despliegue para agentes con estado de larga duración, con despliegue de un clic&lt;/cite&gt;. &lt;cite index=&apos;23-33,23-34,23-35&apos;&gt;Lanzaron Open Agent Platform, un constructor de agentes sin código que permite seleccionar herramientas MCP, personalizar prompts y conectar fuentes de datos&lt;/cite&gt;. &lt;cite index=&apos;23-20,23-21&apos;&gt;LangSmith Observability ahora incluye métricas específicas para agentes con soporte para seguimiento de herramientas y trayectorias&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-graph-platform-ga-y-nuevas-funciones-para-agentes</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-4.1 con 1M tokens de contexto y nueva API Responses</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-con-1m-tokens-de-contexto-y-nueva-api-r</link>
-    <description>&lt;cite index=&apos;18-9,18-10,18-11&apos;&gt;OpenAI lanzó tres nuevos modelos: GPT-4.1, GPT-4.1 mini y GPT-4.1 nano con mejoras significativas en codificación y seguimiento de instrucciones. Los modelos soportan hasta 1 millón de tokens de contexto con mejor comprensión de contexto largo&lt;/cite&gt;. &lt;cite index=&apos;13-34,13-35,13-36&apos;&gt;También lanzaron la Responses API para crear agentes con herramientas integradas y el Agents SDK para orquestación de agentes&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-con-1m-tokens-de-contexto-y-nueva-api-r</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub trending: NVIDIA colabora con Hugging Face en modelos de IA física y robótica</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-trending-nvidia-colabora-con-hugging-face-en-modelos-</link>
-    <description>&lt;cite index=&quot;39-1,39-2&quot;&gt;NVIDIA colabora con Hugging Face para integrar modelos NVIDIA Isaac y bibliotecas en LeRobot, uniendo 2 millones de desarrolladores de robótica de NVIDIA con 13 millones de constructores de IA de Hugging Face.&lt;/cite&gt; &lt;cite index=&quot;39-16,39-17&quot;&gt;Los modelos GR00T N y Isaac Lab-Arena están disponibles en la biblioteca LeRobot para fine-tuning y evaluación fácil, junto con el nuevo módulo Jetson T4000 que ofrece 4x mayor eficiencia energética.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-trending-nvidia-colabora-con-hugging-face-en-modelos-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>DSPy framework evoluciona como alternativa de programación declarativa a prompt engineering</title>
-    <link>https://txemagonzalez.com/post.html?slug=dspy-framework-evoluciona-como-alternativa-de-programacion-d</link>
-    <description>&lt;cite index=&quot;51-1,51-4&quot;&gt;DSPy es el framework para programar—en lugar de hacer prompting—modelos de lenguaje, permitiendo iteración rápida en sistemas de IA modulares con algoritmos para optimizar prompts y pesos.&lt;/cite&gt; &lt;cite index=&quot;52-4,52-6&quot;&gt;Permite construir software de IA desde módulos de lenguaje natural y componerlos genéricamente con diferentes modelos, estrategias de inferencia o algoritmos de aprendizaje, haciendo el software más confiable y portable.&lt;/cite&gt; &lt;cite index=&quot;30-10,30-27&quot;&gt;En benchmarks recientes con componentes estandarizados, DSPy logró 100% de precisión junto con otros frameworks como LangChain y LlamaIndex.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=dspy-framework-evoluciona-como-alternativa-de-programacion-d</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

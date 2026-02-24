@@ -44,6 +44,61 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
+// ── Robust JSON array extraction ──
+// The AI sometimes returns text before/after or even inside the JSON.
+// This function tries multiple strategies to extract a valid JSON array.
+function extractJSONArray(text) {
+  // Strategy 1: Direct parse (best case)
+  try {
+    const parsed = JSON.parse(text);
+    if (Array.isArray(parsed)) return parsed;
+  } catch (_) {}
+
+  // Strategy 2: Find the outermost [...] with bracket balancing
+  const startIdx = text.indexOf('[');
+  if (startIdx !== -1) {
+    let depth = 0;
+    let inString = false;
+    let escape = false;
+    for (let i = startIdx; i < text.length; i++) {
+      const ch = text[i];
+      if (escape) { escape = false; continue; }
+      if (ch === '\\' && inString) { escape = true; continue; }
+      if (ch === '"') { inString = !inString; continue; }
+      if (inString) continue;
+      if (ch === '[') depth++;
+      if (ch === ']') {
+        depth--;
+        if (depth === 0) {
+          const candidate = text.substring(startIdx, i + 1);
+          try {
+            const parsed = JSON.parse(candidate);
+            if (Array.isArray(parsed)) return parsed;
+          } catch (_) {}
+          break;
+        }
+      }
+    }
+  }
+
+  // Strategy 3: Extract individual JSON objects and build array
+  const objects = [];
+  const objRegex = /\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}/g;
+  let m;
+  while ((m = objRegex.exec(text)) !== null) {
+    try {
+      const obj = JSON.parse(m[0]);
+      if (obj.title && obj.description) objects.push(obj);
+    } catch (_) {}
+  }
+  if (objects.length > 0) {
+    console.log('[Parse] Recuperados ' + objects.length + ' items via extraccion individual');
+    return objects;
+  }
+
+  throw new Error('No se pudo extraer JSON array valido del response');
+}
+
 async function main() {
   const today = new Date().toISOString().split('T')[0];
   console.log('Buscando noticias de IA para ' + today + '...');
@@ -100,12 +155,15 @@ async function main() {
 
   let newsItems;
   try {
-    const match = cleanText.match(/\[[\s\S]*\]/);
-    if (!match) throw new Error('No JSON array found');
-    newsItems = JSON.parse(match[0]);
+    newsItems = extractJSONArray(cleanText);
   } catch (e) {
     console.error('Error parseando noticias:', e.message);
-    console.log('Raw response:', cleanText.substring(0, 500));
+    console.log('Raw response (primeros 500 chars):', cleanText.substring(0, 500));
+    process.exit(1);
+  }
+
+  if (!newsItems || newsItems.length === 0) {
+    console.error('No se encontraron noticias validas');
     process.exit(1);
   }
 
@@ -152,8 +210,8 @@ async function main() {
         .map(b => b.text)
         .join('\n');
 
-      const artMatch = articleText.replace(/```json|```/g, '').trim().match(/\[[\s\S]*\]/);
-      contentBlocks = JSON.parse(artMatch[0]);
+      const artClean = articleText.replace(/```json|```/g, '').trim();
+      contentBlocks = extractJSONArray(artClean);
     } catch (e) {
       console.warn('Error en articulo ' + (i + 1) + ' (' + e.message + '), usando fallback');
       contentBlocks = [

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</loc><lastmod>2026-02-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</loc><lastmod>2026-02-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</loc><lastmod>2026-02-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-sota-de-7b-para-razonamiento-ma</loc><lastmod>2026-02-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-primera-version-mayor-en-5</loc><lastmod>2026-02-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-2-con-compactacion-de-contexto-automat</loc><lastmod>2026-02-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</loc><lastmod>2026-02-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</loc><lastmod>2026-02-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=sistema-de-prompts-y-modelos-de-herramientas-de-ia-trending-</loc><lastmod>2026-02-24</lastmod></url>

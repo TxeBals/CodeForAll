@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>GitHub Agentic Workflows entra en preview técnico con Copilot SDK programable</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</link>
+    <description>GitHub anuncia Agentic Workflows en preview técnico para automatización usando agentes de código en GitHub Actions. El nuevo Copilot SDK permite planificación, invocación de herramientas y ejecución de comandos como capa programable para cualquier aplicación.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RuVector: Base de datos vectorial y de grafos en Rust con formato RVF para despliegue edge</title>
+    <link>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</link>
+    <description>RuVector combina búsqueda HNSW, coherencia de corte mínimo dinámico e inteligencia de grafos en un solo motor. Introduce RVF (RuVector Format), archivos binarios que contienen vectores, modelos, kernel Linux y cadena de witness criptográfica en un solo archivo deployable.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 alcanza estabilidad general con middleware system y arquitectura simplificada</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</link>
+    <description>LangChain lanza su primera versión mayor estable con compromiso de no breaking changes hasta 2.0. Introduce sistema de middleware para customización, abstracción create_agent mejorada y nuevas capacidades de observabilidad para debugging de agentes.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenThinker3-7B: Nuevo modelo SOTA de 7B para razonamiento matemático y de código</title>
+    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-sota-de-7b-para-razonamiento-ma</link>
+    <description>El equipo de Open Thoughts lanza OpenThinker3-7B entrenado en OpenThoughts3-1.2M dataset, superando a DeepSeek-R1-Distill-Qwen-7B por 15+ puntos en benchmarks de razonamiento. Logra 53% en AIME25 y 51% en LiveCodeBench usando solo SFT sin reinforcement learning.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-sota-de-7b-para-razonamiento-ma</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Transformers v5.0 de Hugging Face: Primera versión mayor en 5 años con arquitectura PyTorch-first</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-primera-version-mayor-en-5</link>
+    <description>Hugging Face libera Transformers v5.0 después de 1200 commits, eliminando deprecaciones acumuladas e introduciendo refactors que simplifican APIs. La biblioteca ahora adopta PyTorch como backend único y hace de la cuantización una característica de primera clase.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-primera-version-mayor-en-5</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI presenta GPT-5.2 con compactación de contexto automática y nuevos niveles de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-2-con-compactacion-de-contexto-automat</link>
+    <description>OpenAI lanza GPT-5.2 Thinking con soporte para compactación de servidor y un nuevo nivel de razonamiento &apos;xhigh&apos;. La API Responses incluye capacidades mejoradas de herramientas y un nuevo endpoint /compact para manejar conversaciones largas con contexto extendido.</description>
+    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-2-con-compactacion-de-contexto-automat</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Multi-Agent RAG con LangChain 0.5 y Claude Sonnet 4.5</title>
     <link>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</link>
     <description>Tutorial paso a paso para construir sistemas RAG multi-agente usando la última versión de LangChain. Cada agente especializado maneja dominios específicos con retrievers independientes.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>NVIDIA lanza Nemotron 3 Nano con arquitectura híbrida MoE</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</link>
-    <description>NVIDIA presenta Nemotron 3 Nano 30B A3B, un modelo híbrido Mamba-Transformer con Mixture-of-Experts y ventana de contexto de 1M tokens. Incluye NeMo Gym para entrenamiento RL y un dataset de seguridad agentic con 11,000 trazas etiquetadas para desarrollo responsable.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nano-con-arquitectura-hibrida-moe</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con enfoque en PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-en-pytorch</link>
-    <description>Hugging Face ha lanzado Transformers v5.0.0 con un diseño completamente modular y enfoque exclusivo en PyTorch. La nueva versión incluye más de 400 arquitecturas de modelos y mejora significativamente el proceso de incorporación de nuevos modelos con soporte optimizado para entrenamiento a escala.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-en-pytorch</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain lanza nuevo framework de observabilidad para agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-nuevo-framework-de-observabilidad-para-agent</link>
-    <description>LangChain presenta un framework revolucionario de observabilidad diseñado específicamente para debugging de sistemas no deterministas de IA. Introduce primitivas para capturar pasos de ejecución individuales, evaluación de un solo turno y evaluación multi-turno para agentes complejos.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-nuevo-framework-de-observabilidad-para-agent</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2-Codex para desarrollo de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-para-desarrollo-de-agentes</link>
-    <description>OpenAI ha liberado GPT-5.2-Codex a través de la Responses API, una versión optimizada de GPT-5.2 específicamente diseñada para tareas de programación agentic en entornos Codex. Incluye mejoras significativas en la inferencia con una optimización del 40% más rápida para desarrolladores API.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-para-desarrollo-de-agentes</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Nuevos papers de investigación sobre RAG agnético y arquitecturas avanzadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</link>
-    <description>&lt;cite index=&apos;62-6,62-7&apos;&gt;Un survey completo sobre Agentic RAG muestra cómo los agentes autónomos embebidos en pipelines RAG pueden manejar estrategias de recuperación dinámicas y refinamiento iterativo&lt;/cite&gt;. &lt;cite index=&apos;61-4,61-5&apos;&gt;Otro paper presenta taxonomía completa de arquitecturas RAG categorizadas en diseños centrados en recuperador, generador, híbridos y orientados a robustez&lt;/cite&gt;. &lt;cite index=&apos;68-7,68-8,68-9&apos;&gt;RAG-Anything introduce framework unificado para recuperación multimodal reconceptualizando contenido como entidades de conocimiento interconectadas con construcción dual-graph&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-de-investigacion-sobre-rag-agnetico-y-arquitec</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework unifica Semantic Kernel y AutoGen</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</link>
-    <description>&lt;cite index=&apos;53-12,53-13&apos;&gt;Microsoft lanzó Agent Framework como SDK open-source que combina las capacidades de Semantic Kernel y AutoGen en un marco unificado para .NET y Python&lt;/cite&gt;. &lt;cite index=&apos;53-8&apos;&gt;Los workflows son orquestaciones basadas en grafos que conectan múltiples agentes y funciones para realizar tareas complejas de múltiples pasos&lt;/cite&gt;. &lt;cite index=&apos;58-4,58-5,58-6&apos;&gt;Está diseñado para ser el framework principal para aplicaciones basadas en agentes, con API de workflow que permite definir flujos multi-agente complejos usando enfoque basado en grafos&lt;/cite&gt;.</description>
-    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-semantic-kernel-y-autogen</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

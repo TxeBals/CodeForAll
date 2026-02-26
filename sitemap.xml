@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</loc><lastmod>2026-02-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</loc><lastmod>2026-02-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</loc><lastmod>2026-02-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=sistema-multi-agente-rag-con-langchain-0-5-para-arquitectura</loc><lastmod>2026-02-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-revoluciona-las-definiciones-de</loc><lastmod>2026-02-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-nuevas-capacidades-de-agentes-y-her</loc><lastmod>2026-02-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</loc><lastmod>2026-02-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</loc><lastmod>2026-02-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</loc><lastmod>2026-02-25</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>LangChain vs LlamaIndex: Guía de producción RAG 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</link>
+    <description>&lt;cite index=&apos;25-4,25-5,25-6&apos;&gt;RAG ha madurado de &quot;demo genial&quot; a &quot;arquitectura por defecto&quot; para aplicaciones LLM empresariales. Dos frameworks dominan: LangChain (orquestación) y LlamaIndex (framework de datos).&lt;/cite&gt; &lt;cite index=&apos;25-33,25-34,25-36&apos;&gt;Patrón común de producción: LlamaIndex maneja ingestión, transformaciones, indexación y evaluación; LangChain maneja orquestación multi-paso, herramientas y flujos de agentes.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Guía de arquitectura AI agnética empresarial para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</link>
+    <description>&lt;cite index=&apos;47-3,47-4,47-5&apos;&gt;Transición fundamental hacia sistemas AI agnéticos autónomos orientados a objetivos. Los agentes se diferencian por su &quot;bucle de decisión&quot; que evalúa contexto, itera razonamiento y selecciona acciones apropiadas.&lt;/cite&gt; &lt;cite index=&apos;47-10,47-11,47-12&apos;&gt;Arquitectura basada en tres pilares: Planificación (descomposición jerárquica), Utilización de herramientas (protocolo MCP), y Memoria multi-capa.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Repo trending: 500+ Proyectos AI con código para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</link>
+    <description>&lt;cite index=&apos;11-12,11-13,18-1,18-2&apos;&gt;Repositorio masivo con más de 500 proyectos de IA, aprendizaje automático, deep learning, visión computacional y NLP con código fuente. Perfecto para aprendizaje práctico a través de diversos dominios.&lt;/cite&gt; &lt;cite index=&apos;18-17,18-18&apos;&gt;Explora proyectos del mundo real cubriendo machine learning, deep learning, visión computacional y NLP, ideal para constructores prácticos.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Sistema Multi-Agente RAG con LangChain 0.5 para arquitecturas complejas</title>
+    <link>https://txemagonzalez.com/post.html?slug=sistema-multi-agente-rag-con-langchain-0-5-para-arquitectura</link>
+    <description>&lt;cite index=&apos;23-16,23-17,23-21&apos;&gt;Sistema RAG multi-agente con LangChain que enruta consultas, recupera contexto y sintetiza respuestas con agentes modulares, solucionando problemas cuando la base de conocimientos abarca múltiples dominios.&lt;/cite&gt; &lt;cite index=&apos;23-25,24-1,24-3&apos;&gt;Implementación usando LangChain 0.5, Claude Sonnet 4.5 y búsqueda vectorial, abordando limitaciones de los LLMs como alucinaciones y falta de profundidad específica del dominio.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=sistema-multi-agente-rag-con-langchain-0-5-para-arquitectura</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 revoluciona las definiciones de modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-revoluciona-las-definiciones-de</link>
+    <description>&lt;cite index=&apos;32-11,32-12,32-15&apos;&gt;Transformers v5 va all-in en PyTorch, actuando como fuente de verdad para definiciones de modelos con 1200 commits desde el último release menor.&lt;/cite&gt; &lt;cite index=&apos;32-17,32-18,32-19&apos;&gt;Colabora estrechamente con herramientas de fine-tuning como Unsloth, Axolotl, LlamaFactory y TRL, con releases semanales a partir de v5.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-revoluciona-las-definiciones-de</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2 con nuevas capacidades de agentes y herramientas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-nuevas-capacidades-de-agentes-y-her</link>
+    <description>&lt;cite index=&apos;1-2,1-13,1-14&apos;&gt;GPT-5.2 (Instant, Thinking y Pro) está disponible en ChatGPT para planes pagos y en la API para todos los desarrolladores. Incluye mejoras significativas en inteligencia general, comprensión de contexto largo, herramientas de agentes y visión.&lt;/cite&gt; &lt;cite index=&apos;1-11,1-19&apos;&gt;Las versiones optimizadas muestran rendimiento de agentes de última generación y capacidades avanzadas de razonamiento a largo plazo.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-nuevas-capacidades-de-agentes-y-her</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>GitHub Agentic Workflows entra en preview técnico con Copilot SDK programable</title>
     <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</link>
     <description>GitHub anuncia Agentic Workflows en preview técnico para automatización usando agentes de código en GitHub Actions. El nuevo Copilot SDK permite planificación, invocación de herramientas y ejecución de comandos como capa programable para cualquier aplicación.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;42-1,42-4&quot;&gt;El 29 de enero de 2026, Anthropic publicó &apos;La Guía Completa para Construir Skills para Claude&apos;—un PDF comprensivo de 32 páginas. Combinado con MCP para acceso a herramientas, Skills representa un paso significativo hacia asistentes de IA que no solo entienden el lenguaje sino que entienden cómo realmente se hace el trabajo dentro de una organización específica&lt;/cite&gt;.</description>
     <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-guia-completa-de-32-paginas-para-claude-skil</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain redefine debugging de agentes con nuevo framework de observabilidad</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</link>
-    <description>&lt;cite index=&quot;32-3,32-4&quot;&gt;Un agente podría llamar herramientas en un bucle, mantener estado a través de docenas de interacciones, y adaptar comportamiento basado en contexto—todo sin ninguna ruta de ejecución predecible. La pregunta de debugging cambia de &apos;¿qué función falló?&apos; a &apos;¿por qué el agente llamó edit_file en lugar de read_file en el paso 23 de 200?&apos;&lt;/cite&gt; El framework introduce primitivas de observabilidad diseñadas para sistemas no-deterministas.</description>
-    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-redefine-debugging-de-agentes-con-nuevo-framework-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>nanoclaw: Alternativa ligera a Clawdbot trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=nanoclaw-alternativa-ligera-a-clawdbot-trending-en-github</link>
-    <description>&lt;cite index=&quot;23-7,23-8&quot;&gt;Una alternativa ligera a Clawdbot / OpenClaw que funciona en contenedores para seguridad. Se conecta a WhatsApp, tiene memoria, trabajos programados, y funciona directamente en el SDK de Agentes de Anthropic&lt;/cite&gt;. El repositorio ha ganado 10.5k estrellas y demuestra el creciente interés en soluciones de agentes containerizadas.</description>
-    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nanoclaw-alternativa-ligera-a-clawdbot-trending-en-github</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face adquiere ggml.ai para impulsar IA local</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-impulsar-ia-local</link>
-    <description>&lt;cite index=&quot;14-16,14-17,14-18&quot;&gt;Hugging Face adquirió ggml.ai para asegurar el progreso a largo plazo de la IA local. El impacto de Georgi Gerganov en el espacio de modelos locales es difícil de exagerar. En marzo 2023 su lanzamiento de llama.cpp hizo posible ejecutar un LLM local en hardware de consumo&lt;/cite&gt;. La adquisición promete mejor integración con la biblioteca Transformers.</description>
-    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-impulsar-ia-local</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GPT-5.3 Codex y Claude Opus 4.6 dominan el desarrollo con IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-3-codex-y-claude-opus-4-6-dominan-el-desarrollo-con-ia</link>
-    <description>&lt;cite index=&quot;5-41,5-42,5-43&quot;&gt;OpenAI lanzó GPT-5.3-Codex y Anthropic desplegó Claude Opus 4.6 el 7 de febrero. También China&apos;s Zhipu lanzó GLM-5 que lidera benchmarks open-source. Los tres modelos se enfocan fuertemente en programación&lt;/cite&gt;, ofreciendo capacidades mejoradas para generación de código, debugging y asistencia técnica.</description>
-    <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-3-codex-y-claude-opus-4-6-dominan-el-desarrollo-con-ia</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic publica guía completa para construir Skills en Claude</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</link>
-    <description>Anthropic ha lanzado una guía de 32 páginas para construir Skills en Claude, proporcionando documentación detallada sobre cómo crear capacidades reutilizables que permiten a Claude seguir flujos de trabajo específicos de forma consistente. Incluye integración con MCP para acceso a herramientas externas.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-publica-guia-completa-para-construir-skills-en-cla</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Microsoft Visual Studio 2026 mejora IA para desarrollo agentic</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</link>
-    <description>Microsoft ha detallado las nuevas funciones de IA confiabilidad para Visual Studio 2026, centradas en experiencias de codificación basadas en agentes. Incluye un Planning Agent dedicado, integración mejorada del Copilot CLI, y soporte para Agent Skills con una vista unificada de sesiones.</description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-visual-studio-2026-mejora-ia-para-desarrollo-agent</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

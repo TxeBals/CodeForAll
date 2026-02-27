@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</loc><lastmod>2026-02-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-agentes-programables-personalizab</loc><lastmod>2026-02-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-y-sonnet-4-6</loc><lastmod>2026-02-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-perfiles-de-modelo-y-middleware-exp</loc><lastmod>2026-02-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-0-revoluciona-definiciones-de-modelos-de-ia</loc><lastmod>2026-02-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-y-nuevas-capacidades-de-realtime-api</loc><lastmod>2026-02-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</loc><lastmod>2026-02-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</loc><lastmod>2026-02-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</loc><lastmod>2026-02-26</lastmod></url>

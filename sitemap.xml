@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</loc><lastmod>2026-02-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</loc><lastmod>2026-02-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</loc><lastmod>2026-02-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primeras-versiones-estables-co</loc><lastmod>2026-02-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-disponible-en-vista-previa-tecnica-para-4</loc><lastmod>2026-02-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-programacion-mas-ava</loc><lastmod>2026-02-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</loc><lastmod>2026-02-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-agentes-programables-personalizab</loc><lastmod>2026-02-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-y-sonnet-4-6</loc><lastmod>2026-02-27</lastmod></url>

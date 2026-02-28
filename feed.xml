@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Protocolo de Contexto de Modelo (MCP) se convierte en estándar de la industria</title>
+    <link>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</link>
+    <description>&lt;cite index=&quot;43-12,43-13&quot;&gt;Anthropic dona el Protocolo de Contexto de Modelo (MCP) a la Fundación de IA Agentica bajo la Fundación Linux, co-fundada por Anthropic, Block y OpenAI&lt;/cite&gt;. &lt;cite index=&quot;50-5,50-6&quot;&gt;MCP se ha convertido en el protocolo de facto para conectar sistemas de IA con datos y herramientas del mundo real, adoptado por OpenAI, Google DeepMind, Microsoft y miles de desarrolladores&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Trending en GitHub: RuVector, OpenSandbox y proyectos de agentes Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</link>
+    <description>&lt;cite index=&quot;3-1&quot;&gt;RuVector es una base de datos de red neuronal de grafos vectoriales de alto rendimiento, en tiempo real y auto-aprendizaje construida en Rust&lt;/cite&gt;. &lt;cite index=&quot;3-4&quot;&gt;OpenSandbox es una plataforma sandbox de propósito general para aplicaciones de IA, ofreciendo SDKs multi-lenguaje y APIs unificadas para agentes de codificación&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Claude Cowork de Anthropic revoluciona el software empresarial con integración nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</link>
+    <description>&lt;cite index=&quot;45-9,45-10&quot;&gt;Claude Cowork es una plataforma de trabajo persistente que transforma la IA de asistente conversacional a colega digital autónomo, lanzando integraciones nativas profundas con Google Drive, Gmail y DocuSign&lt;/cite&gt;. &lt;cite index=&quot;45-6,45-14&quot;&gt;Utiliza el Protocolo de Contexto de Modelo (MCP) de código abierto para &apos;leer y escribir&apos; en toda la pila tecnológica de una empresa&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 y LangGraph 1.0: Primeras versiones estables con middleware y agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primeras-versiones-estables-co</link>
+    <description>&lt;cite index=&quot;25-3,25-4&quot;&gt;LangChain y LangGraph lanzan sus primeras versiones principales estables después de años de feedback, actualizando LangChain para enfocarse en el bucle de agente central y proporcionar flexibilidad con middleware&lt;/cite&gt;. &lt;cite index=&quot;25-5,25-6&quot;&gt;LangChain es la forma más rápida de construir un agente AI, mientras LangGraph es útil para agentes altamente personalizados y controlables&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primeras-versiones-estables-co</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK disponible en vista previa técnica para 4 lenguajes</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-disponible-en-vista-previa-tecnica-para-4</link>
+    <description>&lt;cite index=&quot;51-3,51-4&quot;&gt;El SDK de GitHub Copilot está disponible en Node.js/TypeScript, Python, Go y .NET, proporcionando acceso programático al motor del Copilot CLI&lt;/cite&gt;. &lt;cite index=&quot;52-4,52-5&quot;&gt;Expone el mismo motor probado en producción detrás de Copilot CLI: un runtime de agente que puede invocarse programáticamente sin necesidad de construir orquestación propia&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-disponible-en-vista-previa-tecnica-para-4</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex: El modelo de programación más avanzado con riesgos de ciberseguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-programacion-mas-ava</link>
+    <description>&lt;cite index=&quot;13-1,13-6,20-2&quot;&gt;GPT-5.3-Codex es el modelo de código agentico más capaz hasta la fecha, ejecutándose 25% más rápido gracias a mejoras en infraestructura. Marca el primer modelo que OpenAI considera lo suficientemente bueno para habilitar daño cibernético real&lt;/cite&gt;, &lt;cite index=&quot;13-9,13-10&quot;&gt;obteniendo rendimiento estado del arte en SWE-Bench Pro con cuatro lenguajes y Terminal-Bench 2.0&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-programacion-mas-ava</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Microsoft Agent Framework RC1 con soporte para workflows declarativos</title>
     <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</link>
     <description>&lt;cite index=&quot;55-1,55-4,55-16&quot;&gt;Microsoft ha lanzado Agent Framework RC1 con mejoras en Azure AI Search, soporte para workflows declarativos y correcciones importantes en procesamiento concurrente. Incluye nuevas herramientas InvokeFunctionTool para workflows declarativos y mejor compatibilidad con endpoints de terceros.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 alcanza estabilidad general con middleware system y arquitectura simplificada</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</link>
-    <description>LangChain lanza su primera versión mayor estable con compromiso de no breaking changes hasta 2.0. Introduce sistema de middleware para customización, abstracción create_agent mejorada y nuevas capacidades de observabilidad para debugging de agentes.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-alcanza-estabilidad-general-con-middleware-sys</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenThinker3-7B: Nuevo modelo SOTA de 7B para razonamiento matemático y de código</title>
-    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-sota-de-7b-para-razonamiento-ma</link>
-    <description>El equipo de Open Thoughts lanza OpenThinker3-7B entrenado en OpenThoughts3-1.2M dataset, superando a DeepSeek-R1-Distill-Qwen-7B por 15+ puntos en benchmarks de razonamiento. Logra 53% en AIME25 y 51% en LiveCodeBench usando solo SFT sin reinforcement learning.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-sota-de-7b-para-razonamiento-ma</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Transformers v5.0 de Hugging Face: Primera versión mayor en 5 años con arquitectura PyTorch-first</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-primera-version-mayor-en-5</link>
-    <description>Hugging Face libera Transformers v5.0 después de 1200 commits, eliminando deprecaciones acumuladas e introduciendo refactors que simplifican APIs. La biblioteca ahora adopta PyTorch como backend único y hace de la cuantización una característica de primera clase.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-primera-version-mayor-en-5</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI presenta GPT-5.2 con compactación de contexto automática y nuevos niveles de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-2-con-compactacion-de-contexto-automat</link>
-    <description>OpenAI lanza GPT-5.2 Thinking con soporte para compactación de servidor y un nuevo nivel de razonamiento &apos;xhigh&apos;. La API Responses incluye capacidades mejoradas de herramientas y un nuevo endpoint /compact para manejar conversaciones largas con contexto extendido.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-2-con-compactacion-de-contexto-automat</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Multi-Agent RAG con LangChain 0.5 y Claude Sonnet 4.5</title>
-    <link>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</link>
-    <description>Tutorial paso a paso para construir sistemas RAG multi-agente usando la última versión de LangChain. Cada agente especializado maneja dominios específicos con retrievers independientes.</description>
-    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=multi-agent-rag-con-langchain-0-5-y-claude-sonnet-4-5</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Comparativa de frameworks RAG 2026: LangChain vs LlamaIndex para producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</link>
-    <description>Análisis técnico de arquitecturas para sistemas RAG en producción. LangChain domina orquestación y workflows, mientras LlamaIndex excede en ingesta de datos e indexación avanzada.</description>
-    <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=comparativa-de-frameworks-rag-2026-langchain-vs-llamaindex-p</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

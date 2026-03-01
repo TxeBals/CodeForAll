@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>LangChain 1.0 y LangGraph 1.0: primera versión estable con arquitectura centrada en agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</link>
+    <description>&lt;cite index=&quot;52-1,52-3,52-4&quot;&gt;LangChain lanza las primeras versiones 1.0 de sus frameworks open source después de años de feedback, actualizando langchain para enfocarse en el core agent loop, con flexibilidad a través de middleware y mejor integración de modelos&lt;/cite&gt;. &lt;cite index=&quot;52-6,52-24,52-27&quot;&gt;Estas versiones 1.0 marcan compromiso de estabilidad sin breaking changes hasta 2.0, con nueva abstracción create_agent construida sobre LangGraph runtime&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Google lanza soporte oficial de MCP para servicios en la nube con servidores gestionados</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-soporte-oficial-de-mcp-para-servicios-en-la-nub</link>
+    <description>&lt;cite index=&quot;28-6,28-7,28-8&quot;&gt;Google anunció servidores MCP completamente gestionados y remotos, mejorando su infraestructura API existente para soportar MCP, proporcionando una capa unificada para todos los servicios de Google y Google Cloud&lt;/cite&gt;. &lt;cite index=&quot;28-16,28-17,28-19,28-22&quot;&gt;Incluye servidores MCP para BigQuery, Google Compute Engine para gestión autónoma de infraestructura, y Google Kubernetes Engine para operaciones de contenedores autónomas&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-soporte-oficial-de-mcp-para-servicios-en-la-nub</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Claude Code trending en GitHub como IDE agentico para la era de agentes AI</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-code-trending-en-github-como-ide-agentico-para-la-era</link>
+    <description>&lt;cite index=&quot;11-1,11-5&quot;&gt;Claude Code aparece como trending en GitHub, descrito como &apos;IDE for the AI Agents Era&apos; que permite ejecutar múltiples agentes como Claude Code y Codex en tu máquina, funcionando como herramienta de coding agentico que vive en terminal y entiende tu codebase&lt;/cite&gt;. &lt;cite index=&quot;19-3,19-4,19-5&quot;&gt;Alcanzó decenas de miles de estrellas en GitHub en meses, prometiendo experiencia de AI pair programmer completamente on-device sin enviar datos a servicios externos&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-code-trending-en-github-como-ide-agentico-para-la-era</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI lanza nuevo ChatGPT Images con GPT Image 1.5 y mejoras de velocidad 4x</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevo-chatgpt-images-con-gpt-image-1-5-y-mejora</link>
+    <description>&lt;cite index=&quot;33-7,33-8&quot;&gt;OpenAI presentó ChatGPT Images mejorado con mejor seguimiento de instrucciones, edición más precisa, manteniendo consistencia facial a través de ediciones, con velocidades de generación 4x más rápidas&lt;/cite&gt;. &lt;cite index=&quot;33-15,33-20&quot;&gt;El nuevo modelo está disponible como GPT Image 1.5 en la API para todos los usuarios&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevo-chatgpt-images-con-gpt-image-1-5-y-mejora</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Transformers v5 de Hugging Face: refactorización completa con arquitectura modular</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</link>
+    <description>&lt;cite index=&quot;42-1,42-2,42-6,42-7&quot;&gt;Se anunció Transformers v5, primera versión mayor en cinco años con 1200 commits desde la última versión menor, eliminando deprecaciones y refactorizando APIs para simplicidad&lt;/cite&gt;. &lt;cite index=&quot;42-11,42-12,42-13&quot;&gt;A partir de v5, Hugging Face hará releases menores cada semana en lugar de cada 5 semanas para que los desarrolladores accedan a nuevos modelos más rápido&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic dona el Model Context Protocol a la Linux Foundation creando Agentic AI Foundation</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-dona-el-model-context-protocol-a-la-linux-foundati</link>
+    <description>&lt;cite index=&quot;22-3,22-14,22-15&quot;&gt;Anthropic donó el Model Context Protocol (MCP) a la nueva Agentic AI Foundation bajo la Linux Foundation, co-fundada por Anthropic, Block y OpenAI, con soporte de Google, Microsoft, AWS, Cloudflare y Bloomberg&lt;/cite&gt;. &lt;cite index=&quot;22-6,22-7,22-8&quot;&gt;Claude ahora cuenta con un directorio de más de 75 conectores MCP, y se lanzó Tool Search y Programmatic Tool Calling en la API, además de un Registry oficial para descubrir servidores MCP y SDKs oficiales con 97M+ descargas mensuales&lt;/cite&gt;.</description>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-dona-el-model-context-protocol-a-la-linux-foundati</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
     <title>Protocolo de Contexto de Modelo (MCP) se convierte en estándar de la industria</title>
     <link>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</link>
     <description>&lt;cite index=&quot;43-12,43-13&quot;&gt;Anthropic dona el Protocolo de Contexto de Modelo (MCP) a la Fundación de IA Agentica bajo la Fundación Linux, co-fundada por Anthropic, Block y OpenAI&lt;/cite&gt;. &lt;cite index=&quot;50-5,50-6&quot;&gt;MCP se ha convertido en el protocolo de facto para conectar sistemas de IA con datos y herramientas del mundo real, adoptado por OpenAI, Google DeepMind, Microsoft y miles de desarrolladores&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Repo trending: 500+ Proyectos AI con código para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</link>
-    <description>&lt;cite index=&apos;11-12,11-13,18-1,18-2&apos;&gt;Repositorio masivo con más de 500 proyectos de IA, aprendizaje automático, deep learning, visión computacional y NLP con código fuente. Perfecto para aprendizaje práctico a través de diversos dominios.&lt;/cite&gt; &lt;cite index=&apos;18-17,18-18&apos;&gt;Explora proyectos del mundo real cubriendo machine learning, deep learning, visión computacional y NLP, ideal para constructores prácticos.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=repo-trending-500-proyectos-ai-con-codigo-para-desarrollador</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Sistema Multi-Agente RAG con LangChain 0.5 para arquitecturas complejas</title>
-    <link>https://txemagonzalez.com/post.html?slug=sistema-multi-agente-rag-con-langchain-0-5-para-arquitectura</link>
-    <description>&lt;cite index=&apos;23-16,23-17,23-21&apos;&gt;Sistema RAG multi-agente con LangChain que enruta consultas, recupera contexto y sintetiza respuestas con agentes modulares, solucionando problemas cuando la base de conocimientos abarca múltiples dominios.&lt;/cite&gt; &lt;cite index=&apos;23-25,24-1,24-3&apos;&gt;Implementación usando LangChain 0.5, Claude Sonnet 4.5 y búsqueda vectorial, abordando limitaciones de los LLMs como alucinaciones y falta de profundidad específica del dominio.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=sistema-multi-agente-rag-con-langchain-0-5-para-arquitectura</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 revoluciona las definiciones de modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-revoluciona-las-definiciones-de</link>
-    <description>&lt;cite index=&apos;32-11,32-12,32-15&apos;&gt;Transformers v5 va all-in en PyTorch, actuando como fuente de verdad para definiciones de modelos con 1200 commits desde el último release menor.&lt;/cite&gt; &lt;cite index=&apos;32-17,32-18,32-19&apos;&gt;Colabora estrechamente con herramientas de fine-tuning como Unsloth, Axolotl, LlamaFactory y TRL, con releases semanales a partir de v5.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-revoluciona-las-definiciones-de</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2 con nuevas capacidades de agentes y herramientas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-nuevas-capacidades-de-agentes-y-her</link>
-    <description>&lt;cite index=&apos;1-2,1-13,1-14&apos;&gt;GPT-5.2 (Instant, Thinking y Pro) está disponible en ChatGPT para planes pagos y en la API para todos los desarrolladores. Incluye mejoras significativas en inteligencia general, comprensión de contexto largo, herramientas de agentes y visión.&lt;/cite&gt; &lt;cite index=&apos;1-11,1-19&apos;&gt;Las versiones optimizadas muestran rendimiento de agentes de última generación y capacidades avanzadas de razonamiento a largo plazo.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-nuevas-capacidades-de-agentes-y-her</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub Agentic Workflows entra en preview técnico con Copilot SDK programable</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</link>
-    <description>GitHub anuncia Agentic Workflows en preview técnico para automatización usando agentes de código en GitHub Actions. El nuevo Copilot SDK permite planificación, invocación de herramientas y ejecución de comandos como capa programable para cualquier aplicación.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-entra-en-preview-tecnico-con-copilo</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RuVector: Base de datos vectorial y de grafos en Rust con formato RVF para despliegue edge</title>
-    <link>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</link>
-    <description>RuVector combina búsqueda HNSW, coherencia de corte mínimo dinámico e inteligencia de grafos en un solo motor. Introduce RVF (RuVector Format), archivos binarios que contienen vectores, modelos, kernel Linux y cadena de witness criptográfica en un solo archivo deployable.</description>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ruvector-base-de-datos-vectorial-y-de-grafos-en-rust-con-for</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

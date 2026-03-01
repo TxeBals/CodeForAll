@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</loc><lastmod>2026-03-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-soporte-oficial-de-mcp-para-servicios-en-la-nub</loc><lastmod>2026-03-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-code-trending-en-github-como-ide-agentico-para-la-era</loc><lastmod>2026-03-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevo-chatgpt-images-con-gpt-image-1-5-y-mejora</loc><lastmod>2026-03-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</loc><lastmod>2026-03-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-dona-el-model-context-protocol-a-la-linux-foundati</loc><lastmod>2026-03-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</loc><lastmod>2026-02-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</loc><lastmod>2026-02-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</loc><lastmod>2026-02-28</lastmod></url>

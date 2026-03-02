@@ -7,6 +7,62 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Google Gemini 3 Deep Research Agent: Investigación autónoma multi-step</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-deep-research-agent-investigacion-autonoma-m</link>
+    <description>Google lanzó Gemini Deep Research Agent en preview, capaz de planificar, ejecutar y sintetizar resultados autónomamente para tareas de investigación multi-step. Incluye Gemini 3 Pro con razonamiento estado del arte y nuevas capacidades agentic para desarrollo en AI Studio y Vertex AI.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-deep-research-agent-investigacion-autonoma-m</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>RAG en 2026: Mejores prácticas para sistemas de producción robustos</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-en-2026-mejores-practicas-para-sistemas-de-produccion-ro</link>
+    <description>Nuevos frameworks de evaluación RAG separan retrieval, groundedness y calidad de respuestas. Enfoque en guardrails concretos por etapa, evaluación con métricas específicas de negocio, y arquitectura como decisión de producto. Microsoft RAG evaluators 2025 introduce jueces basados en LLM para casos sin ground truth.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-en-2026-mejores-practicas-para-sistemas-de-produccion-ro</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK en preview técnico: Capa programable para aplicaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-en-preview-tecnico-capa-programable-para-</link>
+    <description>GitHub lanzó el Copilot SDK que permite planificar, invocar herramientas, editar archivos y ejecutar comandos como capa programable para cualquier aplicación. Incluye model picker, self-review, security scanning y handoff CLI, con agentes background que operan en repositorios.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-en-preview-tecnico-capa-programable-para-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.2: Agent Builder con capacidades multi-agente mejoradas</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-2-agent-builder-con-capacidades-multi-agente-mej</link>
+    <description>LangChain presentó Agent Builder para crear agentes con lenguaje natural, comparación de experimentos side-by-side, y Insights Agent para análisis automático de trazas. Versión JS 1.2.13 incluye herramientas dinámicas, recuperación de errores de alucinaciones y mejores señales de streaming.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-2-agent-builder-con-capacidades-multi-agente-mej</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.0: Refactorización completa hacia modularidad</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-refactorizacion-completa-haci</link>
+    <description>Hugging Face lanzó Transformers v5.0 tras 5 años, con arquitectura completamente modular, releases semanales en lugar de cada 5 semanas, tokenización simplificada y eliminación de deuda técnica acumulada. Incluye 1200+ commits con mejoras significativas en APIs internas.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-refactorizacion-completa-haci</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic Claude 3.7 Sonnet: Primer modelo de razonamiento híbrido del mercado</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-3-7-sonnet-primer-modelo-de-razonamiento-hi</link>
+    <description>Anthropic lanzó Claude 3.7 Sonnet, el primer modelo híbrido que puede producir respuestas instantáneas o razonamiento extendido visible al usuario. Incluye Claude Code, una herramienta agentic para coding en preview limitado, y control granular sobre presupuesto de thinking tokens vía API.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-3-7-sonnet-primer-modelo-de-razonamiento-hi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex: El modelo de coding más avanzado hasta la fecha</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-coding-mas-avanzado-</link>
+    <description>OpenAI presentó GPT-5.3-Codex, que combina las mejores capacidades de generación de código, razonamiento e inteligencia general en un modelo unificado. Es 25% más rápido que versiones anteriores y establece nuevos récords en SWE-Bench Pro y Terminal-Bench 2.0, con soporte para workflows multi-agente.</description>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-coding-mas-avanzado-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>LangChain 1.0 y LangGraph 1.0: primera versión estable con arquitectura centrada en agentes</title>
     <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</link>
     <description>&lt;cite index=&quot;52-1,52-3,52-4&quot;&gt;LangChain lanza las primeras versiones 1.0 de sus frameworks open source después de años de feedback, actualizando langchain para enfocarse en el core agent loop, con flexibilidad a través de middleware y mejor integración de modelos&lt;/cite&gt;. &lt;cite index=&quot;52-6,52-24,52-27&quot;&gt;Estas versiones 1.0 marcan compromiso de estabilidad sin breaking changes hasta 2.0, con nueva abstracción create_agent construida sobre LangGraph runtime&lt;/cite&gt;.</description>
@@ -109,62 +165,6 @@
     <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK permite agentes programables personalizables</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-agentes-programables-personalizab</link>
-    <description>&lt;cite index=&quot;2-31,2-32,2-33&quot;&gt;GitHub ha lanzado el Copilot SDK en vista previa técnica como una capa programable para crear aplicaciones con agentes que pueden planificar, invocar herramientas, editar archivos y ejecutar comandos. Permite ejecutar tests, arreglar código y obtener soporte directamente en el workflow.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-agentes-programables-personalizab</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Code Security y Sonnet 4.6</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-y-sonnet-4-6</link>
-    <description>&lt;cite index=&quot;31-23,32-5,32-6&quot;&gt;Claude Code Security lanza en vista previa limitada para Enterprise y Team, ofreciendo análisis de código impulsado por IA. Claude Sonnet 4.6 presenta actualizaciones completas en codificación, uso de computadora y ventana de contexto de 1M tokens.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-security-y-sonnet-4-6</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain v1.1 introduce perfiles de modelo y middleware expandido</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-perfiles-de-modelo-y-middleware-exp</link>
-    <description>&lt;cite index=&quot;26-1,26-4,26-5&quot;&gt;LangChain 1.1 hace el desarrollo de agentes más confiable con un nuevo sistema de perfiles de modelo y middleware expandido. Los modelos de chat ahora exponen capacidades soportadas (salida estructurada, llamadas de función) basadas en datos de models.dev.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-perfiles-de-modelo-y-middleware-exp</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Transformers v5.0 revoluciona definiciones de modelos de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-0-revoluciona-definiciones-de-modelos-de-ia</link>
-    <description>&lt;cite index=&quot;41-19,42-1,42-2&quot;&gt;Hugging Face ha lanzado Transformers v5.0, la primera versión mayor en cinco años con 1,200 commits. El ecosistema ha crecido de 40 a más de 400 arquitecturas de modelos, con más de 750,000 checkpoints compatibles en el Hub.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-0-revoluciona-definiciones-de-modelos-de-ia</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2 y nuevas capacidades de Realtime API</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-y-nuevas-capacidades-de-realtime-api</link>
-    <description>&lt;cite index=&quot;17-1,17-2,17-14&quot;&gt;OpenAI ha lanzado GPT-5.2 (Instant, Thinking y Pro) en ChatGPT y la API con mejoras significativas en inteligencia general y comprensión de contexto largo. La API incluye un nuevo modelo gpt-realtime-1.5 con transcripción de voz 10% más precisa y 40% más velocidad para agentes.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-y-nuevas-capacidades-de-realtime-api</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain vs LlamaIndex: Guía de producción RAG 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</link>
-    <description>&lt;cite index=&apos;25-4,25-5,25-6&apos;&gt;RAG ha madurado de &quot;demo genial&quot; a &quot;arquitectura por defecto&quot; para aplicaciones LLM empresariales. Dos frameworks dominan: LangChain (orquestación) y LlamaIndex (framework de datos).&lt;/cite&gt; &lt;cite index=&apos;25-33,25-34,25-36&apos;&gt;Patrón común de producción: LlamaIndex maneja ingestión, transformaciones, indexación y evaluación; LangChain maneja orquestación multi-paso, herramientas y flujos de agentes.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-vs-llamaindex-guia-de-produccion-rag-2026</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Guía de arquitectura AI agnética empresarial para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</link>
-    <description>&lt;cite index=&apos;47-3,47-4,47-5&apos;&gt;Transición fundamental hacia sistemas AI agnéticos autónomos orientados a objetivos. Los agentes se diferencian por su &quot;bucle de decisión&quot; que evalúa contexto, itera razonamiento y selecciona acciones apropiadas.&lt;/cite&gt; &lt;cite index=&apos;47-10,47-11,47-12&apos;&gt;Arquitectura basada en tres pilares: Planificación (descomposición jerárquica), Utilización de herramientas (protocolo MCP), y Memoria multi-capa.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-ai-agnetica-empresarial-para-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

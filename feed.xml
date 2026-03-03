@@ -7,6 +7,70 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Repositorio 500+ Proyectos AI con Código Fuente Trending</title>
+    <link>https://txemagonzalez.com/post.html?slug=repositorio-500-proyectos-ai-con-codigo-fuente-trending</link>
+    <description>El repositorio de ashishpatel26 con más de 500 proyectos de AI, ML, DL, Computer Vision y NLP con código fuente se mantiene como uno de los recursos más populares para desarrolladores que buscan proyectos prácticos y ejemplos de implementación.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repositorio-500-proyectos-ai-con-codigo-fuente-trending</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework Unifica AutoGen y Semantic Kernel</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-autogen-y-semantic-kernel</link>
+    <description>Microsoft combina AutoGen y Semantic Kernel en el nuevo Microsoft Agent Framework, ofreciendo workflows basados en grafos, mejor observabilidad y soporte para .NET y Python. Actualmente en preview público con guías de migración disponibles.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-autogen-y-semantic-kernel</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Google Gemini 3.1 Pro con Nuevos Controles de Reasoning</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-1-pro-con-nuevos-controles-de-reasoning</link>
+    <description>Google lanza Gemini 3.1 Pro Preview con nuevo parámetro thinking_level para controlar profundidad de razonamiento, Thought Signatures obligatorias para function calling, y soporte mejorado para Grounding con structured outputs.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-1-pro-con-nuevos-controles-de-reasoning</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic Lanza Claude 4 con Capacidades de Memoria y Código</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-con-capacidades-de-memoria-y-codigo</link>
+    <description>Claude 4 Opus y Sonnet introducen thinking extendido con uso de herramientas, mejores capacidades de memoria local y Claude Code ahora disponible en VS Code y JetBrains con integraciones GitHub Actions.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-con-capacidades-de-memoria-y-codigo</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain v1.1 Añade Perfiles de Modelos y Middleware Expandido</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-anade-perfiles-de-modelos-y-middleware-expand</link>
+    <description>LangChain 1.1 introduce un sistema de perfiles de modelos que describe capacidades soportadas, middleware de moderación OpenAI y mejor manejo de structured output. Los perfiles se obtienen de models.dev para dar información precisa a desarrolladores.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-anade-perfiles-de-modelos-y-middleware-expand</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Transformers.js v4 Disponible en NPM con Runtime WebGPU</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-js-v4-disponible-en-npm-con-runtime-webgpu</link>
+    <description>Transformers.js v4 preview ahora disponible en NPM con nuevo runtime WebGPU reescrito en C++, arquitectura monorepo y biblioteca de tokenización separada. Reduce tamaños de bundle hasta 53% y mejora rendimiento significativamente.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-js-v4-disponible-en-npm-con-runtime-webgpu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 Simplifica Definiciones de Modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-simplifica-definiciones-de-mode</link>
+    <description>Transformers v5 introduce un rediseño completo con arquitectura modular, enfoque únicamente en PyTorch y soporte mejorado para pre-entrenamiento. Incluye releases semanales menores y mejor interoperabilidad con el ecosistema.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-simplifica-definiciones-de-mode</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI Lanza GPT-4.1 API con Mejor Rendimiento para Agentes de Software</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-api-con-mejor-rendimiento-para-agentes-</link>
+    <description>OpenAI introduce la familia GPT-4.1 con mejoras significativas en seguimiento de instrucciones, programación y comprensión de contexto largo. Incluye GPT-4.1 mini con 83% menos costo y GPT-4.1 nano como el modelo más rápido.</description>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-api-con-mejor-rendimiento-para-agentes-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Google Gemini 3 Deep Research Agent: Investigación autónoma multi-step</title>
     <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-deep-research-agent-investigacion-autonoma-m</link>
     <description>Google lanzó Gemini Deep Research Agent en preview, capaz de planificar, ejecutar y sintetizar resultados autónomamente para tareas de investigación multi-step. Incluye Gemini 3 Pro con razonamiento estado del arte y nuevas capacidades agentic para desarrollo en AI Studio y Vertex AI.</description>
@@ -101,70 +165,6 @@
     <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic dona el Model Context Protocol a la Linux Foundation creando Agentic AI Foundation</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-dona-el-model-context-protocol-a-la-linux-foundati</link>
-    <description>&lt;cite index=&quot;22-3,22-14,22-15&quot;&gt;Anthropic donó el Model Context Protocol (MCP) a la nueva Agentic AI Foundation bajo la Linux Foundation, co-fundada por Anthropic, Block y OpenAI, con soporte de Google, Microsoft, AWS, Cloudflare y Bloomberg&lt;/cite&gt;. &lt;cite index=&quot;22-6,22-7,22-8&quot;&gt;Claude ahora cuenta con un directorio de más de 75 conectores MCP, y se lanzó Tool Search y Programmatic Tool Calling en la API, además de un Registry oficial para descubrir servidores MCP y SDKs oficiales con 97M+ descargas mensuales&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-dona-el-model-context-protocol-a-la-linux-foundati</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Protocolo de Contexto de Modelo (MCP) se convierte en estándar de la industria</title>
-    <link>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</link>
-    <description>&lt;cite index=&quot;43-12,43-13&quot;&gt;Anthropic dona el Protocolo de Contexto de Modelo (MCP) a la Fundación de IA Agentica bajo la Fundación Linux, co-fundada por Anthropic, Block y OpenAI&lt;/cite&gt;. &lt;cite index=&quot;50-5,50-6&quot;&gt;MCP se ha convertido en el protocolo de facto para conectar sistemas de IA con datos y herramientas del mundo real, adoptado por OpenAI, Google DeepMind, Microsoft y miles de desarrolladores&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=protocolo-de-contexto-de-modelo-mcp-se-convierte-en-estandar</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Trending en GitHub: RuVector, OpenSandbox y proyectos de agentes Claude</title>
-    <link>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</link>
-    <description>&lt;cite index=&quot;3-1&quot;&gt;RuVector es una base de datos de red neuronal de grafos vectoriales de alto rendimiento, en tiempo real y auto-aprendizaje construida en Rust&lt;/cite&gt;. &lt;cite index=&quot;3-4&quot;&gt;OpenSandbox es una plataforma sandbox de propósito general para aplicaciones de IA, ofreciendo SDKs multi-lenguaje y APIs unificadas para agentes de codificación&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=trending-en-github-ruvector-opensandbox-y-proyectos-de-agent</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Claude Cowork de Anthropic revoluciona el software empresarial con integración nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</link>
-    <description>&lt;cite index=&quot;45-9,45-10&quot;&gt;Claude Cowork es una plataforma de trabajo persistente que transforma la IA de asistente conversacional a colega digital autónomo, lanzando integraciones nativas profundas con Google Drive, Gmail y DocuSign&lt;/cite&gt;. &lt;cite index=&quot;45-6,45-14&quot;&gt;Utiliza el Protocolo de Contexto de Modelo (MCP) de código abierto para &apos;leer y escribir&apos; en toda la pila tecnológica de una empresa&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-cowork-de-anthropic-revoluciona-el-software-empresari</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 y LangGraph 1.0: Primeras versiones estables con middleware y agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primeras-versiones-estables-co</link>
-    <description>&lt;cite index=&quot;25-3,25-4&quot;&gt;LangChain y LangGraph lanzan sus primeras versiones principales estables después de años de feedback, actualizando LangChain para enfocarse en el bucle de agente central y proporcionar flexibilidad con middleware&lt;/cite&gt;. &lt;cite index=&quot;25-5,25-6&quot;&gt;LangChain es la forma más rápida de construir un agente AI, mientras LangGraph es útil para agentes altamente personalizados y controlables&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primeras-versiones-estables-co</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK disponible en vista previa técnica para 4 lenguajes</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-disponible-en-vista-previa-tecnica-para-4</link>
-    <description>&lt;cite index=&quot;51-3,51-4&quot;&gt;El SDK de GitHub Copilot está disponible en Node.js/TypeScript, Python, Go y .NET, proporcionando acceso programático al motor del Copilot CLI&lt;/cite&gt;. &lt;cite index=&quot;52-4,52-5&quot;&gt;Expone el mismo motor probado en producción detrás de Copilot CLI: un runtime de agente que puede invocarse programáticamente sin necesidad de construir orquestación propia&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-disponible-en-vista-previa-tecnica-para-4</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex: El modelo de programación más avanzado con riesgos de ciberseguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-programacion-mas-ava</link>
-    <description>&lt;cite index=&quot;13-1,13-6,20-2&quot;&gt;GPT-5.3-Codex es el modelo de código agentico más capaz hasta la fecha, ejecutándose 25% más rápido gracias a mejoras en infraestructura. Marca el primer modelo que OpenAI considera lo suficientemente bueno para habilitar daño cibernético real&lt;/cite&gt;, &lt;cite index=&quot;13-9,13-10&quot;&gt;obteniendo rendimiento estado del arte en SWE-Bench Pro con cuatro lenguajes y Terminal-Bench 2.0&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-programacion-mas-ava</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework RC1 con soporte para workflows declarativos</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</link>
-    <description>&lt;cite index=&quot;55-1,55-4,55-16&quot;&gt;Microsoft ha lanzado Agent Framework RC1 con mejoras en Azure AI Search, soporte para workflows declarativos y correcciones importantes en procesamiento concurrente. Incluye nuevas herramientas InvokeFunctionTool para workflows declarativos y mejor compatibilidad con endpoints de terceros.&lt;/cite&gt;</description>
-    <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc1-con-soporte-para-workflows-dec</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

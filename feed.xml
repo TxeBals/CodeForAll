@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Arquitecturas nativas de IA como nueva baseline para aplicaciones 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=arquitecturas-nativas-de-ia-como-nueva-baseline-para-aplicac</link>
+    <description>Las arquitecturas nativas de IA son ahora la expectativa baseline para nuevas aplicaciones. Incluyen pipelines de aprendizaje continuo, orquestación multi-modelo, inferencia en tiempo real y bases de datos vectoriales como capa de datos de primera clase.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=arquitecturas-nativas-de-ia-como-nueva-baseline-para-aplicac</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenSandbox: plataforma sandbox general para aplicaciones de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=opensandbox-plataforma-sandbox-general-para-aplicaciones-de-</link>
+    <description>OpenSandbox ofrece SDKs multi-lenguaje, APIs unificadas y runtimes Docker/Kubernetes para escenarios como Coding Agents, GUI Agents, evaluación de agentes, ejecución de código IA y entrenamiento RL.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=opensandbox-plataforma-sandbox-general-para-aplicaciones-de-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Patrones de diseño multi-agente: guía de Google con 8 arquitecturas esenciales</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-diseno-multi-agente-guia-de-google-con-8-arquite</link>
+    <description>Google identifica 8 patrones fundamentales para sistemas multi-agente usando su Agent Development Kit. Incluye pipeline secuencial, descomposición jerárquica, generator-critic, refinamiento iterativo y más patrones para sistemas modulares y testeable.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-diseno-multi-agente-guia-de-google-con-8-arquite</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Claude Code domina herramientas de desarrollo alcanzando el puesto #1</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-code-domina-herramientas-de-desarrollo-alcanzando-el-</link>
+    <description>Claude Code ha alcanzado el puesto #1 en herramientas de IA para desarrolladores en solo 8 meses. 95% de desarrolladores usan IA semanalmente, y 55% usa agentes de IA regularmente según encuesta con casi 1000 desarrolladores.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-code-domina-herramientas-de-desarrollo-alcanzando-el-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: asistente IA personal open-source más trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-open-source-mas-trending-en-g</link>
+    <description>OpenClaw es el repositorio GitHub de más rápido crecimiento en la historia. Asistente IA personal que se ejecuta en hardware propio y se conecta a WhatsApp, Telegram, Slack, Discord y más canales con más de 5,700 skills comunitarias.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-open-source-mas-trending-en-g</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>NVIDIA GLM-5 gratuito en plataforma NIM con 40 solicitudes por minuto</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-glm-5-gratuito-en-plataforma-nim-con-40-solicitudes-p</link>
+    <description>NVIDIA aloja GLM-5 (744B parámetros totales, 40B activos vía MoE) gratuitamente en su plataforma NIM. Ofrece ventana de contexto de 205K tokens, licencia MIT, y benchmarks impresionantes: 92.7% en AIME 2026 y 86% en GPQA-Diamond.</description>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-glm-5-gratuito-en-plataforma-nim-con-40-solicitudes-p</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Repositorio 500+ Proyectos AI con Código Fuente Trending</title>
     <link>https://txemagonzalez.com/post.html?slug=repositorio-500-proyectos-ai-con-codigo-fuente-trending</link>
     <description>El repositorio de ashishpatel26 con más de 500 proyectos de AI, ML, DL, Computer Vision y NLP con código fuente se mantiene como uno de los recursos más populares para desarrolladores que buscan proyectos prácticos y ejemplos de implementación.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-3-7-sonnet-primer-modelo-de-razonamiento-hi</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex: El modelo de coding más avanzado hasta la fecha</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-coding-mas-avanzado-</link>
-    <description>OpenAI presentó GPT-5.3-Codex, que combina las mejores capacidades de generación de código, razonamiento e inteligencia general en un modelo unificado. Es 25% más rápido que versiones anteriores y establece nuevos récords en SWE-Bench Pro y Terminal-Bench 2.0, con soporte para workflows multi-agente.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-el-modelo-de-coding-mas-avanzado-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 y LangGraph 1.0: primera versión estable con arquitectura centrada en agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</link>
-    <description>&lt;cite index=&quot;52-1,52-3,52-4&quot;&gt;LangChain lanza las primeras versiones 1.0 de sus frameworks open source después de años de feedback, actualizando langchain para enfocarse en el core agent loop, con flexibilidad a través de middleware y mejor integración de modelos&lt;/cite&gt;. &lt;cite index=&quot;52-6,52-24,52-27&quot;&gt;Estas versiones 1.0 marcan compromiso de estabilidad sin breaking changes hasta 2.0, con nueva abstracción create_agent construida sobre LangGraph runtime&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-primera-version-estable-con-ar</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google lanza soporte oficial de MCP para servicios en la nube con servidores gestionados</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-soporte-oficial-de-mcp-para-servicios-en-la-nub</link>
-    <description>&lt;cite index=&quot;28-6,28-7,28-8&quot;&gt;Google anunció servidores MCP completamente gestionados y remotos, mejorando su infraestructura API existente para soportar MCP, proporcionando una capa unificada para todos los servicios de Google y Google Cloud&lt;/cite&gt;. &lt;cite index=&quot;28-16,28-17,28-19,28-22&quot;&gt;Incluye servidores MCP para BigQuery, Google Compute Engine para gestión autónoma de infraestructura, y Google Kubernetes Engine para operaciones de contenedores autónomas&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-soporte-oficial-de-mcp-para-servicios-en-la-nub</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Claude Code trending en GitHub como IDE agentico para la era de agentes AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-code-trending-en-github-como-ide-agentico-para-la-era</link>
-    <description>&lt;cite index=&quot;11-1,11-5&quot;&gt;Claude Code aparece como trending en GitHub, descrito como &apos;IDE for the AI Agents Era&apos; que permite ejecutar múltiples agentes como Claude Code y Codex en tu máquina, funcionando como herramienta de coding agentico que vive en terminal y entiende tu codebase&lt;/cite&gt;. &lt;cite index=&quot;19-3,19-4,19-5&quot;&gt;Alcanzó decenas de miles de estrellas en GitHub en meses, prometiendo experiencia de AI pair programmer completamente on-device sin enviar datos a servicios externos&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-code-trending-en-github-como-ide-agentico-para-la-era</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI lanza nuevo ChatGPT Images con GPT Image 1.5 y mejoras de velocidad 4x</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevo-chatgpt-images-con-gpt-image-1-5-y-mejora</link>
-    <description>&lt;cite index=&quot;33-7,33-8&quot;&gt;OpenAI presentó ChatGPT Images mejorado con mejor seguimiento de instrucciones, edición más precisa, manteniendo consistencia facial a través de ediciones, con velocidades de generación 4x más rápidas&lt;/cite&gt;. &lt;cite index=&quot;33-15,33-20&quot;&gt;El nuevo modelo está disponible como GPT Image 1.5 en la API para todos los usuarios&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevo-chatgpt-images-con-gpt-image-1-5-y-mejora</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Transformers v5 de Hugging Face: refactorización completa con arquitectura modular</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</link>
-    <description>&lt;cite index=&quot;42-1,42-2,42-6,42-7&quot;&gt;Se anunció Transformers v5, primera versión mayor en cinco años con 1200 commits desde la última versión menor, eliminando deprecaciones y refactorizando APIs para simplicidad&lt;/cite&gt;. &lt;cite index=&quot;42-11,42-12,42-13&quot;&gt;A partir de v5, Hugging Face hará releases menores cada semana en lugar de cada 5 semanas para que los desarrolladores accedan a nuevos modelos más rápido&lt;/cite&gt;.</description>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-refactorizacion-completa-con</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

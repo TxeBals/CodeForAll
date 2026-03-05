@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía práctica: Desarrollo asistido por IA en 2026 - Nuevas mejores prácticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-practica-desarrollo-asistido-por-ia-en-2026-nuevas-mejo</link>
+    <description>&lt;cite index=&quot;53-17,53-18&quot;&gt;En 2026 la IA ha reducido dramáticamente la barrera para producir código, pero ha elevado el estándar de lo que constituye buena ingeniería&lt;/cite&gt;. Los equipos profesionales ahora usan configuraciones de IA en capas desde editores hasta CI/CD.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-desarrollo-asistido-por-ia-en-2026-nuevas-mejo</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Trending GitHub: OpenSandbox como plataforma universal para agentes de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=trending-github-opensandbox-como-plataforma-universal-para-a</link>
+    <description>&lt;cite index=&quot;4-7&quot;&gt;OpenSandbox es una plataforma sandbox de propósito general para aplicaciones de IA que ofrece SDKs multi-lenguaje, APIs sandbox unificadas y runtimes Docker/Kubernetes&lt;/cite&gt;. Soporta escenarios como Coding Agents, GUI Agents, evaluación de agentes y entrenamiento de RL.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=trending-github-opensandbox-como-plataforma-universal-para-a</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face Skills permite a Claude entrenar modelos LLM automáticamente</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-skills-permite-a-claude-entrenar-modelos-llm-au</link>
+    <description>&lt;cite index=&quot;46-1,46-2&quot;&gt;Hugging Face Skills permite a Claude no solo escribir scripts de entrenamiento, sino enviar trabajos a GPUs en la nube, monitorear progreso y subir modelos terminados al Hub de Hugging Face&lt;/cite&gt;. Esta herramienta elimina barreras de infraestructura MLOps para equipos de IA.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-skills-permite-a-claude-entrenar-modelos-llm-au</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>CrewAI actualiza con soporte multimodal y protocolo A2A en enero 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=crewai-actualiza-con-soporte-multimodal-y-protocolo-a2a-en-e</link>
+    <description>&lt;cite index=&quot;34-1,34-2&quot;&gt;CrewAI lanzó soporte para structured outputs, respuesta multimodal, autenticación Keycloak SSO y capacidades de manejo de archivos multimodales&lt;/cite&gt;. La plataforma también agregó soporte nativo para la API de respuestas de OpenAI y herramientas de ejecución Agent-to-Agent.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=crewai-actualiza-con-soporte-multimodal-y-protocolo-a2a-en-e</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan versión 1.0 con runtime duradero para agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-runtime-durad</link>
+    <description>&lt;cite index=&quot;25-1,25-9&quot;&gt;LangChain 1.0 introduce la abstraction create_agent y middleware personalizable, mientras LangGraph 1.0 añade estado duradero que persiste automáticamente las sesiones de agentes&lt;/cite&gt;. Esta actualización marca la estabilidad de las librerías hasta la versión 2.0.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-runtime-durad</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3 Codex y Anthropic Claude Opus 4.6 en batalla de modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-anthropic-claude-opus-4-6-en-ba</link>
+    <description>&lt;cite index=&quot;16-11,16-12,18-4&quot;&gt;OpenAI presentó GPT-5.3-Codex con 25% más velocidad que su predecesor, mientras Anthropic lanzó Claude Opus 4.6 con contexto de 1 millón de tokens&lt;/cite&gt;. Ambos modelos fueron liberados con minutos de diferencia, intensificando la competencia entre las dos empresas de IA más importantes.</description>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-anthropic-claude-opus-4-6-en-ba</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Arquitecturas nativas de IA como nueva baseline para aplicaciones 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=arquitecturas-nativas-de-ia-como-nueva-baseline-para-aplicac</link>
     <description>Las arquitecturas nativas de IA son ahora la expectativa baseline para nuevas aplicaciones. Incluyen pipelines de aprendizaje continuo, orquestación multi-modelo, inferencia en tiempo real y bases de datos vectoriales como capa de datos de primera clase.</description>
@@ -116,54 +164,6 @@
     <description>OpenAI introduce la familia GPT-4.1 con mejoras significativas en seguimiento de instrucciones, programación y comprensión de contexto largo. Incluye GPT-4.1 mini con 83% menos costo y GPT-4.1 nano como el modelo más rápido.</description>
     <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-api-con-mejor-rendimiento-para-agentes-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Google Gemini 3 Deep Research Agent: Investigación autónoma multi-step</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-deep-research-agent-investigacion-autonoma-m</link>
-    <description>Google lanzó Gemini Deep Research Agent en preview, capaz de planificar, ejecutar y sintetizar resultados autónomamente para tareas de investigación multi-step. Incluye Gemini 3 Pro con razonamiento estado del arte y nuevas capacidades agentic para desarrollo en AI Studio y Vertex AI.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-deep-research-agent-investigacion-autonoma-m</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>RAG en 2026: Mejores prácticas para sistemas de producción robustos</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-en-2026-mejores-practicas-para-sistemas-de-produccion-ro</link>
-    <description>Nuevos frameworks de evaluación RAG separan retrieval, groundedness y calidad de respuestas. Enfoque en guardrails concretos por etapa, evaluación con métricas específicas de negocio, y arquitectura como decisión de producto. Microsoft RAG evaluators 2025 introduce jueces basados en LLM para casos sin ground truth.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-en-2026-mejores-practicas-para-sistemas-de-produccion-ro</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK en preview técnico: Capa programable para aplicaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-en-preview-tecnico-capa-programable-para-</link>
-    <description>GitHub lanzó el Copilot SDK que permite planificar, invocar herramientas, editar archivos y ejecutar comandos como capa programable para cualquier aplicación. Incluye model picker, self-review, security scanning y handoff CLI, con agentes background que operan en repositorios.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-en-preview-tecnico-capa-programable-para-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.2: Agent Builder con capacidades multi-agente mejoradas</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-2-agent-builder-con-capacidades-multi-agente-mej</link>
-    <description>LangChain presentó Agent Builder para crear agentes con lenguaje natural, comparación de experimentos side-by-side, y Insights Agent para análisis automático de trazas. Versión JS 1.2.13 incluye herramientas dinámicas, recuperación de errores de alucinaciones y mejores señales de streaming.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-2-agent-builder-con-capacidades-multi-agente-mej</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.0: Refactorización completa hacia modularidad</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-refactorizacion-completa-haci</link>
-    <description>Hugging Face lanzó Transformers v5.0 tras 5 años, con arquitectura completamente modular, releases semanales en lugar de cada 5 semanas, tokenización simplificada y eliminación de deuda técnica acumulada. Incluye 1200+ commits con mejoras significativas en APIs internas.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-refactorizacion-completa-haci</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic Claude 3.7 Sonnet: Primer modelo de razonamiento híbrido del mercado</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-3-7-sonnet-primer-modelo-de-razonamiento-hi</link>
-    <description>Anthropic lanzó Claude 3.7 Sonnet, el primer modelo híbrido que puede producir respuestas instantáneas o razonamiento extendido visible al usuario. Incluye Claude Code, una herramienta agentic para coding en preview limitado, y control granular sobre presupuesto de thinking tokens vía API.</description>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-3-7-sonnet-primer-modelo-de-razonamiento-hi</guid>
     <category>LLM</category>
   </item>
 </channel>

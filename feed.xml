@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>500+ Proyectos AI en GitHub: repositorio trending para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=500-proyectos-ai-en-github-repositorio-trending-para-desarro</link>
+    <description>&lt;cite index=&quot;18-1&quot;&gt;500 proyectos de AI, Machine Learning, Deep Learning, Computer Vision y NLP con código&lt;/cite&gt; disponibles como recurso continuamente actualizado. &lt;cite index=&quot;11-12,11-13&quot;&gt;Directorio masivo de ideas de proyectos AI/ML/DL agrupadas por áreas como computer vision, NLP y sistemas de recomendación&lt;/cite&gt;.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=500-proyectos-ai-en-github-repositorio-trending-para-desarro</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>AgentFlow y frameworks de IA agentica: la nueva generación de orquestación</title>
+    <link>https://txemagonzalez.com/post.html?slug=agentflow-y-frameworks-de-ia-agentica-la-nueva-generacion-de</link>
+    <description>&lt;cite index=&quot;23-14&quot;&gt;AgentFlow destaca en escenarios que requieren agentes de larga duración o jerárquicos, como copilots de revenue-ops&lt;/cite&gt; que leen datos de Salesforce. &lt;cite index=&quot;23-15&quot;&gt;Capa de observabilidad integrada registra uso de tokens, trazas de cadena de pensamiento y costo por ejecución&lt;/cite&gt;.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=agentflow-y-frameworks-de-ia-agentica-la-nueva-generacion-de</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Gemini 3.1 Flash y Seed-2.0-mini: nuevos modelos optimizados para velocidad</title>
+    <link>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-y-seed-2-0-mini-nuevos-modelos-optimizados-</link>
+    <description>&lt;cite index=&quot;31-16,31-17&quot;&gt;Gemini 3.1 Flash Image Preview &apos;Nano Banana 2&apos; es el modelo de generación de imágenes más avanzado de Google&lt;/cite&gt;, ofreciendo calidad Pro a velocidad Flash. &lt;cite index=&quot;31-6,31-7&quot;&gt;Seed-2.0-mini optimizado para escenarios sensibles a latencia y costo&lt;/cite&gt; con 256k de contexto.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-y-seed-2-0-mini-nuevos-modelos-optimizados-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Nuevos marcos RAG y agentes AI: LangGraph, RAGatouille y DSPy lideran 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevos-marcos-rag-y-agentes-ai-langgraph-ragatouille-y-dspy-</link>
+    <description>&lt;cite index=&quot;22-52,22-53&quot;&gt;LangGraph estructura flujos de trabajo a través de prompts, herramientas, memoria y vector stores para agentes AI, chatbots y sistemas RAG&lt;/cite&gt;. &lt;cite index=&quot;25-2,25-3&quot;&gt;RAGatouille implementa métodos de recuperación late-interaction basados en ColBERT, preservando información a nivel de token&lt;/cite&gt;.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevos-marcos-rag-y-agentes-ai-langgraph-ragatouille-y-dspy-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Mozilla lanza any-llm v1.0: interfaz unificada para cualquier modelo LLM</title>
+    <link>https://txemagonzalez.com/post.html?slug=mozilla-lanza-any-llm-v1-0-interfaz-unificada-para-cualquier</link>
+    <description>&lt;cite index=&quot;3-5&quot;&gt;any-llm v1.0 ofrece estabilidad de producción, salida de razonamiento estandarizada y detección automática de proveedores&lt;/cite&gt; para uso fluido entre modelos cloud y locales. &lt;cite index=&quot;3-22&quot;&gt;Integra con JupyterLiteAI, LangChain y Headroom&lt;/cite&gt; proporcionando una capa agnóstica de proveedor.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mozilla-lanza-any-llm-v1-0-interfaz-unificada-para-cualquier</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex, modelo de IA más avanzado para desarrollo agentico</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-modelo-de-ia-mas-avanzado-para-de</link>
+    <description>&lt;cite index=&quot;31-22&quot;&gt;GPT-5.3-Codex es el modelo de codificación agentica más avanzado de OpenAI&lt;/cite&gt;, combinando capacidades de ingeniería de software de frontera con razonamiento profesional. &lt;cite index=&quot;31-25&quot;&gt;Optimizado para flujos de trabajo de larga duración y admite dirección interactiva durante la ejecución&lt;/cite&gt;, siendo perfecto para tareas de desarrollo complejas.</description>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-modelo-de-ia-mas-avanzado-para-de</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía práctica: Desarrollo asistido por IA en 2026 - Nuevas mejores prácticas</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-practica-desarrollo-asistido-por-ia-en-2026-nuevas-mejo</link>
     <description>&lt;cite index=&quot;53-17,53-18&quot;&gt;En 2026 la IA ha reducido dramáticamente la barrera para producir código, pero ha elevado el estándar de lo que constituye buena ingeniería&lt;/cite&gt;. Los equipos profesionales ahora usan configuraciones de IA en capas desde editores hasta CI/CD.</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-autogen-y-semantic-kernel</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Google Gemini 3.1 Pro con Nuevos Controles de Reasoning</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-1-pro-con-nuevos-controles-de-reasoning</link>
-    <description>Google lanza Gemini 3.1 Pro Preview con nuevo parámetro thinking_level para controlar profundidad de razonamiento, Thought Signatures obligatorias para function calling, y soporte mejorado para Grounding con structured outputs.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-1-pro-con-nuevos-controles-de-reasoning</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic Lanza Claude 4 con Capacidades de Memoria y Código</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-con-capacidades-de-memoria-y-codigo</link>
-    <description>Claude 4 Opus y Sonnet introducen thinking extendido con uso de herramientas, mejores capacidades de memoria local y Claude Code ahora disponible en VS Code y JetBrains con integraciones GitHub Actions.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-con-capacidades-de-memoria-y-codigo</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain v1.1 Añade Perfiles de Modelos y Middleware Expandido</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-anade-perfiles-de-modelos-y-middleware-expand</link>
-    <description>LangChain 1.1 introduce un sistema de perfiles de modelos que describe capacidades soportadas, middleware de moderación OpenAI y mejor manejo de structured output. Los perfiles se obtienen de models.dev para dar información precisa a desarrolladores.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-anade-perfiles-de-modelos-y-middleware-expand</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Transformers.js v4 Disponible en NPM con Runtime WebGPU</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-js-v4-disponible-en-npm-con-runtime-webgpu</link>
-    <description>Transformers.js v4 preview ahora disponible en NPM con nuevo runtime WebGPU reescrito en C++, arquitectura monorepo y biblioteca de tokenización separada. Reduce tamaños de bundle hasta 53% y mejora rendimiento significativamente.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-js-v4-disponible-en-npm-con-runtime-webgpu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 Simplifica Definiciones de Modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-simplifica-definiciones-de-mode</link>
-    <description>Transformers v5 introduce un rediseño completo con arquitectura modular, enfoque únicamente en PyTorch y soporte mejorado para pre-entrenamiento. Incluye releases semanales menores y mejor interoperabilidad con el ecosistema.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-simplifica-definiciones-de-mode</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI Lanza GPT-4.1 API con Mejor Rendimiento para Agentes de Software</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-api-con-mejor-rendimiento-para-agentes-</link>
-    <description>OpenAI introduce la familia GPT-4.1 con mejoras significativas en seguimiento de instrucciones, programación y comprensión de contexto largo. Incluye GPT-4.1 mini con 83% menos costo y GPT-4.1 nano como el modelo más rápido.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-4-1-api-con-mejor-rendimiento-para-agentes-</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

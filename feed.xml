@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guías completas sobre RAG vs Fine-tuning para desarrolladores en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guias-completas-sobre-rag-vs-fine-tuning-para-desarrolladore</link>
+    <description>Nuevos recursos y frameworks para combinar RAG y fine-tuning efectivamente. Se introduce RAFT (RAG + Fine-Tuning) como approach híbrido para mejorar performance de LLMs en aplicaciones especializadas.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guias-completas-sobre-rag-vs-fine-tuning-para-desarrolladore</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.6 con context window de 1M tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-context-window-de-1m-tok</link>
+    <description>Claude Opus 4.6 presenta mejoras significativas en coding, agent planning y knowledge work. Incluye nuevas funciones como agent teams, compaction y adaptive thinking.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-context-window-de-1m-tok</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el repositorio GitHub más viral de 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-github-mas-viral-de-</link>
+    <description>OpenClaw es un asistente AI personal open-source que creció de 9,000 a 188,000 estrellas en 60 días. Incluye más de 5,700 skills de la comunidad y soporte para múltiples canales de comunicación.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-github-mas-viral-de-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Google lanza Agent Development Kit para TypeScript: Desarrollo de agentes con código</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-agent-development-kit-para-typescript-desarroll</link>
+    <description>Google presenta ADK para TypeScript, un framework open-source que permite construir agentes AI usando prácticas de desarrollo estándar. Enfoque code-first eliminando complex prompt engineering.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-agent-development-kit-para-typescript-desarroll</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>DeepSeek V4 multimodal se lanzará en marzo con 1 trillón de parámetros</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-multimodal-se-lanzara-en-marzo-con-1-trillon-de-</link>
+    <description>DeepSeek prepara el lanzamiento de V4, un modelo multimodal con capacidades de texto, imagen y video. Desarrollado en colaboración con chipmakers chinos Huawei y Cambricon.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-multimodal-se-lanzara-en-marzo-con-1-trillon-de-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3 Instant y GPT-5.4 Pro con mejores capacidades de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-y-gpt-5-4-pro-con-mejores-capac</link>
+    <description>OpenAI ha lanzado GPT-5.3 Instant disponible para todos los usuarios y GPT-5.4 Pro en API con mejores capacidades de coding y tool calling. Incluye herramientas de búsqueda optimizadas que reducen el uso de tokens en 47%.</description>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-y-gpt-5-4-pro-con-mejores-capac</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>500+ Proyectos AI en GitHub: repositorio trending para desarrolladores</title>
     <link>https://txemagonzalez.com/post.html?slug=500-proyectos-ai-en-github-repositorio-trending-para-desarro</link>
     <description>&lt;cite index=&quot;18-1&quot;&gt;500 proyectos de AI, Machine Learning, Deep Learning, Computer Vision y NLP con código&lt;/cite&gt; disponibles como recurso continuamente actualizado. &lt;cite index=&quot;11-12,11-13&quot;&gt;Directorio masivo de ideas de proyectos AI/ML/DL agrupadas por áreas como computer vision, NLP y sistemas de recomendación&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=opensandbox-plataforma-sandbox-general-para-aplicaciones-de-</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Patrones de diseño multi-agente: guía de Google con 8 arquitecturas esenciales</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-diseno-multi-agente-guia-de-google-con-8-arquite</link>
-    <description>Google identifica 8 patrones fundamentales para sistemas multi-agente usando su Agent Development Kit. Incluye pipeline secuencial, descomposición jerárquica, generator-critic, refinamiento iterativo y más patrones para sistemas modulares y testeable.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-diseno-multi-agente-guia-de-google-con-8-arquite</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Claude Code domina herramientas de desarrollo alcanzando el puesto #1</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-code-domina-herramientas-de-desarrollo-alcanzando-el-</link>
-    <description>Claude Code ha alcanzado el puesto #1 en herramientas de IA para desarrolladores en solo 8 meses. 95% de desarrolladores usan IA semanalmente, y 55% usa agentes de IA regularmente según encuesta con casi 1000 desarrolladores.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-code-domina-herramientas-de-desarrollo-alcanzando-el-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: asistente IA personal open-source más trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-open-source-mas-trending-en-g</link>
-    <description>OpenClaw es el repositorio GitHub de más rápido crecimiento en la historia. Asistente IA personal que se ejecuta en hardware propio y se conecta a WhatsApp, Telegram, Slack, Discord y más canales con más de 5,700 skills comunitarias.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-open-source-mas-trending-en-g</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>NVIDIA GLM-5 gratuito en plataforma NIM con 40 solicitudes por minuto</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-glm-5-gratuito-en-plataforma-nim-con-40-solicitudes-p</link>
-    <description>NVIDIA aloja GLM-5 (744B parámetros totales, 40B activos vía MoE) gratuitamente en su plataforma NIM. Ofrece ventana de contexto de 205K tokens, licencia MIT, y benchmarks impresionantes: 92.7% en AIME 2026 y 86% en GPQA-Diamond.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-glm-5-gratuito-en-plataforma-nim-con-40-solicitudes-p</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Repositorio 500+ Proyectos AI con Código Fuente Trending</title>
-    <link>https://txemagonzalez.com/post.html?slug=repositorio-500-proyectos-ai-con-codigo-fuente-trending</link>
-    <description>El repositorio de ashishpatel26 con más de 500 proyectos de AI, ML, DL, Computer Vision y NLP con código fuente se mantiene como uno de los recursos más populares para desarrolladores que buscan proyectos prácticos y ejemplos de implementación.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=repositorio-500-proyectos-ai-con-codigo-fuente-trending</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework Unifica AutoGen y Semantic Kernel</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-autogen-y-semantic-kernel</link>
-    <description>Microsoft combina AutoGen y Semantic Kernel en el nuevo Microsoft Agent Framework, ofreciendo workflows basados en grafos, mejor observabilidad y soporte para .NET y Python. Actualmente en preview público con guías de migración disponibles.</description>
-    <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-unifica-autogen-y-semantic-kernel</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

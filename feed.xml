@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG vs Fine-Tuning en 2026: Guía práctica para sistemas híbridos en producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-guia-practica-para-sistemas-hibri</link>
+    <description>&lt;cite index=&quot;31-19,31-20,31-33&quot;&gt;Los benchmarks recientes muestran que no hay ganador universal entre RAG y fine-tuning. El mejor patrón 2026 es híbrido: retrieval para hechos, fine-tuning para estilo, política y comportamiento de decisión. Los sistemas híbridos son el default práctico para calidad de grado producción.&lt;/cite&gt; &lt;cite index=&quot;31-28,31-36&quot;&gt;La clave es poner conocimiento volátil en retrieval y comportamiento estable en fine-tuning. RAG mantiene el sistema veraz hoy; fine-tuning lo hace consistente mañana.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-guia-practica-para-sistemas-hibri</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>DeepSeek V4 y R2: El próximo gran salto en modelos de razonamiento de código abierto</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-r2-el-proximo-gran-salto-en-modelos-de-razonam</link>
+    <description>&lt;cite index=&quot;60-1,60-3,60-7&quot;&gt;DeepSeek-R2 apunta a un lanzamiento a mediados de febrero 2026, mientras que DeepSeek-V4 integra el &quot;motor de razonamiento R2&quot; con arquitectura masiva. R2 promete razonamiento multilingüe consistente en más de 100 idiomas y capacidades multimodales integrando visión, audio y comprensión básica de video.&lt;/cite&gt; &lt;cite index=&quot;60-30,60-31&quot;&gt;R2 será probablemente open-weight, permitiendo despliegue local sin costos de API como alternativa viable a OpenAI o Anthropic.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-r2-el-proximo-gran-salto-en-modelos-de-razonam</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Deep Agents 2.1: Framework especializado para agentes LLM con razonamiento multi-paso</title>
+    <link>https://txemagonzalez.com/post.html?slug=deep-agents-2-1-framework-especializado-para-agentes-llm-con</link>
+    <description>&lt;cite index=&quot;22-18,22-19,22-20&quot;&gt;Deep Agents se destaca como framework para construir agentes LLM sofisticados capaces de manejar razonamiento complejo y ejecución de tareas. La versión 2.1 introduce capacidades mejoradas de razonamiento multi-paso y soporte para ejecución distribuida a través de múltiples nodos.&lt;/cite&gt; &lt;cite index=&quot;22-21&quot;&gt;Permite a los desarrolladores crear agentes que analizan consultas de usuarios, las descomponen en tareas más pequeñas y las ejecutan en secuencia.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deep-agents-2-1-framework-especializado-para-agentes-llm-con</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: El framework de agentes autónomos más popular en GitHub 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-autonomos-mas-popular-en-gi</link>
+    <description>&lt;cite index=&quot;12-9,12-10,12-11&quot;&gt;OpenClaw (anteriormente Clawdbot) es el repositorio de GitHub con crecimiento más rápido en la historia. Es un asistente AI personal de código abierto que se ejecuta en hardware propio y se conecta a WhatsApp, Telegram, Slack, Discord, Signal, iMessage y Microsoft Teams. Su registro ClawHub contiene más de 5,700 skills construidas por la comunidad.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-autonomos-mas-popular-en-gi</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Google presenta ocho patrones de diseño esenciales para sistemas multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-presenta-ocho-patrones-de-diseno-esenciales-para-sist</link>
+    <description>&lt;cite index=&quot;41-5,41-6&quot;&gt;Google ha identificado ocho arquitecturas fundamentales para desarrollar sistemas multi-agente de forma estructurada usando patrones de ejecución secuencial, loop y paralelo. Incluyen pipeline secuencial, descomposición jerárquica, generador-crítico y refinamiento iterativo.&lt;/cite&gt; &lt;cite index=&quot;41-3,41-4&quot;&gt;Estos sistemas permiten construir el equivalente AI de una arquitectura de microservicios mediante roles especializados como Parser, Critic y Dispatcher.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-presenta-ocho-patrones-de-diseno-esenciales-para-sist</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2 con mejoras en razonamiento y agentic coding</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-en-razonamiento-y-agentic-c</link>
+    <description>&lt;cite index=&quot;2-1,2-2,2-14&quot;&gt;OpenAI ha lanzado GPT-5.2 con tres variantes (Instant, Thinking y Pro) ahora disponibles en API y ChatGPT para usuarios de pago. El modelo ofrece mejoras significativas en inteligencia general, comprensión de contexto largo, tool-calling agentico y visión.&lt;/cite&gt; &lt;cite index=&quot;2-25,2-26&quot;&gt;GPT-5.2 logra un 80% en SWE-bench Verified y muestra mejoras sustanciales para depurar código de producción y desarrollo frontend.&lt;/cite&gt;</description>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-en-razonamiento-y-agentic-c</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guías completas sobre RAG vs Fine-tuning para desarrolladores en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guias-completas-sobre-rag-vs-fine-tuning-para-desarrolladore</link>
     <description>Nuevos recursos y frameworks para combinar RAG y fine-tuning efectivamente. Se introduce RAFT (RAG + Fine-Tuning) como approach híbrido para mejorar performance de LLMs en aplicaciones especializadas.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=trending-github-opensandbox-como-plataforma-universal-para-a</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face Skills permite a Claude entrenar modelos LLM automáticamente</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-skills-permite-a-claude-entrenar-modelos-llm-au</link>
-    <description>&lt;cite index=&quot;46-1,46-2&quot;&gt;Hugging Face Skills permite a Claude no solo escribir scripts de entrenamiento, sino enviar trabajos a GPUs en la nube, monitorear progreso y subir modelos terminados al Hub de Hugging Face&lt;/cite&gt;. Esta herramienta elimina barreras de infraestructura MLOps para equipos de IA.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-skills-permite-a-claude-entrenar-modelos-llm-au</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>CrewAI actualiza con soporte multimodal y protocolo A2A en enero 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=crewai-actualiza-con-soporte-multimodal-y-protocolo-a2a-en-e</link>
-    <description>&lt;cite index=&quot;34-1,34-2&quot;&gt;CrewAI lanzó soporte para structured outputs, respuesta multimodal, autenticación Keycloak SSO y capacidades de manejo de archivos multimodales&lt;/cite&gt;. La plataforma también agregó soporte nativo para la API de respuestas de OpenAI y herramientas de ejecución Agent-to-Agent.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=crewai-actualiza-con-soporte-multimodal-y-protocolo-a2a-en-e</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>LangChain y LangGraph alcanzan versión 1.0 con runtime duradero para agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-runtime-durad</link>
-    <description>&lt;cite index=&quot;25-1,25-9&quot;&gt;LangChain 1.0 introduce la abstraction create_agent y middleware personalizable, mientras LangGraph 1.0 añade estado duradero que persiste automáticamente las sesiones de agentes&lt;/cite&gt;. Esta actualización marca la estabilidad de las librerías hasta la versión 2.0.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-runtime-durad</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3 Codex y Anthropic Claude Opus 4.6 en batalla de modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-anthropic-claude-opus-4-6-en-ba</link>
-    <description>&lt;cite index=&quot;16-11,16-12,18-4&quot;&gt;OpenAI presentó GPT-5.3-Codex con 25% más velocidad que su predecesor, mientras Anthropic lanzó Claude Opus 4.6 con contexto de 1 millón de tokens&lt;/cite&gt;. Ambos modelos fueron liberados con minutos de diferencia, intensificando la competencia entre las dos empresas de IA más importantes.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-anthropic-claude-opus-4-6-en-ba</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Arquitecturas nativas de IA como nueva baseline para aplicaciones 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=arquitecturas-nativas-de-ia-como-nueva-baseline-para-aplicac</link>
-    <description>Las arquitecturas nativas de IA son ahora la expectativa baseline para nuevas aplicaciones. Incluyen pipelines de aprendizaje continuo, orquestación multi-modelo, inferencia en tiempo real y bases de datos vectoriales como capa de datos de primera clase.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=arquitecturas-nativas-de-ia-como-nueva-baseline-para-aplicac</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenSandbox: plataforma sandbox general para aplicaciones de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=opensandbox-plataforma-sandbox-general-para-aplicaciones-de-</link>
-    <description>OpenSandbox ofrece SDKs multi-lenguaje, APIs unificadas y runtimes Docker/Kubernetes para escenarios como Coding Agents, GUI Agents, evaluación de agentes, ejecución de código IA y entrenamiento RL.</description>
-    <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=opensandbox-plataforma-sandbox-general-para-aplicaciones-de-</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

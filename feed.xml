@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Google define 8 patrones esenciales de diseño para sistemas multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</link>
+    <description>&lt;cite index=&quot;43-1,43-5&quot;&gt;Google publicó recientemente una guía que describe ocho patrones esenciales de diseño para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Google ha identificado ocho arquitecturas fundamentales que ayudan a los desarrolladores a diseñar sistemas multi-agente de manera estructurada&lt;/cite&gt;. &lt;cite index=&quot;43-3,43-4&quot;&gt;Los sistemas multi-agente permiten construir el equivalente de IA de una arquitectura de microservicios. Al asignar roles específicos a agentes individuales, construyes sistemas que son inherentemente más modulares, testeables y confiables&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Patrones arquitectónicos esenciales para IA agéntica empresarial en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</link>
+    <description>&lt;cite index=&quot;47-21,47-22&quot;&gt;Para desplegar IA agéntica de manera responsable y efectiva en la empresa, las organizaciones deben progresar a través de una arquitectura de tres niveles: Tier Foundation, Tier Workflow y Tier Autonomous donde la confianza, gobernanza y transparencia preceden a la autonomía&lt;/cite&gt;. &lt;cite index=&quot;47-23,47-24&quot;&gt;Primero, construir confianza estableciendo fundación y gobernanza. Luego, workflow entrega automatización a través de cinco patrones centrales. En la fase final, autonomous habilita planificación dirigida por objetivos&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con cuantización como ciudadano de primera clase</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-cuantizacion-como-ciu</link>
+    <description>&lt;cite index=&quot;32-27,32-28&quot;&gt;La cuantización está emergiendo rápidamente como el estándar para el desarrollo de modelos de vanguardia. Muchos modelos SOTA ahora se lanzan en formatos de baja precisión como 8-bit y 4-bit, el hardware está cada vez más optimizado para cargas de trabajo de baja precisión&lt;/cite&gt;. &lt;cite index=&quot;32-29,32-30&quot;&gt;En v5, estamos haciendo de la cuantización un enfoque central del soporte de Transformers. Introducimos un cambio significativo en la forma en que cargamos pesos en nuestros modelos; y con esto, pasamos a que la cuantización sea un ciudadano de primera clase&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-cuantizacion-como-ciu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.1 introduce perfiles de modelos y middleware expandido</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</link>
+    <description>&lt;cite index=&quot;25-3,25-4&quot;&gt;Este lanzamiento hace que el desarrollo de agentes sea más confiable, más estructurado y más consciente del contexto, impulsado por un nuevo sistema de perfiles de modelos y middleware expandido. Los modelos de chat ahora exponen un atributo .profile que describe las capacidades soportadas&lt;/cite&gt;. &lt;cite index=&quot;25-6&quot;&gt;El middleware de resumir ahora usa perfiles de modelos para decidir cuándo y cómo resumir, proporcionando comportamiento específico del proveedor&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: El repositorio de GitHub de crecimiento más rápido llega a 188K estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-github-de-crecimiento-mas-rapido-</link>
+    <description>&lt;cite index=&quot;14-13,14-14&quot;&gt;OpenClaw (anteriormente Clawdbot) es el repositorio de GitHub de crecimiento más rápido en la historia. Es un asistente personal de IA de código abierto que se ejecuta en tu propio hardware y se conecta con WhatsApp, Telegram, Slack, Discord, Signal, iMessage y Microsoft Teams&lt;/cite&gt;. &lt;cite index=&quot;14-15&quot;&gt;El registro de habilidades ClawHub del proyecto tiene más de 5,700 habilidades construidas por la comunidad&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-github-de-crecimiento-mas-rapido-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 con capacidades nativas de uso de computadoras y 1M tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-nativas-de-uso-de-compu</link>
+    <description>&lt;cite index=&quot;1-2,1-3&quot;&gt;GPT-5.4 está disponible ahora como gpt-5.4 en la API, junto con GPT-5.4 Pro como gpt-5.4-pro para tareas complejas que requieren máximo rendimiento&lt;/cite&gt;. &lt;cite index=&quot;6-2&quot;&gt;GPT-5.4 es el primer modelo de propósito general de OpenAI con capacidades nativas de uso de computadoras, permitiendo a los agentes interactuar directamente con software a través de capturas de pantalla, comandos de ratón y entradas de teclado&lt;/cite&gt;.</description>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-nativas-de-uso-de-compu</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>RAG vs Fine-Tuning en 2026: Guía práctica para sistemas híbridos en producción</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-guia-practica-para-sistemas-hibri</link>
     <description>&lt;cite index=&quot;31-19,31-20,31-33&quot;&gt;Los benchmarks recientes muestran que no hay ganador universal entre RAG y fine-tuning. El mejor patrón 2026 es híbrido: retrieval para hechos, fine-tuning para estilo, política y comportamiento de decisión. Los sistemas híbridos son el default práctico para calidad de grado producción.&lt;/cite&gt; &lt;cite index=&quot;31-28,31-36&quot;&gt;La clave es poner conocimiento volátil en retrieval y comportamiento estable en fine-tuning. RAG mantiene el sistema veraz hoy; fine-tuning lo hace consistente mañana.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=agentflow-y-frameworks-de-ia-agentica-la-nueva-generacion-de</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Gemini 3.1 Flash y Seed-2.0-mini: nuevos modelos optimizados para velocidad</title>
-    <link>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-y-seed-2-0-mini-nuevos-modelos-optimizados-</link>
-    <description>&lt;cite index=&quot;31-16,31-17&quot;&gt;Gemini 3.1 Flash Image Preview &apos;Nano Banana 2&apos; es el modelo de generación de imágenes más avanzado de Google&lt;/cite&gt;, ofreciendo calidad Pro a velocidad Flash. &lt;cite index=&quot;31-6,31-7&quot;&gt;Seed-2.0-mini optimizado para escenarios sensibles a latencia y costo&lt;/cite&gt; con 256k de contexto.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-y-seed-2-0-mini-nuevos-modelos-optimizados-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Nuevos marcos RAG y agentes AI: LangGraph, RAGatouille y DSPy lideran 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevos-marcos-rag-y-agentes-ai-langgraph-ragatouille-y-dspy-</link>
-    <description>&lt;cite index=&quot;22-52,22-53&quot;&gt;LangGraph estructura flujos de trabajo a través de prompts, herramientas, memoria y vector stores para agentes AI, chatbots y sistemas RAG&lt;/cite&gt;. &lt;cite index=&quot;25-2,25-3&quot;&gt;RAGatouille implementa métodos de recuperación late-interaction basados en ColBERT, preservando información a nivel de token&lt;/cite&gt;.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevos-marcos-rag-y-agentes-ai-langgraph-ragatouille-y-dspy-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Mozilla lanza any-llm v1.0: interfaz unificada para cualquier modelo LLM</title>
-    <link>https://txemagonzalez.com/post.html?slug=mozilla-lanza-any-llm-v1-0-interfaz-unificada-para-cualquier</link>
-    <description>&lt;cite index=&quot;3-5&quot;&gt;any-llm v1.0 ofrece estabilidad de producción, salida de razonamiento estandarizada y detección automática de proveedores&lt;/cite&gt; para uso fluido entre modelos cloud y locales. &lt;cite index=&quot;3-22&quot;&gt;Integra con JupyterLiteAI, LangChain y Headroom&lt;/cite&gt; proporcionando una capa agnóstica de proveedor.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mozilla-lanza-any-llm-v1-0-interfaz-unificada-para-cualquier</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex, modelo de IA más avanzado para desarrollo agentico</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-modelo-de-ia-mas-avanzado-para-de</link>
-    <description>&lt;cite index=&quot;31-22&quot;&gt;GPT-5.3-Codex es el modelo de codificación agentica más avanzado de OpenAI&lt;/cite&gt;, combinando capacidades de ingeniería de software de frontera con razonamiento profesional. &lt;cite index=&quot;31-25&quot;&gt;Optimizado para flujos de trabajo de larga duración y admite dirección interactiva durante la ejecución&lt;/cite&gt;, siendo perfecto para tareas de desarrollo complejas.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-modelo-de-ia-mas-avanzado-para-de</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía práctica: Desarrollo asistido por IA en 2026 - Nuevas mejores prácticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-practica-desarrollo-asistido-por-ia-en-2026-nuevas-mejo</link>
-    <description>&lt;cite index=&quot;53-17,53-18&quot;&gt;En 2026 la IA ha reducido dramáticamente la barrera para producir código, pero ha elevado el estándar de lo que constituye buena ingeniería&lt;/cite&gt;. Los equipos profesionales ahora usan configuraciones de IA en capas desde editores hasta CI/CD.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-desarrollo-asistido-por-ia-en-2026-nuevas-mejo</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Trending GitHub: OpenSandbox como plataforma universal para agentes de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=trending-github-opensandbox-como-plataforma-universal-para-a</link>
-    <description>&lt;cite index=&quot;4-7&quot;&gt;OpenSandbox es una plataforma sandbox de propósito general para aplicaciones de IA que ofrece SDKs multi-lenguaje, APIs sandbox unificadas y runtimes Docker/Kubernetes&lt;/cite&gt;. Soporta escenarios como Coding Agents, GUI Agents, evaluación de agentes y entrenamiento de RL.</description>
-    <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=trending-github-opensandbox-como-plataforma-universal-para-a</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

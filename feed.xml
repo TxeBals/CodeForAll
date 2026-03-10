@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía de mejores prácticas para frameworks RAG en producción: LangChain vs LlamaIndex 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-de-mejores-practicas-para-frameworks-rag-en-produccion-</link>
+    <description>Comparativa actualizada entre LangChain y LlamaIndex para sistemas RAG en producción. LangChain se posiciona como framework de orquestación general mientras LlamaIndex se especializa en calidad de recuperación. Muchas implementaciones enterprise combinan ambos frameworks.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-de-mejores-practicas-para-frameworks-rag-en-produccion-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenAI o3 y o4-mini disponibles en API con nuevas capacidades de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</link>
+    <description>OpenAI lanza o3 y o4-mini con razonamiento mejorado para matemáticas, ciencias y código. Los modelos incluyen soporte para herramientas integradas, preservación de tokens de razonamiento y summaries automáticos. Disponibles via Chat Completions API y Responses API para desarrolladores verificados.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain v0.24.0 introduce capacidades de orquestación avanzada y workflows multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v0-24-0-introduce-capacidades-de-orquestacion-avan</link>
+    <description>LangChain lanzó la versión 0.24.0 con soporte mejorado para workflows multi-agente, herramientas de ingeniería de prompts avanzadas y compatibilidad optimizada con modelos como Llama 3.1 70b instruct. LlamaIndex también actualiza con pipelines async y mejor gestión de documentos complejos.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v0-24-0-introduce-capacidades-de-orquestacion-avan</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>RAGFlow v0.24.0 integra múltiples estrategias de recuperación con GPT-5 y Gemini 3 Pro</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-v0-24-0-integra-multiples-estrategias-de-recuperacio</link>
+    <description>La nueva versión de RAGFlow soporta recuperación múltiple emparejada con re-ranking fusionado, modelos LLM y embedding configurables. Incluye automatización de pipelines con monitoreo integrado y compatibilidad nativa con los últimos modelos como GPT-5 y Gemini 3 Pro.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-24-0-integra-multiples-estrategias-de-recuperacio</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.6 lidera rankings de IA con mejor rendimiento en tareas de desarrollo</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-lidera-rankings-de-ia-con-mejor-rendimiento-</link>
+    <description>Anthropic lanzó Claude Opus 4.6 que supera a OpenAI GPT-5.2 y Google Gemini en benchmarks de desarrollo. Incluye ventana de contexto de 1M tokens en beta, mejoras en código y planificación de agentes autónomos. Claude Code recibe actualizaciones con nueva skill para la API de Claude.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-lidera-rankings-de-ia-con-mejor-rendimiento-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw alcanza 210,000 estrellas en GitHub como asistente de IA personal local</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-en-github-como-asistente-</link>
+    <description>OpenClaw es un asistente de IA personal que se ejecuta completamente en dispositivos locales, conectando modelos de IA a más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. Con más de 5,700 skills en su registro ClawHub, permite automatización sin dependencia de APIs externas.</description>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-en-github-como-asistente-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Google define 8 patrones esenciales de diseño para sistemas multi-agente</title>
     <link>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</link>
     <description>&lt;cite index=&quot;43-1,43-5&quot;&gt;Google publicó recientemente una guía que describe ocho patrones esenciales de diseño para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Google ha identificado ocho arquitecturas fundamentales que ayudan a los desarrolladores a diseñar sistemas multi-agente de manera estructurada&lt;/cite&gt;. &lt;cite index=&quot;43-3,43-4&quot;&gt;Los sistemas multi-agente permiten construir el equivalente de IA de una arquitectura de microservicios. Al asignar roles específicos a agentes individuales, construyes sistemas que son inherentemente más modulares, testeables y confiables&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-context-window-de-1m-tok</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el repositorio GitHub más viral de 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-github-mas-viral-de-</link>
-    <description>OpenClaw es un asistente AI personal open-source que creció de 9,000 a 188,000 estrellas en 60 días. Incluye más de 5,700 skills de la comunidad y soporte para múltiples canales de comunicación.</description>
-    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-github-mas-viral-de-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Google lanza Agent Development Kit para TypeScript: Desarrollo de agentes con código</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-agent-development-kit-para-typescript-desarroll</link>
-    <description>Google presenta ADK para TypeScript, un framework open-source que permite construir agentes AI usando prácticas de desarrollo estándar. Enfoque code-first eliminando complex prompt engineering.</description>
-    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-agent-development-kit-para-typescript-desarroll</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>DeepSeek V4 multimodal se lanzará en marzo con 1 trillón de parámetros</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-multimodal-se-lanzara-en-marzo-con-1-trillon-de-</link>
-    <description>DeepSeek prepara el lanzamiento de V4, un modelo multimodal con capacidades de texto, imagen y video. Desarrollado en colaboración con chipmakers chinos Huawei y Cambricon.</description>
-    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-multimodal-se-lanzara-en-marzo-con-1-trillon-de-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3 Instant y GPT-5.4 Pro con mejores capacidades de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-y-gpt-5-4-pro-con-mejores-capac</link>
-    <description>OpenAI ha lanzado GPT-5.3 Instant disponible para todos los usuarios y GPT-5.4 Pro en API con mejores capacidades de coding y tool calling. Incluye herramientas de búsqueda optimizadas que reducen el uso de tokens en 47%.</description>
-    <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-y-gpt-5-4-pro-con-mejores-capac</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>500+ Proyectos AI en GitHub: repositorio trending para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=500-proyectos-ai-en-github-repositorio-trending-para-desarro</link>
-    <description>&lt;cite index=&quot;18-1&quot;&gt;500 proyectos de AI, Machine Learning, Deep Learning, Computer Vision y NLP con código&lt;/cite&gt; disponibles como recurso continuamente actualizado. &lt;cite index=&quot;11-12,11-13&quot;&gt;Directorio masivo de ideas de proyectos AI/ML/DL agrupadas por áreas como computer vision, NLP y sistemas de recomendación&lt;/cite&gt;.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=500-proyectos-ai-en-github-repositorio-trending-para-desarro</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>AgentFlow y frameworks de IA agentica: la nueva generación de orquestación</title>
-    <link>https://txemagonzalez.com/post.html?slug=agentflow-y-frameworks-de-ia-agentica-la-nueva-generacion-de</link>
-    <description>&lt;cite index=&quot;23-14&quot;&gt;AgentFlow destaca en escenarios que requieren agentes de larga duración o jerárquicos, como copilots de revenue-ops&lt;/cite&gt; que leen datos de Salesforce. &lt;cite index=&quot;23-15&quot;&gt;Capa de observabilidad integrada registra uso de tokens, trazas de cadena de pensamiento y costo por ejecución&lt;/cite&gt;.</description>
-    <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=agentflow-y-frameworks-de-ia-agentica-la-nueva-generacion-de</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

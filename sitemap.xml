@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-mejores-practicas-para-frameworks-rag-en-produccion-</loc><lastmod>2026-03-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</loc><lastmod>2026-03-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v0-24-0-introduce-capacidades-de-orquestacion-avan</loc><lastmod>2026-03-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ragflow-v0-24-0-integra-multiples-estrategias-de-recuperacio</loc><lastmod>2026-03-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-lidera-rankings-de-ia-con-mejor-rendimiento-</loc><lastmod>2026-03-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-en-github-como-asistente-</loc><lastmod>2026-03-10</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</loc><lastmod>2026-03-09</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</loc><lastmod>2026-03-09</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-cuantizacion-como-ciu</loc><lastmod>2026-03-09</lastmod></url>

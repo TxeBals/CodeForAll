@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Arquitectura AI Empresarial 2026: Mejores prácticas para producción escalable</title>
+    <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-empresarial-2026-mejores-practicas-para-prod</link>
+    <description>&lt;cite index=&quot;41-24,41-25,41-26&quot;&gt;Las arquitecturas AI deben soportar directamente resultados de negocio medibles. Define KPIs para cada iniciativa y diseña sistemas para optimizar estas métricas. Las decisiones arquitectónicas deben mapear a prioridades de negocio&lt;/cite&gt;, incluyendo MLOps automatizado y CI/CD para deployment seguro.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=arquitectura-ai-empresarial-2026-mejores-practicas-para-prod</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Antropic expande uso de TPUs de Google: Infraestructura de más de 1 gigawatt</title>
+    <link>https://txemagonzalez.com/post.html?slug=antropic-expande-uso-de-tpus-de-google-infraestructura-de-ma</link>
+    <description>&lt;cite index=&quot;20-3,20-4&quot;&gt;Anthropic planea expandir su uso de tecnologías Google Cloud, incluyendo hasta un millón de TPUs, aumentando dramáticamente sus recursos computacionales. La expansión vale decenas de miles de millones de dólares y se espera que traiga más de un gigawatt de capacidad en 2026&lt;/cite&gt;.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=antropic-expande-uso-de-tpus-de-google-infraestructura-de-ma</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face Community Evals: Benchmarking transparente y estandarizado</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-community-evals-benchmarking-transparente-y-est</link>
+    <description>&lt;cite index=&quot;40-4,40-9,40-10&quot;&gt;Community Evals proporciona un mecanismo para exponer resultados de evaluación ya producidos por la comunidad y hacerlos accesibles a través de APIs del Hub. Esto permite a herramientas externas construir dashboards, leaderboards curados o análisis comparativos usando datos estandarizados&lt;/cite&gt;.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-community-evals-benchmarking-transparente-y-est</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain Multi-Agent RAG: Arquitectura modular para sistemas complejos de recuperación</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-multi-agent-rag-arquitectura-modular-para-sistemas</link>
+    <description>&lt;cite index=&quot;23-10,23-13,23-14&quot;&gt;Multi-agent RAG soluciona problemas de sistemas RAG tradicionales rutendo cada consulta a un agente especializado con su propio retriever, prompt y conjunto de herramientas. Cada dominio obtiene su propia colección Chroma en una arquitectura de aislamiento sobre consolidación&lt;/cite&gt;, optimizada para LangChain 0.5 y Claude Sonnet 4.5.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-multi-agent-rag-arquitectura-modular-para-sistemas</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek V4: El nuevo modelo de 1 trillón de parámetros con 4 innovaciones técnicas</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-el-nuevo-modelo-de-1-trillon-de-parametros-con-4</link>
+    <description>&lt;cite index=&quot;13-1,13-16,13-17,13-18&quot;&gt;DeepSeek V4 se lanza alrededor del 3 de marzo con 1 trillón de parámetros y cuatro grandes innovaciones técnicas: arquitectura MODEL1 que reduce memoria en 40%, decodificación Sparse FP8 que logra 1.8x de aceleración en inferencia&lt;/cite&gt;, y mejoras en eficiencia de entrenamiento del 30%.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-el-nuevo-modelo-de-1-trillon-de-parametros-con-4</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: El framework de agentes personales que revoluciona el desarrollo local</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-personales-que-revoluciona-</link>
+    <description>OpenClaw se convirtió en el repositorio de GitHub de más rápido crecimiento, pasando de 9,000 a 210,000 estrellas. Es un asistente AI local que se conecta a más de 50 integraciones como WhatsApp, Slack y Discord, ejecutándose completamente en tu hardware sin dependencias de API cloud.</description>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-personales-que-revoluciona-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>RAG vs Fine-Tuning: Guía completa de arquitecturas y mejores prácticas 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-guia-completa-de-arquitecturas-y-mejores-</link>
     <description>&lt;cite index=&quot;37-1,37-3&quot;&gt;Los enfoques híbridos demuestran combinar lo mejor de ambos mundos: adaptabilidad en tiempo real con precisión específica del dominio&lt;/cite&gt;. Emerge RAFT como técnica híbrida prometedora.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con cuantización como ciudadano de primera clase</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-cuantizacion-como-ciu</link>
-    <description>&lt;cite index=&quot;32-27,32-28&quot;&gt;La cuantización está emergiendo rápidamente como el estándar para el desarrollo de modelos de vanguardia. Muchos modelos SOTA ahora se lanzan en formatos de baja precisión como 8-bit y 4-bit, el hardware está cada vez más optimizado para cargas de trabajo de baja precisión&lt;/cite&gt;. &lt;cite index=&quot;32-29,32-30&quot;&gt;En v5, estamos haciendo de la cuantización un enfoque central del soporte de Transformers. Introducimos un cambio significativo en la forma en que cargamos pesos en nuestros modelos; y con esto, pasamos a que la cuantización sea un ciudadano de primera clase&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-cuantizacion-como-ciu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.1 introduce perfiles de modelos y middleware expandido</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</link>
-    <description>&lt;cite index=&quot;25-3,25-4&quot;&gt;Este lanzamiento hace que el desarrollo de agentes sea más confiable, más estructurado y más consciente del contexto, impulsado por un nuevo sistema de perfiles de modelos y middleware expandido. Los modelos de chat ahora exponen un atributo .profile que describe las capacidades soportadas&lt;/cite&gt;. &lt;cite index=&quot;25-6&quot;&gt;El middleware de resumir ahora usa perfiles de modelos para decidir cuándo y cómo resumir, proporcionando comportamiento específico del proveedor&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: El repositorio de GitHub de crecimiento más rápido llega a 188K estrellas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-github-de-crecimiento-mas-rapido-</link>
-    <description>&lt;cite index=&quot;14-13,14-14&quot;&gt;OpenClaw (anteriormente Clawdbot) es el repositorio de GitHub de crecimiento más rápido en la historia. Es un asistente personal de IA de código abierto que se ejecuta en tu propio hardware y se conecta con WhatsApp, Telegram, Slack, Discord, Signal, iMessage y Microsoft Teams&lt;/cite&gt;. &lt;cite index=&quot;14-15&quot;&gt;El registro de habilidades ClawHub del proyecto tiene más de 5,700 habilidades construidas por la comunidad&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-github-de-crecimiento-mas-rapido-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 con capacidades nativas de uso de computadoras y 1M tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-nativas-de-uso-de-compu</link>
-    <description>&lt;cite index=&quot;1-2,1-3&quot;&gt;GPT-5.4 está disponible ahora como gpt-5.4 en la API, junto con GPT-5.4 Pro como gpt-5.4-pro para tareas complejas que requieren máximo rendimiento&lt;/cite&gt;. &lt;cite index=&quot;6-2&quot;&gt;GPT-5.4 es el primer modelo de propósito general de OpenAI con capacidades nativas de uso de computadoras, permitiendo a los agentes interactuar directamente con software a través de capturas de pantalla, comandos de ratón y entradas de teclado&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-nativas-de-uso-de-compu</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>RAG vs Fine-Tuning en 2026: Guía práctica para sistemas híbridos en producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-guia-practica-para-sistemas-hibri</link>
-    <description>&lt;cite index=&quot;31-19,31-20,31-33&quot;&gt;Los benchmarks recientes muestran que no hay ganador universal entre RAG y fine-tuning. El mejor patrón 2026 es híbrido: retrieval para hechos, fine-tuning para estilo, política y comportamiento de decisión. Los sistemas híbridos son el default práctico para calidad de grado producción.&lt;/cite&gt; &lt;cite index=&quot;31-28,31-36&quot;&gt;La clave es poner conocimiento volátil en retrieval y comportamiento estable en fine-tuning. RAG mantiene el sistema veraz hoy; fine-tuning lo hace consistente mañana.&lt;/cite&gt;</description>
-    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-guia-practica-para-sistemas-hibri</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>DeepSeek V4 y R2: El próximo gran salto en modelos de razonamiento de código abierto</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-r2-el-proximo-gran-salto-en-modelos-de-razonam</link>
-    <description>&lt;cite index=&quot;60-1,60-3,60-7&quot;&gt;DeepSeek-R2 apunta a un lanzamiento a mediados de febrero 2026, mientras que DeepSeek-V4 integra el &quot;motor de razonamiento R2&quot; con arquitectura masiva. R2 promete razonamiento multilingüe consistente en más de 100 idiomas y capacidades multimodales integrando visión, audio y comprensión básica de video.&lt;/cite&gt; &lt;cite index=&quot;60-30,60-31&quot;&gt;R2 será probablemente open-weight, permitiendo despliegue local sin costos de API como alternativa viable a OpenAI o Anthropic.&lt;/cite&gt;</description>
-    <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-r2-el-proximo-gran-salto-en-modelos-de-razonam</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

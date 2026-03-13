@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>GitHub presenta los 10 proyectos open source de IA más trending con MCP y multi-agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-presenta-los-10-proyectos-open-source-de-ia-mas-trend</link>
+    <description>GitHub identifica las tendencias emergentes en IA open source, destacando el Model Context Protocol (MCP), frameworks multi-agente como OWL, y herramientas especializadas como Blender-MCP. Los proyectos muestran el crecimiento hacia sistemas de agentes especializados y integración de estándares.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-presenta-los-10-proyectos-open-source-de-ia-mas-trend</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>TypeScript se convierte en el lenguaje #1 de GitHub impulsado por IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=typescript-se-convierte-en-el-lenguaje-1-de-github-impulsado</link>
+    <description>GitHub Octoverse 2025 revela que TypeScript superó a Python como el lenguaje más usado, creciendo 66% año a año. El análisis muestra que los desarrolladores eligen lenguajes con tipado estático porque proporcionan mejores guardrails para LLMs, creando un &apos;loop de conveniencia&apos; en desarrollo con IA.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=typescript-se-convierte-en-el-lenguaje-1-de-github-impulsado</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Vercel AI SDK: toolkit TypeScript unificado para aplicaciones con IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-toolkit-typescript-unificado-para-aplicaciones</link>
+    <description>Vercel mejora su AI SDK con soporte para múltiples providers, agentes ToolLoop y capacidades de streaming. El framework permite construir aplicaciones de IA provider-agnósticas con hooks para React, Svelte y Vue, usando TypeScript como lenguaje preferido para desarrollo con IA.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-toolkit-typescript-unificado-para-aplicaciones</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub Security Lab lanza Taskflow Agent: framework de IA para investigación de seguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-security-lab-lanza-taskflow-agent-framework-de-ia-par</link>
+    <description>GitHub Security Lab presenta un framework open source basado en MCP para automatizar auditorías de seguridad usando agentes de IA. El sistema utiliza YAML workflows para definir tareas de análisis de vulnerabilidades y ya ha encontrado más de 30 fallas reales en proyectos open source.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-security-lab-lanza-taskflow-agent-framework-de-ia-par</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI presenta GPT-5.3-Codex: el modelo de codificación agentic más avanzado</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-3-codex-el-modelo-de-codificacion-agen</link>
+    <description>OpenAI lanza GPT-5.3-Codex, combinando las mejores capacidades de codificación con razonamiento avanzado. El modelo permite interacción en tiempo real durante el desarrollo y incluye GPT-5.3-Codex-Spark para inferencia de baja latencia en colaboración con Cerebras.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-3-codex-el-modelo-de-codificacion-agen</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.6 con capacidades avanzadas de codificación y agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-capacidades-avanzadas-de</link>
+    <description>Anthropic presenta Claude Opus 4.6, el modelo de IA más capaz hasta la fecha para codificación agentic. Combina el rendimiento de GPT-5.2-Codex con capacidades de razonamiento y conocimiento profesional, siendo 25% más rápido y permitiendo interacción en tiempo real durante tareas complejas.</description>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-capacidades-avanzadas-de</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Arquitectura AI Empresarial 2026: Mejores prácticas para producción escalable</title>
     <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-empresarial-2026-mejores-practicas-para-prod</link>
     <description>&lt;cite index=&quot;41-24,41-25,41-26&quot;&gt;Las arquitecturas AI deben soportar directamente resultados de negocio medibles. Define KPIs para cada iniciativa y diseña sistemas para optimizar estas métricas. Las decisiones arquitectónicas deben mapear a prioridades de negocio&lt;/cite&gt;, incluyendo MLOps automatizado y CI/CD para deployment seguro.</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain v0.24.0 introduce capacidades de orquestación avanzada y workflows multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v0-24-0-introduce-capacidades-de-orquestacion-avan</link>
-    <description>LangChain lanzó la versión 0.24.0 con soporte mejorado para workflows multi-agente, herramientas de ingeniería de prompts avanzadas y compatibilidad optimizada con modelos como Llama 3.1 70b instruct. LlamaIndex también actualiza con pipelines async y mejor gestión de documentos complejos.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v0-24-0-introduce-capacidades-de-orquestacion-avan</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>RAGFlow v0.24.0 integra múltiples estrategias de recuperación con GPT-5 y Gemini 3 Pro</title>
-    <link>https://txemagonzalez.com/post.html?slug=ragflow-v0-24-0-integra-multiples-estrategias-de-recuperacio</link>
-    <description>La nueva versión de RAGFlow soporta recuperación múltiple emparejada con re-ranking fusionado, modelos LLM y embedding configurables. Incluye automatización de pipelines con monitoreo integrado y compatibilidad nativa con los últimos modelos como GPT-5 y Gemini 3 Pro.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-24-0-integra-multiples-estrategias-de-recuperacio</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.6 lidera rankings de IA con mejor rendimiento en tareas de desarrollo</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-lidera-rankings-de-ia-con-mejor-rendimiento-</link>
-    <description>Anthropic lanzó Claude Opus 4.6 que supera a OpenAI GPT-5.2 y Google Gemini en benchmarks de desarrollo. Incluye ventana de contexto de 1M tokens en beta, mejoras en código y planificación de agentes autónomos. Claude Code recibe actualizaciones con nueva skill para la API de Claude.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-lidera-rankings-de-ia-con-mejor-rendimiento-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw alcanza 210,000 estrellas en GitHub como asistente de IA personal local</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-en-github-como-asistente-</link>
-    <description>OpenClaw es un asistente de IA personal que se ejecuta completamente en dispositivos locales, conectando modelos de IA a más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. Con más de 5,700 skills en su registro ClawHub, permite automatización sin dependencia de APIs externas.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-en-github-como-asistente-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Google define 8 patrones esenciales de diseño para sistemas multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</link>
-    <description>&lt;cite index=&quot;43-1,43-5&quot;&gt;Google publicó recientemente una guía que describe ocho patrones esenciales de diseño para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Google ha identificado ocho arquitecturas fundamentales que ayudan a los desarrolladores a diseñar sistemas multi-agente de manera estructurada&lt;/cite&gt;. &lt;cite index=&quot;43-3,43-4&quot;&gt;Los sistemas multi-agente permiten construir el equivalente de IA de una arquitectura de microservicios. Al asignar roles específicos a agentes individuales, construyes sistemas que son inherentemente más modulares, testeables y confiables&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-define-8-patrones-esenciales-de-diseno-para-sistemas-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Patrones arquitectónicos esenciales para IA agéntica empresarial en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</link>
-    <description>&lt;cite index=&quot;47-21,47-22&quot;&gt;Para desplegar IA agéntica de manera responsable y efectiva en la empresa, las organizaciones deben progresar a través de una arquitectura de tres niveles: Tier Foundation, Tier Workflow y Tier Autonomous donde la confianza, gobernanza y transparencia preceden a la autonomía&lt;/cite&gt;. &lt;cite index=&quot;47-23,47-24&quot;&gt;Primero, construir confianza estableciendo fundación y gobernanza. Luego, workflow entrega automatización a través de cinco patrones centrales. En la fase final, autonomous habilita planificación dirigida por objetivos&lt;/cite&gt;.</description>
-    <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-esenciales-para-ia-agentica-empresa</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

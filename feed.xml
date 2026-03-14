@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenClaw: Asistente de IA Local Viral con 210K+ Stars en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</link>
+    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en GitHub, pasando de 9K a 210K stars en pocas semanas. Asistente de IA personal que funciona completamente local con integración a 50+ plataformas incluyendo WhatsApp, Telegram, Slack y control de navegador web.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LoRAFusion: Sistema Optimizado para Fine-tuning Eficiente de LLMs</title>
+    <link>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</link>
+    <description>Investigadores presentan LoRAFusion, un sistema que optimiza el fine-tuning LoRA identificando dos ineficiencias clave: accesos redundantes a memoria en tensores de activación y oportunidades perdidas para fine-tuning concurrente de múltiples adaptadores LoRA independientes.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Azure Skills Plugin: Skills de Anthropic para GitHub Copilot</title>
+    <link>https://txemagonzalez.com/post.html?slug=azure-skills-plugin-skills-de-anthropic-para-github-copilot</link>
+    <description>Microsoft lanza Azure Skills Plugin que porta el concepto de Skills de Anthropic a GitHub Copilot y VS Code. Incluye Azure MCP Server y skills curadas para workflows de deployment, validación pre-flight y mejores prácticas de Azure con patrones de decisión integrados.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=azure-skills-plugin-skills-de-anthropic-para-github-copilot</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain vs LangGraph vs LlamaIndex: Benchmark de Frameworks RAG 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-vs-langgraph-vs-llamaindex-benchmark-de-frameworks</link>
+    <description>Estudio comparativo riguroso de 5 frameworks RAG principales con componentes estandarizados muestra que las diferencias de rendimiento son mínimas cuando se controlan las variables. LangGraph lidera ligeramente en eficiencia de tokens, mientras que LangChain mantiene la mejor compatibilidad de ecosistema.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-vs-langgraph-vs-llamaindex-benchmark-de-frameworks</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>GitHub Copilot Integra Claude y Codex como Agentes de Código</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-codex-como-agentes-de-codigo</link>
+    <description>GitHub anuncia la disponibilidad pública de Claude (Anthropic) y OpenAI Codex como agentes de código para usuarios de Copilot Pro+ y Enterprise. Los agentes funcionan directamente en github.com, VS Code y GitHub Mobile con historial compartido y sin suscripciones adicionales.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-codex-como-agentes-de-codigo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenThinker3-7B: Nuevo Modelo de Razonamiento SOTA de 7B con Dataset Abierto</title>
+    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-de-razonamiento-sota-de-7b-con-</link>
+    <description>El equipo de OpenThoughts lanza OpenThinker3-7B, un modelo de razonamiento de 7B parámetros que supera a DeepSeek-R1-Distill-Qwen-7B en 15-20 puntos porcentuales en benchmarks de matemáticas, código y ciencia. Entrenado únicamente con SFT (sin RL) usando el dataset OpenThoughts3-1.2M de 1.2M ejemplos curados. Disponible completamente open-source.</description>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-de-razonamiento-sota-de-7b-con-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>GitHub presenta los 10 proyectos open source de IA más trending con MCP y multi-agentes</title>
     <link>https://txemagonzalez.com/post.html?slug=github-presenta-los-10-proyectos-open-source-de-ia-mas-trend</link>
     <description>GitHub identifica las tendencias emergentes en IA open source, destacando el Model Context Protocol (MCP), frameworks multi-agente como OWL, y herramientas especializadas como Blender-MCP. Los proyectos muestran el crecimiento hacia sistemas de agentes especializados y integración de estándares.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=llamaindex-actualiza-soporte-para-langchain-1-x-y-nuevos-mod</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: El proyecto open-source de crecimiento más rápido en GitHub 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-open-source-de-crecimiento-mas-rapido-e</link>
-    <description>&lt;cite index=&quot;24-6,24-7&quot;&gt;OpenClaw surge de 9,000 a más de 60,000 estrellas en días y supera las 210,000 estrellas&lt;/cite&gt;. Creado por el fundador de PSPDFKit Peter Steinberger, representa una nueva infraestructura de IA.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-open-source-de-crecimiento-mas-rapido-e</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework: SDK open-source para sistemas multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-sdk-open-source-para-sistemas-mult</link>
-    <description>Microsoft lanza en preview público el Agent Framework, SDK open-source para orquestar sistemas multi-agente. &lt;cite index=&quot;20-2,20-5&quot;&gt;Proporciona visibilidad unificada para agentes construidos con múltiples frameworks incluyendo LangChain, LangGraph y OpenAI Agents SDK&lt;/cite&gt;.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-sdk-open-source-para-sistemas-mult</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>AI SDK 6 de Vercel: Nueva abstracción de Agentes y soporte completo para MCP</title>
-    <link>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-nueva-abstraccion-de-agentes-y-soporte-co</link>
-    <description>Vercel lanza AI SDK 6 introduciendo la abstracción Agent para construir agentes reutilizables. &lt;cite index=&quot;12-1,12-2,12-3&quot;&gt;Incluye agentes, aprobación de ejecución de herramientas, DevTools, soporte completo MCP, reranking y edición de imágenes&lt;/cite&gt;.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-nueva-abstraccion-de-agentes-y-soporte-co</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Qwen3.5 Series 35B-A3B: Nuevo modelo híbrido de visión-lenguaje con arquitectura MoE</title>
-    <link>https://txemagonzalez.com/post.html?slug=qwen3-5-series-35b-a3b-nuevo-modelo-hibrido-de-vision-lengua</link>
-    <description>Alibaba lanza Qwen3.5 Series 35B-A3B, un modelo nativo de visión-lenguaje con arquitectura híbrida que integra mecanismos de atención lineal y sparse mixture-of-experts. &lt;cite index=&quot;3-1,3-2&quot;&gt;Diseñado para mayor eficiencia de inferencia con rendimiento comparable al Qwen3.5-27B&lt;/cite&gt;.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=qwen3-5-series-35b-a3b-nuevo-modelo-hibrido-de-vision-lengua</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía de mejores prácticas para frameworks RAG en producción: LangChain vs LlamaIndex 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-de-mejores-practicas-para-frameworks-rag-en-produccion-</link>
-    <description>Comparativa actualizada entre LangChain y LlamaIndex para sistemas RAG en producción. LangChain se posiciona como framework de orquestación general mientras LlamaIndex se especializa en calidad de recuperación. Muchas implementaciones enterprise combinan ambos frameworks.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-de-mejores-practicas-para-frameworks-rag-en-produccion-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenAI o3 y o4-mini disponibles en API con nuevas capacidades de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</link>
-    <description>OpenAI lanza o3 y o4-mini con razonamiento mejorado para matemáticas, ciencias y código. Los modelos incluyen soporte para herramientas integradas, preservación de tokens de razonamiento y summaries automáticos. Disponibles via Chat Completions API y Responses API para desarrolladores verificados.</description>
-    <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-disponibles-en-api-con-nuevas-capacidade</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</loc><lastmod>2026-03-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</loc><lastmod>2026-03-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</loc><lastmod>2026-03-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-libera-version-2-0-con-streaming-type-safe-y-mejor</loc><lastmod>2026-03-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-4-6-sonnet-con-ventana-de-context</loc><lastmod>2026-03-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-significativas-para-desarro</loc><lastmod>2026-03-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</loc><lastmod>2026-03-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=azure-skills-plugin-skills-de-anthropic-para-github-copilot</loc><lastmod>2026-03-14</lastmod></url>

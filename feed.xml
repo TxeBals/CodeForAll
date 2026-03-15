@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Mejores prácticas para desarrollo asistido por IA en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</link>
+    <description>Guía completa sobre cómo usar IA en desarrollo de software efectivamente. Enfatiza que IA ha bajado barrera para producir código pero elevado estándar de buena ingeniería. Recomienda workflow incremental, revisión constante y mantener tests/monitoreo robustos para código generado por IA.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con enfoque PyTorch-only</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</link>
+    <description>Transformers v5.0.0rc-0 marca evolución hacia simplicidad e interoperabilidad. Elimina soporte Flax/TensorFlow enfocándose solo en PyTorch. Quantización como característica de primera clase con compatibilidad completa. Diseño modular mejorado reduce líneas de código para contribuir nuevos modelos.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenViking: Nueva base de datos contextual para agentes de IA en trending</title>
+    <link>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</link>
+    <description>OpenViking es una base de datos contextual open-source diseñada específicamente para agentes IA como OpenClaw. Unifica la gestión de contexto (memoria, recursos, skills) mediante paradigma de sistema de archivos, permitiendo entrega jerárquica y auto-evolución de contexto.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain libera versión 2.0 con streaming type-safe y mejor integración</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-libera-version-2-0-con-streaming-type-safe-y-mejor</link>
+    <description>LangGraph introduce streaming type-safe con version=&apos;v2&apos; proporcionando salida unificada StreamPart. Nuevos paquetes de integración para sandboxes pluggables (langchain-modal, langchain-daytona). Mejor soporte para OpenAI Responses API y manejo automático de ContextOverflowError.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-libera-version-2-0-con-streaming-type-safe-y-mejor</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic actualiza Claude 4.6 Sonnet con ventana de contexto de 1M tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-4-6-sonnet-con-ventana-de-context</link>
+    <description>Claude Sonnet 4.6 combina velocidad e inteligencia con mejor rendimiento de búsqueda agentic y menor consumo de tokens. Ahora disponible con ventana de contexto de 1M tokens y extended thinking. Incluye nuevas capacidades de Skills API y herramientas de código execution gratuitas.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-4-6-sonnet-con-ventana-de-context</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2 con mejoras significativas para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-significativas-para-desarro</link>
+    <description>GPT-5.2 presenta importantes avances en tool-calling, visión y contexto extendido. Incluye GPT-5.2 Codex para tareas de programación con 25% más de velocidad y un nuevo contexto de 1M tokens. También estrena GPT-5.3-Codex-Spark optimizado para codificación en tiempo real a +1000 tokens/segundo.</description>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-significativas-para-desarro</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>OpenClaw: Asistente de IA Local Viral con 210K+ Stars en GitHub</title>
     <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</link>
     <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en GitHub, pasando de 9K a 210K stars en pocas semanas. Asistente de IA personal que funciona completamente local con integración a 50+ plataformas incluyendo WhatsApp, Telegram, Slack y control de navegador web.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=antropic-expande-uso-de-tpus-de-google-infraestructura-de-ma</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face Community Evals: Benchmarking transparente y estandarizado</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-community-evals-benchmarking-transparente-y-est</link>
-    <description>&lt;cite index=&quot;40-4,40-9,40-10&quot;&gt;Community Evals proporciona un mecanismo para exponer resultados de evaluación ya producidos por la comunidad y hacerlos accesibles a través de APIs del Hub. Esto permite a herramientas externas construir dashboards, leaderboards curados o análisis comparativos usando datos estandarizados&lt;/cite&gt;.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-community-evals-benchmarking-transparente-y-est</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain Multi-Agent RAG: Arquitectura modular para sistemas complejos de recuperación</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-multi-agent-rag-arquitectura-modular-para-sistemas</link>
-    <description>&lt;cite index=&quot;23-10,23-13,23-14&quot;&gt;Multi-agent RAG soluciona problemas de sistemas RAG tradicionales rutendo cada consulta a un agente especializado con su propio retriever, prompt y conjunto de herramientas. Cada dominio obtiene su propia colección Chroma en una arquitectura de aislamiento sobre consolidación&lt;/cite&gt;, optimizada para LangChain 0.5 y Claude Sonnet 4.5.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-multi-agent-rag-arquitectura-modular-para-sistemas</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>DeepSeek V4: El nuevo modelo de 1 trillón de parámetros con 4 innovaciones técnicas</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-el-nuevo-modelo-de-1-trillon-de-parametros-con-4</link>
-    <description>&lt;cite index=&quot;13-1,13-16,13-17,13-18&quot;&gt;DeepSeek V4 se lanza alrededor del 3 de marzo con 1 trillón de parámetros y cuatro grandes innovaciones técnicas: arquitectura MODEL1 que reduce memoria en 40%, decodificación Sparse FP8 que logra 1.8x de aceleración en inferencia&lt;/cite&gt;, y mejoras en eficiencia de entrenamiento del 30%.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-el-nuevo-modelo-de-1-trillon-de-parametros-con-4</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: El framework de agentes personales que revoluciona el desarrollo local</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-personales-que-revoluciona-</link>
-    <description>OpenClaw se convirtió en el repositorio de GitHub de más rápido crecimiento, pasando de 9,000 a 210,000 estrellas. Es un asistente AI local que se conecta a más de 50 integraciones como WhatsApp, Slack y Discord, ejecutándose completamente en tu hardware sin dependencias de API cloud.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-personales-que-revoluciona-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>RAG vs Fine-Tuning: Guía completa de arquitecturas y mejores prácticas 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-guia-completa-de-arquitecturas-y-mejores-</link>
-    <description>&lt;cite index=&quot;37-1,37-3&quot;&gt;Los enfoques híbridos demuestran combinar lo mejor de ambos mundos: adaptabilidad en tiempo real con precisión específica del dominio&lt;/cite&gt;. Emerge RAFT como técnica híbrida prometedora.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-guia-completa-de-arquitecturas-y-mejores-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LlamaIndex actualiza soporte para LangChain 1.x y nuevos modelos GPT-5.2</title>
-    <link>https://txemagonzalez.com/post.html?slug=llamaindex-actualiza-soporte-para-langchain-1-x-y-nuevos-mod</link>
-    <description>&lt;cite index=&quot;54-1,54-4&quot;&gt;Soporte para LangChain 1.x, soporte para gpt-5.2-chat model, nuevos tipos de reasoning, integración con Chonkie y mejoras en VllmServer&lt;/cite&gt;. Incluye nuevas capacidades para modelos de razonamiento OpenAI.</description>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-actualiza-soporte-para-langchain-1-x-y-nuevos-mod</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

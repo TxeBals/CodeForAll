@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura multi-agente: la guía esencial de Google</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</link>
+    <description>Google publica guía de 8 patrones fundamentales para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Incluye código de ejemplo con Agent Development Kit y explica cómo construir &apos;microservicios de IA&apos; confiables.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Alibaba Qwen 3.5 Small: modelos compactos que rivalizan con gigantes</title>
+    <link>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</link>
+    <description>Qwen 3.5 Small Series incluye variantes de 0.8B, 2B, 4B y 9B parámetros. El modelo 9B iguala a GPT-OSS-120B (13x más grande) en benchmarks. El modelo 2B corre en iPhone en modo avión con solo 4GB RAM, habilitando IA on-device real.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Tutorial completo: RAG confiable en producción con LangChain 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-rag-confiable-en-produccion-con-langchain-</link>
+    <description>Guía práctica step-by-step para construir aplicaciones RAG production-ready usando LangChain, Streamlit y SingleStore. Cubre chunking, embeddings, bases de datos vectoriales y interfaces de chat con documentos. Incluye mejores prácticas para escalar.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-rag-confiable-en-produccion-con-langchain-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: el repo de GitHub con crecimiento más rápido de la historia</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-de-la-</link>
+    <description>OpenClaw (ex-Clawdbot) alcanza 210K+ estrellas tras crecer de 9K a 60K en días. Es un asistente de IA personal que corre localmente y se conecta a 50+ integraciones como WhatsApp, Slack, Discord. Incluye registro de habilidades ClawHub con 5,700+ skills comunitarias.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-de-la-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.1 Pro con nuevos benchmarks record en razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-nuevos-benchmarks-record-en-</link>
+    <description>Google Gemini 3.1 Pro marca liderazgo en 13 de 16 benchmarks principales, incluyendo 77.1% en ARC-AGI-2 para razonamiento puro y 94.3% en GPQA Diamond. Mantiene el mismo precio que Gemini 3 Pro mientras ofrece capacidades superiores.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-nuevos-benchmarks-record-en-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>NVIDIA lanza Nemotron 3: nueva familia de modelos para IA agéntica a escala</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nueva-familia-de-modelos-para-ia-age</link>
+    <description>NVIDIA presenta Nemotron 3 Super con 120B parámetros y arquitectura híbrida Mamba-Transformer MoE con solo 12B activos. Diseñado específicamente para sistemas multi-agente con 2.2x más rendimiento que modelos anteriores y contexto de 1M tokens.</description>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nueva-familia-de-modelos-para-ia-age</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Mejores prácticas para desarrollo asistido por IA en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</link>
     <description>Guía completa sobre cómo usar IA en desarrollo de software efectivamente. Enfatiza que IA ha bajado barrera para producir código pero elevado estándar de buena ingeniería. Recomienda workflow incremental, revisión constante y mantener tests/monitoreo robustos para código generado por IA.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=typescript-se-convierte-en-el-lenguaje-1-de-github-impulsado</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Vercel AI SDK: toolkit TypeScript unificado para aplicaciones con IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-toolkit-typescript-unificado-para-aplicaciones</link>
-    <description>Vercel mejora su AI SDK con soporte para múltiples providers, agentes ToolLoop y capacidades de streaming. El framework permite construir aplicaciones de IA provider-agnósticas con hooks para React, Svelte y Vue, usando TypeScript como lenguaje preferido para desarrollo con IA.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-toolkit-typescript-unificado-para-aplicaciones</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub Security Lab lanza Taskflow Agent: framework de IA para investigación de seguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-security-lab-lanza-taskflow-agent-framework-de-ia-par</link>
-    <description>GitHub Security Lab presenta un framework open source basado en MCP para automatizar auditorías de seguridad usando agentes de IA. El sistema utiliza YAML workflows para definir tareas de análisis de vulnerabilidades y ya ha encontrado más de 30 fallas reales en proyectos open source.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-security-lab-lanza-taskflow-agent-framework-de-ia-par</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI presenta GPT-5.3-Codex: el modelo de codificación agentic más avanzado</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-3-codex-el-modelo-de-codificacion-agen</link>
-    <description>OpenAI lanza GPT-5.3-Codex, combinando las mejores capacidades de codificación con razonamiento avanzado. El modelo permite interacción en tiempo real durante el desarrollo y incluye GPT-5.3-Codex-Spark para inferencia de baja latencia en colaboración con Cerebras.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-presenta-gpt-5-3-codex-el-modelo-de-codificacion-agen</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.6 con capacidades avanzadas de codificación y agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-capacidades-avanzadas-de</link>
-    <description>Anthropic presenta Claude Opus 4.6, el modelo de IA más capaz hasta la fecha para codificación agentic. Combina el rendimiento de GPT-5.2-Codex con capacidades de razonamiento y conocimiento profesional, siendo 25% más rápido y permitiendo interacción en tiempo real durante tareas complejas.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-6-con-capacidades-avanzadas-de</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Arquitectura AI Empresarial 2026: Mejores prácticas para producción escalable</title>
-    <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-empresarial-2026-mejores-practicas-para-prod</link>
-    <description>&lt;cite index=&quot;41-24,41-25,41-26&quot;&gt;Las arquitecturas AI deben soportar directamente resultados de negocio medibles. Define KPIs para cada iniciativa y diseña sistemas para optimizar estas métricas. Las decisiones arquitectónicas deben mapear a prioridades de negocio&lt;/cite&gt;, incluyendo MLOps automatizado y CI/CD para deployment seguro.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=arquitectura-ai-empresarial-2026-mejores-practicas-para-prod</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Antropic expande uso de TPUs de Google: Infraestructura de más de 1 gigawatt</title>
-    <link>https://txemagonzalez.com/post.html?slug=antropic-expande-uso-de-tpus-de-google-infraestructura-de-ma</link>
-    <description>&lt;cite index=&quot;20-3,20-4&quot;&gt;Anthropic planea expandir su uso de tecnologías Google Cloud, incluyendo hasta un millón de TPUs, aumentando dramáticamente sus recursos computacionales. La expansión vale decenas de miles de millones de dólares y se espera que traiga más de un gigawatt de capacidad en 2026&lt;/cite&gt;.</description>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=antropic-expande-uso-de-tpus-de-google-infraestructura-de-ma</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

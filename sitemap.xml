@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</loc><lastmod>2026-03-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</loc><lastmod>2026-03-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-rag-confiable-en-produccion-con-langchain-</loc><lastmod>2026-03-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-de-la-</loc><lastmod>2026-03-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-nuevos-benchmarks-record-en-</loc><lastmod>2026-03-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nueva-familia-de-modelos-para-ia-age</loc><lastmod>2026-03-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</loc><lastmod>2026-03-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</loc><lastmod>2026-03-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</loc><lastmod>2026-03-15</lastmod></url>

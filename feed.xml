@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura AI-Native escalables para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-escalables-para-2026</link>
+    <description>Guía completa de patrones arquitectónicos para aplicaciones nativas de IA que incluye cadenas, agentes únicos y sistemas multi-agente. Énfasis en optimización de costos y manejo de contexto con ejemplos de producción.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-escalables-para-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RAG vs Fine-tuning: patrones híbridos dominan en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-patrones-hibridos-dominan-en-2026</link>
+    <description>Análisis técnico actual muestra que los sistemas híbridos son el estándar de facto en producción. RAG maneja conocimiento volátil mientras fine-tuning codifica comportamiento estable. Nuevo framework A-RAG introduce interfaces jerárquicas.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-patrones-hibridos-dominan-en-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>DeepSeek-R1 demuestra razonamiento puro con aprendizaje reforzado</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-demuestra-razonamiento-puro-con-aprendizaje-refo</link>
+    <description>DeepSeek publicó el paper de R1 mostrando cómo entrenar capacidades de razonamiento usando solo RL sin fine-tuning supervisado. El modelo alcanza 77.9% en AIME 2024 y desarrolla patrones como auto-reflexión naturalmente.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-demuestra-razonamiento-puro-con-aprendizaje-refo</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw alcanza 210k estrellas como asistente personal AI local</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-personal-ai-l</link>
+    <description>OpenClaw se convirtió en el proyecto de código abierto de mayor crecimiento en GitHub con más de 210k estrellas. Es un asistente personal AI que funciona completamente en dispositivos locales con más de 50 integraciones.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-personal-ai-l</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>GitHub presenta SDK de Copilot para flujos de trabajo agénticos</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-presenta-sdk-de-copilot-para-flujos-de-trabajo-agenti</link>
+    <description>GitHub lanzó el SDK de Copilot que permite implementar flujos de trabajo agénticos directamente en aplicaciones. Los agentes funcionan con aislamiento, salidas restringidas y registro completo dentro de GitHub Actions.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-presenta-sdk-de-copilot-para-flujos-de-trabajo-agenti</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain anuncia plataforma empresarial con integración NVIDIA</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-anuncia-plataforma-empresarial-con-integracion-nvi</link>
+    <description>LangChain reveló una integración completa con NVIDIA que incluye el Agent Toolkit y la incorporación a la Nemotron Coalition. La plataforma combina LangSmith, Deep Agents y LangGraph con herramientas NVIDIA como Dynamo y OpenShell.</description>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-anuncia-plataforma-empresarial-con-integracion-nvi</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura multi-agente: la guía esencial de Google</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</link>
     <description>Google publica guía de 8 patrones fundamentales para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Incluye código de ejemplo con Agent Development Kit y explica cómo construir &apos;microservicios de IA&apos; confiables.</description>
@@ -116,54 +164,6 @@
     <description>Investigadores presentan LoRAFusion, un sistema que optimiza el fine-tuning LoRA identificando dos ineficiencias clave: accesos redundantes a memoria en tensores de activación y oportunidades perdidas para fine-tuning concurrente de múltiples adaptadores LoRA independientes.</description>
     <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Azure Skills Plugin: Skills de Anthropic para GitHub Copilot</title>
-    <link>https://txemagonzalez.com/post.html?slug=azure-skills-plugin-skills-de-anthropic-para-github-copilot</link>
-    <description>Microsoft lanza Azure Skills Plugin que porta el concepto de Skills de Anthropic a GitHub Copilot y VS Code. Incluye Azure MCP Server y skills curadas para workflows de deployment, validación pre-flight y mejores prácticas de Azure con patrones de decisión integrados.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=azure-skills-plugin-skills-de-anthropic-para-github-copilot</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain vs LangGraph vs LlamaIndex: Benchmark de Frameworks RAG 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-vs-langgraph-vs-llamaindex-benchmark-de-frameworks</link>
-    <description>Estudio comparativo riguroso de 5 frameworks RAG principales con componentes estandarizados muestra que las diferencias de rendimiento son mínimas cuando se controlan las variables. LangGraph lidera ligeramente en eficiencia de tokens, mientras que LangChain mantiene la mejor compatibilidad de ecosistema.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-vs-langgraph-vs-llamaindex-benchmark-de-frameworks</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub Copilot Integra Claude y Codex como Agentes de Código</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-codex-como-agentes-de-codigo</link>
-    <description>GitHub anuncia la disponibilidad pública de Claude (Anthropic) y OpenAI Codex como agentes de código para usuarios de Copilot Pro+ y Enterprise. Los agentes funcionan directamente en github.com, VS Code y GitHub Mobile con historial compartido y sin suscripciones adicionales.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-codex-como-agentes-de-codigo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenThinker3-7B: Nuevo Modelo de Razonamiento SOTA de 7B con Dataset Abierto</title>
-    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-de-razonamiento-sota-de-7b-con-</link>
-    <description>El equipo de OpenThoughts lanza OpenThinker3-7B, un modelo de razonamiento de 7B parámetros que supera a DeepSeek-R1-Distill-Qwen-7B en 15-20 puntos porcentuales en benchmarks de matemáticas, código y ciencia. Entrenado únicamente con SFT (sin RL) usando el dataset OpenThoughts3-1.2M de 1.2M ejemplos curados. Disponible completamente open-source.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-nuevo-modelo-de-razonamiento-sota-de-7b-con-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub presenta los 10 proyectos open source de IA más trending con MCP y multi-agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-presenta-los-10-proyectos-open-source-de-ia-mas-trend</link>
-    <description>GitHub identifica las tendencias emergentes en IA open source, destacando el Model Context Protocol (MCP), frameworks multi-agente como OWL, y herramientas especializadas como Blender-MCP. Los proyectos muestran el crecimiento hacia sistemas de agentes especializados y integración de estándares.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-presenta-los-10-proyectos-open-source-de-ia-mas-trend</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>TypeScript se convierte en el lenguaje #1 de GitHub impulsado por IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=typescript-se-convierte-en-el-lenguaje-1-de-github-impulsado</link>
-    <description>GitHub Octoverse 2025 revela que TypeScript superó a Python como el lenguaje más usado, creciendo 66% año a año. El análisis muestra que los desarrolladores eligen lenguajes con tipado estático porque proporcionan mejores guardrails para LLMs, creando un &apos;loop de conveniencia&apos; en desarrollo con IA.</description>
-    <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=typescript-se-convierte-en-el-lenguaje-1-de-github-impulsado</guid>
     <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>

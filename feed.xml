@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG Evoluciona: Vector Databases vs Retrieval Sin Vectores en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</link>
+    <description>El paradigma de retrieval está cambiando con frameworks como PageIndex demostrando 98.7% de precisión sin usar embeddings ni búsqueda por similitud. Los sistemas híbridos combinan retrieval vectorial para descubrimiento amplio con reasoning basado en estructura de documentos para extracción precisa.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 Adopta PyTorch y Quantización First-Class</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</link>
+    <description>Transformers v5 se enfoca completamente en PyTorch con quantización como ciudadano de primera clase. La nueva arquitectura modular facilita el mantenimiento, integración más rápida y mejor colaboración. Incluye soporte optimizado para kernels y entrenamiento a gran escala.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangGraph v2 Introduce Streaming Type-Safe y Coerción Automática</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-type-safe-y-coercion-automa</link>
+    <description>La nueva versión v2 de LangGraph añade streaming type-safe unificado y invoke type-safe con objeto GraphOutput. Incluye coerción automática a modelos Pydantic y dataclass, manteniendo compatibilidad completa hacia atrás mientras mejora la experiencia de desarrollo.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-type-safe-y-coercion-automa</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic Lanza Claude Sonnet 4.6 con Contexto de 1M Tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-contexto-de-1m-tokens</link>
+    <description>El nuevo modelo balanceado de Anthropic combina velocidad e inteligencia para tareas cotidianas. Sonnet 4.6 mejora el rendimiento de búsqueda agentica mientras consume menos tokens, con soporte para thinking extendido y ventana de contexto de 1M tokens en beta.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-contexto-de-1m-tokens</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 con Capacidades Agenticas y Reasoning Mejorado</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-agenticas-y-reasoning-m</link>
+    <description>La nueva versión GPT-5.4 fusiona reasoning, coding y workflows agenticos con las capacidades de GPT-5.3-Codex. Incluye soporte mejorado para herramientas de spreadsheets, presentaciones y documentos, además del nuevo modo &apos;thinking&apos; que muestra el proceso de razonamiento.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-agenticas-y-reasoning-m</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: GitHub&apos;s Fastest-Growing AI Agent Project Hits 210K Stars</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-github-s-fastest-growing-ai-agent-project-hits-210k</link>
+    <description>El asistente personal de IA que ejecuta completamente en tu dispositivo. OpenClaw se conecta a más de 50 integraciones incluyendo WhatsApp, Slack y Discord, con capacidades de navegación web, ejecución de código y workflows agenticos sin enviar datos a la nube.</description>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-github-s-fastest-growing-ai-agent-project-hits-210k</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura AI-Native escalables para 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-escalables-para-2026</link>
     <description>Guía completa de patrones arquitectónicos para aplicaciones nativas de IA que incluye cadenas, agentes únicos y sistemas multi-agente. Énfasis en optimización de costos y manejo de contexto con ejemplos de producción.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenViking: Nueva base de datos contextual para agentes de IA en trending</title>
-    <link>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</link>
-    <description>OpenViking es una base de datos contextual open-source diseñada específicamente para agentes IA como OpenClaw. Unifica la gestión de contexto (memoria, recursos, skills) mediante paradigma de sistema de archivos, permitiendo entrega jerárquica y auto-evolución de contexto.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openviking-nueva-base-de-datos-contextual-para-agentes-de-ia</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain libera versión 2.0 con streaming type-safe y mejor integración</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-libera-version-2-0-con-streaming-type-safe-y-mejor</link>
-    <description>LangGraph introduce streaming type-safe con version=&apos;v2&apos; proporcionando salida unificada StreamPart. Nuevos paquetes de integración para sandboxes pluggables (langchain-modal, langchain-daytona). Mejor soporte para OpenAI Responses API y manejo automático de ContextOverflowError.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-libera-version-2-0-con-streaming-type-safe-y-mejor</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic actualiza Claude 4.6 Sonnet con ventana de contexto de 1M tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-4-6-sonnet-con-ventana-de-context</link>
-    <description>Claude Sonnet 4.6 combina velocidad e inteligencia con mejor rendimiento de búsqueda agentic y menor consumo de tokens. Ahora disponible con ventana de contexto de 1M tokens y extended thinking. Incluye nuevas capacidades de Skills API y herramientas de código execution gratuitas.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-4-6-sonnet-con-ventana-de-context</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2 con mejoras significativas para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-significativas-para-desarro</link>
-    <description>GPT-5.2 presenta importantes avances en tool-calling, visión y contexto extendido. Incluye GPT-5.2 Codex para tareas de programación con 25% más de velocidad y un nuevo contexto de 1M tokens. También estrena GPT-5.3-Codex-Spark optimizado para codificación en tiempo real a +1000 tokens/segundo.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-mejoras-significativas-para-desarro</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente de IA Local Viral con 210K+ Stars en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</link>
-    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en GitHub, pasando de 9K a 210K stars en pocas semanas. Asistente de IA personal que funciona completamente local con integración a 50+ plataformas incluyendo WhatsApp, Telegram, Slack y control de navegador web.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-viral-con-210k-stars-en-githu</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LoRAFusion: Sistema Optimizado para Fine-tuning Eficiente de LLMs</title>
-    <link>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</link>
-    <description>Investigadores presentan LoRAFusion, un sistema que optimiza el fine-tuning LoRA identificando dos ineficiencias clave: accesos redundantes a memoria en tensores de activación y oportunidades perdidas para fine-tuning concurrente de múltiples adaptadores LoRA independientes.</description>
-    <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=lorafusion-sistema-optimizado-para-fine-tuning-eficiente-de-</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

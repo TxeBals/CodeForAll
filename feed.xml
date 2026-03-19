@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial completo: Construcción de sistemas RAG desde cero con Python</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</link>
+    <description>&lt;cite index=&quot;58-10,58-11,58-12&quot;&gt;Guía práctica completa para construir un sistema RAG (Retrieval-Augmented Generation) que puede responder preguntas sobre tu base de código usando embeddings vectoriales, ChromaDB y la API de OpenAI. El sistema ingiere código y documentación, luego proporciona respuestas precisas y contextuales basadas en archivos reales.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>GitHub Agentic Workflows permite agentes de codificación en GitHub Actions</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</link>
+    <description>&lt;cite index=&quot;2-22,2-23,2-24&quot;&gt;GitHub anuncia Agentic Workflows, ahora en preview técnico, que permite construir automatizaciones usando agentes de codificación en GitHub Actions para manejar triage, documentación, calidad de código y más. Conceptualizado como Continuous AI que opera como agentes en segundo plano en repositorios para tareas que requieren razonamiento.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan versiones 1.0 estables</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</link>
+    <description>&lt;cite index=&quot;41-3,41-4,41-5,41-6&quot;&gt;LangChain y LangGraph lanzan sus primeras versiones principales 1.0. LangChain actualizado se enfoca en el loop principal de agentes con flexibilidad a través de middleware, mientras que LangGraph es un framework de bajo nivel útil para agentes altamente personalizados y controlables, diseñado para soportar agentes de grado producción y de larga duración.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek-V3.2 introduce arquitectura sparse attention con herramientas de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-arquitectura-sparse-attention-con-he</link>
+    <description>&lt;cite index=&quot;32-11,32-12,32-13&quot;&gt;DeepSeek-V3.2 harmoniza alta eficiencia computacional con rendimiento superior de razonamiento y agentes. Introduce DeepSeek Sparse Attention (DSA) que reduce sustancialmente la complejidad computacional mientras preserva el rendimiento del modelo, optimizado específicamente para escenarios de contexto largo.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-arquitectura-sparse-attention-con-he</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5.0 con cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-0-con-cuantizacion-nativa</link>
+    <description>&lt;cite index=&quot;21-22,21-23,21-24&quot;&gt;Hugging Face anunció el lanzamiento inicial de Transformers v5, la primera versión mayor en cinco años con 1200 commits desde la última versión menor. Esta versión elimina deprecaciones pendientes, introduce refactorizaciones significativas que simplifican APIs e internos, y hace de la cuantización un ciudadano de primera clase.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-0-con-cuantizacion-nativa</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex y actualiza modelos GPT-4.1</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-actualiza-modelos-gpt-4-1</link>
+    <description>&lt;cite index=&quot;11-7,11-8,11-9&quot;&gt;OpenAI lanzó GPT-5.3-Codex, su modelo de codificación agéntica más capaz que combina Codex + GPT-5 training stacks, siendo ~25% más rápido y marcando un cambio de generación de código a un agente de codificación de propósito general. También están disponibles los modelos GPT-4.1 y GPT-4.1-mini con mejores capacidades de seguimiento de instrucciones, codificación e inteligencia general.&lt;/cite&gt;</description>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-actualiza-modelos-gpt-4-1</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>RAG Evoluciona: Vector Databases vs Retrieval Sin Vectores en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</link>
     <description>El paradigma de retrieval está cambiando con frameworks como PageIndex demostrando 98.7% de precisión sin usar embeddings ni búsqueda por similitud. Los sistemas híbridos combinan retrieval vectorial para descubrimiento amplio con reasoning basado en estructura de documentos para extracción precisa.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>Tutorial completo: RAG confiable en producción con LangChain 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-rag-confiable-en-produccion-con-langchain-</link>
-    <description>Guía práctica step-by-step para construir aplicaciones RAG production-ready usando LangChain, Streamlit y SingleStore. Cubre chunking, embeddings, bases de datos vectoriales y interfaces de chat con documentos. Incluye mejores prácticas para escalar.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-rag-confiable-en-produccion-con-langchain-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: el repo de GitHub con crecimiento más rápido de la historia</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-de-la-</link>
-    <description>OpenClaw (ex-Clawdbot) alcanza 210K+ estrellas tras crecer de 9K a 60K en días. Es un asistente de IA personal que corre localmente y se conecta a 50+ integraciones como WhatsApp, Slack, Discord. Incluye registro de habilidades ClawHub con 5,700+ skills comunitarias.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-de-la-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Google lanza Gemini 3.1 Pro con nuevos benchmarks record en razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-nuevos-benchmarks-record-en-</link>
-    <description>Google Gemini 3.1 Pro marca liderazgo en 13 de 16 benchmarks principales, incluyendo 77.1% en ARC-AGI-2 para razonamiento puro y 94.3% en GPQA Diamond. Mantiene el mismo precio que Gemini 3 Pro mientras ofrece capacidades superiores.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-con-nuevos-benchmarks-record-en-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>NVIDIA lanza Nemotron 3: nueva familia de modelos para IA agéntica a escala</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nueva-familia-de-modelos-para-ia-age</link>
-    <description>NVIDIA presenta Nemotron 3 Super con 120B parámetros y arquitectura híbrida Mamba-Transformer MoE con solo 12B activos. Diseñado específicamente para sistemas multi-agente con 2.2x más rendimiento que modelos anteriores y contexto de 1M tokens.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-nueva-familia-de-modelos-para-ia-age</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Mejores prácticas para desarrollo asistido por IA en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</link>
-    <description>Guía completa sobre cómo usar IA en desarrollo de software efectivamente. Enfatiza que IA ha bajado barrera para producir código pero elevado estándar de buena ingeniería. Recomienda workflow incremental, revisión constante y mantener tests/monitoreo robustos para código generado por IA.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-desarrollo-asistido-por-ia-en-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con enfoque PyTorch-only</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</link>
-    <description>Transformers v5.0.0rc-0 marca evolución hacia simplicidad e interoperabilidad. Elimina soporte Flax/TensorFlow enfocándose solo en PyTorch. Quantización como característica de primera clase con compatibilidad completa. Diseño modular mejorado reduce líneas de código para contribuir nuevos modelos.</description>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-only</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

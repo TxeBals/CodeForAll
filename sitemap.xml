@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-arquitectura-sparse-attention-con-he</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-0-con-cuantizacion-nativa</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-actualiza-modelos-gpt-4-1</loc><lastmod>2026-03-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</loc><lastmod>2026-03-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</loc><lastmod>2026-03-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-type-safe-y-coercion-automa</loc><lastmod>2026-03-18</lastmod></url>

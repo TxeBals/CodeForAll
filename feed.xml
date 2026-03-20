@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Anthropic lanza certificación Claude Certified Architect para desarrolladores AI enterprise</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-certificacion-claude-certified-architect-par</link>
+    <description>&lt;cite index=&quot;47-1,47-2,47-3,47-9,47-10&quot;&gt;Anthropic lanzó el examen Claude Certified Architect, su primera certificación oficial para ingenieros que diseñan sistemas de producción con Claude. El examen cubre arquitectura agentic (27%), diseño de tools y MCP (18%), configuración Claude Code (20%), prompt engineering (20%) y gestión de contexto (15%).&lt;/cite&gt; &lt;cite index=&quot;47-4,47-5,47-6,47-7&quot;&gt;Formato exigente: 60 preguntas multiple choice en 2 horas, monitoreado por webcam, requiere 720/1000 puntos para aprobar.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-certificacion-claude-certified-architect-par</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw emerge como el proyecto AI de más rápido crecimiento en GitHub con 210k+ estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-ai-de-mas-rapido-crecimient</link>
+    <description>&lt;cite index=&quot;7-4,7-5,7-7,7-8,7-9&quot;&gt;OpenClaw se convirtió en el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9k a 210k+ estrellas. Es un asistente AI personal que ejecuta completamente en dispositivos locales, conectando modelos AI con 50+ integraciones incluyendo WhatsApp, Slack y Discord.&lt;/cite&gt; &lt;cite index=&quot;7-11,7-12&quot;&gt;Representa el shift de &apos;AI que responde&apos; a &apos;AI que actúa&apos;, con capacidades de browsing web, ejecución de código y workflows multi-step continuos.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-ai-de-mas-rapido-crecimient</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain anuncia alianza empresarial con NVIDIA para plataforma agentic con Nemotron</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-anuncia-alianza-empresarial-con-nvidia-para-plataf</link>
+    <description>&lt;cite index=&quot;22-4,22-5,22-6&quot;&gt;LangChain anunció integración completa con NVIDIA para plataforma agentic empresarial, combinando LangSmith con NVIDIA Agent Toolkit, Nemotron models y NIM microservices. LangChain se une además al Nemotron Coalition de NVIDIA.&lt;/cite&gt; &lt;cite index=&quot;22-18,22-19,22-20&quot;&gt;La integración permite workflows multi-agent complejos con LangGraph, Deep Agents para planificación avanzada, y el sistema AI-Q Blueprint que rankea #1 en benchmarks de research.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-anuncia-alianza-empresarial-con-nvidia-para-plataf</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con backend unificado y releases semanales</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-unificado-y-r</link>
+    <description>&lt;cite index=&quot;31-1,31-2,31-5,31-6&quot;&gt;Hugging Face anunció Transformers v5, el primer release mayor en 5 años con 1200+ commits. Introduce refactors significativos, simplifica APIs e internals, y establece releases menores semanales en lugar de cada 5 semanas.&lt;/cite&gt; &lt;cite index=&quot;31-14,31-18,31-19&quot;&gt;Unifica tokenizers con un solo archivo por modelo usando backends TokenizersBackend (Rust), SentencePieceBackend y PythonBackend según disponibilidad.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-unificado-y-r</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain presenta Deep Agents: runtime estructurado para agentes multi-step con planificación</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-runtime-estructurado-para-age</link>
+    <description>&lt;cite index=&quot;28-24,28-25,28-26,28-27,28-28&quot;&gt;LangChain lanzó Deep Agents, un agent harness construido sobre LangGraph que incluye planificación integrada con write_todos, herramientas de filesystem para gestión de contexto, spawning de subagents aislados y memoria persistente entre threads.&lt;/cite&gt; &lt;cite index=&quot;28-10,28-11&quot;&gt;Diseñado específicamente para tareas multi-step, stateful y artifact-heavy donde los agentes LLM tradicionales fallan.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-runtime-estructurado-para-age</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 mini y nano para desarrolladores con subagents optimizados</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-para-desarrolladores-con-su</link>
+    <description>&lt;cite index=&quot;11-28,11-29,15-1,15-2&quot;&gt;OpenAI lanzó GPT-5.4 mini y nano, los modelos más pequeños y rápidos de la serie GPT-5.4. Mini supera a GPT-5 mini en coding, reasoning y multimodal mientras ejecuta 2x más rápido, y nano ofrece una opción ultra-económica para tareas de alto volumen.&lt;/cite&gt; &lt;cite index=&quot;15-8,15-16&quot;&gt;Los modelos están especialmente optimizados para subagents en Codex, permitiendo delegar subtareas paralelas como búsqueda en codebase y revisión de archivos.&lt;/cite&gt;</description>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-para-desarrolladores-con-su</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Tutorial completo: Construcción de sistemas RAG desde cero con Python</title>
     <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</link>
     <description>&lt;cite index=&quot;58-10,58-11,58-12&quot;&gt;Guía práctica completa para construir un sistema RAG (Retrieval-Augmented Generation) que puede responder preguntas sobre tu base de código usando embeddings vectoriales, ChromaDB y la API de OpenAI. El sistema ingiere código y documentación, luego proporciona respuestas precisas y contextuales basadas en archivos reales.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-patrones-hibridos-dominan-en-2026</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>DeepSeek-R1 demuestra razonamiento puro con aprendizaje reforzado</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-demuestra-razonamiento-puro-con-aprendizaje-refo</link>
-    <description>DeepSeek publicó el paper de R1 mostrando cómo entrenar capacidades de razonamiento usando solo RL sin fine-tuning supervisado. El modelo alcanza 77.9% en AIME 2024 y desarrolla patrones como auto-reflexión naturalmente.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-demuestra-razonamiento-puro-con-aprendizaje-refo</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw alcanza 210k estrellas como asistente personal AI local</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-personal-ai-l</link>
-    <description>OpenClaw se convirtió en el proyecto de código abierto de mayor crecimiento en GitHub con más de 210k estrellas. Es un asistente personal AI que funciona completamente en dispositivos locales con más de 50 integraciones.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-personal-ai-l</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>GitHub presenta SDK de Copilot para flujos de trabajo agénticos</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-presenta-sdk-de-copilot-para-flujos-de-trabajo-agenti</link>
-    <description>GitHub lanzó el SDK de Copilot que permite implementar flujos de trabajo agénticos directamente en aplicaciones. Los agentes funcionan con aislamiento, salidas restringidas y registro completo dentro de GitHub Actions.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-presenta-sdk-de-copilot-para-flujos-de-trabajo-agenti</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain anuncia plataforma empresarial con integración NVIDIA</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-anuncia-plataforma-empresarial-con-integracion-nvi</link>
-    <description>LangChain reveló una integración completa con NVIDIA que incluye el Agent Toolkit y la incorporación a la Nemotron Coalition. La plataforma combina LangSmith, Deep Agents y LangGraph con herramientas NVIDIA como Dynamo y OpenShell.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-anuncia-plataforma-empresarial-con-integracion-nvi</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura multi-agente: la guía esencial de Google</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</link>
-    <description>Google publica guía de 8 patrones fundamentales para sistemas multi-agente, desde pipelines secuenciales hasta arquitectura human-in-the-loop. Incluye código de ejemplo con Agent Development Kit y explica cómo construir &apos;microservicios de IA&apos; confiables.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-multi-agente-la-guia-esencial-de-go</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Alibaba Qwen 3.5 Small: modelos compactos que rivalizan con gigantes</title>
-    <link>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</link>
-    <description>Qwen 3.5 Small Series incluye variantes de 0.8B, 2B, 4B y 9B parámetros. El modelo 9B iguala a GPT-OSS-120B (13x más grande) en benchmarks. El modelo 2B corre en iPhone en modo avión con solo 4GB RAM, habilitando IA on-device real.</description>
-    <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=alibaba-qwen-3-5-small-modelos-compactos-que-rivalizan-con-g</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-certificacion-claude-certified-architect-par</loc><lastmod>2026-03-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-ai-de-mas-rapido-crecimient</loc><lastmod>2026-03-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-anuncia-alianza-empresarial-con-nvidia-para-plataf</loc><lastmod>2026-03-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-unificado-y-r</loc><lastmod>2026-03-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-runtime-estructurado-para-age</loc><lastmod>2026-03-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-para-desarrolladores-con-su</loc><lastmod>2026-03-20</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</loc><lastmod>2026-03-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</loc><lastmod>2026-03-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</loc><lastmod>2026-03-19</lastmod></url>

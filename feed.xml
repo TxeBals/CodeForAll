@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Ollama 0.18 - Runtime local con soporte OpenClaw y modelos cloud optimizados</title>
+    <link>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</link>
+    <description>&lt;cite index=&quot;55-28,55-29,55-30,55-31,55-32,53-3,53-4,53-5,53-7,51-13,51-14,52-11,52-12&quot;&gt;Ollama 0.18 mejora el rendimiento para OpenClaw y modelos cloud, incluyendo el nuevo Nemotron-3-Super (122B) de NVIDIA para tareas de razonamiento agentic. La plataforma soporta modelos multimodales (visión + texto), integración de búsqueda web y quantización 4-bit optimizada, permitiendo que modelos grandes como Llama 4 funcionen eficientemente en hardware consumer.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>docTR - Librería OCR de alto rendimiento con predictor KIE mejorado</title>
+    <link>https://txemagonzalez.com/post.html?slug=doctr-libreria-ocr-de-alto-rendimiento-con-predictor-kie-mej</link>
+    <description>&lt;cite index=&quot;31-1,31-3,31-4,31-17,31-23,31-24,31-26,31-27,33-1,33-2&quot;&gt;docTR (Document Text Recognition) es una librería de OCR de alto rendimiento basada en deep learning que incluye un predictor KIE (Key Information Extraction) más flexible para detectar múltiples clases en documentos. Ofrece template FastAPI completo para integración en APIs, con rutas funcionales para detección, reconocimiento, OCR y KIE ejecutándose en puerto 8002.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=doctr-libreria-ocr-de-alto-rendimiento-con-predictor-kie-mej</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw - Asistente IA autónomo trending con 210k+ estrellas en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-autonomo-trending-con-210k-estrellas-e</link>
+    <description>&lt;cite index=&quot;3-1,3-4,3-5,3-7,3-8,3-9,59-1,59-3,59-4,59-6,59-7&quot;&gt;OpenClaw es el proyecto de código abierto con crecimiento más rápido en la historia de GitHub, alcanzando más de 210,000 estrellas. Es un asistente IA personal que opera completamente local, conectando modelos IA con más de 50 integraciones como WhatsApp, Slack y Discord. Compatible con Ollama para ejecución local sin dependencias de APIs cloud.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-autonomo-trending-con-210k-estrellas-e</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>HuggingFace Transformers v5.0 - Refactorización masiva con tokenización simplificada</title>
+    <link>https://txemagonzalez.com/post.html?slug=huggingface-transformers-v5-0-refactorizacion-masiva-con-tok</link>
+    <description>&lt;cite index=&quot;41-1,41-2,41-4,41-5,41-6,41-7,41-17,41-18,41-32,41-33,41-34,42-19,42-20,43-10,43-11,43-12,43-16,43-17,46-3,46-4,46-5,46-11&quot;&gt;Transformers v5.0 es la primera versión mayor en 5 años, con más de 1200 commits y refactorizaciones significativas. Unifica tokenizers eliminando la distinción Fast/Slow, adopta PyTorch como único backend, y introduce ciclos de release semanales. La librería ahora soporta más de 400 arquitecturas de modelos frente a las 40 de la v4.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=huggingface-transformers-v5-0-refactorizacion-masiva-con-tok</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Langflow 1.8 - APIs v2 de workflow y configuración global de modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langflow-1-8-apis-v2-de-workflow-y-configuracion-global-de-m</link>
+    <description>&lt;cite index=&quot;21-1,21-3,21-4,21-5,21-21,26-23,26-24,26-25,29-1,29-2,29-12,29-13,30-1,30-2&quot;&gt;Langflow 1.8 introduce nuevos endpoints v2/workflow para ejecución simplificada y jobs asincrónicos, junto con configuración global de proveedores de modelo que reduce la dispersión de credenciales. La plataforma low-code para agentes IA incluye nueva funcionalidad de trazas, panel de inspección y soporte MCP mejorado.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langflow-1-8-apis-v2-de-workflow-y-configuracion-global-de-m</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GPT-5.4 de OpenAI - Nuevo modelo profesional con contexto masivo y herramientas avanzadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-de-openai-nuevo-modelo-profesional-con-contexto-masi</link>
+    <description>&lt;cite index=&quot;12-5,12-6,12-7,12-8,12-9,12-10,12-11,13-12,13-14,19-1,19-3,19-4,19-5,19-6&quot;&gt;OpenAI lanzó GPT-5.4 el 5 de marzo de 2026 con tres variantes (Standard, Pro y Thinking), ofreciendo 1 millón de tokens de contexto en la API y mejoras significativas en benchmarks. El modelo está optimizado para trabajo profesional con nuevas funcionalidades como planificación anticipada, mejor manejo de herramientas y 33% menos errores factuales comparado con GPT-5.2.&lt;/cite&gt;</description>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-de-openai-nuevo-modelo-profesional-con-contexto-masi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Anthropic lanza certificación Claude Certified Architect para desarrolladores AI enterprise</title>
     <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-certificacion-claude-certified-architect-par</link>
     <description>&lt;cite index=&quot;47-1,47-2,47-3,47-9,47-10&quot;&gt;Anthropic lanzó el examen Claude Certified Architect, su primera certificación oficial para ingenieros que diseñan sistemas de producción con Claude. El examen cubre arquitectura agentic (27%), diseño de tools y MCP (18%), configuración Claude Code (20%), prompt engineering (20%) y gestión de contexto (15%).&lt;/cite&gt; &lt;cite index=&quot;47-4,47-5,47-6,47-7&quot;&gt;Formato exigente: 60 preguntas multiple choice en 2 horas, monitoreado por webcam, requiere 720/1000 puntos para aprobar.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangGraph v2 Introduce Streaming Type-Safe y Coerción Automática</title>
-    <link>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-type-safe-y-coercion-automa</link>
-    <description>La nueva versión v2 de LangGraph añade streaming type-safe unificado y invoke type-safe con objeto GraphOutput. Incluye coerción automática a modelos Pydantic y dataclass, manteniendo compatibilidad completa hacia atrás mientras mejora la experiencia de desarrollo.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-type-safe-y-coercion-automa</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic Lanza Claude Sonnet 4.6 con Contexto de 1M Tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-contexto-de-1m-tokens</link>
-    <description>El nuevo modelo balanceado de Anthropic combina velocidad e inteligencia para tareas cotidianas. Sonnet 4.6 mejora el rendimiento de búsqueda agentica mientras consume menos tokens, con soporte para thinking extendido y ventana de contexto de 1M tokens en beta.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-sonnet-4-6-con-contexto-de-1m-tokens</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 con Capacidades Agenticas y Reasoning Mejorado</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-agenticas-y-reasoning-m</link>
-    <description>La nueva versión GPT-5.4 fusiona reasoning, coding y workflows agenticos con las capacidades de GPT-5.3-Codex. Incluye soporte mejorado para herramientas de spreadsheets, presentaciones y documentos, además del nuevo modo &apos;thinking&apos; que muestra el proceso de razonamiento.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-capacidades-agenticas-y-reasoning-m</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: GitHub&apos;s Fastest-Growing AI Agent Project Hits 210K Stars</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-github-s-fastest-growing-ai-agent-project-hits-210k</link>
-    <description>El asistente personal de IA que ejecuta completamente en tu dispositivo. OpenClaw se conecta a más de 50 integraciones incluyendo WhatsApp, Slack y Discord, con capacidades de navegación web, ejecución de código y workflows agenticos sin enviar datos a la nube.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-github-s-fastest-growing-ai-agent-project-hits-210k</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura AI-Native escalables para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-escalables-para-2026</link>
-    <description>Guía completa de patrones arquitectónicos para aplicaciones nativas de IA que incluye cadenas, agentes únicos y sistemas multi-agente. Énfasis en optimización de costos y manejo de contexto con ejemplos de producción.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-escalables-para-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RAG vs Fine-tuning: patrones híbridos dominan en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-patrones-hibridos-dominan-en-2026</link>
-    <description>Análisis técnico actual muestra que los sistemas híbridos son el estándar de facto en producción. RAG maneja conocimiento volátil mientras fine-tuning codifica comportamiento estable. Nuevo framework A-RAG introduce interfaces jerárquicas.</description>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-patrones-hibridos-dominan-en-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

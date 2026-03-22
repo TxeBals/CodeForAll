@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-sonnet-4-6-con-ventana-de-contexto</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-capacidades-mejoradas-d</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</loc><lastmod>2026-03-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=doctr-libreria-ocr-de-alto-rendimiento-con-predictor-kie-mej</loc><lastmod>2026-03-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-autonomo-trending-con-210k-estrellas-e</loc><lastmod>2026-03-21</lastmod></url>

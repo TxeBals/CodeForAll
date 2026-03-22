@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Nuevo paper ArXiv: TraceSIR - Framework multi-agente para análisis de trazas de ejecución</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</link>
+    <description>TraceSIR es un framework multi-agente para análisis estructurado y reportes de trazas de ejecución de agentes. Permite analizar y reportar sistemáticamente el comportamiento de sistemas de agentes para debugging y optimización.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 adopta arquitectura modular con backend PyTorch-first</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</link>
+    <description>Transformers v5 introduce diseño modular para arquitecturas de modelos, soporte de cuantización como característica de primera clase, y se enfoca únicamente en PyTorch eliminando el soporte de TensorFlow/Flax. Más de 400 arquitecturas de modelos soportadas.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangGraph v2 introduce streaming y invoke type-safe con coerción automática</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</link>
+    <description>LangGraph ha lanzado la versión 2 con streaming type-safe usando StreamPart unificado, invoke type-safe con objeto GraphOutput, y coerción automática a modelos Pydantic y dataclasses. Totalmente compatible con versiones anteriores.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain lanza Deep Agents: runtime estructurado para agentes multi-paso</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</link>
+    <description>Deep Agents es un nuevo framework de LangChain que proporciona planificación incorporada, gestión de contexto con herramientas de filesystem y soporte para subagentes con contexto aislado. Construido sobre LangGraph para ejecución duradera.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic presenta Claude Sonnet 4.6 con ventana de contexto de 1M tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-sonnet-4-6-con-ventana-de-contexto</link>
+    <description>Claude Sonnet 4.6 ofrece mejoras completas en codificación, computer use, razonamiento de contexto largo y planificación de agentes. Incluye una ventana de contexto de 1 millón de tokens en beta para procesar documentos corporativos completos.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-sonnet-4-6-con-ventana-de-contexto</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 mini y nano con capacidades mejoradas de codificación</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-capacidades-mejoradas-d</link>
+    <description>OpenAI ha lanzado GPT-5.4 mini, un modelo que supera significativamente a GPT-5 mini en tareas de codificación, razonamiento y multimodales, ejecutándose 2x más rápido. Incluye soporte para herramientas, uso de computadora integrado y ventana de contexto de 400k tokens.</description>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-capacidades-mejoradas-d</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Ollama 0.18 - Runtime local con soporte OpenClaw y modelos cloud optimizados</title>
     <link>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</link>
     <description>&lt;cite index=&quot;55-28,55-29,55-30,55-31,55-32,53-3,53-4,53-5,53-7,51-13,51-14,52-11,52-12&quot;&gt;Ollama 0.18 mejora el rendimiento para OpenClaw y modelos cloud, incluyendo el nuevo Nemotron-3-Super (122B) de NVIDIA para tareas de razonamiento agentic. La plataforma soporta modelos multimodales (visión + texto), integración de búsqueda web y quantización 4-bit optimizada, permitiendo que modelos grandes como Llama 4 funcionen eficientemente en hardware consumer.&lt;/cite&gt;</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;2-22,2-23,2-24&quot;&gt;GitHub anuncia Agentic Workflows, ahora en preview técnico, que permite construir automatizaciones usando agentes de codificación en GitHub Actions para manejar triage, documentación, calidad de código y más. Conceptualizado como Continuous AI que opera como agentes en segundo plano en repositorios para tareas que requieren razonamiento.&lt;/cite&gt;</description>
     <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain y LangGraph alcanzan versiones 1.0 estables</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</link>
-    <description>&lt;cite index=&quot;41-3,41-4,41-5,41-6&quot;&gt;LangChain y LangGraph lanzan sus primeras versiones principales 1.0. LangChain actualizado se enfoca en el loop principal de agentes con flexibilidad a través de middleware, mientras que LangGraph es un framework de bajo nivel útil para agentes altamente personalizados y controlables, diseñado para soportar agentes de grado producción y de larga duración.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-versiones-1-0-estables</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>DeepSeek-V3.2 introduce arquitectura sparse attention con herramientas de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-arquitectura-sparse-attention-con-he</link>
-    <description>&lt;cite index=&quot;32-11,32-12,32-13&quot;&gt;DeepSeek-V3.2 harmoniza alta eficiencia computacional con rendimiento superior de razonamiento y agentes. Introduce DeepSeek Sparse Attention (DSA) que reduce sustancialmente la complejidad computacional mientras preserva el rendimiento del modelo, optimizado específicamente para escenarios de contexto largo.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-arquitectura-sparse-attention-con-he</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5.0 con cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-0-con-cuantizacion-nativa</link>
-    <description>&lt;cite index=&quot;21-22,21-23,21-24&quot;&gt;Hugging Face anunció el lanzamiento inicial de Transformers v5, la primera versión mayor en cinco años con 1200 commits desde la última versión menor. Esta versión elimina deprecaciones pendientes, introduce refactorizaciones significativas que simplifican APIs e internos, y hace de la cuantización un ciudadano de primera clase.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-0-con-cuantizacion-nativa</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex y actualiza modelos GPT-4.1</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-actualiza-modelos-gpt-4-1</link>
-    <description>&lt;cite index=&quot;11-7,11-8,11-9&quot;&gt;OpenAI lanzó GPT-5.3-Codex, su modelo de codificación agéntica más capaz que combina Codex + GPT-5 training stacks, siendo ~25% más rápido y marcando un cambio de generación de código a un agente de codificación de propósito general. También están disponibles los modelos GPT-4.1 y GPT-4.1-mini con mejores capacidades de seguimiento de instrucciones, codificación e inteligencia general.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-y-actualiza-modelos-gpt-4-1</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>RAG Evoluciona: Vector Databases vs Retrieval Sin Vectores en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</link>
-    <description>El paradigma de retrieval está cambiando con frameworks como PageIndex demostrando 98.7% de precisión sin usar embeddings ni búsqueda por similitud. Los sistemas híbridos combinan retrieval vectorial para descubrimiento amplio con reasoning basado en estructura de documentos para extracción precisa.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-evoluciona-vector-databases-vs-retrieval-sin-vectores-en</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 Adopta PyTorch y Quantización First-Class</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</link>
-    <description>Transformers v5 se enfoca completamente en PyTorch con quantización como ciudadano de primera clase. La nueva arquitectura modular facilita el mantenimiento, integración más rápida y mejor colaboración. Incluye soporte optimizado para kernels y entrenamiento a gran escala.</description>
-    <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-pytorch-y-quantizacion-f</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

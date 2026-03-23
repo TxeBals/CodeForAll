@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de arquitectura RAG para producción en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-rag-para-produccion-en-2026</link>
+    <description>&lt;cite index=&quot;55-3,55-17&quot;&gt;Esta guía cubre arquitectura de RAG para producción con decisiones que no aparecen en tutoriales, benchmarks para chunking y embeddings, y setup de evaluación y monitoreo. 60% de deployments RAG en 2026 incluyen evaluación sistemática desde el día uno&lt;/cite&gt;. &lt;cite index=&quot;55-26,55-27,55-28&quot;&gt;Voyage AI&apos;s voyage-3-large lidera MTEB leaderboard superando a OpenAI por 9.74% y Cohere por 20.71%, soporta contexto de 32K tokens vs 8K de OpenAI&lt;/cite&gt;. &lt;cite index=&quot;55-19,55-20,55-22&quot;&gt;RAG de producción tiene presupuesto de latencia bajo 2 segundos end-to-end, con generación LLM dominando el tiempo pero overhead de retrieval componiéndose rápidamente&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-rag-para-produccion-en-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Claude Code Dashboard: Extension para monitorear proyectos Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-code-dashboard-extension-para-monitorear-proyectos-cl</link>
+    <description>&lt;cite index=&quot;50-11,50-12&quot;&gt;Extension de VS Code llamada Claude Code Dashboard que muestra todo lo que Claude Code ha estado haciendo en tus proyectos en un solo lugar con características como ver todos los proyectos, historial de sesiones, desglose de tokens y costos por sesión&lt;/cite&gt;. &lt;cite index=&quot;50-17,50-18,50-19&quot;&gt;No requiere configuración, sin claves API ni cuentas externas, solo lee los datos de sesión que Claude Code ya almacena localmente&lt;/cite&gt;. &lt;cite index=&quot;50-20,50-25&quot;&gt;Construido porque una vez que usas Claude Code intensivamente, pierdes visibilidad rápidamente, especialmente la pregunta &quot;¿qué proyecto quemó más tokens?&quot;&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-code-dashboard-extension-para-monitorear-proyectos-cl</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain introduce LangSmith Fleet y nuevas capacidades agénticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</link>
+    <description>&lt;cite index=&quot;21-1,21-2,21-4,21-5&quot;&gt;LangSmith Agent Builder ha sido renombrado a LangSmith Fleet&lt;/cite&gt;. &lt;cite index=&quot;23-3,23-8&quot;&gt;LangGraph introduce streaming type-safe (version=&quot;v2&quot;) con outputs unificados StreamPart y coerción automática a modelos Pydantic o dataclass&lt;/cite&gt;. &lt;cite index=&quot;23-12,23-13,21-9&quot;&gt;Nuevos paquetes de integración para sandboxes pluggables: langchain-modal, langchain-daytona y langchain-runloop con deepagents v0.4 y soporte para Responses API&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw: El repositorio de IA de más rápido crecimiento en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</link>
+    <description>&lt;cite index=&quot;12-6,12-7&quot;&gt;OpenClaw es la estrella de 2026, posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 60,000 estrellas en días y ahora superando las 210,000&lt;/cite&gt;. &lt;cite index=&quot;11-2,11-8&quot;&gt;Trending en GitHub como &quot;PDF Parser para datos listos para IA&quot; con automatización de accesibilidad PDF&lt;/cite&gt;. &lt;cite index=&quot;12-8,12-9&quot;&gt;Permite a expertos de dominio crear aplicaciones sofisticadas de IA sin ser ingenieros de ML, reduciendo la barrera de entrada para construir IA de producción&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face adquiere GGML.ai para fortalecer la IA local</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-fortalecer-la-ia-local</link>
+    <description>&lt;cite index=&quot;31-8,31-3,31-6&quot;&gt;GGML.ai se une a Hugging Face para asegurar el progreso a largo plazo de la IA local con recursos sostenibles y mejor integración con transformers&lt;/cite&gt;. &lt;cite index=&quot;31-18,31-19&quot;&gt;Se enfocarán en lograr integración &quot;single-click&quot; con la librería transformers y mejorar la compatibilidad entre los ecosistemas transformers y ggml&lt;/cite&gt;. &lt;cite index=&quot;31-12&quot;&gt;Llama.cpp se ha convertido en el bloque fundamental en innumerables proyectos, habilitando IA privada y accesible en hardware de consumo&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-fortalecer-la-ia-local</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2 con capacidades mejoradas para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-capacidades-mejoradas-para-desarrol</link>
+    <description>&lt;cite index=&quot;3-1,3-16,3-17&quot;&gt;GPT-5.2 está disponible hoy en ChatGPT y API con mejoras significativas en inteligencia general, contexto largo y uso de herramientas&lt;/cite&gt;. &lt;cite index=&quot;3-13&quot;&gt;Para uso profesional, puede depurar código de producción de manera más confiable, implementar solicitudes de características y refactorizar bases de código grandes con menos intervención manual&lt;/cite&gt;. &lt;cite index=&quot;3-29&quot;&gt;El modelo tiene un precio de $1.75/1M tokens de entrada y $14/1M tokens de salida, con 90% de descuento en inputs cacheados&lt;/cite&gt;.</description>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-capacidades-mejoradas-para-desarrol</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Nuevo paper ArXiv: TraceSIR - Framework multi-agente para análisis de trazas de ejecución</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</link>
     <description>TraceSIR es un framework multi-agente para análisis estructurado y reportes de trazas de ejecución de agentes. Permite analizar y reportar sistemáticamente el comportamiento de sistemas de agentes para debugging y optimización.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-ai-de-mas-rapido-crecimient</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain anuncia alianza empresarial con NVIDIA para plataforma agentic con Nemotron</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-anuncia-alianza-empresarial-con-nvidia-para-plataf</link>
-    <description>&lt;cite index=&quot;22-4,22-5,22-6&quot;&gt;LangChain anunció integración completa con NVIDIA para plataforma agentic empresarial, combinando LangSmith con NVIDIA Agent Toolkit, Nemotron models y NIM microservices. LangChain se une además al Nemotron Coalition de NVIDIA.&lt;/cite&gt; &lt;cite index=&quot;22-18,22-19,22-20&quot;&gt;La integración permite workflows multi-agent complejos con LangGraph, Deep Agents para planificación avanzada, y el sistema AI-Q Blueprint que rankea #1 en benchmarks de research.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-anuncia-alianza-empresarial-con-nvidia-para-plataf</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con backend unificado y releases semanales</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-unificado-y-r</link>
-    <description>&lt;cite index=&quot;31-1,31-2,31-5,31-6&quot;&gt;Hugging Face anunció Transformers v5, el primer release mayor en 5 años con 1200+ commits. Introduce refactors significativos, simplifica APIs e internals, y establece releases menores semanales en lugar de cada 5 semanas.&lt;/cite&gt; &lt;cite index=&quot;31-14,31-18,31-19&quot;&gt;Unifica tokenizers con un solo archivo por modelo usando backends TokenizersBackend (Rust), SentencePieceBackend y PythonBackend según disponibilidad.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-unificado-y-r</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain presenta Deep Agents: runtime estructurado para agentes multi-step con planificación</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-runtime-estructurado-para-age</link>
-    <description>&lt;cite index=&quot;28-24,28-25,28-26,28-27,28-28&quot;&gt;LangChain lanzó Deep Agents, un agent harness construido sobre LangGraph que incluye planificación integrada con write_todos, herramientas de filesystem para gestión de contexto, spawning de subagents aislados y memoria persistente entre threads.&lt;/cite&gt; &lt;cite index=&quot;28-10,28-11&quot;&gt;Diseñado específicamente para tareas multi-step, stateful y artifact-heavy donde los agentes LLM tradicionales fallan.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-runtime-estructurado-para-age</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 mini y nano para desarrolladores con subagents optimizados</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-para-desarrolladores-con-su</link>
-    <description>&lt;cite index=&quot;11-28,11-29,15-1,15-2&quot;&gt;OpenAI lanzó GPT-5.4 mini y nano, los modelos más pequeños y rápidos de la serie GPT-5.4. Mini supera a GPT-5 mini en coding, reasoning y multimodal mientras ejecuta 2x más rápido, y nano ofrece una opción ultra-económica para tareas de alto volumen.&lt;/cite&gt; &lt;cite index=&quot;15-8,15-16&quot;&gt;Los modelos están especialmente optimizados para subagents en Codex, permitiendo delegar subtareas paralelas como búsqueda en codebase y revisión de archivos.&lt;/cite&gt;</description>
-    <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-para-desarrolladores-con-su</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Tutorial completo: Construcción de sistemas RAG desde cero con Python</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</link>
-    <description>&lt;cite index=&quot;58-10,58-11,58-12&quot;&gt;Guía práctica completa para construir un sistema RAG (Retrieval-Augmented Generation) que puede responder preguntas sobre tu base de código usando embeddings vectoriales, ChromaDB y la API de OpenAI. El sistema ingiere código y documentación, luego proporciona respuestas precisas y contextuales basadas en archivos reales.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-construccion-de-sistemas-rag-desde-cero-co</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>GitHub Agentic Workflows permite agentes de codificación en GitHub Actions</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</link>
-    <description>&lt;cite index=&quot;2-22,2-23,2-24&quot;&gt;GitHub anuncia Agentic Workflows, ahora en preview técnico, que permite construir automatizaciones usando agentes de codificación en GitHub Actions para manejar triage, documentación, calidad de código y más. Conceptualizado como Continuous AI que opera como agentes en segundo plano en repositorios para tareas que requieren razonamiento.&lt;/cite&gt;</description>
-    <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-permite-agentes-de-codificacion-en-</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

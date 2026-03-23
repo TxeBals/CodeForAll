@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-rag-para-produccion-en-2026</loc><lastmod>2026-03-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-code-dashboard-extension-para-monitorear-proyectos-cl</loc><lastmod>2026-03-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</loc><lastmod>2026-03-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</loc><lastmod>2026-03-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-fortalecer-la-ia-local</loc><lastmod>2026-03-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-capacidades-mejoradas-para-desarrol</loc><lastmod>2026-03-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</loc><lastmod>2026-03-22</lastmod></url>

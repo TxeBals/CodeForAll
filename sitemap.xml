@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-modelos-frontier-marzo-2026-gpt-5-4-gemini-3-1</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-rag-2026-langchain-chromadb-con-embeddings-ope</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=crewai-v1-10-anade-soporte-agent-to-agent-a2a-para-interoper</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-domina-como-framework-lider-para-agentes-de-produc</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-de-ia-que-revoluciona-la-auto</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-lanza-con-backend-solo-pytorch-y-nuevos-mode</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-rag-para-produccion-en-2026</loc><lastmod>2026-03-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-code-dashboard-extension-para-monitorear-proyectos-cl</loc><lastmod>2026-03-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</loc><lastmod>2026-03-23</lastmod></url>

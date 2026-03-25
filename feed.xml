@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>TraceSIR: Framework multi-agente para análisis estructurado de trazas de ejecución</title>
+    <link>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</link>
+    <description>&lt;cite index=&apos;33-4,33-20&apos;&gt;TraceSIR es un framework multi-agente para análisis estructurado y reporting de trazas de ejecución agéntica, desarrollado por investigadores de múltiples instituciones incluyendo la Universidad de Tsinghua&lt;/cite&gt;. El paper fue &lt;cite index=&apos;33-1,33-4&apos;&gt;presentado recientemente en arXiv bajo la categoría de Inteligencia Artificial y Lenguaje de Computación&lt;/cite&gt;, ofreciendo una nueva metodología para entender y depurar el comportamiento de agentes IA.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>HuggingFace lanza Transformers v5.0 con soporte semanal y cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</link>
+    <description>&lt;cite index=&apos;42-13,42-14,42-15&apos;&gt;Transformers v5.0 marca un cambio significativo: a partir de v5, se realizarán lanzamientos menores cada semana en lugar de cada 5 semanas, con v5.1 la próxima semana, v5.2 la siguiente, etc.&lt;/cite&gt; &lt;cite index=&apos;43-20,43-23,43-24&apos;&gt;Introduce un cambio significativo en la forma de cargar pesos en modelos, convirtiendo la cuantización en ciudadano de primera clase, proporcionando la base para que bitsandbytes soporte mejor características clave como TP y MoEs&lt;/cite&gt;.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>NVIDIA lanza modelos Cosmos y GR00T N1.6 para robótica física en Hugging Face</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-modelos-cosmos-y-gr00t-n1-6-para-robotica-fisic</link>
+    <description>&lt;cite index=&apos;50-5,50-6&apos;&gt;NVIDIA Cosmos Predict 2.5 son modelos de mundo abiertos y totalmente personalizables que permiten generación de datos sintéticos físicamente basados y evaluación de políticas robóticas en simulación. NVIDIA Cosmos Reason 2 es un modelo de lenguaje visual de razonamiento abierto que permite a máquinas inteligentes ver, entender y actuar en el mundo físico&lt;/cite&gt;. &lt;cite index=&apos;50-7&apos;&gt;NVIDIA Isaac GR00T N1.6 es un modelo VLA de razonamiento abierto, específicamente construido para robots humanoides&lt;/cite&gt;.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-modelos-cosmos-y-gr00t-n1-6-para-robotica-fisic</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI retira GPT-4o y modelos antiguos de ChatGPT el 13 de febrero</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-modelos-antiguos-de-chatgpt-el-13-de-</link>
+    <description>&lt;cite index=&apos;17-1,17-2&apos;&gt;OpenAI anuncia el retiro de GPT-4o porque las mejoras están implementadas y la mayoría del uso se ha trasladado a GPT-5.2, con solo 0.1% de usuarios eligiendo GPT-4o diariamente. El 13 de febrero de 2026 se retirarán GPT-4o, GPT-4.1, GPT-4.1 mini y OpenAI o4-mini de ChatGPT&lt;/cite&gt;. &lt;cite index=&apos;17-6,17-7&apos;&gt;La retroalimentación de usuarios de Plus y Pro sobre GPT-4o influyó directamente en GPT-5.1 y GPT-5.2, con mejoras en personalidad, soporte creativo y personalización de respuestas&lt;/cite&gt;.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-modelos-antiguos-de-chatgpt-el-13-de-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw supera 210,000 estrellas en GitHub como el proyecto de IA de crecimiento más rápido</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-210-000-estrellas-en-github-como-el-proyecto</link>
+    <description>&lt;cite index=&apos;1-6,1-7&apos;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de crecimiento más rápido en la historia de GitHub, creado por el fundador de PSPDFKit Peter Steinberger, que pasó de 9,000 a más de 60,000 estrellas en solo unos días&lt;/cite&gt;. &lt;cite index=&apos;1-8,1-9&apos;&gt;Permite que expertos en dominios, no solo ingenieros de ML, creen aplicaciones de IA sofisticadas, reduciendo las barreras de entrada para construir IA en producción&lt;/cite&gt;.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-210-000-estrellas-en-github-como-el-proyecto</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain lanza Deep Agents v0.4.12 con soporte para sandboxes remotos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-12-con-soporte-para-sandbox</link>
+    <description>&lt;cite index=&apos;51-1,51-2&apos;&gt;Deep Agents es un framework de agentes autónomos construido con LangChain y LangGraph, equipado con herramientas de planificación, backend de sistema de archivos y capacidad de generar subagentes&lt;/cite&gt;. &lt;cite index=&apos;21-9&apos;&gt;La versión 0.4 incluye soporte para sandboxes conectables, mejor resumido del historial de conversaciones y la API Responses como predeterminada para modelos OpenAI&lt;/cite&gt;. Disponible por pip install deepagents con licencia MIT.</description>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-12-con-soporte-para-sandbox</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>DeepSeek V4 y modelos frontier marzo 2026: GPT-5.4, Gemini 3.1 Pro, Claude 4.6</title>
     <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-modelos-frontier-marzo-2026-gpt-5-4-gemini-3-1</link>
     <description>Marzo 2026 trae una cascada de lanzamientos de modelos: DeepSeek V4 con 1T parámetros, GPT-5.4 Pro con 272K tokens de contexto, Gemini 3.1 Pro líder en benchmarks, y Claude 4.6 con ventana de contexto de 1M tokens en beta.</description>
@@ -116,54 +164,6 @@
     <description>Transformers v5 introduce diseño modular para arquitecturas de modelos, soporte de cuantización como característica de primera clase, y se enfoca únicamente en PyTorch eliminando el soporte de TensorFlow/Flax. Más de 400 arquitecturas de modelos soportadas.</description>
     <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangGraph v2 introduce streaming y invoke type-safe con coerción automática</title>
-    <link>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</link>
-    <description>LangGraph ha lanzado la versión 2 con streaming type-safe usando StreamPart unificado, invoke type-safe con objeto GraphOutput, y coerción automática a modelos Pydantic y dataclasses. Totalmente compatible con versiones anteriores.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langgraph-v2-introduce-streaming-y-invoke-type-safe-con-coer</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents: runtime estructurado para agentes multi-paso</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</link>
-    <description>Deep Agents es un nuevo framework de LangChain que proporciona planificación incorporada, gestión de contexto con herramientas de filesystem y soporte para subagentes con contexto aislado. Construido sobre LangGraph para ejecución duradera.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic presenta Claude Sonnet 4.6 con ventana de contexto de 1M tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-sonnet-4-6-con-ventana-de-contexto</link>
-    <description>Claude Sonnet 4.6 ofrece mejoras completas en codificación, computer use, razonamiento de contexto largo y planificación de agentes. Incluye una ventana de contexto de 1 millón de tokens en beta para procesar documentos corporativos completos.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-sonnet-4-6-con-ventana-de-contexto</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 mini y nano con capacidades mejoradas de codificación</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-capacidades-mejoradas-d</link>
-    <description>OpenAI ha lanzado GPT-5.4 mini, un modelo que supera significativamente a GPT-5 mini en tareas de codificación, razonamiento y multimodales, ejecutándose 2x más rápido. Incluye soporte para herramientas, uso de computadora integrado y ventana de contexto de 400k tokens.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-capacidades-mejoradas-d</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Ollama 0.18 - Runtime local con soporte OpenClaw y modelos cloud optimizados</title>
-    <link>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</link>
-    <description>&lt;cite index=&quot;55-28,55-29,55-30,55-31,55-32,53-3,53-4,53-5,53-7,51-13,51-14,52-11,52-12&quot;&gt;Ollama 0.18 mejora el rendimiento para OpenClaw y modelos cloud, incluyendo el nuevo Nemotron-3-Super (122B) de NVIDIA para tareas de razonamiento agentic. La plataforma soporta modelos multimodales (visión + texto), integración de búsqueda web y quantización 4-bit optimizada, permitiendo que modelos grandes como Llama 4 funcionen eficientemente en hardware consumer.&lt;/cite&gt;</description>
-    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ollama-0-18-runtime-local-con-soporte-openclaw-y-modelos-clo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>docTR - Librería OCR de alto rendimiento con predictor KIE mejorado</title>
-    <link>https://txemagonzalez.com/post.html?slug=doctr-libreria-ocr-de-alto-rendimiento-con-predictor-kie-mej</link>
-    <description>&lt;cite index=&quot;31-1,31-3,31-4,31-17,31-23,31-24,31-26,31-27,33-1,33-2&quot;&gt;docTR (Document Text Recognition) es una librería de OCR de alto rendimiento basada en deep learning que incluye un predictor KIE (Key Information Extraction) más flexible para detectar múltiples clases en documentos. Ofrece template FastAPI completo para integración en APIs, con rutas funcionales para detección, reconocimiento, OCR y KIE ejecutándose en puerto 8002.&lt;/cite&gt;</description>
-    <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=doctr-libreria-ocr-de-alto-rendimiento-con-predictor-kie-mej</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

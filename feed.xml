@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Papers destacados en arXiv: BiJEPA y arquitecturas de representación simétrica</title>
+    <link>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</link>
+    <description>&lt;cite index=&quot;51-2,51-6&quot;&gt;BiJEPA presenta una arquitectura predictiva de embeddings conjuntos bidireccional para aprendizaje de representación simétrica. Parte de los avances recientes en arquitecturas de auto-supervisión para ML.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK: SDK agentico para workflows programables</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</link>
+    <description>&lt;cite index=&quot;3-1,3-2,3-11&quot;&gt;El GitHub Copilot SDK permite workflows agenticos directamente dentro de aplicaciones con ejecución programable. Incluye aislamiento, outputs restringidos y logging comprehensivo para ejecutar agentes de forma segura.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Sonnet 4.6 con ventana de contexto 1M y capacidades agenticas mejoradas</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</link>
+    <description>&lt;cite index=&quot;42-4,42-5,43-11,43-12&quot;&gt;Claude Sonnet 4.6 combina velocidad e inteligencia para tareas diarias, con mejor rendimiento de búsqueda agentica consumiendo menos tokens. Soporta pensamiento extendido y ventana de contexto de 1M tokens en beta.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain Deep Agents v0.5: framework para agentes autónomos de largo horizonte</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-v0-5-framework-para-agentes-autonomos-</link>
+    <description>&lt;cite index=&quot;31-19,35-5,35-6&quot;&gt;Deep Agents v0.5 introduce subagentes asíncronos que permiten tareas en segundo plano mientras el usuario sigue interactuando. Incluye soporte multimodal para PDFs, audio y video, además de mejoras en el protocolo backend.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-v0-5-framework-para-agentes-autonomos-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Transformers v5.0 de Hugging Face: reescritura completa centrada en PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-reescritura-completa-centr</link>
+    <description>&lt;cite index=&quot;21-1,21-2,21-14&quot;&gt;Hugging Face lanza Transformers v5 después de cinco años, con 1200 commits desde la última versión menor. Elimina deprecaciones, introduce refactorizaciones que simplifican APIs y cuenta con quantización como ciudadano de primera clase.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-reescritura-completa-centr</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.2-Codex: modelo agentic avanzado para ingeniería de software</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-modelo-agentic-avanzado-para-inge</link>
+    <description>&lt;cite index=&quot;19-1,19-6,19-8&quot;&gt;GPT-5.2-Codex es un modelo agentico especializado en tareas de codificación complejas con mejor comprensión de contexto largo, herramientas más confiables y capacidades de ciberseguridad mejoradas. Incluye mejoras en compactación nativa y factualidad, siendo más eficiente en tokens durante el razonamiento.&lt;/cite&gt;</description>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-modelo-agentic-avanzado-para-inge</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>TraceSIR: Framework multi-agente para análisis estructurado de trazas de ejecución</title>
     <link>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</link>
     <description>&lt;cite index=&apos;33-4,33-20&apos;&gt;TraceSIR es un framework multi-agente para análisis estructurado y reporting de trazas de ejecución agéntica, desarrollado por investigadores de múltiples instituciones incluyendo la Universidad de Tsinghua&lt;/cite&gt;. El paper fue &lt;cite index=&apos;33-1,33-4&apos;&gt;presentado recientemente en arXiv bajo la categoría de Inteligencia Artificial y Lenguaje de Computación&lt;/cite&gt;, ofreciendo una nueva metodología para entender y depurar el comportamiento de agentes IA.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;50-11,50-12&quot;&gt;Extension de VS Code llamada Claude Code Dashboard que muestra todo lo que Claude Code ha estado haciendo en tus proyectos en un solo lugar con características como ver todos los proyectos, historial de sesiones, desglose de tokens y costos por sesión&lt;/cite&gt;. &lt;cite index=&quot;50-17,50-18,50-19&quot;&gt;No requiere configuración, sin claves API ni cuentas externas, solo lee los datos de sesión que Claude Code ya almacena localmente&lt;/cite&gt;. &lt;cite index=&quot;50-20,50-25&quot;&gt;Construido porque una vez que usas Claude Code intensivamente, pierdes visibilidad rápidamente, especialmente la pregunta &quot;¿qué proyecto quemó más tokens?&quot;&lt;/cite&gt;.</description>
     <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=claude-code-dashboard-extension-para-monitorear-proyectos-cl</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain introduce LangSmith Fleet y nuevas capacidades agénticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</link>
-    <description>&lt;cite index=&quot;21-1,21-2,21-4,21-5&quot;&gt;LangSmith Agent Builder ha sido renombrado a LangSmith Fleet&lt;/cite&gt;. &lt;cite index=&quot;23-3,23-8&quot;&gt;LangGraph introduce streaming type-safe (version=&quot;v2&quot;) con outputs unificados StreamPart y coerción automática a modelos Pydantic o dataclass&lt;/cite&gt;. &lt;cite index=&quot;23-12,23-13,21-9&quot;&gt;Nuevos paquetes de integración para sandboxes pluggables: langchain-modal, langchain-daytona y langchain-runloop con deepagents v0.4 y soporte para Responses API&lt;/cite&gt;.</description>
-    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-nuevas-capacidades-age</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw: El repositorio de IA de más rápido crecimiento en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</link>
-    <description>&lt;cite index=&quot;12-6,12-7&quot;&gt;OpenClaw es la estrella de 2026, posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 60,000 estrellas en días y ahora superando las 210,000&lt;/cite&gt;. &lt;cite index=&quot;11-2,11-8&quot;&gt;Trending en GitHub como &quot;PDF Parser para datos listos para IA&quot; con automatización de accesibilidad PDF&lt;/cite&gt;. &lt;cite index=&quot;12-8,12-9&quot;&gt;Permite a expertos de dominio crear aplicaciones sofisticadas de IA sin ser ingenieros de ML, reduciendo la barrera de entrada para construir IA de producción&lt;/cite&gt;.</description>
-    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face adquiere GGML.ai para fortalecer la IA local</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-fortalecer-la-ia-local</link>
-    <description>&lt;cite index=&quot;31-8,31-3,31-6&quot;&gt;GGML.ai se une a Hugging Face para asegurar el progreso a largo plazo de la IA local con recursos sostenibles y mejor integración con transformers&lt;/cite&gt;. &lt;cite index=&quot;31-18,31-19&quot;&gt;Se enfocarán en lograr integración &quot;single-click&quot; con la librería transformers y mejorar la compatibilidad entre los ecosistemas transformers y ggml&lt;/cite&gt;. &lt;cite index=&quot;31-12&quot;&gt;Llama.cpp se ha convertido en el bloque fundamental en innumerables proyectos, habilitando IA privada y accesible en hardware de consumo&lt;/cite&gt;.</description>
-    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-adquiere-ggml-ai-para-fortalecer-la-ia-local</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2 con capacidades mejoradas para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-capacidades-mejoradas-para-desarrol</link>
-    <description>&lt;cite index=&quot;3-1,3-16,3-17&quot;&gt;GPT-5.2 está disponible hoy en ChatGPT y API con mejoras significativas en inteligencia general, contexto largo y uso de herramientas&lt;/cite&gt;. &lt;cite index=&quot;3-13&quot;&gt;Para uso profesional, puede depurar código de producción de manera más confiable, implementar solicitudes de características y refactorizar bases de código grandes con menos intervención manual&lt;/cite&gt;. &lt;cite index=&quot;3-29&quot;&gt;El modelo tiene un precio de $1.75/1M tokens de entrada y $14/1M tokens de salida, con 90% de descuento en inputs cacheados&lt;/cite&gt;.</description>
-    <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-con-capacidades-mejoradas-para-desarrol</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Nuevo paper ArXiv: TraceSIR - Framework multi-agente para análisis de trazas de ejecución</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</link>
-    <description>TraceSIR es un framework multi-agente para análisis estructurado y reportes de trazas de ejecución de agentes. Permite analizar y reportar sistemáticamente el comportamiento de sistemas de agentes para debugging y optimización.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevo-paper-arxiv-tracesir-framework-multi-agente-para-anali</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 adopta arquitectura modular con backend PyTorch-first</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</link>
-    <description>Transformers v5 introduce diseño modular para arquitecturas de modelos, soporte de cuantización como característica de primera clase, y se enfoca únicamente en PyTorch eliminando el soporte de TensorFlow/Flax. Más de 400 arquitecturas de modelos soportadas.</description>
-    <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-adopta-arquitectura-modular-con</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

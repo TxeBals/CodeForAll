@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</loc><lastmod>2026-03-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</loc><lastmod>2026-03-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</loc><lastmod>2026-03-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-v0-5-framework-para-agentes-autonomos-</loc><lastmod>2026-03-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-reescritura-completa-centr</loc><lastmod>2026-03-26</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-modelo-agentic-avanzado-para-inge</loc><lastmod>2026-03-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</loc><lastmod>2026-03-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</loc><lastmod>2026-03-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-lanza-modelos-cosmos-y-gr00t-n1-6-para-robotica-fisic</loc><lastmod>2026-03-25</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=meta-y-hugging-face-lanzan-openenv-para-desarrollo-de-agente</loc><lastmod>2026-03-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-workflows-agenticos-programables-</loc><lastmod>2026-03-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-introduce-arquitectura-modular-</loc><lastmod>2026-03-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</loc><lastmod>2026-03-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-claude-4-6-con-computer-use-y-1m-contexto-en-todas</loc><lastmod>2026-03-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-ventana-de-contexto-de-1m-tokens-y-</loc><lastmod>2026-03-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</loc><lastmod>2026-03-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</loc><lastmod>2026-03-26</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</loc><lastmod>2026-03-26</lastmod></url>

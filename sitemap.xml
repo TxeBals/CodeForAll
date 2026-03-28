@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</loc><lastmod>2026-03-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</loc><lastmod>2026-03-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</loc><lastmod>2026-03-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-consolidado-como-el-framework-lider-para-agentes-a</loc><lastmod>2026-03-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-4-lanzado-por-openai-con-ventana-de-contexto-de-1m-tok</loc><lastmod>2026-03-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-ai-trending-mas-popular-de-2026</loc><lastmod>2026-03-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=meta-y-hugging-face-lanzan-openenv-para-desarrollo-de-agente</loc><lastmod>2026-03-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-workflows-agenticos-programables-</loc><lastmod>2026-03-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-introduce-arquitectura-modular-</loc><lastmod>2026-03-27</lastmod></url>

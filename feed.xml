@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de arquitectura AI para sistemas escalables 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</link>
+    <description>&lt;cite index=&quot;41-18,41-19,41-24,41-25&quot;&gt;Al completar esta guía, estarás equipado para: Articular los desafíos únicos en el diseño de aplicaciones impulsadas por AI. Diseñar pipelines AI/ML de extremo a extremo, desde ingesta de datos hasta despliegue y monitoreo de modelos. Incorporar mejores prácticas para calidad de datos, confiabilidad del modelo, observabilidad, seguridad e AI responsable. Tomar decisiones informadas de trade-offs al arquitecturar soluciones AI&lt;/cite&gt;. &lt;cite index=&quot;41-30,41-32&quot;&gt;El diseño de sistemas AI no se trata solo de entrenar un modelo de machine learning; se trata de construir todo el ecosistema alrededor de ese modelo para hacerlo útil, confiable y escalable en aplicaciones del mundo real. Esto involucra todo desde cómo fluyen los datos a tu sistema, cómo se entrenan y despliegan los modelos, cómo se comunican diferentes componentes AI&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Anthropic introduce Skills open-source y Tool Search avanzado para Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</link>
+    <description>&lt;cite index=&quot;39-1,39-2,39-5&quot;&gt;Desde su lanzamiento como característica de desarrollador en octubre 2025, Agent Skills se han convertido en un producto central para Anthropic. La especificación abierta y SDK de referencia se publican en agentskills.io, y Microsoft ya ha adoptado las Skills de Anthropic en VS Code y GitHub. Las Skills de Anthropic son paquetes reutilizables de instrucciones, scripts y recursos&lt;/cite&gt;. &lt;cite index=&quot;32-4,32-6,32-14&quot;&gt;Para construir agentes efectivos, necesitan trabajar con bibliotecas de herramientas ilimitadas sin llenar cada definición en contexto por adelantado. Los agentes deben descubrir y cargar herramientas bajo demanda, manteniendo solo lo que es relevante para la tarea actual&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LlamaIndex evoluciona hacia framework completo de orquestación multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</link>
+    <description>&lt;cite index=&quot;30-12,30-13,30-14&quot;&gt;LlamaIndex ha evolucionado de un framework de generación aumentada por recuperación (RAG) hacia una plataforma completa de orquestación multi-agente. Toda la documentación de LlamaIndex ahora se construye alrededor de AgentWorkflow, reflejando este cambio estratégico. AgentWorkflow facilita construir y orquestar sistemas de agentes AI&lt;/cite&gt;. &lt;cite index=&quot;30-21,30-22,30-23&quot;&gt;En 2025, LlamaIndex introdujo Agentic Document Workflows, un avance significativo más allá de los paradigmas tradicionales de IDP y RAG. ADW combina procesamiento de documentos, recuperación, outputs estructurados y orquestación agéntica para permitir automatización de trabajo de conocimiento de extremo a extremo&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangGraph consolidado como el framework líder para agentes AI</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-consolidado-como-el-framework-lider-para-agentes-a</link>
+    <description>&lt;cite index=&quot;23-1,23-21,23-23&quot;&gt;RAG agéntico se está convirtiendo en la arquitectura por defecto para workflows complejos, y LangGraph es el framework abierto más maduro para construirlo. LangGraph agrega ejecución de agentes stateful, durable y multi-paso. LangSmith da trazabilidad, evaluación y debugging integrados al ecosistema&lt;/cite&gt;. &lt;cite index=&quot;27-25,27-26&quot;&gt;Después de sintetizar la investigación más sólida enfocada en desarrolladores de principios de 2026, LangGraph es el mejor framework general de agentes AI para desarrolladores serios ahora mismo. No es el más rápido de configurar, pero es el que más probablemente siga funcionando correctamente cuando tu sistema llegue a usuarios reales&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-consolidado-como-el-framework-lider-para-agentes-a</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>GPT-5.4 lanzado por OpenAI con ventana de contexto de 1M tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-lanzado-por-openai-con-ventana-de-contexto-de-1m-tok</link>
+    <description>&lt;cite index=&quot;18-9,18-11,18-12&quot;&gt;GPT-5.4 es el modelo más capaz y eficiente de OpenAI lanzado hasta la fecha, el 5 de marzo de 2026. Soporta ventanas de contexto de hasta 1.05 millones de tokens, la más grande que OpenAI ha ofrecido comercialmente. En precisión factual, GPT-5.4 reduce errores de claims individuales en un 33%&lt;/cite&gt;. Viene en tres variantes: Standard, Thinking (enfocado en razonamiento) y Pro (máxima capacidad). &lt;cite index=&quot;18-15,18-16,18-17&quot;&gt;La nueva característica Tool Search es genuinamente inteligente. En lugar de cargar todas las definiciones de herramientas en el prompt, el modelo busca dinámicamente las definiciones relevantes según sea necesario. Para desarrolladores construyendo sistemas agénticos complejos, eso es una reducción real de costos y latencia&lt;/cite&gt;.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-lanzado-por-openai-con-ventana-de-contexto-de-1m-tok</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw emerge como el repo AI trending más popular de 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-ai-trending-mas-popular-de-2026</link>
+    <description>&lt;cite index=&quot;2-4,2-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, pasó de 9,000 a más de 60,000 estrellas en solo unos días&lt;/cite&gt;. Es un asistente personal de AI que funciona completamente en dispositivos locales, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram y Discord. Los datos nunca salen de tu máquina y puede navegar web, ejecutar código y controlar workflows.</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-ai-trending-mas-popular-de-2026</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Meta y Hugging Face lanzan OpenEnv para desarrollo de agentes RL open-source</title>
     <link>https://txemagonzalez.com/post.html?slug=meta-y-hugging-face-lanzan-openenv-para-desarrollo-de-agente</link>
     <description>OpenEnv es un framework y hub comunitario para crear y compartir entornos de reinforcement learning frontier-grade. Construido sobre infraestructura de Meta FAIR, GenAI y MSL con integración nativa a Hugging Face Hub.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>NVIDIA lanza modelos Cosmos y GR00T N1.6 para robótica física en Hugging Face</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-modelos-cosmos-y-gr00t-n1-6-para-robotica-fisic</link>
-    <description>&lt;cite index=&apos;50-5,50-6&apos;&gt;NVIDIA Cosmos Predict 2.5 son modelos de mundo abiertos y totalmente personalizables que permiten generación de datos sintéticos físicamente basados y evaluación de políticas robóticas en simulación. NVIDIA Cosmos Reason 2 es un modelo de lenguaje visual de razonamiento abierto que permite a máquinas inteligentes ver, entender y actuar en el mundo físico&lt;/cite&gt;. &lt;cite index=&apos;50-7&apos;&gt;NVIDIA Isaac GR00T N1.6 es un modelo VLA de razonamiento abierto, específicamente construido para robots humanoides&lt;/cite&gt;.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-modelos-cosmos-y-gr00t-n1-6-para-robotica-fisic</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI retira GPT-4o y modelos antiguos de ChatGPT el 13 de febrero</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-modelos-antiguos-de-chatgpt-el-13-de-</link>
-    <description>&lt;cite index=&apos;17-1,17-2&apos;&gt;OpenAI anuncia el retiro de GPT-4o porque las mejoras están implementadas y la mayoría del uso se ha trasladado a GPT-5.2, con solo 0.1% de usuarios eligiendo GPT-4o diariamente. El 13 de febrero de 2026 se retirarán GPT-4o, GPT-4.1, GPT-4.1 mini y OpenAI o4-mini de ChatGPT&lt;/cite&gt;. &lt;cite index=&apos;17-6,17-7&apos;&gt;La retroalimentación de usuarios de Plus y Pro sobre GPT-4o influyó directamente en GPT-5.1 y GPT-5.2, con mejoras en personalidad, soporte creativo y personalización de respuestas&lt;/cite&gt;.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-modelos-antiguos-de-chatgpt-el-13-de-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw supera 210,000 estrellas en GitHub como el proyecto de IA de crecimiento más rápido</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-210-000-estrellas-en-github-como-el-proyecto</link>
-    <description>&lt;cite index=&apos;1-6,1-7&apos;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de crecimiento más rápido en la historia de GitHub, creado por el fundador de PSPDFKit Peter Steinberger, que pasó de 9,000 a más de 60,000 estrellas en solo unos días&lt;/cite&gt;. &lt;cite index=&apos;1-8,1-9&apos;&gt;Permite que expertos en dominios, no solo ingenieros de ML, creen aplicaciones de IA sofisticadas, reduciendo las barreras de entrada para construir IA en producción&lt;/cite&gt;.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-210-000-estrellas-en-github-como-el-proyecto</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents v0.4.12 con soporte para sandboxes remotos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-12-con-soporte-para-sandbox</link>
-    <description>&lt;cite index=&apos;51-1,51-2&apos;&gt;Deep Agents es un framework de agentes autónomos construido con LangChain y LangGraph, equipado con herramientas de planificación, backend de sistema de archivos y capacidad de generar subagentes&lt;/cite&gt;. &lt;cite index=&apos;21-9&apos;&gt;La versión 0.4 incluye soporte para sandboxes conectables, mejor resumido del historial de conversaciones y la API Responses como predeterminada para modelos OpenAI&lt;/cite&gt;. Disponible por pip install deepagents con licencia MIT.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-12-con-soporte-para-sandbox</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>DeepSeek V4 y modelos frontier marzo 2026: GPT-5.4, Gemini 3.1 Pro, Claude 4.6</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-modelos-frontier-marzo-2026-gpt-5-4-gemini-3-1</link>
-    <description>Marzo 2026 trae una cascada de lanzamientos de modelos: DeepSeek V4 con 1T parámetros, GPT-5.4 Pro con 272K tokens de contexto, Gemini 3.1 Pro líder en benchmarks, y Claude 4.6 con ventana de contexto de 1M tokens en beta.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-y-modelos-frontier-marzo-2026-gpt-5-4-gemini-3-1</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía completa RAG 2026: LangChain + ChromaDB con embeddings OpenAI</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-rag-2026-langchain-chromadb-con-embeddings-ope</link>
-    <description>Tutorial paso a paso para construir chatbots RAG usando LangChain, ChromaDB y embeddings text-embedding-3-small. Cubre chunking de documentos, almacenamiento vectorial y pipelines de consulta con código completo y funcional.</description>
-    <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-rag-2026-langchain-chromadb-con-embeddings-ope</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

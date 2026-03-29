@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de mejores prácticas de prompt engineering 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</link>
+    <description>&lt;cite index=&quot;51-1,51-2&quot;&gt;Esta guía es un conjunto práctico de mejores prácticas que puedes usar para ChatGPT, Claude y Gemini, incluyendo plantillas para prompts de sistema, solicitudes estructuradas y evaluaciones de auto-verificación rápidas&lt;/cite&gt;. &lt;cite index=&quot;51-8,51-9&quot;&gt;La práctica #1 de prompt engineering en 2026 es escribir criterios de éxito y un contrato de salida, ya que la mayoría de fallas son por &quot;terminado&quot; indefinido&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain deepagents v0.5 con subagentes asíncronos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</link>
+    <description>&lt;cite index=&quot;32-2,32-3&quot;&gt;LangChain lanza deepagents v0.5.0 alpha con subagentes asíncronos que permiten a Deep Agents lanzar tareas de fondo no bloqueantes, para que usuarios continúen interactuando mientras subagentes trabajan concurrentemente&lt;/cite&gt;. &lt;cite index=&quot;32-5,32-11,32-12&quot;&gt;Incluye soporte multimodal para PDFs, audio y video, además de middleware para reintentos automáticos de modelos y moderación de contenido de OpenAI&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek R1-0528: Modelo de razonamiento con licencia MIT</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</link>
+    <description>&lt;cite index=&quot;45-1&quot;&gt;En la última actualización, DeepSeek R1 ha mejorado significativamente sus capacidades de profundidad de razonamiento e inferencia aprovechando recursos computacionales aumentados y mecanismos de optimización algorítmica durante el post-entrenamiento&lt;/cite&gt;. &lt;cite index=&quot;41-8,41-9&quot;&gt;El código y modelos se lanzan bajo licencia MIT para destilación y comercialización libre, con website y API disponibles ahora&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Transformers v5 de Hugging Face: Nueva era de interoperabilidad</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-nueva-era-de-interoperabilid</link>
+    <description>&lt;cite index=&quot;24-5,24-6&quot;&gt;Hugging Face ha lanzado el primer candidato para Transformers v5, una evolución significativa después de cinco años desde v4, con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales&lt;/cite&gt;. &lt;cite index=&quot;24-12,24-13&quot;&gt;Se enfoca en interoperabilidad asegurando que definiciones de modelos, flujos de entrenamiento, motores de inferencia y objetivos de despliegue funcionen juntos con mínima fricción&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-nueva-era-de-interoperabilid</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GPT-5.4 mini y nano disponibles en la API de OpenAI</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-mini-y-nano-disponibles-en-la-api-de-openai</link>
+    <description>&lt;cite index=&quot;14-2,14-3&quot;&gt;OpenAI ha lanzado GPT-5.4 mini y GPT-5.4 nano en las APIs de Chat Completions y Responses, donde GPT-5.4 mini aporta capacidades de clase GPT-5.4 a un modelo más rápido y eficiente para cargas de trabajo de alto volumen&lt;/cite&gt;. &lt;cite index=&quot;14-4,14-5&quot;&gt;GPT-5.4 mini soporta búsqueda de herramientas, uso integrado de computadora y compactación, mientras que nano está optimizado para tareas simples de alto volumen&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-mini-y-nano-disponibles-en-la-api-de-openai</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI Codex recibe plugins de primera clase y flujos multi-agente avanzados</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-plugins-de-primera-clase-y-flujos-multi-</link>
+    <description>&lt;cite index=&quot;11-2,20-1&quot;&gt;Codex de OpenAI lanza una versión completa con plugins de primera clase, flujos de trabajo multi-agente más claros y capacidades mejoradas del servidor de aplicaciones&lt;/cite&gt;. &lt;cite index=&quot;20-3&quot;&gt;Los plugins ahora son un flujo de trabajo de primera clase donde Codex puede sincronizar plugins delimitados por producto, navegar por ellos y gestionarlos con mejor autenticación&lt;/cite&gt;.</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-plugins-de-primera-clase-y-flujos-multi-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Guía completa de arquitectura AI para sistemas escalables 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</link>
     <description>&lt;cite index=&quot;41-18,41-19,41-24,41-25&quot;&gt;Al completar esta guía, estarás equipado para: Articular los desafíos únicos en el diseño de aplicaciones impulsadas por AI. Diseñar pipelines AI/ML de extremo a extremo, desde ingesta de datos hasta despliegue y monitoreo de modelos. Incorporar mejores prácticas para calidad de datos, confiabilidad del modelo, observabilidad, seguridad e AI responsable. Tomar decisiones informadas de trade-offs al arquitecturar soluciones AI&lt;/cite&gt;. &lt;cite index=&quot;41-30,41-32&quot;&gt;El diseño de sistemas AI no se trata solo de entrenar un modelo de machine learning; se trata de construir todo el ecosistema alrededor de ese modelo para hacerlo útil, confiable y escalable en aplicaciones del mundo real. Esto involucra todo desde cómo fluyen los datos a tu sistema, cómo se entrenan y despliegan los modelos, cómo se comunican diferentes componentes AI&lt;/cite&gt;.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;3-1,3-2,3-11&quot;&gt;El GitHub Copilot SDK permite workflows agenticos directamente dentro de aplicaciones con ejecución programable. Incluye aislamiento, outputs restringidos y logging comprehensivo para ejecutar agentes de forma segura.&lt;/cite&gt;</description>
     <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Sonnet 4.6 con ventana de contexto 1M y capacidades agenticas mejoradas</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</link>
-    <description>&lt;cite index=&quot;42-4,42-5,43-11,43-12&quot;&gt;Claude Sonnet 4.6 combina velocidad e inteligencia para tareas diarias, con mejor rendimiento de búsqueda agentica consumiendo menos tokens. Soporta pensamiento extendido y ventana de contexto de 1M tokens en beta.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-sonnet-4-6-con-ventana-de-contexto-1m-y-capacidades-a</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain Deep Agents v0.5: framework para agentes autónomos de largo horizonte</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-v0-5-framework-para-agentes-autonomos-</link>
-    <description>&lt;cite index=&quot;31-19,35-5,35-6&quot;&gt;Deep Agents v0.5 introduce subagentes asíncronos que permiten tareas en segundo plano mientras el usuario sigue interactuando. Incluye soporte multimodal para PDFs, audio y video, además de mejoras en el protocolo backend.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-v0-5-framework-para-agentes-autonomos-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Transformers v5.0 de Hugging Face: reescritura completa centrada en PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-reescritura-completa-centr</link>
-    <description>&lt;cite index=&quot;21-1,21-2,21-14&quot;&gt;Hugging Face lanza Transformers v5 después de cinco años, con 1200 commits desde la última versión menor. Elimina deprecaciones, introduce refactorizaciones que simplifican APIs y cuenta con quantización como ciudadano de primera clase.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-0-de-hugging-face-reescritura-completa-centr</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.2-Codex: modelo agentic avanzado para ingeniería de software</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-modelo-agentic-avanzado-para-inge</link>
-    <description>&lt;cite index=&quot;19-1,19-6,19-8&quot;&gt;GPT-5.2-Codex es un modelo agentico especializado en tareas de codificación complejas con mejor comprensión de contexto largo, herramientas más confiables y capacidades de ciberseguridad mejoradas. Incluye mejoras en compactación nativa y factualidad, siendo más eficiente en tokens durante el razonamiento.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-2-codex-modelo-agentic-avanzado-para-inge</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>TraceSIR: Framework multi-agente para análisis estructurado de trazas de ejecución</title>
-    <link>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</link>
-    <description>&lt;cite index=&apos;33-4,33-20&apos;&gt;TraceSIR es un framework multi-agente para análisis estructurado y reporting de trazas de ejecución agéntica, desarrollado por investigadores de múltiples instituciones incluyendo la Universidad de Tsinghua&lt;/cite&gt;. El paper fue &lt;cite index=&apos;33-1,33-4&apos;&gt;presentado recientemente en arXiv bajo la categoría de Inteligencia Artificial y Lenguaje de Computación&lt;/cite&gt;, ofreciendo una nueva metodología para entender y depurar el comportamiento de agentes IA.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tracesir-framework-multi-agente-para-analisis-estructurado-d</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>HuggingFace lanza Transformers v5.0 con soporte semanal y cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</link>
-    <description>&lt;cite index=&apos;42-13,42-14,42-15&apos;&gt;Transformers v5.0 marca un cambio significativo: a partir de v5, se realizarán lanzamientos menores cada semana en lugar de cada 5 semanas, con v5.1 la próxima semana, v5.2 la siguiente, etc.&lt;/cite&gt; &lt;cite index=&apos;43-20,43-23,43-24&apos;&gt;Introduce un cambio significativo en la forma de cargar pesos en modelos, convirtiendo la cuantización en ciudadano de primera clase, proporcionando la base para que bitsandbytes soporte mejor características clave como TP y MoEs&lt;/cite&gt;.</description>
-    <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=huggingface-lanza-transformers-v5-0-con-soporte-semanal-y-cu</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

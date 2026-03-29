@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</loc><lastmod>2026-03-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</loc><lastmod>2026-03-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</loc><lastmod>2026-03-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-nueva-era-de-interoperabilid</loc><lastmod>2026-03-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-4-mini-y-nano-disponibles-en-la-api-de-openai</loc><lastmod>2026-03-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-plugins-de-primera-clase-y-flujos-multi-</loc><lastmod>2026-03-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</loc><lastmod>2026-03-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</loc><lastmod>2026-03-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</loc><lastmod>2026-03-28</lastmod></url>

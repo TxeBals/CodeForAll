@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Mejores prácticas para arquitectura de asistentes de codificación AI en 2025</title>
+    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</link>
+    <description>Guía completa sobre cómo implementar asistentes AI de codificación efectivamente, cubriendo desde arquitectura de sistemas hasta patrones de prompts y workflows de revisión híbridos. Enfatiza mantener control arquitectónico mientras se delegan tareas específicas a AI.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.1 Flash Live con interacción multimodal en tiempo real</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</link>
+    <description>Google libera Gemini 3.1 Flash Live en preview para desarrolladores, enfocado en interacciones de voz multimodales de baja latencia. Diseñado específicamente para construir agentes AI que pueden ver, escuchar y actuar simultáneamente.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Microsoft presenta Vectorless RAG con PageIndex para documentos estructurados</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-vectorless-rag-con-pageindex-para-documen</link>
+    <description>Microsoft introduce un nuevo enfoque de RAG basado en razonamiento sin vectores usando PageIndex, que organiza documentos en estructuras de árbol jerárquicas. Permite navegación estructural de documentos eliminando la necesidad de bases de datos vectoriales tradicionales.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-vectorless-rag-con-pageindex-para-documen</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 y LangGraph 1.0 oficialmente lanzados con arquitectura renovada</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-oficialmente-lanzados-con-arqu</link>
+    <description>LangChain lanza sus versiones 1.0 con un nuevo enfoque centrado en agentes, middleware personalizable y mejores abstracciones de modelo. Incluye create_agent simplificado, nuevos patrones de middleware y soporte para content blocks multimodales.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-oficialmente-lanzados-con-arqu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto GitHub de mayor crecimiento en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-github-de-mayor-crecimi</link>
+    <description>OpenClaw alcanzó más de 210,000 estrellas en GitHub tras viralizarse en enero, convirtiéndose en el proyecto de código abierto de más rápido crecimiento. Creado por Peter Steinberger, permite a expertos de dominio crear aplicaciones AI sofisticadas sin ser ingenieros ML.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-github-de-mayor-crecimi</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic filtra accidentalmente detalles de nuevo modelo Opus 4.6 con capacidades avanzadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-filtra-accidentalmente-detalles-de-nuevo-modelo-op</link>
+    <description>Anthropic lanzó inadvertidamente Claude Opus 4.6 a través de una filtración en su CMS, revelando un modelo con mejoras significativas en razonamiento, codificación y ciberseguridad. El modelo ahora está disponible en la API con nuevas funciones como adaptive thinking y mejor control para agentes de larga duración.</description>
+    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-filtra-accidentalmente-detalles-de-nuevo-modelo-op</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía completa de mejores prácticas de prompt engineering 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</link>
     <description>&lt;cite index=&quot;51-1,51-2&quot;&gt;Esta guía es un conjunto práctico de mejores prácticas que puedes usar para ChatGPT, Claude y Gemini, incluyendo plantillas para prompts de sistema, solicitudes estructuradas y evaluaciones de auto-verificación rápidas&lt;/cite&gt;. &lt;cite index=&quot;51-8,51-9&quot;&gt;La práctica #1 de prompt engineering en 2026 es escribir criterios de éxito y un contrato de salida, ya que la mayoría de fallas son por &quot;terminado&quot; indefinido&lt;/cite&gt;.</description>
@@ -116,54 +164,6 @@
     <description>GitHub introduce Copilot SDK en technical preview para crear workflows agénticos directamente en aplicaciones. Permite planificación, invocación de herramientas y edición de archivos como capa programable.</description>
     <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-workflows-agenticos-programables-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 introduce arquitectura modular y quantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-introduce-arquitectura-modular-</link>
-    <description>Transformers v5 rediseña la arquitectura con PyTorch como framework principal, eliminando soporte para TensorFlow/Flax. Incluye quantización como ciudadano de primera clase y nuevas APIs para inferencia optimizada.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-introduce-arquitectura-modular-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents: runtime estructurado para agentes autónomos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</link>
-    <description>Deep Agents es un harness para agentes multi-paso con planificación integrada, gestión de contexto mediante filesystem y capacidad de spawn de subagentes. Construido sobre LangGraph para ejecución duradera y workflows human-in-the-loop.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-runtime-estructurado-para-agente</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic Claude 4.6 con Computer Use y 1M contexto en todas las versiones</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-4-6-con-computer-use-y-1m-contexto-en-todas</link>
-    <description>Claude Sonnet 4.6 combina velocidad e inteligencia con ventana de contexto de 1M tokens en beta. Incluye Computer Use para control directo de aplicaciones desktop y nuevas integraciones con PowerPoint y Excel.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-4-6-con-computer-use-y-1m-contexto-en-todas</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 con ventana de contexto de 1M tokens y nuevas APIs de código</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-ventana-de-contexto-de-1m-tokens-y-</link>
-    <description>OpenAI introduce GPT-5.4 para productividad profesional, con soporte para Skills API y contenedores sandboxed. Incluye Responses API como reemplazo de Assistants API y GPT-5.4 mini para usuarios gratuitos como fallback de reasoning.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-con-ventana-de-contexto-de-1m-tokens-y-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Papers destacados en arXiv: BiJEPA y arquitecturas de representación simétrica</title>
-    <link>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</link>
-    <description>&lt;cite index=&quot;51-2,51-6&quot;&gt;BiJEPA presenta una arquitectura predictiva de embeddings conjuntos bidireccional para aprendizaje de representación simétrica. Parte de los avances recientes en arquitecturas de auto-supervisión para ML.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=papers-destacados-en-arxiv-bijepa-y-arquitecturas-de-represe</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK: SDK agentico para workflows programables</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</link>
-    <description>&lt;cite index=&quot;3-1,3-2,3-11&quot;&gt;El GitHub Copilot SDK permite workflows agenticos directamente dentro de aplicaciones con ejecución programable. Incluye aislamiento, outputs restringidos y logging comprehensivo para ejecutar agentes de forma segura.&lt;/cite&gt;</description>
-    <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-sdk-agentico-para-workflows-programables</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

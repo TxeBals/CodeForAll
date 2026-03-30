@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</loc><lastmod>2026-03-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</loc><lastmod>2026-03-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-presenta-vectorless-rag-con-pageindex-para-documen</loc><lastmod>2026-03-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-oficialmente-lanzados-con-arqu</loc><lastmod>2026-03-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-github-de-mayor-crecimi</loc><lastmod>2026-03-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-filtra-accidentalmente-detalles-de-nuevo-modelo-op</loc><lastmod>2026-03-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</loc><lastmod>2026-03-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</loc><lastmod>2026-03-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</loc><lastmod>2026-03-29</lastmod></url>

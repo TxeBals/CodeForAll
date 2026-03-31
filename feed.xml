@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Cold starts de sub-segundo para modelos 32B: nueva técnica de snapshot GPU state</title>
+    <link>https://txemagonzalez.com/post.html?slug=cold-starts-de-sub-segundo-para-modelos-32b-nueva-tecnica-de</link>
+    <description>Investigación breakthrough logra cold starts de menos de 1 segundo para modelos grandes restaurando el estado de GPU en lugar de recargar weights. Elimina la transferencia de gigabytes de host memory a VRAM, permitiendo endpoints serverless verdaderamente eficientes con latencia mínima en primera request.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cold-starts-de-sub-segundo-para-modelos-32b-nueva-tecnica-de</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>MiniMax-M2.1 open source: modelo agentic optimizado para coding y tool use con pesos abiertos</title>
+    <link>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentic-optimizado-para-codi</link>
+    <description>MiniMax libera M2.1 como open source, optimizado específicamente para robustez en coding, tool use, instruction following y long-horizon planning. Supera Claude Sonnet 4.5 en escenarios multilingües y se acerca a Opus 4.5. Disponible en HuggingFace con licencia Modified-MIT.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentic-optimizado-para-codi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: el proyecto de GitHub que crece más rápido en la historia con 210k stars</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-crece-mas-rapido-en-la-hi</link>
+    <description>Asistente de IA personal que funciona completamente local con acceso a 50+ integraciones (WhatsApp, Slack, Discord). Puede navegar web, llenar formularios, ejecutar comandos shell, escribir código y controlar sistemas, todo sin enviar datos a la nube. Creado por el founder de PSPDFKit.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-crece-mas-rapido-en-la-hi</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan versión 1.0 estable: nueva arquitectura de agentes con middleware</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-estable-nueva-arq</link>
+    <description>Primer release estable major de LangChain 1.0 y LangGraph 1.0 tras años de desarrollo. LangChain se enfoca en el core agent loop con middleware para customización, mientras LangGraph ofrece control granular para sistemas agenticos complejos. Incluye nuevo concepto de content blocks y compatibility completa backwards.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-estable-nueva-arq</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub lanza Copilot SDK en preview técnico: programmable agents directamente en aplicaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-lanza-copilot-sdk-en-preview-tecnico-programmable-age</link>
+    <description>GitHub Copilot SDK permite crear workflows agenticos programables con isolation, outputs restringidos y logging completo. El SDK puede planificar, invocar herramientas, editar archivos y ejecutar comandos como una capa programable integrable en cualquier aplicación.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-lanza-copilot-sdk-en-preview-tecnico-programmable-age</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Anthropic filtra Claude Mythos: el nuevo modelo &apos;step change&apos; con capacidades sin precedentes en ciberseguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-filtra-claude-mythos-el-nuevo-modelo-step-change-c</link>
+    <description>Se confirmó la existencia de Claude Mythos tras una filtración que revela un modelo que representa &apos;un salto cualitativo&apos; en IA. Introduce un nuevo tier llamado &apos;Capybara&apos;, más potente que Opus, con avances significativos en razonamiento, coding y ciberseguridad. Ya está en testing con clientes de early access.</description>
+    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-filtra-claude-mythos-el-nuevo-modelo-step-change-c</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Mejores prácticas para arquitectura de asistentes de codificación AI en 2025</title>
     <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</link>
     <description>Guía completa sobre cómo implementar asistentes AI de codificación efectivamente, cubriendo desde arquitectura de sistemas hasta patrones de prompts y workflows de revisión híbridos. Enfatiza mantener control arquitectónico mientras se delegan tareas específicas a AI.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;39-1,39-2,39-5&quot;&gt;Desde su lanzamiento como característica de desarrollador en octubre 2025, Agent Skills se han convertido en un producto central para Anthropic. La especificación abierta y SDK de referencia se publican en agentskills.io, y Microsoft ya ha adoptado las Skills de Anthropic en VS Code y GitHub. Las Skills de Anthropic son paquetes reutilizables de instrucciones, scripts y recursos&lt;/cite&gt;. &lt;cite index=&quot;32-4,32-6,32-14&quot;&gt;Para construir agentes efectivos, necesitan trabajar con bibliotecas de herramientas ilimitadas sin llenar cada definición en contexto por adelantado. Los agentes deben descubrir y cargar herramientas bajo demanda, manteniendo solo lo que es relevante para la tarea actual&lt;/cite&gt;.</description>
     <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LlamaIndex evoluciona hacia framework completo de orquestación multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</link>
-    <description>&lt;cite index=&quot;30-12,30-13,30-14&quot;&gt;LlamaIndex ha evolucionado de un framework de generación aumentada por recuperación (RAG) hacia una plataforma completa de orquestación multi-agente. Toda la documentación de LlamaIndex ahora se construye alrededor de AgentWorkflow, reflejando este cambio estratégico. AgentWorkflow facilita construir y orquestar sistemas de agentes AI&lt;/cite&gt;. &lt;cite index=&quot;30-21,30-22,30-23&quot;&gt;En 2025, LlamaIndex introdujo Agentic Document Workflows, un avance significativo más allá de los paradigmas tradicionales de IDP y RAG. ADW combina procesamiento de documentos, recuperación, outputs estructurados y orquestación agéntica para permitir automatización de trabajo de conocimiento de extremo a extremo&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-evoluciona-hacia-framework-completo-de-orquestaci</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangGraph consolidado como el framework líder para agentes AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=langgraph-consolidado-como-el-framework-lider-para-agentes-a</link>
-    <description>&lt;cite index=&quot;23-1,23-21,23-23&quot;&gt;RAG agéntico se está convirtiendo en la arquitectura por defecto para workflows complejos, y LangGraph es el framework abierto más maduro para construirlo. LangGraph agrega ejecución de agentes stateful, durable y multi-paso. LangSmith da trazabilidad, evaluación y debugging integrados al ecosistema&lt;/cite&gt;. &lt;cite index=&quot;27-25,27-26&quot;&gt;Después de sintetizar la investigación más sólida enfocada en desarrolladores de principios de 2026, LangGraph es el mejor framework general de agentes AI para desarrolladores serios ahora mismo. No es el más rápido de configurar, pero es el que más probablemente siga funcionando correctamente cuando tu sistema llegue a usuarios reales&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langgraph-consolidado-como-el-framework-lider-para-agentes-a</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GPT-5.4 lanzado por OpenAI con ventana de contexto de 1M tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-lanzado-por-openai-con-ventana-de-contexto-de-1m-tok</link>
-    <description>&lt;cite index=&quot;18-9,18-11,18-12&quot;&gt;GPT-5.4 es el modelo más capaz y eficiente de OpenAI lanzado hasta la fecha, el 5 de marzo de 2026. Soporta ventanas de contexto de hasta 1.05 millones de tokens, la más grande que OpenAI ha ofrecido comercialmente. En precisión factual, GPT-5.4 reduce errores de claims individuales en un 33%&lt;/cite&gt;. Viene en tres variantes: Standard, Thinking (enfocado en razonamiento) y Pro (máxima capacidad). &lt;cite index=&quot;18-15,18-16,18-17&quot;&gt;La nueva característica Tool Search es genuinamente inteligente. En lugar de cargar todas las definiciones de herramientas en el prompt, el modelo busca dinámicamente las definiciones relevantes según sea necesario. Para desarrolladores construyendo sistemas agénticos complejos, eso es una reducción real de costos y latencia&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-lanzado-por-openai-con-ventana-de-contexto-de-1m-tok</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw emerge como el repo AI trending más popular de 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-ai-trending-mas-popular-de-2026</link>
-    <description>&lt;cite index=&quot;2-4,2-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, pasó de 9,000 a más de 60,000 estrellas en solo unos días&lt;/cite&gt;. Es un asistente personal de AI que funciona completamente en dispositivos locales, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram y Discord. Los datos nunca salen de tu máquina y puede navegar web, ejecutar código y controlar workflows.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-ai-trending-mas-popular-de-2026</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Meta y Hugging Face lanzan OpenEnv para desarrollo de agentes RL open-source</title>
-    <link>https://txemagonzalez.com/post.html?slug=meta-y-hugging-face-lanzan-openenv-para-desarrollo-de-agente</link>
-    <description>OpenEnv es un framework y hub comunitario para crear y compartir entornos de reinforcement learning frontier-grade. Construido sobre infraestructura de Meta FAIR, GenAI y MSL con integración nativa a Hugging Face Hub.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=meta-y-hugging-face-lanzan-openenv-para-desarrollo-de-agente</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK permite workflows agénticos programables en aplicaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-workflows-agenticos-programables-</link>
-    <description>GitHub introduce Copilot SDK en technical preview para crear workflows agénticos directamente en aplicaciones. Permite planificación, invocación de herramientas y edición de archivos como capa programable.</description>
-    <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-permite-workflows-agenticos-programables-</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

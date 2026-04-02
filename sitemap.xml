@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-agentic-rag-con-langgraph-y-multi</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc-unificacion-de-semantic-kernel-</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-de-anthropic-lidera-benchmarks-de-trabajo-re</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-y-trl-v1-0-nueva-generaci</loc><lastmod>2026-04-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=cold-starts-de-sub-segundo-para-modelos-32b-nueva-tecnica-de</loc><lastmod>2026-03-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentic-optimizado-para-codi</loc><lastmod>2026-03-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-crece-mas-rapido-en-la-hi</loc><lastmod>2026-03-31</lastmod></url>

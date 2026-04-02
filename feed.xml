@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Nuevos Papers en ArXiv: Arquitecturas Neurosimbólicas y Sistemas Agentic Enterprise</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</link>
+    <description>&lt;cite index=&quot;51-6,51-7,51-8&quot;&gt;ArXiv publica &apos;Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems&apos; con evaluación en 600 runs across 5 industrias reguladas. Incluye dominios Vietnamese-language y arquitectura neurosimbólica.&lt;/cite&gt; Foco en AI agents para entornos enterprise con restricciones de dominio.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Repositorio GitHub Trending: OpenThinker3-7B y Deep Agents Dominan Rankings de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</link>
+    <description>&lt;cite index=&quot;6-6,6-8,34-11&quot;&gt;OpenThinker3-7B logra SOTA en benchmarks AIME25 (53.3%), LiveCodeBench (51.7%) sin reinforcement learning. LangChain Deep Agents proporciona runtime estructurado para planificación y memoria multi-paso.&lt;/cite&gt; Proyectos destacados incluyen sistemas agentic RAG y multi-modal AI.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain Evoluciona hacia Agentic RAG con LangGraph y Multi-Agent Workflows</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-agentic-rag-con-langgraph-y-multi</link>
+    <description>&lt;cite index=&quot;21-1,23-1,28-4&quot;&gt;LangChain introduce patrones agentic RAG avanzados con LangGraph para workflows complejos. El 57% de organizaciones tienen agentes en producción con observabilidad como prioridad (89% adoption).&lt;/cite&gt; CrewAI compite como framework fastest-growing con 45,900+ GitHub stars.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-agentic-rag-con-langgraph-y-multi</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework RC: Unificación de Semantic Kernel y AutoGen para Sistemas Multi-Agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc-unificacion-de-semantic-kernel-</link>
+    <description>&lt;cite index=&quot;41-1,41-8,49-4&quot;&gt;Microsoft Agent Framework alcanza Release Candidate status combinando Semantic Kernel y AutoGen. Pensado como &apos;Semantic Kernel v2.0&apos;, ofrece API unificada para desarrollo enterprise de agentes.&lt;/cite&gt; Soporte completo para .NET y Python con compatibilidad hacia atrás garantizada.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-rc-unificacion-de-semantic-kernel-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.6 de Anthropic Lidera Benchmarks de Trabajo Real con Nuevas Capacidades Agenticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-de-anthropic-lidera-benchmarks-de-trabajo-re</link>
+    <description>&lt;cite index=&quot;12-8,12-11,12-37&quot;&gt;Anthropic lanza Claude Opus 4.6 que supera a GPT-5.2 por 144 puntos Elo en GDPval-AA y lidera en tareas de trabajo real. Incluye adaptive thinking, mejor rendimiento en búsqueda agentic y capacidades de código avanzadas.&lt;/cite&gt; Disponible via API claude-opus-4-6 con mismo precio $5/$25 por millón de tokens.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-de-anthropic-lidera-benchmarks-de-trabajo-re</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face Lanza Transformers v5 y TRL v1.0: Nueva Generación de Herramientas para Desarrolladores de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-y-trl-v1-0-nueva-generaci</link>
+    <description>&lt;cite index=&quot;33-13,34-1,35-3&quot;&gt;Hugging Face presenta Transformers v5 con arquitectura modular mejorada y TRL v1.0 para entrenamiento post-training (SFT, DPO, GRPO). Transformers.js v4 incluye nuevo WebGPU runtime reescrito en C++ para mejor rendimiento.&lt;/cite&gt; La biblioteca alcanza 3 millones de instalaciones diarias y más de 400 arquitecturas de modelos.</description>
+    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-y-trl-v1-0-nueva-generaci</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Cold starts de sub-segundo para modelos 32B: nueva técnica de snapshot GPU state</title>
     <link>https://txemagonzalez.com/post.html?slug=cold-starts-de-sub-segundo-para-modelos-32b-nueva-tecnica-de</link>
     <description>Investigación breakthrough logra cold starts de menos de 1 segundo para modelos grandes restaurando el estado de GPU en lugar de recargar weights. Elimina la transferencia de gigabytes de host memory a VRAM, permitiendo endpoints serverless verdaderamente eficientes con latencia mínima en primera request.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>DeepSeek R1-0528: Modelo de razonamiento con licencia MIT</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</link>
-    <description>&lt;cite index=&quot;45-1&quot;&gt;En la última actualización, DeepSeek R1 ha mejorado significativamente sus capacidades de profundidad de razonamiento e inferencia aprovechando recursos computacionales aumentados y mecanismos de optimización algorítmica durante el post-entrenamiento&lt;/cite&gt;. &lt;cite index=&quot;41-8,41-9&quot;&gt;El código y modelos se lanzan bajo licencia MIT para destilación y comercialización libre, con website y API disponibles ahora&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-modelo-de-razonamiento-con-licencia-mit</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Transformers v5 de Hugging Face: Nueva era de interoperabilidad</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-nueva-era-de-interoperabilid</link>
-    <description>&lt;cite index=&quot;24-5,24-6&quot;&gt;Hugging Face ha lanzado el primer candidato para Transformers v5, una evolución significativa después de cinco años desde v4, con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales&lt;/cite&gt;. &lt;cite index=&quot;24-12,24-13&quot;&gt;Se enfoca en interoperabilidad asegurando que definiciones de modelos, flujos de entrenamiento, motores de inferencia y objetivos de despliegue funcionen juntos con mínima fricción&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-nueva-era-de-interoperabilid</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GPT-5.4 mini y nano disponibles en la API de OpenAI</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-mini-y-nano-disponibles-en-la-api-de-openai</link>
-    <description>&lt;cite index=&quot;14-2,14-3&quot;&gt;OpenAI ha lanzado GPT-5.4 mini y GPT-5.4 nano en las APIs de Chat Completions y Responses, donde GPT-5.4 mini aporta capacidades de clase GPT-5.4 a un modelo más rápido y eficiente para cargas de trabajo de alto volumen&lt;/cite&gt;. &lt;cite index=&quot;14-4,14-5&quot;&gt;GPT-5.4 mini soporta búsqueda de herramientas, uso integrado de computadora y compactación, mientras que nano está optimizado para tareas simples de alto volumen&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-mini-y-nano-disponibles-en-la-api-de-openai</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI Codex recibe plugins de primera clase y flujos multi-agente avanzados</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-plugins-de-primera-clase-y-flujos-multi-</link>
-    <description>&lt;cite index=&quot;11-2,20-1&quot;&gt;Codex de OpenAI lanza una versión completa con plugins de primera clase, flujos de trabajo multi-agente más claros y capacidades mejoradas del servidor de aplicaciones&lt;/cite&gt;. &lt;cite index=&quot;20-3&quot;&gt;Los plugins ahora son un flujo de trabajo de primera clase donde Codex puede sincronizar plugins delimitados por producto, navegar por ellos y gestionarlos con mejor autenticación&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-plugins-de-primera-clase-y-flujos-multi-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Guía completa de arquitectura AI para sistemas escalables 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</link>
-    <description>&lt;cite index=&quot;41-18,41-19,41-24,41-25&quot;&gt;Al completar esta guía, estarás equipado para: Articular los desafíos únicos en el diseño de aplicaciones impulsadas por AI. Diseñar pipelines AI/ML de extremo a extremo, desde ingesta de datos hasta despliegue y monitoreo de modelos. Incorporar mejores prácticas para calidad de datos, confiabilidad del modelo, observabilidad, seguridad e AI responsable. Tomar decisiones informadas de trade-offs al arquitecturar soluciones AI&lt;/cite&gt;. &lt;cite index=&quot;41-30,41-32&quot;&gt;El diseño de sistemas AI no se trata solo de entrenar un modelo de machine learning; se trata de construir todo el ecosistema alrededor de ese modelo para hacerlo útil, confiable y escalable en aplicaciones del mundo real. Esto involucra todo desde cómo fluyen los datos a tu sistema, cómo se entrenan y despliegan los modelos, cómo se comunican diferentes componentes AI&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-arquitectura-ai-para-sistemas-escalables-20</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Anthropic introduce Skills open-source y Tool Search avanzado para Claude</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</link>
-    <description>&lt;cite index=&quot;39-1,39-2,39-5&quot;&gt;Desde su lanzamiento como característica de desarrollador en octubre 2025, Agent Skills se han convertido en un producto central para Anthropic. La especificación abierta y SDK de referencia se publican en agentskills.io, y Microsoft ya ha adoptado las Skills de Anthropic en VS Code y GitHub. Las Skills de Anthropic son paquetes reutilizables de instrucciones, scripts y recursos&lt;/cite&gt;. &lt;cite index=&quot;32-4,32-6,32-14&quot;&gt;Para construir agentes efectivos, necesitan trabajar con bibliotecas de herramientas ilimitadas sin llenar cada definición en contexto por adelantado. Los agentes deben descubrir y cargar herramientas bajo demanda, manteniendo solo lo que es relevante para la tarea actual&lt;/cite&gt;.</description>
-    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-skills-open-source-y-tool-search-avanzad</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

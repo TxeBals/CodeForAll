@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura para agentes multi-modal en producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</link>
+    <description>Guía de mejores prácticas para desarrollo ágil de agentes IA basada en experiencia real con Copilot SDK. Cubre estrategias de prompting conversacional, refactoring frecuente y arquitecturas &apos;trust but verify&apos; para workflows agénticos confiables.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Ollama consolida como plataforma estándar para LLMs locales</title>
+    <link>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</link>
+    <description>Ollama se establece como la herramienta CLI definitiva para servir modelos locales, con soporte nativo para los últimos LLMs incluyendo Qwen3, DeepSeek-R1, Phi-4, Gemma 3 y Mistral. Simplifica la descarga, quantización y serving de modelos open-weight.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Arquitectura y setup del asistente IA autónomo viral</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-arquitectura-y-setup-del-asistente-ia-autonomo-vira</link>
+    <description>OpenClaw (ex-Clawdbot, ex-Moltbot) es un framework MIT de agentes IA que integra LLMs con mensajería, herramientas locales y workflows automáticos. Arquitectura Gateway-Channels permite control de archivos, comandos shell y integraciones con 50+ plataformas.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-arquitectura-y-setup-del-asistente-ia-autonomo-vira</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain integra MongoDB para agentes de producción con memoria persistente</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-integra-mongodb-para-agentes-de-produccion-con-mem</link>
+    <description>LangChain anuncia partnership con MongoDB Atlas para crear el stack completo de agentes IA. Incluye Atlas Vector Search nativo, memoria persistente con MongoDB Checkpointer, y evaluación RAG integrada con LangSmith para desarrollo empresarial.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-integra-mongodb-para-agentes-de-produccion-con-mem</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenThinker3-7B supera a DeepSeek-R1 en benchmarks de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-supera-a-deepseek-r1-en-benchmarks-de-razona</link>
+    <description>Bespoke Labs lanza OpenThinker3-7B, un modelo de 7B parámetros que logra resultados state-of-the-art en benchmarks de matemáticas, código y ciencias. Alcanza 53.3% en AIME25 y 51.7% en LiveCodeBench, superando modelos de mayor tamaño entrenados con RL.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-supera-a-deepseek-r1-en-benchmarks-de-razona</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK lanza su Preview Público con capacidades agénticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-su-preview-publico-con-capacidades-</link>
+    <description>GitHub ha lanzado el Copilot SDK en preview público, permitiendo embeber las capacidades agénticas de Copilot directamente en aplicaciones personalizadas. Compatible con Node.js, Python, Go, .NET y Java, expone el mismo runtime probado en producción que alimenta GitHub Copilot CLI.</description>
+    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-su-preview-publico-con-capacidades-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
     <title>Nuevos Papers en ArXiv: Arquitecturas Neurosimbólicas y Sistemas Agentic Enterprise</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</link>
     <description>&lt;cite index=&quot;51-6,51-7,51-8&quot;&gt;ArXiv publica &apos;Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems&apos; con evaluación en 600 runs across 5 industrias reguladas. Incluye dominios Vietnamese-language y arquitectura neurosimbólica.&lt;/cite&gt; Foco en AI agents para entornos enterprise con restricciones de dominio.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft presenta Vectorless RAG con PageIndex para documentos estructurados</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-vectorless-rag-con-pageindex-para-documen</link>
-    <description>Microsoft introduce un nuevo enfoque de RAG basado en razonamiento sin vectores usando PageIndex, que organiza documentos en estructuras de árbol jerárquicas. Permite navegación estructural de documentos eliminando la necesidad de bases de datos vectoriales tradicionales.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-vectorless-rag-con-pageindex-para-documen</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 y LangGraph 1.0 oficialmente lanzados con arquitectura renovada</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-oficialmente-lanzados-con-arqu</link>
-    <description>LangChain lanza sus versiones 1.0 con un nuevo enfoque centrado en agentes, middleware personalizable y mejores abstracciones de modelo. Incluye create_agent simplificado, nuevos patrones de middleware y soporte para content blocks multimodales.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-oficialmente-lanzados-con-arqu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto GitHub de mayor crecimiento en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-github-de-mayor-crecimi</link>
-    <description>OpenClaw alcanzó más de 210,000 estrellas en GitHub tras viralizarse en enero, convirtiéndose en el proyecto de código abierto de más rápido crecimiento. Creado por Peter Steinberger, permite a expertos de dominio crear aplicaciones AI sofisticadas sin ser ingenieros ML.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-github-de-mayor-crecimi</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic filtra accidentalmente detalles de nuevo modelo Opus 4.6 con capacidades avanzadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-filtra-accidentalmente-detalles-de-nuevo-modelo-op</link>
-    <description>Anthropic lanzó inadvertidamente Claude Opus 4.6 a través de una filtración en su CMS, revelando un modelo con mejoras significativas en razonamiento, codificación y ciberseguridad. El modelo ahora está disponible en la API con nuevas funciones como adaptive thinking y mejor control para agentes de larga duración.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-filtra-accidentalmente-detalles-de-nuevo-modelo-op</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía completa de mejores prácticas de prompt engineering 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</link>
-    <description>&lt;cite index=&quot;51-1,51-2&quot;&gt;Esta guía es un conjunto práctico de mejores prácticas que puedes usar para ChatGPT, Claude y Gemini, incluyendo plantillas para prompts de sistema, solicitudes estructuradas y evaluaciones de auto-verificación rápidas&lt;/cite&gt;. &lt;cite index=&quot;51-8,51-9&quot;&gt;La práctica #1 de prompt engineering en 2026 es escribir criterios de éxito y un contrato de salida, ya que la mayoría de fallas son por &quot;terminado&quot; indefinido&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-mejores-practicas-de-prompt-engineering-202</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain deepagents v0.5 con subagentes asíncronos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</link>
-    <description>&lt;cite index=&quot;32-2,32-3&quot;&gt;LangChain lanza deepagents v0.5.0 alpha con subagentes asíncronos que permiten a Deep Agents lanzar tareas de fondo no bloqueantes, para que usuarios continúen interactuando mientras subagentes trabajan concurrentemente&lt;/cite&gt;. &lt;cite index=&quot;32-5,32-11,32-12&quot;&gt;Incluye soporte multimodal para PDFs, audio y video, además de middleware para reintentos automáticos de modelos y moderación de contenido de OpenAI&lt;/cite&gt;.</description>
-    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-deepagents-v0-5-con-subagentes-asincronos</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

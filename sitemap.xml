@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</loc><lastmod>2026-04-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</loc><lastmod>2026-04-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-arquitectura-y-setup-del-asistente-ia-autonomo-vira</loc><lastmod>2026-04-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-integra-mongodb-para-agentes-de-produccion-con-mem</loc><lastmod>2026-04-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openthinker3-7b-supera-a-deepseek-r1-en-benchmarks-de-razona</loc><lastmod>2026-04-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-su-preview-publico-con-capacidades-</loc><lastmod>2026-04-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</loc><lastmod>2026-04-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</loc><lastmod>2026-04-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-agentic-rag-con-langgraph-y-multi</loc><lastmod>2026-04-02</lastmod></url>

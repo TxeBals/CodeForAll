@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>SAP lanza AI Developer Challenge con Generative AI Hub y agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=sap-lanza-ai-developer-challenge-con-generative-ai-hub-y-age</link>
+    <description>&lt;cite index=&quot;10-12,10-13&quot;&gt;SAP inicia un nuevo developer challenge en abril sobre construcción de agentes de IA con Generative AI Hub. En la primera semana se aprende el servicio de orquestación y módulo de grounding, en la segunda semana se construyen agentes basados en código usando CrewAI.&lt;/cite&gt; &lt;cite index=&quot;10-2,10-3,10-4&quot;&gt;También inicia el beta testing de procedimientos de agentes de descubrimiento de datos en SAP HANA Cloud, combinando descubrimiento basado en grafos de conocimiento con generación de consultas impulsada por IA.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=sap-lanza-ai-developer-challenge-con-generative-ai-hub-y-age</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: agente de codificación trending que supera 210K estrellas en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-agente-de-codificacion-trending-que-supera-210k-est</link>
+    <description>&lt;cite index=&quot;12-1,12-5,12-6&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en días y ya superó las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;14-1,14-8&quot;&gt;Es una herramienta de codificación agnóstica que vive en tu terminal, entiende tu codebase y ayuda a codificar más rápido ejecutando tareas rutinarias a través de comandos de lenguaje natural.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-agente-de-codificacion-trending-que-supera-210k-est</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic desarrolla Claude Mythos 5: modelo de 10 billones de parámetros filtrado</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-desarrolla-claude-mythos-5-modelo-de-10-billones-d</link>
+    <description>&lt;cite index=&quot;47-1,47-2,47-3&quot;&gt;Anthropic confirmó estar entrenando y probando Claude Mythos, descrito como &apos;el modelo de IA más poderoso que hemos desarrollado&apos;. El modelo representa avances significativos en razonamiento, codificación y ciberseguridad.&lt;/cite&gt; &lt;cite index=&quot;41-3,41-15&quot;&gt;Con 10 billones de parámetros estimados, está diseñado para sobresalir en ciberseguridad, codificación y razonamiento académico para aplicaciones de alto riesgo.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-desarrolla-claude-mythos-5-modelo-de-10-billones-d</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Google lanza Gemma 4: modelos abiertos optimizados para workflows agnósticos</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-abiertos-optimizados-para-workf</link>
+    <description>&lt;cite index=&quot;9-8,9-12,9-14&quot;&gt;Gemma 4 está diseñado específicamente para razonamiento avanzado y flujos de trabajo agnósticos, entregando inteligencia sin precedentes por parámetro. Se lanza en cuatro tamaños versátiles bajo licencia Apache 2.0.&lt;/cite&gt; &lt;cite index=&quot;9-20,9-21,9-22&quot;&gt;El modelo de 31B ocupa el puesto #3 en el leaderboard mundial de modelos abiertos y supera a modelos 20x más grandes en inteligencia por parámetro.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-abiertos-optimizados-para-workf</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>PrismML lanza Bonsai 8B: primer modelo 1-bit comercialmente viable</title>
+    <link>https://txemagonzalez.com/post.html?slug=prismml-lanza-bonsai-8b-primer-modelo-1-bit-comercialmente-v</link>
+    <description>&lt;cite index=&quot;32-1,32-2,32-4&quot;&gt;PrismML anuncia modelos 1-bit Bonsai que concentran inteligencia aumentando la inteligencia útil por unidad de tamaño y energía. El modelo 8B usa solo 1.15GB de memoria, 14x más pequeño que modelos de precisión completa.&lt;/cite&gt; &lt;cite index=&quot;32-13,32-14&quot;&gt;Ejecuta nativamente en dispositivos Apple vía MLX y GPUs NVIDIA con llama.cpp CUDA. Los pesos están disponibles bajo licencia Apache 2.0.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=prismml-lanza-bonsai-8b-primer-modelo-1-bit-comercialmente-v</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GPT-5.4 introduce capacidades nativas de uso de computadoras con 1M de contexto</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-introduce-capacidades-nativas-de-uso-de-computadoras</link>
+    <description>&lt;cite index=&quot;21-9,21-10,21-11&quot;&gt;GPT-5.4 es el primer modelo de propósito general con capacidades nativas de uso de computadoras, permitiendo que los agentes operen ordenadores y ejecuten flujos de trabajo complejos. Soporta hasta 1M tokens de contexto y mejora cómo los modelos trabajan con ecosistemas de herramientas usando tool search.&lt;/cite&gt; &lt;cite index=&quot;21-18&quot;&gt;En evaluaciones internas, GPT-5.4 sobresale en tareas complejas de frontend con resultados más estéticos y funcionales.&lt;/cite&gt;</description>
+    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-introduce-capacidades-nativas-de-uso-de-computadoras</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura para agentes multi-modal en producción</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</link>
     <description>Guía de mejores prácticas para desarrollo ágil de agentes IA basada en experiencia real con Copilot SDK. Cubre estrategias de prompting conversacional, refactoring frecuente y arquitecturas &apos;trust but verify&apos; para workflows agénticos confiables.</description>
@@ -116,54 +164,6 @@
     <description>MiniMax libera M2.1 como open source, optimizado específicamente para robustez en coding, tool use, instruction following y long-horizon planning. Supera Claude Sonnet 4.5 en escenarios multilingües y se acerca a Opus 4.5. Disponible en HuggingFace con licencia Modified-MIT.</description>
     <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentic-optimizado-para-codi</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: el proyecto de GitHub que crece más rápido en la historia con 210k stars</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-crece-mas-rapido-en-la-hi</link>
-    <description>Asistente de IA personal que funciona completamente local con acceso a 50+ integraciones (WhatsApp, Slack, Discord). Puede navegar web, llenar formularios, ejecutar comandos shell, escribir código y controlar sistemas, todo sin enviar datos a la nube. Creado por el founder de PSPDFKit.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-crece-mas-rapido-en-la-hi</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain y LangGraph alcanzan versión 1.0 estable: nueva arquitectura de agentes con middleware</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-estable-nueva-arq</link>
-    <description>Primer release estable major de LangChain 1.0 y LangGraph 1.0 tras años de desarrollo. LangChain se enfoca en el core agent loop con middleware para customización, mientras LangGraph ofrece control granular para sistemas agenticos complejos. Incluye nuevo concepto de content blocks y compatibility completa backwards.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-estable-nueva-arq</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub lanza Copilot SDK en preview técnico: programmable agents directamente en aplicaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-lanza-copilot-sdk-en-preview-tecnico-programmable-age</link>
-    <description>GitHub Copilot SDK permite crear workflows agenticos programables con isolation, outputs restringidos y logging completo. El SDK puede planificar, invocar herramientas, editar archivos y ejecutar comandos como una capa programable integrable en cualquier aplicación.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-lanza-copilot-sdk-en-preview-tecnico-programmable-age</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic filtra Claude Mythos: el nuevo modelo &apos;step change&apos; con capacidades sin precedentes en ciberseguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-filtra-claude-mythos-el-nuevo-modelo-step-change-c</link>
-    <description>Se confirmó la existencia de Claude Mythos tras una filtración que revela un modelo que representa &apos;un salto cualitativo&apos; en IA. Introduce un nuevo tier llamado &apos;Capybara&apos;, más potente que Opus, con avances significativos en razonamiento, coding y ciberseguridad. Ya está en testing con clientes de early access.</description>
-    <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-filtra-claude-mythos-el-nuevo-modelo-step-change-c</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Mejores prácticas para arquitectura de asistentes de codificación AI en 2025</title>
-    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</link>
-    <description>Guía completa sobre cómo implementar asistentes AI de codificación efectivamente, cubriendo desde arquitectura de sistemas hasta patrones de prompts y workflows de revisión híbridos. Enfatiza mantener control arquitectónico mientras se delegan tareas específicas a AI.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-arquitectura-de-asistentes-de-codific</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google lanza Gemini 3.1 Flash Live con interacción multimodal en tiempo real</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</link>
-    <description>Google libera Gemini 3.1 Flash Live en preview para desarrolladores, enfocado en interacciones de voz multimodales de baja latencia. Diseñado específicamente para construir agentes AI que pueden ver, escuchar y actuar simultáneamente.</description>
-    <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-live-con-interaccion-multimoda</guid>
     <category>LLM</category>
   </item>
 </channel>

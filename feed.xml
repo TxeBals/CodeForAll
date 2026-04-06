@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Repo de GitHub Trending: AI Agent extensible va más allá de sugerencias de código</title>
+    <link>https://txemagonzalez.com/post.html?slug=repo-de-github-trending-ai-agent-extensible-va-mas-alla-de-s</link>
+    <description>&lt;cite index=&quot;3-1,3-3&quot;&gt;Un agente de IA extensible de código abierto que va más allá de las sugerencias de código - instala, ejecuta, edita y prueba con cualquier LLM&lt;/cite&gt; está ganando tracción significativa con &lt;cite index=&quot;3-3&quot;&gt;2,692 estrellas hoy&lt;/cite&gt;. Este proyecto representa la evolución hacia agentes de desarrollo completamente autónomos que pueden manejar el ciclo completo de desarrollo desde la instalación hasta las pruebas.</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repo-de-github-trending-ai-agent-extensible-va-mas-alla-de-s</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain rebautiza Agent Builder como LangSmith Fleet con nuevas capacidades</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-rebautiza-agent-builder-como-langsmith-fleet-con-n</link>
+    <description>&lt;cite index=&quot;42-14,42-15&quot;&gt;Agent Builder ahora es LangSmith Fleet. Junto con el nuevo nombre, Fleet ahora incluye identidad de agente, compartición y permisos, para que puedas gestionar tu flota de agentes en toda la empresa de forma segura.&lt;/cite&gt; &lt;cite index=&quot;42-17,42-18&quot;&gt;Skills ahora están disponibles en LangSmith Fleet. Skills equipan a los agentes en tu equipo con conocimiento para tareas especializadas.&lt;/cite&gt; El cambio refleja el enfoque hacia gestión empresarial de agentes múltiples.</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-rebautiza-agent-builder-como-langsmith-fleet-con-n</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI retira GPT-4o y expande APIs con nuevas capacidades multimodales</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-expande-apis-con-nuevas-capacidades-m</link>
+    <description>&lt;cite index=&quot;18-1,18-3&quot;&gt;En un anuncio significativo, OpenAI ha anunciado el retiro completo del modelo GPT-4o de todos los planes, efectivo el 3 de abril de 2026.&lt;/cite&gt; &lt;cite index=&quot;15-16,15-17&quot;&gt;OpenAI lanzó GPT-5.4 mini y GPT-5.4 nano para las APIs de Chat Completions y Responses. GPT-5.4 mini aporta capacidades de clase GPT-5.4 a un modelo más rápido y eficiente para cargas de trabajo de alto volumen, mientras que GPT-5.4 nano está optimizado para tareas simples de alto volumen donde la velocidad y el costo son más importantes.&lt;/cite&gt;</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-expande-apis-con-nuevas-capacidades-m</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza TRL v1.0: Stack unificado para post-training de LLMs</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-traini</link>
+    <description>&lt;cite index=&quot;35-2,35-3&quot;&gt;Hugging Face ha lanzado oficialmente TRL (Transformer Reinforcement Learning) v1.0, marcando una transición fundamental de la librería de un repositorio orientado a la investigación a un framework estable y listo para producción. Para profesionales de IA y desarrolladores, este lanzamiento codifica el pipeline de Post-Training—la secuencia esencial de Supervised Fine-Tuning (SFT), Reward Modeling y Alignment—en una API unificada y estandarizada.&lt;/cite&gt;</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-traini</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub Copilot integra Claude y OpenAI Codex en preview público</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-openai-codex-en-preview-publ</link>
+    <description>&lt;cite index=&quot;1-7&quot;&gt;Claude de Anthropic y OpenAI Codex ahora están disponibles en preview público en GitHub y VS Code con una suscripción de Copilot Pro+ o Copilot Enterprise.&lt;/cite&gt; &lt;cite index=&quot;4-23&quot;&gt;GitHub Copilot coding agent ahora incluye un selector de modelo, auto-revisión, escaneo de seguridad integrado, agentes personalizados y handoff CLI.&lt;/cite&gt; Esto permite a los desarrolladores elegir entre múltiples modelos para diferentes tareas.</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-openai-codex-en-preview-publ</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic bloquea OpenClaw: Fin de subscripciones para herramientas de terceros</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-bloquea-openclaw-fin-de-subscripciones-para-herram</link>
+    <description>&lt;cite index=&quot;24-1&quot;&gt;El 4 de abril de 2026 a las 12:00 PM PT, Anthropic implementó completamente la prohibición, terminando por completo la cobertura de suscripción para herramientas de terceros como OpenClaw.&lt;/cite&gt; Los desarrolladores ahora deben migrar a facturación de API directa o uso adicional de pago. &lt;cite index=&quot;24-27&quot;&gt;Por razones técnicas: estas herramientas evitan las optimizaciones de Prompt Cache, ejerciendo &quot;presión desproporcionada&quot; en los recursos computacionales.&lt;/cite&gt;</description>
+    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-bloquea-openclaw-fin-de-subscripciones-para-herram</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Nuevas técnicas de prompting para arquitectos de software con IA</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevas-tecnicas-de-prompting-para-arquitectos-de-software-co</link>
     <description>&lt;cite index=&quot;41-1,41-2,41-14,41-15&quot;&gt;Se presentan técnicas avanzadas de prompt engineering específicas para arquitectos de software, incluyendo GPTScript para loops de razonamiento arquitectural, Model Context Protocol (MCP) para estandarizar inputs, y GitHub Copilot Workspace para sesiones de diseño multi-paso. Se incluyen 10 templates versátiles para challenges arquitectónicos reales.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Arquitectura y setup del asistente IA autónomo viral</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-arquitectura-y-setup-del-asistente-ia-autonomo-vira</link>
-    <description>OpenClaw (ex-Clawdbot, ex-Moltbot) es un framework MIT de agentes IA que integra LLMs con mensajería, herramientas locales y workflows automáticos. Arquitectura Gateway-Channels permite control de archivos, comandos shell y integraciones con 50+ plataformas.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-arquitectura-y-setup-del-asistente-ia-autonomo-vira</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain integra MongoDB para agentes de producción con memoria persistente</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-integra-mongodb-para-agentes-de-produccion-con-mem</link>
-    <description>LangChain anuncia partnership con MongoDB Atlas para crear el stack completo de agentes IA. Incluye Atlas Vector Search nativo, memoria persistente con MongoDB Checkpointer, y evaluación RAG integrada con LangSmith para desarrollo empresarial.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-integra-mongodb-para-agentes-de-produccion-con-mem</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenThinker3-7B supera a DeepSeek-R1 en benchmarks de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openthinker3-7b-supera-a-deepseek-r1-en-benchmarks-de-razona</link>
-    <description>Bespoke Labs lanza OpenThinker3-7B, un modelo de 7B parámetros que logra resultados state-of-the-art en benchmarks de matemáticas, código y ciencias. Alcanza 53.3% en AIME25 y 51.7% en LiveCodeBench, superando modelos de mayor tamaño entrenados con RL.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openthinker3-7b-supera-a-deepseek-r1-en-benchmarks-de-razona</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK lanza su Preview Público con capacidades agénticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-su-preview-publico-con-capacidades-</link>
-    <description>GitHub ha lanzado el Copilot SDK en preview público, permitiendo embeber las capacidades agénticas de Copilot directamente en aplicaciones personalizadas. Compatible con Node.js, Python, Go, .NET y Java, expone el mismo runtime probado en producción que alimenta GitHub Copilot CLI.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-su-preview-publico-con-capacidades-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Nuevos Papers en ArXiv: Arquitecturas Neurosimbólicas y Sistemas Agentic Enterprise</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</link>
-    <description>&lt;cite index=&quot;51-6,51-7,51-8&quot;&gt;ArXiv publica &apos;Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems&apos; con evaluación en 600 runs across 5 industrias reguladas. Incluye dominios Vietnamese-language y arquitectura neurosimbólica.&lt;/cite&gt; Foco en AI agents para entornos enterprise con restricciones de dominio.</description>
-    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-arquitecturas-neurosimbolicas-y-siste</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Repositorio GitHub Trending: OpenThinker3-7B y Deep Agents Dominan Rankings de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</link>
-    <description>&lt;cite index=&quot;6-6,6-8,34-11&quot;&gt;OpenThinker3-7B logra SOTA en benchmarks AIME25 (53.3%), LiveCodeBench (51.7%) sin reinforcement learning. LangChain Deep Agents proporciona runtime estructurado para planificación y memoria multi-paso.&lt;/cite&gt; Proyectos destacados incluyen sistemas agentic RAG y multi-modal AI.</description>
-    <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=repositorio-github-trending-openthinker3-7b-y-deep-agents-do</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

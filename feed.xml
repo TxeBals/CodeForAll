@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Configuración de Agentes AI: Anatomía del Folder .workbuddy/ con Memoria Persistente</title>
+    <link>https://txemagonzalez.com/post.html?slug=configuracion-de-agentes-ai-anatomia-del-folder-workbuddy-co</link>
+    <description>Un tutorial técnico detallado sobre cómo estructurar la configuración de un agente AI autónomo, incluyendo archivos SOUL.md, MEMORY.md, skills como instrucciones y logs diarios append-only para memoria persistente entre sesiones.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=configuracion-de-agentes-ai-anatomia-del-folder-workbuddy-co</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RAG vs Fine-Tuning en 2026: Arquitecturas Modulares y Sistemas de Producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-arquitecturas-modulares-y-sistema</link>
+    <description>En 2026, los mejores sistemas de producción combinan RAG y fine-tuning: RAG para conocimiento dinámico, fine-tuning para comportamiento. Se implementan arquitecturas modulares con orquestadores agnticos que enrutan consultas según complejidad.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-arquitecturas-modulares-y-sistema</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>langchain-huggingface 1.2.0: Paquete Partner Oficial entre LangChain y Hugging Face</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-huggingface-1-2-0-paquete-partner-oficial-entre-la</link>
+    <description>El paquete langchain-huggingface facilita la integración de modelos de Hugging Face en LangChain, con soporte para HuggingFacePipeline, HuggingFaceEndpoint y embeddings, mantenido conjuntamente por ambas organizaciones.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-huggingface-1-2-0-paquete-partner-oficial-entre-la</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitNexus: Motor de Inteligencia de Código Zero-Server con Graph RAG</title>
+    <link>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-zero-server-con-gra</link>
+    <description>GitNexus es un creador de grafos de conocimiento que funciona completamente en el navegador. Permite subir repos de GitHub o archivos ZIP y obtener un grafo interactivo con un agente Graph RAG integrado para exploración de código.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-zero-server-con-gra</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK Habilita Flujos de Trabajo Agnticos Directamente en Aplicaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agnticos-direc</link>
+    <description>GitHub introduce el GitHub Copilot SDK permitiendo la integración de agentes de IA directamente en aplicaciones, con aislamiento, salidas restringidas y logging comprehensivo para flujos de trabajo agnticos seguros.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agnticos-direc</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.6 con Límite de Tokens de 300K y Nuevas Capacidades de Seguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-con-limite-de-tokens-de-300k-y-nuevas-capaci</link>
+    <description>Anthropic lanza Claude Opus 4.6 con un nuevo límite máximo de 300k tokens en la API Message Batches, capacidades de búsqueda web con ejecución de código gratuita, y un nuevo sistema MAD Bugs que descubrió 500+ vulnerabilidades zero-day en proyectos open-source.</description>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-6-con-limite-de-tokens-de-300k-y-nuevas-capaci</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Repo de GitHub Trending: AI Agent extensible va más allá de sugerencias de código</title>
     <link>https://txemagonzalez.com/post.html?slug=repo-de-github-trending-ai-agent-extensible-va-mas-alla-de-s</link>
     <description>&lt;cite index=&quot;3-1,3-3&quot;&gt;Un agente de IA extensible de código abierto que va más allá de las sugerencias de código - instala, ejecuta, edita y prueba con cualquier LLM&lt;/cite&gt; está ganando tracción significativa con &lt;cite index=&quot;3-3&quot;&gt;2,692 estrellas hoy&lt;/cite&gt;. Este proyecto representa la evolución hacia agentes de desarrollo completamente autónomos que pueden manejar el ciclo completo de desarrollo desde la instalación hasta las pruebas.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openclaw-agente-de-codificacion-trending-que-supera-210k-est</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic desarrolla Claude Mythos 5: modelo de 10 billones de parámetros filtrado</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-desarrolla-claude-mythos-5-modelo-de-10-billones-d</link>
-    <description>&lt;cite index=&quot;47-1,47-2,47-3&quot;&gt;Anthropic confirmó estar entrenando y probando Claude Mythos, descrito como &apos;el modelo de IA más poderoso que hemos desarrollado&apos;. El modelo representa avances significativos en razonamiento, codificación y ciberseguridad.&lt;/cite&gt; &lt;cite index=&quot;41-3,41-15&quot;&gt;Con 10 billones de parámetros estimados, está diseñado para sobresalir en ciberseguridad, codificación y razonamiento académico para aplicaciones de alto riesgo.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-desarrolla-claude-mythos-5-modelo-de-10-billones-d</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Google lanza Gemma 4: modelos abiertos optimizados para workflows agnósticos</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-abiertos-optimizados-para-workf</link>
-    <description>&lt;cite index=&quot;9-8,9-12,9-14&quot;&gt;Gemma 4 está diseñado específicamente para razonamiento avanzado y flujos de trabajo agnósticos, entregando inteligencia sin precedentes por parámetro. Se lanza en cuatro tamaños versátiles bajo licencia Apache 2.0.&lt;/cite&gt; &lt;cite index=&quot;9-20,9-21,9-22&quot;&gt;El modelo de 31B ocupa el puesto #3 en el leaderboard mundial de modelos abiertos y supera a modelos 20x más grandes en inteligencia por parámetro.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-abiertos-optimizados-para-workf</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>PrismML lanza Bonsai 8B: primer modelo 1-bit comercialmente viable</title>
-    <link>https://txemagonzalez.com/post.html?slug=prismml-lanza-bonsai-8b-primer-modelo-1-bit-comercialmente-v</link>
-    <description>&lt;cite index=&quot;32-1,32-2,32-4&quot;&gt;PrismML anuncia modelos 1-bit Bonsai que concentran inteligencia aumentando la inteligencia útil por unidad de tamaño y energía. El modelo 8B usa solo 1.15GB de memoria, 14x más pequeño que modelos de precisión completa.&lt;/cite&gt; &lt;cite index=&quot;32-13,32-14&quot;&gt;Ejecuta nativamente en dispositivos Apple vía MLX y GPUs NVIDIA con llama.cpp CUDA. Los pesos están disponibles bajo licencia Apache 2.0.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=prismml-lanza-bonsai-8b-primer-modelo-1-bit-comercialmente-v</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GPT-5.4 introduce capacidades nativas de uso de computadoras con 1M de contexto</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-4-introduce-capacidades-nativas-de-uso-de-computadoras</link>
-    <description>&lt;cite index=&quot;21-9,21-10,21-11&quot;&gt;GPT-5.4 es el primer modelo de propósito general con capacidades nativas de uso de computadoras, permitiendo que los agentes operen ordenadores y ejecuten flujos de trabajo complejos. Soporta hasta 1M tokens de contexto y mejora cómo los modelos trabajan con ecosistemas de herramientas usando tool search.&lt;/cite&gt; &lt;cite index=&quot;21-18&quot;&gt;En evaluaciones internas, GPT-5.4 sobresale en tareas complejas de frontend con resultados más estéticos y funcionales.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-4-introduce-capacidades-nativas-de-uso-de-computadoras</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura para agentes multi-modal en producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</link>
-    <description>Guía de mejores prácticas para desarrollo ágil de agentes IA basada en experiencia real con Copilot SDK. Cubre estrategias de prompting conversacional, refactoring frecuente y arquitecturas &apos;trust but verify&apos; para workflows agénticos confiables.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-agentes-multi-modal-en-producc</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Ollama consolida como plataforma estándar para LLMs locales</title>
-    <link>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</link>
-    <description>Ollama se establece como la herramienta CLI definitiva para servir modelos locales, con soporte nativo para los últimos LLMs incluyendo Qwen3, DeepSeek-R1, Phi-4, Gemma 3 y Mistral. Simplifica la descarga, quantización y serving de modelos open-weight.</description>
-    <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ollama-consolida-como-plataforma-estandar-para-llms-locales</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

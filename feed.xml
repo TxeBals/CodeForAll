@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Langflow alcanza adopción masiva como plataforma low-code para agentes IA y RAG</title>
+    <link>https://txemagonzalez.com/post.html?slug=langflow-alcanza-adopcion-masiva-como-plataforma-low-code-pa</link>
+    <description>Langflow se establece como plataforma low-code líder para diseñar y desplegar agentes IA y workflows RAG usando interfaz drag-and-drop. Construido sobre LangChain, soporta todos los LLMs principales y bases de datos vectoriales con despliegue como APIs.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langflow-alcanza-adopcion-masiva-como-plataforma-low-code-pa</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw alcanza 210,000 estrellas como proyecto open-source de crecimiento más rápido</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-proyecto-open-source</link>
+    <description>OpenClaw se convierte en el proyecto open-source de crecimiento más rápido en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas. Creado por el fundador de PSPDFKit, permite que expertos del dominio creen aplicaciones IA sofisticadas sin ser ingenieros ML.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-proyecto-open-source</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Shannon Lite: pentester AI autónomo para aplicaciones web trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=shannon-lite-pentester-ai-autonomo-para-aplicaciones-web-tre</link>
+    <description>Shannon Lite es un pentester AI autónomo y de caja blanca que analiza código fuente, identifica vectores de ataque y ejecuta exploits reales para probar vulnerabilidades antes de producción. Actualmente trending en GitHub como herramienta de seguridad para developers.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=shannon-lite-pentester-ai-autonomo-para-aplicaciones-web-tre</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain lanza deepagents v0.5.0 con subagentes asíncronos y soporte multimodal</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deepagents-v0-5-0-con-subagentes-asincronos-</link>
+    <description>LangChain publica deepagents v0.5.0 introduciendo subagentes no-bloqueantes que funcionan concurrentemente, soporte multimodal expandido para PDFs/audio/video, y mejoras en middleware de moderación de contenido y reintentos automáticos con backoff exponencial.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deepagents-v0-5-0-con-subagentes-asincronos-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Transformers v5.4.0 de Hugging Face añade soporte para Mistral 4 y nuevos modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-4-0-de-hugging-face-anade-soporte-para-mistr</link>
+    <description>Hugging Face lanza Transformers v5.4.0 con soporte para múltiples arquitecturas nuevas incluyendo Mistral 4, PI0, VidEoMT para segmentación de video, UVDoc para rectificación de documentos, y Jina Embeddings v3. La versión consolida el enfoque PyTorch-first con lanzamientos semanales.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-4-0-de-hugging-face-anade-soporte-para-mistr</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Project Glasswing con modelo Claude Mythos Preview para ciberseguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-project-glasswing-con-modelo-claude-mythos-p</link>
+    <description>Anthropic presenta Project Glasswing, una iniciativa de $100M que utiliza su nuevo modelo Claude Mythos Preview para identificar vulnerabilidades críticas de software. El modelo ya ha encontrado miles de vulnerabilidades de alta severidad en sistemas operativos y navegadores principales.</description>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-project-glasswing-con-modelo-claude-mythos-p</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Configuración de Agentes AI: Anatomía del Folder .workbuddy/ con Memoria Persistente</title>
     <link>https://txemagonzalez.com/post.html?slug=configuracion-de-agentes-ai-anatomia-del-folder-workbuddy-co</link>
     <description>Un tutorial técnico detallado sobre cómo estructurar la configuración de un agente AI autónomo, incluyendo archivos SOUL.md, MEMORY.md, skills como instrucciones y logs diarios append-only para memoria persistente entre sesiones.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=analisis-2026-rag-vs-fine-tuning-en-equipos-de-producto-esta</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Trending en GitHub: AI-Humanizer y OpenClaw dominan repositorios ML</title>
-    <link>https://txemagonzalez.com/post.html?slug=trending-en-github-ai-humanizer-y-openclaw-dominan-repositor</link>
-    <description>&lt;cite index=&quot;12-10,12-11,14-4,14-5&quot;&gt;OpenClaw surge como el proyecto open-source de crecimiento más rápido en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas. El proyecto se centra en herramientas que hacen cosas reales, construido en Rust usando oh-my-codex.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=trending-en-github-ai-humanizer-y-openclaw-dominan-repositor</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain actualiza su framework con nuevos SDKs y Agent Server</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-actualiza-su-framework-con-nuevos-sdks-y-agent-ser</link>
-    <description>&lt;cite index=&quot;21-1,21-2,21-12&quot;&gt;LangChain mejora el rendimiento de agentes en todo el ciclo de desarrollo con SDKs para Python, TypeScript, Go y Java. Introduce Agent Server con memoria, hilos conversacionales y checkpointing duradero out-of-the-box en infraestructura tolerante a fallos que escala para cualquier carga de trabajo.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-actualiza-su-framework-con-nuevos-sdks-y-agent-ser</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub presenta OpenViking: Base de datos de contexto para agentes IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-presenta-openviking-base-de-datos-de-contexto-para-ag</link>
-    <description>&lt;cite index=&quot;19-2,19-3&quot;&gt;OpenViking es una base de datos de contexto open-source diseñada específicamente para agentes IA como OpenClaw. Unifica la gestión del contexto (memoria, recursos y habilidades) que los agentes necesitan a través de un paradigma de sistema de archivos, habilitando entrega jerárquica de contexto y auto-evolución.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-presenta-openviking-base-de-datos-de-contexto-para-ag</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Google lanza Gemma 4: La familia de modelos abiertos más capaces por tamaño</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-la-familia-de-modelos-abiertos-mas-capa</link>
-    <description>&lt;cite index=&quot;8-2,8-3,8-4&quot;&gt;Google presenta Gemma 4 con soporte nativo para function calling, salida JSON estructurada y capacidades multimodales avanzadas. Los modelos incluyen soporte para agentic workflows, generación de código offline y ventana de contexto de hasta 256K tokens. Están disponibles en tamaños E2B, E4B, 26B MoE y 31B Dense bajo licencia Apache 2.0.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-la-familia-de-modelos-abiertos-mas-capa</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>SAP lanza AI Developer Challenge con Generative AI Hub y agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=sap-lanza-ai-developer-challenge-con-generative-ai-hub-y-age</link>
-    <description>&lt;cite index=&quot;10-12,10-13&quot;&gt;SAP inicia un nuevo developer challenge en abril sobre construcción de agentes de IA con Generative AI Hub. En la primera semana se aprende el servicio de orquestación y módulo de grounding, en la segunda semana se construyen agentes basados en código usando CrewAI.&lt;/cite&gt; &lt;cite index=&quot;10-2,10-3,10-4&quot;&gt;También inicia el beta testing de procedimientos de agentes de descubrimiento de datos en SAP HANA Cloud, combinando descubrimiento basado en grafos de conocimiento con generación de consultas impulsada por IA.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=sap-lanza-ai-developer-challenge-con-generative-ai-hub-y-age</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: agente de codificación trending que supera 210K estrellas en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-agente-de-codificacion-trending-que-supera-210k-est</link>
-    <description>&lt;cite index=&quot;12-1,12-5,12-6&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en días y ya superó las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;14-1,14-8&quot;&gt;Es una herramienta de codificación agnóstica que vive en tu terminal, entiende tu codebase y ayuda a codificar más rápido ejecutando tareas rutinarias a través de comandos de lenguaje natural.&lt;/cite&gt;</description>
-    <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-agente-de-codificacion-trending-que-supera-210k-est</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

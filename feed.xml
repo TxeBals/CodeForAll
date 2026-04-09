@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Arquitecturas RAG agénticas emergen como patrón dominante para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=arquitecturas-rag-agenticas-emergen-como-patron-dominante-pa</link>
+    <description>&lt;cite index=&quot;53-13,53-16,53-17,53-42&quot;&gt;RAG Agéntico se está convirtiendo en la arquitectura dominante para sistemas de IA de producción en 2026. A diferencia del RAG tradicional, estos sistemas planifican, buscan iterativamente, evalúan resultados y sintetizan respuestas finales solo cuando tienen evidencia suficiente. No es una mejora marginal sino un cambio de paradigma.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=arquitecturas-rag-agenticas-emergen-como-patron-dominante-pa</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.1 introduce perfiles de modelo y middleware expandido</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</link>
+    <description>&lt;cite index=&quot;37-3,37-4,37-5,37-6&quot;&gt;LangChain 1.1 hace el desarrollo de agentes más confiable con un sistema de perfiles de modelo que expone capacidades soportadas como salida estructurada y llamadas de funciones. Los perfiles provienen de models.dev y el middleware de resumen ahora usa perfiles para decidir cuándo resumir.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitNexus: Motor de inteligencia de código sin servidor trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-sin-servidor-trendi</link>
+    <description>&lt;cite index=&quot;11-9,11-10,13-4,13-5&quot;&gt;GitNexus es un motor de inteligencia de código sin servidor que se ejecuta completamente en el navegador. Permite agregar un repositorio de GitHub o archivo ZIP y obtener un grafo de conocimiento interactivo con un Agente RAG incorporado, perfecto para exploración de código.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-sin-servidor-trendi</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Transformers v5 con arquitectura modular y cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-con-arquitectura-modular-y-cuantizacion-nati</link>
+    <description>&lt;cite index=&quot;42-14,42-15,42-16&quot;&gt;Hugging Face lanzó Transformers v5 haciendo la cuantización un enfoque central con soporte completo a 8-bit y 4-bit. Muchos modelos SOTA ahora se lanzan en formatos de baja precisión como gpt-oss, Kimi-K2 y Deepseek-r1, con hardware optimizado para cargas de trabajo de baja precisión.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-con-arquitectura-modular-y-cuantizacion-nati</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza Agents SDK para desarrollar aplicaciones agénticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-agents-sdk-para-desarrollar-aplicaciones-agenti</link>
+    <description>&lt;cite index=&quot;24-1,24-2,24-6,24-8&quot;&gt;OpenAI presentó el Agents SDK, una actualización de producción de su framework experimental Swarm. El SDK incluye primitivos simples como Agentes con LLM, instrucciones y herramientas, handoffs entre agentes, guardrails y un bucle de agente integrado que maneja invocación de herramientas.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-agents-sdk-para-desarrollar-aplicaciones-agenti</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>AI SDK 6 de Vercel introduce agentes de producción con ToolLoopAgent</title>
+    <link>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-introduce-agentes-de-produccion-con-tooll</link>
+    <description>&lt;cite index=&quot;22-1,22-2,22-15&quot;&gt;Vercel lanzó AI SDK 6 con capacidades de agentes que incluyen ToolLoopAgent, aprobación humana en el bucle y salidas estructuradas estables con llamadas de herramientas. El SDK introduce la abstracción Agent para construir agentes reutilizables con soporte integral al ecosistema. Con más de 20 millones de descargas mensuales, es el kit de herramientas TypeScript líder para construir aplicaciones de IA.&lt;/cite&gt;</description>
+    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-introduce-agentes-de-produccion-con-tooll</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Langflow alcanza adopción masiva como plataforma low-code para agentes IA y RAG</title>
     <link>https://txemagonzalez.com/post.html?slug=langflow-alcanza-adopcion-masiva-como-plataforma-low-code-pa</link>
     <description>Langflow se establece como plataforma low-code líder para diseñar y desplegar agentes IA y workflows RAG usando interfaz drag-and-drop. Construido sobre LangChain, soporta todos los LLMs principales y bases de datos vectoriales con despliegue como APIs.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-rebautiza-agent-builder-como-langsmith-fleet-con-n</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI retira GPT-4o y expande APIs con nuevas capacidades multimodales</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-expande-apis-con-nuevas-capacidades-m</link>
-    <description>&lt;cite index=&quot;18-1,18-3&quot;&gt;En un anuncio significativo, OpenAI ha anunciado el retiro completo del modelo GPT-4o de todos los planes, efectivo el 3 de abril de 2026.&lt;/cite&gt; &lt;cite index=&quot;15-16,15-17&quot;&gt;OpenAI lanzó GPT-5.4 mini y GPT-5.4 nano para las APIs de Chat Completions y Responses. GPT-5.4 mini aporta capacidades de clase GPT-5.4 a un modelo más rápido y eficiente para cargas de trabajo de alto volumen, mientras que GPT-5.4 nano está optimizado para tareas simples de alto volumen donde la velocidad y el costo son más importantes.&lt;/cite&gt;</description>
-    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-retira-gpt-4o-y-expande-apis-con-nuevas-capacidades-m</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza TRL v1.0: Stack unificado para post-training de LLMs</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-traini</link>
-    <description>&lt;cite index=&quot;35-2,35-3&quot;&gt;Hugging Face ha lanzado oficialmente TRL (Transformer Reinforcement Learning) v1.0, marcando una transición fundamental de la librería de un repositorio orientado a la investigación a un framework estable y listo para producción. Para profesionales de IA y desarrolladores, este lanzamiento codifica el pipeline de Post-Training—la secuencia esencial de Supervised Fine-Tuning (SFT), Reward Modeling y Alignment—en una API unificada y estandarizada.&lt;/cite&gt;</description>
-    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-traini</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub Copilot integra Claude y OpenAI Codex en preview público</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-openai-codex-en-preview-publ</link>
-    <description>&lt;cite index=&quot;1-7&quot;&gt;Claude de Anthropic y OpenAI Codex ahora están disponibles en preview público en GitHub y VS Code con una suscripción de Copilot Pro+ o Copilot Enterprise.&lt;/cite&gt; &lt;cite index=&quot;4-23&quot;&gt;GitHub Copilot coding agent ahora incluye un selector de modelo, auto-revisión, escaneo de seguridad integrado, agentes personalizados y handoff CLI.&lt;/cite&gt; Esto permite a los desarrolladores elegir entre múltiples modelos para diferentes tareas.</description>
-    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-claude-y-openai-codex-en-preview-publ</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic bloquea OpenClaw: Fin de subscripciones para herramientas de terceros</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-bloquea-openclaw-fin-de-subscripciones-para-herram</link>
-    <description>&lt;cite index=&quot;24-1&quot;&gt;El 4 de abril de 2026 a las 12:00 PM PT, Anthropic implementó completamente la prohibición, terminando por completo la cobertura de suscripción para herramientas de terceros como OpenClaw.&lt;/cite&gt; Los desarrolladores ahora deben migrar a facturación de API directa o uso adicional de pago. &lt;cite index=&quot;24-27&quot;&gt;Por razones técnicas: estas herramientas evitan las optimizaciones de Prompt Cache, ejerciendo &quot;presión desproporcionada&quot; en los recursos computacionales.&lt;/cite&gt;</description>
-    <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-bloquea-openclaw-fin-de-subscripciones-para-herram</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Nuevas técnicas de prompting para arquitectos de software con IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevas-tecnicas-de-prompting-para-arquitectos-de-software-co</link>
-    <description>&lt;cite index=&quot;41-1,41-2,41-14,41-15&quot;&gt;Se presentan técnicas avanzadas de prompt engineering específicas para arquitectos de software, incluyendo GPTScript para loops de razonamiento arquitectural, Model Context Protocol (MCP) para estandarizar inputs, y GitHub Copilot Workspace para sesiones de diseño multi-paso. Se incluyen 10 templates versátiles para challenges arquitectónicos reales.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevas-tecnicas-de-prompting-para-arquitectos-de-software-co</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Análisis 2026: RAG vs Fine-tuning en equipos de producto estadounidenses</title>
-    <link>https://txemagonzalez.com/post.html?slug=analisis-2026-rag-vs-fine-tuning-en-equipos-de-producto-esta</link>
-    <description>&lt;cite index=&quot;33-3,33-20,33-23&quot;&gt;Los equipos de producto en Estados Unidos priorizan RAG para las primeras funciones de IA en producción debido a la rapidez de implementación. La investigación muestra que RAG y fine-tuning resuelven diferentes problemas de producto, con los equipos más fuertes usando ambos en capas.&lt;/cite&gt;</description>
-    <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=analisis-2026-rag-vs-fine-tuning-en-equipos-de-producto-esta</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

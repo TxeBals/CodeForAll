@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-only-</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-gemini-api-anade-herramientas-integradas-combinadas-c</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-open-source-de-mas-rapi</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-0-y-langgraph-v1-0-con-arquitectura-estab</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-model-context-protocol-mcp-con-mas-de-10-000</loc><lastmod>2026-04-10</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-gpt-5-4-nano-con-capacidades-de-</loc><lastmod>2026-04-10</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=arquitecturas-rag-agenticas-emergen-como-patron-dominante-pa</loc><lastmod>2026-04-09</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</loc><lastmod>2026-04-09</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-sin-servidor-trendi</loc><lastmod>2026-04-09</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía práctica de fine-tuning: LoRA, QLoRA y mejores prácticas 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-practica-de-fine-tuning-lora-qlora-y-mejores-practicas-</link>
+    <description>Tutorial actualizado sobre fine-tuning de LLMs con métodos eficientes como LoRA/QLoRA, DPO para alignment, y configuraciones probadas. Incluye preparación de datos y evaluación.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-de-fine-tuning-lora-qlora-y-mejores-practicas-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Frameworks de agentes AI: Top 9 opciones para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-top-9-opciones-para-2026</link>
+    <description>Comparativa actualizada de frameworks como LangChain, CrewAI, AutoGen y nuevas opciones como Mastra y Google ADK. Incluye criterios de selección y casos de uso específicos para desarrolladores.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-top-9-opciones-para-2026</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangChain RAG: Nuevo tutorial completo con agentes y chains</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-rag-nuevo-tutorial-completo-con-agentes-y-chains</link>
+    <description>Guía actualizada para crear aplicaciones RAG con LangChain, incluyendo arquitectura de agentes, búsqueda semántica y formulations avanzadas con LangGraph para casos de uso complejos.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-rag-nuevo-tutorial-completo-con-agentes-y-chains</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude API añade herramientas avanzadas de uso de herramientas</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-api-anade-herramientas-avanzadas-de-uso-de-herramient</link>
+    <description>Anthropic introduce Tool Search Tool, Programmatic Tool Calling y Tool Use Examples. Permite a Claude descubrir y ejecutar miles de herramientas dinámicamente sin saturar el contexto.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-api-anade-herramientas-avanzadas-de-uso-de-herramient</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.5 con control de esfuerzo variable</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-5-con-control-de-esfuerzo-vari</link>
+    <description>Nueva versión de Claude con parámetro de control de esfuerzo que permite optimizar tiempo vs capacidad. Ofrece 76% menos tokens con rendimiento similar y gestión avanzada de contexto para agentes.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-5-con-control-de-esfuerzo-vari</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: Motor de automatización de código AI trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-motor-de-automatizacion-de-codigo-ai-trending-en-gi</link>
+    <description>OpenClaw es el proyecto de código abierto de más rápido crecimiento en GitHub, pasando de 9K a más de 210K estrellas. Herramienta de automatización de código AI con capacidades de agentes autónomos y flujos de trabajo determinísticos.</description>
+    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-motor-de-automatizacion-de-codigo-ai-trending-en-gi</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Hugging Face lanza Transformers v5 con backend PyTorch-only y diseño modular</title>
     <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-only-</link>
     <description>Transformers v5 representa una evolución significativa con enfoque exclusivo en PyTorch, diseño modular mejorado, y quantization como característica de primera clase. La librería ha crecido de 40 arquitecturas en v4 a más de 400 actualmente, con más de 3 millones de instalaciones diarias y soporte mejorado para pre-training a gran escala.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-proyecto-open-source</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Shannon Lite: pentester AI autónomo para aplicaciones web trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=shannon-lite-pentester-ai-autonomo-para-aplicaciones-web-tre</link>
-    <description>Shannon Lite es un pentester AI autónomo y de caja blanca que analiza código fuente, identifica vectores de ataque y ejecuta exploits reales para probar vulnerabilidades antes de producción. Actualmente trending en GitHub como herramienta de seguridad para developers.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=shannon-lite-pentester-ai-autonomo-para-aplicaciones-web-tre</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain lanza deepagents v0.5.0 con subagentes asíncronos y soporte multimodal</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deepagents-v0-5-0-con-subagentes-asincronos-</link>
-    <description>LangChain publica deepagents v0.5.0 introduciendo subagentes no-bloqueantes que funcionan concurrentemente, soporte multimodal expandido para PDFs/audio/video, y mejoras en middleware de moderación de contenido y reintentos automáticos con backoff exponencial.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deepagents-v0-5-0-con-subagentes-asincronos-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Transformers v5.4.0 de Hugging Face añade soporte para Mistral 4 y nuevos modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-4-0-de-hugging-face-anade-soporte-para-mistr</link>
-    <description>Hugging Face lanza Transformers v5.4.0 con soporte para múltiples arquitecturas nuevas incluyendo Mistral 4, PI0, VidEoMT para segmentación de video, UVDoc para rectificación de documentos, y Jina Embeddings v3. La versión consolida el enfoque PyTorch-first con lanzamientos semanales.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-4-0-de-hugging-face-anade-soporte-para-mistr</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Project Glasswing con modelo Claude Mythos Preview para ciberseguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-project-glasswing-con-modelo-claude-mythos-p</link>
-    <description>Anthropic presenta Project Glasswing, una iniciativa de $100M que utiliza su nuevo modelo Claude Mythos Preview para identificar vulnerabilidades críticas de software. El modelo ya ha encontrado miles de vulnerabilidades de alta severidad en sistemas operativos y navegadores principales.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-project-glasswing-con-modelo-claude-mythos-p</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Configuración de Agentes AI: Anatomía del Folder .workbuddy/ con Memoria Persistente</title>
-    <link>https://txemagonzalez.com/post.html?slug=configuracion-de-agentes-ai-anatomia-del-folder-workbuddy-co</link>
-    <description>Un tutorial técnico detallado sobre cómo estructurar la configuración de un agente AI autónomo, incluyendo archivos SOUL.md, MEMORY.md, skills como instrucciones y logs diarios append-only para memoria persistente entre sesiones.</description>
-    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=configuracion-de-agentes-ai-anatomia-del-folder-workbuddy-co</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RAG vs Fine-Tuning en 2026: Arquitecturas Modulares y Sistemas de Producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-arquitecturas-modulares-y-sistema</link>
-    <description>En 2026, los mejores sistemas de producción combinan RAG y fine-tuning: RAG para conocimiento dinámico, fine-tuning para comportamiento. Se implementan arquitecturas modulares con orquestadores agnticos que enrutan consultas según complejidad.</description>
-    <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-vs-fine-tuning-en-2026-arquitecturas-modulares-y-sistema</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Microsoft libera BitNet: framework de inferencia para LLMs de 1-bit</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</link>
+    <description>Microsoft open-sourcea el framework oficial para LLMs de 1-bit, prometiendo dramáticas mejoras de eficiencia. Los modelos de 1-bit usan valores binarios (0 o 1) en lugar de 16-bit tradicionales, democratizando potencialmente el acceso a IA.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Revolución de arquitecturas RAG de producción en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=revolucion-de-arquitecturas-rag-de-produccion-en-2026</link>
+    <description>Nueva guía técnica revela por qué fallan los sistemas RAG en producción y presenta un framework de cinco capas. Técnicas como HyDE mejoran precisión 20-40%, mientras Graph RAG habilita razonamiento multi-hop para dominios complejos.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=revolucion-de-arquitecturas-rag-de-produccion-en-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.5 integra Gemma4 y arquitecturas multimodales</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-5-integra-gemma4-y-arquitectura</link>
+    <description>Transformers 5.5 añade soporte para Gemma4 con correcciones de device_map, nuevos modelos como EuroBERT multilingüe, VidEoMT para segmentación de video, y VibeVoice ASR de Microsoft para reconocimiento de voz robusto.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-5-integra-gemma4-y-arquitectura</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain v1.2.15 optimiza rendimiento y mejora soporte MCP</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-2-15-optimiza-rendimiento-y-mejora-soporte-mcp</link>
+    <description>Nueva versión de LangChain reduce tiempo de inicialización 15%, mejora límites de recursión para agentes y actualiza soporte para Model Context Protocol (MCP). LangGraph alcanza versión 1.1.6 con correcciones de ejecución.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-2-15-optimiza-rendimiento-y-mejora-soporte-mcp</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto más viral de GitHub con 210k estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-mas-viral-de-github-con</link>
+    <description>OpenClaw, asistente personal de IA que ejecuta completamente en dispositivos locales, conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp y Discord. El proyecto transitó a una fundación open-source tras el éxito masivo.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-mas-viral-de-github-con</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3 Instant Mini y Claude Managed Agents en beta</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-mini-y-claude-managed-agents-en</link>
+    <description>OpenAI introduce un nuevo modelo fallback GPT-5.3 Instant Mini con mejores capacidades conversacionales, mientras que Anthropic lanza Claude Managed Agents, un sistema completo para ejecutar Claude como agente autónomo con sandboxing seguro y streaming de eventos.</description>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-mini-y-claude-managed-agents-en</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía práctica de fine-tuning: LoRA, QLoRA y mejores prácticas 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-practica-de-fine-tuning-lora-qlora-y-mejores-practicas-</link>
     <description>Tutorial actualizado sobre fine-tuning de LLMs con métodos eficientes como LoRA/QLoRA, DPO para alignment, y configuraciones probadas. Incluye preparación de datos y evaluación.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitNexus: Motor de inteligencia de código sin servidor trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-sin-servidor-trendi</link>
-    <description>&lt;cite index=&quot;11-9,11-10,13-4,13-5&quot;&gt;GitNexus es un motor de inteligencia de código sin servidor que se ejecuta completamente en el navegador. Permite agregar un repositorio de GitHub o archivo ZIP y obtener un grafo de conocimiento interactivo con un Agente RAG incorporado, perfecto para exploración de código.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gitnexus-motor-de-inteligencia-de-codigo-sin-servidor-trendi</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Transformers v5 con arquitectura modular y cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-con-arquitectura-modular-y-cuantizacion-nati</link>
-    <description>&lt;cite index=&quot;42-14,42-15,42-16&quot;&gt;Hugging Face lanzó Transformers v5 haciendo la cuantización un enfoque central con soporte completo a 8-bit y 4-bit. Muchos modelos SOTA ahora se lanzan en formatos de baja precisión como gpt-oss, Kimi-K2 y Deepseek-r1, con hardware optimizado para cargas de trabajo de baja precisión.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-con-arquitectura-modular-y-cuantizacion-nati</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza Agents SDK para desarrollar aplicaciones agénticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-agents-sdk-para-desarrollar-aplicaciones-agenti</link>
-    <description>&lt;cite index=&quot;24-1,24-2,24-6,24-8&quot;&gt;OpenAI presentó el Agents SDK, una actualización de producción de su framework experimental Swarm. El SDK incluye primitivos simples como Agentes con LLM, instrucciones y herramientas, handoffs entre agentes, guardrails y un bucle de agente integrado que maneja invocación de herramientas.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-agents-sdk-para-desarrollar-aplicaciones-agenti</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>AI SDK 6 de Vercel introduce agentes de producción con ToolLoopAgent</title>
-    <link>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-introduce-agentes-de-produccion-con-tooll</link>
-    <description>&lt;cite index=&quot;22-1,22-2,22-15&quot;&gt;Vercel lanzó AI SDK 6 con capacidades de agentes que incluyen ToolLoopAgent, aprobación humana en el bucle y salidas estructuradas estables con llamadas de herramientas. El SDK introduce la abstracción Agent para construir agentes reutilizables con soporte integral al ecosistema. Con más de 20 millones de descargas mensuales, es el kit de herramientas TypeScript líder para construir aplicaciones de IA.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ai-sdk-6-de-vercel-introduce-agentes-de-produccion-con-tooll</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Langflow alcanza adopción masiva como plataforma low-code para agentes IA y RAG</title>
-    <link>https://txemagonzalez.com/post.html?slug=langflow-alcanza-adopcion-masiva-como-plataforma-low-code-pa</link>
-    <description>Langflow se establece como plataforma low-code líder para diseñar y desplegar agentes IA y workflows RAG usando interfaz drag-and-drop. Construido sobre LangChain, soporta todos los LLMs principales y bases de datos vectoriales con despliegue como APIs.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langflow-alcanza-adopcion-masiva-como-plataforma-low-code-pa</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw alcanza 210,000 estrellas como proyecto open-source de crecimiento más rápido</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-proyecto-open-source</link>
-    <description>OpenClaw se convierte en el proyecto open-source de crecimiento más rápido en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas. Creado por el fundador de PSPDFKit, permite que expertos del dominio creen aplicaciones IA sofisticadas sin ser ingenieros ML.</description>
-    <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-proyecto-open-source</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

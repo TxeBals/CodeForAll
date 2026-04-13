@@ -7,6 +7,62 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa RAG vs Fine-Tuning 2026: Estrategias híbridas para optimización</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-rag-vs-fine-tuning-2026-estrategias-hibridas-p</link>
+    <description>Análisis técnico actualizado sobre cuándo usar RAG, fine-tuning o enfoques híbridos. Incluye patrones de arquitectura, consideraciones de costos y mejores prácticas para sistemas de producción con casos de uso específicos.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-rag-vs-fine-tuning-2026-estrategias-hibridas-p</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Ralph: Agente autónomo para desarrollo de productos completos</title>
+    <link>https://txemagonzalez.com/post.html?slug=ralph-agente-autonomo-para-desarrollo-de-productos-completos</link>
+    <description>Ralph es un loop de agente AI autónomo que ejecuta repetidamente hasta completar todos los items de un PRD (Product Requirements Document). Automatiza el ciclo completo de desarrollo desde especificaciones hasta implementación.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ralph-agente-autonomo-para-desarrollo-de-productos-completos</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Deep Agents de LangChain: Runtime estructurado para agentes multi-paso</title>
+    <link>https://txemagonzalez.com/post.html?slug=deep-agents-de-langchain-runtime-estructurado-para-agentes-m</link>
+    <description>LangChain lanza Deep Agents, un runtime que proporciona planificación, memoria y aislamiento de contexto para agentes AI multi-paso. Diseñado para manejar tareas complejas con recuperación de fallos y mantenimiento de contexto a largo plazo.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deep-agents-de-langchain-runtime-estructurado-para-agentes-m</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>IBM lanza CUGA: Framework de agentes configurables en Hugging Face</title>
+    <link>https://txemagonzalez.com/post.html?slug=ibm-lanza-cuga-framework-de-agentes-configurables-en-hugging</link>
+    <description>CUGA es un framework open-source para agentes generalistas que ejecutan workflows multi-paso complejos. Integración con OpenAPI, MCP servers, LangChain y widget dedicado en Langflow para configuración visual.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ibm-lanza-cuga-framework-de-agentes-configurables-en-hugging</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK habilita workflows agénticos programables</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-workflows-agenticos-programables</link>
+    <description>GitHub presenta SDK para integrar workflows agénticos directamente en aplicaciones. Los agentes pueden ejecutarse con aislamiento, salidas restringidas y logging completo, permitiendo automatización de tareas como triage y documentación.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-workflows-agenticos-programables</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza TRL v1.0: Stack unificado para post-entrenamiento de LLMs</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-entren</link>
+    <description>TRL v1.0 estandariza el pipeline de post-entrenamiento con SFT, Reward Modeling, DPO y GRPO workflows. Incluye CLI dedicada, configuración unificada y compatibilidad con Accelerate para escalado multi-GPU.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-entren</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>VoxCPM2: Sistema TTS sin tokenizador para síntesis multilingüe y clonación de voz</title>
+    <link>https://txemagonzalez.com/post.html?slug=voxcpm2-sistema-tts-sin-tokenizador-para-sintesis-multilingu</link>
+    <description>OpenBMB lanzó VoxCPM2, un modelo TTS de 2B parámetros que funciona sin tokenizador, soporta 30 idiomas, generación de voz por descripción textual y clonación controlable. Utiliza arquitectura difusión autorregresiva con salida de 48kHz.</description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=voxcpm2-sistema-tts-sin-tokenizador-para-sintesis-multilingu</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Microsoft libera BitNet: framework de inferencia para LLMs de 1-bit</title>
     <link>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</link>
     <description>Microsoft open-sourcea el framework oficial para LLMs de 1-bit, prometiendo dramáticas mejoras de eficiencia. Los modelos de 1-bit usan valores binarios (0 o 1) en lugar de 16-bit tradicionales, democratizando potencialmente el acceso a IA.</description>
@@ -109,62 +165,6 @@
     <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-only-</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google Gemini API añade herramientas integradas combinadas con function calling</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-gemini-api-anade-herramientas-integradas-combinadas-c</link>
-    <description>Google ha lanzado una actualización significativa para la API de Gemini que permite combinar herramientas integradas como Google Search y Google Maps con custom function calling en una sola request. Incluye circulación de contexto entre herramientas, identificadores únicos para tool calls, y soporte para Google Maps en la familia Gemini 3.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-api-anade-herramientas-integradas-combinadas-c</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-open-source-de-mas-rapi</link>
-    <description>OpenClaw, creado por el fundador de PSPDFKit Peter Steinberger, ha pasado de 9,000 a más de 210,000 estrellas en GitHub, convirtiéndose posiblemente en el proyecto open-source de más rápido crecimiento en la historia. El proyecto permite a expertos de dominio crear aplicaciones de IA sofisticadas sin ser ingenieros de ML.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-open-source-de-mas-rapi</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain lanza v1.0 y LangGraph v1.0 con arquitectura estable y LangSmith Fleet</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-0-y-langgraph-v1-0-con-arquitectura-estab</link>
-    <description>LangChain alcanza v1.0 con un diseño modular centrado en el core agent loop y middleware personalizable. LangGraph v1.0 ofrece el primer framework estable para agentes durables con persistencia, observabilidad y control human-in-the-loop. LangSmith Fleet (anteriormente Agent Builder) añade identidad de agentes, compartición y permisos para gestión empresarial.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-0-y-langgraph-v1-0-con-arquitectura-estab</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Model Context Protocol (MCP) con más de 10,000 servidores públicos</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-model-context-protocol-mcp-con-mas-de-10-000</link>
-    <description>El Model Context Protocol (MCP) de Anthropic se ha consolidado como estándar de facto para conectar sistemas de IA con fuentes de datos externas. Con más de 10,000 servidores MCP públicos y adoptado por OpenAI, Google DeepMind y Microsoft, MCP utiliza JSON-RPC 2.0 y soporta transporte HTTP con Server-Sent Events para despliegues cloud.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-model-context-protocol-mcp-con-mas-de-10-000</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 mini y GPT-5.4 nano con capacidades de computer use</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-gpt-5-4-nano-con-capacidades-de-</link>
-    <description>OpenAI ha lanzado dos nuevos modelos optimizados: GPT-5.4 mini con capacidades de clase GPT-5.4 para cargas de trabajo de alto volumen, y GPT-5.4 nano para tareas simples donde la velocidad y el costo son prioritarios. GPT-5.4 mini soporta búsqueda de herramientas, computer use integrado y compactación, mientras que nano se enfoca en eficiencia máxima.</description>
-    <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-gpt-5-4-nano-con-capacidades-de-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Arquitecturas RAG agénticas emergen como patrón dominante para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=arquitecturas-rag-agenticas-emergen-como-patron-dominante-pa</link>
-    <description>&lt;cite index=&quot;53-13,53-16,53-17,53-42&quot;&gt;RAG Agéntico se está convirtiendo en la arquitectura dominante para sistemas de IA de producción en 2026. A diferencia del RAG tradicional, estos sistemas planifican, buscan iterativamente, evalúan resultados y sintetizan respuestas finales solo cuando tienen evidencia suficiente. No es una mejora marginal sino un cambio de paradigma.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=arquitecturas-rag-agenticas-emergen-como-patron-dominante-pa</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.1 introduce perfiles de modelo y middleware expandido</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</link>
-    <description>&lt;cite index=&quot;37-3,37-4,37-5,37-6&quot;&gt;LangChain 1.1 hace el desarrollo de agentes más confiable con un sistema de perfiles de modelo que expone capacidades soportadas como salida estructurada y llamadas de funciones. Los perfiles provienen de models.dev y el middleware de resumen ahora usa perfiles para decidir cuándo resumir.&lt;/cite&gt;</description>
-    <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelo-y-middleware-expa</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

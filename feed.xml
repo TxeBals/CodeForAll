@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Anthropic actualiza Claude Code con sandbox avanzado y herramientas de monitoreo</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</link>
+    <description>&lt;cite index=&quot;52-25,52-26&quot;&gt;Claude Code incluye wizard de configuración para Vertex AI, sandboxing de subprocesos con aislamiento de namespaces PID en Linux, y nueva herramienta Monitor para streaming de eventos desde scripts en background.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Windsurf IDE integra tecnología Cascade para desarrollo AI-first</title>
+    <link>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</link>
+    <description>&lt;cite index=&quot;64-17,64-18,64-20,64-21&quot;&gt;Windsurf introduce Cascade AI que recuerda el contexto del codebase y workflows, con detección automática de errores de linting. Incluye soporte MCP con setup de un click.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub Copilot integra múltiples agentes AI con Claude y OpenAI Codex</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</link>
+    <description>&lt;cite index=&quot;62-5,62-7,62-9,62-10&quot;&gt;GitHub Copilot permite asignar tareas a agentes como Claude by Anthropic y OpenAI Codex para trabajo autónomo. Incluye customización empresarial y integración con herramientas MCP.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.1 introduce perfiles de modelos y middleware expandido</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</link>
+    <description>&lt;cite index=&quot;37-1,37-3,37-4,37-6&quot;&gt;LangChain 1.1 hace el desarrollo de agentes más confiable y estructurado con un nuevo sistema de perfiles de modelos. Los chat models exponen capacidades soportadas vía .profile attribute y middleware de resumen mejorado.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face libera Transformers v5.4.0 con nuevos modelos y arquitecturas unificadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-4-0-con-nuevos-modelos-y</link>
+    <description>&lt;cite index=&quot;21-1,21-6,21-7,21-11&quot;&gt;Transformers v5 marca el primer lanzamiento mayor en cinco años con 1200 commits y simplificaciones significativas de APIs. Incluye soporte para PaddlePaddle, Mistral 4, PI0, VidEoMT y tokenizadores unificados.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-4-0-con-nuevos-modelos-y</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.3-Codex-Spark, modelo optimizado para codificación en tiempo real</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-spark-modelo-optimizado-para-codi</link>
+    <description>&lt;cite index=&quot;19-1,19-21,19-22,19-28&quot;&gt;OpenAI presenta GPT-5.3-Codex-Spark, diseñado específicamente para codificación en tiempo real con más de 1000 tokens por segundo. Disponible en preview para usuarios de ChatGPT Pro en la aplicación Codex, CLI y extensión de IDE más recientes.&lt;/cite&gt;</description>
+    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-spark-modelo-optimizado-para-codi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Microsoft: Guía para Protocolos de Agentes AI y Mejores Prácticas</title>
     <link>https://txemagonzalez.com/post.html?slug=microsoft-guia-para-protocolos-de-agentes-ai-y-mejores-pract</link>
     <description>Google Developers Blog presenta una guía completa sobre seis protocolos clave para desarrollo de agentes AI: MCP, A2A, UCP, AP2, A2UI y AG-UI. La guía muestra cómo estos protocolos simplifican el desarrollo reemplazando código de integración personalizado con patrones de comunicación estandarizados usando el Agent Development Kit.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Revolución de arquitecturas RAG de producción en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=revolucion-de-arquitecturas-rag-de-produccion-en-2026</link>
-    <description>Nueva guía técnica revela por qué fallan los sistemas RAG en producción y presenta un framework de cinco capas. Técnicas como HyDE mejoran precisión 20-40%, mientras Graph RAG habilita razonamiento multi-hop para dominios complejos.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=revolucion-de-arquitecturas-rag-de-produccion-en-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.5 integra Gemma4 y arquitecturas multimodales</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-5-integra-gemma4-y-arquitectura</link>
-    <description>Transformers 5.5 añade soporte para Gemma4 con correcciones de device_map, nuevos modelos como EuroBERT multilingüe, VidEoMT para segmentación de video, y VibeVoice ASR de Microsoft para reconocimiento de voz robusto.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-5-integra-gemma4-y-arquitectura</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain v1.2.15 optimiza rendimiento y mejora soporte MCP</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-2-15-optimiza-rendimiento-y-mejora-soporte-mcp</link>
-    <description>Nueva versión de LangChain reduce tiempo de inicialización 15%, mejora límites de recursión para agentes y actualiza soporte para Model Context Protocol (MCP). LangGraph alcanza versión 1.1.6 con correcciones de ejecución.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-2-15-optimiza-rendimiento-y-mejora-soporte-mcp</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto más viral de GitHub con 210k estrellas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-mas-viral-de-github-con</link>
-    <description>OpenClaw, asistente personal de IA que ejecuta completamente en dispositivos locales, conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp y Discord. El proyecto transitó a una fundación open-source tras el éxito masivo.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-mas-viral-de-github-con</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3 Instant Mini y Claude Managed Agents en beta</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-mini-y-claude-managed-agents-en</link>
-    <description>OpenAI introduce un nuevo modelo fallback GPT-5.3 Instant Mini con mejores capacidades conversacionales, mientras que Anthropic lanza Claude Managed Agents, un sistema completo para ejecutar Claude como agente autónomo con sandboxing seguro y streaming de eventos.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-instant-mini-y-claude-managed-agents-en</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía práctica de fine-tuning: LoRA, QLoRA y mejores prácticas 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-practica-de-fine-tuning-lora-qlora-y-mejores-practicas-</link>
-    <description>Tutorial actualizado sobre fine-tuning de LLMs con métodos eficientes como LoRA/QLoRA, DPO para alignment, y configuraciones probadas. Incluye preparación de datos y evaluación.</description>
-    <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-de-fine-tuning-lora-qlora-y-mejores-practicas-</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

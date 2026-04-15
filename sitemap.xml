@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-4-0-con-nuevos-modelos-y</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-spark-modelo-optimizado-para-codi</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-guia-para-protocolos-de-agentes-ai-y-mejores-pract</loc><lastmod>2026-04-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-mythos-preview-nuevo-modelo-frontier-para-ciberseguri</loc><lastmod>2026-04-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-agentico-de-codigo-abierto</loc><lastmod>2026-04-14</lastmod></url>

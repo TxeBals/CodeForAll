@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-migra-completamente-a-pytorch</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-alcanzan-version-estable</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-o3-y-o4-mini-con-uso-de-herramientas-in</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</loc><lastmod>2026-04-15</lastmod></url>

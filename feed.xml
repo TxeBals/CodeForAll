@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Frameworks RAG evolucionan hacia sistemas agénticos</title>
+    <link>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</link>
+    <description>&lt;cite index=&quot;42-17&quot;&gt;Azure AI Search proporciona dos enfoques para RAG: recuperación agéntica (preview) con planificación de consultas asistida por LLM y acceso multi-fuente, y el patrón RAG clásico&lt;/cite&gt;. &lt;cite index=&quot;43-1,43-26,43-27&quot;&gt;Para sistemas RAG agénticos, n8n soporta herramienta de evaluación y agentes que eligen la herramienta correcta para cualquier consulta y verifican sus propias respuestas&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Claude Code añade controles de caché y función de resumen</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</link>
+    <description>&lt;cite index=&quot;61-1,61-11,61-12&quot;&gt;Claude Code añade controles de caché de 1 hora y 5 minutos forzados, función de resumen de sesión, y acceso de herramientas Skill a comandos slash incorporados, mejorando también el manejo de reanudación, cambio de modelos y memoria&lt;/cite&gt;. &lt;cite index=&quot;61-13&quot;&gt;Se puede habilitar caché de 1 hora con ENABLE_PROMPT_CACHING_1H y forzar 5 minutos con FORCE_PROMPT_CACHING_5M&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Repo trending #1 con guías prácticas de desarrollo</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</link>
+    <description>&lt;cite index=&quot;9-1,9-4,9-5&quot;&gt;OpenClaw se ha convertido en el proyecto de código abierto de crecimiento más rápido en la historia de GitHub, saltando de 9,000 a más de 60,000 estrellas en días y actualmente supera las 210,000&lt;/cite&gt;. &lt;cite index=&quot;52-15,52-16&quot;&gt;Es un asistente de IA personal que funciona a través de OpenClaw, un framework de código abierto que vive en aplicaciones de mensajería como WhatsApp, Telegram y Discord&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 migra completamente a PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-migra-completamente-a-pytorch</link>
+    <description>&lt;cite index=&quot;31-1,31-2&quot;&gt;Hugging Face anuncia Transformers v5, la primera versión mayor en cinco años con 1200 commits desde la última versión menor&lt;/cite&gt;. &lt;cite index=&quot;31-7,31-8,31-9&quot;&gt;A partir de v5, lanzan versiones menores cada semana en lugar de cada 5 semanas para acceso más rápido a nuevos modelos&lt;/cite&gt;. &lt;cite index=&quot;36-16&quot;&gt;PyTorch es ahora el framework principal, eliminando soporte para TensorFlow y Flax&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-migra-completamente-a-pytorch</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 y LangGraph 1.0 alcanzan versión estable</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-alcanzan-version-estable</link>
+    <description>&lt;cite index=&quot;26-19,26-20&quot;&gt;LangChain ha lanzado versiones 1.0 estables de sus frameworks principales, con LangChain enfocado en el bucle de agentes core y nueva funcionalidad de middleware, mientras que LangGraph proporciona ejecución duradera y control granular para sistemas agénticos&lt;/cite&gt;. &lt;cite index=&quot;26-22&quot;&gt;Estas versiones marcan el compromiso con estabilidad y sin cambios disruptivos hasta la versión 2.0&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-alcanzan-version-estable</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza modelos o3 y o4-mini con uso de herramientas integrado</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-o3-y-o4-mini-con-uso-de-herramientas-in</link>
+    <description>&lt;cite index=&quot;19-1,19-5,19-7&quot;&gt;OpenAI ha lanzado o3 y o4-mini, sus últimos modelos de razonamiento que pueden usar agénticamente todas las herramientas dentro de ChatGPT, incluyendo búsqueda web, análisis de archivos con Python, razonamiento visual profundo y generación de imágenes&lt;/cite&gt;. &lt;cite index=&quot;19-18&quot;&gt;Ambos están disponibles hoy vía API y Response API&lt;/cite&gt;.</description>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-o3-y-o4-mini-con-uso-de-herramientas-in</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Anthropic actualiza Claude Code con sandbox avanzado y herramientas de monitoreo</title>
     <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</link>
     <description>&lt;cite index=&quot;52-25,52-26&quot;&gt;Claude Code incluye wizard de configuración para Vertex AI, sandboxing de subprocesos con aislamiento de namespaces PID en Linux, y nueva herramienta Monitor para streaming de eventos desde scripts en background.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=ralph-agente-autonomo-para-desarrollo-de-productos-completos</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Deep Agents de LangChain: Runtime estructurado para agentes multi-paso</title>
-    <link>https://txemagonzalez.com/post.html?slug=deep-agents-de-langchain-runtime-estructurado-para-agentes-m</link>
-    <description>LangChain lanza Deep Agents, un runtime que proporciona planificación, memoria y aislamiento de contexto para agentes AI multi-paso. Diseñado para manejar tareas complejas con recuperación de fallos y mantenimiento de contexto a largo plazo.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deep-agents-de-langchain-runtime-estructurado-para-agentes-m</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>IBM lanza CUGA: Framework de agentes configurables en Hugging Face</title>
-    <link>https://txemagonzalez.com/post.html?slug=ibm-lanza-cuga-framework-de-agentes-configurables-en-hugging</link>
-    <description>CUGA es un framework open-source para agentes generalistas que ejecutan workflows multi-paso complejos. Integración con OpenAPI, MCP servers, LangChain y widget dedicado en Langflow para configuración visual.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ibm-lanza-cuga-framework-de-agentes-configurables-en-hugging</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK habilita workflows agénticos programables</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-workflows-agenticos-programables</link>
-    <description>GitHub presenta SDK para integrar workflows agénticos directamente en aplicaciones. Los agentes pueden ejecutarse con aislamiento, salidas restringidas y logging completo, permitiendo automatización de tareas como triage y documentación.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-workflows-agenticos-programables</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza TRL v1.0: Stack unificado para post-entrenamiento de LLMs</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-entren</link>
-    <description>TRL v1.0 estandariza el pipeline de post-entrenamiento con SFT, Reward Modeling, DPO y GRPO workflows. Incluye CLI dedicada, configuración unificada y compatibilidad con Accelerate para escalado multi-GPU.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-trl-v1-0-stack-unificado-para-post-entren</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>VoxCPM2: Sistema TTS sin tokenizador para síntesis multilingüe y clonación de voz</title>
-    <link>https://txemagonzalez.com/post.html?slug=voxcpm2-sistema-tts-sin-tokenizador-para-sintesis-multilingu</link>
-    <description>OpenBMB lanzó VoxCPM2, un modelo TTS de 2B parámetros que funciona sin tokenizador, soporta 30 idiomas, generación de voz por descripción textual y clonación controlable. Utiliza arquitectura difusión autorregresiva con salida de 48kHz.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=voxcpm2-sistema-tts-sin-tokenizador-para-sintesis-multilingu</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft libera BitNet: framework de inferencia para LLMs de 1-bit</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</link>
-    <description>Microsoft open-sourcea el framework oficial para LLMs de 1-bit, prometiendo dramáticas mejoras de eficiencia. Los modelos de 1-bit usan valores binarios (0 o 1) en lugar de 16-bit tradicionales, democratizando potencialmente el acceso a IA.</description>
-    <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-libera-bitnet-framework-de-inferencia-para-llms-de</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-actualiza-deep-agents-con-sub-agentes-asincronos-y</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-i</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-el-nuevo-agents-sdk-con-sandboxes-nativos-y-mem</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</loc><lastmod>2026-04-16</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Mejores prácticas para vibe coding: cómo usar IA para desarrollo en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</link>
+    <description>&lt;cite index=&quot;44-3,44-4,44-12,44-13&quot;&gt;El vibe coding está remodelando el desarrollo de software en 2026. En lugar de escribir manualmente cada línea de código, los desarrolladores ahora describen lo que quieren en inglés simple, y la IA genera código funcional. Los equipos exitosos tratan a la IA como un &apos;desarrollador junior&apos; que necesita supervisión constante y usan sistemas de gobernanza estrictos, como archivos de instrucciones con control de versiones.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>A-RAG: nuevo framework para RAG agnético con interfaces de recuperación jerárquicas</title>
+    <link>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</link>
+    <description>&lt;cite index=&quot;37-23,37-24,37-25&quot;&gt;Se introduce A-RAG, un framework RAG agnético que expone interfaces de recuperación jerárquicas directamente al modelo. A-RAG proporciona tres herramientas de recuperación: keyword_search, semantic_search, y chunk_read, permitiendo al agente buscar y recuperar información adaptativamente a través de múltiples granularidades. Los experimentos muestran que A-RAG supera consistentemente a los enfoques existentes.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
+    <description>&lt;cite index=&quot;2-1,2-6,2-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger, fundador de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a finales de enero de 2026, y desde entonces ha superado las 210,000 estrellas.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain actualiza Deep Agents con sub-agentes asíncronos y soporte multimodal</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-actualiza-deep-agents-con-sub-agentes-asincronos-y</link>
+    <description>&lt;cite index=&quot;24-5,24-7,24-8&quot;&gt;LangChain lanza Deep Agents con sub-agentes asíncronos que pueden ejecutar tareas en segundo plano no bloqueantes, permitiendo a los usuarios continuar interactuando mientras los sub-agentes trabajan concurrentemente. La herramienta read_file ahora soporta PDFs, audio y archivos de video además de imágenes, con cambios compatibles hacia atrás en el protocolo backend.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-actualiza-deep-agents-con-sub-agentes-asincronos-y</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.7 con mejores capacidades de ingeniería de software</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-i</link>
+    <description>&lt;cite index=&quot;18-15,18-17,18-18&quot;&gt;Anthropic lanza Claude Opus 4.7 como una actualización disponible con ingeniería de software más fuerte, mejor visión y seguimiento de instrucciones más preciso. Los usuarios reportan poder delegar su trabajo de codificación más difícil a Opus 4.7 con confianza, ya que maneja tareas complejas y de larga duración con rigor y consistencia.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-i</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza el nuevo Agents SDK con sandboxes nativos y memoria configurable</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-el-nuevo-agents-sdk-con-sandboxes-nativos-y-mem</link>
+    <description>&lt;cite index=&quot;13-1,13-7,13-8&quot;&gt;ChatGPT Enterprise/EDU presenta GPT-5.3 Instant Mini como nuevo modelo de respaldo mientras OpenAI introduce nuevas capacidades en el Agents SDK que dan a los desarrolladores infraestructura estandarizada con un harness nativo del modelo que permite a los agentes trabajar con archivos y herramientas, además de ejecución de sandbox nativo para ejecutar ese trabajo de forma segura. La actualización agrega memoria configurable, integraciones estandarizadas, soporte de workspace portátil y snapshotting integrado para ejecuciones de agentes duraderas.&lt;/cite&gt;</description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-el-nuevo-agents-sdk-con-sandboxes-nativos-y-mem</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Frameworks RAG evolucionan hacia sistemas agénticos</title>
     <link>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</link>
     <description>&lt;cite index=&quot;42-17&quot;&gt;Azure AI Search proporciona dos enfoques para RAG: recuperación agéntica (preview) con planificación de consultas asistida por LLM y acceso multi-fuente, y el patrón RAG clásico&lt;/cite&gt;. &lt;cite index=&quot;43-1,43-26,43-27&quot;&gt;Para sistemas RAG agénticos, n8n soporta herramienta de evaluación y agentes que eligen la herramienta correcta para cualquier consulta y verifican sus propias respuestas&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-preview-nuevo-modelo-frontier-para-ciberseguri</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>LangChain Deep Agents: Framework Agéntico de Código Abierto</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-agentico-de-codigo-abierto</link>
-    <description>LangChain ha lanzado Deep Agents, un framework agéntico open source con herramientas de planificación, backend de sistema de archivos y capacidad de crear sub-agentes. Incluye CLI integrado similar a Claude Code pero compatible con cualquier LLM que soporte tool calling, incluyendo modelos open source.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-agentico-de-codigo-abierto</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic Claude Opus 4.5: Mejor Modelo de Codificación del Mundo</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-5-mejor-modelo-de-codificacion-del-m</link>
-    <description>Anthropic ha lanzado Claude Opus 4.5, que establece nuevo estado del arte en SWE-bench con capacidades excepcionales para agentes complejos y uso de computadoras. Incluye mejoras significativas en codificación, matemáticas y razonamiento, junto con nuevas herramientas como checkpoints en Claude Code.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-5-mejor-modelo-de-codificacion-del-m</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI GPT-5.2 y Nuevos Modelos GPT-5.4: APIs Actualizadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-gpt-5-2-y-nuevos-modelos-gpt-5-4-apis-actualizadas</link>
-    <description>OpenAI ha actualizado su línea GPT-5 con GPT-5.2 que incluye mejor razonamiento visual, comprensión de contexto largo y nuevas capacidades agénticas. También disponible GPT-5.4 mini y nano para tareas de alto volumen con latencia reducida y mejor rendimiento en codificación.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-gpt-5-2-y-nuevos-modelos-gpt-5-4-apis-actualizadas</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Transformers v5 de Hugging Face: Primera Versión Mayor en 5 Años</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</link>
-    <description>Hugging Face ha lanzado Transformers v5.0, la primera versión mayor en cinco años que enfoca en PyTorch únicamente, arquitectura modular mejorada, y cuantización como función principal. La biblioteca ha evolucionado de 40 arquitecturas en v4 a más de 400 actualmente con compatibilidad mejorada entre librerías del ecosistema.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Guía completa RAG vs Fine-Tuning 2026: Estrategias híbridas para optimización</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-rag-vs-fine-tuning-2026-estrategias-hibridas-p</link>
-    <description>Análisis técnico actualizado sobre cuándo usar RAG, fine-tuning o enfoques híbridos. Incluye patrones de arquitectura, consideraciones de costos y mejores prácticas para sistemas de producción con casos de uso específicos.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-rag-vs-fine-tuning-2026-estrategias-hibridas-p</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Ralph: Agente autónomo para desarrollo de productos completos</title>
-    <link>https://txemagonzalez.com/post.html?slug=ralph-agente-autonomo-para-desarrollo-de-productos-completos</link>
-    <description>Ralph es un loop de agente AI autónomo que ejecuta repetidamente hasta completar todos los items de un PRD (Product Requirements Document). Automatiza el ciclo completo de desarrollo desde especificaciones hasta implementación.</description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ralph-agente-autonomo-para-desarrollo-de-productos-completos</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

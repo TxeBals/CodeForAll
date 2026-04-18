@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenClaw emerge como el proyecto GitHub más viral de 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-github-mas-viral-de-2026</link>
+    <description>&lt;cite index=&quot;2-6,2-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de crecimiento más rápido en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, subió de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a finales de enero 2026, y ha superado las 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;1-1,1-7&quot;&gt;Es un plugin de Claude Code que automáticamente captura todo lo que Claude hace durante sesiones de codificación, lo comprime con AI y reinyecta contexto relevante en futuras sesiones&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-github-mas-viral-de-2026</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con arquitectura más modular</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-mas-modu</link>
+    <description>&lt;cite index=&quot;51-19,51-20,51-21&quot;&gt;Hugging Face anuncia el lanzamiento inicial de Transformers v5, la primera versión principal en cinco años con 1200 commits desde la última versión menor. Esta versión elimina deprecaciones pendientes, introduce refactorizaciones que simplifican APIs e internos, y viene con un gran número de correcciones&lt;/cite&gt;. &lt;cite index=&quot;52-11,52-12&quot;&gt;Transformers se instala más de 3 millones de veces cada día vía pip, aumentando desde 20,000/día en v4 y superando 1.2 mil millones de instalaciones totales&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-mas-modu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan versión 1.0 con nuevas abstracciones para agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-nuevas-abstra</link>
+    <description>&lt;cite index=&quot;46-17,46-18&quot;&gt;LangChain lanza LangChain 1.0 y LangGraph 1.0, las primeras versiones principales de sus frameworks de código abierto. Después de años de feedback, han actualizado langchain para enfocarse en el bucle de agente central, proporcionar flexibilidad con middleware y actualizar integraciones de modelos&lt;/cite&gt;. &lt;cite index=&quot;47-4,47-5&quot;&gt;LangGraph 1.0 es la primera versión estable principal en el espacio de frameworks de agentes durables, usado por empresas como Uber, LinkedIn y Klarna&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-nuevas-abstra</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.1 Flash TTS para síntesis de voz con control granular</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-tts-para-sintesis-de-voz-con-c</link>
+    <description>&lt;cite index=&quot;35-7,35-8&quot;&gt;Google introduce Gemini 3.1 Flash TTS, el modelo de texto a voz más reciente que ofrece controlabilidad, expresividad y calidad mejoradas para desarrolladores, empresas y usuarios cotidianos&lt;/cite&gt;. &lt;cite index=&quot;35-12,35-14&quot;&gt;El modelo introduce etiquetas de audio granulares para control preciso de la generación de voz expresiva y soporte para ajuste de estilo vocal en más de 70 idiomas&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-tts-para-sintesis-de-voz-con-c</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic publica Claude Opus 4.7 con mejoras significativas en programación</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-publica-claude-opus-4-7-con-mejoras-significativas</link>
+    <description>&lt;cite index=&quot;21-16,21-17,21-18&quot;&gt;Anthropic lanza Claude Opus 4.7 como actualización disponible con ingeniería de software más fuerte, mejor visión, seguimiento de instrucciones más preciso y trabajo de agentes de larga duración más confiable. También añade nuevos controles de esfuerzo, presupuestos de tareas y herramientas de revisión de Claude Code&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-publica-claude-opus-4-7-con-mejoras-significativas</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-Rosalind, modelo especializado para ciencias biológicas y descubrimiento de fármacos</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-modelo-especializado-para-ciencias</link>
+    <description>&lt;cite index=&quot;15-8,15-9&quot;&gt;OpenAI introduce GPT‑Rosalind, modelo de razonamiento frontera construido para investigación en biología, descubrimiento de fármacos y medicina traslacional&lt;/cite&gt;. &lt;cite index=&quot;15-10&quot;&gt;El modelo de la serie ciencias de la vida está optimizado para flujos de trabajo científicos, combinando uso mejorado de herramientas con comprensión más profunda en química, ingeniería de proteínas y genómica&lt;/cite&gt;.</description>
+    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-modelo-especializado-para-ciencias</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Mejores prácticas para vibe coding: cómo usar IA para desarrollo en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</link>
     <description>&lt;cite index=&quot;44-3,44-4,44-12,44-13&quot;&gt;El vibe coding está remodelando el desarrollo de software en 2026. En lugar de escribir manualmente cada línea de código, los desarrolladores ahora describen lo que quieren en inglés simple, y la IA genera código funcional. Los equipos exitosos tratan a la IA como un &apos;desarrollador junior&apos; que necesita supervisión constante y usan sistemas de gobernanza estrictos, como archivos de instrucciones con control de versiones.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub Copilot integra múltiples agentes AI con Claude y OpenAI Codex</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</link>
-    <description>&lt;cite index=&quot;62-5,62-7,62-9,62-10&quot;&gt;GitHub Copilot permite asignar tareas a agentes como Claude by Anthropic y OpenAI Codex para trabajo autónomo. Incluye customización empresarial y integración con herramientas MCP.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-integra-multiples-agentes-ai-con-claude-y-ope</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.1 introduce perfiles de modelos y middleware expandido</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</link>
-    <description>&lt;cite index=&quot;37-1,37-3,37-4,37-6&quot;&gt;LangChain 1.1 hace el desarrollo de agentes más confiable y estructurado con un nuevo sistema de perfiles de modelos. Los chat models exponen capacidades soportadas vía .profile attribute y middleware de resumen mejorado.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-exp</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face libera Transformers v5.4.0 con nuevos modelos y arquitecturas unificadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-4-0-con-nuevos-modelos-y</link>
-    <description>&lt;cite index=&quot;21-1,21-6,21-7,21-11&quot;&gt;Transformers v5 marca el primer lanzamiento mayor en cinco años con 1200 commits y simplificaciones significativas de APIs. Incluye soporte para PaddlePaddle, Mistral 4, PI0, VidEoMT y tokenizadores unificados.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-4-0-con-nuevos-modelos-y</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.3-Codex-Spark, modelo optimizado para codificación en tiempo real</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-spark-modelo-optimizado-para-codi</link>
-    <description>&lt;cite index=&quot;19-1,19-21,19-22,19-28&quot;&gt;OpenAI presenta GPT-5.3-Codex-Spark, diseñado específicamente para codificación en tiempo real con más de 1000 tokens por segundo. Disponible en preview para usuarios de ChatGPT Pro en la aplicación Codex, CLI y extensión de IDE más recientes.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-3-codex-spark-modelo-optimizado-para-codi</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft: Guía para Protocolos de Agentes AI y Mejores Prácticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-guia-para-protocolos-de-agentes-ai-y-mejores-pract</link>
-    <description>Google Developers Blog presenta una guía completa sobre seis protocolos clave para desarrollo de agentes AI: MCP, A2A, UCP, AP2, A2UI y AG-UI. La guía muestra cómo estos protocolos simplifican el desarrollo reemplazando código de integración personalizado con patrones de comunicación estandarizados usando el Agent Development Kit.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-guia-para-protocolos-de-agentes-ai-y-mejores-pract</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Claude Mythos Preview: Nuevo Modelo Frontier para Ciberseguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-preview-nuevo-modelo-frontier-para-ciberseguri</link>
-    <description>Anthropic presenta Claude Mythos Preview como parte del Proyecto Glasswing, un modelo frontier especializado en encontrar vulnerabilidades de seguridad. Ha identificado miles de vulnerabilidades zero-day en sistemas operativos y navegadores principales, superando significativamente las capacidades humanas en ciberseguridad defensiva.</description>
-    <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-preview-nuevo-modelo-frontier-para-ciberseguri</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

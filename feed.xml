@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de Arquitectura AI-Nativa: De cadenas simples a sistemas multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</link>
+    <description>&lt;cite index=&quot;33-1,33-13,37-1,37-2&quot;&gt;La guía de Anthropic es explícita: &apos;Los despliegues de agentes más exitosos comienzan con agentes únicos y añaden complejidad solo cuando el rendimiento de agente único alcanza límites medibles&apos;. Para construir un sistema agéntico listo para producción, comienza con agentes especialistas únicos que realizan una tarea y evalúa su rendimiento. Luego integra a los especialistas en patrones multi-agente según tu caso de uso&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Google Agent Development Kit (ADK): Framework oficial para sistemas multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</link>
+    <description>&lt;cite index=&quot;14-1,22-81,22-82,22-83&quot;&gt;Google ADK con 8,200+ estrellas es el Kit de Desarrollo de Agentes oficial de Google para construir sistemas multi-agente. Es nuevo en abril 2026, siendo el agente de terminal open-source oficial de Google con loop ReAct, soporte MCP, contexto de 1M y licencia Apache 2.0&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: El asistente personal AI más popular de GitHub con 210k+ estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-ai-mas-popular-de-github-con-</link>
+    <description>&lt;cite index=&quot;12-13,12-16,12-17,12-20&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub. En su núcleo, OpenClaw es un asistente personal de IA que funciona completamente en tus propios dispositivos. Opera como un gateway local conectando modelos de IA a más de 50 integraciones. Lo que lo distingue de otras herramientas de IA es su capacidad de escribir sus propias nuevas habilidades&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-ai-mas-popular-de-github-con-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Claude Mythos: El modelo más capaz de Anthropic que no será liberado públicamente</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-mas-capaz-de-anthropic-que-no-sera-l</link>
+    <description>&lt;cite index=&quot;9-1,9-2,9-4,9-30&quot;&gt;Anthropic confirma Claude Mythos el 7 de abril de 2026. Es el modelo más capaz que Anthropic ha construido jamás. No será liberado al público. Mythos obtuvo 93.9% en SWE-bench Verified y 94.6% en GPQA Diamond. Anthropic juzgó el modelo demasiado peligroso para liberación general y restringió el acceso a 50 organizaciones bajo Proyecto Glasswing&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-mas-capaz-de-anthropic-que-no-sera-l</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Google lanza Gemma 4: Modelos open-source más eficientes con Apache 2.0</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-open-source-mas-eficientes-con-</link>
+    <description>&lt;cite index=&quot;29-1,29-5,29-9&quot;&gt;Google libera Gemma 4 en cuatro tamaños versátiles: E2B, E4B, 26B MoE y 31B Dense. Toda la familia va más allá del chat simple para manejar lógica compleja y flujos de trabajo agénticos. Construido desde la misma investigación y tecnología de clase mundial que Gemini 3, Gemma 4 es la familia de modelos más capaz que puedes ejecutar en tu hardware&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-open-source-mas-eficientes-con-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI actualiza su SDK de Agentes con entorno sandbox nativo y orquestación avanzada</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-actualiza-su-sdk-de-agentes-con-entorno-sandbox-nativ</link>
+    <description>&lt;cite index=&quot;8-1,8-2,8-16&quot;&gt;OpenAI introduce nuevas capacidades al SDK de Agentes con un harness más capaz para modelos nativos y ejecución sandbox nativa para flujos de trabajo seguros de archivos, herramientas y código. La actualización añade memoria configurable, integraciones estandarizadas, soporte de workspace portátil y snapshotting integrado para ejecutar agentes duraderos&lt;/cite&gt;.</description>
+    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-actualiza-su-sdk-de-agentes-con-entorno-sandbox-nativ</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>OpenClaw emerge como el proyecto GitHub más viral de 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-github-mas-viral-de-2026</link>
     <description>&lt;cite index=&quot;2-6,2-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de crecimiento más rápido en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, subió de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a finales de enero 2026, y ha superado las 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;1-1,1-7&quot;&gt;Es un plugin de Claude Code que automáticamente captura todo lo que Claude hace durante sesiones de codificación, lo comprime con AI y reinyecta contexto relevante en futuras sesiones&lt;/cite&gt;.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;61-1,61-11,61-12&quot;&gt;Claude Code añade controles de caché de 1 hora y 5 minutos forzados, función de resumen de sesión, y acceso de herramientas Skill a comandos slash incorporados, mejorando también el manejo de reanudación, cambio de modelos y memoria&lt;/cite&gt;. &lt;cite index=&quot;61-13&quot;&gt;Se puede habilitar caché de 1 hora con ENABLE_PROMPT_CACHING_1H y forzar 5 minutos con FORCE_PROMPT_CACHING_5M&lt;/cite&gt;.</description>
     <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Repo trending #1 con guías prácticas de desarrollo</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</link>
-    <description>&lt;cite index=&quot;9-1,9-4,9-5&quot;&gt;OpenClaw se ha convertido en el proyecto de código abierto de crecimiento más rápido en la historia de GitHub, saltando de 9,000 a más de 60,000 estrellas en días y actualmente supera las 210,000&lt;/cite&gt;. &lt;cite index=&quot;52-15,52-16&quot;&gt;Es un asistente de IA personal que funciona a través de OpenClaw, un framework de código abierto que vive en aplicaciones de mensajería como WhatsApp, Telegram y Discord&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-repo-trending-1-con-guias-practicas-de-desarrollo</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 migra completamente a PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-migra-completamente-a-pytorch</link>
-    <description>&lt;cite index=&quot;31-1,31-2&quot;&gt;Hugging Face anuncia Transformers v5, la primera versión mayor en cinco años con 1200 commits desde la última versión menor&lt;/cite&gt;. &lt;cite index=&quot;31-7,31-8,31-9&quot;&gt;A partir de v5, lanzan versiones menores cada semana en lugar de cada 5 semanas para acceso más rápido a nuevos modelos&lt;/cite&gt;. &lt;cite index=&quot;36-16&quot;&gt;PyTorch es ahora el framework principal, eliminando soporte para TensorFlow y Flax&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-migra-completamente-a-pytorch</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 y LangGraph 1.0 alcanzan versión estable</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-alcanzan-version-estable</link>
-    <description>&lt;cite index=&quot;26-19,26-20&quot;&gt;LangChain ha lanzado versiones 1.0 estables de sus frameworks principales, con LangChain enfocado en el bucle de agentes core y nueva funcionalidad de middleware, mientras que LangGraph proporciona ejecución duradera y control granular para sistemas agénticos&lt;/cite&gt;. &lt;cite index=&quot;26-22&quot;&gt;Estas versiones marcan el compromiso con estabilidad y sin cambios disruptivos hasta la versión 2.0&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-y-langgraph-1-0-alcanzan-version-estable</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza modelos o3 y o4-mini con uso de herramientas integrado</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-o3-y-o4-mini-con-uso-de-herramientas-in</link>
-    <description>&lt;cite index=&quot;19-1,19-5,19-7&quot;&gt;OpenAI ha lanzado o3 y o4-mini, sus últimos modelos de razonamiento que pueden usar agénticamente todas las herramientas dentro de ChatGPT, incluyendo búsqueda web, análisis de archivos con Python, razonamiento visual profundo y generación de imágenes&lt;/cite&gt;. &lt;cite index=&quot;19-18&quot;&gt;Ambos están disponibles hoy vía API y Response API&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-o3-y-o4-mini-con-uso-de-herramientas-in</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic actualiza Claude Code con sandbox avanzado y herramientas de monitoreo</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</link>
-    <description>&lt;cite index=&quot;52-25,52-26&quot;&gt;Claude Code incluye wizard de configuración para Vertex AI, sandboxing de subprocesos con aislamiento de namespaces PID en Linux, y nueva herramienta Monitor para streaming de eventos desde scripts en background.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-sandbox-avanzado-y-herra</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Windsurf IDE integra tecnología Cascade para desarrollo AI-first</title>
-    <link>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</link>
-    <description>&lt;cite index=&quot;64-17,64-18,64-20,64-21&quot;&gt;Windsurf introduce Cascade AI que recuerda el contexto del codebase y workflows, con detección automática de errores de linting. Incluye soporte MCP con setup de un click.&lt;/cite&gt;</description>
-    <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=windsurf-ide-integra-tecnologia-cascade-para-desarrollo-ai-f</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

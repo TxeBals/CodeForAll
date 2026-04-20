@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deep-agents-v0-5-con-subagentes-asincronos-y-protocolo-agent</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-lanza-arquitectura-pytorch-on</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-disponible-con-mejoras-en-ingenieria-de-soft</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-0-y-langgraph-v1-0-con-arquitectura-simplificad</loc><lastmod>2026-04-20</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repo-de-ia-mas-viral-de-github-2</loc><lastmod>2026-04-20</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</loc><lastmod>2026-04-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</loc><lastmod>2026-04-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-ai-mas-popular-de-github-con-</loc><lastmod>2026-04-19</lastmod></url>

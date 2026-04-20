@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Framework de 3 capas para sistemas de aprendizaje de agentes IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</link>
+    <description>LangChain presenta un marco técnico revolucionario que redefine cómo los agentes de IA pueden aprender a través de tres capas: modelo (pesos neurales), harness (código e instrucciones) y contexto (memoria configurable). El enfoque práctico se centra en el aprendizaje por capas de contexto.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Deep Agents v0.5 con subagentes asíncronos y protocolo Agent-to-Agent</title>
+    <link>https://txemagonzalez.com/post.html?slug=deep-agents-v0-5-con-subagentes-asincronos-y-protocolo-agent</link>
+    <description>LangChain lanza Deep Agents v0.5 con capacidades de subagentes asíncronos que se ejecutan en segundo plano sin bloquear el agente principal. Incluye soporte multimodal expandido para filesystem y protocolo Agent-to-Agent (A2A) para interoperabilidad entre agentes.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deep-agents-v0-5-con-subagentes-asincronos-y-protocolo-agent</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.0 lanza arquitectura PyTorch-only</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-lanza-arquitectura-pytorch-on</link>
+    <description>Primera versión mayor en 5 años con 1,200 commits. Elimina soporte de TensorFlow/JAX para enfocarse solo en PyTorch. Simplifica definiciones de modelos con diseño modular, cuantización como ciudadano de primera clase y releases semanales. Soporta más de 400 arquitecturas de modelos.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-lanza-arquitectura-pytorch-on</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.7 disponible con mejoras en ingeniería de software</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-disponible-con-mejoras-en-ingenieria-de-soft</link>
+    <description>Anthropic lanza Claude Opus 4.7 con mejoras significativas en tareas de programación complejas y trabajo de agentes a largo plazo. Incluye mejor procesamiento de visión en alta resolución y nuevos controles de esfuerzo con nivel &apos;xhigh&apos; para balance entre razonamiento y latencia.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-disponible-con-mejoras-en-ingenieria-de-soft</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain v1.0 y LangGraph v1.0 con arquitectura simplificada</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-0-y-langgraph-v1-0-con-arquitectura-simplificad</link>
+    <description>Primera versión estable mayor de los frameworks de agentes de LangChain. LangChain se enfoca en el bucle central de agentes con middleware personalizable, mientras LangGraph proporciona control granular para flujos de trabajo complejos. Ambos mantienen compatibilidad hacia atrás.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-0-y-langgraph-v1-0-con-arquitectura-simplificad</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el repo de IA más viral de GitHub 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repo-de-ia-mas-viral-de-github-2</link>
+    <description>OpenClaw ha crecido de 9,000 a más de 210,000 estrellas en GitHub, siendo el proyecto open source de mayor crecimiento de la historia. Es un asistente de IA personal que funciona localmente conectando modelos de IA con más de 50 integraciones sin enviar datos a la nube.</description>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repo-de-ia-mas-viral-de-github-2</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Patrones de Arquitectura AI-Nativa: De cadenas simples a sistemas multi-agente</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</link>
     <description>&lt;cite index=&quot;33-1,33-13,37-1,37-2&quot;&gt;La guía de Anthropic es explícita: &apos;Los despliegues de agentes más exitosos comienzan con agentes únicos y añaden complejidad solo cuando el rendimiento de agente único alcanza límites medibles&apos;. Para construir un sistema agéntico listo para producción, comienza con agentes especialistas únicos que realizan una tarea y evalúa su rendimiento. Luego integra a los especialistas en patrones multi-agente según tu caso de uso&lt;/cite&gt;.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;37-23,37-24,37-25&quot;&gt;Se introduce A-RAG, un framework RAG agnético que expone interfaces de recuperación jerárquicas directamente al modelo. A-RAG proporciona tres herramientas de recuperación: keyword_search, semantic_search, y chunk_read, permitiendo al agente buscar y recuperar información adaptativamente a través de múltiples granularidades. Los experimentos muestran que A-RAG supera consistentemente a los enfoques existentes.&lt;/cite&gt;</description>
     <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
-    <description>&lt;cite index=&quot;2-1,2-6,2-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger, fundador de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a finales de enero de 2026, y desde entonces ha superado las 210,000 estrellas.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain actualiza Deep Agents con sub-agentes asíncronos y soporte multimodal</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-actualiza-deep-agents-con-sub-agentes-asincronos-y</link>
-    <description>&lt;cite index=&quot;24-5,24-7,24-8&quot;&gt;LangChain lanza Deep Agents con sub-agentes asíncronos que pueden ejecutar tareas en segundo plano no bloqueantes, permitiendo a los usuarios continuar interactuando mientras los sub-agentes trabajan concurrentemente. La herramienta read_file ahora soporta PDFs, audio y archivos de video además de imágenes, con cambios compatibles hacia atrás en el protocolo backend.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-actualiza-deep-agents-con-sub-agentes-asincronos-y</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.7 con mejores capacidades de ingeniería de software</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-i</link>
-    <description>&lt;cite index=&quot;18-15,18-17,18-18&quot;&gt;Anthropic lanza Claude Opus 4.7 como una actualización disponible con ingeniería de software más fuerte, mejor visión y seguimiento de instrucciones más preciso. Los usuarios reportan poder delegar su trabajo de codificación más difícil a Opus 4.7 con confianza, ya que maneja tareas complejas y de larga duración con rigor y consistencia.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-i</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza el nuevo Agents SDK con sandboxes nativos y memoria configurable</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-el-nuevo-agents-sdk-con-sandboxes-nativos-y-mem</link>
-    <description>&lt;cite index=&quot;13-1,13-7,13-8&quot;&gt;ChatGPT Enterprise/EDU presenta GPT-5.3 Instant Mini como nuevo modelo de respaldo mientras OpenAI introduce nuevas capacidades en el Agents SDK que dan a los desarrolladores infraestructura estandarizada con un harness nativo del modelo que permite a los agentes trabajar con archivos y herramientas, además de ejecución de sandbox nativo para ejecutar ese trabajo de forma segura. La actualización agrega memoria configurable, integraciones estandarizadas, soporte de workspace portátil y snapshotting integrado para ejecuciones de agentes duraderas.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-el-nuevo-agents-sdk-con-sandboxes-nativos-y-mem</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Frameworks RAG evolucionan hacia sistemas agénticos</title>
-    <link>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</link>
-    <description>&lt;cite index=&quot;42-17&quot;&gt;Azure AI Search proporciona dos enfoques para RAG: recuperación agéntica (preview) con planificación de consultas asistida por LLM y acceso multi-fuente, y el patrón RAG clásico&lt;/cite&gt;. &lt;cite index=&quot;43-1,43-26,43-27&quot;&gt;Para sistemas RAG agénticos, n8n soporta herramienta de evaluación y agentes que eligen la herramienta correcta para cualquier consulta y verifican sus propias respuestas&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=frameworks-rag-evolucionan-hacia-sistemas-agenticos</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Claude Code añade controles de caché y función de resumen</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</link>
-    <description>&lt;cite index=&quot;61-1,61-11,61-12&quot;&gt;Claude Code añade controles de caché de 1 hora y 5 minutos forzados, función de resumen de sesión, y acceso de herramientas Skill a comandos slash incorporados, mejorando también el manejo de reanudación, cambio de modelos y memoria&lt;/cite&gt;. &lt;cite index=&quot;61-13&quot;&gt;Se puede habilitar caché de 1 hora con ENABLE_PROMPT_CACHING_1H y forzar 5 minutos con FORCE_PROMPT_CACHING_5M&lt;/cite&gt;.</description>
-    <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-code-anade-controles-de-cache-y-funcion-de-resumen</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

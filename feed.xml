@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de sistemas RAG en Python 2026: arquitecturas listas para producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</link>
+    <description>&lt;cite index=&apos;51-1,51-4&apos;&gt;Esta guía cubre la implementación de sistemas de Generación Aumentada por Recuperación (RAG) usando Python en 2026, enfocándose en arquitecturas listas para producción y herramientas. A medida que las aplicaciones de IA demandan respuestas más precisas y conscientes del contexto, los sistemas RAG ofrecen una solución escalable para mejorar las salidas del modelo con conocimiento externo.&lt;/cite&gt; &lt;cite index=&apos;51-14,51-15,51-16&apos;&gt;Para generación, usar el modelo gpt-4-turbo-preview con configuraciones de temperatura por debajo de 0.5 asegura salidas consistentes y de alta calidad mientras minimiza alucinaciones. En la práctica, establecer temperature=0.3 ha demostrado reducir las tasas de alucinación en un 20% en aplicaciones RAG empresariales, según benchmarks de 2026. Los desarrolladores pueden verificar el rendimiento del modelo usando herramientas de evaluación proporcionadas por LangChain v0.3, como la suite RAGAs, que incluye métricas para relevancia de respuestas y fidelidad.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain lanza Deep Agents v0.4 con sandboxes aislados y nuevas capacidades</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</link>
+    <description>&lt;cite index=&apos;46-1&apos;&gt;Deep Agents pueden lanzar tareas en segundo plano no bloqueantes, por lo que los usuarios pueden continuar interactuando con el agente mientras los subagentes trabajan de manera concurrente.&lt;/cite&gt; &lt;cite index=&apos;50-14,50-15&apos;&gt;La versión 0.4 de `deepagents` te permite ejecutar tus agentes en sandboxes completamente aislados.&lt;/cite&gt; &lt;cite index=&apos;42-21,42-22&apos;&gt;Los Sandboxes de LangSmith están ahora en Vista Previa Privada. Nuestros sandboxes dan a tus agentes entornos temporales y restringidos donde pueden ejecutar código de manera segura, con control granular sobre acceso y recursos.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto de IA de código abierto de más rápido crecimiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-de-codigo-abierto</link>
+    <description>&lt;cite index=&apos;3-4,3-5&apos;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a fines de enero de 2026, y desde entonces ha superado las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&apos;3-7,3-8,3-9&apos;&gt;En su núcleo, OpenClaw es un asistente de IA personal que funciona completamente en tus propios dispositivos. Opera como una puerta de enlace local que conecta modelos de IA con más de 50 integraciones, incluyendo WhatsApp, Telegram, Slack, Discord, Signal e iMessage. A diferencia de los asistentes basados en la nube, tus datos nunca salen de tu máquina.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-de-codigo-abierto</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face actualiza Transformers v5.5.x con nuevos modelos multimodales y optimizaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-5-x-con-nuevos-modelo</link>
+    <description>&lt;cite index=&apos;36-8,36-9&apos;&gt;Hugging Face añade una versión amplia con nuevos modelos multimodales y OCR, incluyendo Mistral 4, Jina Embeddings v3, VidEoMT, UVDoc, PI0, SLANeXt y PP-OCRv5, además de aceleraciones en cuantización, tokenización, kernels, caché y paralelismo, junto con importantes actualizaciones de cambios disruptivos.&lt;/cite&gt; &lt;cite index=&apos;32-14,32-15,32-16&apos;&gt;Jina-Embeddings-v3 es un modelo de embeddings de texto multilingüe y multitarea diseñado para diversas aplicaciones NLP. Basado en la arquitectura XLM-RoBERTa, este modelo soporta Embeddings de Posición Rotatoria (RoPE) reemplazando embeddings de posición absoluta para soportar secuencias de entrada largas de hasta 8192 tokens. Además, cuenta con 5 adaptadores LoRA específicos de tarea integrados que permiten al modelo generar embeddings específicos de tarea sin aumentar significativamente la latencia de inferencia.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-5-x-con-nuevos-modelo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Protocolo de Contexto de Modelo (MCP) y mejora integración en API</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-protocolo-de-contexto-de-modelo-mcp-y-mejora</link>
+    <description>&lt;cite index=&apos;24-1&apos;&gt;Claude ahora tiene un directorio con más de 75 conectores (impulsados por MCP), y recientemente lanzó capacidades de Búsqueda de Herramientas y Llamadas de Herramientas Programáticas en su API para ayudar a optimizar despliegues MCP a escala de producción, manejando miles de herramientas de manera eficiente y reduciendo la latencia en flujos de trabajo de agentes complejos.&lt;/cite&gt; &lt;cite index=&apos;24-14,24-15&apos;&gt;Anthropic está donando el Protocolo de Contexto de Modelo (MCP) a la Fundación de IA Agéntica (AAIF), un fondo dirigido bajo la Fundación Linux, cofundado por Anthropic, Block y OpenAI, con apoyo de Google, Microsoft, Amazon Web Services (AWS), Cloudflare y Bloomberg.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-protocolo-de-contexto-de-modelo-mcp-y-mejora</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 mini/nano y nuevas APIs de Responses con soporte nativo de computadora</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-nano-y-nuevas-apis-de-responses-co</link>
+    <description>&lt;cite index=&apos;15-2,15-3&apos;&gt;OpenAI ha lanzado GPT-5.4 mini y GPT-5.4 nano para las APIs de Chat Completions y Responses, donde GPT-5.4 mini ofrece capacidades de clase GPT-5.4 en un modelo más rápido y eficiente, mientras que GPT-5.4 nano está optimizado para tareas simples de alto volumen donde la velocidad y el costo importan más.&lt;/cite&gt; &lt;cite index=&apos;15-4,15-5&apos;&gt;GPT-5.4 mini soporta búsqueda de herramientas, uso integrado de computadora y compactación, mientras que GPT-5.4 nano soporta compactación pero no búsqueda de herramientas ni uso de computadora.&lt;/cite&gt;</description>
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-nano-y-nuevas-apis-de-responses-co</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Framework de 3 capas para sistemas de aprendizaje de agentes IA</title>
     <link>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</link>
     <description>LangChain presenta un marco técnico revolucionario que redefine cómo los agentes de IA pueden aprender a través de tres capas: modelo (pesos neurales), harness (código e instrucciones) y contexto (memoria configurable). El enfoque práctico se centra en el aprendizaje por capas de contexto.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;51-19,51-20,51-21&quot;&gt;Hugging Face anuncia el lanzamiento inicial de Transformers v5, la primera versión principal en cinco años con 1200 commits desde la última versión menor. Esta versión elimina deprecaciones pendientes, introduce refactorizaciones que simplifican APIs e internos, y viene con un gran número de correcciones&lt;/cite&gt;. &lt;cite index=&quot;52-11,52-12&quot;&gt;Transformers se instala más de 3 millones de veces cada día vía pip, aumentando desde 20,000/día en v4 y superando 1.2 mil millones de instalaciones totales&lt;/cite&gt;.</description>
     <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-mas-modu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain y LangGraph alcanzan versión 1.0 con nuevas abstracciones para agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-nuevas-abstra</link>
-    <description>&lt;cite index=&quot;46-17,46-18&quot;&gt;LangChain lanza LangChain 1.0 y LangGraph 1.0, las primeras versiones principales de sus frameworks de código abierto. Después de años de feedback, han actualizado langchain para enfocarse en el bucle de agente central, proporcionar flexibilidad con middleware y actualizar integraciones de modelos&lt;/cite&gt;. &lt;cite index=&quot;47-4,47-5&quot;&gt;LangGraph 1.0 es la primera versión estable principal en el espacio de frameworks de agentes durables, usado por empresas como Uber, LinkedIn y Klarna&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-nuevas-abstra</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Google lanza Gemini 3.1 Flash TTS para síntesis de voz con control granular</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-tts-para-sintesis-de-voz-con-c</link>
-    <description>&lt;cite index=&quot;35-7,35-8&quot;&gt;Google introduce Gemini 3.1 Flash TTS, el modelo de texto a voz más reciente que ofrece controlabilidad, expresividad y calidad mejoradas para desarrolladores, empresas y usuarios cotidianos&lt;/cite&gt;. &lt;cite index=&quot;35-12,35-14&quot;&gt;El modelo introduce etiquetas de audio granulares para control preciso de la generación de voz expresiva y soporte para ajuste de estilo vocal en más de 70 idiomas&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-flash-tts-para-sintesis-de-voz-con-c</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic publica Claude Opus 4.7 con mejoras significativas en programación</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-publica-claude-opus-4-7-con-mejoras-significativas</link>
-    <description>&lt;cite index=&quot;21-16,21-17,21-18&quot;&gt;Anthropic lanza Claude Opus 4.7 como actualización disponible con ingeniería de software más fuerte, mejor visión, seguimiento de instrucciones más preciso y trabajo de agentes de larga duración más confiable. También añade nuevos controles de esfuerzo, presupuestos de tareas y herramientas de revisión de Claude Code&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-publica-claude-opus-4-7-con-mejoras-significativas</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-Rosalind, modelo especializado para ciencias biológicas y descubrimiento de fármacos</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-modelo-especializado-para-ciencias</link>
-    <description>&lt;cite index=&quot;15-8,15-9&quot;&gt;OpenAI introduce GPT‑Rosalind, modelo de razonamiento frontera construido para investigación en biología, descubrimiento de fármacos y medicina traslacional&lt;/cite&gt;. &lt;cite index=&quot;15-10&quot;&gt;El modelo de la serie ciencias de la vida está optimizado para flujos de trabajo científicos, combinando uso mejorado de herramientas con comprensión más profunda en química, ingeniería de proteínas y genómica&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-modelo-especializado-para-ciencias</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Mejores prácticas para vibe coding: cómo usar IA para desarrollo en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</link>
-    <description>&lt;cite index=&quot;44-3,44-4,44-12,44-13&quot;&gt;El vibe coding está remodelando el desarrollo de software en 2026. En lugar de escribir manualmente cada línea de código, los desarrolladores ahora describen lo que quieren en inglés simple, y la IA genera código funcional. Los equipos exitosos tratan a la IA como un &apos;desarrollador junior&apos; que necesita supervisión constante y usan sistemas de gobernanza estrictos, como archivos de instrucciones con control de versiones.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mejores-practicas-para-vibe-coding-como-usar-ia-para-desarro</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>A-RAG: nuevo framework para RAG agnético con interfaces de recuperación jerárquicas</title>
-    <link>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</link>
-    <description>&lt;cite index=&quot;37-23,37-24,37-25&quot;&gt;Se introduce A-RAG, un framework RAG agnético que expone interfaces de recuperación jerárquicas directamente al modelo. A-RAG proporciona tres herramientas de recuperación: keyword_search, semantic_search, y chunk_read, permitiendo al agente buscar y recuperar información adaptativamente a través de múltiples granularidades. Los experimentos muestran que A-RAG supera consistentemente a los enfoques existentes.&lt;/cite&gt;</description>
-    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=a-rag-nuevo-framework-para-rag-agnetico-con-interfaces-de-re</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

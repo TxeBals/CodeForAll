@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial completo LangChain v1 para construir agentes AI con create_agent()</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</link>
+    <description>LangChain v1 simplifica desarrollo de agentes reemplazando múltiples tipos por función create_agent única. Soporta structured outputs automáticos con Pydantic, middleware para custom behavior, y arquitectura más limpia. Compatibilidad con Google Gemini, OpenAI y otros providers.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain introduce Deep Agents SDK para workflows multi-agent complejos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</link>
+    <description>Nuevo SDK que reemplaza Swarm para orquestación de agentes. Incluye planning tools, filesystem backend, capacidad de spawn sub-agents. Compatible con LangGraph, streaming, checkpoints. CLI pre-construido para coding agents similar a Claude Code/Cursor.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek R1-0528 mejora capabilities de reasoning con 87.5% en AIME 2025</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</link>
+    <description>Nueva versión del modelo de reasoning open-source con MIT license. Mejoras en hallucination reduction (45-50%), function calling, y generación de código. Soporte nativo para JSON output. Chain-of-thought distilado a modelos más pequeños como Qwen3-8B con performance SOTA.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw supera a React con 250,000 estrellas en GitHub en solo 60 días</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-a-react-con-250-000-estrellas-en-github-en-s</link>
+    <description>Framework de agentes AI open-source que permite crear asistentes personales autónomos. MIT licensed, self-hosted, model-agnostic. Soporta múltiples canales (WhatsApp, Telegram, Discord) y permite spawning de sub-agentes. Arquitectura local-first con sistema de permisos granular.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-a-react-con-250-000-estrellas-en-github-en-s</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con backend PyTorch único y quantización first-class</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-unico</link>
+    <description>Primera versión mayor en 5 años con 1200 commits. Elimina soporte TensorFlow/Flax, introduce quantización como ciudadano de primera clase, arquitectura modular mejorada. Releases semanales en lugar de cada 5 semanas. Ahora soporta +400 arquitecturas de modelos.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-unico</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 mini y nano con optimizaciones de inference 40% más rápidas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-optimizaciones-de-infer</link>
+    <description>OpenAI introduce GPT-5.4 mini para workloads de alto volumen y GPT-5.4 nano optimizado para tareas simples con velocidad. Incluye soporte para búsqueda de herramientas, computer use y compactación. La inference ahora es 40% más rápida sin cambios en pesos del modelo.</description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-optimizaciones-de-infer</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía completa de sistemas RAG en Python 2026: arquitecturas listas para producción</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</link>
     <description>&lt;cite index=&apos;51-1,51-4&apos;&gt;Esta guía cubre la implementación de sistemas de Generación Aumentada por Recuperación (RAG) usando Python en 2026, enfocándose en arquitecturas listas para producción y herramientas. A medida que las aplicaciones de IA demandan respuestas más precisas y conscientes del contexto, los sistemas RAG ofrecen una solución escalable para mejorar las salidas del modelo con conocimiento externo.&lt;/cite&gt; &lt;cite index=&apos;51-14,51-15,51-16&apos;&gt;Para generación, usar el modelo gpt-4-turbo-preview con configuraciones de temperatura por debajo de 0.5 asegura salidas consistentes y de alta calidad mientras minimiza alucinaciones. En la práctica, establecer temperature=0.3 ha demostrado reducir las tasas de alucinación en un 20% en aplicaciones RAG empresariales, según benchmarks de 2026. Los desarrolladores pueden verificar el rendimiento del modelo usando herramientas de evaluación proporcionadas por LangChain v0.3, como la suite RAGAs, que incluye métricas para relevancia de respuestas y fidelidad.&lt;/cite&gt;</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;14-1,22-81,22-82,22-83&quot;&gt;Google ADK con 8,200+ estrellas es el Kit de Desarrollo de Agentes oficial de Google para construir sistemas multi-agente. Es nuevo en abril 2026, siendo el agente de terminal open-source oficial de Google con loop ReAct, soporte MCP, contexto de 1M y licencia Apache 2.0&lt;/cite&gt;.</description>
     <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: El asistente personal AI más popular de GitHub con 210k+ estrellas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-ai-mas-popular-de-github-con-</link>
-    <description>&lt;cite index=&quot;12-13,12-16,12-17,12-20&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub. En su núcleo, OpenClaw es un asistente personal de IA que funciona completamente en tus propios dispositivos. Opera como un gateway local conectando modelos de IA a más de 50 integraciones. Lo que lo distingue de otras herramientas de IA es su capacidad de escribir sus propias nuevas habilidades&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-personal-ai-mas-popular-de-github-con-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Claude Mythos: El modelo más capaz de Anthropic que no será liberado públicamente</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-mas-capaz-de-anthropic-que-no-sera-l</link>
-    <description>&lt;cite index=&quot;9-1,9-2,9-4,9-30&quot;&gt;Anthropic confirma Claude Mythos el 7 de abril de 2026. Es el modelo más capaz que Anthropic ha construido jamás. No será liberado al público. Mythos obtuvo 93.9% en SWE-bench Verified y 94.6% en GPQA Diamond. Anthropic juzgó el modelo demasiado peligroso para liberación general y restringió el acceso a 50 organizaciones bajo Proyecto Glasswing&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-mas-capaz-de-anthropic-que-no-sera-l</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Google lanza Gemma 4: Modelos open-source más eficientes con Apache 2.0</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-open-source-mas-eficientes-con-</link>
-    <description>&lt;cite index=&quot;29-1,29-5,29-9&quot;&gt;Google libera Gemma 4 en cuatro tamaños versátiles: E2B, E4B, 26B MoE y 31B Dense. Toda la familia va más allá del chat simple para manejar lógica compleja y flujos de trabajo agénticos. Construido desde la misma investigación y tecnología de clase mundial que Gemini 3, Gemma 4 es la familia de modelos más capaz que puedes ejecutar en tu hardware&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-modelos-open-source-mas-eficientes-con-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI actualiza su SDK de Agentes con entorno sandbox nativo y orquestación avanzada</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-actualiza-su-sdk-de-agentes-con-entorno-sandbox-nativ</link>
-    <description>&lt;cite index=&quot;8-1,8-2,8-16&quot;&gt;OpenAI introduce nuevas capacidades al SDK de Agentes con un harness más capaz para modelos nativos y ejecución sandbox nativa para flujos de trabajo seguros de archivos, herramientas y código. La actualización añade memoria configurable, integraciones estandarizadas, soporte de workspace portátil y snapshotting integrado para ejecutar agentes duraderos&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-actualiza-su-sdk-de-agentes-con-entorno-sandbox-nativ</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw emerge como el proyecto GitHub más viral de 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-github-mas-viral-de-2026</link>
-    <description>&lt;cite index=&quot;2-6,2-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de crecimiento más rápido en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, subió de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a finales de enero 2026, y ha superado las 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;1-1,1-7&quot;&gt;Es un plugin de Claude Code que automáticamente captura todo lo que Claude hace durante sesiones de codificación, lo comprime con AI y reinyecta contexto relevante en futuras sesiones&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-proyecto-github-mas-viral-de-2026</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con arquitectura más modular</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-mas-modu</link>
-    <description>&lt;cite index=&quot;51-19,51-20,51-21&quot;&gt;Hugging Face anuncia el lanzamiento inicial de Transformers v5, la primera versión principal en cinco años con 1200 commits desde la última versión menor. Esta versión elimina deprecaciones pendientes, introduce refactorizaciones que simplifican APIs e internos, y viene con un gran número de correcciones&lt;/cite&gt;. &lt;cite index=&quot;52-11,52-12&quot;&gt;Transformers se instala más de 3 millones de veces cada día vía pip, aumentando desde 20,000/día en v4 y superando 1.2 mil millones de instalaciones totales&lt;/cite&gt;.</description>
-    <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-mas-modu</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

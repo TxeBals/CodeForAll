@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-supera-a-react-con-250-000-estrellas-en-github-en-s</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-unico</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-optimizaciones-de-infer</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</loc><lastmod>2026-04-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</loc><lastmod>2026-04-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-de-codigo-abierto</loc><lastmod>2026-04-21</lastmod></url>

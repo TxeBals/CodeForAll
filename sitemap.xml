@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-y-flash-optimizados-para-workflo</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vulnerabilidad-critica-en-anthropic-mcp-permite-ejecucion-re</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-en-la-</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-v2-sdk-open-source-para-sistemas-m</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vercel-lanza-ai-sdk-6-con-abstraccion-agent-para-construccio</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</loc><lastmod>2026-04-22</lastmod></url>

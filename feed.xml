@@ -7,6 +7,62 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Arquitectura AI-ready para frontend: Nuevas prácticas para desarrollo con AI</title>
+    <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</link>
+    <description>Guía completa sobre diseño de arquitectura frontend preparada para AI, con énfasis en boundaries claros y patrones predecibles. Incluye guidelines.md como contrato entre humanos y agentes, y estrategias para evitar que AI genere código que funciona pero viola mejores prácticas.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.1 Pro y Flash optimizados para workflows agentic y coding</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-y-flash-optimizados-para-workflo</link>
+    <description>Google presenta Gemini 3.1 Pro como modelo reasoning-first optimizado para workflows agentic complejos y coding, junto con Gemini 3.1 Flash-Lite como la opción más cost-eficiente para tráfico LLM de alto volumen. Incluye nuevas capacidades multimodales y soporte para 140+ idiomas.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-y-flash-optimizados-para-workflo</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Investigación: RAG vs Fine-tuning híbrido mejora precisión factual en 21.2%</title>
+    <link>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</link>
+    <description>Nuevo paper científico introduce Finetune-RAG, enfoque de fine-tuning que mejora la resistencia a alucinaciones en sistemas RAG. Los resultados experimentales muestran mejora del 21.2% en precisión factual sobre modelos base, con dataset diseñado para mimear imperfecciones del mundo real.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Vulnerabilidad crítica en Anthropic MCP permite ejecución remota de código</title>
+    <link>https://txemagonzalez.com/post.html?slug=vulnerabilidad-critica-en-anthropic-mcp-permite-ejecucion-re</link>
+    <description>Investigadores descubren una vulnerabilidad &apos;by design&apos; en Model Context Protocol que permite RCE en cualquier sistema con implementación MCP vulnerable. Afecta 7,000+ servidores públicos y 150M+ descargas, impactando SDKs oficiales de Python, TypeScript, Java y Rust.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vulnerabilidad-critica-en-anthropic-mcp-permite-ejecucion-re</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: El repo de GitHub con crecimiento más rápido en la historia (210K stars)</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-en-la-</link>
+    <description>OpenClaw se convierte en el proyecto open-source de crecimiento más rápido en GitHub, pasando de 9K a 210K stars en días. Creado por el founder de PSPDFKit, representa un breakout star de 2026 en el espacio de AI con adopción viral masiva.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-en-la-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework v2: SDK open-source para sistemas multi-agente enterprise</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-v2-sdk-open-source-para-sistemas-m</link>
+    <description>Microsoft lanza Agent Framework v2 como SDK open-source para construir, desplegar y manejar sistemas multi-agente AI. Ofrece orquestación multi-agente, memoria persistente, conectores cross-cloud, y capacidades enterprise-grade con observabilidad built-in.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-v2-sdk-open-source-para-sistemas-m</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Vercel lanza AI SDK 6 con abstracción Agent para construcción de agentes reutilizables</title>
+    <link>https://txemagonzalez.com/post.html?slug=vercel-lanza-ai-sdk-6-con-abstraccion-agent-para-construccio</link>
+    <description>AI SDK 6 introduce la abstracción Agent que permite definir agentes una vez con modelo, instrucciones y herramientas, luego usarlos en toda la aplicación. Incluye ToolLoopAgent para manejo de loops de herramientas y integración completa con streaming UI, outputs estructurados y soporte multi-framework.</description>
+    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vercel-lanza-ai-sdk-6-con-abstraccion-agent-para-construccio</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Tutorial completo LangChain v1 para construir agentes AI con create_agent()</title>
     <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</link>
     <description>LangChain v1 simplifica desarrollo de agentes reemplazando múltiples tipos por función create_agent única. Soporta structured outputs automáticos con Pydantic, middleware para custom behavior, y arquitectura más limpia. Compatibilidad con Google Gemini, OpenAI y otros providers.</description>
@@ -109,62 +165,6 @@
     <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Deep Agents v0.5 con subagentes asíncronos y protocolo Agent-to-Agent</title>
-    <link>https://txemagonzalez.com/post.html?slug=deep-agents-v0-5-con-subagentes-asincronos-y-protocolo-agent</link>
-    <description>LangChain lanza Deep Agents v0.5 con capacidades de subagentes asíncronos que se ejecutan en segundo plano sin bloquear el agente principal. Incluye soporte multimodal expandido para filesystem y protocolo Agent-to-Agent (A2A) para interoperabilidad entre agentes.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deep-agents-v0-5-con-subagentes-asincronos-y-protocolo-agent</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.0 lanza arquitectura PyTorch-only</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-lanza-arquitectura-pytorch-on</link>
-    <description>Primera versión mayor en 5 años con 1,200 commits. Elimina soporte de TensorFlow/JAX para enfocarse solo en PyTorch. Simplifica definiciones de modelos con diseño modular, cuantización como ciudadano de primera clase y releases semanales. Soporta más de 400 arquitecturas de modelos.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-0-lanza-arquitectura-pytorch-on</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 disponible con mejoras en ingeniería de software</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-disponible-con-mejoras-en-ingenieria-de-soft</link>
-    <description>Anthropic lanza Claude Opus 4.7 con mejoras significativas en tareas de programación complejas y trabajo de agentes a largo plazo. Incluye mejor procesamiento de visión en alta resolución y nuevos controles de esfuerzo con nivel &apos;xhigh&apos; para balance entre razonamiento y latencia.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-disponible-con-mejoras-en-ingenieria-de-soft</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain v1.0 y LangGraph v1.0 con arquitectura simplificada</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-0-y-langgraph-v1-0-con-arquitectura-simplificad</link>
-    <description>Primera versión estable mayor de los frameworks de agentes de LangChain. LangChain se enfoca en el bucle central de agentes con middleware personalizable, mientras LangGraph proporciona control granular para flujos de trabajo complejos. Ambos mantienen compatibilidad hacia atrás.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-0-y-langgraph-v1-0-con-arquitectura-simplificad</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el repo de IA más viral de GitHub 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repo-de-ia-mas-viral-de-github-2</link>
-    <description>OpenClaw ha crecido de 9,000 a más de 210,000 estrellas en GitHub, siendo el proyecto open source de mayor crecimiento de la historia. Es un asistente de IA personal que funciona localmente conectando modelos de IA con más de 50 integraciones sin enviar datos a la nube.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repo-de-ia-mas-viral-de-github-2</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Patrones de Arquitectura AI-Nativa: De cadenas simples a sistemas multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</link>
-    <description>&lt;cite index=&quot;33-1,33-13,37-1,37-2&quot;&gt;La guía de Anthropic es explícita: &apos;Los despliegues de agentes más exitosos comienzan con agentes únicos y añaden complejidad solo cuando el rendimiento de agente único alcanza límites medibles&apos;. Para construir un sistema agéntico listo para producción, comienza con agentes especialistas únicos que realizan una tarea y evalúa su rendimiento. Luego integra a los especialistas en patrones multi-agente según tu caso de uso&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-nativa-de-cadenas-simples-a-sist</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google Agent Development Kit (ADK): Framework oficial para sistemas multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</link>
-    <description>&lt;cite index=&quot;14-1,22-81,22-82,22-83&quot;&gt;Google ADK con 8,200+ estrellas es el Kit de Desarrollo de Agentes oficial de Google para construir sistemas multi-agente. Es nuevo en abril 2026, siendo el agente de terminal open-source oficial de Google con loop ReAct, soporte MCP, contexto de 1M y licencia Apache 2.0&lt;/cite&gt;.</description>
-    <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-agent-development-kit-adk-framework-oficial-para-sist</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

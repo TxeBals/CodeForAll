@@ -7,6 +7,46 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>MCP (Model Context Protocol): Arquitectura estándar para conectar AI con herramientas externas</title>
+    <link>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</link>
+    <description>El protocolo MCP de Anthropic define una arquitectura cliente-servidor estándar que permite a aplicaciones AI conectarse de forma seamless con fuentes de datos y herramientas externas. Soporta transporte por stdio, HTTP/SSE y protocolos personalizados con SDKs oficiales en Python, TypeScript y C#.</description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Transformers v5 de Hugging Face: Primera versión mayor en 5 años con foco en PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</link>
+    <description>Hugging Face lanza la primera release candidate de Transformers v5, la primera versión mayor en cinco años. La nueva versión elimina soporte de TensorFlow/Flax para enfocarse únicamente en PyTorch, introduce quantización como ciudadano de primera clase y mejora significativamente la interoperabilidad.</description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Agent SDK: De Claude Code SDK a framework de agentes completo</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-agent-sdk-de-claude-code-sdk-a-framework-de-agentes-c</link>
+    <description>Anthropic ha renombrado el Claude Code SDK como Claude Agent SDK, expandiendo su alcance más allá del coding hacia agentes de propósito general. El SDK permite crear agentes que pueden leer archivos, ejecutar comandos y realizar workflows complejos usando la misma infraestructura de Claude Code.</description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-agent-sdk-de-claude-code-sdk-a-framework-de-agentes-c</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw: El asistente AI personal local que está revolucionando GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-local-que-esta-revoluciona</link>
+    <description>OpenClaw (anteriormente Clawdbot) es un asistente AI que corre completamente en tu dispositivo local, sin enviar datos a la nube. Se integra con más de 50 plataformas incluyendo WhatsApp, Telegram y Slack, y ha ganado más de 210,000 estrellas en GitHub en tiempo récord.</description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-local-que-esta-revoluciona</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>DeepSeek V4 lanzado con API disponible: 2 millones de contexto y precios competitivos</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-lanzado-con-api-disponible-2-millones-de-context</link>
+    <description>DeepSeek ha lanzado su modelo V4 con Flash y Pro tiers, ofreciendo hasta 2 millones de tokens de contexto. El modelo está optimizado para herramientas de agentes como Claude Code y OpenClaw, prometiendo performance competitiva contra GPT-5.4 a precios significativamente menores.</description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-lanzado-con-api-disponible-2-millones-de-context</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Arquitectura AI-ready para frontend: Nuevas prácticas para desarrollo con AI</title>
     <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</link>
     <description>Guía completa sobre diseño de arquitectura frontend preparada para AI, con énfasis en boundaries claros y patrones predecibles. Incluye guidelines.md como contrato entre humanos y agentes, y estrategias para evitar que AI genere código que funciona pero viola mejores prácticas.</description>
@@ -125,46 +165,6 @@
     <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto de IA de código abierto de más rápido crecimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-de-codigo-abierto</link>
-    <description>&lt;cite index=&apos;3-4,3-5&apos;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por el fundador de PSPDFKit Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en solo unos días después de volverse viral a fines de enero de 2026, y desde entonces ha superado las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&apos;3-7,3-8,3-9&apos;&gt;En su núcleo, OpenClaw es un asistente de IA personal que funciona completamente en tus propios dispositivos. Opera como una puerta de enlace local que conecta modelos de IA con más de 50 integraciones, incluyendo WhatsApp, Telegram, Slack, Discord, Signal e iMessage. A diferencia de los asistentes basados en la nube, tus datos nunca salen de tu máquina.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-de-codigo-abierto</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face actualiza Transformers v5.5.x con nuevos modelos multimodales y optimizaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-5-x-con-nuevos-modelo</link>
-    <description>&lt;cite index=&apos;36-8,36-9&apos;&gt;Hugging Face añade una versión amplia con nuevos modelos multimodales y OCR, incluyendo Mistral 4, Jina Embeddings v3, VidEoMT, UVDoc, PI0, SLANeXt y PP-OCRv5, además de aceleraciones en cuantización, tokenización, kernels, caché y paralelismo, junto con importantes actualizaciones de cambios disruptivos.&lt;/cite&gt; &lt;cite index=&apos;32-14,32-15,32-16&apos;&gt;Jina-Embeddings-v3 es un modelo de embeddings de texto multilingüe y multitarea diseñado para diversas aplicaciones NLP. Basado en la arquitectura XLM-RoBERTa, este modelo soporta Embeddings de Posición Rotatoria (RoPE) reemplazando embeddings de posición absoluta para soportar secuencias de entrada largas de hasta 8192 tokens. Además, cuenta con 5 adaptadores LoRA específicos de tarea integrados que permiten al modelo generar embeddings específicos de tarea sin aumentar significativamente la latencia de inferencia.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-5-x-con-nuevos-modelo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Protocolo de Contexto de Modelo (MCP) y mejora integración en API</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-protocolo-de-contexto-de-modelo-mcp-y-mejora</link>
-    <description>&lt;cite index=&apos;24-1&apos;&gt;Claude ahora tiene un directorio con más de 75 conectores (impulsados por MCP), y recientemente lanzó capacidades de Búsqueda de Herramientas y Llamadas de Herramientas Programáticas en su API para ayudar a optimizar despliegues MCP a escala de producción, manejando miles de herramientas de manera eficiente y reduciendo la latencia en flujos de trabajo de agentes complejos.&lt;/cite&gt; &lt;cite index=&apos;24-14,24-15&apos;&gt;Anthropic está donando el Protocolo de Contexto de Modelo (MCP) a la Fundación de IA Agéntica (AAIF), un fondo dirigido bajo la Fundación Linux, cofundado por Anthropic, Block y OpenAI, con apoyo de Google, Microsoft, Amazon Web Services (AWS), Cloudflare y Bloomberg.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-protocolo-de-contexto-de-modelo-mcp-y-mejora</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 mini/nano y nuevas APIs de Responses con soporte nativo de computadora</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-nano-y-nuevas-apis-de-responses-co</link>
-    <description>&lt;cite index=&apos;15-2,15-3&apos;&gt;OpenAI ha lanzado GPT-5.4 mini y GPT-5.4 nano para las APIs de Chat Completions y Responses, donde GPT-5.4 mini ofrece capacidades de clase GPT-5.4 en un modelo más rápido y eficiente, mientras que GPT-5.4 nano está optimizado para tareas simples de alto volumen donde la velocidad y el costo importan más.&lt;/cite&gt; &lt;cite index=&apos;15-4,15-5&apos;&gt;GPT-5.4 mini soporta búsqueda de herramientas, uso integrado de computadora y compactación, mientras que GPT-5.4 nano soporta compactación pero no búsqueda de herramientas ni uso de computadora.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-nano-y-nuevas-apis-de-responses-co</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Framework de 3 capas para sistemas de aprendizaje de agentes IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</link>
-    <description>LangChain presenta un marco técnico revolucionario que redefine cómo los agentes de IA pueden aprender a través de tres capas: modelo (pesos neurales), harness (código e instrucciones) y contexto (memoria configurable). El enfoque práctico se centra en el aprendizaje por capas de contexto.</description>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=framework-de-3-capas-para-sistemas-de-aprendizaje-de-agentes</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

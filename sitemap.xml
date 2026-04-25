@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</loc><lastmod>2026-04-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</loc><lastmod>2026-04-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-deepagents-framework-mas-performante-par</loc><lastmod>2026-04-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-domina-github-con-210-000</loc><lastmod>2026-04-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-cuantica-open-source-par</loc><lastmod>2026-04-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-2-con-nuevas-capacidades-de-razonamiento-y-herramienta</loc><lastmod>2026-04-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</loc><lastmod>2026-04-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</loc><lastmod>2026-04-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-agent-sdk-de-claude-code-sdk-a-framework-de-agentes-c</loc><lastmod>2026-04-24</lastmod></url>

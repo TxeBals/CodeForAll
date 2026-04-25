@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura para desarrollo asistido por IA: De herramienta a colaborador</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</link>
+    <description>Martin Fowler publica nueva guía sobre patrones para reducir fricción en desarrollo asistido por IA. Propone 5 patrones clave que transforman la experiencia de corregir una herramienta a colaborar con un compañero capaz, aplicando principios de pair programming.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RAGFlow v0.25.0: Motor RAG open-source con capacidades de agentes integradas</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</link>
+    <description>RAGFlow lanza la versión 0.25.0 combinando capacidades RAG de vanguardia con funcionalidades de agentes. Incluye skill oficial para OpenClaw, comprensión profunda de documentos y orquestación RAG optimizada para empresas de cualquier escala.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain introduce deepagents: Framework más performante para agentes autónomos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-deepagents-framework-mas-performante-par</link>
+    <description>LangChain anuncia deepagents, un framework de agentes más performante y flexible que soporta planificación de tareas de largo horizonte, tool-calling en loop, offloading de contexto a filesystem y orquestación de sub-agentes sobre el runtime durable de LangGraph.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-deepagents-framework-mas-performante-par</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente de IA local que domina GitHub con 210,000+ estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-domina-github-con-210-000</link>
+    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, funcionando completamente local con integración a más de 50 servicios. Permite navegación web, ejecución de código y control del sistema sin enviar datos a la nube.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-domina-github-con-210-000</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>NVIDIA Ising: Primeros modelos de IA cuántica open-source para calibración de QPUs</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-cuantica-open-source-par</link>
+    <description>NVIDIA presenta la familia de modelos Ising, los primeros modelos de IA cuántica open-source diseñados para calibración de procesadores cuánticos y corrección de errores. Ofrece 2.5x más velocidad y 3x más precisión que enfoques tradicionales, complementando CUDA-Q.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-cuantica-open-source-par</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>GPT-5.2 con nuevas capacidades de razonamiento y herramientas ya disponible en API</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-2-con-nuevas-capacidades-de-razonamiento-y-herramienta</link>
+    <description>OpenAI lanza GPT-5.2 Thinking, Instant y Pro con mejoras significativas en razonamiento, coding y capacidades agenticas. Disponible en API con pricing de $1.75/1M input tokens y $14/1M output tokens. Incluye soporte para reasoning parameter y nuevo nivel xhigh para máxima calidad.</description>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-2-con-nuevas-capacidades-de-razonamiento-y-herramienta</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>MCP (Model Context Protocol): Arquitectura estándar para conectar AI con herramientas externas</title>
     <link>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</link>
     <description>El protocolo MCP de Anthropic define una arquitectura cliente-servidor estándar que permite a aplicaciones AI conectarse de forma seamless con fuentes de datos y herramientas externas. Soporta transporte por stdio, HTTP/SSE y protocolos personalizados con SDKs oficiales en Python, TypeScript y C#.</description>
@@ -116,54 +164,6 @@
     <description>Nuevo SDK que reemplaza Swarm para orquestación de agentes. Incluye planning tools, filesystem backend, capacidad de spawn sub-agents. Compatible con LangGraph, streaming, checkpoints. CLI pre-construido para coding agents similar a Claude Code/Cursor.</description>
     <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>DeepSeek R1-0528 mejora capabilities de reasoning con 87.5% en AIME 2025</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</link>
-    <description>Nueva versión del modelo de reasoning open-source con MIT license. Mejoras en hallucination reduction (45-50%), function calling, y generación de código. Soporte nativo para JSON output. Chain-of-thought distilado a modelos más pequeños como Qwen3-8B con performance SOTA.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-0528-mejora-capabilities-de-reasoning-con-87-5-e</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw supera a React con 250,000 estrellas en GitHub en solo 60 días</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-a-react-con-250-000-estrellas-en-github-en-s</link>
-    <description>Framework de agentes AI open-source que permite crear asistentes personales autónomos. MIT licensed, self-hosted, model-agnostic. Soporta múltiples canales (WhatsApp, Telegram, Discord) y permite spawning de sub-agentes. Arquitectura local-first con sistema de permisos granular.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-a-react-con-250-000-estrellas-en-github-en-s</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con backend PyTorch único y quantización first-class</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-unico</link>
-    <description>Primera versión mayor en 5 años con 1200 commits. Elimina soporte TensorFlow/Flax, introduce quantización como ciudadano de primera clase, arquitectura modular mejorada. Releases semanales en lugar de cada 5 semanas. Ahora soporta +400 arquitecturas de modelos.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-backend-pytorch-unico</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.4 mini y nano con optimizaciones de inference 40% más rápidas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-optimizaciones-de-infer</link>
-    <description>OpenAI introduce GPT-5.4 mini para workloads de alto volumen y GPT-5.4 nano optimizado para tareas simples con velocidad. Incluye soporte para búsqueda de herramientas, computer use y compactación. La inference ahora es 40% más rápida sin cambios en pesos del modelo.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-mini-y-nano-con-optimizaciones-de-infer</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía completa de sistemas RAG en Python 2026: arquitecturas listas para producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</link>
-    <description>&lt;cite index=&apos;51-1,51-4&apos;&gt;Esta guía cubre la implementación de sistemas de Generación Aumentada por Recuperación (RAG) usando Python en 2026, enfocándose en arquitecturas listas para producción y herramientas. A medida que las aplicaciones de IA demandan respuestas más precisas y conscientes del contexto, los sistemas RAG ofrecen una solución escalable para mejorar las salidas del modelo con conocimiento externo.&lt;/cite&gt; &lt;cite index=&apos;51-14,51-15,51-16&apos;&gt;Para generación, usar el modelo gpt-4-turbo-preview con configuraciones de temperatura por debajo de 0.5 asegura salidas consistentes y de alta calidad mientras minimiza alucinaciones. En la práctica, establecer temperature=0.3 ha demostrado reducir las tasas de alucinación en un 20% en aplicaciones RAG empresariales, según benchmarks de 2026. Los desarrolladores pueden verificar el rendimiento del modelo usando herramientas de evaluación proporcionadas por LangChain v0.3, como la suite RAGAs, que incluye métricas para relevancia de respuestas y fidelidad.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-sistemas-rag-en-python-2026-arquitecturas-l</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents v0.4 con sandboxes aislados y nuevas capacidades</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</link>
-    <description>&lt;cite index=&apos;46-1&apos;&gt;Deep Agents pueden lanzar tareas en segundo plano no bloqueantes, por lo que los usuarios pueden continuar interactuando con el agente mientras los subagentes trabajan de manera concurrente.&lt;/cite&gt; &lt;cite index=&apos;50-14,50-15&apos;&gt;La versión 0.4 de `deepagents` te permite ejecutar tus agentes en sandboxes completamente aislados.&lt;/cite&gt; &lt;cite index=&apos;42-21,42-22&apos;&gt;Los Sandboxes de LangSmith están ahora en Vista Previa Privada. Nuestros sandboxes dan a tus agentes entornos temporales y restringidos donde pueden ejecutar código de manera segura, con control granular sobre acceso y recursos.&lt;/cite&gt;</description>
-    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-v0-4-con-sandboxes-aislados-y-nu</guid>
     <category>AGENTES</category>
   </item>
 </channel>

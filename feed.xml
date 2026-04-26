@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía práctica para elegir entre RAG y Fine-tuning en producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-practica-para-elegir-entre-rag-y-fine-tuning-en-producc</link>
+    <description>&lt;cite index=&quot;60-10,60-15&quot;&gt;RAG aborda &apos;qué necesita saber el modelo ahora&apos; para datos que cambian rápidamente, mientras fine-tuning aborda &apos;cómo debe comportarse el modelo&apos; para patrones de respuesta.&lt;/cite&gt; &lt;cite index=&quot;60-29,60-26&quot;&gt;Los enfoques híbridos combinan fine-tuning para comportamiento con RAG para conocimiento actual.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-para-elegir-entre-rag-y-fine-tuning-en-producc</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con arquitectura modular PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-modular-</link>
+    <description>&lt;cite index=&quot;42-29,42-30&quot;&gt;Transformers v5 representa un cambio estructural importante con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales.&lt;/cite&gt; &lt;cite index=&quot;48-12,49-2&quot;&gt;La v5 se enfoca en PyTorch como framework principal, eliminando soporte para TensorFlow y Flax en favor de optimización más profunda.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-modular-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic actualiza Claude Opus 4.7 con soporte de imágenes de alta resolución</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-opus-4-7-con-soporte-de-imagenes-</link>
+    <description>&lt;cite index=&quot;33-4,33-9&quot;&gt;Claude Opus 4.7 es el modelo más capaz de Anthropic con soporte para imágenes de alta resolución hasta 2576px / 3.75MP.&lt;/cite&gt; &lt;cite index=&quot;33-17,33-18&quot;&gt;Incluye un parámetro de esfuerzo ajustable que permite equilibrar inteligencia vs velocidad y costos, con nuevo nivel &apos;xhigh&apos; para codificación.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-opus-4-7-con-soporte-de-imagenes-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain lanza v1.1 con perfiles de modelo y middleware avanzado</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-1-con-perfiles-de-modelo-y-middleware-ava</link>
+    <description>&lt;cite index=&quot;15-2,15-3&quot;&gt;LangChain v1.1 incluye un nuevo sistema de perfiles de modelo que describe capacidades soportadas como salidas estructuradas, llamadas a funciones y modos JSON.&lt;/cite&gt; &lt;cite index=&quot;13-4,13-16&quot;&gt;Introduce subagentes asíncronos para tareas en segundo plano y nuevo middleware para reintentos automáticos de modelos.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-1-con-perfiles-de-modelo-y-middleware-ava</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente de IA local que arrasa en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-arrasa-en-github</link>
+    <description>&lt;cite index=&quot;2-1,2-5&quot;&gt;OpenClaw se convirtió en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;2-7,2-8&quot;&gt;Es un asistente de IA personal que ejecuta completamente en tus dispositivos locales, conectando modelos de IA a más de 50 integraciones.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-arrasa-en-github</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5, su modelo más inteligente e intuitivo</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-su-modelo-mas-inteligente-e-intuitivo</link>
+    <description>&lt;cite index=&quot;25-3,28-10&quot;&gt;OpenAI lanzó GPT-5.5, su nuevo modelo de IA más inteligente e intuitivo, disponible en ChatGPT y la API.&lt;/cite&gt; &lt;cite index=&quot;22-1,22-11&quot;&gt;El modelo soporta ventana de contexto de 1M tokens, entrada de imágenes, salidas estructuradas, herramientas integradas de uso de computadoras y búsqueda web.&lt;/cite&gt;</description>
+    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-su-modelo-mas-inteligente-e-intuitivo</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura para desarrollo asistido por IA: De herramienta a colaborador</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</link>
     <description>Martin Fowler publica nueva guía sobre patrones para reducir fricción en desarrollo asistido por IA. Propone 5 patrones clave que transforman la experiencia de corregir una herramienta a colaborar con un compañero capaz, aplicando principios de pair programming.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Vulnerabilidad crítica en Anthropic MCP permite ejecución remota de código</title>
-    <link>https://txemagonzalez.com/post.html?slug=vulnerabilidad-critica-en-anthropic-mcp-permite-ejecucion-re</link>
-    <description>Investigadores descubren una vulnerabilidad &apos;by design&apos; en Model Context Protocol que permite RCE en cualquier sistema con implementación MCP vulnerable. Afecta 7,000+ servidores públicos y 150M+ descargas, impactando SDKs oficiales de Python, TypeScript, Java y Rust.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vulnerabilidad-critica-en-anthropic-mcp-permite-ejecucion-re</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: El repo de GitHub con crecimiento más rápido en la historia (210K stars)</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-en-la-</link>
-    <description>OpenClaw se convierte en el proyecto open-source de crecimiento más rápido en GitHub, pasando de 9K a 210K stars en días. Creado por el founder de PSPDFKit, representa un breakout star de 2026 en el espacio de AI con adopción viral masiva.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-de-github-con-crecimiento-mas-rapido-en-la-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework v2: SDK open-source para sistemas multi-agente enterprise</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-v2-sdk-open-source-para-sistemas-m</link>
-    <description>Microsoft lanza Agent Framework v2 como SDK open-source para construir, desplegar y manejar sistemas multi-agente AI. Ofrece orquestación multi-agente, memoria persistente, conectores cross-cloud, y capacidades enterprise-grade con observabilidad built-in.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-v2-sdk-open-source-para-sistemas-m</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Vercel lanza AI SDK 6 con abstracción Agent para construcción de agentes reutilizables</title>
-    <link>https://txemagonzalez.com/post.html?slug=vercel-lanza-ai-sdk-6-con-abstraccion-agent-para-construccio</link>
-    <description>AI SDK 6 introduce la abstracción Agent que permite definir agentes una vez con modelo, instrucciones y herramientas, luego usarlos en toda la aplicación. Incluye ToolLoopAgent para manejo de loops de herramientas y integración completa con streaming UI, outputs estructurados y soporte multi-framework.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vercel-lanza-ai-sdk-6-con-abstraccion-agent-para-construccio</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Tutorial completo LangChain v1 para construir agentes AI con create_agent()</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</link>
-    <description>LangChain v1 simplifica desarrollo de agentes reemplazando múltiples tipos por función create_agent única. Soporta structured outputs automáticos con Pydantic, middleware para custom behavior, y arquitectura más limpia. Compatibilidad con Google Gemini, OpenAI y otros providers.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-langchain-v1-para-construir-agentes-ai-con</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain introduce Deep Agents SDK para workflows multi-agent complejos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</link>
-    <description>Nuevo SDK que reemplaza Swarm para orquestación de agentes. Incluye planning tools, filesystem backend, capacidad de spawn sub-agents. Compatible con LangGraph, streaming, checkpoints. CLI pre-construido para coding agents similar a Claude Code/Cursor.</description>
-    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-deep-agents-sdk-para-workflows-multi-age</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

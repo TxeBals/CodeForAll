@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Open-source Computer-Use Agents: sandboxes y SDKs para desktop automation</title>
+    <link>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</link>
+    <description>Proyecto trending en GitHub que proporciona infraestructura open-source para agentes que controlan escritorios completos. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar macOS, Linux y Windows de forma autónoma.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain introduce agentic patterns con LangGraph para RAG avanzado</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</link>
+    <description>LangChain evoluciona hacia patrones agénticos más sofisticados usando LangGraph para implementar RAG dinámico. Los agentes pueden decidir cuándo recuperar información, validar documentos y usar web fallback, mejorando el manejo de consultas complejas en un 35-50%.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>GitHub lanza Spec-Driven Development toolkit para AI coding agents</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-lanza-spec-driven-development-toolkit-para-ai-coding-</link>
+    <description>GitHub introduce un framework open-source para desarrollo dirigido por especificaciones con agentes de IA. Incluye comandos /spec, /plan y /tasks para estructurar el desarrollo de features, mejorando la precisión y reduciendo iteraciones con coding agents como GitHub Copilot.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-lanza-spec-driven-development-toolkit-para-ai-coding-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>DeepSeek añade soporte para Anthropic API con deepseek-v4-pro</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-anade-soporte-para-anthropic-api-con-deepseek-v4-pr</link>
+    <description>DeepSeek integra compatibilidad completa con la API de Anthropic, permitiendo usar su modelo deepseek-v4-pro con el ecosistema de herramientas de Anthropic. Solo requiere cambiar la base_url a api.deepseek.com/anthropic manteniendo la misma interfaz.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-anade-soporte-para-anthropic-api-con-deepseek-v4-pr</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5: PyTorch-first y arquitectura modular</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-y-arquitectura-mo</link>
+    <description>Hugging Face lanza Transformers v5.0 con foco exclusivo en PyTorch, eliminando soporte para TensorFlow/Flax. Introduce arquitectura modular, quantización como ciudadano de primera clase y mejor interoperabilidad con librerías como vLLM y MLX.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-y-arquitectura-mo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza compatibilidad con OpenAI SDK para Claude API</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-compatibilidad-con-openai-sdk-para-claude-ap</link>
+    <description>Anthropic ha lanzado una capa de compatibilidad que permite usar el OpenAI SDK para probar la API de Claude. Incluye soporte para extended thinking, structured outputs y tool calling, permitiendo migración rápida desde OpenAI a Claude con cambios mínimos de código.</description>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-compatibilidad-con-openai-sdk-para-claude-ap</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía práctica para elegir entre RAG y Fine-tuning en producción</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-practica-para-elegir-entre-rag-y-fine-tuning-en-producc</link>
     <description>&lt;cite index=&quot;60-10,60-15&quot;&gt;RAG aborda &apos;qué necesita saber el modelo ahora&apos; para datos que cambian rápidamente, mientras fine-tuning aborda &apos;cómo debe comportarse el modelo&apos; para patrones de respuesta.&lt;/cite&gt; &lt;cite index=&quot;60-29,60-26&quot;&gt;Los enfoques híbridos combinan fine-tuning para comportamiento con RAG para conocimiento actual.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Agent SDK: De Claude Code SDK a framework de agentes completo</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-agent-sdk-de-claude-code-sdk-a-framework-de-agentes-c</link>
-    <description>Anthropic ha renombrado el Claude Code SDK como Claude Agent SDK, expandiendo su alcance más allá del coding hacia agentes de propósito general. El SDK permite crear agentes que pueden leer archivos, ejecutar comandos y realizar workflows complejos usando la misma infraestructura de Claude Code.</description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-agent-sdk-de-claude-code-sdk-a-framework-de-agentes-c</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw: El asistente AI personal local que está revolucionando GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-local-que-esta-revoluciona</link>
-    <description>OpenClaw (anteriormente Clawdbot) es un asistente AI que corre completamente en tu dispositivo local, sin enviar datos a la nube. Se integra con más de 50 plataformas incluyendo WhatsApp, Telegram y Slack, y ha ganado más de 210,000 estrellas en GitHub en tiempo récord.</description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-local-que-esta-revoluciona</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>DeepSeek V4 lanzado con API disponible: 2 millones de contexto y precios competitivos</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-lanzado-con-api-disponible-2-millones-de-context</link>
-    <description>DeepSeek ha lanzado su modelo V4 con Flash y Pro tiers, ofreciendo hasta 2 millones de tokens de contexto. El modelo está optimizado para herramientas de agentes como Claude Code y OpenClaw, prometiendo performance competitiva contra GPT-5.4 a precios significativamente menores.</description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-lanzado-con-api-disponible-2-millones-de-context</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Arquitectura AI-ready para frontend: Nuevas prácticas para desarrollo con AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</link>
-    <description>Guía completa sobre diseño de arquitectura frontend preparada para AI, con énfasis en boundaries claros y patrones predecibles. Incluye guidelines.md como contrato entre humanos y agentes, y estrategias para evitar que AI genere código que funciona pero viola mejores prácticas.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=arquitectura-ai-ready-para-frontend-nuevas-practicas-para-de</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google lanza Gemini 3.1 Pro y Flash optimizados para workflows agentic y coding</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-y-flash-optimizados-para-workflo</link>
-    <description>Google presenta Gemini 3.1 Pro como modelo reasoning-first optimizado para workflows agentic complejos y coding, junto con Gemini 3.1 Flash-Lite como la opción más cost-eficiente para tráfico LLM de alto volumen. Incluye nuevas capacidades multimodales y soporte para 140+ idiomas.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-1-pro-y-flash-optimizados-para-workflo</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Investigación: RAG vs Fine-tuning híbrido mejora precisión factual en 21.2%</title>
-    <link>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</link>
-    <description>Nuevo paper científico introduce Finetune-RAG, enfoque de fine-tuning que mejora la resistencia a alucinaciones en sistemas RAG. Los resultados experimentales muestran mejora del 21.2% en precisión factual sobre modelos base, con dataset diseñado para mimear imperfecciones del mundo real.</description>
-    <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=investigacion-rag-vs-fine-tuning-hibrido-mejora-precision-fa</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

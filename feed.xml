@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial: Construcción de sistemas RAG de producción en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</link>
+    <description>Guía práctica paso a paso para construir RAG robusto usando LangChain, embeddings de última generación, Chroma/Qdrant como vector stores y evaluación con Ragas. Incluye técnicas de chunking, reranking y monitoreo continuo.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 enfoque completo en PyTorch con optimizaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</link>
+    <description>Nueva versión mayor se enfoca completamente en PyTorch con kernels especializados, mejores defaults, nuevas APIs y soporte para motores de inferencia optimizados. Mejor soporte para pre-entrenamiento y entrenamiento a escala.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain Academy lanza curso completo sobre construcción de agentes con RAG</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-academy-lanza-curso-completo-sobre-construccion-de</link>
+    <description>Nuevo curso educativo que enseña construcción de agentes usando arquitecturas pre-construidas y integraciones de modelos. Cubre desde fundamentos hasta aplicaciones del mundo real con patrones de ReAct en runtime duradero de LangGraph.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-academy-lanza-curso-completo-sobre-construccion-de</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
+    <description>Creado por el fundador de PSPDFKit, OpenClaw pasó de 9,000 a más de 210,000 estrellas. Permite que expertos de dominio, no solo ingenieros ML, creen aplicaciones de IA sofisticadas reduciendo la barrera de entrada.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.7 con mejoras para ingeniería de software</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-para-ingenieria-</link>
+    <description>Nueva versión mejorada para seguir instrucciones, completar trabajo del mundo real y es el modelo más potente disponible públicamente. Incluye nuevas capacidades de API como Adaptive Thinking y Context Compaction para desarrolladores.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-para-ingenieria-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK lanza nuevas capacidades de flujos de trabajo para agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-nuevas-capacidades-de-flujos-de-tra</link>
+    <description>GitHub introduce funciones avanzadas de orquestación con Copilot SDK que permite flujos de trabajo agenticos directamente en aplicaciones. Incluye aislamiento, salidas restringidas y logging integral para agentes seguros en GitHub Actions.</description>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-nuevas-capacidades-de-flujos-de-tra</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
     <title>Open-source Computer-Use Agents: sandboxes y SDKs para desktop automation</title>
     <link>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</link>
     <description>Proyecto trending en GitHub que proporciona infraestructura open-source para agentes que controlan escritorios completos. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar macOS, Linux y Windows de forma autónoma.</description>
@@ -116,54 +164,6 @@
     <description>RAGFlow lanza la versión 0.25.0 combinando capacidades RAG de vanguardia con funcionalidades de agentes. Incluye skill oficial para OpenClaw, comprensión profunda de documentos y orquestación RAG optimizada para empresas de cualquier escala.</description>
     <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain introduce deepagents: Framework más performante para agentes autónomos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-deepagents-framework-mas-performante-par</link>
-    <description>LangChain anuncia deepagents, un framework de agentes más performante y flexible que soporta planificación de tareas de largo horizonte, tool-calling en loop, offloading de contexto a filesystem y orquestación de sub-agentes sobre el runtime durable de LangGraph.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-deepagents-framework-mas-performante-par</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente de IA local que domina GitHub con 210,000+ estrellas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-domina-github-con-210-000</link>
-    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, funcionando completamente local con integración a más de 50 servicios. Permite navegación web, ejecución de código y control del sistema sin enviar datos a la nube.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-domina-github-con-210-000</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>NVIDIA Ising: Primeros modelos de IA cuántica open-source para calibración de QPUs</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-cuantica-open-source-par</link>
-    <description>NVIDIA presenta la familia de modelos Ising, los primeros modelos de IA cuántica open-source diseñados para calibración de procesadores cuánticos y corrección de errores. Ofrece 2.5x más velocidad y 3x más precisión que enfoques tradicionales, complementando CUDA-Q.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-cuantica-open-source-par</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>GPT-5.2 con nuevas capacidades de razonamiento y herramientas ya disponible en API</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-2-con-nuevas-capacidades-de-razonamiento-y-herramienta</link>
-    <description>OpenAI lanza GPT-5.2 Thinking, Instant y Pro con mejoras significativas en razonamiento, coding y capacidades agenticas. Disponible en API con pricing de $1.75/1M input tokens y $14/1M output tokens. Incluye soporte para reasoning parameter y nuevo nivel xhigh para máxima calidad.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-2-con-nuevas-capacidades-de-razonamiento-y-herramienta</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>MCP (Model Context Protocol): Arquitectura estándar para conectar AI con herramientas externas</title>
-    <link>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</link>
-    <description>El protocolo MCP de Anthropic define una arquitectura cliente-servidor estándar que permite a aplicaciones AI conectarse de forma seamless con fuentes de datos y herramientas externas. Soporta transporte por stdio, HTTP/SSE y protocolos personalizados con SDKs oficiales en Python, TypeScript y C#.</description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mcp-model-context-protocol-arquitectura-estandar-para-conect</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Transformers v5 de Hugging Face: Primera versión mayor en 5 años con foco en PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</link>
-    <description>Hugging Face lanza la primera release candidate de Transformers v5, la primera versión mayor en cinco años. La nueva versión elimina soporte de TensorFlow/Flax para enfocarse únicamente en PyTorch, introduce quantización como ciudadano de primera clase y mejora significativamente la interoperabilidad.</description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-primera-version-mayor-en-5-a</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

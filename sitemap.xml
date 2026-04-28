@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-academy-lanza-curso-completo-sobre-construccion-de</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-para-ingenieria-</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-nuevas-capacidades-de-flujos-de-tra</loc><lastmod>2026-04-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</loc><lastmod>2026-04-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</loc><lastmod>2026-04-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-lanza-spec-driven-development-toolkit-para-ai-coding-</loc><lastmod>2026-04-27</lastmod></url>

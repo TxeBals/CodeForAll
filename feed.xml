@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Apple MLX optimiza rendimiento para M5 con Neural Accelerators y mejor soporte LLM</title>
+    <link>https://txemagonzalez.com/post.html?slug=apple-mlx-optimiza-rendimiento-para-m5-con-neural-accelerato</link>
+    <description>MLX framework de Apple mejora significativamente el rendimiento en chips M5 con soporte para Neural Accelerators, requiriendo macOS 26.2+. Incluye mejor integración con HuggingFace Hub y optimizaciones para inferencia de modelos grandes en Apple Silicon.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=apple-mlx-optimiza-rendimiento-para-m5-con-neural-accelerato</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Repositorio trending: &apos;claude-code-quality-guide&apos; - Mejores prácticas para desarrollo con Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=repositorio-trending-claude-code-quality-guide-mejores-pract</link>
+    <description>Repositorio viral con guías derivadas de las observaciones de Andrej Karpathy sobre errores comunes en coding con LLMs. Incluye un archivo CLAUDE.md para mejorar el comportamiento de Claude Code y reducir errores críticos en tareas complejas.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repositorio-trending-claude-code-quality-guide-mejores-pract</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain lanza Deep Agents Deploy en beta y StateSchema para LangGraph</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-en-beta-y-stateschema-par</link>
+    <description>LangChain presenta Deep Agents deploy como la forma más rápida de desplegar arneses de agentes de código abierto y modelo-agnósticos. Introduce StateSchema compatible con Standard JSON Schema para definición de estado de grafos más limpia.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-en-beta-y-stateschema-par</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Transformers 5.7.0 añade soporte para nuevos modelos multimodales y mejoras en kernels</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-5-7-0-anade-soporte-para-nuevos-modelos-multimo</link>
+    <description>HuggingFace Transformers incluye soporte para EuroBERT multilingüe, VibeVoice ASR, TimesFM 2.5 para series temporales, y mejoras en el comando serve con endpoint /v1/completions. Incluye correcciones importantes en el registro de funciones kernel.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-5-7-0-anade-soporte-para-nuevos-modelos-multimo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic presenta Claude Managed Agents con memoria persistente y sandboxes seguros</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-managed-agents-con-memoria-persist</link>
+    <description>Anthropic lanza su servicio de agentes gestionados con sesiones duraderas, interfaces estables y memoria en beta pública. La plataforma ofrece acceso seguro a herramientas y tiempo de inicio más rápido para tareas de largo horizonte.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-managed-agents-con-memoria-persist</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 con nueva arquitectura de agentes y capacidades multimodales avanzadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-nueva-arquitectura-de-agentes-y-cap</link>
+    <description>OpenAI presenta GPT-5.5 como su modelo más inteligente e intuitivo hasta la fecha, con mejoras significativas en codificación, investigación y análisis de datos. El modelo incluye nuevos precios de API ($5/1M input tokens, $30/1M output tokens) y está optimizado para flujos de trabajo agenticos complejos.</description>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-nueva-arquitectura-de-agentes-y-cap</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Tutorial: Construcción de sistemas RAG de producción en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</link>
     <description>Guía práctica paso a paso para construir RAG robusto usando LangChain, embeddings de última generación, Chroma/Qdrant como vector stores y evaluación con Ragas. Incluye técnicas de chunking, reranking y monitoreo continuo.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;42-29,42-30&quot;&gt;Transformers v5 representa un cambio estructural importante con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales.&lt;/cite&gt; &lt;cite index=&quot;48-12,49-2&quot;&gt;La v5 se enfoca en PyTorch como framework principal, eliminando soporte para TensorFlow y Flax en favor de optimización más profunda.&lt;/cite&gt;</description>
     <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-modular-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic actualiza Claude Opus 4.7 con soporte de imágenes de alta resolución</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-opus-4-7-con-soporte-de-imagenes-</link>
-    <description>&lt;cite index=&quot;33-4,33-9&quot;&gt;Claude Opus 4.7 es el modelo más capaz de Anthropic con soporte para imágenes de alta resolución hasta 2576px / 3.75MP.&lt;/cite&gt; &lt;cite index=&quot;33-17,33-18&quot;&gt;Incluye un parámetro de esfuerzo ajustable que permite equilibrar inteligencia vs velocidad y costos, con nuevo nivel &apos;xhigh&apos; para codificación.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-opus-4-7-con-soporte-de-imagenes-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain lanza v1.1 con perfiles de modelo y middleware avanzado</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-1-con-perfiles-de-modelo-y-middleware-ava</link>
-    <description>&lt;cite index=&quot;15-2,15-3&quot;&gt;LangChain v1.1 incluye un nuevo sistema de perfiles de modelo que describe capacidades soportadas como salidas estructuradas, llamadas a funciones y modos JSON.&lt;/cite&gt; &lt;cite index=&quot;13-4,13-16&quot;&gt;Introduce subagentes asíncronos para tareas en segundo plano y nuevo middleware para reintentos automáticos de modelos.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-v1-1-con-perfiles-de-modelo-y-middleware-ava</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente de IA local que arrasa en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-arrasa-en-github</link>
-    <description>&lt;cite index=&quot;2-1,2-5&quot;&gt;OpenClaw se convirtió en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;2-7,2-8&quot;&gt;Es un asistente de IA personal que ejecuta completamente en tus dispositivos locales, conectando modelos de IA a más de 50 integraciones.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-que-arrasa-en-github</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5, su modelo más inteligente e intuitivo</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-su-modelo-mas-inteligente-e-intuitivo</link>
-    <description>&lt;cite index=&quot;25-3,28-10&quot;&gt;OpenAI lanzó GPT-5.5, su nuevo modelo de IA más inteligente e intuitivo, disponible en ChatGPT y la API.&lt;/cite&gt; &lt;cite index=&quot;22-1,22-11&quot;&gt;El modelo soporta ventana de contexto de 1M tokens, entrada de imágenes, salidas estructuradas, herramientas integradas de uso de computadoras y búsqueda web.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-su-modelo-mas-inteligente-e-intuitivo</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura para desarrollo asistido por IA: De herramienta a colaborador</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</link>
-    <description>Martin Fowler publica nueva guía sobre patrones para reducir fricción en desarrollo asistido por IA. Propone 5 patrones clave que transforman la experiencia de corregir una herramienta a colaborar con un compañero capaz, aplicando principios de pair programming.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-desarrollo-asistido-por-ia-de-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RAGFlow v0.25.0: Motor RAG open-source con capacidades de agentes integradas</title>
-    <link>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</link>
-    <description>RAGFlow lanza la versión 0.25.0 combinando capacidades RAG de vanguardia con funcionalidades de agentes. Incluye skill oficial para OpenClaw, comprensión profunda de documentos y orquestación RAG optimizada para empresas de cualquier escala.</description>
-    <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-25-0-motor-rag-open-source-con-capacidades-de-age</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

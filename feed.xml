@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>&lt;cite index=&quot;52-14,52-15,52-16&quot;&gt;Anthropic Claude integra Computer Use en aplicaciones de producción&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</link>
+    <description>&lt;cite index=&quot;52-14,52-15&quot;&gt;Claude puede abrir archivos, ejecutar herramientas de desarrollo, apuntar, hacer clic y navegar por lo que está en tu pantalla para realizar tareas por sí mismo, sin configuración requerida. La nueva capacidad de computer use de Claude hace que Dispatch sea aún más útil al permitirle usar tu computadora en tu nombre mientras estás ausente.&lt;/cite&gt; &lt;cite index=&quot;52-22,52-23&quot;&gt;Sonnet 4.6 presenta una actualización completa de las habilidades del modelo en codificación, computer use, razonamiento de contexto largo, planificación de agentes, trabajo de conocimiento y diseño, con ventana de contexto de 1M tokens en beta.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>&lt;cite index=&quot;48-3,48-4,48-20&quot;&gt;RAG Adaptativo emerge como mejor práctica en 2026&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</link>
+    <description>&lt;cite index=&quot;48-3,48-4&quot;&gt;RAG en 2026 no es una sola técnica, es un espectro. Los mejores sistemas de producción usan enrutamiento adaptativo para hacer coincidir la complejidad de consulta con la complejidad del pipeline, manteniendo costos bajos para preguntas simples mientras despliegan el arsenal completo agéntico o basado en grafos para consultas que genuinamente lo necesitan.&lt;/cite&gt; &lt;cite index=&quot;48-20,48-24&quot;&gt;La práctica emergente en 2026 es RAG Adaptativo: un clasificador de consultas enruta cada consulta al pipeline apropiado basado en complejidad, entregando el óptimo balance costo-calidad.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>&lt;cite index=&quot;8-1,8-4,8-5&quot;&gt;OpenClaw: Proyecto de código abierto de más rápido crecimiento en GitHub&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-8-1-8-4-8-5-openclaw-proyecto-de-codigo-abierto-d</link>
+    <description>&lt;cite index=&quot;8-7,8-8,8-9&quot;&gt;OpenClaw es un asistente de IA personal que funciona completamente en tus propios dispositivos. Opera como gateway local conectando modelos de IA a más de 50 integraciones, incluyendo WhatsApp, Telegram, Slack, Discord y iMessage. A diferencia de asistentes basados en cloud, tus datos nunca abandonan tu máquina.&lt;/cite&gt; &lt;cite index=&quot;8-5&quot;&gt;Creado por el fundador de PSPDFKit Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en pocos días y ahora supera las 210,000 estrellas.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-8-1-8-4-8-5-openclaw-proyecto-de-codigo-abierto-d</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>&lt;cite index=&quot;31-26,31-27&quot;&gt;LangChain: &apos;Ingeniería Agéntica&apos; de Cisco reduce 93% tiempo de diagnóstico&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-31-26-31-27-langchain-ingenieria-agentica-de-cisc</link>
+    <description>&lt;cite index=&quot;31-26,31-27&quot;&gt;Los ingenieros de Cisco describen lo que llaman &apos;ingeniería agéntica&apos;: un modelo multi-agente construido sobre LangSmith y LangGraph que trata a los agentes como un equipo de ingeniería coordinado. El piloto logró una reducción del 93% en tiempo-hasta-causa-raíz y ahorró más de 200 horas de ingeniería en un solo mes.&lt;/cite&gt; &lt;cite index=&quot;31-16,31-21&quot;&gt;LangSmith ahora incluye más de 30 plantillas de evaluadores para seguridad, calidad de respuesta y salidas multimodales, además de integrar 7,500+ herramientas optimizadas para agentes de Arcade.dev.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-31-26-31-27-langchain-ingenieria-agentica-de-cisc</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>&lt;cite index=&quot;21-7,21-18&quot;&gt;HuggingFace Transformers v5.4.0 incluye Mistral 4 y modelos multimodales&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-21-7-21-18-huggingface-transformers-v5-4-0-incluy</link>
+    <description>&lt;cite index=&quot;21-18,21-19,21-20&quot;&gt;La nueva versión incluye Video Encoder-only Mask Transformer (VidEoMT) para segmentación de video online, construido sobre Vision Transformer. Elimina módulos de tracking dedicados y logra precisión competitiva siendo 5x-10x más rápido que enfoques existentes, ejecutándose hasta 160 FPS.&lt;/cite&gt; &lt;cite index=&quot;21-25,21-26,21-27&quot;&gt;También incluye Jina-Embeddings-v3, modelo de embeddings multilingüe con soporte RoPE para secuencias de hasta 8192 tokens y 5 adaptadores LoRA específicos por tarea.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-21-7-21-18-huggingface-transformers-v5-4-0-incluy</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>&lt;cite index=&quot;17-1,13-18&quot;&gt;OpenAI lanza GPT-5.5 y GPT-5.5 Pro en la API&lt;/cite&gt;</title>
+    <link>https://txemagonzalez.com/post.html?slug=cite-index-17-1-13-18-openai-lanza-gpt-5-5-y-gpt-5-5-pro-en-</link>
+    <description>&lt;cite index=&quot;17-7,17-8,17-9&quot;&gt;GPT-5.5 comprende objetivos complejos más rápido y puede llevar más trabajo por sí mismo. Excede en escritura, depuración de código, investigación online, análisis de datos y operación de software. En lugar de gestionar cuidadosamente cada paso, puedes darle una tarea desordenada y multipartes y confiar en que planifique, use herramientas y mantenga el rumbo.&lt;/cite&gt; &lt;cite index=&quot;17-11,17-13&quot;&gt;Disponible en APIs a $5 por 1M tokens de entrada y $30 por 1M de salida para GPT-5.5, y $30/$180 para GPT-5.5 Pro.&lt;/cite&gt;</description>
+    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cite-index-17-1-13-18-openai-lanza-gpt-5-5-y-gpt-5-5-pro-en-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Apple MLX optimiza rendimiento para M5 con Neural Accelerators y mejor soporte LLM</title>
     <link>https://txemagonzalez.com/post.html?slug=apple-mlx-optimiza-rendimiento-para-m5-con-neural-accelerato</link>
     <description>MLX framework de Apple mejora significativamente el rendimiento en chips M5 con soporte para Neural Accelerators, requiriendo macOS 26.2+. Incluye mejor integración con HuggingFace Hub y optimizaciones para inferencia de modelos grandes en Apple Silicon.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub lanza Spec-Driven Development toolkit para AI coding agents</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-lanza-spec-driven-development-toolkit-para-ai-coding-</link>
-    <description>GitHub introduce un framework open-source para desarrollo dirigido por especificaciones con agentes de IA. Incluye comandos /spec, /plan y /tasks para estructurar el desarrollo de features, mejorando la precisión y reduciendo iteraciones con coding agents como GitHub Copilot.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-lanza-spec-driven-development-toolkit-para-ai-coding-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>DeepSeek añade soporte para Anthropic API con deepseek-v4-pro</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-anade-soporte-para-anthropic-api-con-deepseek-v4-pr</link>
-    <description>DeepSeek integra compatibilidad completa con la API de Anthropic, permitiendo usar su modelo deepseek-v4-pro con el ecosistema de herramientas de Anthropic. Solo requiere cambiar la base_url a api.deepseek.com/anthropic manteniendo la misma interfaz.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-anade-soporte-para-anthropic-api-con-deepseek-v4-pr</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5: PyTorch-first y arquitectura modular</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-y-arquitectura-mo</link>
-    <description>Hugging Face lanza Transformers v5.0 con foco exclusivo en PyTorch, eliminando soporte para TensorFlow/Flax. Introduce arquitectura modular, quantización como ciudadano de primera clase y mejor interoperabilidad con librerías como vLLM y MLX.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-y-arquitectura-mo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza compatibilidad con OpenAI SDK para Claude API</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-compatibilidad-con-openai-sdk-para-claude-ap</link>
-    <description>Anthropic ha lanzado una capa de compatibilidad que permite usar el OpenAI SDK para probar la API de Claude. Incluye soporte para extended thinking, structured outputs y tool calling, permitiendo migración rápida desde OpenAI a Claude con cambios mínimos de código.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-compatibilidad-con-openai-sdk-para-claude-ap</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía práctica para elegir entre RAG y Fine-tuning en producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-practica-para-elegir-entre-rag-y-fine-tuning-en-producc</link>
-    <description>&lt;cite index=&quot;60-10,60-15&quot;&gt;RAG aborda &apos;qué necesita saber el modelo ahora&apos; para datos que cambian rápidamente, mientras fine-tuning aborda &apos;cómo debe comportarse el modelo&apos; para patrones de respuesta.&lt;/cite&gt; &lt;cite index=&quot;60-29,60-26&quot;&gt;Los enfoques híbridos combinan fine-tuning para comportamiento con RAG para conocimiento actual.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-para-elegir-entre-rag-y-fine-tuning-en-producc</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con arquitectura modular PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-modular-</link>
-    <description>&lt;cite index=&quot;42-29,42-30&quot;&gt;Transformers v5 representa un cambio estructural importante con más de 3 millones de instalaciones diarias y más de 1.2 mil millones de instalaciones totales.&lt;/cite&gt; &lt;cite index=&quot;48-12,49-2&quot;&gt;La v5 se enfoca en PyTorch como framework principal, eliminando soporte para TensorFlow y Flax en favor de optimización más profunda.&lt;/cite&gt;</description>
-    <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-arquitectura-modular-</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

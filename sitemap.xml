@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-con-210k-stars-en-github</loc><lastmod>2026-05-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-despliega-en-beta-con-soporte-mcp</loc><lastmod>2026-05-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vllm-anade-soporte-nativo-para-grpc-y-gpu-speculative-decodi</loc><lastmod>2026-05-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-4-0-anade-nuevos-modelos-multim</loc><lastmod>2026-05-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-5-llega-a-la-api-con-soporte-de-agentes-mejorado</loc><lastmod>2026-05-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-image-1-5-con-generacion-4x-mas-rapida</loc><lastmod>2026-05-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</loc><lastmod>2026-04-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</loc><lastmod>2026-04-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=cite-index-8-1-8-4-8-5-openclaw-proyecto-de-codigo-abierto-d</loc><lastmod>2026-04-30</lastmod></url>

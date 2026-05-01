@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenClaw se vuelve viral con 210K stars en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-con-210k-stars-en-github</link>
+    <description>&lt;cite index=&quot;1-1,1-6,1-7&quot;&gt;OpenClaw emerge como el proyecto open source de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a 210,000+ stars en semanas. Creado por el fundador de PSPDFKit Peter Steinberger, permite a expertos de dominio crear aplicaciones AI sofisticadas&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-con-210k-stars-en-github</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain Deep Agents despliega en beta con soporte MCP</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-despliega-en-beta-con-soporte-mcp</link>
+    <description>&lt;cite index=&quot;37-1,40-3,40-4,40-17&quot;&gt;LangChain lanza Deep Agents deploy en beta, un harness de agentes modelo-agnóstico open source. Incluye soporte MCP via langchain-mcp-adapters y funciona como agente de codificación similar a Claude Code o Cursor, alimentado por cualquier LLM&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-despliega-en-beta-con-soporte-mcp</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>vLLM añade soporte nativo para gRPC y GPU speculative decoding</title>
+    <link>https://txemagonzalez.com/post.html?slug=vllm-anade-soporte-nativo-para-grpc-y-gpu-speculative-decodi</link>
+    <description>&lt;cite index=&quot;41-36,41-37,48-24,48-25,48-26&quot;&gt;vLLM introduce serving GPU-less, NGram speculative decoding en GPU y scheduler asíncrono por defecto. El scheduler asíncrono reduce time-to-first-token, mejorando la respuesta de agentes con tool calls. Incluye FlashInfer 0.6.6 y soporte para RTX Blackwell&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vllm-anade-soporte-nativo-para-grpc-y-gpu-speculative-decodi</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.4.0 añade nuevos modelos multimodales</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-4-0-anade-nuevos-modelos-multim</link>
+    <description>&lt;cite index=&quot;21-7,21-18,21-30,21-32&quot;&gt;Nueva release incluye Mistral 4, VidEoMT para segmentación de video, Jina Embeddings v3 multilingüe y UVDoc para rectificación de documentos. VidEoMT logra 5-10x más velocidad con hasta 160 FPS. Jina v3 soporta hasta 8192 tokens con LoRA adapters especializados&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-4-0-anade-nuevos-modelos-multim</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GPT-5.5 llega a la API con soporte de agentes mejorado</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-llega-a-la-api-con-soporte-de-agentes-mejorado</link>
+    <description>&lt;cite index=&quot;19-1,19-4,19-11,19-13&quot;&gt;OpenAI lanza GPT-5.5, su modelo más inteligente, ahora disponible en la API. Cuesta $5 por 1M tokens de entrada y $30 por 1M de salida, con GPT-5.5 Pro a $30/$180. Excelente para codificación, uso de computadora y trabajo de conocimiento&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-llega-a-la-api-con-soporte-de-agentes-mejorado</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT Image 1.5 con generación 4x más rápida</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-image-1-5-con-generacion-4x-mas-rapida</link>
+    <description>&lt;cite index=&quot;11-3,11-7,11-18&quot;&gt;OpenAI presenta la nueva versión de ChatGPT Images con su modelo insignia de generación de imágenes. Genera imágenes hasta 4x más rápido y está disponible en la API como GPT Image 1.5. Mejora significativamente la preservación de detalles y la edición precisa de imágenes&lt;/cite&gt;.</description>
+    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-image-1-5-con-generacion-4x-mas-rapida</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>&lt;cite index=&quot;52-14,52-15,52-16&quot;&gt;Anthropic Claude integra Computer Use en aplicaciones de producción&lt;/cite&gt;</title>
     <link>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</link>
     <description>&lt;cite index=&quot;52-14,52-15&quot;&gt;Claude puede abrir archivos, ejecutar herramientas de desarrollo, apuntar, hacer clic y navegar por lo que está en tu pantalla para realizar tareas por sí mismo, sin configuración requerida. La nueva capacidad de computer use de Claude hace que Dispatch sea aún más útil al permitirle usar tu computadora en tu nombre mientras estás ausente.&lt;/cite&gt; &lt;cite index=&quot;52-22,52-23&quot;&gt;Sonnet 4.6 presenta una actualización completa de las habilidades del modelo en codificación, computer use, razonamiento de contexto largo, planificación de agentes, trabajo de conocimiento y diseño, con ventana de contexto de 1M tokens en beta.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain Academy lanza curso completo sobre construcción de agentes con RAG</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-academy-lanza-curso-completo-sobre-construccion-de</link>
-    <description>Nuevo curso educativo que enseña construcción de agentes usando arquitecturas pre-construidas y integraciones de modelos. Cubre desde fundamentos hasta aplicaciones del mundo real con patrones de ReAct en runtime duradero de LangGraph.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-academy-lanza-curso-completo-sobre-construccion-de</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
-    <description>Creado por el fundador de PSPDFKit, OpenClaw pasó de 9,000 a más de 210,000 estrellas. Permite que expertos de dominio, no solo ingenieros ML, creen aplicaciones de IA sofisticadas reduciendo la barrera de entrada.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.7 con mejoras para ingeniería de software</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-para-ingenieria-</link>
-    <description>Nueva versión mejorada para seguir instrucciones, completar trabajo del mundo real y es el modelo más potente disponible públicamente. Incluye nuevas capacidades de API como Adaptive Thinking y Context Compaction para desarrolladores.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-para-ingenieria-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK lanza nuevas capacidades de flujos de trabajo para agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-nuevas-capacidades-de-flujos-de-tra</link>
-    <description>GitHub introduce funciones avanzadas de orquestación con Copilot SDK que permite flujos de trabajo agenticos directamente en aplicaciones. Incluye aislamiento, salidas restringidas y logging integral para agentes seguros en GitHub Actions.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-lanza-nuevas-capacidades-de-flujos-de-tra</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Open-source Computer-Use Agents: sandboxes y SDKs para desktop automation</title>
-    <link>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</link>
-    <description>Proyecto trending en GitHub que proporciona infraestructura open-source para agentes que controlan escritorios completos. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar macOS, Linux y Windows de forma autónoma.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=open-source-computer-use-agents-sandboxes-y-sdks-para-deskto</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain introduce agentic patterns con LangGraph para RAG avanzado</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</link>
-    <description>LangChain evoluciona hacia patrones agénticos más sofisticados usando LangGraph para implementar RAG dinámico. Los agentes pueden decidir cuándo recuperar información, validar documentos y usar web fallback, mejorando el manejo de consultas complejas en un 35-50%.</description>
-    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-agentic-patterns-con-langgraph-para-rag-</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

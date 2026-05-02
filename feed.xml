@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Anthropic lanza 9 conectores MCP para herramientas creativas incluyendo Blender y Adobe</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</link>
+    <description>Anthropic ha lanzado 9 nuevos conectores MCP para herramientas creativas: Adobe Creative Cloud, Blender, Autodesk Fusion, Affinity by Canva, Ableton, y otros. Los conectores permiten a Claude interactuar directamente con estas herramientas a través de sus APIs Python y están disponibles para Claude Desktop.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.1 introduce perfiles de modelos y middleware mejorado</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-mej</link>
+    <description>LangChain v1.1.0 añade un sistema de perfiles de modelos que expone capacidades específicas de cada modelo (structured output, function calling, etc.) derivadas de models.dev. El middleware de summarización ahora usa estos perfiles para decidir cuándo y cómo resumir automáticamente.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-mej</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK: Patrones para workflows multi-agente y React Native</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-patrones-para-workflows-multi-agente-y-re</link>
+    <description>GitHub ha publicado guías sobre integración del Copilot SDK en aplicaciones React Native para generar resúmenes de issues con IA, incluyendo patrones de producción para degradación graceful y caching. También introducen patrones de diseño para workflows multi-agente que mantienen inspección y colaboración.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-patrones-para-workflows-multi-agente-y-re</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Holo3: Nuevos modelos frontier para computer-use con 78.9% en OSWorld-Verified</title>
+    <link>https://txemagonzalez.com/post.html?slug=holo3-nuevos-modelos-frontier-para-computer-use-con-78-9-en-</link>
+    <description>H Company ha lanzado Holo3, una serie de modelos especializados en computer-use que logra 78.9% en OSWorld-Verified, superando a GPT-5.4 y Opus 4.6 a un décimo del costo. Los pesos están disponibles en Hugging Face y la API ya está activa.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=holo3-nuevos-modelos-frontier-para-computer-use-con-78-9-en-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>MiniMax lanza M2.1: Modelo abierto optimizado para agentes y desarrollo multilingüe</title>
+    <link>https://txemagonzalez.com/post.html?slug=minimax-lanza-m2-1-modelo-abierto-optimizado-para-agentes-y-</link>
+    <description>MiniMax ha liberado el modelo M2.1 como open source, optimizado específicamente para coding, tool use, instruction following y planificación a largo plazo. El modelo supera a Claude Sonnet 4.5 en escenarios multilingües y es compatible con SGLang, vLLM y Transformers.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=minimax-lanza-m2-1-modelo-abierto-optimizado-para-agentes-y-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con API específica para inferencia y kernels optimizados</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-api-especifica-para-i</link>
+    <description>Hugging Face ha lanzado Transformers v5 con un nuevo comando &apos;transformers serve&apos; que despliega un servidor compatible con la API de OpenAI, soporte para continuous batching y paged attention. La versión incluye kernels especializados que se activan automáticamente según el hardware disponible.</description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-api-especifica-para-i</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>OpenClaw se vuelve viral con 210K stars en GitHub</title>
     <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-con-210k-stars-en-github</link>
     <description>&lt;cite index=&quot;1-1,1-6,1-7&quot;&gt;OpenClaw emerge como el proyecto open source de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a 210,000+ stars en semanas. Creado por el fundador de PSPDFKit Peter Steinberger, permite a expertos de dominio crear aplicaciones AI sofisticadas&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=repositorio-trending-claude-code-quality-guide-mejores-pract</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents Deploy en beta y StateSchema para LangGraph</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-en-beta-y-stateschema-par</link>
-    <description>LangChain presenta Deep Agents deploy como la forma más rápida de desplegar arneses de agentes de código abierto y modelo-agnósticos. Introduce StateSchema compatible con Standard JSON Schema para definición de estado de grafos más limpia.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-en-beta-y-stateschema-par</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Transformers 5.7.0 añade soporte para nuevos modelos multimodales y mejoras en kernels</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-5-7-0-anade-soporte-para-nuevos-modelos-multimo</link>
-    <description>HuggingFace Transformers incluye soporte para EuroBERT multilingüe, VibeVoice ASR, TimesFM 2.5 para series temporales, y mejoras en el comando serve con endpoint /v1/completions. Incluye correcciones importantes en el registro de funciones kernel.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-5-7-0-anade-soporte-para-nuevos-modelos-multimo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic presenta Claude Managed Agents con memoria persistente y sandboxes seguros</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-managed-agents-con-memoria-persist</link>
-    <description>Anthropic lanza su servicio de agentes gestionados con sesiones duraderas, interfaces estables y memoria en beta pública. La plataforma ofrece acceso seguro a herramientas y tiempo de inicio más rápido para tareas de largo horizonte.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-managed-agents-con-memoria-persist</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 con nueva arquitectura de agentes y capacidades multimodales avanzadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-nueva-arquitectura-de-agentes-y-cap</link>
-    <description>OpenAI presenta GPT-5.5 como su modelo más inteligente e intuitivo hasta la fecha, con mejoras significativas en codificación, investigación y análisis de datos. El modelo incluye nuevos precios de API ($5/1M input tokens, $30/1M output tokens) y está optimizado para flujos de trabajo agenticos complejos.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-nueva-arquitectura-de-agentes-y-cap</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Tutorial: Construcción de sistemas RAG de producción en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</link>
-    <description>Guía práctica paso a paso para construir RAG robusto usando LangChain, embeddings de última generación, Chroma/Qdrant como vector stores y evaluación con Ragas. Incluye técnicas de chunking, reranking y monitoreo continuo.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-construccion-de-sistemas-rag-de-produccion-en-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 enfoque completo en PyTorch con optimizaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</link>
-    <description>Nueva versión mayor se enfoca completamente en PyTorch con kernels especializados, mejores defaults, nuevas APIs y soporte para motores de inferencia optimizados. Mejor soporte para pre-entrenamiento y entrenamiento a escala.</description>
-    <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-enfoque-completo-en-pytorch-con</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

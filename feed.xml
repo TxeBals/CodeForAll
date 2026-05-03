@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura agnética para aplicaciones de IA: nueva hoja de ruta para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</link>
+    <description>&lt;cite index=&quot;52-4,52-9,52-10&quot;&gt;Los patrones de diseño agnético son enfoques reutilizables para problemas recurrentes en el diseño de sistemas agnéticos. Ayudan a establecer cómo un agente razona antes de actuar, cómo evalúa sus propias salidas, cómo selecciona y llama herramientas, cómo múltiples agentes dividen responsabilidades y cuándo un humano necesita estar en el ciclo.&lt;/cite&gt; &lt;cite index=&quot;52-1,52-2&quot;&gt;Se recomienda comenzar con el patrón más simple que funcione, agregar complejidad solo cuando sea necesario e invertir fuertemente en observabilidad y evaluación.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>NVIDIA Ising: primeros modelos de IA abiertos para acelerar la computación cuántica</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</link>
+    <description>&lt;cite index=&quot;49-1&quot;&gt;La familia de modelos abiertos NVIDIA Ising ofrece las mejores capacidades de calibración de procesadores cuánticos basadas en IA, así como decodificación de corrección de errores cuánticos que es hasta 2.5x más rápida y 3x más precisa que los enfoques tradicionales.&lt;/cite&gt; &lt;cite index=&quot;49-18,49-19&quot;&gt;Los modelos Ising proporcionan herramientas de IA escalables y de alto rendimiento para corrección de errores cuánticos y calibración, dos de los desafíos más críticos en la construcción de sistemas híbridos cuántico-clásicos.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Mistral AI lanza Mistral 3 con modelos pequeños densos y Large 3 mixture-of-experts</title>
+    <link>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</link>
+    <description>&lt;cite index=&quot;48-3,48-4&quot;&gt;Mistral AI anunció Mistral 3, la próxima generación de modelos Mistral. Incluye tres modelos pequeños y densos de última generación (14B, 8B y 3B) y Mistral Large 3, su modelo más capaz hasta la fecha con 41B parámetros activos y 675B totales.&lt;/cite&gt; &lt;cite index=&quot;48-5,48-18&quot;&gt;Todos los modelos se lanzan bajo licencia Apache 2.0. Mistral Large 3 debuta en el puesto #2 en la categoría de modelos OSS no-reasoning en el leaderboard de LMArena.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el repositorio de GitHub de IA de más rápido crecimiento en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-de-github-de-ia-de-m</link>
+    <description>&lt;cite index=&quot;1-6,1-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en pocos días y ahora supera las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;1-8,1-9&quot;&gt;Permite que expertos de dominio, no solo ingenieros de ML, creen aplicaciones de IA sofisticadas. La barrera de entrada para construir IA de producción nunca ha sido tan baja.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-de-github-de-ia-de-m</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Transformers v5 de Hugging Face adopta PyTorch como framework único con cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-adopta-pytorch-como-framewor</link>
+    <description>&lt;cite index=&quot;22-18,22-19,22-27&quot;&gt;Hugging Face lanzó Transformers v5.0.0rc-0, marcando cinco años desde v4. La librería ahora se instala más de 3 millones de veces diarias y adopta PyTorch como framework único&lt;/cite&gt;, eliminando soporte para TensorFlow y Flax. &lt;cite index=&quot;26-15,26-16&quot;&gt;La cuantización es ahora una característica de primera clase en v5, con compatibilidad total entre todas las funciones principales, apoyando la tendencia creciente de formatos de modelo de baja precisión.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-adopta-pytorch-como-framewor</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 con capacidades avanzadas de programación y uso de computadoras</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-avanzadas-de-programaci</link>
+    <description>&lt;cite index=&quot;47-6,47-7&quot;&gt;OpenAI presentó GPT-5.5 el jueves, su último modelo de IA que mejora significativamente en programación, uso de computadoras y capacidades de investigación profunda. El lanzamiento llega menos de dos meses después de GPT 5.4, mostrando el ritmo vertiginoso de desarrollo en el sector de IA.&lt;/cite&gt; &lt;cite index=&quot;47-11&quot;&gt;GPT-5.5 está disponible para suscriptores de pago de OpenAI incluyendo Plus, Pro, Business y Enterprise en ChatGPT y Codex.&lt;/cite&gt;</description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-avanzadas-de-programaci</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Anthropic lanza 9 conectores MCP para herramientas creativas incluyendo Blender y Adobe</title>
     <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</link>
     <description>Anthropic ha lanzado 9 nuevos conectores MCP para herramientas creativas: Adobe Creative Cloud, Blender, Autodesk Fusion, Affinity by Canva, Ableton, y otros. Los conectores permiten a Claude interactuar directamente con estas herramientas a través de sus APIs Python y están disponibles para Claude Desktop.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;8-1,8-4,8-5&quot;&gt;OpenClaw: Proyecto de código abierto de más rápido crecimiento en GitHub&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-8-1-8-4-8-5-openclaw-proyecto-de-codigo-abierto-d</link>
-    <description>&lt;cite index=&quot;8-7,8-8,8-9&quot;&gt;OpenClaw es un asistente de IA personal que funciona completamente en tus propios dispositivos. Opera como gateway local conectando modelos de IA a más de 50 integraciones, incluyendo WhatsApp, Telegram, Slack, Discord y iMessage. A diferencia de asistentes basados en cloud, tus datos nunca abandonan tu máquina.&lt;/cite&gt; &lt;cite index=&quot;8-5&quot;&gt;Creado por el fundador de PSPDFKit Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en pocos días y ahora supera las 210,000 estrellas.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-8-1-8-4-8-5-openclaw-proyecto-de-codigo-abierto-d</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;31-26,31-27&quot;&gt;LangChain: &apos;Ingeniería Agéntica&apos; de Cisco reduce 93% tiempo de diagnóstico&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-31-26-31-27-langchain-ingenieria-agentica-de-cisc</link>
-    <description>&lt;cite index=&quot;31-26,31-27&quot;&gt;Los ingenieros de Cisco describen lo que llaman &apos;ingeniería agéntica&apos;: un modelo multi-agente construido sobre LangSmith y LangGraph que trata a los agentes como un equipo de ingeniería coordinado. El piloto logró una reducción del 93% en tiempo-hasta-causa-raíz y ahorró más de 200 horas de ingeniería en un solo mes.&lt;/cite&gt; &lt;cite index=&quot;31-16,31-21&quot;&gt;LangSmith ahora incluye más de 30 plantillas de evaluadores para seguridad, calidad de respuesta y salidas multimodales, además de integrar 7,500+ herramientas optimizadas para agentes de Arcade.dev.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-31-26-31-27-langchain-ingenieria-agentica-de-cisc</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;21-7,21-18&quot;&gt;HuggingFace Transformers v5.4.0 incluye Mistral 4 y modelos multimodales&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-21-7-21-18-huggingface-transformers-v5-4-0-incluy</link>
-    <description>&lt;cite index=&quot;21-18,21-19,21-20&quot;&gt;La nueva versión incluye Video Encoder-only Mask Transformer (VidEoMT) para segmentación de video online, construido sobre Vision Transformer. Elimina módulos de tracking dedicados y logra precisión competitiva siendo 5x-10x más rápido que enfoques existentes, ejecutándose hasta 160 FPS.&lt;/cite&gt; &lt;cite index=&quot;21-25,21-26,21-27&quot;&gt;También incluye Jina-Embeddings-v3, modelo de embeddings multilingüe con soporte RoPE para secuencias de hasta 8192 tokens y 5 adaptadores LoRA específicos por tarea.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-21-7-21-18-huggingface-transformers-v5-4-0-incluy</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;17-1,13-18&quot;&gt;OpenAI lanza GPT-5.5 y GPT-5.5 Pro en la API&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-17-1-13-18-openai-lanza-gpt-5-5-y-gpt-5-5-pro-en-</link>
-    <description>&lt;cite index=&quot;17-7,17-8,17-9&quot;&gt;GPT-5.5 comprende objetivos complejos más rápido y puede llevar más trabajo por sí mismo. Excede en escritura, depuración de código, investigación online, análisis de datos y operación de software. En lugar de gestionar cuidadosamente cada paso, puedes darle una tarea desordenada y multipartes y confiar en que planifique, use herramientas y mantenga el rumbo.&lt;/cite&gt; &lt;cite index=&quot;17-11,17-13&quot;&gt;Disponible en APIs a $5 por 1M tokens de entrada y $30 por 1M de salida para GPT-5.5, y $30/$180 para GPT-5.5 Pro.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-17-1-13-18-openai-lanza-gpt-5-5-y-gpt-5-5-pro-en-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Apple MLX optimiza rendimiento para M5 con Neural Accelerators y mejor soporte LLM</title>
-    <link>https://txemagonzalez.com/post.html?slug=apple-mlx-optimiza-rendimiento-para-m5-con-neural-accelerato</link>
-    <description>MLX framework de Apple mejora significativamente el rendimiento en chips M5 con soporte para Neural Accelerators, requiriendo macOS 26.2+. Incluye mejor integración con HuggingFace Hub y optimizaciones para inferencia de modelos grandes en Apple Silicon.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=apple-mlx-optimiza-rendimiento-para-m5-con-neural-accelerato</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Repositorio trending: &apos;claude-code-quality-guide&apos; - Mejores prácticas para desarrollo con Claude</title>
-    <link>https://txemagonzalez.com/post.html?slug=repositorio-trending-claude-code-quality-guide-mejores-pract</link>
-    <description>Repositorio viral con guías derivadas de las observaciones de Andrej Karpathy sobre errores comunes en coding con LLMs. Incluye un archivo CLAUDE.md para mejorar el comportamiento de Claude Code y reducir errores críticos en tareas complejas.</description>
-    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=repositorio-trending-claude-code-quality-guide-mejores-pract</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

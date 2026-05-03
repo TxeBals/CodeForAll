@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</loc><lastmod>2026-05-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</loc><lastmod>2026-05-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</loc><lastmod>2026-05-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-de-github-de-ia-de-m</loc><lastmod>2026-05-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-adopta-pytorch-como-framewor</loc><lastmod>2026-05-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-avanzadas-de-programaci</loc><lastmod>2026-05-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</loc><lastmod>2026-05-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-mej</loc><lastmod>2026-05-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-patrones-para-workflows-multi-agente-y-re</loc><lastmod>2026-05-02</lastmod></url>

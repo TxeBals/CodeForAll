@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG Agentico: La Evolución hacia Sistemas de Inteligencia Autónoma</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</link>
+    <description>Las arquitecturas RAG han evolucionado desde simples sistemas de recuperación hacia frameworks de inteligencia empresarial. El RAG Agentico combina recuperación dinámica con planificación autónoma, permitiendo que los sistemas decidan cuándo y dónde buscar información en workflows complejos multi-paso.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Multiverse Computing Lanza Modelos LittleLamb Ultra-Compactos</title>
+    <link>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</link>
+    <description>Multiverse Computing ha liberado la familia de modelos LittleLamb en Hugging Face, incluyendo variantes de 0.3B parámetros especializadas en uso general, tool-calling, y aplicaciones móviles. Utilizan tecnología de compresión avanzada para deployment en edge.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain LangGraph 1.2: Caché de Nodos y Agentes Diferidos</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</link>
+    <description>LangGraph ha lanzado nuevas funciones en Python y JavaScript incluyendo caché de nodos para evitar computación redundante, nodos diferidos para workflows de map-reduce, y hooks pre/post modelo para controles personalizados en llamadas de modelo.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5: PyTorch-First con Cuantización Nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-con-cuantizacion-</link>
+    <description>Hugging Face ha lanzado Transformers v5 con un enfoque total en PyTorch y soporte nativo de cuantización como ciudadano de primera clase. La biblioteca ha superado los 1.2 mil millones de instalaciones y soporta más de 400 arquitecturas de modelos.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-con-cuantizacion-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente de IA Personal que Funciona Completamente Local</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-personal-que-funciona-completamente</link>
+    <description>OpenClaw se ha convertido en el proyecto de IA de código abierto con el crecimiento más rápido de la historia de GitHub, alcanzando más de 210,000 estrellas. Funciona como un gateway local que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram y iMessage.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-personal-que-funciona-completamente</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI Codex Recibe Soporte Nativo para Amazon Bedrock</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-soporte-nativo-para-amazon-bedrock</link>
+    <description>OpenAI ha lanzado soporte de primera clase para Amazon Bedrock en Codex, su entorno de desarrollo con IA. Incluye autenticación AWS SigV4 y acceso directo a modelos OpenAI desde Bedrock, permitiendo a empresas usar Codex con sus compromisos de AWS Cloud.</description>
+    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-soporte-nativo-para-amazon-bedrock</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura agnética para aplicaciones de IA: nueva hoja de ruta para desarrolladores</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</link>
     <description>&lt;cite index=&quot;52-4,52-9,52-10&quot;&gt;Los patrones de diseño agnético son enfoques reutilizables para problemas recurrentes en el diseño de sistemas agnéticos. Ayudan a establecer cómo un agente razona antes de actuar, cómo evalúa sus propias salidas, cómo selecciona y llama herramientas, cómo múltiples agentes dividen responsabilidades y cuándo un humano necesita estar en el ciclo.&lt;/cite&gt; &lt;cite index=&quot;52-1,52-2&quot;&gt;Se recomienda comenzar con el patrón más simple que funcione, agregar complejidad solo cuando sea necesario e invertir fuertemente en observabilidad y evaluación.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-despliega-en-beta-con-soporte-mcp</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>vLLM añade soporte nativo para gRPC y GPU speculative decoding</title>
-    <link>https://txemagonzalez.com/post.html?slug=vllm-anade-soporte-nativo-para-grpc-y-gpu-speculative-decodi</link>
-    <description>&lt;cite index=&quot;41-36,41-37,48-24,48-25,48-26&quot;&gt;vLLM introduce serving GPU-less, NGram speculative decoding en GPU y scheduler asíncrono por defecto. El scheduler asíncrono reduce time-to-first-token, mejorando la respuesta de agentes con tool calls. Incluye FlashInfer 0.6.6 y soporte para RTX Blackwell&lt;/cite&gt;.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vllm-anade-soporte-nativo-para-grpc-y-gpu-speculative-decodi</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.4.0 añade nuevos modelos multimodales</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-4-0-anade-nuevos-modelos-multim</link>
-    <description>&lt;cite index=&quot;21-7,21-18,21-30,21-32&quot;&gt;Nueva release incluye Mistral 4, VidEoMT para segmentación de video, Jina Embeddings v3 multilingüe y UVDoc para rectificación de documentos. VidEoMT logra 5-10x más velocidad con hasta 160 FPS. Jina v3 soporta hasta 8192 tokens con LoRA adapters especializados&lt;/cite&gt;.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-4-0-anade-nuevos-modelos-multim</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GPT-5.5 llega a la API con soporte de agentes mejorado</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-llega-a-la-api-con-soporte-de-agentes-mejorado</link>
-    <description>&lt;cite index=&quot;19-1,19-4,19-11,19-13&quot;&gt;OpenAI lanza GPT-5.5, su modelo más inteligente, ahora disponible en la API. Cuesta $5 por 1M tokens de entrada y $30 por 1M de salida, con GPT-5.5 Pro a $30/$180. Excelente para codificación, uso de computadora y trabajo de conocimiento&lt;/cite&gt;.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-llega-a-la-api-con-soporte-de-agentes-mejorado</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT Image 1.5 con generación 4x más rápida</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-image-1-5-con-generacion-4x-mas-rapida</link>
-    <description>&lt;cite index=&quot;11-3,11-7,11-18&quot;&gt;OpenAI presenta la nueva versión de ChatGPT Images con su modelo insignia de generación de imágenes. Genera imágenes hasta 4x más rápido y está disponible en la API como GPT Image 1.5. Mejora significativamente la preservación de detalles y la edición precisa de imágenes&lt;/cite&gt;.</description>
-    <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-image-1-5-con-generacion-4x-mas-rapida</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;52-14,52-15,52-16&quot;&gt;Anthropic Claude integra Computer Use en aplicaciones de producción&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</link>
-    <description>&lt;cite index=&quot;52-14,52-15&quot;&gt;Claude puede abrir archivos, ejecutar herramientas de desarrollo, apuntar, hacer clic y navegar por lo que está en tu pantalla para realizar tareas por sí mismo, sin configuración requerida. La nueva capacidad de computer use de Claude hace que Dispatch sea aún más útil al permitirle usar tu computadora en tu nombre mientras estás ausente.&lt;/cite&gt; &lt;cite index=&quot;52-22,52-23&quot;&gt;Sonnet 4.6 presenta una actualización completa de las habilidades del modelo en codificación, computer use, razonamiento de contexto largo, planificación de agentes, trabajo de conocimiento y diseño, con ventana de contexto de 1M tokens en beta.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-52-14-52-15-52-16-anthropic-claude-integra-comput</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>&lt;cite index=&quot;48-3,48-4,48-20&quot;&gt;RAG Adaptativo emerge como mejor práctica en 2026&lt;/cite&gt;</title>
-    <link>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</link>
-    <description>&lt;cite index=&quot;48-3,48-4&quot;&gt;RAG en 2026 no es una sola técnica, es un espectro. Los mejores sistemas de producción usan enrutamiento adaptativo para hacer coincidir la complejidad de consulta con la complejidad del pipeline, manteniendo costos bajos para preguntas simples mientras despliegan el arsenal completo agéntico o basado en grafos para consultas que genuinamente lo necesitan.&lt;/cite&gt; &lt;cite index=&quot;48-20,48-24&quot;&gt;La práctica emergente en 2026 es RAG Adaptativo: un clasificador de consultas enruta cada consulta al pipeline apropiado basado en complejidad, entregando el óptimo balance costo-calidad.&lt;/cite&gt;</description>
-    <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cite-index-48-3-48-4-48-20-rag-adaptativo-emerge-como-mejor-</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

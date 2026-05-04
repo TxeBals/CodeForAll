@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</loc><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</loc><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</loc><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-con-cuantizacion-</loc><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-personal-que-funciona-completamente</loc><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-soporte-nativo-para-amazon-bedrock</loc><lastmod>2026-05-04</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</loc><lastmod>2026-05-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</loc><lastmod>2026-05-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</loc><lastmod>2026-05-03</lastmod></url>

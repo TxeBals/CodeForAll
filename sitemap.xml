@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=nuevos-frameworks-rag-multimodales-para-2026</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-deploy-y-langsmith-fleet</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-como-el-proyecto-ai-de-mas-rapido-cre</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-con-nuevos-modelos-compa</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-y-nuevos-conectores-creativ</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-y-nuevas-funcionalidades-para-desarroll</loc><lastmod>2026-05-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</loc><lastmod>2026-05-04</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</loc><lastmod>2026-05-04</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</loc><lastmod>2026-05-04</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Herramientas de desarrollo con IA más usadas en 2026: Cursor, Claude Code y GitHub Copilot</title>
+    <link>https://txemagonzalez.com/post.html?slug=herramientas-de-desarrollo-con-ia-mas-usadas-en-2026-cursor-</link>
+    <description>&lt;cite index=&quot;42-8,42-9,42-10,42-11,42-14&quot;&gt;Las herramientas principales incluyen GitHub Copilot para generación de código, Claude Code de Anthropic excelente para debugging y razonamiento paso a paso, ChatGPT para aprender conceptos, Google Gemini Code fuerte para optimización, y LangChain/LangGraph como frameworks de orquestación para construir agentes de IA modulares&lt;/cite&gt;. &lt;cite index=&quot;44-22,44-23,44-24&quot;&gt;Cursor es un IDE potenciado por IA bifurcado de VS Code con comprensión profunda de la base de código. Su fortaleza es navegar proyectos grandes, entendiendo dependencias y ofreciendo sugerencias conscientes del archivo&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=herramientas-de-desarrollo-con-ia-mas-usadas-en-2026-cursor-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic presenta 10 agentes de IA para servicios financieros</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-10-agentes-de-ia-para-servicios-financier</link>
+    <description>&lt;cite index=&quot;28-1,28-3,28-4&quot;&gt;Anthropic presentó 10 nuevos agentes de inteligencia artificial enfocados en servicios financieros, diseñados para automatizar las tareas que más tiempo consumen en el espacio de servicios financieros, incluyendo crear pitchbooks y realizar verificaciones KYC&lt;/cite&gt;. &lt;cite index=&quot;28-5,28-6&quot;&gt;Además, Claude ahora funciona con productos empresariales de Microsoft como Excel y PowerPoint. La empresa también expandió sus asociaciones con varias plataformas financieras y de datos&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-10-agentes-de-ia-para-servicios-financier</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Tutorial completo de RAG con LangChain en 13 pasos para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-rag-con-langchain-en-13-pasos-para-2026</link>
+    <description>&lt;cite index=&quot;31-1,31-2,31-15,31-16,31-17&quot;&gt;Tutorial para construir un chatbot RAG con LangChain Python en 13 pasos, cubriendo LCEL, agentes LangGraph, trazado LangSmith y despliegue Docker. Esta guía usa LangChain v1.x con LangChain Expression Language (LCEL) e integración LangGraph. Al final, tendrás un sistema de generación aumentada por recuperación completamente funcional&lt;/cite&gt;. &lt;cite index=&quot;31-23,31-24,31-25&quot;&gt;Usando modelos más pequeños para pasos intermedios puede reducir costos en 50-70% con pérdida mínima de calidad. LangChain soporta caché a través de la función set_llm_cache&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-rag-con-langchain-en-13-pasos-para-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face libera Transformers v5 con enfoque exclusivo en PyTorch</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-con-enfoque-exclusivo-en</link>
+    <description>&lt;cite index=&quot;54-1,54-27,54-28&quot;&gt;Con su lanzamiento v5, transformers está totalmente enfocado en PyTorch. Transformers actúa como fuente de verdad y fundamento para el modelado en el campo, trabajando con el equipo para asegurar buen rendimiento en toda la pila&lt;/cite&gt;. &lt;cite index=&quot;54-12,54-13&quot;&gt;Se instala más de 3 millones de veces cada día vía pip y ha superado los 1.2 mil millones de instalaciones&lt;/cite&gt;. &lt;cite index=&quot;55-4,55-5&quot;&gt;La cuantización es ahora ciudadana de primera clase en v5, con compatibilidad completa entre todas las características principales&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-con-enfoque-exclusivo-en</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw alcanza 210,000 estrellas como el proyecto de IA más trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-el-proyecto-de-ia-ma</link>
+    <description>&lt;cite index=&quot;9-1,9-4,9-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en solo unos días y ahora supera las 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;9-7,9-8,9-9&quot;&gt;Es un asistente de IA personal que funciona completamente en tus dispositivos, operando como un gateway local que conecta modelos de IA con más de 50 integraciones, y tus datos nunca salen de tu máquina&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-el-proyecto-de-ia-ma</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.7 con mejores capacidades de codificación y visión</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-c</link>
+    <description>&lt;cite index=&quot;22-14,22-15,22-16&quot;&gt;Anthropic ha lanzado Claude Opus 4.7, una mejora notable sobre Opus 4.6 en ingeniería de software avanzada, con mejoras particulares en las tareas más difíciles. Los usuarios reportan poder delegar su trabajo de codificación más difícil a Opus 4.7 con confianza&lt;/cite&gt;. &lt;cite index=&quot;22-18,22-19&quot;&gt;El modelo también tiene visión sustancialmente mejor, puede ver imágenes en mayor resolución, es más elegante y creativo al completar tareas profesionales&lt;/cite&gt;.</description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-c</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Nuevos frameworks RAG multimodales para 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevos-frameworks-rag-multimodales-para-2026</link>
     <description>RAG-Anything emerge como framework all-in-one para documentos multimodales, procesando texto, imágenes, tablas y ecuaciones. Frameworks como Haystack y DSPy evolucionan hacia arquitecturas agentic RAG con capacidades de auto-optimización.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Mistral AI lanza Mistral 3 con modelos pequeños densos y Large 3 mixture-of-experts</title>
-    <link>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</link>
-    <description>&lt;cite index=&quot;48-3,48-4&quot;&gt;Mistral AI anunció Mistral 3, la próxima generación de modelos Mistral. Incluye tres modelos pequeños y densos de última generación (14B, 8B y 3B) y Mistral Large 3, su modelo más capaz hasta la fecha con 41B parámetros activos y 675B totales.&lt;/cite&gt; &lt;cite index=&quot;48-5,48-18&quot;&gt;Todos los modelos se lanzan bajo licencia Apache 2.0. Mistral Large 3 debuta en el puesto #2 en la categoría de modelos OSS no-reasoning en el leaderboard de LMArena.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=mistral-ai-lanza-mistral-3-con-modelos-pequenos-densos-y-lar</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el repositorio de GitHub de IA de más rápido crecimiento en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-de-github-de-ia-de-m</link>
-    <description>&lt;cite index=&quot;1-6,1-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger de PSPDFKit, pasó de 9,000 a más de 60,000 estrellas en pocos días y ahora supera las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;1-8,1-9&quot;&gt;Permite que expertos de dominio, no solo ingenieros de ML, creen aplicaciones de IA sofisticadas. La barrera de entrada para construir IA de producción nunca ha sido tan baja.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-repositorio-de-github-de-ia-de-m</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Transformers v5 de Hugging Face adopta PyTorch como framework único con cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-adopta-pytorch-como-framewor</link>
-    <description>&lt;cite index=&quot;22-18,22-19,22-27&quot;&gt;Hugging Face lanzó Transformers v5.0.0rc-0, marcando cinco años desde v4. La librería ahora se instala más de 3 millones de veces diarias y adopta PyTorch como framework único&lt;/cite&gt;, eliminando soporte para TensorFlow y Flax. &lt;cite index=&quot;26-15,26-16&quot;&gt;La cuantización es ahora una característica de primera clase en v5, con compatibilidad total entre todas las funciones principales, apoyando la tendencia creciente de formatos de modelo de baja precisión.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-de-hugging-face-adopta-pytorch-como-framewor</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 con capacidades avanzadas de programación y uso de computadoras</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-avanzadas-de-programaci</link>
-    <description>&lt;cite index=&quot;47-6,47-7&quot;&gt;OpenAI presentó GPT-5.5 el jueves, su último modelo de IA que mejora significativamente en programación, uso de computadoras y capacidades de investigación profunda. El lanzamiento llega menos de dos meses después de GPT 5.4, mostrando el ritmo vertiginoso de desarrollo en el sector de IA.&lt;/cite&gt; &lt;cite index=&quot;47-11&quot;&gt;GPT-5.5 está disponible para suscriptores de pago de OpenAI incluyendo Plus, Pro, Business y Enterprise en ChatGPT y Codex.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-avanzadas-de-programaci</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza 9 conectores MCP para herramientas creativas incluyendo Blender y Adobe</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</link>
-    <description>Anthropic ha lanzado 9 nuevos conectores MCP para herramientas creativas: Adobe Creative Cloud, Blender, Autodesk Fusion, Affinity by Canva, Ableton, y otros. Los conectores permiten a Claude interactuar directamente con estas herramientas a través de sus APIs Python y están disponibles para Claude Desktop.</description>
-    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-9-conectores-mcp-para-herramientas-creativas</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.1 introduce perfiles de modelos y middleware mejorado</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-mej</link>
-    <description>LangChain v1.1.0 añade un sistema de perfiles de modelos que expone capacidades específicas de cada modelo (structured output, function calling, etc.) derivadas de models.dev. El middleware de summarización ahora usa estos perfiles para decidir cuándo y cómo resumir automáticamente.</description>
-    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-1-introduce-perfiles-de-modelos-y-middleware-mej</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

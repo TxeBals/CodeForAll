@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura AI: Guía práctica para sistemas multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-guia-practica-para-sistemas-mult</link>
+    <description>&lt;cite index=&quot;42-6,42-7,42-8&quot;&gt;Los agentes AI han evolucionado de papers de investigación a sistemas de producción. A diferencia de chatbots simples, los sistemas AI agénticos toman acciones autónomas, usan herramientas, mantienen estado y refinan iterativamente sus outputs.&lt;/cite&gt; &lt;cite index=&quot;42-14,42-15,42-16,42-17&quot;&gt;Planifica para fallos. Construye retry, fallback y validación en tu arquitectura desde el inicio. Invierte en observabilidad. No puedes debuggear lo que no puedes ver.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-guia-practica-para-sistemas-mult</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Vercel AI SDK 6 introduce abstracción de Agentes para desarrollo reutilizable</title>
+    <link>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-introduce-abstraccion-de-agentes-para-desarr</link>
+    <description>&lt;cite index=&quot;26-7,26-8,26-9&quot;&gt;AI SDK 6 introduce la abstracción Agent para construir agentes reutilizables. Defines tu agente una vez con su modelo, instrucciones y herramientas, luego lo usas en toda tu aplicación con integración automática al ecosistema completo AI SDK.&lt;/cite&gt; &lt;cite index=&quot;26-1,26-2,26-3&quot;&gt;Con más de 20 millones de descargas mensuales, el AI SDK es el toolkit TypeScript líder para construir aplicaciones AI, proporcionando una API unificada e integrándose con Next.js, React, Svelte, Vue y Node.js.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-introduce-abstraccion-de-agentes-para-desarr</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: El asistente AI personal que revoluciona GitHub en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-que-revoluciona-github-en-</link>
+    <description>&lt;cite index=&quot;11-1,11-4,11-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a más de 60,000 estrellas en días y superando las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;11-7,11-8,11-9&quot;&gt;Es un asistente AI personal que funciona completamente en tus propios dispositivos, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord, sin que tus datos salgan de tu máquina.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-que-revoluciona-github-en-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>OpenAI evoluciona Agents SDK con capacidades avanzadas de sandbox</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-evoluciona-agents-sdk-con-capacidades-avanzadas-de-sa</link>
+    <description>&lt;cite index=&quot;22-7,22-8&quot;&gt;El Agents SDK actualizado incluye memoria configurable, orquestación consciente de sandbox, herramientas de sistema de archivos tipo Codex e integraciones estandarizadas con primitivos comunes en sistemas de agentes frontera.&lt;/cite&gt; &lt;cite index=&quot;22-16,22-17,22-18&quot;&gt;Soporta ejecución de sandbox nativamente, permitiendo a los agentes ejecutar en entornos controlados con archivos, herramientas y dependencias necesarias de forma segura.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-evoluciona-agents-sdk-con-capacidades-avanzadas-de-sa</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework expande capacidades empresariales con multi-agente</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-expande-capacidades-empresariales-</link>
+    <description>&lt;cite index=&quot;23-14,23-15,23-16&quot;&gt;Microsoft Agent Framework es un SDK de código abierto que ofrece capacidades empresariales expandidas y experiencia de desarrollador unificada, habilitando orquestación, despliegue y gobernanza para agentes construidos con cualquier framework o modelo.&lt;/cite&gt; &lt;cite index=&quot;23-1,23-2&quot;&gt;La versión agrega capas de interoperabilidad, sistemas de contexto inteligente, hosting gestionado e integración profunda con Microsoft 365.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-expande-capacidades-empresariales-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>GitHub Agentic Workflows lanza en previsión técnica para automaciones de código</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-lanza-en-prevision-tecnica-para-aut</link>
+    <description>&lt;cite index=&quot;9-14,9-15&quot;&gt;GitHub presenta Agentic Workflows en previsión técnica, permitiendo construir automatizaciones usando agentes de código en GitHub Actions para triage, documentación, calidad de código y más.&lt;/cite&gt; &lt;cite index=&quot;9-12,9-13&quot;&gt;Los flujos están construidos con aislamiento, outputs restringidos y logging comprensivo, con un modelo de seguridad que permite ejecutar agentes de forma segura.&lt;/cite&gt;</description>
+    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-lanza-en-prevision-tecnica-para-aut</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
     <title>Herramientas de desarrollo con IA más usadas en 2026: Cursor, Claude Code y GitHub Copilot</title>
     <link>https://txemagonzalez.com/post.html?slug=herramientas-de-desarrollo-con-ia-mas-usadas-en-2026-cursor-</link>
     <description>&lt;cite index=&quot;42-8,42-9,42-10,42-11,42-14&quot;&gt;Las herramientas principales incluyen GitHub Copilot para generación de código, Claude Code de Anthropic excelente para debugging y razonamiento paso a paso, ChatGPT para aprender conceptos, Google Gemini Code fuerte para optimización, y LangChain/LangGraph como frameworks de orquestación para construir agentes de IA modulares&lt;/cite&gt;. &lt;cite index=&quot;44-22,44-23,44-24&quot;&gt;Cursor es un IDE potenciado por IA bifurcado de VS Code con comprensión profunda de la base de código. Su fortaleza es navegar proyectos grandes, entendiendo dependencias y ofreciendo sugerencias conscientes del archivo&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain LangGraph 1.2: Caché de Nodos y Agentes Diferidos</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</link>
-    <description>LangGraph ha lanzado nuevas funciones en Python y JavaScript incluyendo caché de nodos para evitar computación redundante, nodos diferidos para workflows de map-reduce, y hooks pre/post modelo para controles personalizados en llamadas de modelo.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-langgraph-1-2-cache-de-nodos-y-agentes-diferidos</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5: PyTorch-First con Cuantización Nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-con-cuantizacion-</link>
-    <description>Hugging Face ha lanzado Transformers v5 con un enfoque total en PyTorch y soporte nativo de cuantización como ciudadano de primera clase. La biblioteca ha superado los 1.2 mil millones de instalaciones y soporta más de 400 arquitecturas de modelos.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-first-con-cuantizacion-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente de IA Personal que Funciona Completamente Local</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-personal-que-funciona-completamente</link>
-    <description>OpenClaw se ha convertido en el proyecto de IA de código abierto con el crecimiento más rápido de la historia de GitHub, alcanzando más de 210,000 estrellas. Funciona como un gateway local que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram y iMessage.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-personal-que-funciona-completamente</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI Codex Recibe Soporte Nativo para Amazon Bedrock</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-soporte-nativo-para-amazon-bedrock</link>
-    <description>OpenAI ha lanzado soporte de primera clase para Amazon Bedrock en Codex, su entorno de desarrollo con IA. Incluye autenticación AWS SigV4 y acceso directo a modelos OpenAI desde Bedrock, permitiendo a empresas usar Codex con sus compromisos de AWS Cloud.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-codex-recibe-soporte-nativo-para-amazon-bedrock</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura agnética para aplicaciones de IA: nueva hoja de ruta para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</link>
-    <description>&lt;cite index=&quot;52-4,52-9,52-10&quot;&gt;Los patrones de diseño agnético son enfoques reutilizables para problemas recurrentes en el diseño de sistemas agnéticos. Ayudan a establecer cómo un agente razona antes de actuar, cómo evalúa sus propias salidas, cómo selecciona y llama herramientas, cómo múltiples agentes dividen responsabilidades y cuándo un humano necesita estar en el ciclo.&lt;/cite&gt; &lt;cite index=&quot;52-1,52-2&quot;&gt;Se recomienda comenzar con el patrón más simple que funcione, agregar complejidad solo cuando sea necesario e invertir fuertemente en observabilidad y evaluación.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agnetica-para-aplicaciones-de-ia-nu</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>NVIDIA Ising: primeros modelos de IA abiertos para acelerar la computación cuántica</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</link>
-    <description>&lt;cite index=&quot;49-1&quot;&gt;La familia de modelos abiertos NVIDIA Ising ofrece las mejores capacidades de calibración de procesadores cuánticos basadas en IA, así como decodificación de corrección de errores cuánticos que es hasta 2.5x más rápida y 3x más precisa que los enfoques tradicionales.&lt;/cite&gt; &lt;cite index=&quot;49-18,49-19&quot;&gt;Los modelos Ising proporcionan herramientas de IA escalables y de alto rendimiento para corrección de errores cuánticos y calibración, dos de los desafíos más críticos en la construcción de sistemas híbridos cuántico-clásicos.&lt;/cite&gt;</description>
-    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-ising-primeros-modelos-de-ia-abiertos-para-acelerar-l</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Nuevos papers en ArXiv exploran agentes matemáticos y arquitecturas agentic</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-exploran-agentes-matematicos-y-arquit</link>
+    <description>Investigadores publican avances en &apos;AI Co-Mathematician&apos; para acelerar investigación matemática y &apos;Lifting Traces to Logic&apos; para aprendizaje neuro-simbólico en tareas agentic de largo horizonte. Los papers abordan capacidades reasoning avanzadas para agentes autónomos.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-exploran-agentes-matematicos-y-arquit</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Gemini 3.1 Flash-Lite ofrece inferencia sub-50ms a $0.25 por millón de tokens</title>
+    <link>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-lite-ofrece-inferencia-sub-50ms-a-0-25-por-</link>
+    <description>Google lanzó Gemini 3.1 Flash-Lite optimizado para velocidad con latencia bajo 50ms y ventana de contexto de 1M tokens. El modelo está diseñado para cargas de trabajo API de alto volumen con costos significativamente reducidos comparado con alternativas.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-lite-ofrece-inferencia-sub-50ms-a-0-25-por-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic MCP alcanza 97 millones de instalaciones como estándar de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-mcp-alcanza-97-millones-de-instalaciones-como-esta</link>
+    <description>El Model Context Protocol (MCP) de Anthropic se convirtió en infraestructura fundamental para agentes IA en 2026, con 97M instalaciones. El protocolo permite conectar agentes a herramientas externas de forma estandarizada, complementando el ecosistema Claude Skills.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-mcp-alcanza-97-millones-de-instalaciones-como-esta</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>NVIDIA lanza Nemotron 3 y nuevos frameworks para IA física y cuántica</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-y-nuevos-frameworks-para-ia-fisica-y</link>
+    <description>NVIDIA anunció Nemotron 3 para speech y RAG multimodal, junto con Ising para computación cuántica y AlpaSim para vehículos autónomos. La compañía liberó 10 trillones de tokens de entrenamiento y 500k trayectorias robóticas como datasets open source.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-y-nuevos-frameworks-para-ia-fisica-y</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw supera 250k estrellas en GitHub como framework líder de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-250k-estrellas-en-github-como-framework-lide</link>
+    <description>El framework de agentes autónomos OpenClaw (antes Clawdbot) se convirtió en el proyecto de código abierto de más rápido crecimiento en GitHub, permitiendo asistentes IA persistentes que funcionan 24/7 con integración a más de 50 plataformas de mensajería y servicios.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-250k-estrellas-en-github-como-framework-lide</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>GPT-5.5 y Anthropic Claude Code Channels transforman el desarrollo de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-y-anthropic-claude-code-channels-transforman-el-desa</link>
+    <description>OpenAI lanzó GPT-5.5 con mejores capacidades de codificación y uso de computadores, mientras que Anthropic lanzó Claude Code Channels que permite mensajería directa desde Discord y Telegram, compitiendo directamente con OpenClaw. Estas novedades redefinen la experiencia de desarrollo con IA autónoma.</description>
+    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-y-anthropic-claude-code-channels-transforman-el-desa</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura AI: Guía práctica para sistemas multi-agente</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-guia-practica-para-sistemas-mult</link>
     <description>&lt;cite index=&quot;42-6,42-7,42-8&quot;&gt;Los agentes AI han evolucionado de papers de investigación a sistemas de producción. A diferencia de chatbots simples, los sistemas AI agénticos toman acciones autónomas, usan herramientas, mantienen estado y refinan iterativamente sus outputs.&lt;/cite&gt; &lt;cite index=&quot;42-14,42-15,42-16,42-17&quot;&gt;Planifica para fallos. Construye retry, fallback y validación en tu arquitectura desde el inicio. Invierte en observabilidad. No puedes debuggear lo que no puedes ver.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-deploy-y-langsmith-fleet</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw domina GitHub como el proyecto AI de más rápido crecimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-como-el-proyecto-ai-de-mas-rapido-cre</link>
-    <description>OpenClaw, asistente AI local que corre en dispositivos propios, alcanzó 210,000+ estrellas en GitHub. Funciona como gateway local conectando modelos AI a 50+ integraciones incluyendo WhatsApp, Slack, Discord, manteniendo privacidad total.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-como-el-proyecto-ai-de-mas-rapido-cre</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face actualiza Transformers con nuevos modelos compactos</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-con-nuevos-modelos-compa</link>
-    <description>Nueva release de Transformers incluye LittleLamb 0.3B optimizado para edge computing, DEIMv2 para detección de objetos en tiempo real, y Qianfan-OCR para inteligencia de documentos. Soporte mejorado para quantización GGUF.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-con-nuevos-modelos-compa</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic expande Claude con MCP y nuevos conectores creativos</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-y-nuevos-conectores-creativ</link>
-    <description>Claude integra conectores para Blender, Autodesk Fusion, SketchUp y otras herramientas creativas via MCP. Claude Code obtiene mejoras en manejo de PRs, configuración de Bedrock, y mejor integración con OpenTelemetry para logging.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-y-nuevos-conectores-creativ</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 y nuevas funcionalidades para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-y-nuevas-funcionalidades-para-desarroll</link>
-    <description>OpenAI ha introducido GPT-5.5 con contexto de 1M tokens, mejores capacidades de agentes, soporte nativo para MCP, computer use integrado, y GPT Image 2 para generación de imágenes avanzada. Incluye nuevos SDKs para Go y Java en beta.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-y-nuevas-funcionalidades-para-desarroll</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>RAG Agentico: La Evolución hacia Sistemas de Inteligencia Autónoma</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</link>
-    <description>Las arquitecturas RAG han evolucionado desde simples sistemas de recuperación hacia frameworks de inteligencia empresarial. El RAG Agentico combina recuperación dinámica con planificación autónoma, permitiendo que los sistemas decidan cuándo y dónde buscar información en workflows complejos multi-paso.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-la-evolucion-hacia-sistemas-de-inteligencia-aut</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Multiverse Computing Lanza Modelos LittleLamb Ultra-Compactos</title>
-    <link>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</link>
-    <description>Multiverse Computing ha liberado la familia de modelos LittleLamb en Hugging Face, incluyendo variantes de 0.3B parámetros especializadas en uso general, tool-calling, y aplicaciones móviles. Utilizan tecnología de compresión avanzada para deployment en edge.</description>
-    <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=multiverse-computing-lanza-modelos-littlelamb-ultra-compacto</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

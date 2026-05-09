@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Buenas prácticas para desarrollo AI: 10 reglas esenciales según nuevo paper de arXiv</title>
+    <link>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</link>
+    <description>&lt;cite index=&quot;41-1,41-4&quot;&gt;Nuevo paper de arXiv presenta diez reglas prácticas para coding asistido por AI que balance el aprovechamiento de capacidades con rigor metodológico&lt;/cite&gt;. &lt;cite index=&quot;41-5&quot;&gt;Aborda preparación de problemas, manejo de contexto, testing y mejora iterativa&lt;/cite&gt;.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Google actualiza Gemini con nuevos modelos especializados para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-actualiza-gemini-con-nuevos-modelos-especializados-pa</link>
+    <description>&lt;cite index=&quot;8-3,8-7&quot;&gt;Gemini 2.0 Flash para tareas multimodales cost-efectivas y Gemini 3.1 Pro optimizado para workflows agenticos complejos y coding&lt;/cite&gt;. &lt;cite index=&quot;8-8&quot;&gt;Incluye capacidades de pensamiento adaptativo y ventana de contexto de 1M tokens&lt;/cite&gt;.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-actualiza-gemini-con-nuevos-modelos-especializados-pa</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic presenta Claude Mythos Preview con capacidades avanzadas de ciberseguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-mythos-preview-con-capacidades-ava</link>
+    <description>&lt;cite index=&quot;40-8,40-9&quot;&gt;Claude Mythos Preview es un modelo frontier no lanzado que puede encontrar miles de vulnerabilidades de alta severidad&lt;/cite&gt;, incluyendo algunas en todos los sistemas operativos principales. &lt;cite index=&quot;40-16&quot;&gt;Las vulnerabilidades que detecta han sobrevivido décadas de revisión humana&lt;/cite&gt;.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-mythos-preview-con-capacidades-ava</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza ML Intern, agente AI que supera a Claude Code en benchmarks científicos</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-ml-intern-agente-ai-que-supera-a-claude-c</link>
+    <description>&lt;cite index=&quot;32-1,32-4&quot;&gt;Hugging Face lanza ML Intern, un agente AI open-source que investiga papers autónomamente y supera a Claude Code de Anthropic&lt;/cite&gt;. &lt;cite index=&quot;32-6,32-8&quot;&gt;El agente utiliza arXiv, datasets de HF y ejecuta hasta 300 iteraciones por tarea&lt;/cite&gt;.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-ml-intern-agente-ai-que-supera-a-claude-c</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>NVIDIA lanza Ising, los primeros modelos AI cuánticos open-source del mundo para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-ising-los-primeros-modelos-ai-cuanticos-open-so</link>
+    <description>&lt;cite index=&quot;7-4&quot;&gt;NVIDIA anuncia la primera familia de modelos AI cuánticos de código abierto&lt;/cite&gt; diseñados para ayudar a investigadores y empresas a construir procesadores cuánticos funcionales. &lt;cite index=&quot;7-2&quot;&gt;Los modelos Ising ofrecen las mejores capacidades de calibración de procesadores cuánticos basadas en AI&lt;/cite&gt;.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-ising-los-primeros-modelos-ai-cuanticos-open-so</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw supera las 250k estrellas en GitHub convirtiéndose en el agente AI viral más exitoso del 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-las-250k-estrellas-en-github-convirtiendose-</link>
+    <description>&lt;cite index=&quot;15-1,15-5&quot;&gt;OpenClaw surge de 9,000 a más de 250,000 estrellas en GitHub&lt;/cite&gt;, superando proyectos como React. Este &lt;cite index=&quot;51-1,51-3&quot;&gt;asistente AI personal que funciona en tus propios dispositivos&lt;/cite&gt; se integra con WhatsApp, Telegram y Discord para automatizar tareas complejas.</description>
+    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-las-250k-estrellas-en-github-convirtiendose-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Nuevos papers en ArXiv exploran agentes matemáticos y arquitecturas agentic</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-exploran-agentes-matematicos-y-arquit</link>
     <description>Investigadores publican avances en &apos;AI Co-Mathematician&apos; para acelerar investigación matemática y &apos;Lifting Traces to Logic&apos; para aprendizaje neuro-simbólico en tareas agentic de largo horizonte. Los papers abordan capacidades reasoning avanzadas para agentes autónomos.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;28-1,28-3,28-4&quot;&gt;Anthropic presentó 10 nuevos agentes de inteligencia artificial enfocados en servicios financieros, diseñados para automatizar las tareas que más tiempo consumen en el espacio de servicios financieros, incluyendo crear pitchbooks y realizar verificaciones KYC&lt;/cite&gt;. &lt;cite index=&quot;28-5,28-6&quot;&gt;Además, Claude ahora funciona con productos empresariales de Microsoft como Excel y PowerPoint. La empresa también expandió sus asociaciones con varias plataformas financieras y de datos&lt;/cite&gt;.</description>
     <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-10-agentes-de-ia-para-servicios-financier</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Tutorial completo de RAG con LangChain en 13 pasos para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-rag-con-langchain-en-13-pasos-para-2026</link>
-    <description>&lt;cite index=&quot;31-1,31-2,31-15,31-16,31-17&quot;&gt;Tutorial para construir un chatbot RAG con LangChain Python en 13 pasos, cubriendo LCEL, agentes LangGraph, trazado LangSmith y despliegue Docker. Esta guía usa LangChain v1.x con LangChain Expression Language (LCEL) e integración LangGraph. Al final, tendrás un sistema de generación aumentada por recuperación completamente funcional&lt;/cite&gt;. &lt;cite index=&quot;31-23,31-24,31-25&quot;&gt;Usando modelos más pequeños para pasos intermedios puede reducir costos en 50-70% con pérdida mínima de calidad. LangChain soporta caché a través de la función set_llm_cache&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-rag-con-langchain-en-13-pasos-para-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face libera Transformers v5 con enfoque exclusivo en PyTorch</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-con-enfoque-exclusivo-en</link>
-    <description>&lt;cite index=&quot;54-1,54-27,54-28&quot;&gt;Con su lanzamiento v5, transformers está totalmente enfocado en PyTorch. Transformers actúa como fuente de verdad y fundamento para el modelado en el campo, trabajando con el equipo para asegurar buen rendimiento en toda la pila&lt;/cite&gt;. &lt;cite index=&quot;54-12,54-13&quot;&gt;Se instala más de 3 millones de veces cada día vía pip y ha superado los 1.2 mil millones de instalaciones&lt;/cite&gt;. &lt;cite index=&quot;55-4,55-5&quot;&gt;La cuantización es ahora ciudadana de primera clase en v5, con compatibilidad completa entre todas las características principales&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-libera-transformers-v5-con-enfoque-exclusivo-en</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw alcanza 210,000 estrellas como el proyecto de IA más trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-el-proyecto-de-ia-ma</link>
-    <description>&lt;cite index=&quot;9-1,9-4,9-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub. Creado por Peter Steinberger, creció de 9,000 a más de 60,000 estrellas en solo unos días y ahora supera las 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;9-7,9-8,9-9&quot;&gt;Es un asistente de IA personal que funciona completamente en tus dispositivos, operando como un gateway local que conecta modelos de IA con más de 50 integraciones, y tus datos nunca salen de tu máquina&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210-000-estrellas-como-el-proyecto-de-ia-ma</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.7 con mejores capacidades de codificación y visión</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-c</link>
-    <description>&lt;cite index=&quot;22-14,22-15,22-16&quot;&gt;Anthropic ha lanzado Claude Opus 4.7, una mejora notable sobre Opus 4.6 en ingeniería de software avanzada, con mejoras particulares en las tareas más difíciles. Los usuarios reportan poder delegar su trabajo de codificación más difícil a Opus 4.7 con confianza&lt;/cite&gt;. &lt;cite index=&quot;22-18,22-19&quot;&gt;El modelo también tiene visión sustancialmente mejor, puede ver imágenes en mayor resolución, es más elegante y creativo al completar tareas profesionales&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejores-capacidades-de-c</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Nuevos frameworks RAG multimodales para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevos-frameworks-rag-multimodales-para-2026</link>
-    <description>RAG-Anything emerge como framework all-in-one para documentos multimodales, procesando texto, imágenes, tablas y ecuaciones. Frameworks como Haystack y DSPy evolucionan hacia arquitecturas agentic RAG con capacidades de auto-optimización.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevos-frameworks-rag-multimodales-para-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain presenta Deep Agents Deploy y LangSmith Fleet</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-deploy-y-langsmith-fleet</link>
-    <description>LangChain lanza Deep Agents Deploy para deployment con un comando, Agent Builder con lenguaje natural, y LangSmith Fleet (antes Agent Builder) con identidad de agentes, permisos y sharing. Nuevas capacidades de streaming v3 y evaluadores pre-built.</description>
-    <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-presenta-deep-agents-deploy-y-langsmith-fleet</guid>
     <category>AGENTES</category>
   </item>
 </channel>

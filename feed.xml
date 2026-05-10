@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Nuevas tendencias en bases de datos vectoriales: más allá del RAG tradicional</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</link>
+    <description>&lt;cite index=&quot;54-6,54-12,60-1&quot;&gt;El ecosistema de bases de datos vectoriales evoluciona hacia memoria contextual agéntica mientras RAG tradicional enfrenta limitaciones para cargas de trabajo agénticas complejas&lt;/cite&gt;. Las soluciones híbridas combinan PostgreSQL con capacidades vectoriales especializadas.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RAGFlow se posiciona como motor RAG líder con capacidades de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-se-posiciona-como-motor-rag-lider-con-capacidades-de</link>
+    <description>&lt;cite index=&quot;6-2&quot;&gt;RAGFlow se establece como motor RAG open-source líder que fusiona técnicas RAG de vanguardia con capacidades de agentes para crear una capa de contexto superior para LLMs&lt;/cite&gt;. Incluye características como búsqueda agéntica y recuperación agéntica de información.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-se-posiciona-como-motor-rag-lider-con-capacidades-de</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic actualiza Claude Code con MCP, OAuth y nuevas capacidades de IA Realtime</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-mcp-oauth-y-nuevas-capac</link>
+    <description>&lt;cite index=&quot;18-2,18-3,42-1&quot;&gt;Anthropic lanza gpt-realtime, su modelo speech-to-speech más avanzado, junto con API Realtime generalmente disponible con soporte para servidores MCP remotos, inputs de imagen y llamadas telefónicas SIP&lt;/cite&gt;. Claude Code recibe mejoras en OAuth, gestión de proyectos y mejor integración MCP.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-mcp-oauth-y-nuevas-capac</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain introduce LangSmith Fleet y agentes durables con LangGraph</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-agentes-durables-con-l</link>
+    <description>&lt;cite index=&quot;31-7,31-8,34-1&quot;&gt;LangChain renombra Agent Builder a LangSmith Fleet y LangGraph alcanza su primera versión estable mayor en el espacio de frameworks de agentes durables&lt;/cite&gt;. El sistema permite que los agentes sobrevivan reinicios del servidor manteniendo estado persistente.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-agentes-durables-con-l</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 lanza arquitectura modular simplificada</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-lanza-arquitectura-modular-simp</link>
+    <description>&lt;cite index=&quot;25-12,25-13&quot;&gt;Hugging Face lanza Transformers v5.0.0rc-0 después de 5 años de desarrollo, ahora con más de 3 millones de instalaciones diarias y soporte para más de 400 arquitecturas de modelos&lt;/cite&gt;. La nueva versión adopta una aproximación completamente centrada en PyTorch con refactorización modular completa.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-lanza-arquitectura-modular-simp</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 con mejoras significativas en precisión y personalización</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-significativas-en-precision</link>
+    <description>&lt;cite index=&quot;11-1,12-28&quot;&gt;OpenAI introduce GPT-5.5 como nuevo modelo por defecto con capacidades avanzadas para trabajo complejo profesional, incluye ventana de contexto de 1M tokens, soporte para imágenes, function calling, y reducción de 52.5% en alucinaciones&lt;/cite&gt;. El modelo está disponible tanto en Chat Completions como en la nueva Responses API.</description>
+    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-significativas-en-precision</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Buenas prácticas para desarrollo AI: 10 reglas esenciales según nuevo paper de arXiv</title>
     <link>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</link>
     <description>&lt;cite index=&quot;41-1,41-4&quot;&gt;Nuevo paper de arXiv presenta diez reglas prácticas para coding asistido por AI que balance el aprovechamiento de capacidades con rigor metodológico&lt;/cite&gt;. &lt;cite index=&quot;41-5&quot;&gt;Aborda preparación de problemas, manejo de contexto, testing y mejora iterativa&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-introduce-abstraccion-de-agentes-para-desarr</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: El asistente AI personal que revoluciona GitHub en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-que-revoluciona-github-en-</link>
-    <description>&lt;cite index=&quot;11-1,11-4,11-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a más de 60,000 estrellas en días y superando las 210,000 estrellas.&lt;/cite&gt; &lt;cite index=&quot;11-7,11-8,11-9&quot;&gt;Es un asistente AI personal que funciona completamente en tus propios dispositivos, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord, sin que tus datos salgan de tu máquina.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-asistente-ai-personal-que-revoluciona-github-en-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>OpenAI evoluciona Agents SDK con capacidades avanzadas de sandbox</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-evoluciona-agents-sdk-con-capacidades-avanzadas-de-sa</link>
-    <description>&lt;cite index=&quot;22-7,22-8&quot;&gt;El Agents SDK actualizado incluye memoria configurable, orquestación consciente de sandbox, herramientas de sistema de archivos tipo Codex e integraciones estandarizadas con primitivos comunes en sistemas de agentes frontera.&lt;/cite&gt; &lt;cite index=&quot;22-16,22-17,22-18&quot;&gt;Soporta ejecución de sandbox nativamente, permitiendo a los agentes ejecutar en entornos controlados con archivos, herramientas y dependencias necesarias de forma segura.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-evoluciona-agents-sdk-con-capacidades-avanzadas-de-sa</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework expande capacidades empresariales con multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-expande-capacidades-empresariales-</link>
-    <description>&lt;cite index=&quot;23-14,23-15,23-16&quot;&gt;Microsoft Agent Framework es un SDK de código abierto que ofrece capacidades empresariales expandidas y experiencia de desarrollador unificada, habilitando orquestación, despliegue y gobernanza para agentes construidos con cualquier framework o modelo.&lt;/cite&gt; &lt;cite index=&quot;23-1,23-2&quot;&gt;La versión agrega capas de interoperabilidad, sistemas de contexto inteligente, hosting gestionado e integración profunda con Microsoft 365.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-expande-capacidades-empresariales-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>GitHub Agentic Workflows lanza en previsión técnica para automaciones de código</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-lanza-en-prevision-tecnica-para-aut</link>
-    <description>&lt;cite index=&quot;9-14,9-15&quot;&gt;GitHub presenta Agentic Workflows en previsión técnica, permitiendo construir automatizaciones usando agentes de código en GitHub Actions para triage, documentación, calidad de código y más.&lt;/cite&gt; &lt;cite index=&quot;9-12,9-13&quot;&gt;Los flujos están construidos con aislamiento, outputs restringidos y logging comprensivo, con un modelo de seguridad que permite ejecutar agentes de forma segura.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-agentic-workflows-lanza-en-prevision-tecnica-para-aut</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Herramientas de desarrollo con IA más usadas en 2026: Cursor, Claude Code y GitHub Copilot</title>
-    <link>https://txemagonzalez.com/post.html?slug=herramientas-de-desarrollo-con-ia-mas-usadas-en-2026-cursor-</link>
-    <description>&lt;cite index=&quot;42-8,42-9,42-10,42-11,42-14&quot;&gt;Las herramientas principales incluyen GitHub Copilot para generación de código, Claude Code de Anthropic excelente para debugging y razonamiento paso a paso, ChatGPT para aprender conceptos, Google Gemini Code fuerte para optimización, y LangChain/LangGraph como frameworks de orquestación para construir agentes de IA modulares&lt;/cite&gt;. &lt;cite index=&quot;44-22,44-23,44-24&quot;&gt;Cursor es un IDE potenciado por IA bifurcado de VS Code con comprensión profunda de la base de código. Su fortaleza es navegar proyectos grandes, entendiendo dependencias y ofreciendo sugerencias conscientes del archivo&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=herramientas-de-desarrollo-con-ia-mas-usadas-en-2026-cursor-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic presenta 10 agentes de IA para servicios financieros</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-10-agentes-de-ia-para-servicios-financier</link>
-    <description>&lt;cite index=&quot;28-1,28-3,28-4&quot;&gt;Anthropic presentó 10 nuevos agentes de inteligencia artificial enfocados en servicios financieros, diseñados para automatizar las tareas que más tiempo consumen en el espacio de servicios financieros, incluyendo crear pitchbooks y realizar verificaciones KYC&lt;/cite&gt;. &lt;cite index=&quot;28-5,28-6&quot;&gt;Además, Claude ahora funciona con productos empresariales de Microsoft como Excel y PowerPoint. La empresa también expandió sus asociaciones con varias plataformas financieras y de datos&lt;/cite&gt;.</description>
-    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-10-agentes-de-ia-para-servicios-financier</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

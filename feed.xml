@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura RAG 2026: guía completa de mejores prácticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</link>
+    <description>Guía exhaustiva de arquitecturas RAG para 2026, cubriendo desde patrones naive hasta GraphRAG y sistemas agénticos. Incluye estrategias de chunking, re-ranking, evaluación y optimización de costos. Enfoque en producción con casos de uso empresariales.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>RAGFlow emerge como motor RAG de código abierto con capacidades de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-emerge-como-motor-rag-de-codigo-abierto-con-capacida</link>
+    <description>RAGFlow se posiciona como motor líder de Generación Aumentada por Recuperación combinando RAG avanzado con capacidades de agentes. Ofrece gestión de contexto, búsqueda agéntica y arquitecturas multi-modales para aplicaciones empresariales con datos heterogéneos.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-emerge-como-motor-rag-de-codigo-abierto-con-capacida</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic amplía límites de uso de Claude y presenta Managed Agents con &apos;Dreaming&apos;</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-amplia-limites-de-uso-de-claude-y-presenta-managed</link>
+    <description>Anthropic duplica límites de Claude Code, elimina reducciones en horas pico e introduce tres funciones en Managed Agents: &apos;Dreaming&apos; para auto-mejora, orquestación multi-agente y mejoras de memoria. Acuerdo de cómputo con SpaceX añade 300MW de capacidad.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-amplia-limites-de-uso-de-claude-y-presenta-managed</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.8.0 incluye modelos multimodales Laguna y DEIMv2</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-8-0-incluye-modelos-multimodale</link>
+    <description>Hugging Face actualiza Transformers con nuevos modelos: Laguna MoE de Poolside con arquitectura innovadora, DEIMv2 para detección de objetos en tiempo real y Granite Vision 4.1 de IBM para extracción empresarial de documentos. Mejoras en el comando &apos;serve&apos; para endpoints multimodales.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-8-0-incluye-modelos-multimodale</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain Agent Builder integra herramientas centralizadas y memoria mejorada</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-agent-builder-integra-herramientas-centralizadas-y</link>
+    <description>LangChain lanza una actualización importante de Agent Builder con chat centralizado, conversión one-click de conversación a agente, registro unificado de herramientas y memoria persistente usando archivos Markdown y JSON. Interrupt 2026 programado para mayo en San Francisco.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-agent-builder-integra-herramientas-centralizadas-y</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-Realtime-2 para aplicaciones de voz inteligentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-realtime-2-para-aplicaciones-de-voz-intelig</link>
+    <description>OpenAI presenta tres nuevos modelos de voz en tiempo real: GPT-Realtime-2 con razonamiento GPT-5, GPT-Realtime-Translate para 70+ idiomas y GPT-Realtime-Whisper para transcripción streaming. Disponibles a través de la API Realtime con precios por tokens y por minuto.</description>
+    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-realtime-2-para-aplicaciones-de-voz-intelig</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Nuevas tendencias en bases de datos vectoriales: más allá del RAG tradicional</title>
     <link>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</link>
     <description>&lt;cite index=&quot;54-6,54-12,60-1&quot;&gt;El ecosistema de bases de datos vectoriales evoluciona hacia memoria contextual agéntica mientras RAG tradicional enfrenta limitaciones para cargas de trabajo agénticas complejas&lt;/cite&gt;. Las soluciones híbridas combinan PostgreSQL con capacidades vectoriales especializadas.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-lite-ofrece-inferencia-sub-50ms-a-0-25-por-</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic MCP alcanza 97 millones de instalaciones como estándar de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-mcp-alcanza-97-millones-de-instalaciones-como-esta</link>
-    <description>El Model Context Protocol (MCP) de Anthropic se convirtió en infraestructura fundamental para agentes IA en 2026, con 97M instalaciones. El protocolo permite conectar agentes a herramientas externas de forma estandarizada, complementando el ecosistema Claude Skills.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-mcp-alcanza-97-millones-de-instalaciones-como-esta</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>NVIDIA lanza Nemotron 3 y nuevos frameworks para IA física y cuántica</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-y-nuevos-frameworks-para-ia-fisica-y</link>
-    <description>NVIDIA anunció Nemotron 3 para speech y RAG multimodal, junto con Ising para computación cuántica y AlpaSim para vehículos autónomos. La compañía liberó 10 trillones de tokens de entrenamiento y 500k trayectorias robóticas como datasets open source.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-nemotron-3-y-nuevos-frameworks-para-ia-fisica-y</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw supera 250k estrellas en GitHub como framework líder de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-250k-estrellas-en-github-como-framework-lide</link>
-    <description>El framework de agentes autónomos OpenClaw (antes Clawdbot) se convirtió en el proyecto de código abierto de más rápido crecimiento en GitHub, permitiendo asistentes IA persistentes que funcionan 24/7 con integración a más de 50 plataformas de mensajería y servicios.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-250k-estrellas-en-github-como-framework-lide</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>GPT-5.5 y Anthropic Claude Code Channels transforman el desarrollo de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-y-anthropic-claude-code-channels-transforman-el-desa</link>
-    <description>OpenAI lanzó GPT-5.5 con mejores capacidades de codificación y uso de computadores, mientras que Anthropic lanzó Claude Code Channels que permite mensajería directa desde Discord y Telegram, compitiendo directamente con OpenClaw. Estas novedades redefinen la experiencia de desarrollo con IA autónoma.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-y-anthropic-claude-code-channels-transforman-el-desa</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura AI: Guía práctica para sistemas multi-agente</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-guia-practica-para-sistemas-mult</link>
-    <description>&lt;cite index=&quot;42-6,42-7,42-8&quot;&gt;Los agentes AI han evolucionado de papers de investigación a sistemas de producción. A diferencia de chatbots simples, los sistemas AI agénticos toman acciones autónomas, usan herramientas, mantienen estado y refinan iterativamente sus outputs.&lt;/cite&gt; &lt;cite index=&quot;42-14,42-15,42-16,42-17&quot;&gt;Planifica para fallos. Construye retry, fallback y validación en tu arquitectura desde el inicio. Invierte en observabilidad. No puedes debuggear lo que no puedes ver.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-guia-practica-para-sistemas-mult</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Vercel AI SDK 6 introduce abstracción de Agentes para desarrollo reutilizable</title>
-    <link>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-introduce-abstraccion-de-agentes-para-desarr</link>
-    <description>&lt;cite index=&quot;26-7,26-8,26-9&quot;&gt;AI SDK 6 introduce la abstracción Agent para construir agentes reutilizables. Defines tu agente una vez con su modelo, instrucciones y herramientas, luego lo usas en toda tu aplicación con integración automática al ecosistema completo AI SDK.&lt;/cite&gt; &lt;cite index=&quot;26-1,26-2,26-3&quot;&gt;Con más de 20 millones de descargas mensuales, el AI SDK es el toolkit TypeScript líder para construir aplicaciones AI, proporcionando una API unificada e integrándose con Next.js, React, Svelte, Vue y Node.js.&lt;/cite&gt;</description>
-    <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-introduce-abstraccion-de-agentes-para-desarr</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

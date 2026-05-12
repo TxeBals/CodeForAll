@@ -7,6 +7,62 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG Agéntico: Nueva arquitectura de Microsoft para recuperación inteligente</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</link>
+    <description>Microsoft Azure presenta RAG Agéntico en vista previa, evolucionando desde patrones RAG tradicionales hacia recuperación multi-query inteligente. Incluye planificación de consultas consciente del contexto y acceso multi-fuente estructurado.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>TurboQuant: Compresión extrema de modelos IA con 6x menos memoria</title>
+    <link>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</link>
+    <description>Google Research presenta TurboQuant, un algoritmo de compresión que reduce la memoria KV cache hasta 6x sin pérdida de precisión. Utiliza PolarQuant y Johnson-Lindenstrauss cuantizado para optimización teóricamente probada cerca de límites inferiores.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>OpenClaw: El repositorio de IA de más rápido crecimiento en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</link>
+    <description>OpenClaw, creado por el fundador de PSPDFKit, pasa de 9,000 a más de 210,000 estrellas en días. Se posiciona como el proyecto de código abierto de más rápido crecimiento en la historia de GitHub para desarrollo de agentes IA.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain lanza Deep Agents Deploy y nuevas funcionalidades streaming</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-y-nuevas-funcionalidades-</link>
+    <description>LangChain libera Deep Agents Deploy en beta, un harness agéntico modelo-agnóstico de código abierto. Incluye nueva API de streaming v3, soporte multi-modal mejorado y middleware para moderación de contenido y reintentos.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-y-nuevas-funcionalidades-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>NVIDIA presenta Ising: Modelos de IA abiertos para computación cuántica</title>
+    <link>https://txemagonzalez.com/post.html?slug=nvidia-presenta-ising-modelos-de-ia-abiertos-para-computacio</link>
+    <description>NVIDIA lanza la primera familia de modelos de IA de código abierto del mundo para acelerar el desarrollo de procesadores cuánticos. Los modelos Ising proporcionan calibración y corrección de errores cuánticos con 2.5x más velocidad y 3x más precisión.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nvidia-presenta-ising-modelos-de-ia-abiertos-para-computacio</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Google lanza Gemma 4: El modelo abierto más eficiente por parámetro</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-el-modelo-abierto-mas-eficiente-por-par</link>
+    <description>Google libera Gemma 4 bajo licencia Apache 2.0, diseñado específicamente para razonamiento avanzado y flujos de trabajo agénticos. Incluye procesamiento multimodal, RoPE espacial 2D y tokens de presupuesto fijo para imágenes.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-el-modelo-abierto-mas-eficiente-por-par</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza nuevos modelos de voz en tiempo real en su API</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-en-tiempo-real-en-su-api</link>
+    <description>OpenAI presenta GPT-Realtime-2 con razonamiento GPT-5, GPT-Realtime-Translate para 70+ idiomas y GPT-Realtime-Whisper para transcripción ultra-rápida. Los modelos permiten crear aplicaciones que pueden hablar, transcribir y traducir conversaciones en tiempo real.</description>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-en-tiempo-real-en-su-api</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura RAG 2026: guía completa de mejores prácticas</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</link>
     <description>Guía exhaustiva de arquitecturas RAG para 2026, cubriendo desde patrones naive hasta GraphRAG y sistemas agénticos. Incluye estrategias de chunking, re-ranking, evaluación y optimización de costos. Enfoque en producción con casos de uso empresariales.</description>
@@ -109,62 +165,6 @@
     <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Google actualiza Gemini con nuevos modelos especializados para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-actualiza-gemini-con-nuevos-modelos-especializados-pa</link>
-    <description>&lt;cite index=&quot;8-3,8-7&quot;&gt;Gemini 2.0 Flash para tareas multimodales cost-efectivas y Gemini 3.1 Pro optimizado para workflows agenticos complejos y coding&lt;/cite&gt;. &lt;cite index=&quot;8-8&quot;&gt;Incluye capacidades de pensamiento adaptativo y ventana de contexto de 1M tokens&lt;/cite&gt;.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-actualiza-gemini-con-nuevos-modelos-especializados-pa</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic presenta Claude Mythos Preview con capacidades avanzadas de ciberseguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-mythos-preview-con-capacidades-ava</link>
-    <description>&lt;cite index=&quot;40-8,40-9&quot;&gt;Claude Mythos Preview es un modelo frontier no lanzado que puede encontrar miles de vulnerabilidades de alta severidad&lt;/cite&gt;, incluyendo algunas en todos los sistemas operativos principales. &lt;cite index=&quot;40-16&quot;&gt;Las vulnerabilidades que detecta han sobrevivido décadas de revisión humana&lt;/cite&gt;.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-mythos-preview-con-capacidades-ava</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza ML Intern, agente AI que supera a Claude Code en benchmarks científicos</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-ml-intern-agente-ai-que-supera-a-claude-c</link>
-    <description>&lt;cite index=&quot;32-1,32-4&quot;&gt;Hugging Face lanza ML Intern, un agente AI open-source que investiga papers autónomamente y supera a Claude Code de Anthropic&lt;/cite&gt;. &lt;cite index=&quot;32-6,32-8&quot;&gt;El agente utiliza arXiv, datasets de HF y ejecuta hasta 300 iteraciones por tarea&lt;/cite&gt;.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-ml-intern-agente-ai-que-supera-a-claude-c</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>NVIDIA lanza Ising, los primeros modelos AI cuánticos open-source del mundo para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-lanza-ising-los-primeros-modelos-ai-cuanticos-open-so</link>
-    <description>&lt;cite index=&quot;7-4&quot;&gt;NVIDIA anuncia la primera familia de modelos AI cuánticos de código abierto&lt;/cite&gt; diseñados para ayudar a investigadores y empresas a construir procesadores cuánticos funcionales. &lt;cite index=&quot;7-2&quot;&gt;Los modelos Ising ofrecen las mejores capacidades de calibración de procesadores cuánticos basadas en AI&lt;/cite&gt;.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-lanza-ising-los-primeros-modelos-ai-cuanticos-open-so</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw supera las 250k estrellas en GitHub convirtiéndose en el agente AI viral más exitoso del 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-las-250k-estrellas-en-github-convirtiendose-</link>
-    <description>&lt;cite index=&quot;15-1,15-5&quot;&gt;OpenClaw surge de 9,000 a más de 250,000 estrellas en GitHub&lt;/cite&gt;, superando proyectos como React. Este &lt;cite index=&quot;51-1,51-3&quot;&gt;asistente AI personal que funciona en tus propios dispositivos&lt;/cite&gt; se integra con WhatsApp, Telegram y Discord para automatizar tareas complejas.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-las-250k-estrellas-en-github-convirtiendose-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Nuevos papers en ArXiv exploran agentes matemáticos y arquitecturas agentic</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-exploran-agentes-matematicos-y-arquit</link>
-    <description>Investigadores publican avances en &apos;AI Co-Mathematician&apos; para acelerar investigación matemática y &apos;Lifting Traces to Logic&apos; para aprendizaje neuro-simbólico en tareas agentic de largo horizonte. Los papers abordan capacidades reasoning avanzadas para agentes autónomos.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevos-papers-en-arxiv-exploran-agentes-matematicos-y-arquit</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Gemini 3.1 Flash-Lite ofrece inferencia sub-50ms a $0.25 por millón de tokens</title>
-    <link>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-lite-ofrece-inferencia-sub-50ms-a-0-25-por-</link>
-    <description>Google lanzó Gemini 3.1 Flash-Lite optimizado para velocidad con latencia bajo 50ms y ventana de contexto de 1M tokens. El modelo está diseñado para cargas de trabajo API de alto volumen con costos significativamente reducidos comparado con alternativas.</description>
-    <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-1-flash-lite-ofrece-inferencia-sub-50ms-a-0-25-por-</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

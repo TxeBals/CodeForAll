@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</loc><lastmod>2026-05-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</loc><lastmod>2026-05-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-arquitectura-modular-y-pytorch-first-con-qua</loc><lastmod>2026-05-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-0-alpha-nueva-arquitectura-centrada-en-agentes-</loc><lastmod>2026-05-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-de-ia-que-encuentra-vulnerabilidades</loc><lastmod>2026-05-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-bate-records-de-crecimien</loc><lastmod>2026-05-13</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</loc><lastmod>2026-05-12</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</loc><lastmod>2026-05-12</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</loc><lastmod>2026-05-12</lastmod></url>

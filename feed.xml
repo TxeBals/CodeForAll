@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial Práctico: Construir Asistente de Código AI con Gemma y VS Code</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</link>
+    <description>Google publicó tutorial completo para crear asistente personal de código usando Gemma 2B, FastAPI y extensión VS Code custom. El tutorial cubre setup de servicio web, desarrollo de extensión, y mantiene todo local para máxima privacidad y control de datos.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LlamaIndex + PostgresML: RAG Unificado en Una Sola Llamada de Red</title>
+    <link>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</link>
+    <description>LlamaIndex integró PostgresML Managed Index, unificando embedding, búsqueda vectorial y generación de texto en una sola llamada de red. La integración elimina latencia de múltiples servicios en workflows RAG típicos y simplifica significativamente la arquitectura de aplicaciones.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Transformers v5: Arquitectura Modular y PyTorch-First con Quantización Nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-arquitectura-modular-y-pytorch-first-con-qua</link>
+    <description>Hugging Face lanzó el primer release candidate de Transformers v5, enfocado en interoperabilidad y simplificación. Elimina soporte para TensorFlow/Flax en favor de PyTorch, hace quantización first-class citizen, e introduce arquitectura modular para facilitar agregar nuevos modelos.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-arquitectura-modular-y-pytorch-first-con-qua</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain v1.0 Alpha: Nueva Arquitectura Centrada en Agentes sobre LangGraph</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-0-alpha-nueva-arquitectura-centrada-en-agentes-</link>
+    <description>LangChain anunció los releases alpha de v1.0 para Python y JavaScript, reestructurado completamente sobre LangGraph. Introduce nueva implementación create_agent, middleware para human-in-the-loop, y soporte mejorado para streaming con versión v3 de eventos.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-0-alpha-nueva-arquitectura-centrada-en-agentes-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Claude Mythos: El Modelo de IA que Encuentra Vulnerabilidades Zero-Day Masivamente</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-de-ia-que-encuentra-vulnerabilidades</link>
+    <description>Anthropic lanzó Claude Mythos, un modelo LLM capaz de detectar y explotar vulnerabilidades zero-day en sistemas operativos y navegadores principales. Por sus capacidades de ciberseguridad avanzadas, está limitado a solo 50 empresas partner mediante Project Glasswing.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-de-ia-que-encuentra-vulnerabilidades</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: El Proyecto de GitHub que Bate Récords de Crecimiento en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-bate-records-de-crecimien</link>
+    <description>OpenClaw se ha convertido en el proyecto open-source de más rápido crecimiento en la historia de GitHub, alcanzando más de 210,000 estrellas en pocas semanas. Creado por Peter Steinberger, permite crear aplicaciones AI sofisticadas sin necesidad de ser ingeniero ML especializado.</description>
+    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-bate-records-de-crecimien</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>RAG Agéntico: Nueva arquitectura de Microsoft para recuperación inteligente</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</link>
     <description>Microsoft Azure presenta RAG Agéntico en vista previa, evolucionando desde patrones RAG tradicionales hacia recuperación multi-query inteligente. Incluye planificación de consultas consciente del contexto y acceso multi-fuente estructurado.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;54-6,54-12,60-1&quot;&gt;El ecosistema de bases de datos vectoriales evoluciona hacia memoria contextual agéntica mientras RAG tradicional enfrenta limitaciones para cargas de trabajo agénticas complejas&lt;/cite&gt;. Las soluciones híbridas combinan PostgreSQL con capacidades vectoriales especializadas.</description>
     <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RAGFlow se posiciona como motor RAG líder con capacidades de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=ragflow-se-posiciona-como-motor-rag-lider-con-capacidades-de</link>
-    <description>&lt;cite index=&quot;6-2&quot;&gt;RAGFlow se establece como motor RAG open-source líder que fusiona técnicas RAG de vanguardia con capacidades de agentes para crear una capa de contexto superior para LLMs&lt;/cite&gt;. Incluye características como búsqueda agéntica y recuperación agéntica de información.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ragflow-se-posiciona-como-motor-rag-lider-con-capacidades-de</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic actualiza Claude Code con MCP, OAuth y nuevas capacidades de IA Realtime</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-mcp-oauth-y-nuevas-capac</link>
-    <description>&lt;cite index=&quot;18-2,18-3,42-1&quot;&gt;Anthropic lanza gpt-realtime, su modelo speech-to-speech más avanzado, junto con API Realtime generalmente disponible con soporte para servidores MCP remotos, inputs de imagen y llamadas telefónicas SIP&lt;/cite&gt;. Claude Code recibe mejoras en OAuth, gestión de proyectos y mejor integración MCP.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-actualiza-claude-code-con-mcp-oauth-y-nuevas-capac</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain introduce LangSmith Fleet y agentes durables con LangGraph</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-agentes-durables-con-l</link>
-    <description>&lt;cite index=&quot;31-7,31-8,34-1&quot;&gt;LangChain renombra Agent Builder a LangSmith Fleet y LangGraph alcanza su primera versión estable mayor en el espacio de frameworks de agentes durables&lt;/cite&gt;. El sistema permite que los agentes sobrevivan reinicios del servidor manteniendo estado persistente.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-introduce-langsmith-fleet-y-agentes-durables-con-l</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 lanza arquitectura modular simplificada</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-lanza-arquitectura-modular-simp</link>
-    <description>&lt;cite index=&quot;25-12,25-13&quot;&gt;Hugging Face lanza Transformers v5.0.0rc-0 después de 5 años de desarrollo, ahora con más de 3 millones de instalaciones diarias y soporte para más de 400 arquitecturas de modelos&lt;/cite&gt;. La nueva versión adopta una aproximación completamente centrada en PyTorch con refactorización modular completa.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-lanza-arquitectura-modular-simp</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 con mejoras significativas en precisión y personalización</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-significativas-en-precision</link>
-    <description>&lt;cite index=&quot;11-1,12-28&quot;&gt;OpenAI introduce GPT-5.5 como nuevo modelo por defecto con capacidades avanzadas para trabajo complejo profesional, incluye ventana de contexto de 1M tokens, soporte para imágenes, function calling, y reducción de 52.5% en alucinaciones&lt;/cite&gt;. El modelo está disponible tanto en Chat Completions como en la nueva Responses API.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-significativas-en-precision</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Buenas prácticas para desarrollo AI: 10 reglas esenciales según nuevo paper de arXiv</title>
-    <link>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</link>
-    <description>&lt;cite index=&quot;41-1,41-4&quot;&gt;Nuevo paper de arXiv presenta diez reglas prácticas para coding asistido por AI que balance el aprovechamiento de capacidades con rigor metodológico&lt;/cite&gt;. &lt;cite index=&quot;41-5&quot;&gt;Aborda preparación de problemas, manejo de contexto, testing y mejora iterativa&lt;/cite&gt;.</description>
-    <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=buenas-practicas-para-desarrollo-ai-10-reglas-esenciales-seg</guid>
     <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>

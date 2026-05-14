@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Desktop-Control: Infraestructura open-source para entrenar agentes que controlan computadoras completas</title>
+    <link>https://txemagonzalez.com/post.html?slug=desktop-control-infraestructura-open-source-para-entrenar-ag</link>
+    <description>Nuevo repositorio trending en GitHub para infraestructura open-source de Computer-Use Agents. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar desktops completos (macOS, Linux, Windows) con herramientas de desarrollo robustas.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=desktop-control-infraestructura-open-source-para-entrenar-ag</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>ClinicBot y DiagramNet: Nuevos papers en arXiv para aplicaciones médicas y técnicas</title>
+    <link>https://txemagonzalez.com/post.html?slug=clinicbot-y-diagramnet-nuevos-papers-en-arxiv-para-aplicacio</link>
+    <description>ArXiv presenta ClinicBot, un chatbot clínico con RAG de evidencia priorizada y citas verificables, y DiagramNet, framework end-to-end para reconocimiento de diagramas system-level no estándar. Ambos representan avances significativos en aplicaciones de IA para dominios específicos.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=clinicbot-y-diagramnet-nuevos-papers-en-arxiv-para-aplicacio</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>LangChain 1.3.0 introduce stream_events v3 y mejoras de seguridad críticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-0-introduce-stream-events-v3-y-mejoras-de-segu</link>
+    <description>La nueva versión de LangChain añade soporte para stream_events versión &apos;v3&apos; en agentes, proporcionando mejor streaming de eventos y control sobre notificaciones. Incluye también fix crítico de path-traversal (CVE-2026-34070) y mejoras en la arquitectura de agentes multi-heterogéneos.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-0-introduce-stream-events-v3-y-mejoras-de-segu</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers 5.8.0 añade soporte para DeepSeek-V4 y Granite Vision 4.1</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-8-0-anade-soporte-para-deepseek-</link>
+    <description>La nueva versión de Transformers incluye DeepSeek-V4, el modelo MoE de nueva generación con arquitectura híbrida local + long-range attention, y Granite Vision 4.1, especializado en extracción de datos de documentos enterprise. También se añadió Laguna, la familia MoE de Poolside con innovations en router sigmoid.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-8-0-anade-soporte-para-deepseek-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Platform en AWS con nuevas funcionalidades para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-platform-en-aws-con-nuevas-funcionali</link>
+    <description>Claude Platform ya está disponible en AWS como servicio gestionado por Anthropic con autenticación AWS, facturación nativa y todas las funcionalidades de la API Claude. Incluye Files API beta, Skills beta, MCP connector beta y prompt caching para reducir costos y latencia.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-platform-en-aws-con-nuevas-funcionali</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza modelos de voz GPT-Realtime-2 con razonamiento configurable en la API</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-de-voz-gpt-realtime-2-con-razonamiento-</link>
+    <description>OpenAI acaba de lanzar GPT-Realtime-2, GPT-Realtime-Translate y GPT-Realtime-Whisper en su API Realtime. La nueva generación incluye razonamiento configurable GPT-5-class para aplicaciones de voz más inteligentes, traducción en tiempo real en más de 70 idiomas y transcripción streaming mejorada.</description>
+    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-de-voz-gpt-realtime-2-con-razonamiento-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Tutorial Práctico: Construir Asistente de Código AI con Gemma y VS Code</title>
     <link>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</link>
     <description>Google publicó tutorial completo para crear asistente personal de código usando Gemma 2B, FastAPI y extensión VS Code custom. El tutorial cubre setup de servicio web, desarrollo de extensión, y mantiene todo local para máxima privacidad y control de datos.</description>
@@ -116,54 +164,6 @@
     <description>Guía exhaustiva de arquitecturas RAG para 2026, cubriendo desde patrones naive hasta GraphRAG y sistemas agénticos. Incluye estrategias de chunking, re-ranking, evaluación y optimización de costos. Enfoque en producción con casos de uso empresariales.</description>
     <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>RAGFlow emerge como motor RAG de código abierto con capacidades de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=ragflow-emerge-como-motor-rag-de-codigo-abierto-con-capacida</link>
-    <description>RAGFlow se posiciona como motor líder de Generación Aumentada por Recuperación combinando RAG avanzado con capacidades de agentes. Ofrece gestión de contexto, búsqueda agéntica y arquitecturas multi-modales para aplicaciones empresariales con datos heterogéneos.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ragflow-emerge-como-motor-rag-de-codigo-abierto-con-capacida</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic amplía límites de uso de Claude y presenta Managed Agents con &apos;Dreaming&apos;</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-amplia-limites-de-uso-de-claude-y-presenta-managed</link>
-    <description>Anthropic duplica límites de Claude Code, elimina reducciones en horas pico e introduce tres funciones en Managed Agents: &apos;Dreaming&apos; para auto-mejora, orquestación multi-agente y mejoras de memoria. Acuerdo de cómputo con SpaceX añade 300MW de capacidad.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-amplia-limites-de-uso-de-claude-y-presenta-managed</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.8.0 incluye modelos multimodales Laguna y DEIMv2</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-8-0-incluye-modelos-multimodale</link>
-    <description>Hugging Face actualiza Transformers con nuevos modelos: Laguna MoE de Poolside con arquitectura innovadora, DEIMv2 para detección de objetos en tiempo real y Granite Vision 4.1 de IBM para extracción empresarial de documentos. Mejoras en el comando &apos;serve&apos; para endpoints multimodales.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-8-0-incluye-modelos-multimodale</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain Agent Builder integra herramientas centralizadas y memoria mejorada</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-agent-builder-integra-herramientas-centralizadas-y</link>
-    <description>LangChain lanza una actualización importante de Agent Builder con chat centralizado, conversión one-click de conversación a agente, registro unificado de herramientas y memoria persistente usando archivos Markdown y JSON. Interrupt 2026 programado para mayo en San Francisco.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-agent-builder-integra-herramientas-centralizadas-y</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-Realtime-2 para aplicaciones de voz inteligentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-realtime-2-para-aplicaciones-de-voz-intelig</link>
-    <description>OpenAI presenta tres nuevos modelos de voz en tiempo real: GPT-Realtime-2 con razonamiento GPT-5, GPT-Realtime-Translate para 70+ idiomas y GPT-Realtime-Whisper para transcripción streaming. Disponibles a través de la API Realtime con precios por tokens y por minuto.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-realtime-2-para-aplicaciones-de-voz-intelig</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Nuevas tendencias en bases de datos vectoriales: más allá del RAG tradicional</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</link>
-    <description>&lt;cite index=&quot;54-6,54-12,60-1&quot;&gt;El ecosistema de bases de datos vectoriales evoluciona hacia memoria contextual agéntica mientras RAG tradicional enfrenta limitaciones para cargas de trabajo agénticas complejas&lt;/cite&gt;. Las soluciones híbridas combinan PostgreSQL con capacidades vectoriales especializadas.</description>
-    <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevas-tendencias-en-bases-de-datos-vectoriales-mas-alla-del</guid>
     <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>

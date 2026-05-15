@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía definitiva de Fine-Tuning con mejores prácticas 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</link>
+    <description>&lt;cite index=&quot;31-16&quot;&gt;Aprende a elegir hiperparámetros correctos usando mejores prácticas de investigación y experimentos reales, entendiendo cómo cada uno afecta el rendimiento del modelo&lt;/cite&gt;. &lt;cite index=&quot;32-3,32-5&quot;&gt;Fine-tuning es un proceso de 7 etapas: preparación de dataset, inicialización de modelo, setup de entorno, fine-tuning, evaluación, deployment y mantenimiento&lt;/cite&gt;. &lt;cite index=&quot;40-6,40-7,40-8&quot;&gt;El rango típico de learning rate 10⁻⁵ a 10⁻⁴ y datasets pequeños de alta calidad superan consistentemente a datasets grandes con ruido&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Survey completo de Agentic RAG define nueva taxonomía</title>
+    <link>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</link>
+    <description>&lt;cite index=&quot;14-7,14-9,14-10&quot;&gt;Agentic RAG trasciende limitaciones tradicionales embedding agentes AI autónomos en pipelines RAG, leveraging patrones de diseño como reflexión, planificación, uso de herramientas y colaboración multi-agente para gestionar dinámicamente estrategias de retrieval&lt;/cite&gt;. &lt;cite index=&quot;14-12,14-13&quot;&gt;Este paper presenta una taxonomía principled de arquitecturas Agentic RAG basada en cardinalidad de agentes, estructura de control, autonomía y representación del conocimiento&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>OpenClaw domina GitHub con 210k+ estrellas en meses</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-con-210k-estrellas-en-meses</link>
+    <description>&lt;cite index=&quot;22-6,22-7&quot;&gt;OpenClaw es el proyecto open-source de crecimiento más rápido en la historia de GitHub, creado por Peter Steinberger, saltando de 9,000 a 60,000 estrellas en días tras volverse viral en enero 2026, ahora con más de 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;21-42,21-43&quot;&gt;Proporciona infraestructura open-source para agentes Computer-Use, con sandboxes, SDKs y benchmarks para entrenar y evaluar agentes que controlan escritorios completos&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-con-210k-estrellas-en-meses</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>RAGFlow evoluciona hacia plataforma integral de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-evoluciona-hacia-plataforma-integral-de-agentes</link>
+    <description>&lt;cite index=&quot;18-1,18-2,18-3&quot;&gt;RAGFlow empodera agentes AI a través de un motor RAG open-source líder, ofreciendo contexto confiable y plataforma de agentes integrada para empresas&lt;/cite&gt;. &lt;cite index=&quot;18-2&quot;&gt;Combina búsqueda vectorial, BM25 y re-ranking avanzado para máxima precisión&lt;/cite&gt;. &lt;cite index=&quot;18-3&quot;&gt;Permite construir agentes poderosos en una plataforma todo-en-uno, integrando RAG, herramientas y MCPs en workflows visuales&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-evoluciona-hacia-plataforma-integral-de-agentes</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Microsoft Agent Framework 1.0 revoluciona desarrollo de agentes en .NET</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-1-0-revoluciona-desarrollo-de-agen</link>
+    <description>&lt;cite index=&quot;11-34&quot;&gt;Microsoft Agent Framework alcanzó su versión 1.0 en abril 2026&lt;/cite&gt;, ofreciendo &lt;cite index=&quot;11-33&quot;&gt;un SDK productivo para construir agentes inteligentes en .NET (y Python)&lt;/cite&gt;. &lt;cite index=&quot;11-28,11-29&quot;&gt;Permite integrar RAG con búsqueda vectorial y coordinar workflows multi-agente&lt;/cite&gt;. &lt;cite index=&quot;16-1,16-2&quot;&gt;Soporta colecciones VectorStore de Semantic Kernel para capacidades RAG mediante funciones puente&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-1-0-revoluciona-desarrollo-de-agen</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Nuevas versiones de modelos LLM lideran benchmarks</title>
+    <link>https://txemagonzalez.com/post.html?slug=nuevas-versiones-de-modelos-llm-lideran-benchmarks</link>
+    <description>&lt;cite index=&quot;5-1,5-10,5-11&quot;&gt;OpenAI lanzó GPT-5.5 Instant como nuevo default en ChatGPT el 5 de mayo, reemplazando GPT-5.3 Instant&lt;/cite&gt;. &lt;cite index=&quot;5-16,5-17&quot;&gt;Se enfoca en respuestas más rápidas y menos alucinaciones en dominios críticos como medicina, leyes y finanzas&lt;/cite&gt;. &lt;cite index=&quot;10-6,10-10,10-11&quot;&gt;Claude Mythos Preview lidera en GPQA Diamond con 94.6%, mientras Gemini 3.1 Pro domina en coding-arena&lt;/cite&gt;.</description>
+    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=nuevas-versiones-de-modelos-llm-lideran-benchmarks</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Desktop-Control: Infraestructura open-source para entrenar agentes que controlan computadoras completas</title>
     <link>https://txemagonzalez.com/post.html?slug=desktop-control-infraestructura-open-source-para-entrenar-ag</link>
     <description>Nuevo repositorio trending en GitHub para infraestructura open-source de Computer-Use Agents. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar desktops completos (macOS, Linux, Windows) con herramientas de desarrollo robustas.</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>OpenClaw: El repositorio de IA de más rápido crecimiento en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</link>
-    <description>OpenClaw, creado por el fundador de PSPDFKit, pasa de 9,000 a más de 210,000 estrellas en días. Se posiciona como el proyecto de código abierto de más rápido crecimiento en la historia de GitHub para desarrollo de agentes IA.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repositorio-de-ia-de-mas-rapido-crecimiento-en-g</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain lanza Deep Agents Deploy y nuevas funcionalidades streaming</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-y-nuevas-funcionalidades-</link>
-    <description>LangChain libera Deep Agents Deploy en beta, un harness agéntico modelo-agnóstico de código abierto. Incluye nueva API de streaming v3, soporte multi-modal mejorado y middleware para moderación de contenido y reintentos.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-deep-agents-deploy-y-nuevas-funcionalidades-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>NVIDIA presenta Ising: Modelos de IA abiertos para computación cuántica</title>
-    <link>https://txemagonzalez.com/post.html?slug=nvidia-presenta-ising-modelos-de-ia-abiertos-para-computacio</link>
-    <description>NVIDIA lanza la primera familia de modelos de IA de código abierto del mundo para acelerar el desarrollo de procesadores cuánticos. Los modelos Ising proporcionan calibración y corrección de errores cuánticos con 2.5x más velocidad y 3x más precisión.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nvidia-presenta-ising-modelos-de-ia-abiertos-para-computacio</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Google lanza Gemma 4: El modelo abierto más eficiente por parámetro</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-el-modelo-abierto-mas-eficiente-por-par</link>
-    <description>Google libera Gemma 4 bajo licencia Apache 2.0, diseñado específicamente para razonamiento avanzado y flujos de trabajo agénticos. Incluye procesamiento multimodal, RoPE espacial 2D y tokens de presupuesto fijo para imágenes.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemma-4-el-modelo-abierto-mas-eficiente-por-par</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza nuevos modelos de voz en tiempo real en su API</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-en-tiempo-real-en-su-api</link>
-    <description>OpenAI presenta GPT-Realtime-2 con razonamiento GPT-5, GPT-Realtime-Translate para 70+ idiomas y GPT-Realtime-Whisper para transcripción ultra-rápida. Los modelos permiten crear aplicaciones que pueden hablar, transcribir y traducir conversaciones en tiempo real.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-en-tiempo-real-en-su-api</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura RAG 2026: guía completa de mejores prácticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</link>
-    <description>Guía exhaustiva de arquitecturas RAG para 2026, cubriendo desde patrones naive hasta GraphRAG y sistemas agénticos. Incluye estrategias de chunking, re-ranking, evaluación y optimización de costos. Enfoque en producción con casos de uso empresariales.</description>
-    <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-2026-guia-completa-de-mejores-p</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

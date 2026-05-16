@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</loc><lastmod>2026-05-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</loc><lastmod>2026-05-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-4-51-soporte-mejorado-para-multimodalidad-y-nue</loc><lastmod>2026-05-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-local-que-domina-github-con-210k-estre</loc><lastmod>2026-05-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agenticos-dire</loc><lastmod>2026-05-16</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-lanzado-el-modelo-mas-avanzado-de-anthropic-</loc><lastmod>2026-05-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</loc><lastmod>2026-05-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</loc><lastmod>2026-05-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-con-210k-estrellas-en-meses</loc><lastmod>2026-05-15</lastmod></url>

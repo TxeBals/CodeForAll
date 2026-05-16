@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG Avanzado con Hugging Face y LangChain: Guía técnica completa</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</link>
+    <description>&lt;cite index=&quot;29-1,29-2&quot;&gt;Notebook que demuestra cómo construir RAG avanzado para responder preguntas sobre bases de conocimiento específicas usando la documentación de HuggingFace con LangChain, incluyendo introducción a RAG&lt;/cite&gt;. &lt;cite index=&quot;29-10,29-11&quot;&gt;Utiliza la librería Langchain por su gran variedad de opciones para bases de datos vectoriales y capacidad de mantener metadata de documentos a través del procesamiento, dividiendo documentos en chunks semánticamente relevantes&lt;/cite&gt;. &lt;cite index=&quot;29-15,29-16&quot;&gt;Implementa RecursiveCharacterTextSplitter de Hugging Face tokenizer con parámetros configurables como chunk_size, chunk_overlap y separadores MARKDOWN&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Langchain-Hugging Face: Paquete oficial para integración de ecosistemas</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</link>
+    <description>&lt;cite index=&quot;22-1,22-2&quot;&gt;Hugging Face y LangChain anuncian langchain_huggingface, un paquete partner mantenido conjuntamente diseñado para traer el poder de los últimos desarrollos de Hugging Face a LangChain manteniéndolo actualizado&lt;/cite&gt;. &lt;cite index=&quot;22-4,22-6&quot;&gt;Al convertirse en paquete partner, apuntan a reducir el tiempo que toma traer nuevas características del ecosistema Hugging Face a usuarios de LangChain, con compromiso conjunto de mantener y mejorar continuamente esta integración&lt;/cite&gt;. &lt;cite index=&quot;27-14,27-28&quot;&gt;La versión actual langchain_huggingface-1.2.0 está disponible en PyPI con archivos tar.gz y wheel&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Transformers 4.51: Soporte mejorado para multimodalidad y nuevos modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-4-51-soporte-mejorado-para-multimodalidad-y-nue</link>
+    <description>&lt;cite index=&quot;25-20,25-21&quot;&gt;El comando transformers serve recibe varias mejoras incluyendo nuevo endpoint /v1/completions para completación de texto legacy, soporte multimodal para entradas de audio y video, mejor llamado de herramientas via parse_response, y correcciones en la API de respuesta&lt;/cite&gt;. &lt;cite index=&quot;25-11,25-12,25-13&quot;&gt;Se añade soporte para Granite Vision 4.1 de IBM Research para extracción de datos de documentos empresariales, especializado en extracción de gráficos (Chart2CSV, Chart2Summary, Chart2Code) y extracción de pares clave-valor semánticos&lt;/cite&gt;. &lt;cite index=&quot;28-20,28-21&quot;&gt;Hay más de 1M+ checkpoints de modelos Transformers disponibles en el Hugging Face Hub&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-4-51-soporte-mejorado-para-multimodalidad-y-nue</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente AI local que domina GitHub con 210k+ estrellas en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-local-que-domina-github-con-210k-estre</link>
+    <description>&lt;cite index=&quot;8-4,8-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas tras volverse viral&lt;/cite&gt;. &lt;cite index=&quot;8-7,8-8&quot;&gt;Funciona como un asistente AI personal que corre completamente en tus dispositivos, operando como gateway local que conecta modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord&lt;/cite&gt;. &lt;cite index=&quot;8-9,8-12&quot;&gt;A diferencia de asistentes en la nube, tus datos nunca salen de tu máquina, y puede navegar la web, ejecutar código y controlar flujos de trabajo multi-paso corriendo continuamente&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-local-que-domina-github-con-210k-estre</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>GitHub Copilot SDK habilita flujos de trabajo agenticos directamente en aplicaciones</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agenticos-dire</link>
+    <description>&lt;cite index=&quot;2-2,2-12&quot;&gt;GitHub lanza el Copilot SDK que permite flujos de trabajo agenticos directamente dentro de aplicaciones, marcando un cambio de interacciones prompt-respuesta hacia ejecución programable&lt;/cite&gt;. &lt;cite index=&quot;2-13,2-14&quot;&gt;Los flujos agenticos de GitHub se construyen con aislamiento, salidas restringidas y registro completo, ayudando a los equipos a ejecutar agentes de forma segura en GitHub Actions&lt;/cite&gt;. &lt;cite index=&quot;2-29&quot;&gt;Incluye patrones de producción para degradación elegante y caché al integrar el Copilot SDK en aplicaciones React Native&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agenticos-dire</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.7 lanzado: El modelo más avanzado de Anthropic para desarrollo agentico</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-lanzado-el-modelo-mas-avanzado-de-anthropic-</link>
+    <description>&lt;cite index=&quot;12-1,12-11&quot;&gt;Anthropic lanza Claude Opus 4.7, su modelo más capaz para razonamiento complejo y programación agentica, manteniendo el mismo precio de $5/$25 por MTok que Opus 4.6&lt;/cite&gt;. &lt;cite index=&quot;12-4,12-5&quot;&gt;Incluye modo rápido en vista previa de investigación para generación significativamente más rápida de tokens de salida con precios premium, disponible con el header beta fast-mode-2026-02-01&lt;/cite&gt;. &lt;cite index=&quot;20-14,20-15&quot;&gt;Es el modelo más capaz disponible, con una mejora significativa en programación agentica comparado con Claude Opus 4.6&lt;/cite&gt;.</description>
+    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-lanzado-el-modelo-mas-avanzado-de-anthropic-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía definitiva de Fine-Tuning con mejores prácticas 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</link>
     <description>&lt;cite index=&quot;31-16&quot;&gt;Aprende a elegir hiperparámetros correctos usando mejores prácticas de investigación y experimentos reales, entendiendo cómo cada uno afecta el rendimiento del modelo&lt;/cite&gt;. &lt;cite index=&quot;32-3,32-5&quot;&gt;Fine-tuning es un proceso de 7 etapas: preparación de dataset, inicialización de modelo, setup de entorno, fine-tuning, evaluación, deployment y mantenimiento&lt;/cite&gt;. &lt;cite index=&quot;40-6,40-7,40-8&quot;&gt;El rango típico de learning rate 10⁻⁵ a 10⁻⁴ y datasets pequeños de alta calidad superan consistentemente a datasets grandes con ruido&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Transformers v5: Arquitectura Modular y PyTorch-First con Quantización Nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-arquitectura-modular-y-pytorch-first-con-qua</link>
-    <description>Hugging Face lanzó el primer release candidate de Transformers v5, enfocado en interoperabilidad y simplificación. Elimina soporte para TensorFlow/Flax en favor de PyTorch, hace quantización first-class citizen, e introduce arquitectura modular para facilitar agregar nuevos modelos.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-arquitectura-modular-y-pytorch-first-con-qua</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain v1.0 Alpha: Nueva Arquitectura Centrada en Agentes sobre LangGraph</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-0-alpha-nueva-arquitectura-centrada-en-agentes-</link>
-    <description>LangChain anunció los releases alpha de v1.0 para Python y JavaScript, reestructurado completamente sobre LangGraph. Introduce nueva implementación create_agent, middleware para human-in-the-loop, y soporte mejorado para streaming con versión v3 de eventos.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-0-alpha-nueva-arquitectura-centrada-en-agentes-</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Claude Mythos: El Modelo de IA que Encuentra Vulnerabilidades Zero-Day Masivamente</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-de-ia-que-encuentra-vulnerabilidades</link>
-    <description>Anthropic lanzó Claude Mythos, un modelo LLM capaz de detectar y explotar vulnerabilidades zero-day en sistemas operativos y navegadores principales. Por sus capacidades de ciberseguridad avanzadas, está limitado a solo 50 empresas partner mediante Project Glasswing.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-el-modelo-de-ia-que-encuentra-vulnerabilidades</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: El Proyecto de GitHub que Bate Récords de Crecimiento en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-bate-records-de-crecimien</link>
-    <description>OpenClaw se ha convertido en el proyecto open-source de más rápido crecimiento en la historia de GitHub, alcanzando más de 210,000 estrellas en pocas semanas. Creado por Peter Steinberger, permite crear aplicaciones AI sofisticadas sin necesidad de ser ingeniero ML especializado.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-proyecto-de-github-que-bate-records-de-crecimien</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>RAG Agéntico: Nueva arquitectura de Microsoft para recuperación inteligente</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</link>
-    <description>Microsoft Azure presenta RAG Agéntico en vista previa, evolucionando desde patrones RAG tradicionales hacia recuperación multi-query inteligente. Incluye planificación de consultas consciente del contexto y acceso multi-fuente estructurado.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-nueva-arquitectura-de-microsoft-para-recuperaci</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>TurboQuant: Compresión extrema de modelos IA con 6x menos memoria</title>
-    <link>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</link>
-    <description>Google Research presenta TurboQuant, un algoritmo de compresión que reduce la memoria KV cache hasta 6x sin pérdida de precisión. Utiliza PolarQuant y Johnson-Lindenstrauss cuantizado para optimización teóricamente probada cerca de límites inferiores.</description>
-    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=turboquant-compresion-extrema-de-modelos-ia-con-6x-menos-mem</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

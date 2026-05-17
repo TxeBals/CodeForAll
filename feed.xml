@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía práctica: Arquitectura de sistemas AI para producción en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</link>
+    <description>Nueva guía completa sobre arquitectura de sistemas AI que cubre los seis niveles esenciales: datos, modelo, inferencia, orquestación, aplicación y monitoreo. Enfatiza arquitecturas modulares, observabilidad y diseño para el cambio, con ejemplos prácticos de implementación multi-agente y patrones de arquitectura escalables.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5 se enfoca exclusivamente en PyTorch y cuantización</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</link>
+    <description>Hugging Face lanza Transformers v5.0.0rc-0 con cambios importantes: soporte exclusivo para PyTorch (eliminando TensorFlow/Flax), cuantización como característica de primera clase y arquitectura modular mejorada. La biblioteca ahora supera los 3 millones de instalaciones diarias y soporta más de 400 arquitecturas de modelos.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain v1.1 introduce Deep Agents y mejoras en arquitectura modular</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-deep-agents-y-mejoras-en-arquitectu</link>
+    <description>LangChain lanza la versión 1.1 con Deep Agents, un paquete de alto nivel para agentes con capacidades integradas de planificación, subagentes y uso del sistema de archivos. La actualización incluye soporte mejorado para GPT-5.4, APIs de herramientas actualizadas y mejor integración con LangGraph para flujos de trabajo complejos.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-deep-agents-y-mejoras-en-arquitectu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto AI de crecimiento más rápido de GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-de-crecimiento-mas-r</link>
+    <description>OpenClaw, creado por Peter Steinberger de PSPDFKit, alcanzó más de 210,000 estrellas en GitHub convirtiéndose en el proyecto de código abierto de crecimiento más rápido en la historia. El proyecto permite a no-ingenieros crear aplicaciones AI sofisticadas, reduciendo significativamente las barreras de entrada para el desarrollo AI de producción.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-de-crecimiento-mas-r</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic anuncia Claude Opus 4.7 con capacidades cibernéticas controladas</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-anuncia-claude-opus-4-7-con-capacidades-cibernetic</link>
+    <description>Anthropic libera Claude Opus 4.7, el primer modelo en implementar salvaguardas de seguridad cibernética desarrolladas para Mythos Preview. Incluye mejores capacidades de visión, programación más limpia y detección automática de solicitudes cibernéticas prohibidas. Disponible en Claude API con el identificador claude-opus-4-7.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-anuncia-claude-opus-4-7-con-capacidades-cibernetic</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 con capacidades mejoradas de programación y seguridad cibernética</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-mejoradas-de-programaci</link>
+    <description>OpenAI presenta GPT-5.5, su modelo más avanzado con mejores habilidades de programación, uso de computadoras e investigación profunda. El modelo está disponible para usuarios pagos de ChatGPT y Codex, con acceso API próximamente. Incluye mejoras significativas en análisis de datos, debugging de código y creación de documentos.</description>
+    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-mejoradas-de-programaci</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>RAG Avanzado con Hugging Face y LangChain: Guía técnica completa</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</link>
     <description>&lt;cite index=&quot;29-1,29-2&quot;&gt;Notebook que demuestra cómo construir RAG avanzado para responder preguntas sobre bases de conocimiento específicas usando la documentación de HuggingFace con LangChain, incluyendo introducción a RAG&lt;/cite&gt;. &lt;cite index=&quot;29-10,29-11&quot;&gt;Utiliza la librería Langchain por su gran variedad de opciones para bases de datos vectoriales y capacidad de mantener metadata de documentos a través del procesamiento, dividiendo documentos en chunks semánticamente relevantes&lt;/cite&gt;. &lt;cite index=&quot;29-15,29-16&quot;&gt;Implementa RecursiveCharacterTextSplitter de Hugging Face tokenizer con parámetros configurables como chunk_size, chunk_overlap y separadores MARKDOWN&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=clinicbot-y-diagramnet-nuevos-papers-en-arxiv-para-aplicacio</guid>
     <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>LangChain 1.3.0 introduce stream_events v3 y mejoras de seguridad críticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-0-introduce-stream-events-v3-y-mejoras-de-segu</link>
-    <description>La nueva versión de LangChain añade soporte para stream_events versión &apos;v3&apos; en agentes, proporcionando mejor streaming de eventos y control sobre notificaciones. Incluye también fix crítico de path-traversal (CVE-2026-34070) y mejoras en la arquitectura de agentes multi-heterogéneos.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-0-introduce-stream-events-v3-y-mejoras-de-segu</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers 5.8.0 añade soporte para DeepSeek-V4 y Granite Vision 4.1</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-8-0-anade-soporte-para-deepseek-</link>
-    <description>La nueva versión de Transformers incluye DeepSeek-V4, el modelo MoE de nueva generación con arquitectura híbrida local + long-range attention, y Granite Vision 4.1, especializado en extracción de datos de documentos enterprise. También se añadió Laguna, la familia MoE de Poolside con innovations en router sigmoid.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-8-0-anade-soporte-para-deepseek-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Platform en AWS con nuevas funcionalidades para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-platform-en-aws-con-nuevas-funcionali</link>
-    <description>Claude Platform ya está disponible en AWS como servicio gestionado por Anthropic con autenticación AWS, facturación nativa y todas las funcionalidades de la API Claude. Incluye Files API beta, Skills beta, MCP connector beta y prompt caching para reducir costos y latencia.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-platform-en-aws-con-nuevas-funcionali</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza modelos de voz GPT-Realtime-2 con razonamiento configurable en la API</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-de-voz-gpt-realtime-2-con-razonamiento-</link>
-    <description>OpenAI acaba de lanzar GPT-Realtime-2, GPT-Realtime-Translate y GPT-Realtime-Whisper en su API Realtime. La nueva generación incluye razonamiento configurable GPT-5-class para aplicaciones de voz más inteligentes, traducción en tiempo real en más de 70 idiomas y transcripción streaming mejorada.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-modelos-de-voz-gpt-realtime-2-con-razonamiento-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Tutorial Práctico: Construir Asistente de Código AI con Gemma y VS Code</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</link>
-    <description>Google publicó tutorial completo para crear asistente personal de código usando Gemma 2B, FastAPI y extensión VS Code custom. El tutorial cubre setup de servicio web, desarrollo de extensión, y mantiene todo local para máxima privacidad y control de datos.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-practico-construir-asistente-de-codigo-ai-con-gemma</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LlamaIndex + PostgresML: RAG Unificado en Una Sola Llamada de Red</title>
-    <link>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</link>
-    <description>LlamaIndex integró PostgresML Managed Index, unificando embedding, búsqueda vectorial y generación de texto en una sola llamada de red. La integración elimina latencia de múltiples servicios en workflows RAG típicos y simplifica significativamente la arquitectura de aplicaciones.</description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-postgresml-rag-unificado-en-una-sola-llamada-de-r</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

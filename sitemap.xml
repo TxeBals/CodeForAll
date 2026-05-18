@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</loc><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</loc><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=los-frameworks-rag-evolucionan-hacia-agent-sdks-y-protocolo-</loc><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-lidera-repositorio-github-mas-rapido-en-crecimiento</loc><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-platform-en-aws-con-api-nativa-com</loc><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-y-nuevo-modelo-gpt-realtime-para-a</loc><lastmod>2026-05-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</loc><lastmod>2026-05-17</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-deep-agents-y-mejoras-en-arquitectu</loc><lastmod>2026-05-17</lastmod></url>

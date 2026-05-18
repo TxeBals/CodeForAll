@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de fine-tuning de modelos AI en 2026: OpenAI, Claude y modelos open source</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</link>
+    <description>El fine-tuning ha pasado de ser un lujo de investigación a una necesidad de producción. Nueva guía técnica cubre todo desde la API de OpenAI hasta opciones open source como Llama 4 y Qwen 3, incluyendo técnicas QLoRA para hardware de consumo.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangGraph supera a CrewAI como framework líder para agentes multi-modelo</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</link>
+    <description>LangGraph ha superado a CrewAI en estrellas de GitHub durante 2026, impulsado por la adopción empresarial. Su arquitectura basada en grafos dirigidos proporciona control granular sobre flujos de trabajo de agentes con puntos de auditoría y rollback.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Los frameworks RAG evolucionan hacia Agent SDKs y protocolo MCP</title>
+    <link>https://txemagonzalez.com/post.html?slug=los-frameworks-rag-evolucionan-hacia-agent-sdks-y-protocolo-</link>
+    <description>Los frameworks tradicionales como LangChain y LlamaIndex están siendo reemplazados por Agent SDKs más especializados y el protocolo MCP (Model Context Protocol). Los agentes de código pueden ahora generar pipelines RAG personalizados en minutos.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=los-frameworks-rag-evolucionan-hacia-agent-sdks-y-protocolo-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw lidera repositorio GitHub más rápido en crecimiento de IA en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-lidera-repositorio-github-mas-rapido-en-crecimiento</link>
+    <description>OpenClaw se ha convertido en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas. Es un asistente personal de IA que funciona completamente en dispositivos locales con más de 50 integraciones.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-lidera-repositorio-github-mas-rapido-en-crecimiento</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic presenta Claude Platform en AWS con API nativa completa</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-platform-en-aws-con-api-nativa-com</link>
+    <description>Anthropic ha lanzado Claude Platform en AWS, ofreciendo acceso completo a la API de Claude con autenticación AWS, facturación nativa y soporte para todas las funcionalidades incluyendo Files API, Skills beta y conectores MCP.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-platform-en-aws-con-api-nativa-com</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza Realtime API y nuevo modelo GPT-Realtime para aplicaciones de voz</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-y-nuevo-modelo-gpt-realtime-para-a</link>
+    <description>OpenAI ha lanzado oficialmente la API Realtime junto con el modelo GPT-realtime, un avance significativo para desarrollar agentes de voz en producción. La API incluye soporte para servidores MCP remotos, entrada de imágenes y llamadas telefónicas a través de SIP.</description>
+    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-y-nuevo-modelo-gpt-realtime-para-a</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía práctica: Arquitectura de sistemas AI para producción en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</link>
     <description>Nueva guía completa sobre arquitectura de sistemas AI que cubre los seis niveles esenciales: datos, modelo, inferencia, orquestación, aplicación y monitoreo. Enfatiza arquitecturas modulares, observabilidad y diseño para el cambio, con ejemplos prácticos de implementación multi-agente y patrones de arquitectura escalables.</description>
@@ -116,54 +164,6 @@
     <description>&lt;cite index=&quot;14-7,14-9,14-10&quot;&gt;Agentic RAG trasciende limitaciones tradicionales embedding agentes AI autónomos en pipelines RAG, leveraging patrones de diseño como reflexión, planificación, uso de herramientas y colaboración multi-agente para gestionar dinámicamente estrategias de retrieval&lt;/cite&gt;. &lt;cite index=&quot;14-12,14-13&quot;&gt;Este paper presenta una taxonomía principled de arquitecturas Agentic RAG basada en cardinalidad de agentes, estructura de control, autonomía y representación del conocimiento&lt;/cite&gt;.</description>
     <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>OpenClaw domina GitHub con 210k+ estrellas en meses</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-con-210k-estrellas-en-meses</link>
-    <description>&lt;cite index=&quot;22-6,22-7&quot;&gt;OpenClaw es el proyecto open-source de crecimiento más rápido en la historia de GitHub, creado por Peter Steinberger, saltando de 9,000 a 60,000 estrellas en días tras volverse viral en enero 2026, ahora con más de 210,000 estrellas&lt;/cite&gt;. &lt;cite index=&quot;21-42,21-43&quot;&gt;Proporciona infraestructura open-source para agentes Computer-Use, con sandboxes, SDKs y benchmarks para entrenar y evaluar agentes que controlan escritorios completos&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-con-210k-estrellas-en-meses</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>RAGFlow evoluciona hacia plataforma integral de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=ragflow-evoluciona-hacia-plataforma-integral-de-agentes</link>
-    <description>&lt;cite index=&quot;18-1,18-2,18-3&quot;&gt;RAGFlow empodera agentes AI a través de un motor RAG open-source líder, ofreciendo contexto confiable y plataforma de agentes integrada para empresas&lt;/cite&gt;. &lt;cite index=&quot;18-2&quot;&gt;Combina búsqueda vectorial, BM25 y re-ranking avanzado para máxima precisión&lt;/cite&gt;. &lt;cite index=&quot;18-3&quot;&gt;Permite construir agentes poderosos en una plataforma todo-en-uno, integrando RAG, herramientas y MCPs en workflows visuales&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ragflow-evoluciona-hacia-plataforma-integral-de-agentes</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Microsoft Agent Framework 1.0 revoluciona desarrollo de agentes en .NET</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-1-0-revoluciona-desarrollo-de-agen</link>
-    <description>&lt;cite index=&quot;11-34&quot;&gt;Microsoft Agent Framework alcanzó su versión 1.0 en abril 2026&lt;/cite&gt;, ofreciendo &lt;cite index=&quot;11-33&quot;&gt;un SDK productivo para construir agentes inteligentes en .NET (y Python)&lt;/cite&gt;. &lt;cite index=&quot;11-28,11-29&quot;&gt;Permite integrar RAG con búsqueda vectorial y coordinar workflows multi-agente&lt;/cite&gt;. &lt;cite index=&quot;16-1,16-2&quot;&gt;Soporta colecciones VectorStore de Semantic Kernel para capacidades RAG mediante funciones puente&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-agent-framework-1-0-revoluciona-desarrollo-de-agen</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Nuevas versiones de modelos LLM lideran benchmarks</title>
-    <link>https://txemagonzalez.com/post.html?slug=nuevas-versiones-de-modelos-llm-lideran-benchmarks</link>
-    <description>&lt;cite index=&quot;5-1,5-10,5-11&quot;&gt;OpenAI lanzó GPT-5.5 Instant como nuevo default en ChatGPT el 5 de mayo, reemplazando GPT-5.3 Instant&lt;/cite&gt;. &lt;cite index=&quot;5-16,5-17&quot;&gt;Se enfoca en respuestas más rápidas y menos alucinaciones en dominios críticos como medicina, leyes y finanzas&lt;/cite&gt;. &lt;cite index=&quot;10-6,10-10,10-11&quot;&gt;Claude Mythos Preview lidera en GPQA Diamond con 94.6%, mientras Gemini 3.1 Pro domina en coding-arena&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=nuevas-versiones-de-modelos-llm-lideran-benchmarks</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Desktop-Control: Infraestructura open-source para entrenar agentes que controlan computadoras completas</title>
-    <link>https://txemagonzalez.com/post.html?slug=desktop-control-infraestructura-open-source-para-entrenar-ag</link>
-    <description>Nuevo repositorio trending en GitHub para infraestructura open-source de Computer-Use Agents. Incluye sandboxes, SDKs y benchmarks para entrenar y evaluar agentes de IA que pueden controlar desktops completos (macOS, Linux, Windows) con herramientas de desarrollo robustas.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=desktop-control-infraestructura-open-source-para-entrenar-ag</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>ClinicBot y DiagramNet: Nuevos papers en arXiv para aplicaciones médicas y técnicas</title>
-    <link>https://txemagonzalez.com/post.html?slug=clinicbot-y-diagramnet-nuevos-papers-en-arxiv-para-aplicacio</link>
-    <description>ArXiv presenta ClinicBot, un chatbot clínico con RAG de evidencia priorizada y citas verificables, y DiagramNet, framework end-to-end para reconocimiento de diagramas system-level no estándar. Ambos representan avances significativos en aplicaciones de IA para dominios específicos.</description>
-    <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=clinicbot-y-diagramnet-nuevos-papers-en-arxiv-para-aplicacio</guid>
     <category>INVESTIGACION</category>
   </item>
 </channel>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenClaw alcanza 210k estrellas como asistente AI personal más popular de GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-ai-personal-m</link>
+    <description>OpenClaw se ha convertido en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, alcanzando 210k estrellas. Es un asistente AI personal que funciona completamente en dispositivos locales con integración a más de 50 plataformas incluyendo WhatsApp, Slack y Discord.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-ai-personal-m</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>vLLM 0.21 añade soporte Transformers v5 y nuevas arquitecturas MoE</title>
+    <link>https://txemagonzalez.com/post.html?slug=vllm-0-21-anade-soporte-transformers-v5-y-nuevas-arquitectur</link>
+    <description>vLLM ha lanzado la versión 0.21 con soporte completo para Transformers v5, nuevas arquitecturas como Laguna XS.2 y Moondream3, mejoras en especulative decoding, y optimizaciones de kernels incluyendo TOKENSPEED_MLA para GPUs Blackwell.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vllm-0-21-anade-soporte-transformers-v5-y-nuevas-arquitectur</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic divide facturación de Claude: Agent SDK obtiene pool de créditos separado</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-divide-facturacion-de-claude-agent-sdk-obtiene-poo</link>
+    <description>A partir del 15 de junio, Anthropic separará el uso programático (Agent SDK, claude -p, GitHub Actions) del uso interactivo en las suscripciones de Claude. Los usuarios obtendrán créditos mensuales separados ($20-$200) para herramientas de terceros como OpenClaw y Conductor.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-divide-facturacion-de-claude-agent-sdk-obtiene-poo</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain 1.3 introduce agentes con streaming v3 y mejoras en observabilidad</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-introduce-agentes-con-streaming-v3-y-mejoras-e</link>
+    <description>LangChain ha lanzado la versión 1.3 con soporte para stream_events versión v3, nuevo sistema de perfiles de modelos desde models.dev, y mejoras significativas en LangGraph para control granular de ejecución de nodos incluyendo timeouts y recuperación de errores.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-introduce-agentes-con-streaming-v3-y-mejoras-e</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza Transformers v5 con enfoque PyTorch-first y cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-first</link>
+    <description>Hugging Face ha lanzado la versión 5.0 de Transformers, abandonando el soporte para TensorFlow/JAX en favor de PyTorch como único backend. La nueva versión incluye cuantización como característica de primera clase, arquitectura modular mejorada y soporte para más de 400 arquitecturas de modelos.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-first</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza nuevos modelos de voz GPT-Realtime-2 con capacidades de razonamiento GPT-5</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-gpt-realtime-2-con-capaci</link>
+    <description>OpenAI ha introducido tres nuevos modelos de voz en tiempo real: GPT-Realtime-2 con razonamiento de clase GPT-5, GPT-Realtime-Translate para traducción en tiempo real, y GPT-Realtime-Whisper para transcripción de voz a texto. Estos modelos están disponibles en la API Realtime con soporte para 70+ idiomas de entrada y 13 de salida.</description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-gpt-realtime-2-con-capaci</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía completa de fine-tuning de modelos AI en 2026: OpenAI, Claude y modelos open source</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</link>
     <description>El fine-tuning ha pasado de ser un lujo de investigación a una necesidad de producción. Nueva guía técnica cubre todo desde la API de OpenAI hasta opciones open source como Llama 4 y Qwen 3, incluyendo técnicas QLoRA para hardware de consumo.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Transformers 4.51: Soporte mejorado para multimodalidad y nuevos modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-4-51-soporte-mejorado-para-multimodalidad-y-nue</link>
-    <description>&lt;cite index=&quot;25-20,25-21&quot;&gt;El comando transformers serve recibe varias mejoras incluyendo nuevo endpoint /v1/completions para completación de texto legacy, soporte multimodal para entradas de audio y video, mejor llamado de herramientas via parse_response, y correcciones en la API de respuesta&lt;/cite&gt;. &lt;cite index=&quot;25-11,25-12,25-13&quot;&gt;Se añade soporte para Granite Vision 4.1 de IBM Research para extracción de datos de documentos empresariales, especializado en extracción de gráficos (Chart2CSV, Chart2Summary, Chart2Code) y extracción de pares clave-valor semánticos&lt;/cite&gt;. &lt;cite index=&quot;28-20,28-21&quot;&gt;Hay más de 1M+ checkpoints de modelos Transformers disponibles en el Hugging Face Hub&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-4-51-soporte-mejorado-para-multimodalidad-y-nue</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente AI local que domina GitHub con 210k+ estrellas en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-local-que-domina-github-con-210k-estre</link>
-    <description>&lt;cite index=&quot;8-4,8-5&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas tras volverse viral&lt;/cite&gt;. &lt;cite index=&quot;8-7,8-8&quot;&gt;Funciona como un asistente AI personal que corre completamente en tus dispositivos, operando como gateway local que conecta modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord&lt;/cite&gt;. &lt;cite index=&quot;8-9,8-12&quot;&gt;A diferencia de asistentes en la nube, tus datos nunca salen de tu máquina, y puede navegar la web, ejecutar código y controlar flujos de trabajo multi-paso corriendo continuamente&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-local-que-domina-github-con-210k-estre</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>GitHub Copilot SDK habilita flujos de trabajo agenticos directamente en aplicaciones</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agenticos-dire</link>
-    <description>&lt;cite index=&quot;2-2,2-12&quot;&gt;GitHub lanza el Copilot SDK que permite flujos de trabajo agenticos directamente dentro de aplicaciones, marcando un cambio de interacciones prompt-respuesta hacia ejecución programable&lt;/cite&gt;. &lt;cite index=&quot;2-13,2-14&quot;&gt;Los flujos agenticos de GitHub se construyen con aislamiento, salidas restringidas y registro completo, ayudando a los equipos a ejecutar agentes de forma segura en GitHub Actions&lt;/cite&gt;. &lt;cite index=&quot;2-29&quot;&gt;Incluye patrones de producción para degradación elegante y caché al integrar el Copilot SDK en aplicaciones React Native&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-copilot-sdk-habilita-flujos-de-trabajo-agenticos-dire</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 lanzado: El modelo más avanzado de Anthropic para desarrollo agentico</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-lanzado-el-modelo-mas-avanzado-de-anthropic-</link>
-    <description>&lt;cite index=&quot;12-1,12-11&quot;&gt;Anthropic lanza Claude Opus 4.7, su modelo más capaz para razonamiento complejo y programación agentica, manteniendo el mismo precio de $5/$25 por MTok que Opus 4.6&lt;/cite&gt;. &lt;cite index=&quot;12-4,12-5&quot;&gt;Incluye modo rápido en vista previa de investigación para generación significativamente más rápida de tokens de salida con precios premium, disponible con el header beta fast-mode-2026-02-01&lt;/cite&gt;. &lt;cite index=&quot;20-14,20-15&quot;&gt;Es el modelo más capaz disponible, con una mejora significativa en programación agentica comparado con Claude Opus 4.6&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-lanzado-el-modelo-mas-avanzado-de-anthropic-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía definitiva de Fine-Tuning con mejores prácticas 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</link>
-    <description>&lt;cite index=&quot;31-16&quot;&gt;Aprende a elegir hiperparámetros correctos usando mejores prácticas de investigación y experimentos reales, entendiendo cómo cada uno afecta el rendimiento del modelo&lt;/cite&gt;. &lt;cite index=&quot;32-3,32-5&quot;&gt;Fine-tuning es un proceso de 7 etapas: preparación de dataset, inicialización de modelo, setup de entorno, fine-tuning, evaluación, deployment y mantenimiento&lt;/cite&gt;. &lt;cite index=&quot;40-6,40-7,40-8&quot;&gt;El rango típico de learning rate 10⁻⁵ a 10⁻⁴ y datasets pequeños de alta calidad superan consistentemente a datasets grandes con ruido&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-definitiva-de-fine-tuning-con-mejores-practicas-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Survey completo de Agentic RAG define nueva taxonomía</title>
-    <link>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</link>
-    <description>&lt;cite index=&quot;14-7,14-9,14-10&quot;&gt;Agentic RAG trasciende limitaciones tradicionales embedding agentes AI autónomos en pipelines RAG, leveraging patrones de diseño como reflexión, planificación, uso de herramientas y colaboración multi-agente para gestionar dinámicamente estrategias de retrieval&lt;/cite&gt;. &lt;cite index=&quot;14-12,14-13&quot;&gt;Este paper presenta una taxonomía principled de arquitecturas Agentic RAG basada en cardinalidad de agentes, estructura de control, autonomía y representación del conocimiento&lt;/cite&gt;.</description>
-    <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=survey-completo-de-agentic-rag-define-nueva-taxonomia</guid>
-    <category>INVESTIGACION</category>
   </item>
 </channel>
 </rss>

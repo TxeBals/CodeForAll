@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG Agéntico de Nueva Generación con LangGraph 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</link>
+    <description>Evolución de RAG hacia sistemas agénticos autónomos con LangGraph. Incluye agentes críticos, loops de reflexión, reescritura iterativa de queries y evaluación con RAGAS. Los sistemas pueden planear, recuperar, razonar y autocorregirse hasta alcanzar confianza o límite de presupuesto.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Patrones de Arquitectura AI-Native para sistemas de producción 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</link>
+    <description>Guía completa de patrones arquitectónicos para sistemas de IA en producción. Enfoque en diseño para el cambio, evaluación integrada y tratamiento de IA como capacidad runtime nativa. Incluye gestión de contexto, streaming, monitoreo y control de costos.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LocalAI 3.10.0: Engine de IA open-source con 36+ backends y P2P inferencing</title>
+    <link>https://txemagonzalez.com/post.html?slug=localai-3-10-0-engine-de-ia-open-source-con-36-backends-y-p2</link>
+    <description>Nueva versión añade compatibilidad con API de Anthropic, generación de video LTX-2, inferencia P2P distribuida y agentes autónomos con MCP. Soporta cualquier hardware sin GPU requerida y ofrece APIs compatibles con OpenAI, Anthropic y ElevenLabs.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=localai-3-10-0-engine-de-ia-open-source-con-36-backends-y-p2</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Unsloth 2026: Framework de fine-tuning optimizado con soporte MoE y FP8</title>
+    <link>https://txemagonzalez.com/post.html?slug=unsloth-2026-framework-de-fine-tuning-optimizado-con-soporte</link>
+    <description>Actualización mayor de Unsloth añade soporte para fine-tuning de modelos Mixture of Experts y entrenamiento FP8. Ofrece 2.3x velocidad superior y 35% menos uso de VRAM que alternativas, soportando Llama 3, Mistral, Qwen, DeepSeek en GPU única.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=unsloth-2026-framework-de-fine-tuning-optimizado-con-soporte</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI o3 y o4-mini: Nuevos modelos de razonamiento con capacidades de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-nuevos-modelos-de-razonamiento-con-capac</link>
+    <description>OpenAI lanza sus modelos más avanzados con capacidades agenticas integradas: navegación web, análisis de archivos con Python, generación de imágenes y razonamiento profundo. o4-mini logra 99.5% en AIME 2025 y es 80% más barato que o3 manteniendo alta performance.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-nuevos-modelos-de-razonamiento-con-capac</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GitHub Models se convierte en plataforma universal para prototipos de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-models-se-convierte-en-plataforma-universal-para-prot</link>
+    <description>GitHub lanza funcionalidad mejorada que permite experimentar con más de 50 modelos de IA gratuitos directamente desde VS Code. Los desarrolladores pueden probar modelos de OpenAI, Meta, Microsoft usando un solo API key y migrar fácilmente a producción con pricing escalable.</description>
+    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-models-se-convierte-en-plataforma-universal-para-prot</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
     <title>OpenClaw alcanza 210k estrellas como asistente AI personal más popular de GitHub</title>
     <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-ai-personal-m</link>
     <description>OpenClaw se ha convertido en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, alcanzando 210k estrellas. Es un asistente AI personal que funciona completamente en dispositivos locales con integración a más de 50 plataformas incluyendo WhatsApp, Slack y Discord.</description>
@@ -116,54 +164,6 @@
     <description>Hugging Face lanza Transformers v5.0.0rc-0 con cambios importantes: soporte exclusivo para PyTorch (eliminando TensorFlow/Flax), cuantización como característica de primera clase y arquitectura modular mejorada. La biblioteca ahora supera los 3 millones de instalaciones diarias y soporta más de 400 arquitecturas de modelos.</description>
     <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain v1.1 introduce Deep Agents y mejoras en arquitectura modular</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-deep-agents-y-mejoras-en-arquitectu</link>
-    <description>LangChain lanza la versión 1.1 con Deep Agents, un paquete de alto nivel para agentes con capacidades integradas de planificación, subagentes y uso del sistema de archivos. La actualización incluye soporte mejorado para GPT-5.4, APIs de herramientas actualizadas y mejor integración con LangGraph para flujos de trabajo complejos.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-introduce-deep-agents-y-mejoras-en-arquitectu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto AI de crecimiento más rápido de GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-de-crecimiento-mas-r</link>
-    <description>OpenClaw, creado por Peter Steinberger de PSPDFKit, alcanzó más de 210,000 estrellas en GitHub convirtiéndose en el proyecto de código abierto de crecimiento más rápido en la historia. El proyecto permite a no-ingenieros crear aplicaciones AI sofisticadas, reduciendo significativamente las barreras de entrada para el desarrollo AI de producción.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-de-crecimiento-mas-r</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic anuncia Claude Opus 4.7 con capacidades cibernéticas controladas</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-anuncia-claude-opus-4-7-con-capacidades-cibernetic</link>
-    <description>Anthropic libera Claude Opus 4.7, el primer modelo en implementar salvaguardas de seguridad cibernética desarrolladas para Mythos Preview. Incluye mejores capacidades de visión, programación más limpia y detección automática de solicitudes cibernéticas prohibidas. Disponible en Claude API con el identificador claude-opus-4-7.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-anuncia-claude-opus-4-7-con-capacidades-cibernetic</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 con capacidades mejoradas de programación y seguridad cibernética</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-mejoradas-de-programaci</link>
-    <description>OpenAI presenta GPT-5.5, su modelo más avanzado con mejores habilidades de programación, uso de computadoras e investigación profunda. El modelo está disponible para usuarios pagos de ChatGPT y Codex, con acceso API próximamente. Incluye mejoras significativas en análisis de datos, debugging de código y creación de documentos.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-capacidades-mejoradas-de-programaci</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>RAG Avanzado con Hugging Face y LangChain: Guía técnica completa</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</link>
-    <description>&lt;cite index=&quot;29-1,29-2&quot;&gt;Notebook que demuestra cómo construir RAG avanzado para responder preguntas sobre bases de conocimiento específicas usando la documentación de HuggingFace con LangChain, incluyendo introducción a RAG&lt;/cite&gt;. &lt;cite index=&quot;29-10,29-11&quot;&gt;Utiliza la librería Langchain por su gran variedad de opciones para bases de datos vectoriales y capacidad de mantener metadata de documentos a través del procesamiento, dividiendo documentos en chunks semánticamente relevantes&lt;/cite&gt;. &lt;cite index=&quot;29-15,29-16&quot;&gt;Implementa RecursiveCharacterTextSplitter de Hugging Face tokenizer con parámetros configurables como chunk_size, chunk_overlap y separadores MARKDOWN&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-avanzado-con-hugging-face-y-langchain-guia-tecnica-compl</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Langchain-Hugging Face: Paquete oficial para integración de ecosistemas</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</link>
-    <description>&lt;cite index=&quot;22-1,22-2&quot;&gt;Hugging Face y LangChain anuncian langchain_huggingface, un paquete partner mantenido conjuntamente diseñado para traer el poder de los últimos desarrollos de Hugging Face a LangChain manteniéndolo actualizado&lt;/cite&gt;. &lt;cite index=&quot;22-4,22-6&quot;&gt;Al convertirse en paquete partner, apuntan a reducir el tiempo que toma traer nuevas características del ecosistema Hugging Face a usuarios de LangChain, con compromiso conjunto de mantener y mejorar continuamente esta integración&lt;/cite&gt;. &lt;cite index=&quot;27-14,27-28&quot;&gt;La versión actual langchain_huggingface-1.2.0 está disponible en PyPI con archivos tar.gz y wheel&lt;/cite&gt;.</description>
-    <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-hugging-face-paquete-oficial-para-integracion-de-e</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

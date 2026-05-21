@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</loc><lastmod>2026-05-21</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</loc><lastmod>2026-05-21</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</loc><lastmod>2026-05-21</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-pytorch-first-y-qu</loc><lastmod>2026-05-21</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-7-mejoras-significativas-en-ingenier</loc><lastmod>2026-05-21</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-con-210k-estrellas-en-github</loc><lastmod>2026-05-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</loc><lastmod>2026-05-20</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</loc><lastmod>2026-05-20</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=localai-3-10-0-engine-de-ia-open-source-con-36-backends-y-p2</loc><lastmod>2026-05-20</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenAI o1: Mejores Prácticas para Modelos de Razonamiento en Producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</link>
+    <description>Guía oficial actualizada con técnicas optimizadas para usar modelos de razonamiento o1 en aplicaciones empresariales. Incluye estrategias para control de costos, gestión de latencia y fine-tuning con Reinforcement Fine-Tuning (RFT).</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain v1.1: Framework Estable para Agentes RAG en Producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</link>
+    <description>Framework maduro para aplicaciones LLM con arquitectura modular, soporte para agentes ReAct y integración con LangGraph para workflows complejos. Incluye más de 1000 integraciones y soporte nativo para Python 3.10+.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic MCP: Protocolo de Contexto de Modelos para Integraciones Estándar</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</link>
+    <description>Protocolo abierto que permite conexiones bidireccionales seguras entre asistentes IA y fuentes de datos externas. SDKs disponibles en Python, TypeScript, C# y Java con servidores pre-construidos para sistemas empresariales populares.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5: Arquitectura PyTorch-First y Quantización Nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-pytorch-first-y-qu</link>
+    <description>Release candidate de la nueva versión mayor de Transformers con soporte exclusivo para PyTorch, quantización como ciudadano de primera clase e interoperabilidad mejorada con el ecosistema AI. Incluye más de 400 arquitecturas de modelos.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-pytorch-first-y-qu</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic Claude Opus 4.7: Mejoras Significativas en Ingeniería de Software</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-7-mejoras-significativas-en-ingenier</link>
+    <description>Nueva versión del modelo Claude con avances notables en tareas avanzadas de desarrollo de software. Los usuarios reportan poder delegar trabajos de codificación complejos que antes requerían intervención humana directa.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-7-mejoras-significativas-en-ingenier</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente de IA Local con +210k Estrellas en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-con-210k-estrellas-en-github</link>
+    <description>Framework de IA personal que funciona completamente local, conectando modelos LLM a más de 50 integraciones incluyendo WhatsApp, Telegram y Discord. Permite navegación web, ejecución de código y control de aplicaciones sin enviar datos a la nube.</description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-con-210k-estrellas-en-github</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>RAG Agéntico de Nueva Generación con LangGraph 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</link>
     <description>Evolución de RAG hacia sistemas agénticos autónomos con LangGraph. Incluye agentes críticos, loops de reflexión, reescritura iterativa de queries y evaluación con RAGAS. Los sistemas pueden planear, recuperar, razonar y autocorregirse hasta alcanzar confianza o límite de presupuesto.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Los frameworks RAG evolucionan hacia Agent SDKs y protocolo MCP</title>
-    <link>https://txemagonzalez.com/post.html?slug=los-frameworks-rag-evolucionan-hacia-agent-sdks-y-protocolo-</link>
-    <description>Los frameworks tradicionales como LangChain y LlamaIndex están siendo reemplazados por Agent SDKs más especializados y el protocolo MCP (Model Context Protocol). Los agentes de código pueden ahora generar pipelines RAG personalizados en minutos.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=los-frameworks-rag-evolucionan-hacia-agent-sdks-y-protocolo-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw lidera repositorio GitHub más rápido en crecimiento de IA en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-lidera-repositorio-github-mas-rapido-en-crecimiento</link>
-    <description>OpenClaw se ha convertido en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, pasando de 9,000 a más de 210,000 estrellas. Es un asistente personal de IA que funciona completamente en dispositivos locales con más de 50 integraciones.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-lidera-repositorio-github-mas-rapido-en-crecimiento</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic presenta Claude Platform en AWS con API nativa completa</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-platform-en-aws-con-api-nativa-com</link>
-    <description>Anthropic ha lanzado Claude Platform en AWS, ofreciendo acceso completo a la API de Claude con autenticación AWS, facturación nativa y soporte para todas las funcionalidades incluyendo Files API, Skills beta y conectores MCP.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-platform-en-aws-con-api-nativa-com</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza Realtime API y nuevo modelo GPT-Realtime para aplicaciones de voz</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-y-nuevo-modelo-gpt-realtime-para-a</link>
-    <description>OpenAI ha lanzado oficialmente la API Realtime junto con el modelo GPT-realtime, un avance significativo para desarrollar agentes de voz en producción. La API incluye soporte para servidores MCP remotos, entrada de imágenes y llamadas telefónicas a través de SIP.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-y-nuevo-modelo-gpt-realtime-para-a</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía práctica: Arquitectura de sistemas AI para producción en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</link>
-    <description>Nueva guía completa sobre arquitectura de sistemas AI que cubre los seis niveles esenciales: datos, modelo, inferencia, orquestación, aplicación y monitoreo. Enfatiza arquitecturas modulares, observabilidad y diseño para el cambio, con ejemplos prácticos de implementación multi-agente y patrones de arquitectura escalables.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-practica-arquitectura-de-sistemas-ai-para-produccion-en</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5 se enfoca exclusivamente en PyTorch y cuantización</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</link>
-    <description>Hugging Face lanza Transformers v5.0.0rc-0 con cambios importantes: soporte exclusivo para PyTorch (eliminando TensorFlow/Flax), cuantización como característica de primera clase y arquitectura modular mejorada. La biblioteca ahora supera los 3 millones de instalaciones diarias y soporta más de 400 arquitecturas de modelos.</description>
-    <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-enfoca-exclusivamente-en-pyt</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

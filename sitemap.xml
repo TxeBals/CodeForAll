@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</loc><lastmod>2026-05-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</loc><lastmod>2026-05-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-en-coding-y-visi</loc><lastmod>2026-05-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-viraliza-como-asistente-ai-local-mas-popular-de-</loc><lastmod>2026-05-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-3-introduce-streaming-v3-y-mejoras-en-agentes</loc><lastmod>2026-05-22</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-con-razonamiento-gpt-5</loc><lastmod>2026-05-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</loc><lastmod>2026-05-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</loc><lastmod>2026-05-21</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</loc><lastmod>2026-05-21</lastmod></url>

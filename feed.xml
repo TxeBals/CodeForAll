@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial completo: Fine-tuning de LLMs con técnicas PEFT 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</link>
+    <description>Nueva guía práctica para fine-tuning de modelos grandes usando técnicas eficientes como LoRA, QLoRA y RLHF. Cubre preparación de datasets, selección de hiperparámetros y validación con casos de estudio en diferentes dominios.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Actian VectorAI DB promete 22x más velocidad en búsqueda vectorial</title>
+    <link>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</link>
+    <description>Actian lanza VectorAI DB, una base de datos vectorial embebible que puede ejecutarse directamente en aplicaciones sin mover datos. Promete hasta 22x más velocidad que alternativas tradicionales y mejor rendimiento estable a gran escala.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.7 con mejoras en coding y visión</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-en-coding-y-visi</link>
+    <description>Claude Opus 4.7 muestra mejoras significativas en ingeniería de software y tareas de coding complejas, con mejor visión de alta resolución. También introduce herramientas como Advisor para combinar Opus como asesor con Sonnet como ejecutor.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-en-coding-y-visi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw se viraliza como asistente AI local más popular de GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-viraliza-como-asistente-ai-local-mas-popular-de-</link>
+    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9K a 210K+ estrellas. Es un asistente AI personal que funciona completamente local con más de 50 integraciones incluyendo WhatsApp, Slack y Discord.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-viraliza-como-asistente-ai-local-mas-popular-de-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain v1.3 introduce streaming v3 y mejoras en agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-3-introduce-streaming-v3-y-mejoras-en-agentes</link>
+    <description>Nueva versión de LangChain con soporte para streaming de eventos v3, DeltaChannel para threads de larga duración, timeouts por nodo y mejor control de ejecución de agentes. También lanza LangChain Labs para investigación aplicada en aprendizaje continuo.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-3-introduce-streaming-v3-y-mejoras-en-agentes</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza nuevos modelos de voz con razonamiento GPT-5</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-con-razonamiento-gpt-5</link>
+    <description>OpenAI presenta GPT-Realtime-2, GPT-Realtime-Translate y GPT-Realtime-Whisper en su API Realtime, incorporando capacidades de razonamiento GPT-5 para conversaciones de voz más complejas y traducción en tiempo real con más de 70 idiomas de entrada.</description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-con-razonamiento-gpt-5</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>OpenAI o1: Mejores Prácticas para Modelos de Razonamiento en Producción</title>
     <link>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</link>
     <description>Guía oficial actualizada con técnicas optimizadas para usar modelos de razonamiento o1 en aplicaciones empresariales. Incluye estrategias para control de costos, gestión de latencia y fine-tuning con Reinforcement Fine-Tuning (RFT).</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=vllm-0-21-anade-soporte-transformers-v5-y-nuevas-arquitectur</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic divide facturación de Claude: Agent SDK obtiene pool de créditos separado</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-divide-facturacion-de-claude-agent-sdk-obtiene-poo</link>
-    <description>A partir del 15 de junio, Anthropic separará el uso programático (Agent SDK, claude -p, GitHub Actions) del uso interactivo en las suscripciones de Claude. Los usuarios obtendrán créditos mensuales separados ($20-$200) para herramientas de terceros como OpenClaw y Conductor.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-divide-facturacion-de-claude-agent-sdk-obtiene-poo</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain 1.3 introduce agentes con streaming v3 y mejoras en observabilidad</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-introduce-agentes-con-streaming-v3-y-mejoras-e</link>
-    <description>LangChain ha lanzado la versión 1.3 con soporte para stream_events versión v3, nuevo sistema de perfiles de modelos desde models.dev, y mejoras significativas en LangGraph para control granular de ejecución de nodos incluyendo timeouts y recuperación de errores.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-introduce-agentes-con-streaming-v3-y-mejoras-e</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza Transformers v5 con enfoque PyTorch-first y cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-first</link>
-    <description>Hugging Face ha lanzado la versión 5.0 de Transformers, abandonando el soporte para TensorFlow/JAX en favor de PyTorch como único backend. La nueva versión incluye cuantización como característica de primera clase, arquitectura modular mejorada y soporte para más de 400 arquitecturas de modelos.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-transformers-v5-con-enfoque-pytorch-first</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza nuevos modelos de voz GPT-Realtime-2 con capacidades de razonamiento GPT-5</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-gpt-realtime-2-con-capaci</link>
-    <description>OpenAI ha introducido tres nuevos modelos de voz en tiempo real: GPT-Realtime-2 con razonamiento de clase GPT-5, GPT-Realtime-Translate para traducción en tiempo real, y GPT-Realtime-Whisper para transcripción de voz a texto. Estos modelos están disponibles en la API Realtime con soporte para 70+ idiomas de entrada y 13 de salida.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-gpt-realtime-2-con-capaci</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía completa de fine-tuning de modelos AI en 2026: OpenAI, Claude y modelos open source</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</link>
-    <description>El fine-tuning ha pasado de ser un lujo de investigación a una necesidad de producción. Nueva guía técnica cubre todo desde la API de OpenAI hasta opciones open source como Llama 4 y Qwen 3, incluyendo técnicas QLoRA para hardware de consumo.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-fine-tuning-de-modelos-ai-en-2026-openai-cl</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangGraph supera a CrewAI como framework líder para agentes multi-modelo</title>
-    <link>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</link>
-    <description>LangGraph ha superado a CrewAI en estrellas de GitHub durante 2026, impulsado por la adopción empresarial. Su arquitectura basada en grafos dirigidos proporciona control granular sobre flujos de trabajo de agentes con puntos de auditoría y rollback.</description>
-    <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langgraph-supera-a-crewai-como-framework-lider-para-agentes-</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

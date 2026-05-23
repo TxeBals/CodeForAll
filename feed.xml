@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura agentic: RAG multimodal y MCP para 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</link>
+    <description>Nuevos patrones de arquitectura emergen para sistemas de IA de producción, combinando RAG multimodal, integración MCP (Model Context Protocol), y orquestación multi-agente. Los sistemas ahora manejan texto, imágenes, video y datos estructurados, con capas de autonomía explícitas y ruteo inteligente entre modelos de diferentes tamaños según la complejidad de la tarea.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5: PyTorch-only y cuantización nativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</link>
+    <description>Hugging Face ha lanzado Transformers v5 con un enfoque PyTorch-only, eliminando soporte para TensorFlow y Flax. La versión incluye cuantización como ciudadano de primera clase, arquitectura modular mejorada para agregar modelos, y mejor interoperabilidad con motores de inferencia como vLLM y SGLang. Soporta más de 400 arquitecturas de modelos.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 GA estabiliza el ecosistema de agentes con LangGraph</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-ga-estabiliza-el-ecosistema-de-agentes-con-lan</link>
+    <description>LangChain ha alcanzado la versión 1.0 estable después de años de evolución, con LangGraph como el runtime principal para agentes durables. La nueva versión incluye protocolo de agentes limpio, soporte para streaming v3, mejor integración con LangSmith para evaluación, y arquitectura modular con menor overhead de tokens del framework.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-ga-estabiliza-el-ecosistema-de-agentes-con-lan</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw: El framework de agentes locales que arrasa en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-locales-que-arrasa-en-githu</link>
+    <description>OpenClaw se ha convertido en el repositorio de código abierto de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a más de 210,000 estrellas en semanas. Es un asistente personal de IA que funciona completamente en dispositivos locales, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-locales-que-arrasa-en-githu</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>GPT-5.5 Instant reemplaza a GPT-5.3 como modelo por defecto en ChatGPT y API</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-reemplaza-a-gpt-5-3-como-modelo-por-defecto-</link>
+    <description>OpenAI ha lanzado GPT-5.5 Instant como el nuevo modelo predeterminado, mejorando significativamente la precisión factual, concisión de respuestas y capacidades de personalización. Para usuarios Plus y Pro, integra mejor el contexto de conversaciones pasadas, archivos y Gmail conectado. También incluye nuevas funciones de memoria con fuentes visibles.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-reemplaza-a-gpt-5-3-como-modelo-por-defecto-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza nuevas APIs de voz con GPT-Realtime-2 y soporte multimodal</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevas-apis-de-voz-con-gpt-realtime-2-y-soporte</link>
+    <description>OpenAI ha liberado una actualización masiva de su API Realtime con tres nuevos modelos de voz: GPT-Realtime-2 con razonamiento avanzado, GPT-Realtime-Translate para traducción en tiempo real, y GPT-Realtime-Whisper para transcripción streaming. La API ahora soporta llamadas telefónicas vía SIP, integración con servidores MCP remotos, y entradas de imagen.</description>
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevas-apis-de-voz-con-gpt-realtime-2-y-soporte</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Tutorial completo: Fine-tuning de LLMs con técnicas PEFT 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</link>
     <description>Nueva guía práctica para fine-tuning de modelos grandes usando técnicas eficientes como LoRA, QLoRA y RLHF. Cubre preparación de datasets, selección de hiperparámetros y validación con casos de estudio en diferentes dominios.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LocalAI 3.10.0: Engine de IA open-source con 36+ backends y P2P inferencing</title>
-    <link>https://txemagonzalez.com/post.html?slug=localai-3-10-0-engine-de-ia-open-source-con-36-backends-y-p2</link>
-    <description>Nueva versión añade compatibilidad con API de Anthropic, generación de video LTX-2, inferencia P2P distribuida y agentes autónomos con MCP. Soporta cualquier hardware sin GPU requerida y ofrece APIs compatibles con OpenAI, Anthropic y ElevenLabs.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=localai-3-10-0-engine-de-ia-open-source-con-36-backends-y-p2</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Unsloth 2026: Framework de fine-tuning optimizado con soporte MoE y FP8</title>
-    <link>https://txemagonzalez.com/post.html?slug=unsloth-2026-framework-de-fine-tuning-optimizado-con-soporte</link>
-    <description>Actualización mayor de Unsloth añade soporte para fine-tuning de modelos Mixture of Experts y entrenamiento FP8. Ofrece 2.3x velocidad superior y 35% menos uso de VRAM que alternativas, soportando Llama 3, Mistral, Qwen, DeepSeek en GPU única.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=unsloth-2026-framework-de-fine-tuning-optimizado-con-soporte</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI o3 y o4-mini: Nuevos modelos de razonamiento con capacidades de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-nuevos-modelos-de-razonamiento-con-capac</link>
-    <description>OpenAI lanza sus modelos más avanzados con capacidades agenticas integradas: navegación web, análisis de archivos con Python, generación de imágenes y razonamiento profundo. o4-mini logra 99.5% en AIME 2025 y es 80% más barato que o3 manteniendo alta performance.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-o3-y-o4-mini-nuevos-modelos-de-razonamiento-con-capac</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GitHub Models se convierte en plataforma universal para prototipos de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-models-se-convierte-en-plataforma-universal-para-prot</link>
-    <description>GitHub lanza funcionalidad mejorada que permite experimentar con más de 50 modelos de IA gratuitos directamente desde VS Code. Los desarrolladores pueden probar modelos de OpenAI, Meta, Microsoft usando un solo API key y migrar fácilmente a producción con pricing escalable.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-models-se-convierte-en-plataforma-universal-para-prot</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw alcanza 210k estrellas como asistente AI personal más popular de GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-ai-personal-m</link>
-    <description>OpenClaw se ha convertido en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, alcanzando 210k estrellas. Es un asistente AI personal que funciona completamente en dispositivos locales con integración a más de 50 plataformas incluyendo WhatsApp, Slack y Discord.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-alcanza-210k-estrellas-como-asistente-ai-personal-m</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>vLLM 0.21 añade soporte Transformers v5 y nuevas arquitecturas MoE</title>
-    <link>https://txemagonzalez.com/post.html?slug=vllm-0-21-anade-soporte-transformers-v5-y-nuevas-arquitectur</link>
-    <description>vLLM ha lanzado la versión 0.21 con soporte completo para Transformers v5, nuevas arquitecturas como Laguna XS.2 y Moondream3, mejoras en especulative decoding, y optimizaciones de kernels incluyendo TOKENSPEED_MLA para GPUs Blackwell.</description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vllm-0-21-anade-soporte-transformers-v5-y-nuevas-arquitectur</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

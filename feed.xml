@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>RAG modular: De monolítico a composable en arquitecturas 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</link>
+    <description>Nueva generación de patrones RAG modulares donde cada componente es independientemente reemplazable. Incluye Hybrid RAG (vector + keyword), Graph RAG con conocimiento relacional, y Agentic RAG con bucles de planificación automática. El ecosistema Java con Spring AI cierra la brecha con Python.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.7 con task budgets y capacidades de ultra-review</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</link>
+    <description>Anthropic lanza Claude Opus 4.7 con mejoras del 13% en benchmark de coding, task budgets en beta para guiar gasto de tokens en ejecuciones largas, comando /ultrareview para revisiones dedicadas de código, y modo auto extendido para usuarios Max.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain 1.3.1 y Deep Agents con arquitectura modular de agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</link>
+    <description>LangChain actualiza a versión estable 1.3.1 con nuevo create_agent abstraction, sistema de middleware para control granular, y Deep Agents v0.4 con sandboxes aislados. LangGraph se posiciona como el runtime diferenciador para orquestación de agentes complejos.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Gemini 3.5 Flash y Agent Platform con capacidades de video multimodal</title>
+    <link>https://txemagonzalez.com/post.html?slug=gemini-3-5-flash-y-agent-platform-con-capacidades-de-video-m</link>
+    <description>Google lanza Gemini 3.5 series con 3.5 Flash optimizado para agentes y coding. Gemini Omni genera contenido de video dinámico mezclando texto, audio, imagen y video. Nuevo Managed Agents API permite construir agentes personalizados en entornos seguros de Google.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-5-flash-y-agent-platform-con-capacidades-de-video-m</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GPT-Realtime-2 con razonamiento GPT-5 class en la API de OpenAI</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-realtime-2-con-razonamiento-gpt-5-class-en-la-api-de-ope</link>
+    <description>OpenAI lanza nuevas funciones de inteligencia de voz en su API, incluyendo GPT-Realtime-2 con capacidades de razonamiento avanzadas, GPT-Realtime-Translate para traducción en tiempo real (70+ idiomas de entrada, 13 de salida) y GPT-Realtime-Whisper para transcripción en vivo.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-realtime-2-con-razonamiento-gpt-5-class-en-la-api-de-ope</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>ml-intern: Agente autónomo de ML con ecosistema Hugging Face</title>
+    <link>https://txemagonzalez.com/post.html?slug=ml-intern-agente-autonomo-de-ml-con-ecosistema-hugging-face</link>
+    <description>Nuevo agente open-source que investiga, escribe y despliega código ML de calidad de forma autónoma. Ejecuta bucles agénticos hasta 300 iteraciones, carga trazas de entrenamiento a datasets privados de HF, y maneja fine-tuning en sandbox con gates de aprobación.</description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ml-intern-agente-autonomo-de-ml-con-ecosistema-hugging-face</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura agentic: RAG multimodal y MCP para 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</link>
     <description>Nuevos patrones de arquitectura emergen para sistemas de IA de producción, combinando RAG multimodal, integración MCP (Model Context Protocol), y orquestación multi-agente. Los sistemas ahora manejan texto, imágenes, video y datos estructurados, con capas de autonomía explícitas y ruteo inteligente entre modelos de diferentes tamaños según la complejidad de la tarea.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic MCP: Protocolo de Contexto de Modelos para Integraciones Estándar</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</link>
-    <description>Protocolo abierto que permite conexiones bidireccionales seguras entre asistentes IA y fuentes de datos externas. SDKs disponibles en Python, TypeScript, C# y Java con servidores pre-construidos para sistemas empresariales populares.</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-mcp-protocolo-de-contexto-de-modelos-para-integrac</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5: Arquitectura PyTorch-First y Quantización Nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-pytorch-first-y-qu</link>
-    <description>Release candidate de la nueva versión mayor de Transformers con soporte exclusivo para PyTorch, quantización como ciudadano de primera clase e interoperabilidad mejorada con el ecosistema AI. Incluye más de 400 arquitecturas de modelos.</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-pytorch-first-y-qu</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic Claude Opus 4.7: Mejoras Significativas en Ingeniería de Software</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-7-mejoras-significativas-en-ingenier</link>
-    <description>Nueva versión del modelo Claude con avances notables en tareas avanzadas de desarrollo de software. Los usuarios reportan poder delegar trabajos de codificación complejos que antes requerían intervención humana directa.</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-7-mejoras-significativas-en-ingenier</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente de IA Local con +210k Estrellas en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-con-210k-estrellas-en-github</link>
-    <description>Framework de IA personal que funciona completamente local, conectando modelos LLM a más de 50 integraciones incluyendo WhatsApp, Telegram y Discord. Permite navegación web, ejecución de código y control de aplicaciones sin enviar datos a la nube.</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-de-ia-local-con-210k-estrellas-en-github</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>RAG Agéntico de Nueva Generación con LangGraph 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</link>
-    <description>Evolución de RAG hacia sistemas agénticos autónomos con LangGraph. Incluye agentes críticos, loops de reflexión, reescritura iterativa de queries y evaluación con RAGAS. Los sistemas pueden planear, recuperar, razonar y autocorregirse hasta alcanzar confianza o límite de presupuesto.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-agentico-de-nueva-generacion-con-langgraph-2026</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Patrones de Arquitectura AI-Native para sistemas de producción 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</link>
-    <description>Guía completa de patrones arquitectónicos para sistemas de IA en producción. Enfoque en diseño para el cambio, evaluación integrada y tratamiento de IA como capacidad runtime nativa. Incluye gestión de contexto, streaming, monitoreo y control de costos.</description>
-    <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-ai-native-para-sistemas-de-producci</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

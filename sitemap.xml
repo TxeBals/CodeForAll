@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</loc><lastmod>2026-05-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</loc><lastmod>2026-05-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</loc><lastmod>2026-05-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gemini-3-5-flash-y-agent-platform-con-capacidades-de-video-m</loc><lastmod>2026-05-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-realtime-2-con-razonamiento-gpt-5-class-en-la-api-de-ope</loc><lastmod>2026-05-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ml-intern-agente-autonomo-de-ml-con-ecosistema-hugging-face</loc><lastmod>2026-05-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</loc><lastmod>2026-05-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</loc><lastmod>2026-05-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-ga-estabiliza-el-ecosistema-de-agentes-con-lan</loc><lastmod>2026-05-23</lastmod></url>

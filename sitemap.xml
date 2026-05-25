@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-2026-langgraph-domina-empresa-crewai-p</loc><lastmod>2026-05-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-x-estable-para-produccion-con-lcel-y-langgraph</loc><lastmod>2026-05-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</loc><lastmod>2026-05-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ollama-migra-a-mlx-en-apple-silicon-con-mejoras-dramaticas</loc><lastmod>2026-05-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-modo-rapido-2-5x-mas-veloz-en-preview</loc><lastmod>2026-05-25</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-ahora-por-defecto-en-chatgpt-con-nuevos-mode</loc><lastmod>2026-05-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</loc><lastmod>2026-05-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</loc><lastmod>2026-05-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</loc><lastmod>2026-05-24</lastmod></url>

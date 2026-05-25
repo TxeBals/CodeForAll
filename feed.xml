@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Frameworks de agentes 2026: LangGraph domina empresa, CrewAI prototipos rápidos</title>
+    <link>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-2026-langgraph-domina-empresa-crewai-p</link>
+    <description>&lt;cite index=&quot;48-5,48-6,48-7&quot;&gt;LangGraph está posicionado para dominar el tier de producción/empresa. Smolagents probablemente dominará el ecosistema HuggingFace y la comunidad de investigación. CrewAI y AutoGen competirán por el terreno medio accesible&lt;/cite&gt;. La explosión de frameworks en 2026 incluye OpenAI Agents SDK, Google ADK, y Hugging Face Smolagents.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-2026-langgraph-domina-empresa-crewai-p</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangChain v1.x estable para producción con LCEL y LangGraph</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-x-estable-para-produccion-con-lcel-y-langgraph</link>
+    <description>&lt;cite index=&quot;20-4,20-5&quot;&gt;LangChain v1.0 fue específicamente diseñado para uso en producción con una API estable, versionado semántico y garantías de compatibilidad hacia atrás. Empresas como Elastic, Rakuten y Replit han desplegado LangChain en producción&lt;/cite&gt;. El framework incluye ahora LangChain Expression Language (LCEL) para composición de cadenas e integración con LangGraph.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-x-estable-para-produccion-con-lcel-y-langgraph</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Transformers v5.9.0 con soporte para DeepSeek V4 y nuevos modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</link>
+    <description>&lt;cite index=&quot;32-1,32-7,36-8,36-9&quot;&gt;Hugging Face lanzó Transformers v5.9.0 con soporte para DeepSeek V4, un modelo MoE de próxima generación que introduce varias innovaciones arquitectónicas, incluyendo atención híbrida local + largo alcance y Manifold-Constrained Hyper-Connections (mHC)&lt;/cite&gt;. También incluye soporte para Gemma 4 Assistant, Granite Speech Plus y otros modelos nuevos.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Ollama migra a MLX en Apple Silicon con mejoras dramáticas</title>
+    <link>https://txemagonzalez.com/post.html?slug=ollama-migra-a-mlx-en-apple-silicon-con-mejoras-dramaticas</link>
+    <description>&lt;cite index=&quot;42-1,42-3,42-4&quot;&gt;Ollama en Apple silicon ahora está construido sobre el framework de machine learning MLX de Apple, aprovechando su arquitectura de memoria unificada. Esto resulta en un gran aumento de velocidad en todos los dispositivos Apple Silicon&lt;/cite&gt;. Los benchmarks muestran mejoras de hasta 3x en throughput para modelos grandes.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ollama-migra-a-mlx-en-apple-silicon-con-mejoras-dramaticas</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.7 con modo rápido 2.5x más veloz en preview</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-modo-rapido-2-5x-mas-veloz-en-preview</link>
+    <description>&lt;cite index=&quot;16-1&quot;&gt;Anthropic lanzó el modo rápido para Claude Opus 4.7 en preview de investigación en la API y Claude Code, con respuestas 2.5x más rápidas a $30/$150 por millón de tokens, convirtiéndose en el modelo de modo rápido por defecto&lt;/cite&gt;. Además, están en conversaciones para adquirir la startup de herramientas para desarrolladores Stainless por al menos $300M.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-modo-rapido-2-5x-mas-veloz-en-preview</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>GPT-5.5 Instant ahora por defecto en ChatGPT con nuevos modelos de voz</title>
+    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-ahora-por-defecto-en-chatgpt-con-nuevos-mode</link>
+    <description>&lt;cite index=&quot;12-1&quot;&gt;OpenAI lanzó tres nuevos modelos de voz en tiempo real en su API (GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper) y estableció GPT-5.5 Instant como el modelo predeterminado de ChatGPT&lt;/cite&gt;. Los desarrolladores pueden ahora acceder a capacidades de voz nativas en tiempo real a través de la API oficial.</description>
+    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-ahora-por-defecto-en-chatgpt-con-nuevos-mode</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>RAG modular: De monolítico a composable en arquitecturas 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</link>
     <description>Nueva generación de patrones RAG modulares donde cada componente es independientemente reemplazable. Incluye Hybrid RAG (vector + keyword), Graph RAG con conocimiento relacional, y Agentic RAG con bucles de planificación automática. El ecosistema Java con Spring AI cierra la brecha con Python.</description>
@@ -116,54 +164,6 @@
     <description>Actian lanza VectorAI DB, una base de datos vectorial embebible que puede ejecutarse directamente en aplicaciones sin mover datos. Promete hasta 22x más velocidad que alternativas tradicionales y mejor rendimiento estable a gran escala.</description>
     <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.7 con mejoras en coding y visión</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-en-coding-y-visi</link>
-    <description>Claude Opus 4.7 muestra mejoras significativas en ingeniería de software y tareas de coding complejas, con mejor visión de alta resolución. También introduce herramientas como Advisor para combinar Opus como asesor con Sonnet como ejecutor.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-7-con-mejoras-en-coding-y-visi</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw se viraliza como asistente AI local más popular de GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-viraliza-como-asistente-ai-local-mas-popular-de-</link>
-    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9K a 210K+ estrellas. Es un asistente AI personal que funciona completamente local con más de 50 integraciones incluyendo WhatsApp, Slack y Discord.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-viraliza-como-asistente-ai-local-mas-popular-de-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain v1.3 introduce streaming v3 y mejoras en agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-3-introduce-streaming-v3-y-mejoras-en-agentes</link>
-    <description>Nueva versión de LangChain con soporte para streaming de eventos v3, DeltaChannel para threads de larga duración, timeouts por nodo y mejor control de ejecución de agentes. También lanza LangChain Labs para investigación aplicada en aprendizaje continuo.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-3-introduce-streaming-v3-y-mejoras-en-agentes</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza nuevos modelos de voz con razonamiento GPT-5</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-con-razonamiento-gpt-5</link>
-    <description>OpenAI presenta GPT-Realtime-2, GPT-Realtime-Translate y GPT-Realtime-Whisper en su API Realtime, incorporando capacidades de razonamiento GPT-5 para conversaciones de voz más complejas y traducción en tiempo real con más de 70 idiomas de entrada.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevos-modelos-de-voz-con-razonamiento-gpt-5</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI o1: Mejores Prácticas para Modelos de Razonamiento en Producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</link>
-    <description>Guía oficial actualizada con técnicas optimizadas para usar modelos de razonamiento o1 en aplicaciones empresariales. Incluye estrategias para control de costos, gestión de latencia y fine-tuning con Reinforcement Fine-Tuning (RFT).</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-o1-mejores-practicas-para-modelos-de-razonamiento-en-</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain v1.1: Framework Estable para Agentes RAG en Producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</link>
-    <description>Framework maduro para aplicaciones LLM con arquitectura modular, soporte para agentes ReAct y integración con LangGraph para workflows complejos. Incluye más de 1000 integraciones y soporte nativo para Python 3.10+.</description>
-    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-framework-estable-para-agentes-rag-en-producc</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

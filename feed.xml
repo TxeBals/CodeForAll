@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenClaw se convierte en el proyecto AI open-source de más rápido crecimiento con 210K stars</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</link>
+    <description>&lt;cite index=&apos;4-3,4-4,4-6,4-7&apos;&gt;OpenClaw creado por Peter Steinberger se convirtió en el proyecto open-source de más rápido crecimiento en la historia de GitHub, surgiendo de 9K a 60K stars en días y ahora con más de 210K stars. Es un asistente AI personal que funciona completamente en dispositivos locales, operando como gateway local conectando modelos AI a más de 50 integraciones.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic expande Claude con MCP Tunnels y Self-Hosted Sandboxes para empresas</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</link>
+    <description>&lt;cite index=&apos;51-10,51-11&apos;&gt;Anthropic lanzó MCP Tunnels en research preview para conectar servidores MCP en redes privadas, y Self-Hosted Sandboxes en beta pública como alternativa a ejecutar herramientas en infraestructura de Anthropic.&lt;/cite&gt; &lt;cite index=&apos;52-4,52-5,52-6&apos;&gt;Los sandboxes auto-hospedados mantienen archivos sensibles y servicios en infraestructura propia mientras la orquestación de agentes permanece en servers de Anthropic.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangGraph 1.2 introduce DeltaChannel para agentes de larga duración con 41x menos almacenamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-1-2-introduce-deltachannel-para-agentes-de-larga-d</link>
+    <description>&lt;cite index=&apos;61-3,61-4,61-5&apos;&gt;LangGraph 1.2 añade DeltaChannel (beta), un nuevo tipo de canal que almacena solo deltas incrementales en cada paso en lugar de re-serializar el valor completo, útil para canales que crecen con el tiempo como listas de mensajes en hilos de larga duración.&lt;/cite&gt; &lt;cite index=&apos;62-27,62-28,62-29&apos;&gt;Reduce almacenamiento de checkpoints de O(N²) a 129MB para agentes de 200 turnos (vs 5.3GB anteriormente), una reducción de 41x.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-1-2-introduce-deltachannel-para-agentes-de-larga-d</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek V4 Pro y Flash disponibles con contexto de 1M tokens y arquitectura híbrida</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v4-pro-y-flash-disponibles-con-contexto-de-1m-token</link>
+    <description>&lt;cite index=&apos;41-1,41-2,41-3,41-20,41-22&apos;&gt;DeepSeek V4 está disponible con V4-Pro (1.6T parámetros/49B activos) rivalizando modelos closed-source, y V4-Flash (284B/13B activos) como opción rápida y económica, ambos con capacidades de razonamiento de clase mundial.&lt;/cite&gt; &lt;cite index=&apos;42-5,42-6&apos;&gt;Incluye arquitectura de atención híbrida que reduce 73% los FLOPs y 90% el cache KV comparado con V3.2.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v4-pro-y-flash-disponibles-con-contexto-de-1m-token</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers 5.9.0 añade soporte para Command A+ MoE y nuevas arquitecturas multimodales</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-9-0-anade-soporte-para-command-a</link>
+    <description>&lt;cite index=&apos;21-1,21-7,21-8&apos;&gt;Transformers 5.9.0 incluye Command A+ de Cohere, un modelo Mixture-of-Experts con atención híbrida que combina ventana deslizante y capas de atención completa, soportando contextos muy largos.&lt;/cite&gt; &lt;cite index=&apos;21-14,21-15,21-18,21-19&apos;&gt;También añade Granite Speech Plus para transcripción multimodal con timestamps y Granite Vision 4.1 especializado en extracción de datos de documentos empresariales.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-9-0-anade-soporte-para-command-a</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.4 Codex con capacidades 25% más rápidas de agentes de programación</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-codex-con-capacidades-25-mas-rapidas-de</link>
+    <description>&lt;cite index=&apos;11-24,11-25,11-26&apos;&gt;OpenAI lanzó GPT-5.3-Codex como su modelo de programación más capaz que combina entrenamientos Codex + GPT-5, siendo 25% más rápido y marcando un cambio hacia agentes de programación que puede dirigir activamente mientras trabaja.&lt;/cite&gt; &lt;cite index=&apos;16-19,16-20&apos;&gt;También lanzaron Codex CLI, un agente de programación de terminal open-source con soporte para modelos o3 y o4-mini.&lt;/cite&gt;</description>
+    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-codex-con-capacidades-25-mas-rapidas-de</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Frameworks de agentes 2026: LangGraph domina empresa, CrewAI prototipos rápidos</title>
     <link>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-2026-langgraph-domina-empresa-crewai-p</link>
     <description>&lt;cite index=&quot;48-5,48-6,48-7&quot;&gt;LangGraph está posicionado para dominar el tier de producción/empresa. Smolagents probablemente dominará el ecosistema HuggingFace y la comunidad de investigación. CrewAI y AutoGen competirán por el terreno medio accesible&lt;/cite&gt;. La explosión de frameworks en 2026 incluye OpenAI Agents SDK, Google ADK, y Hugging Face Smolagents.</description>
@@ -116,54 +164,6 @@
     <description>Hugging Face ha lanzado Transformers v5 con un enfoque PyTorch-only, eliminando soporte para TensorFlow y Flax. La versión incluye cuantización como ciudadano de primera clase, arquitectura modular mejorada para agregar modelos, y mejor interoperabilidad con motores de inferencia como vLLM y SGLang. Soporta más de 400 arquitecturas de modelos.</description>
     <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 GA estabiliza el ecosistema de agentes con LangGraph</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-ga-estabiliza-el-ecosistema-de-agentes-con-lan</link>
-    <description>LangChain ha alcanzado la versión 1.0 estable después de años de evolución, con LangGraph como el runtime principal para agentes durables. La nueva versión incluye protocolo de agentes limpio, soporte para streaming v3, mejor integración con LangSmith para evaluación, y arquitectura modular con menor overhead de tokens del framework.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-ga-estabiliza-el-ecosistema-de-agentes-con-lan</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw: El framework de agentes locales que arrasa en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-locales-que-arrasa-en-githu</link>
-    <description>OpenClaw se ha convertido en el repositorio de código abierto de más rápido crecimiento en la historia de GitHub, saltando de 9,000 a más de 210,000 estrellas en semanas. Es un asistente personal de IA que funciona completamente en dispositivos locales, conectando modelos AI con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-framework-de-agentes-locales-que-arrasa-en-githu</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>GPT-5.5 Instant reemplaza a GPT-5.3 como modelo por defecto en ChatGPT y API</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-reemplaza-a-gpt-5-3-como-modelo-por-defecto-</link>
-    <description>OpenAI ha lanzado GPT-5.5 Instant como el nuevo modelo predeterminado, mejorando significativamente la precisión factual, concisión de respuestas y capacidades de personalización. Para usuarios Plus y Pro, integra mejor el contexto de conversaciones pasadas, archivos y Gmail conectado. También incluye nuevas funciones de memoria con fuentes visibles.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-reemplaza-a-gpt-5-3-como-modelo-por-defecto-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza nuevas APIs de voz con GPT-Realtime-2 y soporte multimodal</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevas-apis-de-voz-con-gpt-realtime-2-y-soporte</link>
-    <description>OpenAI ha liberado una actualización masiva de su API Realtime con tres nuevos modelos de voz: GPT-Realtime-2 con razonamiento avanzado, GPT-Realtime-Translate para traducción en tiempo real, y GPT-Realtime-Whisper para transcripción streaming. La API ahora soporta llamadas telefónicas vía SIP, integración con servidores MCP remotos, y entradas de imagen.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-nuevas-apis-de-voz-con-gpt-realtime-2-y-soporte</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Tutorial completo: Fine-tuning de LLMs con técnicas PEFT 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</link>
-    <description>Nueva guía práctica para fine-tuning de modelos grandes usando técnicas eficientes como LoRA, QLoRA y RLHF. Cubre preparación de datasets, selección de hiperparámetros y validación con casos de estudio en diferentes dominios.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-fine-tuning-de-llms-con-tecnicas-peft-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Actian VectorAI DB promete 22x más velocidad en búsqueda vectorial</title>
-    <link>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</link>
-    <description>Actian lanza VectorAI DB, una base de datos vectorial embebible que puede ejecutarse directamente en aplicaciones sin mover datos. Promete hasta 22x más velocidad que alternativas tradicionales y mejor rendimiento estable a gran escala.</description>
-    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=actian-vectorai-db-promete-22x-mas-velocidad-en-busqueda-vec</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

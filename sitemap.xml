@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</loc><lastmod>2026-05-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</loc><lastmod>2026-05-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-1-2-introduce-deltachannel-para-agentes-de-larga-d</loc><lastmod>2026-05-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-v4-pro-y-flash-disponibles-con-contexto-de-1m-token</loc><lastmod>2026-05-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-5-9-0-anade-soporte-para-command-a</loc><lastmod>2026-05-27</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-4-codex-con-capacidades-25-mas-rapidas-de</loc><lastmod>2026-05-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-2026-langgraph-domina-empresa-crewai-p</loc><lastmod>2026-05-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-x-estable-para-produccion-con-lcel-y-langgraph</loc><lastmod>2026-05-25</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</loc><lastmod>2026-05-25</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</loc><lastmod>2026-05-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</loc><lastmod>2026-05-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</loc><lastmod>2026-05-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-5-flash-y-gemini-spark-en-i-o-2026</loc><lastmod>2026-05-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-o3-mini-con-capacidades-de-razonamiento-ajustab</loc><lastmod>2026-05-28</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-mythos-1-preview-se-prepara-para-lanzamiento-en-claud</loc><lastmod>2026-05-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</loc><lastmod>2026-05-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</loc><lastmod>2026-05-27</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-1-2-introduce-deltachannel-para-agentes-de-larga-d</loc><lastmod>2026-05-27</lastmod></url>

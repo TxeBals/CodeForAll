@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenAI mejora API de Realtime con WebRTC y nuevas capacidades de audio nativo</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</link>
+    <description>OpenAI lanza Realtime 2 con modelo de voz configurable para agentes speech-to-speech, Realtime Translate para traducción de voz streaming y Realtime Whisper para speech-to-text. Incluye soporte completo para WebRTC y baja latencia.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>MiniMax-M2.1 open source: modelo agéntico de alto rendimiento ahora disponible</title>
+    <link>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</link>
+    <description>MiniMax libera M2.1 como modelo open-source optimizado para robustez en coding, herramientas, seguimiento de instrucciones y planificación de largo horizonte. Supera a Claude Sonnet 4.5 en escenarios multilingües y se acerca a Claude Opus 4.5.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza endpoint /agents.md automático para Gradio Spaces</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</link>
+    <description>Todos los Gradio Spaces ahora sirven automáticamente un endpoint /agents.md con descripción de API legible por máquinas. Los agentes de coding como Claude Code, Codex o Pi pueden leer y usar directamente estos Spaces sin configuración manual.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Google lanza Gemini 3.5 Flash y Gemini Spark en I/O 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-5-flash-y-gemini-spark-en-i-o-2026</link>
+    <description>Google presenta Gemini 3.5 Flash optimizado para tareas agénticas con inteligencia de nivel frontier a velocidad Flash. Gemini Spark actúa como agente personal 24/7. Ambos están disponibles hoy a través de Google Antigravity platform y Gemini API.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-5-flash-y-gemini-spark-en-i-o-2026</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza o3-mini con capacidades de razonamiento ajustables y búsqueda web</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-o3-mini-con-capacidades-de-razonamiento-ajustab</link>
+    <description>OpenAI introduce o3-mini, un modelo de razonamiento optimizado para coding, matemáticas y ciencias. Soporta tres niveles de esfuerzo de razonamiento (bajo, medio, alto) y funciones estructuradas en la API. Los usuarios de ChatGPT pueden acceder desde hoy.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-o3-mini-con-capacidades-de-razonamiento-ajustab</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Claude Mythos 1 Preview se prepara para lanzamiento en Claude Code y Claude Security</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-1-preview-se-prepara-para-lanzamiento-en-claud</link>
+    <description>Anthropic prepara el lanzamiento comercial de Claude Mythos 1 como &quot;claude-mythos-1-preview&quot;, su modelo más avanzado y previamente restringido. Se integra directamente en Claude Code y Claude Security para empresas. Las cadenas de código descubiertas confirman acceso limitado a estas plataformas específicas.</description>
+    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-1-preview-se-prepara-para-lanzamiento-en-claud</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>OpenClaw se convierte en el proyecto AI open-source de más rápido crecimiento con 210K stars</title>
     <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</link>
     <description>&lt;cite index=&apos;4-3,4-4,4-6,4-7&apos;&gt;OpenClaw creado por Peter Steinberger se convirtió en el proyecto open-source de más rápido crecimiento en la historia de GitHub, surgiendo de 9K a 60K stars en días y ahora con más de 210K stars. Es un asistente AI personal que funciona completamente en dispositivos locales, operando como gateway local conectando modelos AI a más de 50 integraciones.&lt;/cite&gt;</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain 1.3.1 y Deep Agents con arquitectura modular de agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</link>
-    <description>LangChain actualiza a versión estable 1.3.1 con nuevo create_agent abstraction, sistema de middleware para control granular, y Deep Agents v0.4 con sandboxes aislados. LangGraph se posiciona como el runtime diferenciador para orquestación de agentes complejos.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-1-y-deep-agents-con-arquitectura-modular-de-ag</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Gemini 3.5 Flash y Agent Platform con capacidades de video multimodal</title>
-    <link>https://txemagonzalez.com/post.html?slug=gemini-3-5-flash-y-agent-platform-con-capacidades-de-video-m</link>
-    <description>Google lanza Gemini 3.5 series con 3.5 Flash optimizado para agentes y coding. Gemini Omni genera contenido de video dinámico mezclando texto, audio, imagen y video. Nuevo Managed Agents API permite construir agentes personalizados en entornos seguros de Google.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gemini-3-5-flash-y-agent-platform-con-capacidades-de-video-m</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GPT-Realtime-2 con razonamiento GPT-5 class en la API de OpenAI</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-realtime-2-con-razonamiento-gpt-5-class-en-la-api-de-ope</link>
-    <description>OpenAI lanza nuevas funciones de inteligencia de voz en su API, incluyendo GPT-Realtime-2 con capacidades de razonamiento avanzadas, GPT-Realtime-Translate para traducción en tiempo real (70+ idiomas de entrada, 13 de salida) y GPT-Realtime-Whisper para transcripción en vivo.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-realtime-2-con-razonamiento-gpt-5-class-en-la-api-de-ope</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>ml-intern: Agente autónomo de ML con ecosistema Hugging Face</title>
-    <link>https://txemagonzalez.com/post.html?slug=ml-intern-agente-autonomo-de-ml-con-ecosistema-hugging-face</link>
-    <description>Nuevo agente open-source que investiga, escribe y despliega código ML de calidad de forma autónoma. Ejecuta bucles agénticos hasta 300 iteraciones, carga trazas de entrenamiento a datasets privados de HF, y maneja fine-tuning en sandbox con gates de aprobación.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ml-intern-agente-autonomo-de-ml-con-ecosistema-hugging-face</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura agentic: RAG multimodal y MCP para 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</link>
-    <description>Nuevos patrones de arquitectura emergen para sistemas de IA de producción, combinando RAG multimodal, integración MCP (Model Context Protocol), y orquestación multi-agente. Los sistemas ahora manejan texto, imágenes, video y datos estructurados, con capas de autonomía explícitas y ruteo inteligente entre modelos de diferentes tamaños según la complejidad de la tarea.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-agentic-rag-multimodal-y-mcp-para-2</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5: PyTorch-only y cuantización nativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</link>
-    <description>Hugging Face ha lanzado Transformers v5 con un enfoque PyTorch-only, eliminando soporte para TensorFlow y Flax. La versión incluye cuantización como ciudadano de primera clase, arquitectura modular mejorada para agregar modelos, y mejor interoperabilidad con motores de inferencia como vLLM y SGLang. Soporta más de 400 arquitecturas de modelos.</description>
-    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-pytorch-only-y-cuantizacion-nat</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

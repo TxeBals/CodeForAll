@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Claude Managed Agents: Sandboxes auto-hospedados y túneles MCP</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-managed-agents-sandboxes-auto-hospedados-y-tuneles-mc</link>
+    <description>&lt;cite index=&quot;31-1,31-8,31-19&quot;&gt;Claude añade soporte para sandboxes auto-hospedados y túneles MCP, llevando la ejecución de agentes dentro de límites empresariales con mayor seguridad. La ejecución se mueve a infraestructura configurada por el usuario&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-managed-agents-sandboxes-auto-hospedados-y-tuneles-mc</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5: Arquitectura modular y PyTorch-only</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-modular-y-pytorch-</link>
+    <description>&lt;cite index=&quot;44-2,44-12&quot;&gt;Transformers v5 introduce soporte solo para PyTorch, quantización como ciudadano de primera clase y mejor interoperabilidad. Incluye arquitectura modular para facilitar adición de modelos&lt;/cite&gt;. &lt;cite index=&quot;45-17&quot;&gt;El ecosistema creció de 40 arquitecturas en v4 a más de 400 hoy&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-modular-y-pytorch-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain Deep Agents: Framework completo para agentes con planning y subagents</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</link>
+    <description>&lt;cite index=&quot;30-2,30-18,30-24&quot;&gt;Deep Agents es un framework completo con planning, gestión de contexto y delegación out-of-the-box, incluyendo filesystem, sub-agents y skills integrados&lt;/cite&gt;. &lt;cite index=&quot;30-13,30-14&quot;&gt;Incluye Deep Agents Code, un agente de coding prebuilt en terminal similar a Claude Code&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente AI personal que alcanza 210k estrellas en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-que-alcanza-210k-estrellas-en</link>
+    <description>&lt;cite index=&quot;11-3,11-4,11-6,11-7&quot;&gt;OpenClaw es un asistente AI personal que runs completamente en dispositivos propios, creado por Peter Steinberger y creciendo de 9,000 a 210,000 estrellas. Opera como gateway local conectando modelos AI a más de 50 integraciones&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-que-alcanza-210k-estrellas-en</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic presenta Claude Opus 4.8 con control de esfuerzo dinámico</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-opus-4-8-con-control-de-esfuerzo-d</link>
+    <description>&lt;cite index=&quot;34-17,34-18,34-19&quot;&gt;Claude Opus 4.8 se lanza como actualización de Opus 4.7 con mejoras en benchmarks y colaboración más efectiva, disponible hoy al mismo precio&lt;/cite&gt;. &lt;cite index=&quot;34-21,34-22&quot;&gt;Incluye control de esfuerzo para usuarios y nuevos dynamic workflows que permiten manejar tareas de gran escala&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-opus-4-8-con-control-de-esfuerzo-d</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 con mejoras en agentic coding y nueva API de Real-time</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-en-agentic-coding-y-nueva-a</link>
+    <description>&lt;cite index=&quot;6-11,6-12,6-13&quot;&gt;OpenAI lanza GPT-5.5, su modelo más inteligente e intuitivo que excels en escribir y depurar código, investigar online, analizar datos, crear documentos y operar software hasta terminar tareas&lt;/cite&gt;. &lt;cite index=&quot;2-8,2-9&quot;&gt;También incluye soporte para ventana de contexto de 1M tokens, entrada de imagen, salidas estructuradas, function calling y herramientas integradas&lt;/cite&gt;.</description>
+    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-en-agentic-coding-y-nueva-a</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>OpenAI mejora API de Realtime con WebRTC y nuevas capacidades de audio nativo</title>
     <link>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</link>
     <description>OpenAI lanza Realtime 2 con modelo de voz configurable para agentes speech-to-speech, Realtime Translate para traducción de voz streaming y Realtime Whisper para speech-to-text. Incluye soporte completo para WebRTC y baja latencia.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-x-estable-para-produccion-con-lcel-y-langgraph</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Transformers v5.9.0 con soporte para DeepSeek V4 y nuevos modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</link>
-    <description>&lt;cite index=&quot;32-1,32-7,36-8,36-9&quot;&gt;Hugging Face lanzó Transformers v5.9.0 con soporte para DeepSeek V4, un modelo MoE de próxima generación que introduce varias innovaciones arquitectónicas, incluyendo atención híbrida local + largo alcance y Manifold-Constrained Hyper-Connections (mHC)&lt;/cite&gt;. También incluye soporte para Gemma 4 Assistant, Granite Speech Plus y otros modelos nuevos.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-9-0-con-soporte-para-deepseek-v4-y-nuevos-mo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Ollama migra a MLX en Apple Silicon con mejoras dramáticas</title>
-    <link>https://txemagonzalez.com/post.html?slug=ollama-migra-a-mlx-en-apple-silicon-con-mejoras-dramaticas</link>
-    <description>&lt;cite index=&quot;42-1,42-3,42-4&quot;&gt;Ollama en Apple silicon ahora está construido sobre el framework de machine learning MLX de Apple, aprovechando su arquitectura de memoria unificada. Esto resulta en un gran aumento de velocidad en todos los dispositivos Apple Silicon&lt;/cite&gt;. Los benchmarks muestran mejoras de hasta 3x en throughput para modelos grandes.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=ollama-migra-a-mlx-en-apple-silicon-con-mejoras-dramaticas</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 con modo rápido 2.5x más veloz en preview</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-modo-rapido-2-5x-mas-veloz-en-preview</link>
-    <description>&lt;cite index=&quot;16-1&quot;&gt;Anthropic lanzó el modo rápido para Claude Opus 4.7 en preview de investigación en la API y Claude Code, con respuestas 2.5x más rápidas a $30/$150 por millón de tokens, convirtiéndose en el modelo de modo rápido por defecto&lt;/cite&gt;. Además, están en conversaciones para adquirir la startup de herramientas para desarrolladores Stainless por al menos $300M.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-modo-rapido-2-5x-mas-veloz-en-preview</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>GPT-5.5 Instant ahora por defecto en ChatGPT con nuevos modelos de voz</title>
-    <link>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-ahora-por-defecto-en-chatgpt-con-nuevos-mode</link>
-    <description>&lt;cite index=&quot;12-1&quot;&gt;OpenAI lanzó tres nuevos modelos de voz en tiempo real en su API (GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper) y estableció GPT-5.5 Instant como el modelo predeterminado de ChatGPT&lt;/cite&gt;. Los desarrolladores pueden ahora acceder a capacidades de voz nativas en tiempo real a través de la API oficial.</description>
-    <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=gpt-5-5-instant-ahora-por-defecto-en-chatgpt-con-nuevos-mode</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>RAG modular: De monolítico a composable en arquitecturas 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</link>
-    <description>Nueva generación de patrones RAG modulares donde cada componente es independientemente reemplazable. Incluye Hybrid RAG (vector + keyword), Graph RAG con conocimiento relacional, y Agentic RAG con bucles de planificación automática. El ecosistema Java con Spring AI cierra la brecha con Python.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=rag-modular-de-monolitico-a-composable-en-arquitecturas-2026</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 con task budgets y capacidades de ultra-review</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</link>
-    <description>Anthropic lanza Claude Opus 4.7 con mejoras del 13% en benchmark de coding, task budgets en beta para guiar gasto de tokens en ejecuciones largas, comando /ultrareview para revisiones dedicadas de código, y modo auto extendido para usuarios Max.</description>
-    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-7-con-task-budgets-y-capacidades-de-ultra-revi</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

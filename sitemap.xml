@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-managed-agents-sandboxes-auto-hospedados-y-tuneles-mc</loc><lastmod>2026-05-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-modular-y-pytorch-</loc><lastmod>2026-05-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</loc><lastmod>2026-05-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-que-alcanza-210k-estrellas-en</loc><lastmod>2026-05-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-opus-4-8-con-control-de-esfuerzo-d</loc><lastmod>2026-05-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-en-agentic-coding-y-nueva-a</loc><lastmod>2026-05-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</loc><lastmod>2026-05-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</loc><lastmod>2026-05-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</loc><lastmod>2026-05-28</lastmod></url>

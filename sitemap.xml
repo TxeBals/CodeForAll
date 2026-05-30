@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-como-modelo-de-razonamiento-open-source-con-api-</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vector-databases-evolucionan-mas-alla-de-rag-hacia-compilaci</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-convierte-en-pytorch-only-co</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-alcanza-version-1-0-con-arquitectura-simplificada-</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-domina-github-como-asistente-ai-personal-local-con-</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-como-nuevo-modelo-por-defecto-y-apis-de</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-managed-agents-sandboxes-auto-hospedados-y-tuneles-mc</loc><lastmod>2026-05-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-modular-y-pytorch-</loc><lastmod>2026-05-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</loc><lastmod>2026-05-29</lastmod></url>

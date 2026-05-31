@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-rampart-y-clarity-herramientas-open-source-para-se</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-trending-mas-exitoso-de-2026-para-asistente</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-por-anthropic-mejoras-en-benchmarks-</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-r1-como-modelo-de-razonamiento-open-source-con-api-</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vector-databases-evolucionan-mas-alla-de-rag-hacia-compilaci</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-se-convierte-en-pytorch-only-co</loc><lastmod>2026-05-30</lastmod></url>

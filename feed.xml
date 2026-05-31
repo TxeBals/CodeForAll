@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>OpenAI Daybreak: detección de vulnerabilidades AI-powered para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</link>
+    <description>OpenAI lanza Daybreak, iniciativa de ciberseguridad que combina modelos frontier con Codex Security para detección automática de vulnerabilidades, threat modeling, y validación de patches en el ciclo de desarrollo.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</guid>
+    <category>INVESTIGACION</category>
+  </item>
+  <item>
+    <title>Frameworks de agentes AI 2026: LangGraph, CrewAI y Microsoft Agent Framework consolidados</title>
+    <link>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</link>
+    <description>El ecosistema de frameworks para agentes AI se ha consolidado en 2026. LangGraph domina workflows complejos, CrewAI para colaboración multi-agente, y Microsoft Agent Framework (fusión AutoGen + Semantic Kernel) para enterprise.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>LangChain v1.1.0 estabilizado para producción con actualizaciones RAG avanzadas</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</link>
+    <description>LangChain v1.1.0 elimina soporte para Python 3.9, requiere Python 3.10+. Incluye mejoras significativas en arquitectura RAG con semantic caching, reranking, y embedding cache para reducir latencia en producción.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Microsoft RAMPART y Clarity: herramientas open-source para securizar agentes AI</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-rampart-y-clarity-herramientas-open-source-para-se</link>
+    <description>Microsoft lanza dos herramientas open-source para developers: RAMPART para testing de seguridad agentic con Pytest, y Clarity para validar asunciones de diseño antes de codificar. Integran red-teaming en CI/CD pipelines.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-rampart-y-clarity-herramientas-open-source-para-se</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: el repo trending más exitoso de 2026 para asistentes AI locales</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-trending-mas-exitoso-de-2026-para-asistente</link>
+    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9K a 210K estrellas. Es un asistente AI personal que corre completamente local con integración a 50+ plataformas.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-trending-mas-exitoso-de-2026-para-asistente</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.8 lanzado por Anthropic: mejoras en benchmarks y capacidades agentic</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-por-anthropic-mejoras-en-benchmarks-</link>
+    <description>Anthropic lanza Claude Opus 4.8, superando a GPT-5.5 y Gemini 3.1 Pro en benchmarks de codificación agentic, análisis financiero y computer use. Incluye workflows dinámicos y control granular de esfuerzo computacional.</description>
+    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-por-anthropic-mejoras-en-benchmarks-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>DeepSeek R1 como modelo de razonamiento open-source con API disponible</title>
     <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-como-modelo-de-razonamiento-open-source-con-api-</link>
     <description>DeepSeek R1 es un modelo de razonamiento open-source que iguala el rendimiento de OpenAI o1 en matemáticas, código y tareas de razonamiento. Utiliza arquitectura Mixture-of-Experts con 671B parámetros totales y 37B activos. Está disponible bajo licencia MIT con API abierta y modelos destilados para la comunidad de investigación.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza endpoint /agents.md automático para Gradio Spaces</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</link>
-    <description>Todos los Gradio Spaces ahora sirven automáticamente un endpoint /agents.md con descripción de API legible por máquinas. Los agentes de coding como Claude Code, Codex o Pi pueden leer y usar directamente estos Spaces sin configuración manual.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-endpoint-agents-md-automatico-para-gradio</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Google lanza Gemini 3.5 Flash y Gemini Spark en I/O 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-5-flash-y-gemini-spark-en-i-o-2026</link>
-    <description>Google presenta Gemini 3.5 Flash optimizado para tareas agénticas con inteligencia de nivel frontier a velocidad Flash. Gemini Spark actúa como agente personal 24/7. Ambos están disponibles hoy a través de Google Antigravity platform y Gemini API.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-lanza-gemini-3-5-flash-y-gemini-spark-en-i-o-2026</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza o3-mini con capacidades de razonamiento ajustables y búsqueda web</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-o3-mini-con-capacidades-de-razonamiento-ajustab</link>
-    <description>OpenAI introduce o3-mini, un modelo de razonamiento optimizado para coding, matemáticas y ciencias. Soporta tres niveles de esfuerzo de razonamiento (bajo, medio, alto) y funciones estructuradas en la API. Los usuarios de ChatGPT pueden acceder desde hoy.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-o3-mini-con-capacidades-de-razonamiento-ajustab</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Claude Mythos 1 Preview se prepara para lanzamiento en Claude Code y Claude Security</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-mythos-1-preview-se-prepara-para-lanzamiento-en-claud</link>
-    <description>Anthropic prepara el lanzamiento comercial de Claude Mythos 1 como &quot;claude-mythos-1-preview&quot;, su modelo más avanzado y previamente restringido. Se integra directamente en Claude Code y Claude Security para empresas. Las cadenas de código descubiertas confirman acceso limitado a estas plataformas específicas.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-mythos-1-preview-se-prepara-para-lanzamiento-en-claud</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto AI open-source de más rápido crecimiento con 210K stars</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</link>
-    <description>&lt;cite index=&apos;4-3,4-4,4-6,4-7&apos;&gt;OpenClaw creado por Peter Steinberger se convirtió en el proyecto open-source de más rápido crecimiento en la historia de GitHub, surgiendo de 9K a 60K stars en días y ahora con más de 210K stars. Es un asistente AI personal que funciona completamente en dispositivos locales, operando como gateway local conectando modelos AI a más de 50 integraciones.&lt;/cite&gt;</description>
-    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-ai-open-source-de-mas-r</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic expande Claude con MCP Tunnels y Self-Hosted Sandboxes para empresas</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</link>
-    <description>&lt;cite index=&apos;51-10,51-11&apos;&gt;Anthropic lanzó MCP Tunnels en research preview para conectar servidores MCP en redes privadas, y Self-Hosted Sandboxes en beta pública como alternativa a ejecutar herramientas en infraestructura de Anthropic.&lt;/cite&gt; &lt;cite index=&apos;52-4,52-5,52-6&apos;&gt;Los sandboxes auto-hospedados mantienen archivos sensibles y servicios en infraestructura propia mientras la orquestación de agentes permanece en servers de Anthropic.&lt;/cite&gt;</description>
-    <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-expande-claude-con-mcp-tunnels-y-self-hosted-sandb</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

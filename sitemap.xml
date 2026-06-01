@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-avanzado-de-rag-con-langchain-y-hugging-face-para-d</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=ollama-simplifica-deployment-local-de-llms-con-nuevas-capaci</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-familia-hf-rag-de-modelos-especializados-</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-1-0-alcanza-estabilidad-para-frameworks-de-agentes</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</loc><lastmod>2026-06-01</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-con-mejores-benchmarks-y-controles-d</loc><lastmod>2026-06-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</loc><lastmod>2026-05-31</lastmod></url>

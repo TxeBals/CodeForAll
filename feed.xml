@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Tutorial avanzado de RAG con LangChain y Hugging Face para developers</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-avanzado-de-rag-con-langchain-y-hugging-face-para-d</link>
+    <description>Nuevo tutorial comprensivo que demuestra cómo construir sistemas RAG avanzados usando LangChain, Hugging Face Transformers y técnicas como reranking con ColBERT. Incluye optimización de embeddings, configuración de retrievers, y técnicas de evaluación para sistemas RAG en producción.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-avanzado-de-rag-con-langchain-y-hugging-face-para-d</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Ollama simplifica deployment local de LLMs con nuevas capacidades</title>
+    <link>https://txemagonzalez.com/post.html?slug=ollama-simplifica-deployment-local-de-llms-con-nuevas-capaci</link>
+    <description>Ollama continúa siendo la herramienta estándar para ejecutar LLMs localmente, con soporte para Llama 3.2, Mistral, CodeLlama y más de 100 modelos. Nuevas características incluyen mejor gestión de memoria, cuantización 4-bit, y facilidad de deployment con Docker. Ofrece privacidad total, sin costos de API y capacidades offline.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ollama-simplifica-deployment-local-de-llms-con-nuevas-capaci</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Hugging Face lanza familia HF-RAG de modelos especializados para RAG</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-familia-hf-rag-de-modelos-especializados-</link>
+    <description>Hugging Face introdujo una nueva familia de modelos RAG-optimizados incluyendo embeddings multilingües (hf-rag-embed-large), rerankers eficientes (hf-rag-rerank-base) y LLMs adaptados para generación RAG (hf-rag-llm-13b) que sistemáticamente citan fuentes y reducen alucinaciones.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-familia-hf-rag-de-modelos-especializados-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangGraph 1.0 alcanza estabilidad para frameworks de agentes en producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=langgraph-1-0-alcanza-estabilidad-para-frameworks-de-agentes</link>
+    <description>LangGraph 1.0 marca la primera release estable para frameworks de agentes duraderos. Después de más de un año siendo adoptado por empresas como Uber, LinkedIn y Klarna, ofrece ejecución durable, persistencia built-in, human-in-the-loop y control granular para workflows complejos. Funciona junto con LangChain 1.0.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langgraph-1-0-alcanza-estabilidad-para-frameworks-de-agentes</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
+    <description>OpenClaw (anteriormente Clawdbot) es un asistente de IA personal que corre completamente local en tus dispositivos. Opera como gateway local conectando modelos de IA a más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. Pasó de 9,000 a más de 210,000 estrellas en GitHub en semanas.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.8 lanzado con mejores benchmarks y controles de esfuerzo</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-con-mejores-benchmarks-y-controles-d</link>
+    <description>Anthropic liberó Claude Opus 4.8, su nuevo modelo flagship que supera a GPT-5.5 y Gemini 3.1 Pro en casi todos los benchmarks. Incluye controles de esfuerzo (Low/Medium/High/Max) para optimizar velocidad vs calidad, mejor honestidad y la función Dynamic Workflows en Claude Code para tareas complejas con sub-agentes paralelos.</description>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-con-mejores-benchmarks-y-controles-d</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>OpenAI Daybreak: detección de vulnerabilidades AI-powered para desarrolladores</title>
     <link>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</link>
     <description>OpenAI lanza Daybreak, iniciativa de ciberseguridad que combina modelos frontier con Codex Security para detección automática de vulnerabilidades, threat modeling, y validación de patches en el ciclo de desarrollo.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-arquitectura-modular-y-pytorch-</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain Deep Agents: Framework completo para agentes con planning y subagents</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</link>
-    <description>&lt;cite index=&quot;30-2,30-18,30-24&quot;&gt;Deep Agents es un framework completo con planning, gestión de contexto y delegación out-of-the-box, incluyendo filesystem, sub-agents y skills integrados&lt;/cite&gt;. &lt;cite index=&quot;30-13,30-14&quot;&gt;Incluye Deep Agents Code, un agente de coding prebuilt en terminal similar a Claude Code&lt;/cite&gt;.</description>
-    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-deep-agents-framework-completo-para-agentes-con-pl</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente AI personal que alcanza 210k estrellas en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-que-alcanza-210k-estrellas-en</link>
-    <description>&lt;cite index=&quot;11-3,11-4,11-6,11-7&quot;&gt;OpenClaw es un asistente AI personal que runs completamente en dispositivos propios, creado por Peter Steinberger y creciendo de 9,000 a 210,000 estrellas. Opera como gateway local conectando modelos AI a más de 50 integraciones&lt;/cite&gt;.</description>
-    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-que-alcanza-210k-estrellas-en</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic presenta Claude Opus 4.8 con control de esfuerzo dinámico</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-opus-4-8-con-control-de-esfuerzo-d</link>
-    <description>&lt;cite index=&quot;34-17,34-18,34-19&quot;&gt;Claude Opus 4.8 se lanza como actualización de Opus 4.7 con mejoras en benchmarks y colaboración más efectiva, disponible hoy al mismo precio&lt;/cite&gt;. &lt;cite index=&quot;34-21,34-22&quot;&gt;Incluye control de esfuerzo para usuarios y nuevos dynamic workflows que permiten manejar tareas de gran escala&lt;/cite&gt;.</description>
-    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-presenta-claude-opus-4-8-con-control-de-esfuerzo-d</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 con mejoras en agentic coding y nueva API de Real-time</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-en-agentic-coding-y-nueva-a</link>
-    <description>&lt;cite index=&quot;6-11,6-12,6-13&quot;&gt;OpenAI lanza GPT-5.5, su modelo más inteligente e intuitivo que excels en escribir y depurar código, investigar online, analizar datos, crear documentos y operar software hasta terminar tareas&lt;/cite&gt;. &lt;cite index=&quot;2-8,2-9&quot;&gt;También incluye soporte para ventana de contexto de 1M tokens, entrada de imagen, salidas estructuradas, function calling y herramientas integradas&lt;/cite&gt;.</description>
-    <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-con-mejoras-en-agentic-coding-y-nueva-a</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI mejora API de Realtime con WebRTC y nuevas capacidades de audio nativo</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</link>
-    <description>OpenAI lanza Realtime 2 con modelo de voz configurable para agentes speech-to-speech, Realtime Translate para traducción de voz streaming y Realtime Whisper para speech-to-text. Incluye soporte completo para WebRTC y baja latencia.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-mejora-api-de-realtime-con-webrtc-y-nuevas-capacidade</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>MiniMax-M2.1 open source: modelo agéntico de alto rendimiento ahora disponible</title>
-    <link>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</link>
-    <description>MiniMax libera M2.1 como modelo open-source optimizado para robustez en coding, herramientas, seguimiento de instrucciones y planificación de largo horizonte. Supera a Claude Sonnet 4.5 en escenarios multilingües y se acerca a Claude Opus 4.5.</description>
-    <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=minimax-m2-1-open-source-modelo-agentico-de-alto-rendimiento</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

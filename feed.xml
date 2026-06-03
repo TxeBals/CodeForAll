@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Hugging Face Agents pueden entrenar modelos con nuevas skills del Hub</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</link>
+    <description>Merve Noyan de Hugging Face presenta cómo los agentes ahora pueden entrenar modelos y usar skills para interactuar con el Hugging Face Hub. Los agentes pueden buscar modelos/datasets, ejecutar trabajos y servir modelos localmente de forma programática.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Cambios en la facturación de Anthropic: Agent SDK a pool separado desde 15 junio</title>
+    <link>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</link>
+    <description>A partir del 15 de junio de 2026, el uso programático de Claude (Agent SDK, claude -p, GitHub Actions) se factura en un pool de créditos separado ($20-$200 según plan) a tarifas de API completas, en lugar del límite de suscripción compartido.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Holo3.1 de H Company: Agentes de computer use rápidos y locales</title>
+    <link>https://txemagonzalez.com/post.html?slug=holo3-1-de-h-company-agentes-de-computer-use-rapidos-y-local</link>
+    <description>H Company lanza Holo3.1, la nueva generación de su modelo de computer use state-of-the-art. Optimizado para ejecución local con checkpoints cuantizados (FP8, Q4 GGUF), mejora robustez en web, desktop y móvil, y se integra con múltiples frameworks de agentes.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=holo3-1-de-h-company-agentes-de-computer-use-rapidos-y-local</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic Claude Opus 4.8 con control de esfuerzo y workflows dinámicos</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-8-con-control-de-esfuerzo-y-workflow</link>
+    <description>Claude Opus 4.8 mejora benchmarks de coding, trabajo de agentes y razonamiento. Introduce control de esfuerzo para gestionar trade-offs de calidad/velocidad/tokens, y workflows dinámicos en Claude Code para proyectos de gran escala con sub-agentes paralelos.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-8-con-control-de-esfuerzo-y-workflow</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain 1.3.4 introduce middleware de moderación y perfiles de modelo</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-4-introduce-middleware-de-moderacion-y-perfile</link>
+    <description>Nueva versión de LangChain con middleware para reintentos automáticos, moderación de contenido de OpenAI, y un sistema de perfiles de modelo que infiere capacidades desde models.dev. Incluye soporte mejorado para agentes multi-modales y gestión de memoria optimizada.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-4-introduce-middleware-de-moderacion-y-perfile</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza Codex en AWS con nuevas capacidades de desarrollo agentico</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-codex-en-aws-con-nuevas-capacidades-de-desarrol</link>
+    <description>OpenAI expande Codex con plugins específicos por rol, un preview de Sites para aplicaciones interactivas, y compatibilidad completa con AWS através de Amazon Bedrock. Más de 5 millones de usuarios usan Codex semanalmente, con un crecimiento 3x más rápido en no-desarrolladores.</description>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-codex-en-aws-con-nuevas-capacidades-de-desarrol</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Dify integra MCP y workflows agentic visuales</title>
     <link>https://txemagonzalez.com/post.html?slug=dify-integra-mcp-y-workflows-agentic-visuales</link>
     <description>&lt;cite index=&quot;59-21,59-24,59-25&quot;&gt;Dify permite convertir workflows o agentes construidos en servidores MCP estándar y soporta servicios MCP basados en HTTP con modos pre-autorizados y sin autenticación&lt;/cite&gt;. &lt;cite index=&quot;54-5&quot;&gt;Su interfaz intuitiva combina workflow AI, pipeline RAG, capacidades de agente, gestión de modelos y características de observabilidad incluyendo Opik, Langfuse y Arize Phoenix&lt;/cite&gt;. &lt;cite index=&quot;54-30,54-31&quot;&gt;Permite definir agentes basados en LLM Function Calling o ReAct y añadir herramientas pre-construidas o personalizadas, con 50+ herramientas integradas&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>LangChain v1.1.0 estabilizado para producción con actualizaciones RAG avanzadas</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</link>
-    <description>LangChain v1.1.0 elimina soporte para Python 3.9, requiere Python 3.10+. Incluye mejoras significativas en arquitectura RAG con semantic caching, reranking, y embedding cache para reducir latencia en producción.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-estabilizado-para-produccion-con-actualizac</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Microsoft RAMPART y Clarity: herramientas open-source para securizar agentes AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-rampart-y-clarity-herramientas-open-source-para-se</link>
-    <description>Microsoft lanza dos herramientas open-source para developers: RAMPART para testing de seguridad agentic con Pytest, y Clarity para validar asunciones de diseño antes de codificar. Integran red-teaming en CI/CD pipelines.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-rampart-y-clarity-herramientas-open-source-para-se</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: el repo trending más exitoso de 2026 para asistentes AI locales</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-trending-mas-exitoso-de-2026-para-asistente</link>
-    <description>OpenClaw se convierte en el proyecto open-source de más rápido crecimiento en la historia de GitHub, pasando de 9K a 210K estrellas. Es un asistente AI personal que corre completamente local con integración a 50+ plataformas.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-el-repo-trending-mas-exitoso-de-2026-para-asistente</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.8 lanzado por Anthropic: mejoras en benchmarks y capacidades agentic</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-por-anthropic-mejoras-en-benchmarks-</link>
-    <description>Anthropic lanza Claude Opus 4.8, superando a GPT-5.5 y Gemini 3.1 Pro en benchmarks de codificación agentic, análisis financiero y computer use. Incluye workflows dinámicos y control granular de esfuerzo computacional.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-por-anthropic-mejoras-en-benchmarks-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>DeepSeek R1 como modelo de razonamiento open-source con API disponible</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-r1-como-modelo-de-razonamiento-open-source-con-api-</link>
-    <description>DeepSeek R1 es un modelo de razonamiento open-source que iguala el rendimiento de OpenAI o1 en matemáticas, código y tareas de razonamiento. Utiliza arquitectura Mixture-of-Experts con 671B parámetros totales y 37B activos. Está disponible bajo licencia MIT con API abierta y modelos destilados para la comunidad de investigación.</description>
-    <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-r1-como-modelo-de-razonamiento-open-source-con-api-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Vector databases evolucionan más allá de RAG hacia compilación de conocimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=vector-databases-evolucionan-mas-alla-de-rag-hacia-compilaci</link>
-    <description>Pinecone lanza Nexus, un motor de conocimiento que pre-compila datos empresariales en artefactos específicos para tareas antes de que los agentes los consulten. VentureBeat reporta que el 33.3% de organizaciones adoptan retrieval híbrido, mientras las bases de datos vectoriales tradicionales pierden participación de mercado debido a las demandas de AI agéntica.</description>
-    <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vector-databases-evolucionan-mas-alla-de-rag-hacia-compilaci</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

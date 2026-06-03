@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</loc><lastmod>2026-06-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</loc><lastmod>2026-06-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=holo3-1-de-h-company-agentes-de-computer-use-rapidos-y-local</loc><lastmod>2026-06-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-8-con-control-de-esfuerzo-y-workflow</loc><lastmod>2026-06-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-3-4-introduce-middleware-de-moderacion-y-perfile</loc><lastmod>2026-06-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-codex-en-aws-con-nuevas-capacidades-de-desarrol</loc><lastmod>2026-06-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=dify-integra-mcp-y-workflows-agentic-visuales</loc><lastmod>2026-06-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-lanza-middleware-system-y-structured-output</loc><lastmod>2026-06-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-con-control-de-esfuerzo-dinamico</loc><lastmod>2026-06-02</lastmod></url>

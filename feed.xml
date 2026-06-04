@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>LlamaIndex añade soporte LangChain 1.x y TokenBudgetHandler para control de costos</title>
+    <link>https://txemagonzalez.com/post.html?slug=llamaindex-anade-soporte-langchain-1-x-y-tokenbudgethandler-</link>
+    <description>&lt;cite index=&quot;44-1&quot;&gt;LlamaIndex lanzó la versión 0.14.14 con soporte para LangChain 1.x y nuevo TokenBudgetHandler para gobernanza de costos, además de mejoras en compatibilidad de workflows y manejo de errores de validación Pydantic.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-anade-soporte-langchain-1-x-y-tokenbudgethandler-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Workday lanza Developer Agent para construir agentes AI usando lenguaje natural</title>
+    <link>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</link>
+    <description>&lt;cite index=&quot;29-2,29-11,29-12&quot;&gt;Workday DevCon presentó Developer Agent que permite a desarrolladores construir apps y agentes AI usando lenguaje natural en herramientas agénticas como Claude Code y Cursor, reduciendo trabajo de días de setup a minutos.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Microsoft Build 2026: GitHub Copilot app nativo y Project Rayfin BaaS</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-build-2026-github-copilot-app-nativo-y-project-ray</link>
+    <description>&lt;cite index=&quot;23-7,23-14,23-15&quot;&gt;Microsoft lanzó la app nativa de GitHub Copilot en preview que trae flujos agénticos a experiencia desktop, y Project Rayfin que cierra la brecha prototipo-producción proveyendo backend-as-a-service gestionado en Microsoft Fabric.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-build-2026-github-copilot-app-nativo-y-project-ray</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>GitHub actualiza precios de Copilot a modelo basado en créditos AI</title>
+    <link>https://txemagonzalez.com/post.html?slug=github-actualiza-precios-de-copilot-a-modelo-basado-en-credi</link>
+    <description>&lt;cite index=&quot;25-6,25-7,25-8&quot;&gt;GitHub anunció que desde el 1 de junio de 2026 todos los planes de Copilot facturarán usando GitHub AI Credits basado en uso, con Copilot code review consumiendo minutos de Actions y nuevas funciones como presupuestos por usuario.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=github-actualiza-precios-de-copilot-a-modelo-basado-en-credi</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza Realtime API GA con soporte MCP y telefonía SIP</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-ga-con-soporte-mcp-y-telefonia-sip</link>
+    <description>&lt;cite index=&quot;38-2,38-3,38-17&quot;&gt;OpenAI hace disponible la Realtime API con nuevas características como servidores MCP remotos, entrada de imágenes, y llamadas telefónicas a través de SIP, permitiendo agentes de voz más capaces con acceso a herramientas adicionales.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-ga-con-soporte-mcp-y-telefonia-sip</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Claude Opus 4.8 lanza Dynamic Workflows y Fast Mode para desarrolladores</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanza-dynamic-workflows-y-fast-mode-para-des</link>
+    <description>&lt;cite index=&quot;52-1,52-7,52-10&quot;&gt;Anthropic lanzó Claude Opus 4.8 el 28 de mayo con Dynamic Workflows que permite ejecutar cientos de subagentes paralelos en una sola sesión, Fast Mode a 2.5x velocidad que es 3x más barato, y mejor puntuación del 69.2% en SWE-Bench Pro.&lt;/cite&gt;</description>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanza-dynamic-workflows-y-fast-mode-para-des</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Hugging Face Agents pueden entrenar modelos con nuevas skills del Hub</title>
     <link>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</link>
     <description>Merve Noyan de Hugging Face presenta cómo los agentes ahora pueden entrenar modelos y usar skills para interactuar con el Hugging Face Hub. Los agentes pueden buscar modelos/datasets, ejecutar trabajos y servir modelos localmente de forma programática.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=ollama-simplifica-deployment-local-de-llms-con-nuevas-capaci</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Hugging Face lanza familia HF-RAG de modelos especializados para RAG</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-familia-hf-rag-de-modelos-especializados-</link>
-    <description>Hugging Face introdujo una nueva familia de modelos RAG-optimizados incluyendo embeddings multilingües (hf-rag-embed-large), rerankers eficientes (hf-rag-rerank-base) y LLMs adaptados para generación RAG (hf-rag-llm-13b) que sistemáticamente citan fuentes y reducen alucinaciones.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-lanza-familia-hf-rag-de-modelos-especializados-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangGraph 1.0 alcanza estabilidad para frameworks de agentes en producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=langgraph-1-0-alcanza-estabilidad-para-frameworks-de-agentes</link>
-    <description>LangGraph 1.0 marca la primera release estable para frameworks de agentes duraderos. Después de más de un año siendo adoptado por empresas como Uber, LinkedIn y Klarna, ofrece ejecución durable, persistencia built-in, human-in-the-loop y control granular para workflows complejos. Funciona junto con LangChain 1.0.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langgraph-1-0-alcanza-estabilidad-para-frameworks-de-agentes</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</link>
-    <description>OpenClaw (anteriormente Clawdbot) es un asistente de IA personal que corre completamente local en tus dispositivos. Opera como gateway local conectando modelos de IA a más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. Pasó de 9,000 a más de 210,000 estrellas en GitHub en semanas.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-codigo-abierto-de-ma</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.8 lanzado con mejores benchmarks y controles de esfuerzo</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-con-mejores-benchmarks-y-controles-d</link>
-    <description>Anthropic liberó Claude Opus 4.8, su nuevo modelo flagship que supera a GPT-5.5 y Gemini 3.1 Pro en casi todos los benchmarks. Incluye controles de esfuerzo (Low/Medium/High/Max) para optimizar velocidad vs calidad, mejor honestidad y la función Dynamic Workflows en Claude Code para tareas complejas con sub-agentes paralelos.</description>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanzado-con-mejores-benchmarks-y-controles-d</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI Daybreak: detección de vulnerabilidades AI-powered para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</link>
-    <description>OpenAI lanza Daybreak, iniciativa de ciberseguridad que combina modelos frontier con Codex Security para detección automática de vulnerabilidades, threat modeling, y validación de patches en el ciclo de desarrollo.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-daybreak-deteccion-de-vulnerabilidades-ai-powered-par</guid>
-    <category>INVESTIGACION</category>
-  </item>
-  <item>
-    <title>Frameworks de agentes AI 2026: LangGraph, CrewAI y Microsoft Agent Framework consolidados</title>
-    <link>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</link>
-    <description>El ecosistema de frameworks para agentes AI se ha consolidado en 2026. LangGraph domina workflows complejos, CrewAI para colaboración multi-agente, y Microsoft Agent Framework (fusión AutoGen + Semantic Kernel) para enterprise.</description>
-    <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=frameworks-de-agentes-ai-2026-langgraph-crewai-y-microsoft-a</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

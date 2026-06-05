@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-vs-crewai-vs-vercel-ai-sdk-guia-de-frameworks-para</loc><lastmod>2026-06-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-libreria-transformers-con-mejoras-a-r</loc><lastmod>2026-06-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-0-con-soporte-mejorado-para-langchain-y-lang</loc><lastmod>2026-06-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=n8n-integra-mcp-para-workflows-de-agentes-ai-avanzados</loc><lastmod>2026-06-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-supera-200k-estrellas-y-revoluciona-el-desarrollo-d</loc><lastmod>2026-06-05</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-e-nuevas-funcionalidades-llegan-a-claude-cod</loc><lastmod>2026-06-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=llamaindex-anade-soporte-langchain-1-x-y-tokenbudgethandler-</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-build-2026-github-copilot-app-nativo-y-project-ray</loc><lastmod>2026-06-04</lastmod></url>

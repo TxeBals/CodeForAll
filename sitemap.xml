@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</loc><lastmod>2026-06-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</loc><lastmod>2026-06-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-2-1-154-con-soporte-para-workflo</loc><lastmod>2026-06-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-vertex-ai-anade-soporte-para-claude-opus-4-y-sonnet-4</loc><lastmod>2026-06-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-3-2-introduce-nuevas-integraciones-de-sandbox-pa</loc><lastmod>2026-06-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-mas-viral-de-gith</loc><lastmod>2026-06-06</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-vs-crewai-vs-vercel-ai-sdk-guia-de-frameworks-para</loc><lastmod>2026-06-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-libreria-transformers-con-mejoras-a-r</loc><lastmod>2026-06-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-0-con-soporte-mejorado-para-langchain-y-lang</loc><lastmod>2026-06-05</lastmod></url>

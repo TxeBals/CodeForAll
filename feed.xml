@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Guía completa de MCP Servers: arquitectura y buenas prácticas para developers en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</link>
+    <description>El protocolo MCP (Model Context Protocol) se convierte en estándar con más de 5,000 servidores disponibles. Guías técnicas completas cubren desde arquitectura cliente-servidor hasta patrones de seguridad OAuth 2.1, con especial énfasis en despliegues empresariales y mejores prácticas de implementación.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Transformers 5.13.0 agrega modelos Sapiens2, DeepSeek-OCR-2 y mejoras en el comando serve</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</link>
+    <description>Hugging Face Transformers lanza nueva versión con modelos Sapiens2 para visión computacional centrada en humanos, DeepSeek-OCR-2 para OCR especializado y mejoras significativas en el comando serve con soporte multimodal y endpoint /v1/completions.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Code 2.1.154 con soporte para workflows y mejoras de seguridad</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-2-1-154-con-soporte-para-workflo</link>
+    <description>Nueva versión de Claude Code con sistema de workflows para tareas complejas que requieren múltiples subagentes. Incluye el plugin security-guidance para revisión automática de código y corrección de vulnerabilidades, además de guardrails de versión para despliegues empresariales.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-2-1-154-con-soporte-para-workflo</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Google Vertex AI añade soporte para Claude Opus 4 y Sonnet 4 con Provision Throughput</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-vertex-ai-anade-soporte-para-claude-opus-4-y-sonnet-4</link>
+    <description>Google Cloud anuncia la disponibilidad general de Claude Opus 4 y Claude Sonnet 4 en Vertex AI con soporte para Provision Throughput. También incluye nuevas capacidades de audio-a-audio para Gemini 2.5 Flash y actualizaciones del modelo GLM 4.7 para desarrollo.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-vertex-ai-anade-soporte-para-claude-opus-4-y-sonnet-4</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>LangChain 1.3.2 introduce nuevas integraciones de sandbox para desarrollo</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-2-introduce-nuevas-integraciones-de-sandbox-pa</link>
+    <description>Nueva versión de LangChain con paquetes de integración para sandboxes conectables: langchain-modal, langchain-daytona y langchain-runloop. Incluye mejoras en summarización automática con ContextOverflowError y soporte para la API de Responses de OpenAI.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-2-introduce-nuevas-integraciones-de-sandbox-pa</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se convierte en el proyecto de IA más viral de GitHub en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-mas-viral-de-gith</link>
+    <description>OpenClaw (anteriormente Moltbot) ha crecido de 9,000 a más de 210,000 estrellas en GitHub, convirtiéndose en el asistente de IA personal más popular que funciona completamente local. Incluye integraciones con más de 50 servicios como WhatsApp, Slack, Discord y iMessage, manteniendo todos los datos en tu máquina.</description>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-mas-viral-de-gith</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>LangChain vs CrewAI vs Vercel AI SDK: Guía de frameworks para agentes 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=langchain-vs-crewai-vs-vercel-ai-sdk-guia-de-frameworks-para</link>
     <description>Análisis comparativo de los principales frameworks para agentes AI en producción. LangChain domina en workflows complejos y RAG, CrewAI destaca en orquestación multi-agente, y Vercel AI SDK lidera en experiencia de desarrollador para aplicaciones React/Next.js con soporte edge.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Holo3.1 de H Company: Agentes de computer use rápidos y locales</title>
-    <link>https://txemagonzalez.com/post.html?slug=holo3-1-de-h-company-agentes-de-computer-use-rapidos-y-local</link>
-    <description>H Company lanza Holo3.1, la nueva generación de su modelo de computer use state-of-the-art. Optimizado para ejecución local con checkpoints cuantizados (FP8, Q4 GGUF), mejora robustez en web, desktop y móvil, y se integra con múltiples frameworks de agentes.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=holo3-1-de-h-company-agentes-de-computer-use-rapidos-y-local</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic Claude Opus 4.8 con control de esfuerzo y workflows dinámicos</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-8-con-control-de-esfuerzo-y-workflow</link>
-    <description>Claude Opus 4.8 mejora benchmarks de coding, trabajo de agentes y razonamiento. Introduce control de esfuerzo para gestionar trade-offs de calidad/velocidad/tokens, y workflows dinámicos en Claude Code para proyectos de gran escala con sub-agentes paralelos.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-claude-opus-4-8-con-control-de-esfuerzo-y-workflow</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain 1.3.4 introduce middleware de moderación y perfiles de modelo</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-4-introduce-middleware-de-moderacion-y-perfile</link>
-    <description>Nueva versión de LangChain con middleware para reintentos automáticos, moderación de contenido de OpenAI, y un sistema de perfiles de modelo que infiere capacidades desde models.dev. Incluye soporte mejorado para agentes multi-modales y gestión de memoria optimizada.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-4-introduce-middleware-de-moderacion-y-perfile</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza Codex en AWS con nuevas capacidades de desarrollo agentico</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-codex-en-aws-con-nuevas-capacidades-de-desarrol</link>
-    <description>OpenAI expande Codex con plugins específicos por rol, un preview de Sites para aplicaciones interactivas, y compatibilidad completa con AWS através de Amazon Bedrock. Más de 5 millones de usuarios usan Codex semanalmente, con un crecimiento 3x más rápido en no-desarrolladores.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-codex-en-aws-con-nuevas-capacidades-de-desarrol</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Dify integra MCP y workflows agentic visuales</title>
-    <link>https://txemagonzalez.com/post.html?slug=dify-integra-mcp-y-workflows-agentic-visuales</link>
-    <description>&lt;cite index=&quot;59-21,59-24,59-25&quot;&gt;Dify permite convertir workflows o agentes construidos en servidores MCP estándar y soporta servicios MCP basados en HTTP con modos pre-autorizados y sin autenticación&lt;/cite&gt;. &lt;cite index=&quot;54-5&quot;&gt;Su interfaz intuitiva combina workflow AI, pipeline RAG, capacidades de agente, gestión de modelos y características de observabilidad incluyendo Opik, Langfuse y Arize Phoenix&lt;/cite&gt;. &lt;cite index=&quot;54-30,54-31&quot;&gt;Permite definir agentes basados en LLM Function Calling o ReAct y añadir herramientas pre-construidas o personalizadas, con 50+ herramientas integradas&lt;/cite&gt;.</description>
-    <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=dify-integra-mcp-y-workflows-agentic-visuales</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>LangChain lanza middleware system y structured output</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-lanza-middleware-system-y-structured-output</link>
-    <description>&lt;cite index=&quot;34-4,34-5,34-6&quot;&gt;LangChain 1.0 incluye nueva abstracción create_agent para construir agentes rápidamente y sistema de middleware para control granular en cada paso del loop de agente&lt;/cite&gt;. &lt;cite index=&quot;34-8,34-9&quot;&gt;Mejoró generación de salida estructurada integrada directamente en el loop principal del agente, reduciendo latencia y costo al eliminar llamadas LLM extra&lt;/cite&gt;. &lt;cite index=&quot;32-1&quot;&gt;Últimas versiones incluyen redacción de PII en streaming y nuevos transformers de stream en middleware&lt;/cite&gt;.</description>
-    <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-lanza-middleware-system-y-structured-output</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

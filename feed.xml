@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Claude Code 2.1.x mejora MCP servers y session management</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-code-2-1-x-mejora-mcp-servers-y-session-management</link>
+    <description>Claude Code actualiza soporte MCP con CLAUDE_CODE_SESSION_ID compartido, corrige errores de API 400 en modelos sin effort parameter, mejora background agents y añade soporte para glob patterns en reglas de deny. Nuevas capacidades de cross-session messaging y model fallback automático.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-code-2-1-x-mejora-mcp-servers-y-session-management</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw se vuelve viral: 210k stars para asistente AI personal local</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-210k-stars-para-asistente-ai-person</link>
+    <description>OpenClaw (antes Clawdbot/Moltbot) creado por Peter Steinberger alcanza 210k+ stars GitHub tras volverse viral. Es un asistente AI personal que corre completamente local con acceso a +50 integraciones incluyendo WhatsApp, Slack, Discord, iMessage sin enviar datos al cloud.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-210k-stars-para-asistente-ai-person</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain evoluciona hacia RAG agentico con LangGraph y autonomous tuning</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-rag-agentico-con-langgraph-y-auto</link>
+    <description>LangChain se enfoca en sistemas RAG agenticos usando LangGraph para flows dinámicos que deciden cuándo recuperar información. Los sistemas no-tuneados muestran variaciones de 35-50% mientras que análisis de LangSmith revela mejoras del 35-50% en queries complejas con approaches agenticos.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-rag-agentico-con-langgraph-y-auto</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Google Gemini 3.5 Flash y Managed Agents API llegan a producción</title>
+    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-5-flash-y-managed-agents-api-llegan-a-produc</link>
+    <description>Google lanza Gemini 3.5 Flash GA con performance frontier 4x más rápido que otros modelos, y Managed Agents API que permite crear agentes autónomos con una sola llamada API en entornos Linux seguros. Incluye soporte para Computer Use tool y Antigravity 2.0.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-5-flash-y-managed-agents-api-llegan-a-produc</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza MCP Tunnels y Self-Hosted Sandboxes para Claude Agents</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-mcp-tunnels-y-self-hosted-sandboxes-para-cla</link>
+    <description>Anthropic introduce MCP Tunnels (research preview) para conectar agentes a bases de datos privadas sin exposición pública, y Self-Hosted Sandboxes (beta pública) que ejecutan herramientas en infraestructura controlada por el usuario manteniendo orquestación en Anthropic.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-mcp-tunnels-y-self-hosted-sandboxes-para-cla</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI GPT-5.5 y GPT-5.3-Codex: Nueva generación de modelos para coding agentico</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-gpt-5-5-y-gpt-5-3-codex-nueva-generacion-de-modelos-p</link>
+    <description>OpenAI lanza GPT-5.5 con mejoras significativas en razonamiento y GPT-5.3-Codex especializado para flujos de trabajo agenticos en IDEs. GPT-5.5 alcanza 82.7% en Terminal-Bench 2.0 y GPT-5.3-Codex combina lo mejor de Codex + GPT-5 para generación de código con autoevaluación.</description>
+    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-gpt-5-5-y-gpt-5-3-codex-nueva-generacion-de-modelos-p</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Guía completa de MCP Servers: arquitectura y buenas prácticas para developers en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</link>
     <description>El protocolo MCP (Model Context Protocol) se convierte en estándar con más de 5,000 servidores disponibles. Guías técnicas completas cubren desde arquitectura cliente-servidor hasta patrones de seguridad OAuth 2.1, con especial énfasis en despliegues empresariales y mejores prácticas de implementación.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Microsoft Build 2026: GitHub Copilot app nativo y Project Rayfin BaaS</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-build-2026-github-copilot-app-nativo-y-project-ray</link>
-    <description>&lt;cite index=&quot;23-7,23-14,23-15&quot;&gt;Microsoft lanzó la app nativa de GitHub Copilot en preview que trae flujos agénticos a experiencia desktop, y Project Rayfin que cierra la brecha prototipo-producción proveyendo backend-as-a-service gestionado en Microsoft Fabric.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-build-2026-github-copilot-app-nativo-y-project-ray</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>GitHub actualiza precios de Copilot a modelo basado en créditos AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=github-actualiza-precios-de-copilot-a-modelo-basado-en-credi</link>
-    <description>&lt;cite index=&quot;25-6,25-7,25-8&quot;&gt;GitHub anunció que desde el 1 de junio de 2026 todos los planes de Copilot facturarán usando GitHub AI Credits basado en uso, con Copilot code review consumiendo minutos de Actions y nuevas funciones como presupuestos por usuario.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=github-actualiza-precios-de-copilot-a-modelo-basado-en-credi</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI lanza Realtime API GA con soporte MCP y telefonía SIP</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-ga-con-soporte-mcp-y-telefonia-sip</link>
-    <description>&lt;cite index=&quot;38-2,38-3,38-17&quot;&gt;OpenAI hace disponible la Realtime API con nuevas características como servidores MCP remotos, entrada de imágenes, y llamadas telefónicas a través de SIP, permitiendo agentes de voz más capaces con acceso a herramientas adicionales.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-realtime-api-ga-con-soporte-mcp-y-telefonia-sip</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.8 lanza Dynamic Workflows y Fast Mode para desarrolladores</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanza-dynamic-workflows-y-fast-mode-para-des</link>
-    <description>&lt;cite index=&quot;52-1,52-7,52-10&quot;&gt;Anthropic lanzó Claude Opus 4.8 el 28 de mayo con Dynamic Workflows que permite ejecutar cientos de subagentes paralelos en una sola sesión, Fast Mode a 2.5x velocidad que es 3x más barato, y mejor puntuación del 69.2% en SWE-Bench Pro.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-lanza-dynamic-workflows-y-fast-mode-para-des</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Hugging Face Agents pueden entrenar modelos con nuevas skills del Hub</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</link>
-    <description>Merve Noyan de Hugging Face presenta cómo los agentes ahora pueden entrenar modelos y usar skills para interactuar con el Hugging Face Hub. Los agentes pueden buscar modelos/datasets, ejecutar trabajos y servir modelos localmente de forma programática.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-agents-pueden-entrenar-modelos-con-nuevas-skill</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Cambios en la facturación de Anthropic: Agent SDK a pool separado desde 15 junio</title>
-    <link>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</link>
-    <description>A partir del 15 de junio de 2026, el uso programático de Claude (Agent SDK, claude -p, GitHub Actions) se factura en un pool de créditos separado ($20-$200 según plan) a tarifas de API completas, en lugar del límite de suscripción compartido.</description>
-    <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=cambios-en-la-facturacion-de-anthropic-agent-sdk-a-pool-sepa</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

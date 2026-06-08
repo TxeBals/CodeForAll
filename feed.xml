@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Microsoft presenta 7 nuevos modelos de IA incluyendo MAI-Thinking-1 y MAI-Code-1-Flash</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-7-nuevos-modelos-de-ia-incluyendo-mai-thi</link>
+    <description>Microsoft Build 2026 introduce modelos especializados: MAI-Code-1-Flash para generación de código, MAI-Thinking-1 para reasoning, MAI-Voice 2 para síntesis de voz y MAI-Transcribe 1.5 que supera a Gemini y OpenAI en precisión.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-7-nuevos-modelos-de-ia-incluyendo-mai-thi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Firecrawl MCP Server oficial añade scraping web poderoso a Cursor y Claude</title>
+    <link>https://txemagonzalez.com/post.html?slug=firecrawl-mcp-server-oficial-anade-scraping-web-poderoso-a-c</link>
+    <description>El servidor MCP oficial de Firecrawl permite a agentes de IA realizar búsquedas web, scraping y extracción estructurada. Compatible con Claude Code, Cursor y otros clientes MCP. Incluye habilidades para workflows complejos de investigación web.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=firecrawl-mcp-server-oficial-anade-scraping-web-poderoso-a-c</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>H Company lanza Holo3.1 para agentes de computer use locales y rápidos</title>
+    <link>https://txemagonzalez.com/post.html?slug=h-company-lanza-holo3-1-para-agentes-de-computer-use-locales</link>
+    <description>Holo3.1 mejora la robustez en entornos web, desktop y móvil. Incluye checkpoints optimizados FP8, NVFP4 y Q4 GGUF para despliegue local y edge. Mejor integración con frameworks de agentes.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=h-company-lanza-holo3-1-para-agentes-de-computer-use-locales</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Hugging Face actualiza Transformers v5.10.1 con soporte para Gemma4 Unified y nuevos modelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-10-1-con-soporte-para</link>
+    <description>La actualización incluye soporte para nuevos modelos como Gemma4 Unified, Sapiens2, DeepSeek-OCR-2 y JetBrains Mellum. Incluye extensas mejoras en paralelismo de modelos y manejo de caché.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-10-1-con-soporte-para</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic introduce Claude Opus 4.8 con workflows dinámicos y mejor reasoning</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-opus-4-8-con-workflows-dinamicos-</link>
+    <description>La nueva versión de Claude Opus mejora las habilidades de codificación, trabajo agéntico y razonamiento práctico. Los workflows dinámicos permiten orquestar tareas complejas con múltiples subagentes automáticamente.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-opus-4-8-con-workflows-dinamicos-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-Rosalind para ciencias de la vida con mejor capacidad agéntica</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-para-ciencias-de-la-vida-con-mejor</link>
+    <description>GPT-Rosalind combina las capacidades de GPT-5.5 con inteligencia especializada en química medicinal y genómica. Incluye nuevos plugins para recuperación de evidencia y workflows bioinformáticos. Disponible en preview para organizaciones elegibles.</description>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-para-ciencias-de-la-vida-con-mejor</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Claude Code 2.1.x mejora MCP servers y session management</title>
     <link>https://txemagonzalez.com/post.html?slug=claude-code-2-1-x-mejora-mcp-servers-y-session-management</link>
     <description>Claude Code actualiza soporte MCP con CLAUDE_CODE_SESSION_ID compartido, corrige errores de API 400 en modelos sin effort parameter, mejora background agents y añade soporte para glob patterns en reglas de deny. Nuevas capacidades de cross-session messaging y model fallback automático.</description>
@@ -116,54 +164,6 @@
     <description>Hugging Face publica nuevas correcciones para la funcionalidad RAG en Transformers, incluyendo fix para AttributeError en generate() y mejoras en ejemplos de documentación. También se lanza HF-RAG, una nueva familia de modelos especializados para embedding y reranking en aplicaciones RAG empresariales.</description>
     <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-libreria-transformers-con-mejoras-a-r</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Vercel AI SDK 6.0 con soporte mejorado para LangChain y LangGraph</title>
-    <link>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-0-con-soporte-mejorado-para-langchain-y-lang</link>
-    <description>Vercel lanza AI SDK 6.0 con soporte reescrito para LangChain/LangGraph moderno, incluyendo nuevas APIs como toBaseMessages() y toUIMessageStream(). La actualización añade compatibilidad con tool calling, bloques de razonamiento y workflows Human-in-the-Loop a través de LangGraph interrupts.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=vercel-ai-sdk-6-0-con-soporte-mejorado-para-langchain-y-lang</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>n8n integra MCP para workflows de agentes AI avanzados</title>
-    <link>https://txemagonzalez.com/post.html?slug=n8n-integra-mcp-para-workflows-de-agentes-ai-avanzados</link>
-    <description>n8n añade soporte nativo para Model Context Protocol (MCP) permitiendo que agentes AI como OpenClaw accedan a workflows complejos. La integración permite orquestación de tareas multi-step y manejo de lógica de branching mientras el runtime del agente se enfoca en razonamiento.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=n8n-integra-mcp-para-workflows-de-agentes-ai-avanzados</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw supera 200K estrellas y revoluciona el desarrollo de agentes AI</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-200k-estrellas-y-revoluciona-el-desarrollo-d</link>
-    <description>OpenClaw se convierte en el proyecto de código abierto de más rápido crecimiento en la historia de GitHub, pasando de 9K a más de 210K estrellas. Es un asistente AI personal que funciona completamente en dispositivos locales y se conecta a más de 50 integraciones incluyendo WhatsApp, Telegram y Slack.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-200k-estrellas-y-revoluciona-el-desarrollo-d</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Claude Opus 4.8 e nuevas funcionalidades llegan a Claude Code</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-e-nuevas-funcionalidades-llegan-a-claude-cod</link>
-    <description>Anthropic lanza Claude Opus 4.8 como modelo predeterminado en sus planes profesionales y empresariales. El modelo incluye nuevas capacidades de workflows de orquestación, plugins de seguridad para revisión de código y corrección de bugs críticos en bloques de pensamiento para la API.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-opus-4-8-e-nuevas-funcionalidades-llegan-a-claude-cod</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LlamaIndex añade soporte LangChain 1.x y TokenBudgetHandler para control de costos</title>
-    <link>https://txemagonzalez.com/post.html?slug=llamaindex-anade-soporte-langchain-1-x-y-tokenbudgethandler-</link>
-    <description>&lt;cite index=&quot;44-1&quot;&gt;LlamaIndex lanzó la versión 0.14.14 con soporte para LangChain 1.x y nuevo TokenBudgetHandler para gobernanza de costos, además de mejoras en compatibilidad de workflows y manejo de errores de validación Pydantic.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=llamaindex-anade-soporte-langchain-1-x-y-tokenbudgethandler-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Workday lanza Developer Agent para construir agentes AI usando lenguaje natural</title>
-    <link>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</link>
-    <description>&lt;cite index=&quot;29-2,29-11,29-12&quot;&gt;Workday DevCon presentó Developer Agent que permite a desarrolladores construir apps y agentes AI usando lenguaje natural en herramientas agénticas como Claude Code y Cursor, reduciendo trabajo de días de setup a minutos.&lt;/cite&gt;</description>
-    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=workday-lanza-developer-agent-para-construir-agentes-ai-usan</guid>
     <category>HERRAMIENTAS</category>
   </item>
 </channel>

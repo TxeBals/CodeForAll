@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Holo3.1: Modelos de computer use optimizados para local</title>
+    <link>https://txemagonzalez.com/post.html?slug=holo3-1-modelos-de-computer-use-optimizados-para-local</link>
+    <description>&lt;cite index=&quot;24-10,24-11,24-16,24-17&quot;&gt;Holo3.1 mejora robustez across entornos web, desktop y móvil, con checkpoints cuantizados optimizados para inferencia local (FP8, Q4 GGUF, NVFP4) y mejoras significativas en AndroidWorld del 67% al 79.3%&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=holo3-1-modelos-de-computer-use-optimizados-para-local</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente AI personal local trending en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-local-trending-en-github</link>
+    <description>&lt;cite index=&quot;5-1,5-3,5-6,5-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento, pasando de 9,000 a más de 60,000 estrellas en días, funcionando como gateway local conectando modelos AI a más de 50 integraciones&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-local-trending-en-github</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain Engine: Agente autónomo para mejorar agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-engine-agente-autonomo-para-mejorar-agentes</link>
+    <description>&lt;cite index=&quot;33-15,33-16&quot;&gt;LangSmith Engine es un agente autónomo que observa trazas de producción, agrupa fallas en problemas identificados, diagnostica causas raíz contra el código y propone correcciones&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-engine-agente-autonomo-para-mejorar-agentes</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude añade sandboxes privados y conexión MCP empresarial</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-anade-sandboxes-privados-y-conexion-mcp-empresarial</link>
+    <description>&lt;cite index=&quot;14-10,14-12,14-13&quot;&gt;Claude Managed Agents ahora puede operar en sandboxes que controlas y conectarse a servidores Model Context Protocol (MCP) privados, ejecutando herramientas dentro de los límites de seguridad empresarial&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-anade-sandboxes-privados-y-conexion-mcp-empresarial</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Microsoft presenta MAI-Thinking-1 y MAI-Code-1-Flash</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-mai-thinking-1-y-mai-code-1-flash</link>
+    <description>&lt;cite index=&quot;15-8,18-12,18-13&quot;&gt;Microsoft anunció MAI-Code-1-Flash, su primer modelo que convierte descripciones escritas en código fuente, y MAI-Thinking-1, un modelo de razonamiento de 35 mil millones de parámetros entrenado desde cero&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-mai-thinking-1-y-mai-code-1-flash</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Opus 4.8 con mejoras en precisión</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-8-con-mejoras-en-precision</link>
+    <description>&lt;cite index=&quot;13-1,13-7,20-21&quot;&gt;Anthropic lanzó Claude Opus 4.8 con resultados de benchmarks de primera clase y mayor capacidad para manejar datos inciertos o incorrectos, siendo menos propenso a hacer afirmaciones sin fundamento que sus predecesores&lt;/cite&gt;.</description>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-8-con-mejoras-en-precision</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Microsoft presenta 7 nuevos modelos de IA incluyendo MAI-Thinking-1 y MAI-Code-1-Flash</title>
     <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-7-nuevos-modelos-de-ia-incluyendo-mai-thi</link>
     <description>Microsoft Build 2026 introduce modelos especializados: MAI-Code-1-Flash para generación de código, MAI-Thinking-1 para reasoning, MAI-Voice 2 para síntesis de voz y MAI-Transcribe 1.5 que supera a Gemini y OpenAI en precisión.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</guid>
     <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Code 2.1.154 con soporte para workflows y mejoras de seguridad</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-2-1-154-con-soporte-para-workflo</link>
-    <description>Nueva versión de Claude Code con sistema de workflows para tareas complejas que requieren múltiples subagentes. Incluye el plugin security-guidance para revisión automática de código y corrección de vulnerabilidades, además de guardrails de versión para despliegues empresariales.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-code-2-1-154-con-soporte-para-workflo</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Google Vertex AI añade soporte para Claude Opus 4 y Sonnet 4 con Provision Throughput</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-vertex-ai-anade-soporte-para-claude-opus-4-y-sonnet-4</link>
-    <description>Google Cloud anuncia la disponibilidad general de Claude Opus 4 y Claude Sonnet 4 en Vertex AI con soporte para Provision Throughput. También incluye nuevas capacidades de audio-a-audio para Gemini 2.5 Flash y actualizaciones del modelo GLM 4.7 para desarrollo.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-vertex-ai-anade-soporte-para-claude-opus-4-y-sonnet-4</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>LangChain 1.3.2 introduce nuevas integraciones de sandbox para desarrollo</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-2-introduce-nuevas-integraciones-de-sandbox-pa</link>
-    <description>Nueva versión de LangChain con paquetes de integración para sandboxes conectables: langchain-modal, langchain-daytona y langchain-runloop. Incluye mejoras en summarización automática con ContextOverflowError y soporte para la API de Responses de OpenAI.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-2-introduce-nuevas-integraciones-de-sandbox-pa</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se convierte en el proyecto de IA más viral de GitHub en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-mas-viral-de-gith</link>
-    <description>OpenClaw (anteriormente Moltbot) ha crecido de 9,000 a más de 210,000 estrellas en GitHub, convirtiéndose en el asistente de IA personal más popular que funciona completamente local. Incluye integraciones con más de 50 servicios como WhatsApp, Slack, Discord y iMessage, manteniendo todos los datos en tu máquina.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-convierte-en-el-proyecto-de-ia-mas-viral-de-gith</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain vs CrewAI vs Vercel AI SDK: Guía de frameworks para agentes 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-vs-crewai-vs-vercel-ai-sdk-guia-de-frameworks-para</link>
-    <description>Análisis comparativo de los principales frameworks para agentes AI en producción. LangChain domina en workflows complejos y RAG, CrewAI destaca en orquestación multi-agente, y Vercel AI SDK lidera en experiencia de desarrollador para aplicaciones React/Next.js con soporte edge.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-vs-crewai-vs-vercel-ai-sdk-guia-de-frameworks-para</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face actualiza librería Transformers con mejoras a RAG</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-libreria-transformers-con-mejoras-a-r</link>
-    <description>Hugging Face publica nuevas correcciones para la funcionalidad RAG en Transformers, incluyendo fix para AttributeError en generate() y mejoras en ejemplos de documentación. También se lanza HF-RAG, una nueva familia de modelos especializados para embedding y reranking en aplicaciones RAG empresariales.</description>
-    <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-libreria-transformers-con-mejoras-a-r</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

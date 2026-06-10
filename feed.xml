@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Langflow se posiciona como plataforma líder para workflows de agentes visuales</title>
+    <link>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</link>
+    <description>Langflow emerge como plataforma low-code para diseñar agentes AI y pipelines RAG con interfaz drag-and-drop y soporte para todos los LLMs principales.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Hugging Face Transformers v5.10.1 añade soporte para Gemma4 Unified</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</link>
+    <description>Transformers v5.10.1 incluye soporte para Gemma4 Unified, Sapiens2, DeepSeek-OCR-2, y JetBrains Mellum con mejoras en paralelismo y cuantización.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.0 estable elimina breaking changes hasta versión 2.0</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-estable-elimina-breaking-changes-hasta-version</link>
+    <description>LangChain 1.0 se marca como release estable con abstracción create_agent, sistema de middleware y mejoras en structured output generation.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-estable-elimina-breaking-changes-hasta-version</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic introduce Claude Managed Agents con sandboxes auto-hospedados</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-managed-agents-con-sandboxes-auto</link>
+    <description>Claude Managed Agents ahora puede operar en sandboxes controlados por el usuario y conectarse a servidores MCP privados para empresas.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-managed-agents-con-sandboxes-auto</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5 Instant como modelo por defecto con mejoras masivas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-instant-como-modelo-por-defecto-con-mej</link>
+    <description>GPT-5.5 Instant reemplaza GPT-5.3 como modelo por defecto en ChatGPT y API. Reduce 52.5% las alucinaciones y mejora factualidad significativamente.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-instant-como-modelo-por-defecto-con-mej</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw se vuelve viral: Asistente IA personal que corre 100% localmente</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-asistente-ia-personal-que-corre-100</link>
+    <description>OpenClaw alcanzó 210K estrellas en GitHub tras volverse viral. Es un asistente IA local que conecta modelos AI a 50+ integraciones sin enviar datos a la nube.</description>
+    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-asistente-ia-personal-que-corre-100</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Holo3.1: Modelos de computer use optimizados para local</title>
     <link>https://txemagonzalez.com/post.html?slug=holo3-1-modelos-de-computer-use-optimizados-para-local</link>
     <description>&lt;cite index=&quot;24-10,24-11,24-16,24-17&quot;&gt;Holo3.1 mejora robustez across entornos web, desktop y móvil, con checkpoints cuantizados optimizados para inferencia local (FP8, Q4 GGUF, NVFP4) y mejoras significativas en AndroidWorld del 67% al 79.3%&lt;/cite&gt;.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-210k-stars-para-asistente-ai-person</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain evoluciona hacia RAG agentico con LangGraph y autonomous tuning</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-rag-agentico-con-langgraph-y-auto</link>
-    <description>LangChain se enfoca en sistemas RAG agenticos usando LangGraph para flows dinámicos que deciden cuándo recuperar información. Los sistemas no-tuneados muestran variaciones de 35-50% mientras que análisis de LangSmith revela mejoras del 35-50% en queries complejas con approaches agenticos.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-rag-agentico-con-langgraph-y-auto</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Google Gemini 3.5 Flash y Managed Agents API llegan a producción</title>
-    <link>https://txemagonzalez.com/post.html?slug=google-gemini-3-5-flash-y-managed-agents-api-llegan-a-produc</link>
-    <description>Google lanza Gemini 3.5 Flash GA con performance frontier 4x más rápido que otros modelos, y Managed Agents API que permite crear agentes autónomos con una sola llamada API en entornos Linux seguros. Incluye soporte para Computer Use tool y Antigravity 2.0.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=google-gemini-3-5-flash-y-managed-agents-api-llegan-a-produc</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza MCP Tunnels y Self-Hosted Sandboxes para Claude Agents</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-mcp-tunnels-y-self-hosted-sandboxes-para-cla</link>
-    <description>Anthropic introduce MCP Tunnels (research preview) para conectar agentes a bases de datos privadas sin exposición pública, y Self-Hosted Sandboxes (beta pública) que ejecutan herramientas en infraestructura controlada por el usuario manteniendo orquestación en Anthropic.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-mcp-tunnels-y-self-hosted-sandboxes-para-cla</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI GPT-5.5 y GPT-5.3-Codex: Nueva generación de modelos para coding agentico</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-gpt-5-5-y-gpt-5-3-codex-nueva-generacion-de-modelos-p</link>
-    <description>OpenAI lanza GPT-5.5 con mejoras significativas en razonamiento y GPT-5.3-Codex especializado para flujos de trabajo agenticos en IDEs. GPT-5.5 alcanza 82.7% en Terminal-Bench 2.0 y GPT-5.3-Codex combina lo mejor de Codex + GPT-5 para generación de código con autoevaluación.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-gpt-5-5-y-gpt-5-3-codex-nueva-generacion-de-modelos-p</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Guía completa de MCP Servers: arquitectura y buenas prácticas para developers en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</link>
-    <description>El protocolo MCP (Model Context Protocol) se convierte en estándar con más de 5,000 servidores disponibles. Guías técnicas completas cubren desde arquitectura cliente-servidor hasta patrones de seguridad OAuth 2.1, con especial énfasis en despliegues empresariales y mejores prácticas de implementación.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=guia-completa-de-mcp-servers-arquitectura-y-buenas-practicas</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Transformers 5.13.0 agrega modelos Sapiens2, DeepSeek-OCR-2 y mejoras en el comando serve</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</link>
-    <description>Hugging Face Transformers lanza nueva versión con modelos Sapiens2 para visión computacional centrada en humanos, DeepSeek-OCR-2 para OCR especializado y mejoras significativas en el comando serve con soporte multimodal y endpoint /v1/completions.</description>
-    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-5-13-0-agrega-modelos-sapiens2-deepseek-ocr-2-y</guid>
-    <category>LLM</category>
   </item>
 </channel>
 </rss>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>LangChain v1.1.0 dropping Python 3.9 y mejoras en producción para RAG</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</link>
+    <description>LangChain v1.1.0 elimina soporte para Python 3.9, requiriendo Python 3.10 o superior (recomendado 3.12). El framework ha madurado significativamente desde 2023 con parches de seguridad activamente mantenidos, más de 100K estrellas en GitHub y millones de descargas mensuales en PyPI. Incluye integración con LangSmith para observabilidad y LangGraph para workflows complejos de agentes.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Tutorial completo de fine-tuning para tool calling con modelos pequeños especializados</title>
+    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</link>
+    <description>Guía actualizada para fine-tuning de agentes de IA especializados en tool calling usando modelos pequeños como Gemma 4 E4B y Qwen3-4B-Instruct. El tutorial cubre mejoras en la implementación local con llama.cpp añadiendo parser de tool-call para Qwen3 y tokens especiales nativos de function-calling en Gemma 4, eliminando la fragilidad de parsing anterior.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Lanzamiento del MCP 2026-07-28 Release Candidate con núcleo sin estado y framework de extensiones</title>
+    <link>https://txemagonzalez.com/post.html?slug=lanzamiento-del-mcp-2026-07-28-release-candidate-con-nucleo-</link>
+    <description>El candidato de lanzamiento del Model Context Protocol introduce un núcleo de protocolo sin estado, framework de extensiones, Tasks, MCP Apps, endurecimiento de autorización y una política formal de deprecación. El cambio principal es que MCP ahora es sin estado a nivel de protocolo, permitiendo escalabilidad en infraestructura HTTP ordinaria.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=lanzamiento-del-mcp-2026-07-28-release-candidate-con-nucleo-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Transformers v5.10.1 de Hugging Face añade soporte para Gemma4 Unified, Sapiens2 y DeepSeek-OCR-2</title>
+    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-10-1-de-hugging-face-anade-soporte-para-gemm</link>
+    <description>Hugging Face lanza Transformers v5.10.1 con nuevos modelos incluyendo Gemma4 Unified (multimodal sin encoder), Sapiens2 (transformers de visión de alta resolución para tareas centradas en humanos), y DeepSeek-OCR-2 (modelo de visión-lenguaje especializado en OCR). Incluye correcciones para paralelismo de modelos, manejo de caché y quantización.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-10-1-de-hugging-face-anade-soporte-para-gemm</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Claude Fable 5 lanzado por Anthropic como modelo especializado en narrativa creativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=claude-fable-5-lanzado-por-anthropic-como-modelo-especializa</link>
+    <description>Claude Fable 5 es un modelo especializado en escritura creativa y narrativa posicionado como un compañero más ligero y económico de Claude Opus/Sonnet para ficción de formato largo, guiones y voces de personajes. Se espera que tenga un contexto de 200K-1M tokens similar a los modelos recientes de la familia Claude.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=claude-fable-5-lanzado-por-anthropic-como-modelo-especializa</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw emerge como el repo de GitHub más viral de 2026 con más de 210K estrellas</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-de-github-mas-viral-de-2026-con</link>
+    <description>OpenClaw es un asistente de IA personal que funciona completamente en dispositivos locales, operando como una puerta de entrada local que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. A diferencia de los asistentes basados en la nube, los datos nunca salen de la máquina del usuario.</description>
+    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-de-github-mas-viral-de-2026-con</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>Langflow se posiciona como plataforma líder para workflows de agentes visuales</title>
     <link>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</link>
     <description>Langflow emerge como plataforma low-code para diseñar agentes AI y pipelines RAG con interfaz drag-and-drop y soporte para todos los LLMs principales.</description>
@@ -117,54 +165,6 @@
     <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=firecrawl-mcp-server-oficial-anade-scraping-web-poderoso-a-c</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>H Company lanza Holo3.1 para agentes de computer use locales y rápidos</title>
-    <link>https://txemagonzalez.com/post.html?slug=h-company-lanza-holo3-1-para-agentes-de-computer-use-locales</link>
-    <description>Holo3.1 mejora la robustez en entornos web, desktop y móvil. Incluye checkpoints optimizados FP8, NVFP4 y Q4 GGUF para despliegue local y edge. Mejor integración con frameworks de agentes.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=h-company-lanza-holo3-1-para-agentes-de-computer-use-locales</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Hugging Face actualiza Transformers v5.10.1 con soporte para Gemma4 Unified y nuevos modelos</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-10-1-con-soporte-para</link>
-    <description>La actualización incluye soporte para nuevos modelos como Gemma4 Unified, Sapiens2, DeepSeek-OCR-2 y JetBrains Mellum. Incluye extensas mejoras en paralelismo de modelos y manejo de caché.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-actualiza-transformers-v5-10-1-con-soporte-para</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic introduce Claude Opus 4.8 con workflows dinámicos y mejor reasoning</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-opus-4-8-con-workflows-dinamicos-</link>
-    <description>La nueva versión de Claude Opus mejora las habilidades de codificación, trabajo agéntico y razonamiento práctico. Los workflows dinámicos permiten orquestar tareas complejas con múltiples subagentes automáticamente.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-opus-4-8-con-workflows-dinamicos-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-Rosalind para ciencias de la vida con mejor capacidad agéntica</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-para-ciencias-de-la-vida-con-mejor</link>
-    <description>GPT-Rosalind combina las capacidades de GPT-5.5 con inteligencia especializada en química medicinal y genómica. Incluye nuevos plugins para recuperación de evidencia y workflows bioinformáticos. Disponible en preview para organizaciones elegibles.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-rosalind-para-ciencias-de-la-vida-con-mejor</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Claude Code 2.1.x mejora MCP servers y session management</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-code-2-1-x-mejora-mcp-servers-y-session-management</link>
-    <description>Claude Code actualiza soporte MCP con CLAUDE_CODE_SESSION_ID compartido, corrige errores de API 400 en modelos sin effort parameter, mejora background agents y añade soporte para glob patterns en reglas de deny. Nuevas capacidades de cross-session messaging y model fallback automático.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-code-2-1-x-mejora-mcp-servers-y-session-management</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw se vuelve viral: 210k stars para asistente AI personal local</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-210k-stars-para-asistente-ai-person</link>
-    <description>OpenClaw (antes Clawdbot/Moltbot) creado por Peter Steinberger alcanza 210k+ stars GitHub tras volverse viral. Es un asistente AI personal que corre completamente local con acceso a +50 integraciones incluyendo WhatsApp, Slack, Discord, iMessage sin enviar datos al cloud.</description>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-210k-stars-para-asistente-ai-person</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

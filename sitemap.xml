@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=lanzamiento-del-mcp-2026-07-28-release-candidate-con-nucleo-</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=transformers-v5-10-1-de-hugging-face-anade-soporte-para-gemm</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=claude-fable-5-lanzado-por-anthropic-como-modelo-especializa</loc><lastmod>2026-06-11</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-de-github-mas-viral-de-2026-con</loc><lastmod>2026-06-11</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</loc><lastmod>2026-06-10</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</loc><lastmod>2026-06-10</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-0-estable-elimina-breaking-changes-hasta-version</loc><lastmod>2026-06-10</lastmod></url>

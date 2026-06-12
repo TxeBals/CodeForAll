@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrón de Arquitectura: Langflow Populariza Interfaces Drag-and-Drop para Pipelines de Agentes</title>
+    <link>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</link>
+    <description>Langflow se ha establecido como la plataforma low-code líder para diseñar workflows de agentes IA y RAG. Construida sobre LangChain, permite orquestar conversaciones multi-agente, gestionar memoria y desplegar flujos como APIs mediante interfaz visual drag-and-drop.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Firecrawl Se Convierte en API de Referencia para Web Scraping de Agentes de IA</title>
+    <link>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</link>
+    <description>Firecrawl alcanzó 130K+ estrellas en GitHub posicionándose como la infraestructura estándar para que agentes de IA busquen, rastreen y procesen contenido web. Ofrece una familia de APIs unificada cubriendo Search, Scrape, Parse, Crawl, Map e Interact.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>LangChain 1.3.7 Integra Perfiles de Modelos y Middleware de Moderación</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-7-integra-perfiles-de-modelos-y-middleware-de-</link>
+    <description>LangChain lanzó la versión 1.3.7 con nuevos perfiles de modelos que exponen capacidades soportadas, middleware de moderación de contenido OpenAI, y middleware de reintento automático. Los perfiles de modelo usan datos del proyecto open source models.dev.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-7-integra-perfiles-de-modelos-y-middleware-de-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI Actualiza SDK de Agentes con Capacidades de Sandbox Nativo</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-actualiza-sdk-de-agentes-con-capacidades-de-sandbox-n</link>
+    <description>OpenAI lanzó una actualización mayor de su Agents SDK introduciendo ejecución sandbox nativa y un harness modelo-específico mejorado. Permite a los agentes operar en entornos controlados, inspeccionar archivos, ejecutar comandos y trabajar en tareas de largo plazo de forma segura.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-actualiza-sdk-de-agentes-con-capacidades-de-sandbox-n</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>Anthropic Lanza Claude Fable 5 - Modelo Especializado en Narrativa Creativa</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-modelo-especializado-en-narra</link>
+    <description>Claude Fable 5 es un nuevo modelo de Anthropic especializado en escritura creativa y narrativa de largo formato, posicionado como una alternativa más económica que Opus para ficción, guiones y voces de personajes. Fue lanzado el 9 de junio de 2026.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-modelo-especializado-en-narra</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenClaw Emerge como Proyecto de GitHub de Más Rápido Crecimiento en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-proyecto-de-github-de-mas-rapido-crecim</link>
+    <description>OpenClaw es un asistente de IA personal que se ejecuta completamente en dispositivos locales, funcionando como un gateway que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. El proyecto creció de 9,000 a más de 210,000 estrellas en pocos días.</description>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-proyecto-de-github-de-mas-rapido-crecim</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
     <title>LangChain v1.1.0 dropping Python 3.9 y mejoras en producción para RAG</title>
     <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</link>
     <description>LangChain v1.1.0 elimina soporte para Python 3.9, requiriendo Python 3.10 o superior (recomendado 3.12). El framework ha madurado significativamente desde 2023 con parches de seguridad activamente mantenidos, más de 100K estrellas en GitHub y millones de descargas mensuales en PyPI. Incluye integración con LangSmith para observabilidad y LangGraph para workflows complejos de agentes.</description>
@@ -117,54 +165,6 @@
     <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-local-trending-en-github</guid>
     <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain Engine: Agente autónomo para mejorar agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-engine-agente-autonomo-para-mejorar-agentes</link>
-    <description>&lt;cite index=&quot;33-15,33-16&quot;&gt;LangSmith Engine es un agente autónomo que observa trazas de producción, agrupa fallas en problemas identificados, diagnostica causas raíz contra el código y propone correcciones&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-engine-agente-autonomo-para-mejorar-agentes</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude añade sandboxes privados y conexión MCP empresarial</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-anade-sandboxes-privados-y-conexion-mcp-empresarial</link>
-    <description>&lt;cite index=&quot;14-10,14-12,14-13&quot;&gt;Claude Managed Agents ahora puede operar en sandboxes que controlas y conectarse a servidores Model Context Protocol (MCP) privados, ejecutando herramientas dentro de los límites de seguridad empresarial&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-anade-sandboxes-privados-y-conexion-mcp-empresarial</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Microsoft presenta MAI-Thinking-1 y MAI-Code-1-Flash</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-mai-thinking-1-y-mai-code-1-flash</link>
-    <description>&lt;cite index=&quot;15-8,18-12,18-13&quot;&gt;Microsoft anunció MAI-Code-1-Flash, su primer modelo que convierte descripciones escritas en código fuente, y MAI-Thinking-1, un modelo de razonamiento de 35 mil millones de parámetros entrenado desde cero&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-mai-thinking-1-y-mai-code-1-flash</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Opus 4.8 con mejoras en precisión</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-8-con-mejoras-en-precision</link>
-    <description>&lt;cite index=&quot;13-1,13-7,20-21&quot;&gt;Anthropic lanzó Claude Opus 4.8 con resultados de benchmarks de primera clase y mayor capacidad para manejar datos inciertos o incorrectos, siendo menos propenso a hacer afirmaciones sin fundamento que sus predecesores&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-opus-4-8-con-mejoras-en-precision</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft presenta 7 nuevos modelos de IA incluyendo MAI-Thinking-1 y MAI-Code-1-Flash</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-presenta-7-nuevos-modelos-de-ia-incluyendo-mai-thi</link>
-    <description>Microsoft Build 2026 introduce modelos especializados: MAI-Code-1-Flash para generación de código, MAI-Thinking-1 para reasoning, MAI-Voice 2 para síntesis de voz y MAI-Transcribe 1.5 que supera a Gemini y OpenAI en precisión.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-presenta-7-nuevos-modelos-de-ia-incluyendo-mai-thi</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Firecrawl MCP Server oficial añade scraping web poderoso a Cursor y Claude</title>
-    <link>https://txemagonzalez.com/post.html?slug=firecrawl-mcp-server-oficial-anade-scraping-web-poderoso-a-c</link>
-    <description>El servidor MCP oficial de Firecrawl permite a agentes de IA realizar búsquedas web, scraping y extracción estructurada. Compatible con Claude Code, Cursor y otros clientes MCP. Incluye habilidades para workflows complejos de investigación web.</description>
-    <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=firecrawl-mcp-server-oficial-anade-scraping-web-poderoso-a-c</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

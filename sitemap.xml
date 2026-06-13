@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</loc><lastmod>2026-06-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</loc><lastmod>2026-06-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</loc><lastmod>2026-06-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-que-supera-210k-estrellas-en-</loc><lastmod>2026-06-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-libera-claude-fable-5-primera-modelo-de-proxima-ge</loc><lastmod>2026-06-13</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-mai-code-1-flash-modelo-de-codificacion-nati</loc><lastmod>2026-06-13</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</loc><lastmod>2026-06-12</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</loc><lastmod>2026-06-12</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-1-3-7-integra-perfiles-de-modelos-y-middleware-de-</loc><lastmod>2026-06-12</lastmod></url>

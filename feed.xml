@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Patrones de arquitectura RAG de producción: LangChain vs LlamaIndex en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</link>
+    <description>Guía completa sobre decisiones arquitectónicas para sistemas RAG empresariales, comparando frameworks y estrategias de optimización de costos.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>LangChain evoluciona hacia sistemas agénticos de producción en 2026</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</link>
+    <description>LangChain v1.x introduce mejoras significativas en confiabilidad, observabilidad y patrones de despliegue empresarial con LangGraph y LangSmith.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>DeepSeek-V3.2 introduce nuevas capacidades de &apos;thinking with tools&apos;</title>
+    <link>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</link>
+    <description>Hugging Face lanza soporte oficial para DeepSeek-V3.2 con plantillas de chat actualizadas y capacidades mejoradas de razonamiento con herramientas.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw: Asistente IA Personal que supera 210K estrellas en GitHub</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-que-supera-210k-estrellas-en-</link>
+    <description>El proyecto de código abierto de crecimiento más rápido en la historia de GitHub, un asistente IA local que conecta modelos a más de 50 integraciones sin enviar datos a la nube.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-que-supera-210k-estrellas-en-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>Anthropic libera Claude Fable 5: Primera modelo de próxima generación público</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-libera-claude-fable-5-primera-modelo-de-proxima-ge</link>
+    <description>Claude Fable 5 marca un salto generacional real en capacidades de LLM, disponible temporalmente hasta el 22 de junio en suscripciones pagas de Claude.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-libera-claude-fable-5-primera-modelo-de-proxima-ge</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Microsoft lanza MAI-Code-1-Flash: Modelo de codificación nativo para GitHub Copilot</title>
+    <link>https://txemagonzalez.com/post.html?slug=microsoft-lanza-mai-code-1-flash-modelo-de-codificacion-nati</link>
+    <description>Microsoft presenta su primer modelo de codificación desarrollado internamente, optimizado específicamente para flujos de trabajo reales de GitHub Copilot con parámetros activos de 5B y capacidades agénticas.</description>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=microsoft-lanza-mai-code-1-flash-modelo-de-codificacion-nati</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrón de Arquitectura: Langflow Populariza Interfaces Drag-and-Drop para Pipelines de Agentes</title>
     <link>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</link>
     <description>Langflow se ha establecido como la plataforma low-code líder para diseñar workflows de agentes IA y RAG. Construida sobre LangChain, permite orquestar conversaciones multi-agente, gestionar memoria y desplegar flujos como APIs mediante interfaz visual drag-and-drop.</description>
@@ -117,54 +165,6 @@
     <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.0 estable elimina breaking changes hasta versión 2.0</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-0-estable-elimina-breaking-changes-hasta-version</link>
-    <description>LangChain 1.0 se marca como release estable con abstracción create_agent, sistema de middleware y mejoras en structured output generation.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-0-estable-elimina-breaking-changes-hasta-version</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Anthropic introduce Claude Managed Agents con sandboxes auto-hospedados</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-managed-agents-con-sandboxes-auto</link>
-    <description>Claude Managed Agents ahora puede operar en sandboxes controlados por el usuario y conectarse a servidores MCP privados para empresas.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-managed-agents-con-sandboxes-auto</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>OpenAI lanza GPT-5.5 Instant como modelo por defecto con mejoras masivas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-instant-como-modelo-por-defecto-con-mej</link>
-    <description>GPT-5.5 Instant reemplaza GPT-5.3 como modelo por defecto en ChatGPT y API. Reduce 52.5% las alucinaciones y mejora factualidad significativamente.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-instant-como-modelo-por-defecto-con-mej</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw se vuelve viral: Asistente IA personal que corre 100% localmente</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-asistente-ia-personal-que-corre-100</link>
-    <description>OpenClaw alcanzó 210K estrellas en GitHub tras volverse viral. Es un asistente IA local que conecta modelos AI a 50+ integraciones sin enviar datos a la nube.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-se-vuelve-viral-asistente-ia-personal-que-corre-100</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Holo3.1: Modelos de computer use optimizados para local</title>
-    <link>https://txemagonzalez.com/post.html?slug=holo3-1-modelos-de-computer-use-optimizados-para-local</link>
-    <description>&lt;cite index=&quot;24-10,24-11,24-16,24-17&quot;&gt;Holo3.1 mejora robustez across entornos web, desktop y móvil, con checkpoints cuantizados optimizados para inferencia local (FP8, Q4 GGUF, NVFP4) y mejoras significativas en AndroidWorld del 67% al 79.3%&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=holo3-1-modelos-de-computer-use-optimizados-para-local</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente AI personal local trending en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-local-trending-en-github</link>
-    <description>&lt;cite index=&quot;5-1,5-3,5-6,5-7&quot;&gt;OpenClaw es la estrella emergente de 2026 y posiblemente el proyecto de código abierto de más rápido crecimiento, pasando de 9,000 a más de 60,000 estrellas en días, funcionando como gateway local conectando modelos AI a más de 50 integraciones&lt;/cite&gt;.</description>
-    <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ai-personal-local-trending-en-github</guid>
-    <category>GITHUB_REPO</category>
   </item>
 </channel>
 </rss>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Hugging Face CLI optimizado para agentes IA y workflows automatizados</title>
+    <link>https://txemagonzalez.com/post.html?slug=hugging-face-cli-optimizado-para-agentes-ia-y-workflows-auto</link>
+    <description>El equipo de Hugging Face lanzó una guía para diseñar el hf CLI optimizado para agentes, con outputs estructurados machine-readable, estandarización de errores, optimización de workflows comunes y extensibilidad clara para funcionalidad específica de agentes.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-cli-optimizado-para-agentes-ia-y-workflows-auto</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Model Context Protocol lanza especificación 2026-07-28 con core stateless</title>
+    <link>https://txemagonzalez.com/post.html?slug=model-context-protocol-lanza-especificacion-2026-07-28-con-c</link>
+    <description>El release candidate de MCP 2026-07-28 introduce un core stateless que escala en infraestructura HTTP estándar, extensiones incluyendo MCP Apps con UIs renderizadas por servidor, autorización OAuth mejorada y política formal de deprecación.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=model-context-protocol-lanza-especificacion-2026-07-28-con-c</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenClaw supera 210K estrellas como el repo de IA de más rápido crecimiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</link>
+    <description>OpenClaw, creado por el fundador de PSPDFKit Peter Steinberger, es un asistente personal de IA que corre completamente en dispositivos locales. Se convirtió en viral en enero 2026 y representa el proyecto open-source de más rápido crecimiento en la historia de GitHub.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan v1.0 con 90M descargas mensuales</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-v1-0-con-90m-descargas-mensua</link>
+    <description>LangChain 1.0 se enfoca en el loop central de agentes con nuevo concepto de middleware y actualizaciones en integraciones de modelos. LangGraph 1.0 introduce arquitectura basada en grafos para control granular de flujo, reintentos y manejo de errores en agentes de producción.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-v1-0-con-90m-descargas-mensua</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Moonshot AI lanza Kimi K2.7-Code con 30% menos uso de tokens de razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=moonshot-ai-lanza-kimi-k2-7-code-con-30-menos-uso-de-tokens-</link>
+    <description>Moonshot AI liberó Kimi K2.7-Code bajo licencia MIT modificada, optimizado para escenarios donde agentes de IA necesitan planificar, ejecutar y debuggear código a través de secuencias largas. Reduce el uso de tokens de razonamiento en 30% comparado con K2.6.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=moonshot-ai-lanza-kimi-k2-7-code-con-30-menos-uso-de-tokens-</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>Anthropic lanza Claude Fable 5: el primer modelo LLM de nueva generación</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-el-primer-modelo-llm-de-nueva</link>
+    <description>Anthropic ha lanzado Claude Fable 5, marcando un salto generacional real en capacidades de LLM. Disponible hasta el 22 de junio para suscripciones pagas, supera a GPT-5.5 y Opus 4.8 en tareas de codificación complejas ejecutándose en Claude Code con harness optimizado.</description>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-el-primer-modelo-llm-de-nueva</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Patrones de arquitectura RAG de producción: LangChain vs LlamaIndex en 2026</title>
     <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</link>
     <description>Guía completa sobre decisiones arquitectónicas para sistemas RAG empresariales, comparando frameworks y estrategias de optimización de costos.</description>
@@ -117,54 +165,6 @@
     <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</guid>
     <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Lanzamiento del MCP 2026-07-28 Release Candidate con núcleo sin estado y framework de extensiones</title>
-    <link>https://txemagonzalez.com/post.html?slug=lanzamiento-del-mcp-2026-07-28-release-candidate-con-nucleo-</link>
-    <description>El candidato de lanzamiento del Model Context Protocol introduce un núcleo de protocolo sin estado, framework de extensiones, Tasks, MCP Apps, endurecimiento de autorización y una política formal de deprecación. El cambio principal es que MCP ahora es sin estado a nivel de protocolo, permitiendo escalabilidad en infraestructura HTTP ordinaria.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=lanzamiento-del-mcp-2026-07-28-release-candidate-con-nucleo-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Transformers v5.10.1 de Hugging Face añade soporte para Gemma4 Unified, Sapiens2 y DeepSeek-OCR-2</title>
-    <link>https://txemagonzalez.com/post.html?slug=transformers-v5-10-1-de-hugging-face-anade-soporte-para-gemm</link>
-    <description>Hugging Face lanza Transformers v5.10.1 con nuevos modelos incluyendo Gemma4 Unified (multimodal sin encoder), Sapiens2 (transformers de visión de alta resolución para tareas centradas en humanos), y DeepSeek-OCR-2 (modelo de visión-lenguaje especializado en OCR). Incluye correcciones para paralelismo de modelos, manejo de caché y quantización.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=transformers-v5-10-1-de-hugging-face-anade-soporte-para-gemm</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Claude Fable 5 lanzado por Anthropic como modelo especializado en narrativa creativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=claude-fable-5-lanzado-por-anthropic-como-modelo-especializa</link>
-    <description>Claude Fable 5 es un modelo especializado en escritura creativa y narrativa posicionado como un compañero más ligero y económico de Claude Opus/Sonnet para ficción de formato largo, guiones y voces de personajes. Se espera que tenga un contexto de 200K-1M tokens similar a los modelos recientes de la familia Claude.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=claude-fable-5-lanzado-por-anthropic-como-modelo-especializa</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw emerge como el repo de GitHub más viral de 2026 con más de 210K estrellas</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-de-github-mas-viral-de-2026-con</link>
-    <description>OpenClaw es un asistente de IA personal que funciona completamente en dispositivos locales, operando como una puerta de entrada local que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. A diferencia de los asistentes basados en la nube, los datos nunca salen de la máquina del usuario.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-el-repo-de-github-mas-viral-de-2026-con</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Langflow se posiciona como plataforma líder para workflows de agentes visuales</title>
-    <link>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</link>
-    <description>Langflow emerge como plataforma low-code para diseñar agentes AI y pipelines RAG con interfaz drag-and-drop y soporte para todos los LLMs principales.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langflow-se-posiciona-como-plataforma-lider-para-workflows-d</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Hugging Face Transformers v5.10.1 añade soporte para Gemma4 Unified</title>
-    <link>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</link>
-    <description>Transformers v5.10.1 incluye soporte para Gemma4 Unified, Sapiens2, DeepSeek-OCR-2, y JetBrains Mellum con mejoras en paralelismo y cuantización.</description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=hugging-face-transformers-v5-10-1-anade-soporte-para-gemma4-</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

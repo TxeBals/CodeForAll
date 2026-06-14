@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-cli-optimizado-para-agentes-ia-y-workflows-auto</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=model-context-protocol-lanza-especificacion-2026-07-28-con-c</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-v1-0-con-90m-descargas-mensua</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=moonshot-ai-lanza-kimi-k2-7-code-con-30-menos-uso-de-tokens-</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-el-primer-modelo-llm-de-nueva</loc><lastmod>2026-06-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</loc><lastmod>2026-06-13</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</loc><lastmod>2026-06-13</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</loc><lastmod>2026-06-13</lastmod></url>

@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>vLLM-Omni 0.22.0 añade soporte para modelos de mundo Nvidia Cosmos3</title>
+    <link>https://txemagonzalez.com/post.html?slug=vllm-omni-0-22-0-anade-soporte-para-modelos-de-mundo-nvidia-</link>
+    <description>vLLM-Omni lanzó la versión 0.22.0 con soporte para Nvidia Cosmos3/DreamZero world models, quantización expandida en Blackwell/NPU/XPU, mejoras de producción para TTS y nuevos modelos omni-modales.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vllm-omni-0-22-0-anade-soporte-para-modelos-de-mundo-nvidia-</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>LangChain y LangGraph alcanzan versión 1.0 con mejoras de arquitectura</title>
+    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-mejoras-de-ar</link>
+    <description>LangChain 1.0 introduce el concepto de middleware y la abstracción create_agent para desarrollo rápido de agentes. LangGraph 1.0 añade modelo de ejecución basado en grafos con gestión de estado durable y patrones human-in-the-loop.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-mejoras-de-ar</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>vLLM lanza framework Vime para post-training con RL Scaling</title>
+    <link>https://txemagonzalez.com/post.html?slug=vllm-lanza-framework-vime-para-post-training-con-rl-scaling</link>
+    <description>vLLM presentó Vime, un framework de post-training que combina el stack de entrenamiento de slime con vLLM como backend de rollout. Soporta entrenamiento eficiente conectando Megatron con vLLM y generación flexible de datos.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vllm-lanza-framework-vime-para-post-training-con-rl-scaling</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Anthropic cambia modelo de facturación para Claude Agent SDK el 15 de junio</title>
+    <link>https://txemagonzalez.com/post.html?slug=anthropic-cambia-modelo-de-facturacion-para-claude-agent-sdk</link>
+    <description>A partir del 15 de junio 2026, el uso programático de Claude (Agent SDK, claude -p, GitHub Actions) se separa de las suscripciones y pasa a créditos mensuales facturados a precios de API estándar. $20 Pro, $100 Max 5x, $200 Max 20x.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=anthropic-cambia-modelo-de-facturacion-para-claude-agent-sdk</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>SkillSpector: Escáner de seguridad para skills de agentes AI de NVIDIA</title>
+    <link>https://txemagonzalez.com/post.html?slug=skillspector-escaner-de-seguridad-para-skills-de-agentes-ai-</link>
+    <description>NVIDIA lanzó SkillSpector, una herramienta de seguridad que analiza skills de agentes AI antes de la instalación. Detecta vulnerabilidades, patrones maliciosos y riesgos usando análisis estático y semántico con LLM.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=skillspector-escaner-de-seguridad-para-skills-de-agentes-ai-</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI lanza cinco nuevas voces para Realtime API con caching de prompts</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-cinco-nuevas-voces-para-realtime-api-con-cachin</link>
+    <description>OpenAI añadió cinco voces más expresivas (Ash, Ballad, Coral, Sage, Verse) al Realtime API que permiten mejor control de emociones y acentos. También implementó prompt caching que reduce costos de input de texto en 50% y audio en 80%.</description>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-cinco-nuevas-voces-para-realtime-api-con-cachin</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Hugging Face CLI optimizado para agentes IA y workflows automatizados</title>
     <link>https://txemagonzalez.com/post.html?slug=hugging-face-cli-optimizado-para-agentes-ia-y-workflows-auto</link>
     <description>El equipo de Hugging Face lanzó una guía para diseñar el hf CLI optimizado para agentes, con outputs estructurados machine-readable, estandarización de errores, optimización de workflows comunes y extensibilidad clara para funcionalidad específica de agentes.</description>
@@ -117,54 +165,6 @@
     <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>LangChain 1.3.7 Integra Perfiles de Modelos y Middleware de Moderación</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-1-3-7-integra-perfiles-de-modelos-y-middleware-de-</link>
-    <description>LangChain lanzó la versión 1.3.7 con nuevos perfiles de modelos que exponen capacidades soportadas, middleware de moderación de contenido OpenAI, y middleware de reintento automático. Los perfiles de modelo usan datos del proyecto open source models.dev.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-1-3-7-integra-perfiles-de-modelos-y-middleware-de-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenAI Actualiza SDK de Agentes con Capacidades de Sandbox Nativo</title>
-    <link>https://txemagonzalez.com/post.html?slug=openai-actualiza-sdk-de-agentes-con-capacidades-de-sandbox-n</link>
-    <description>OpenAI lanzó una actualización mayor de su Agents SDK introduciendo ejecución sandbox nativa y un harness modelo-específico mejorado. Permite a los agentes operar en entornos controlados, inspeccionar archivos, ejecutar comandos y trabajar en tareas de largo plazo de forma segura.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openai-actualiza-sdk-de-agentes-con-capacidades-de-sandbox-n</guid>
-    <category>AGENTES</category>
-  </item>
-  <item>
-    <title>Anthropic Lanza Claude Fable 5 - Modelo Especializado en Narrativa Creativa</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-modelo-especializado-en-narra</link>
-    <description>Claude Fable 5 es un nuevo modelo de Anthropic especializado en escritura creativa y narrativa de largo formato, posicionado como una alternativa más económica que Opus para ficción, guiones y voces de personajes. Fue lanzado el 9 de junio de 2026.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-modelo-especializado-en-narra</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>OpenClaw Emerge como Proyecto de GitHub de Más Rápido Crecimiento en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-proyecto-de-github-de-mas-rapido-crecim</link>
-    <description>OpenClaw es un asistente de IA personal que se ejecuta completamente en dispositivos locales, funcionando como un gateway que conecta modelos de IA con más de 50 integraciones incluyendo WhatsApp, Telegram, Slack y Discord. El proyecto creció de 9,000 a más de 210,000 estrellas en pocos días.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-emerge-como-proyecto-de-github-de-mas-rapido-crecim</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain v1.1.0 dropping Python 3.9 y mejoras en producción para RAG</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</link>
-    <description>LangChain v1.1.0 elimina soporte para Python 3.9, requiriendo Python 3.10 o superior (recomendado 3.12). El framework ha madurado significativamente desde 2023 con parches de seguridad activamente mantenidos, más de 100K estrellas en GitHub y millones de descargas mensuales en PyPI. Incluye integración con LangSmith para observabilidad y LangGraph para workflows complejos de agentes.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-v1-1-0-dropping-python-3-9-y-mejoras-en-produccion</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Tutorial completo de fine-tuning para tool calling con modelos pequeños especializados</title>
-    <link>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</link>
-    <description>Guía actualizada para fine-tuning de agentes de IA especializados en tool calling usando modelos pequeños como Gemma 4 E4B y Qwen3-4B-Instruct. El tutorial cubre mejoras en la implementación local con llama.cpp añadiendo parser de tool-call para Qwen3 y tokens especiales nativos de function-calling en Gemma 4, eliminando la fragilidad de parsing anterior.</description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=tutorial-completo-de-fine-tuning-para-tool-calling-con-model</guid>
-    <category>BUENAS_PRACTICAS</category>
   </item>
 </channel>
 </rss>

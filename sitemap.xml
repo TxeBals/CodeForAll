@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vllm-omni-0-22-0-anade-soporte-para-modelos-de-mundo-nvidia-</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-mejoras-de-ar</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vllm-lanza-framework-vime-para-post-training-con-rl-scaling</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-cambia-modelo-de-facturacion-para-claude-agent-sdk</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=skillspector-escaner-de-seguridad-para-skills-de-agentes-ai-</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-cinco-nuevas-voces-para-realtime-api-con-cachin</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=hugging-face-cli-optimizado-para-agentes-ia-y-workflows-auto</loc><lastmod>2026-06-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=model-context-protocol-lanza-especificacion-2026-07-28-con-c</loc><lastmod>2026-06-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</loc><lastmod>2026-06-14</lastmod></url>

@@ -117,7 +117,7 @@ async function main() {
 
   // ── STEP 1: Search for news (single call with web_search) ──
   const searchResponse = await callAPI({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-sonnet-4-6',
     max_tokens: 4000,
     tools: [{ type: 'web_search_20250305', name: 'web_search' }],
     messages: [{

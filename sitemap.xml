@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=agentic-rag-con-langgraph-2026-arquitectura-de-grafos-ciclic</loc><lastmod>2026-06-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=deerflow-2-0-de-bytedance-super-agent-harness-open-source-co</loc><lastmod>2026-06-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vllm-lanza-nuevo-curso-con-deeplearning-ai-y-publica-roadmap</loc><lastmod>2026-06-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-publica-deployment-simulation-tecnica-para-predecir-c</loc><lastmod>2026-06-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=qwen3-coder-next-modelo-open-weight-moe-de-80b-parametros-3b</loc><lastmod>2026-06-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-cyber-y-el-programa-daybreak-para-segur</loc><lastmod>2026-06-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vllm-omni-0-22-0-anade-soporte-para-modelos-de-mundo-nvidia-</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-version-1-0-con-mejoras-de-ar</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vllm-lanza-framework-vime-para-post-training-con-rl-scaling</loc><lastmod>2026-06-15</lastmod></url>

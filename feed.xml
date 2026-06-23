@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>Agentic RAG con LangGraph 2026: arquitectura de grafos cíclicos con nodos críticos, stateful, y evaluación con RAGAS</title>
+    <link>https://txemagonzalez.com/post.html?slug=agentic-rag-con-langgraph-2026-arquitectura-de-grafos-ciclic</link>
+    <description>La adopción de Agentic RAG en 2026 supera ampliamente los pipelines estáticos de 2023-2025: en lugar de embed→fetch→generate, los sistemas modernos usan LangGraph para modelar el flujo como un grafo cíclico dirigido con checkpoints persistentes, branching condicional y puntos de human-in-the-loop. La arquitectura incluye nodos especializados (retriever, critic, rewriter, responder) que iteran en bucle hasta alcanzar un score de confianza umbral, con observabilidad per-nodo en LangSmith usando metadatos como critic_score, retrieval_round e iteration_count. La evaluación end-to-end se realiza con RAGAS (faithfulness, answer relevance, context precision/recall), detectando silenciosamente degradación del sistema cuando cambia la knowledge base.</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=agentic-rag-con-langgraph-2026-arquitectura-de-grafos-ciclic</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>DeerFlow 2.0 de ByteDance: super-agent harness open-source con ejecución en sandboxes Docker y sub-agentes paralelos</title>
+    <link>https://txemagonzalez.com/post.html?slug=deerflow-2-0-de-bytedance-super-agent-harness-open-source-co</link>
+    <description>ByteDance lanzó DeerFlow 2.0, una reescritura completa de su framework de agentes que llegó al #1 de GitHub Trending el 28 de febrero de 2026 y acumula más de 70,000 estrellas. Construido sobre LangGraph y LangChain, provee a los agentes con un entorno de ejecución Docker aislado con filesystem real, bash terminal, memoria persistente cross-session y un sistema de Skills modulares cargadas progresivamente para optimizar el uso de contexto. Soporta cualquier LLM con API compatible con OpenAI (GPT-5, Claude, DeepSeek, Gemini, modelos locales via Ollama), se despliega via Docker en minutos y es MIT license.</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=deerflow-2-0-de-bytedance-super-agent-harness-open-source-co</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>vLLM lanza nuevo curso con DeepLearning.AI y publica roadmap Q2 2026 con Rust frontend y KV cache multi-tier</title>
+    <link>https://txemagonzalez.com/post.html?slug=vllm-lanza-nuevo-curso-con-deeplearning-ai-y-publica-roadmap</link>
+    <description>vLLM anunció en colaboración con Red Hat y DeepLearning.AI un curso práctico gratuito &apos;Fast &amp; Efficient LLM Inference with vLLM&apos; que cubre el ciclo completo de optimización, despliegue y benchmarking usando LLM Compressor, GuideLLM y PagedAttention. En paralelo, el roadmap Q2 2026 del proyecto incluye un frontend experimental en Rust, soporte de KV cache multi-tier con offloading a disco, mejora de latencia end-to-end del 28.9% con Cutlass FP8, y Model Runner V2 activado por defecto para modelos Qwen3 densos. El proyecto soporta ahora más de 200 arquitecturas de modelos en HuggingFace y hardware AMD, Intel, TPU y Apple Silicon.</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=vllm-lanza-nuevo-curso-con-deeplearning-ai-y-publica-roadmap</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>OpenAI publica Deployment Simulation: técnica para predecir comportamiento de modelos antes del lanzamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-publica-deployment-simulation-tecnica-para-predecir-c</link>
+    <description>OpenAI publicó el 16 de junio una nueva técnica de seguridad llamada Deployment Simulation que reproduce conversaciones reales de producción con un modelo candidato antes de su lanzamiento, para detectar comportamientos indeseados en condiciones realistas. El sistema analizó 1.3 millones de conversaciones anonimizadas entre GPT-5 Thinking y GPT-5.4, logrando un error multiplicativo medio de 1.5x en la predicción de frecuencias de comportamiento problemático. Para entornos agénticos, simula las tool calls con un LLM auxiliar en vez de ejecutarlas en producción, alcanzando un realismo casi indistinguible de ejecución real (49.5% win rate del discriminador vs. 50% aleatorio).</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-publica-deployment-simulation-tecnica-para-predecir-c</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Qwen3-Coder-Next: modelo open-weight MoE de 80B parámetros (3B activos) para agentes de código locales</title>
+    <link>https://txemagonzalez.com/post.html?slug=qwen3-coder-next-modelo-open-weight-moe-de-80b-parametros-3b</link>
+    <description>El equipo Qwen de Alibaba publicó Qwen3-Coder-Next, un modelo open-weight con arquitectura Mixture-of-Experts de 80B parámetros totales pero solo 3B activos por token, diseñado específicamente para coding agents y despliegue local. Logra 70.6% en SWE-Bench Verified usando el scaffold SWE-Agent, equiparando modelos hasta 20x más grandes en parámetros activos, con contexto de 256K tokens y soporte nativo de tool calling. Compatible con vLLM, SGLang, Ollama, llama.cpp y LMStudio, puede integrarse directamente con Claude Code, Cursor, Cline, Kilo y otros entornos IDE.</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=qwen3-coder-next-modelo-open-weight-moe-de-80b-parametros-3b</guid>
+    <category>LLM</category>
+  </item>
+  <item>
+    <title>OpenAI lanza GPT-5.5-Cyber y el programa Daybreak para seguridad ofensiva/defensiva</title>
+    <link>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-cyber-y-el-programa-daybreak-para-segur</link>
+    <description>OpenAI expandió el 22 de junio su iniciativa Daybreak con el lanzamiento completo de GPT-5.5-Cyber, un modelo especializado en flujos de trabajo de ciberseguridad ofensiva y defensiva que alcanza 85.6% en el benchmark CyberGym, superando a GPT-5.5 estándar (81.8%). Junto con el modelo, se lanzó un plugin de Codex Security que se integra directamente en entornos de desarrollo, generando hallazgos con ranking de severidad, trazado de rutas de ataque y parches específicos por codebase. El acceso requiere inscripción en el programa Trusted Access for Cyber (TAC) con verificación de identidad resistente a phishing; socios como Cisco, CrowdStrike, Snyk y SentinelOne ya están integrados.</description>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-5-cyber-y-el-programa-daybreak-para-segur</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>vLLM-Omni 0.22.0 añade soporte para modelos de mundo Nvidia Cosmos3</title>
     <link>https://txemagonzalez.com/post.html?slug=vllm-omni-0-22-0-anade-soporte-para-modelos-de-mundo-nvidia-</link>
     <description>vLLM-Omni lanzó la versión 0.22.0 con soporte para Nvidia Cosmos3/DreamZero world models, quantización expandida en Blackwell/NPU/XPU, mejoras de producción para TTS y nuevos modelos omni-modales.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</guid>
     <category>AGENTES</category>
-  </item>
-  <item>
-    <title>DeepSeek-V3.2 introduce nuevas capacidades de &apos;thinking with tools&apos;</title>
-    <link>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</link>
-    <description>Hugging Face lanza soporte oficial para DeepSeek-V3.2 con plantillas de chat actualizadas y capacidades mejoradas de razonamiento con herramientas.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=deepseek-v3-2-introduce-nuevas-capacidades-de-thinking-with-</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw: Asistente IA Personal que supera 210K estrellas en GitHub</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-que-supera-210k-estrellas-en-</link>
-    <description>El proyecto de código abierto de crecimiento más rápido en la historia de GitHub, un asistente IA local que conecta modelos a más de 50 integraciones sin enviar datos a la nube.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-asistente-ia-personal-que-supera-210k-estrellas-en-</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>Anthropic libera Claude Fable 5: Primera modelo de próxima generación público</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-libera-claude-fable-5-primera-modelo-de-proxima-ge</link>
-    <description>Claude Fable 5 marca un salto generacional real en capacidades de LLM, disponible temporalmente hasta el 22 de junio en suscripciones pagas de Claude.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-libera-claude-fable-5-primera-modelo-de-proxima-ge</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Microsoft lanza MAI-Code-1-Flash: Modelo de codificación nativo para GitHub Copilot</title>
-    <link>https://txemagonzalez.com/post.html?slug=microsoft-lanza-mai-code-1-flash-modelo-de-codificacion-nati</link>
-    <description>Microsoft presenta su primer modelo de codificación desarrollado internamente, optimizado específicamente para flujos de trabajo reales de GitHub Copilot con parámetros activos de 5B y capacidades agénticas.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=microsoft-lanza-mai-code-1-flash-modelo-de-codificacion-nati</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrón de Arquitectura: Langflow Populariza Interfaces Drag-and-Drop para Pipelines de Agentes</title>
-    <link>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</link>
-    <description>Langflow se ha establecido como la plataforma low-code líder para diseñar workflows de agentes IA y RAG. Construida sobre LangChain, permite orquestar conversaciones multi-agente, gestionar memoria y desplegar flujos como APIs mediante interfaz visual drag-and-drop.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patron-de-arquitectura-langflow-populariza-interfaces-drag-a</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>Firecrawl Se Convierte en API de Referencia para Web Scraping de Agentes de IA</title>
-    <link>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</link>
-    <description>Firecrawl alcanzó 130K+ estrellas en GitHub posicionándose como la infraestructura estándar para que agentes de IA busquen, rastreen y procesen contenido web. Ofrece una familia de APIs unificada cubriendo Search, Scrape, Parse, Crawl, Map e Interact.</description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=firecrawl-se-convierte-en-api-de-referencia-para-web-scrapin</guid>
-    <category>HERRAMIENTAS</category>
   </item>
 </channel>
 </rss>

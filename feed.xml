@@ -7,6 +7,54 @@
   <language>es</language>
   <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>MCP 2026: Guía Completa de Arquitectura, Auth y Ecosystem para Developers</title>
+    <link>https://txemagonzalez.com/post.html?slug=mcp-2026-guia-completa-de-arquitectura-auth-y-ecosystem-para</link>
+    <description>WorkOS publicó una guía técnica exhaustiva sobre el estado actual de MCP en 2026: arquitectura cliente-servidor, el sistema de autenticación evolucionado (OAuth 2.1), el ecosistema de servidores oficiales (Slack, GitHub, Stripe, Figma, Salesforce) y el roadmap con MCP Server Cards. Los SDKs de Python y TypeScript superan los 97 millones de descargas mensuales y más del 28% de empresas Fortune 500 ya tienen servidores MCP en producción.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mcp-2026-guia-completa-de-arquitectura-auth-y-ecosystem-para</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>O&apos;Reilly: El Stack Completo de Agentes IA en 2026 — MCP, Memoria y Razonamiento</title>
+    <link>https://txemagonzalez.com/post.html?slug=o-reilly-el-stack-completo-de-agentes-ia-en-2026-mcp-memoria</link>
+    <description>O&apos;Reilly Radar publicó un análisis exhaustivo del stack actual de agentes IA identificando tres cambios estructurales desde 2024: MCP estandarizó la conectividad de herramientas, los modelos de razonamiento permiten agentes de un solo turno donde antes hacían falta cadenas multi-step, y la memoria pasó a ser una primitiva de arquitectura de primera clase. El artículo mapea cada capa del stack con herramientas concretas.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=o-reilly-el-stack-completo-de-agentes-ia-en-2026-mcp-memoria</guid>
+    <category>BUENAS_PRACTICAS</category>
+  </item>
+  <item>
+    <title>Repo Trending: Bumblebee de Perplexity AI — Scanner de Supply Chain para MCP Servers</title>
+    <link>https://txemagonzalez.com/post.html?slug=repo-trending-bumblebee-de-perplexity-ai-scanner-de-supply-c</link>
+    <description>Bumblebee es un scanner open-source de supply chain creado por Perplexity AI que audita dependencias npm, PyPI, Go, RubyGems y MCP servers contra registros de paquetes maliciosos. Escrito en Go puro sin dependencias externas, es especialmente relevante ante la proliferación de MCP servers de terceros instalados desde GitHub y Discord. Requiere Go 1.25+.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=repo-trending-bumblebee-de-perplexity-ai-scanner-de-supply-c</guid>
+    <category>GITHUB_REPO</category>
+  </item>
+  <item>
+    <title>RAGFlow v0.26.1: Nuevos Conectores Enterprise y Observabilidad con Langfuse</title>
+    <link>https://txemagonzalez.com/post.html?slug=ragflow-v0-26-1-nuevos-conectores-enterprise-y-observabilida</link>
+    <description>RAGFlow lanzó en junio de 2026 las versiones 0.26.0 y 0.26.1 con importantes novedades para producción: conectores de datos para Outlook, OneDrive, Teams, Slack, SharePoint, Salesforce y Azure Blob Storage. También añade trazabilidad multi-turn integrada con Langfuse y listas de modelos auto-pobladas desde providers como Ollama, OpenRouter y vLLM.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=ragflow-v0-26-1-nuevos-conectores-enterprise-y-observabilida</guid>
+    <category>AGENTES</category>
+  </item>
+  <item>
+    <title>MCP Spec 2026-07-28 RC: El Protocolo de Contexto se Vuelve Stateless</title>
+    <link>https://txemagonzalez.com/post.html?slug=mcp-spec-2026-07-28-rc-el-protocolo-de-contexto-se-vuelve-st</link>
+    <description>El release candidate del Model Context Protocol (MCP) 2026-07-28 convierte el protocolo en stateless eliminando el handshake initialize y el header Mcp-Session-Id. Los servidores ahora pueden correr detrás de load balancers estándar sin sticky sessions. La especificación final se publicará el 28 de julio de 2026, con 10 semanas de ventana de validación para los SDKs Tier-1.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=mcp-spec-2026-07-28-rc-el-protocolo-de-contexto-se-vuelve-st</guid>
+    <category>HERRAMIENTAS</category>
+  </item>
+  <item>
+    <title>Qwen3-Coder-Next: Modelo Open-Weight MoE para Agentes de Código</title>
+    <link>https://txemagonzalez.com/post.html?slug=qwen3-coder-next-modelo-open-weight-moe-para-agentes-de-codi</link>
+    <description>Alibaba lanza Qwen3-Coder-Next, un modelo open-weight de 80B parámetros con arquitectura MoE que activa solo 3B por inferencia. Alcanza más del 70% en SWE-Bench Verified y es compatible con Claude Code, Cline, Cursor y otros IDEs. Disponible localmente vía Ollama, llama.cpp y vLLM, y en AWS Bedrock como `qwen.qwen3-coder-next`.</description>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://txemagonzalez.com/post.html?slug=qwen3-coder-next-modelo-open-weight-moe-para-agentes-de-codi</guid>
+    <category>LLM</category>
+  </item>
+  <item>
     <title>Agentic RAG con LangGraph 2026: arquitectura de grafos cíclicos con nodos críticos, stateful, y evaluación con RAGAS</title>
     <link>https://txemagonzalez.com/post.html?slug=agentic-rag-con-langgraph-2026-arquitectura-de-grafos-ciclic</link>
     <description>La adopción de Agentic RAG en 2026 supera ampliamente los pipelines estáticos de 2023-2025: en lugar de embed→fetch→generate, los sistemas modernos usan LangGraph para modelar el flujo como un grafo cíclico dirigido con checkpoints persistentes, branching condicional y puntos de human-in-the-loop. La arquitectura incluye nodos especializados (retriever, critic, rewriter, responder) que iteran en bucle hasta alcanzar un score de confianza umbral, con observabilidad per-nodo en LangSmith usando metadatos como critic_score, retrieval_round e iteration_count. La evaluación end-to-end se realiza con RAGAS (faithfulness, answer relevance, context precision/recall), detectando silenciosamente degradación del sistema cuando cambia la knowledge base.</description>
@@ -117,54 +165,6 @@
     <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
     <guid>https://txemagonzalez.com/post.html?slug=model-context-protocol-lanza-especificacion-2026-07-28-con-c</guid>
     <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>OpenClaw supera 210K estrellas como el repo de IA de más rápido crecimiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</link>
-    <description>OpenClaw, creado por el fundador de PSPDFKit Peter Steinberger, es un asistente personal de IA que corre completamente en dispositivos locales. Se convirtió en viral en enero 2026 y representa el proyecto open-source de más rápido crecimiento en la historia de GitHub.</description>
-    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=openclaw-supera-210k-estrellas-como-el-repo-de-ia-de-mas-rap</guid>
-    <category>GITHUB_REPO</category>
-  </item>
-  <item>
-    <title>LangChain y LangGraph alcanzan v1.0 con 90M descargas mensuales</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-v1-0-con-90m-descargas-mensua</link>
-    <description>LangChain 1.0 se enfoca en el loop central de agentes con nuevo concepto de middleware y actualizaciones en integraciones de modelos. LangGraph 1.0 introduce arquitectura basada en grafos para control granular de flujo, reintentos y manejo de errores en agentes de producción.</description>
-    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-y-langgraph-alcanzan-v1-0-con-90m-descargas-mensua</guid>
-    <category>HERRAMIENTAS</category>
-  </item>
-  <item>
-    <title>Moonshot AI lanza Kimi K2.7-Code con 30% menos uso de tokens de razonamiento</title>
-    <link>https://txemagonzalez.com/post.html?slug=moonshot-ai-lanza-kimi-k2-7-code-con-30-menos-uso-de-tokens-</link>
-    <description>Moonshot AI liberó Kimi K2.7-Code bajo licencia MIT modificada, optimizado para escenarios donde agentes de IA necesitan planificar, ejecutar y debuggear código a través de secuencias largas. Reduce el uso de tokens de razonamiento en 30% comparado con K2.6.</description>
-    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=moonshot-ai-lanza-kimi-k2-7-code-con-30-menos-uso-de-tokens-</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Anthropic lanza Claude Fable 5: el primer modelo LLM de nueva generación</title>
-    <link>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-el-primer-modelo-llm-de-nueva</link>
-    <description>Anthropic ha lanzado Claude Fable 5, marcando un salto generacional real en capacidades de LLM. Disponible hasta el 22 de junio para suscripciones pagas, supera a GPT-5.5 y Opus 4.8 en tareas de codificación complejas ejecutándose en Claude Code con harness optimizado.</description>
-    <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-fable-5-el-primer-modelo-llm-de-nueva</guid>
-    <category>LLM</category>
-  </item>
-  <item>
-    <title>Patrones de arquitectura RAG de producción: LangChain vs LlamaIndex en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</link>
-    <description>Guía completa sobre decisiones arquitectónicas para sistemas RAG empresariales, comparando frameworks y estrategias de optimización de costos.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-rag-de-produccion-langchain-vs-llam</guid>
-    <category>BUENAS_PRACTICAS</category>
-  </item>
-  <item>
-    <title>LangChain evoluciona hacia sistemas agénticos de producción en 2026</title>
-    <link>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</link>
-    <description>LangChain v1.x introduce mejoras significativas en confiabilidad, observabilidad y patrones de despliegue empresarial con LangGraph y LangSmith.</description>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
-    <guid>https://txemagonzalez.com/post.html?slug=langchain-evoluciona-hacia-sistemas-agenticos-de-produccion-</guid>
-    <category>AGENTES</category>
   </item>
 </channel>
 </rss>

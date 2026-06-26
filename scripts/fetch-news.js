@@ -32,6 +32,11 @@ async function callAPI(params, label) {
         const waitSecs = 30 * attempt;
         console.log('[Overloaded] Esperando ' + waitSecs + 's...');
         await sleep(waitSecs * 1000);
+      } else if (e.code && (e.code === 'ERR_STREAM_PREMATURE_CLOSE' || e.code === 'ECONNRESET' || e.code === 'ETIMEDOUT' || e.errno === 'ENOTFOUND')) {
+        // Network/stream errors: retryable with exponential backoff
+        const waitSecs = 30 * attempt;
+        console.log('[Network error] ' + e.code + ' - Esperando ' + waitSecs + 's...');
+        await sleep(waitSecs * 1000);
       } else {
         throw e; // Non-retryable error
       }
@@ -316,7 +321,7 @@ function generateRSS(posts) {
   let rss = '<?xml version="1.0" encoding="UTF-8"?>\n';
   rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n';
   rss += '<channel>\n';
-  rss += '  <title>Code 4 All - Txema Gonz\u00e1lez Balseiro</title>\n';
+  rss += '  <title>Code 4 All - Txema González Balseiro</title>\n';
   rss += '  <link>https://txemagonzalez.com/</link>\n';
   rss += '  <description>Blog de desarrollo, IA y Azure</description>\n';
   rss += '  <language>es</language>\n';

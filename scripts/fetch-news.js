@@ -2,7 +2,10 @@ const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
 const path = require('path');
 
-const client = new Anthropic();
+const client = new Anthropic({
+  timeout: 30 * 1000, // 30s timeout per request
+  maxRetries: 0  // We handle retries ourselves
+});
 const POSTS_FILE = path.join(__dirname, '..', 'data', 'posts.json');
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 
@@ -34,8 +37,8 @@ async function callAPI(params, label) {
         await sleep(waitSecs * 1000);
       } else if (e.code && (e.code === 'ERR_STREAM_PREMATURE_CLOSE' || e.code === 'ECONNRESET' || e.code === 'ETIMEDOUT' || e.errno === 'ENOTFOUND')) {
         // Network/stream errors: retryable with exponential backoff
-        const waitSecs = 30 * attempt;
-        console.log('[Network error] ' + e.code + ' - Esperando ' + waitSecs + 's...');
+        const waitSecs = 10 * Math.pow(2, attempt - 1); // 10s, 20s, 40s, 80s, 160s (total: 310s)
+        console.log('[Network error] ' + e.code + ' - Intento ' + attempt + '/' + MAX_RETRIES + ', esperando ' + waitSecs + 's...');
         await sleep(waitSecs * 1000);
       } else {
         throw e; // Non-retryable error
@@ -179,9 +182,9 @@ async function main() {
   const maxId = Math.max(...postsData.posts.map(p => p.id), 0);
 
   // ── STEP 2: Generate articles one by one with long pauses ──
-  // Wait 65s after search to let rate limit window reset
-  console.log('[Pausa] Esperando 65s para respetar rate limits...');
-  await sleep(65000);
+  // Wait 45s after search to let rate limit window reset
+  console.log('[Pausa] Esperando 45s para respetar rate limits...');
+  await sleep(45000);
 
   for (let i = 0; i < newsItems.length; i++) {
     const item = newsItems[i];
@@ -249,10 +252,10 @@ async function main() {
 
     postsData.posts.unshift(newPost);
 
-    // Wait 65s between article generations to respect per-minute limits
+    // Wait 45s between article generations to respect per-minute limits
     if (i < newsItems.length - 1) {
-      console.log('[Pausa] Esperando 65s entre articulos...');
-      await sleep(65000);
+      console.log('[Pausa] Esperando 45s entre articulos...');
+      await sleep(45000);
     }
   }
 

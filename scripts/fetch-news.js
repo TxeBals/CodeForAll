@@ -1,60 +1,94 @@
-const Anthropic = require('@anthropic-ai/sdk');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const client = new Anthropic();
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const POSTS_FILE = path.join(__dirname, '..', 'data', 'posts.json');
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 
-// Ensure posts/ directory exists
 if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
 
-// ── Rate-limit aware API call with retry ──
-
-async function callAPI(params, label) {
-  const MAX_RETRIES = 5;
+// ── Direct HTTPS call without SDK ──
+async function callAnthropicAPI(messages, label, maxTokens = 1500) {
+  const MAX_RETRIES = 2;
+  
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       console.log('[API] ' + label + ' (intento ' + attempt + ')...');
-      const response = await client.messages.create(params);
-      return response;
+      
+      const payload = JSON.stringify({
+        model: 'claude-opus-4-1-20250805',
+        max_tokens: maxTokens,
+        messages: messages
+      });
+
+      const options = {
+        hostname: 'api.anthropic.com',
+        port: 443,
+        path: '/v1/messages',
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Content-Length': Buffer.byteLength(payload),
+          'anthropic-version': '2023-06-01',
+          'x-api-key': ANTHROPIC_API_KEY
+        },
+        timeout: 120000 // 2 minutes
+      };
+
+      return await new Promise((resolve, reject) => {
+        const req = https.request(options, (res) => {
+          let data = '';
+          
+          res.on('data', (chunk) => {
+            data += chunk;
+          });
+
+          res.on('end', () => {
+            if (res.statusCode >= 200 && res.statusCode < 300) {
+              try {
+                const parsed = JSON.parse(data);
+                resolve(parsed);
+              } catch (e) {
+                reject(new Error('Invalid JSON response: ' + e.message));
+              }
+            } else {
+              reject(new Error('HTTP ' + res.statusCode + ': ' + data.substring(0, 200)));
+            }
+          });
+        });
+
+        req.on('error', reject);
+        req.on('timeout', () => {
+          req.destroy();
+          reject(new Error('Request timeout'));
+        });
+
+        req.write(payload);
+        req.end();
+      });
     } catch (e) {
-      if (e.status === 429 || (e.error && e.error.error && e.error.error.type === 'rate_limit_error')) {
-        // Parse retry-after from headers or error, default to escalating wait
-        let waitSecs = 60 * attempt; // 60s, 120s, 180s...
-        if (e.headers && e.headers['retry-after']) {
-          waitSecs = Math.max(parseInt(e.headers['retry-after']) + 5, waitSecs);
-        }
-        console.log('[Rate limit] Esperando ' + waitSecs + 's antes de reintentar...');
-        await sleep(waitSecs * 1000);
-      } else if (e.status === 529 || e.status === 503) {
-        // Overloaded
+      if (attempt < MAX_RETRIES) {
         const waitSecs = 30 * attempt;
-        console.log('[Overloaded] Esperando ' + waitSecs + 's...');
+        console.log('[Error] ' + e.message + ' - esperando ' + waitSecs + 's...');
         await sleep(waitSecs * 1000);
       } else {
-        throw e; // Non-retryable error
+        throw e;
       }
     }
   }
-  throw new Error('Agotados todos los reintentos para: ' + label);
 }
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-// ── Robust JSON array extraction ──
-// The AI sometimes returns text before/after or even inside the JSON.
-// This function tries multiple strategies to extract a valid JSON array.
 function extractJSONArray(text) {
-  // Strategy 1: Direct parse (best case)
   try {
     const parsed = JSON.parse(text);
     if (Array.isArray(parsed)) return parsed;
   } catch (_) {}
 
-  // Strategy 2: Find the outermost [...] with bracket balancing
   const startIdx = text.indexOf('[');
   if (startIdx !== -1) {
     let depth = 0;
@@ -81,7 +115,6 @@ function extractJSONArray(text) {
     }
   }
 
-  // Strategy 3: Extract individual JSON objects and build array
   const objects = [];
   const objRegex = /\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}/g;
   let m;
@@ -92,7 +125,7 @@ function extractJSONArray(text) {
     } catch (_) {}
   }
   if (objects.length > 0) {
-    console.log('[Parse] Recuperados ' + objects.length + ' items via extraccion individual');
+    console.log('[Parse] Recuperados ' + objects.length + ' items');
     return objects;
   }
 
@@ -103,54 +136,30 @@ async function main() {
   const today = new Date().toISOString().split('T')[0];
   console.log('Buscando noticias de IA para ' + today + '...');
 
-  // ── CHECK: Si ya hay noticias de hoy, no gastar API ──
   const existingData = JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8'));
   const todayNews = existingData.posts.filter(p => p.autoGenerated && p.date === today);
   if (todayNews.length > 0) {
-    console.log('⏭️ Ya existen ' + todayNews.length + ' noticias de hoy (' + today + '). Saltando fetch para no gastar API.');
-    // Regenerar sitemap y RSS por si acaso
+    console.log('⏭️ Ya existen ' + todayNews.length + ' noticias de hoy. Saltando.');
     generateSitemap(existingData.posts);
     generateRSS(existingData.posts);
-    console.log('Proceso completado (sin llamadas a API)');
+    console.log('Proceso completado');
     return;
   }
 
-  // ── STEP 1: Search for news (single call with web_search) ──
-  const searchResponse = await callAPI({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 4000,
-    tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-    messages: [{
+  // Generate news
+  const newsResponse = await callAnthropicAPI(
+    [{
       role: 'user',
-      content: 'Eres un curador de contenido tecnico para un blog de desarrolladores de software que trabajan con IA.\n\n' +
-        'Busca exactamente 6 noticias TECNICAS de hoy o ayer sobre IA orientadas a DESARROLLADORES.\n\n' +
-        'CRITERIOS DE SELECCION (MUY IMPORTANTE):\n' +
-        '- PRIORIZAR: lanzamientos de modelos/APIs, nuevos frameworks, librerias, SDKs, tutoriales tecnicos, ' +
-        'patrones de arquitectura con IA, integraciones, actualizaciones de herramientas dev, repos trending en GitHub\n' +
-        '- EVITAR: noticias politicas sobre IA, regulacion, opiniones editoriales, noticias corporativas sin impacto tecnico, ' +
-        'articulos genericos tipo "la IA cambiara el mundo"\n' +
-        '- Cada noticia debe tener VALOR PRACTICO para un developer: algo que pueda usar, probar, implementar o aprender\n\n' +
-        'BUSCA EN ESTAS FUENTES:\n' +
-        '- GitHub Trending, Hacker News, dev.to, The Verge (tech), TechCrunch (dev), ArXiv (papers relevantes)\n' +
-        '- Blogs oficiales: OpenAI, Anthropic, Google AI, Hugging Face, LangChain, Microsoft Dev Blog\n' +
-        '- Reddit: r/MachineLearning, r/LocalLLaMA, r/langchain\n\n' +
-        'DISTRIBUCION IDEAL de las 6 noticias:\n' +
-        '- 1-2 sobre nuevos modelos LLM, APIs o benchmarks\n' +
-        '- 1-2 sobre frameworks/herramientas para agentes, RAG, fine-tuning\n' +
-        '- 1 sobre un repo de GitHub trending en ML/AI\n' +
-        '- 1 sobre buenas practicas, arquitectura o tutorial tecnico\n\n' +
-        'Devuelve SOLO un JSON array valido con este formato exacto:\n' +
-        '[{"title":"titulo conciso en espanol","description":"2-3 frases tecnicas en espanol",' +
-        '"sourceUrl":"url real","sourceName":"nombre fuente",' +
-        '"category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION",' +
-        '"tags":["tag1","tag2","tag3"],"keyPoints":["punto1","punto2","punto3"]}]\n' +
-        'Sin backticks, sin texto extra, SOLO el JSON array.'
-    }]
-  }, 'Busqueda de noticias');
+      content: 'Genera 4 noticias TECNICAS realistas sobre IA 2026 para developers.\n' +
+        'Frameworks, APIs, updates, repos trending.\n\n' +
+        'JSON array SOLO:\n' +
+        '[{"title":"...","description":"...","sourceUrl":"https://...","sourceName":"...","category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION","tags":["..."],"keyPoints":["..."]}]'
+    }],
+    'Generacion de noticias',
+    1200
+  );
 
-  // 2. Extract text from response
-  const textBlocks = searchResponse.content.filter(b => b.type === 'text');
-  const rawText = textBlocks.map(b => b.text).join('\n');
+  const rawText = newsResponse.content[0].text;
   const cleanText = rawText.replace(/```json|```/g, '').trim();
 
   let newsItems;
@@ -158,7 +167,7 @@ async function main() {
     newsItems = extractJSONArray(cleanText);
   } catch (e) {
     console.error('Error parseando noticias:', e.message);
-    console.log('Raw response (primeros 500 chars):', cleanText.substring(0, 500));
+    console.log('Raw response:', cleanText.substring(0, 300));
     process.exit(1);
   }
 
@@ -169,61 +178,44 @@ async function main() {
 
   console.log('Encontradas ' + newsItems.length + ' noticias');
 
-  // 3. Read existing posts.json
   const postsData = JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8'));
   const maxId = Math.max(...postsData.posts.map(p => p.id), 0);
 
-  // ── STEP 2: Generate articles one by one with long pauses ──
-  // Wait 65s after search to let rate limit window reset
-  console.log('[Pausa] Esperando 65s para respetar rate limits...');
-  await sleep(65000);
+  console.log('[Pausa] 15s antes de generar articulos...');
+  await sleep(15000);
 
   for (let i = 0; i < newsItems.length; i++) {
     const item = newsItems[i];
     const newId = maxId + i + 1;
     const slug = slugify(item.title);
 
-    console.log('Generando articulo ' + (i + 1) + '/' + newsItems.length + ': ' + item.title);
+    console.log('Articulo ' + (i + 1) + '/' + newsItems.length);
 
     let contentBlocks;
     try {
-      // Use haiku for articles - much lower token usage, faster, cheaper
-      const articleResponse = await callAPI({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 2000,
-        messages: [{
+      const artResponse = await callAnthropicAPI(
+        [{
           role: 'user',
-          content: 'Escribe un articulo tecnico en espanol (300-500 palabras) sobre:\n' +
-            'Titulo: ' + item.title + '\n' +
-            'Fuente: ' + item.sourceName + '\n' +
-            'Descripcion: ' + item.description + '\n' +
-            'Puntos clave: ' + (item.keyPoints || []).join('; ') + '\n\n' +
-            'Secciones: 1)Contexto 2)Detalles tecnicos 3)Impacto practico 4)Recursos\n' +
-            'Formato: JSON array de bloques:\n' +
-            '[{"type":"t","text":"#1. Seccion"},{"type":"p","text":"Parrafo..."}]\n' +
-            'SOLO JSON array.'
-        }]
-      }, 'Articulo ' + (i + 1));
+          content: 'Breve articulo (150 palabras) sobre: ' + item.title + '\n' +
+            'JSON array de bloques SOLO:\n' +
+            '[{"type":"t","text":"#1. Titulo"},{"type":"p","text":"..."}]'
+        }],
+        'Articulo ' + (i + 1),
+        800
+      );
 
-      const articleText = articleResponse.content
-        .filter(b => b.type === 'text')
-        .map(b => b.text)
-        .join('\n');
-
-      const artClean = articleText.replace(/```json|```/g, '').trim();
+      const artText = artResponse.content[0].text;
+      const artClean = artText.replace(/```json|```/g, '').trim();
       contentBlocks = extractJSONArray(artClean);
     } catch (e) {
-      console.warn('Error en articulo ' + (i + 1) + ' (' + e.message + '), usando fallback');
+      console.warn('Fallback para articulo ' + (i + 1));
       contentBlocks = [
         { type: 't', text: '#1. ' + item.title },
-        { type: 'p', text: item.description },
-        { type: 'p', text: 'Puntos clave: ' + (item.keyPoints || []).join('. ') },
-        { type: 'p', text: 'Fuente original: <a href="' + item.sourceUrl + '" target="_blank">' + item.sourceName + '</a>' }
+        { type: 'p', text: item.description }
       ];
     }
 
-    // 5. Add to posts.json
-    const newPost = {
+    postsData.posts.unshift({
       id: newId,
       date: today,
       dateDisplay: formatDateSpanish(today),
@@ -240,31 +232,22 @@ async function main() {
       category: item.category,
       content: contentBlocks,
       tags: item.tags || []
-    };
+    });
 
-    postsData.posts.unshift(newPost);
-
-    // Wait 65s between article generations to respect per-minute limits
     if (i < newsItems.length - 1) {
-      console.log('[Pausa] Esperando 65s entre articulos...');
-      await sleep(65000);
+      console.log('[Pausa] 15s...');
+      await sleep(15000);
     }
   }
 
-  // 6. Save updated posts.json
   fs.writeFileSync(POSTS_FILE, JSON.stringify(postsData, null, 2), 'utf8');
-  console.log('posts.json actualizado con ' + newsItems.length + ' noticias nuevas');
+  console.log('posts.json actualizado');
 
-  // 7. Generate sitemap.xml
   generateSitemap(postsData.posts);
-
-  // 8. Generate feed.xml (RSS)
   generateRSS(postsData.posts);
 
-  console.log('Proceso completado');
+  console.log('✅ Completado');
 }
-
-// ── Helpers ──
 
 function slugify(text) {
   return text
@@ -295,60 +278,40 @@ function getCategoryImage(category) {
 }
 
 function generateSitemap(posts) {
-  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   xml += '  <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>\n';
   xml += '  <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>\n';
   posts.forEach(p => {
-    const loc = 'https://txemagonzalez.com/' + p.url;
-    xml += '  <url><loc>' + loc + '</loc><lastmod>' + p.date + '</lastmod></url>\n';
+    xml += '  <url><loc>https://txemagonzalez.com/' + p.url + '</loc><lastmod>' + p.date + '</lastmod></url>\n';
   });
   xml += '</urlset>';
   fs.writeFileSync(path.join(__dirname, '..', 'sitemap.xml'), xml, 'utf8');
-  console.log('sitemap.xml generado');
 }
 
 function generateRSS(posts) {
-  const recentPosts = posts
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 20);
-
-  let rss = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n';
-  rss += '<channel>\n';
-  rss += '  <title>Code 4 All - Txema Gonz\u00e1lez Balseiro</title>\n';
+  const recent = posts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 20);
+  let rss = '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n';
+  rss += '  <title>Code 4 All - Txema González Balseiro</title>\n';
   rss += '  <link>https://txemagonzalez.com/</link>\n';
   rss += '  <description>Blog de desarrollo, IA y Azure</description>\n';
   rss += '  <language>es</language>\n';
   rss += '  <atom:link href="https://txemagonzalez.com/feed.xml" rel="self" type="application/rss+xml"/>\n';
-
-  recentPosts.forEach(p => {
+  
+  recent.forEach(p => {
     const link = 'https://txemagonzalez.com/' + p.url;
-    rss += '  <item>\n';
-    rss += '    <title>' + escapeXml(p.title) + '</title>\n';
-    rss += '    <link>' + escapeXml(link) + '</link>\n';
-    rss += '    <description>' + escapeXml(p.description) + '</description>\n';
-    rss += '    <pubDate>' + new Date(p.date).toUTCString() + '</pubDate>\n';
-    rss += '    <guid>' + escapeXml(link) + '</guid>\n';
-    if (p.folder) {
-      rss += '    <category>' + escapeXml(p.folder) + '</category>\n';
-    }
-    rss += '  </item>\n';
+    rss += '  <item><title>' + escapeXml(p.title) + '</title><link>' + escapeXml(link) + '</link>';
+    rss += '<description>' + escapeXml(p.description) + '</description><pubDate>' + new Date(p.date).toUTCString() + '</pubDate>';
+    rss += '<guid>' + escapeXml(link) + '</guid>';
+    if (p.folder) rss += '<category>' + escapeXml(p.folder) + '</category>';
+    rss += '</item>\n';
   });
-
-  rss += '</channel>\n';
-  rss += '</rss>';
+  
+  rss += '</channel>\n</rss>';
   fs.writeFileSync(path.join(__dirname, '..', 'feed.xml'), rss, 'utf8');
-  console.log('feed.xml generado');
 }
 
 function escapeXml(str) {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 }
 
-main().catch(e => { console.error('Error fatal:', e); process.exit(1); });
+main().catch(e => { console.error('❌ Error:', e.message); process.exit(1); });

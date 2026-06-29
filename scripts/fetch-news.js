@@ -1,82 +1,32 @@
-const https = require('https');
+const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
 const path = require('path');
 
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+// Mismo modelo que post-linkedin.js (probado con esta API key). Subir a
+// 'claude-opus-4-8' si se quiere más calidad y la cuenta tiene acceso.
+const MODEL = 'claude-sonnet-4-6';
 const POSTS_FILE = path.join(__dirname, '..', 'data', 'posts.json');
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 
+if (!process.env.ANTHROPIC_API_KEY) {
+  console.error('❌ Falta ANTHROPIC_API_KEY en env vars');
+  process.exit(1);
+}
+
 if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
 
-// ── Direct HTTPS call without SDK ──
+// El SDK lee ANTHROPIC_API_KEY del entorno. maxRetries cubre 429/5xx/errores de red
+// con backoff exponencial; timeout amplio porque generamos texto sin streaming.
+const client = new Anthropic({ maxRetries: 4, timeout: 120000 });
+
+// ── Llamada a la API de Anthropic vía SDK oficial ──
 async function callAnthropicAPI(messages, label, maxTokens = 1500) {
-  const MAX_RETRIES = 2;
-  
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      console.log('[API] ' + label + ' (intento ' + attempt + ')...');
-      
-      const payload = JSON.stringify({
-        model: 'claude-opus-4-1-20250805',
-        max_tokens: maxTokens,
-        messages: messages
-      });
-
-      const options = {
-        hostname: 'api.anthropic.com',
-        port: 443,
-        path: '/v1/messages',
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Content-Length': Buffer.byteLength(payload),
-          'anthropic-version': '2023-06-01',
-          'x-api-key': ANTHROPIC_API_KEY
-        },
-        timeout: 120000 // 2 minutes
-      };
-
-      return await new Promise((resolve, reject) => {
-        const req = https.request(options, (res) => {
-          let data = '';
-          
-          res.on('data', (chunk) => {
-            data += chunk;
-          });
-
-          res.on('end', () => {
-            if (res.statusCode >= 200 && res.statusCode < 300) {
-              try {
-                const parsed = JSON.parse(data);
-                resolve(parsed);
-              } catch (e) {
-                reject(new Error('Invalid JSON response: ' + e.message));
-              }
-            } else {
-              reject(new Error('HTTP ' + res.statusCode + ': ' + data.substring(0, 200)));
-            }
-          });
-        });
-
-        req.on('error', reject);
-        req.on('timeout', () => {
-          req.destroy();
-          reject(new Error('Request timeout'));
-        });
-
-        req.write(payload);
-        req.end();
-      });
-    } catch (e) {
-      if (attempt < MAX_RETRIES) {
-        const waitSecs = 30 * attempt;
-        console.log('[Error] ' + e.message + ' - esperando ' + waitSecs + 's...');
-        await sleep(waitSecs * 1000);
-      } else {
-        throw e;
-      }
-    }
-  }
+  console.log('[API] ' + label + '...');
+  return await client.messages.create({
+    model: MODEL,
+    max_tokens: maxTokens,
+    messages: messages
+  });
 }
 
 function sleep(ms) {

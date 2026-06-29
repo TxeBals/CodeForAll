@@ -48,7 +48,9 @@ async function generateSummary(news) {
     sourceName: n.sourceName,
   }));
 
-  const response = await client.messages.create({
+  // Streaming + getFinalMessage: evita el error "premature close" de
+  // conexiones non-streaming que tardan en responder.
+  const stream = client.messages.stream({
     model: 'claude-sonnet-4-6',
     max_tokens: 1500,
     messages: [{
@@ -97,6 +99,7 @@ REGLAS:
     }]
   });
 
+  const response = await stream.finalMessage();
   return response.content[0].text.trim();
 }
 

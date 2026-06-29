@@ -20,13 +20,16 @@ if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
 const client = new Anthropic({ maxRetries: 4, timeout: 120000 });
 
 // ── Llamada a la API de Anthropic vía SDK oficial ──
+// Streaming + getFinalMessage: mantiene el socket activo con eventos SSE y
+// evita el error "premature close" de conexiones non-streaming que tardan.
 async function callAnthropicAPI(messages, label, maxTokens = 1500) {
   console.log('[API] ' + label + '...');
-  return await client.messages.create({
+  const stream = client.messages.stream({
     model: MODEL,
     max_tokens: maxTokens,
     messages: messages
   });
+  return await stream.finalMessage();
 }
 
 function sleep(ms) {

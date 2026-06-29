@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 const client = new Anthropic({
-  timeout: 30 * 1000, // 30s timeout per request
   maxRetries: 0  // We handle retries ourselves
 });
 const POSTS_FILE = path.join(__dirname, '..', 'data', 'posts.json');

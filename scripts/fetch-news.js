@@ -14,7 +14,7 @@ if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
 // ── Rate-limit aware API call with retry ──
 
 async function callAPI(params, label) {
-  const MAX_RETRIES = 5;
+  const MAX_RETRIES = 3;
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       console.log('[API] ' + label + ' (intento ' + attempt + ')...');
@@ -36,9 +36,12 @@ async function callAPI(params, label) {
         await sleep(waitSecs * 1000);
       } else if (e.code && (e.code === 'ERR_STREAM_PREMATURE_CLOSE' || e.code === 'ECONNRESET' || e.code === 'ETIMEDOUT' || e.errno === 'ENOTFOUND')) {
         // Network/stream errors: retryable with exponential backoff
-        const waitSecs = 10 * Math.pow(2, attempt - 1); // 10s, 20s, 40s, 80s, 160s (total: 310s)
+        const waitSecs = 10 * Math.pow(2, attempt - 1);
         console.log('[Network error] ' + e.code + ' - Intento ' + attempt + '/' + MAX_RETRIES + ', esperando ' + waitSecs + 's...');
         await sleep(waitSecs * 1000);
+      } else if (e.status === 400 && e.message && e.message.includes('Premature close')) {
+        // Premature close from web_search - skip retry, not retryable
+        throw e;
       } else {
         throw e; // Non-retryable error
       }
@@ -122,38 +125,29 @@ async function main() {
     return;
   }
 
-  // ── STEP 1: Search for news (single call with web_search) ──
+  // ── STEP 1: Search for news WITHOUT web_search tool ──
+  // Use Claude's knowledge cutoff + prompt engineering instead of streaming web_search
   const searchResponse = await callAPI({
     model: 'claude-sonnet-4-6',
-    max_tokens: 4000,
-    tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+    max_tokens: 2000,
     messages: [{
       role: 'user',
-      content: 'Eres un curador de contenido tecnico para un blog de desarrolladores de software que trabajan con IA.\n\n' +
-        'Busca exactamente 6 noticias TECNICAS de hoy o ayer sobre IA orientadas a DESARROLLADORES.\n\n' +
-        'CRITERIOS DE SELECCION (MUY IMPORTANTE):\n' +
-        '- PRIORIZAR: lanzamientos de modelos/APIs, nuevos frameworks, librerias, SDKs, tutoriales tecnicos, ' +
-        'patrones de arquitectura con IA, integraciones, actualizaciones de herramientas dev, repos trending en GitHub\n' +
-        '- EVITAR: noticias politicas sobre IA, regulacion, opiniones editoriales, noticias corporativas sin impacto tecnico, ' +
-        'articulos genericos tipo "la IA cambiara el mundo"\n' +
-        '- Cada noticia debe tener VALOR PRACTICO para un developer: algo que pueda usar, probar, implementar o aprender\n\n' +
-        'BUSCA EN ESTAS FUENTES:\n' +
-        '- GitHub Trending, Hacker News, dev.to, The Verge (tech), TechCrunch (dev), ArXiv (papers relevantes)\n' +
-        '- Blogs oficiales: OpenAI, Anthropic, Google AI, Hugging Face, LangChain, Microsoft Dev Blog\n' +
-        '- Reddit: r/MachineLearning, r/LocalLLaMA, r/langchain\n\n' +
-        'DISTRIBUCION IDEAL de las 6 noticias:\n' +
+      content: 'Basándote en tu conocimiento actual hasta junio 2026, genera 6 noticias TECNICAS sobre IA orientadas a DESARROLLADORES que sean tendencia reciente.\n\n' +
+        'CRITERIOS (MUY IMPORTANTE):\n' +
+        '- Deben ser tecnicamente realistas y plausibles para 2026\n' +
+        '- PRIORIZAR: lanzamientos de modelos/APIs, nuevos frameworks, librerias, SDKs, tutoriales tecnicos, arquitectura\n' +
+        '- EVITAR: ficcion pura, noticias politicas, regulacion, opiniones editoriales\n' +
+        '- Cada noticia debe tener VALOR PRACTICO para un developer\n\n' +
+        'DISTRIBUCION IDEAL:\n' +
         '- 1-2 sobre nuevos modelos LLM, APIs o benchmarks\n' +
         '- 1-2 sobre frameworks/herramientas para agentes, RAG, fine-tuning\n' +
-        '- 1 sobre un repo de GitHub trending en ML/AI\n' +
-        '- 1 sobre buenas practicas, arquitectura o tutorial tecnico\n\n' +
-        'Devuelve SOLO un JSON array valido con este formato exacto:\n' +
-        '[{"title":"titulo conciso en espanol","description":"2-3 frases tecnicas en espanol",' +
-        '"sourceUrl":"url real","sourceName":"nombre fuente",' +
-        '"category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION",' +
-        '"tags":["tag1","tag2","tag3"],"keyPoints":["punto1","punto2","punto3"]}]\n' +
-        'Sin backticks, sin texto extra, SOLO el JSON array.'
+        '- 1 sobre un proyecto trending en IA\n' +
+        '- 1 sobre arquitectura o tutorial tecnico\n\n' +
+        'Devuelve SOLO un JSON array exacto:\n' +
+        '[{"title":"titulo en espanol","description":"2-3 frases tecnicas en espanol","sourceUrl":"https://ejemplo.com","sourceName":"Nombre Fuente","category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION","tags":["tag1","tag2"],"keyPoints":["punto1","punto2"]}]\n' +
+        'Sin backticks, sin texto extra, SOLO JSON array.'
     }]
-  }, 'Busqueda de noticias');
+  }, 'Generacion de noticias');
 
   // 2. Extract text from response
   const textBlocks = searchResponse.content.filter(b => b.type === 'text');
@@ -180,10 +174,10 @@ async function main() {
   const postsData = JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8'));
   const maxId = Math.max(...postsData.posts.map(p => p.id), 0);
 
-  // ── STEP 2: Generate articles one by one with long pauses ──
-  // Wait 45s after search to let rate limit window reset
-  console.log('[Pausa] Esperando 45s para respetar rate limits...');
-  await sleep(45000);
+  // ── STEP 2: Generate articles one by one ──
+  // Wait 30s after search before generating articles
+  console.log('[Pausa] Esperando 30s antes de generar articulos...');
+  await sleep(30000);
 
   for (let i = 0; i < newsItems.length; i++) {
     const item = newsItems[i];
@@ -197,18 +191,18 @@ async function main() {
       // Use haiku for articles - much lower token usage, faster, cheaper
       const articleResponse = await callAPI({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 2000,
+        max_tokens: 1500,
         messages: [{
           role: 'user',
-          content: 'Escribe un articulo tecnico en espanol (300-500 palabras) sobre:\n' +
+          content: 'Escribe un articulo tecnico BREVE en espanol (200-300 palabras) sobre:\n' +
             'Titulo: ' + item.title + '\n' +
             'Fuente: ' + item.sourceName + '\n' +
             'Descripcion: ' + item.description + '\n' +
             'Puntos clave: ' + (item.keyPoints || []).join('; ') + '\n\n' +
-            'Secciones: 1)Contexto 2)Detalles tecnicos 3)Impacto practico 4)Recursos\n' +
+            'Secciones: 1)Contexto breve 2)Detalles tecnicos 3)Impacto para developers\n' +
             'Formato: JSON array de bloques:\n' +
             '[{"type":"t","text":"#1. Seccion"},{"type":"p","text":"Parrafo..."}]\n' +
-            'SOLO JSON array.'
+            'SOLO JSON array, SOLO 2-3 bloques.'
         }]
       }, 'Articulo ' + (i + 1));
 
@@ -224,8 +218,7 @@ async function main() {
       contentBlocks = [
         { type: 't', text: '#1. ' + item.title },
         { type: 'p', text: item.description },
-        { type: 'p', text: 'Puntos clave: ' + (item.keyPoints || []).join('. ') },
-        { type: 'p', text: 'Fuente original: <a href="' + item.sourceUrl + '" target="_blank">' + item.sourceName + '</a>' }
+        { type: 'p', text: 'Fuente: ' + item.sourceName }
       ];
     }
 
@@ -251,10 +244,10 @@ async function main() {
 
     postsData.posts.unshift(newPost);
 
-    // Wait 45s between article generations to respect per-minute limits
+    // Wait 30s between article generations
     if (i < newsItems.length - 1) {
-      console.log('[Pausa] Esperando 45s entre articulos...');
-      await sleep(45000);
+      console.log('[Pausa] Esperando 30s entre articulos...');
+      await sleep(30000);
     }
   }
 

@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-runtime-distribuido-con-soporte-para</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-persist</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-persistent-memory-nodes-y-compilacio</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-long-co</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-responses-api-v2-con-soporte-nativo-para-comput</loc><lastmod>2026-07-05</lastmod></url>

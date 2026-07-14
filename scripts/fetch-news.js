@@ -103,14 +103,23 @@ async function main() {
   const newsResponse = await callAnthropicAPI(
     [{
       role: 'user',
-      content: 'Genera 4 noticias TECNICAS realistas sobre IA 2026 para developers.\n' +
-        'Frameworks, APIs, updates, repos trending.\n\n' +
-        'JSON array SOLO:\n' +
+      content: 'Genera exactamente 6 noticias TECNICAS realistas sobre IA 2026 para developers.\n' +
+        'Distribucion: 1-2 sobre modelos LLM/APIs, 1-2 sobre frameworks/herramientas para agentes,\n' +
+        '1 sobre un repo de GitHub trending en ML/AI, 1 sobre buenas practicas o arquitectura.\n\n' +
+        'JSON array SOLO, sin texto extra:\n' +
         '[{"title":"...","description":"...","sourceUrl":"https://...","sourceName":"...","category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION","tags":["..."],"keyPoints":["..."]}]'
     }],
     'Generacion de noticias',
-    1200
+    4000
   );
+
+  // Guard: si la respuesta se corta por max_tokens, el JSON queda truncado y el
+  // fallback de parseo recuperaria solo los objetos completos (bug: 2 de 6).
+  // Abortar aqui evita gastar API en articulos de una lista incompleta.
+  if (newsResponse.stop_reason === 'max_tokens') {
+    console.error('❌ Respuesta truncada por max_tokens. Subir el limite en la llamada de noticias.');
+    process.exit(1);
+  }
 
   const rawText = newsResponse.content[0].text;
   const cleanText = rawText.replace(/```json|```/g, '').trim();
@@ -130,6 +139,9 @@ async function main() {
   }
 
   console.log('Encontradas ' + newsItems.length + ' noticias');
+  if (newsItems.length < 6) {
+    console.warn('⚠️ Se esperaban 6 noticias, llegaron ' + newsItems.length + '. Se continua con las disponibles.');
+  }
 
   const postsData = JSON.parse(fs.readFileSync(POSTS_FILE, 'utf8'));
   const maxId = Math.max(...postsData.posts.map(p => p.id), 0);

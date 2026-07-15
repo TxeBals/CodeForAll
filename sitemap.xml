@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-llm-en-produccion-del</loc><lastmod>2026-07-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-unsloth-supera-las-45k-estrellas-fine-tuning-de-llms</loc><lastmod>2026-07-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-agentchat-2-0-con-contratos-d</loc><lastmod>2026-07-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-distribuido-con-redis-</loc><lastmod>2026-07-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-gpt-4-turbo-y-unifica-endpoints-bajo-la-famil</loc><lastmod>2026-07-15</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-3-7-api-con-soporte-nativo-para-tool-</loc><lastmod>2026-07-15</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-rag-en-produccion-202</loc><lastmod>2026-07-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-smolagents-de-hugging-face-supera-28k-stars-</loc><lastmod>2026-07-14</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-agentchat-api-unificada-runti</loc><lastmod>2026-07-14</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-en-produccio</loc><lastmod>2026-07-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-litellm-supera-las-45k-stars-con-su-proxy</loc><lastmod>2026-07-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-6-con-soporte-para-agentes-especia</loc><lastmod>2026-07-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-distribuido-con-redis-</loc><lastmod>2026-07-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-publica-benchmarks-internos-de-claude-4-opus-en-co</loc><lastmod>2026-07-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-soporte-nativo-para-functio</loc><lastmod>2026-07-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patron-structured-agent-boundary-arquitectura-recomendada-pa</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vllm-vllm-supera-40k-stars-con-soporte-para-pagedattention-v</loc><lastmod>2026-07-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-unifica-el-framework-con-soporte-para</loc><lastmod>2026-07-18</lastmod></url>

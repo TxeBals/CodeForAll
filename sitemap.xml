@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-en-produccio</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-unsloth-unsloth-zoo-alcanza-28k-estrellas</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-6-con-runtime-distribuido-y-soport</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-persistente-con-backen</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-3-7-sonnet-con-soporte-experiment</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-soporte-nativo-para-functio</loc><lastmod>2026-07-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-implementando-circuit-breaker-pattern-e</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-nano-rag-alcanza-28k-stars-con-implementa</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-multi-agent-orchestration-con</loc><lastmod>2026-07-22</lastmod></url>

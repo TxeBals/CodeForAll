@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-arquitectonicos-para-sistemas-rag-en-produccion-de-</loc><lastmod>2026-07-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-fastlora-gguf-alcanza-12k-stars-fine-tuning-cuantiza</loc><lastmod>2026-07-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-agentchat-protocol-estandar-a</loc><lastmod>2026-07-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-compilacion-estatica-de-grafos-y-sop</loc><lastmod>2026-07-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-gpt-4-turbo-y-migra-ecosistema-a-gpt-5-mini-c</loc><lastmod>2026-07-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-context</loc><lastmod>2026-07-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-en-produccio</loc><lastmod>2026-07-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-unsloth-unsloth-zoo-alcanza-28k-estrellas</loc><lastmod>2026-07-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-6-con-runtime-distribuido-y-soport</loc><lastmod>2026-07-23</lastmod></url>

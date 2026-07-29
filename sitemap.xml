@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-en-produccio</loc><lastmod>2026-07-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-llm-reasoners-alcanza-18k-stars-con-imple</loc><lastmod>2026-07-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-studio-2-0-con-editor-visual-drag-an</loc><lastmod>2026-07-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-soporte-para-durable-execution-y-che</loc><lastmod>2026-07-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-los-endpoints-de-gpt-4-turbo-y-migra-develope</loc><lastmod>2026-07-29</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-extende</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-de-produccio</loc><lastmod>2026-07-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-mem0-supera-las-38k-estrellas-como-capa-de-m</loc><lastmod>2026-07-28</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-4-con-arquitectura-event-driven-y-</loc><lastmod>2026-07-28</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patron-gateway-unificado-para-llms-como-implementar-routing-</loc><lastmod>2026-07-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-optillm-alcanza-18k-stars-por-optimizar-i</loc><lastmod>2026-07-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-presenta-actor-model-para-agentes-con</loc><lastmod>2026-07-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-compilacion-estatica-de-grafos-y-per</loc><lastmod>2026-07-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-introduce-gpt-5-turbo-con-structured-outputs-v2-y-sop</loc><lastmod>2026-07-31</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-tool-us</loc><lastmod>2026-07-31</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patron-context-window-management-emerge-como-practica-estand</loc><lastmod>2026-07-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-qwen3-coder-480b-instruct-alcanza-28k-stars-</loc><lastmod>2026-07-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-agentchat-declarativo-y-runti</loc><lastmod>2026-07-30</lastmod></url>

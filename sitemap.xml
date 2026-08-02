@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-implementando-el-patron-rag-fusion-con-</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=vllm-project-vllm-supera-40k-stars-con-soporte-para-lora-hot</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-6-presenta-un-runtime-distribuido-con-so</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-distribuido-con-redis-</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-3-7-sonnet-con-extended-thinking-</loc><lastmod>2026-08-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-soporte-nativo-para-functio</loc><lastmod>2026-08-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-sistemas-rag-en-produccio</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-vllm-project-vllm-supera-40k-estrellas-co</loc><lastmod>2026-08-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-presenta-un-runtime-distribuido-para-</loc><lastmod>2026-08-01</lastmod></url>

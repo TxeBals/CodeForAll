@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-llm-en-produccion-el-</loc><lastmod>2026-08-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-nano-graphrag-alcanza-18k-estrellas-en-3-sem</loc><lastmod>2026-08-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-un-protocolo-estandarizado-ag</loc><lastmod>2026-08-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-stategraph-compilado-a-bytecode-y-so</loc><lastmod>2026-08-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-text-davinci-003-y-migra-ecosistema-a-gpt-4-1</loc><lastmod>2026-08-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-3-7-api-con-soporte-nativo-para-tool-</loc><lastmod>2026-08-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-implementando-el-patron-rag-fusion-con-</loc><lastmod>2026-08-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vllm-project-vllm-supera-40k-stars-con-soporte-para-lora-hot</loc><lastmod>2026-08-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-6-presenta-un-runtime-distribuido-con-so</loc><lastmod>2026-08-02</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-de-diseno-para-sistemas-rag-en</loc><lastmod>2026-08-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-fastmoe-alcanza-48k-estrellas-en-github-fine-tuning-</loc><lastmod>2026-08-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-studio-3-0-con-soporte-para-agentes-</loc><lastmod>2026-08-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-el-modelo-de-ejecucion-durable-execu</loc><lastmod>2026-08-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-gpt-4-turbo-y-migra-ecosistema-a-gpt-4-5-mini</loc><lastmod>2026-08-06</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-3-7-api-con-soporte-nativo-para-tool-</loc><lastmod>2026-08-06</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-2026-patrones-para-sistemas-rag-en-prod</loc><lastmod>2026-08-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-vllm-project-vllm-supera-las-45k-estrellas-c</loc><lastmod>2026-08-05</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-6-lanza-runtime-distribuido-con-soporte-</loc><lastmod>2026-08-05</lastmod></url>

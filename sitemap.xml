@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-deepmind-publica-guia-de-arquitectura-para-sistemas-r</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-mistral-inference-alcanza-28k-stars-con-i</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-arquitectura-de-actores-asin</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-distribuido-con-redis-</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-publica-claude-3-7-con-api-de-extended-thinking-co</loc><lastmod>2026-08-12</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-soporte-nativo-para-functio</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-construir-sistemas-rag-en</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-unsloth-supera-las-28k-estrellas-en-github-convirtie</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-unifica-la-api-de-agentes-conversacio</loc><lastmod>2026-08-11</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-para-construir-sistemas-rag-pr</loc><lastmod>2026-08-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-unsloth-supera-las-28k-estrellas-en-github-como-la-h</loc><lastmod>2026-08-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-un-runtime-asincrono-basado-e</loc><lastmod>2026-08-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-arquitectura-de-grafos-stateful-con-</loc><lastmod>2026-08-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=google-deepmind-abre-gemini-2-5-flash-como-modelo-base-gratu</loc><lastmod>2026-08-17</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-llamada</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-probados-para-sistemas-rag-en-</loc><lastmod>2026-08-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-smolagents-de-huggingface-alcanza-18k-estrel</loc><lastmod>2026-08-16</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-4-migra-a-arquitectura-asincrona-con-act</loc><lastmod>2026-08-16</lastmod></url>

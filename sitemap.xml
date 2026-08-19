@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-llm-en-produccion-202</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-instructor-ai-instructor-supera-las-45k-estr</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-lanza-modo-magentic-one-lite-para-agen</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-arquitectura-stateful-multi-agent-co</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-introduce-claude-3-7-api-con-modo-extended-thinkin</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-ventana-de-contexto-de-512k</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-definitiva-patrones-de-arquitectura-para-sistemas-rag-e</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=trending-en-github-open-manus-supera-las-48k-estrellas-como-</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-soporte-para-agentes-multimo</loc><lastmod>2026-08-18</lastmod></url>

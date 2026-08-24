@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-rag-en-produccion-del</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-instructor-ai-instructor-alcanza-45k-stars-c</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-lanza-agentruntime-distribuido-con-so</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-statefulgraph-con-persistencia-nativ</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-gpt-4-turbo-y-migra-ecosistema-a-gpt-5-mini-c</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-tool-us</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-rag-en-produccion-de-</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=vllm-project-vllm-supera-40k-stars-con-nuevo-backend-de-espe</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-arquitectura-multi-agente-de</loc><lastmod>2026-08-23</lastmod></url>

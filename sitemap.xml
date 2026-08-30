@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=context-window-management-en-llm-apps-el-patron-rag-as-cache</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-fastvision-alcanza-1-en-github-trending-fine-tuning-</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-presenta-agentchat-con-protocolo-a2a-n</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-checkpointing-distribuido-con-redis-</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-abre-acceso-a-claude-3-7-extended-thinking-con-str</loc><lastmod>2026-08-30</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-lanza-gpt-5-turbo-api-con-soporte-nativo-para-functio</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-llm-en-produccion-de-</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=unsloth-unsloth-supera-las-40k-estrellas-con-soporte-para-fi</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-arquitectura-multi-agente-ba</loc><lastmod>2026-08-29</lastmod></url>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-probados-para-sistemas-rag-en-</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-open-interpreter-oi-core-alcanza-28k-stars-e</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-un-runtime-distribuido-basad</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-2-0-introduce-stategraph-compilado-a-bytecode-y-so</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-depreca-el-endpoint-v1-completions-y-unifica-todo-baj</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-context</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-rag-en-produccion-de-</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-open-r1-supera-las-28k-estrellas-replicando-</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-0-5-introduce-agentchat-api-unificada-y-so</loc><lastmod>2026-09-01</lastmod></url>

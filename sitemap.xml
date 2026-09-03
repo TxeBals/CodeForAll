@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://txemagonzalez.com/</loc><priority>1.0</priority></url>
   <url><loc>https://txemagonzalez.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=patrones-de-arquitectura-para-sistemas-rag-en-produccion-202</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-vllm-project-vllm-supera-las-45k-estrellas-t</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-autogen-v0-5-lanza-arquitectura-actor-model-para-a</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=langgraph-0-4-introduce-soporte-para-subgrafos-persistentes-</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=openai-introduce-gpt-5-turbo-con-function-calling-paralelo-m</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://txemagonzalez.com/post.html?slug=anthropic-lanza-claude-4-api-con-soporte-nativo-para-extende</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=guia-de-arquitectura-patrones-probados-para-sistemas-rag-en-</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=github-trending-open-interpreter-oi-core-alcanza-28k-stars-e</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://txemagonzalez.com/post.html?slug=microsoft-lanza-autogen-0-5-con-un-runtime-distribuido-basad</loc><lastmod>2026-09-02</lastmod></url>

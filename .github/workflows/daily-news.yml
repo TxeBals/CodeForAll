@@ -29,6 +29,7 @@ jobs:
       - name: Fetch and generate AI news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_FORCE: ${{ vars.NEWS_FORCE }}
         timeout-minutes: 25
         run: node scripts/fetch-news.js
 

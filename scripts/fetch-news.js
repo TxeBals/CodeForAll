@@ -104,10 +104,16 @@ async function main() {
     [{
       role: 'user',
       content: 'Genera exactamente 6 noticias TECNICAS realistas sobre IA 2026 para developers.\n' +
-        'Distribucion: 1-2 sobre modelos LLM/APIs, 1-2 sobre frameworks/herramientas para agentes,\n' +
-        '1 sobre un repo de GitHub trending en ML/AI, 1 sobre buenas practicas o arquitectura.\n\n' +
-        'JSON array SOLO, sin texto extra:\n' +
-        '[{"title":"...","description":"...","sourceUrl":"https://...","sourceName":"...","category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION","tags":["..."],"keyPoints":["..."]}]'
+  'Distribucion: 1-2 sobre modelos LLM/APIs, 1-2 sobre frameworks/herramientas para agentes,\n' +
+  '1 sobre un repo de GitHub trending en ML/AI, 1 sobre buenas practicas o arquitectura.\n\n' +
+  'IMPORTANTE - SOLO USA URLs REALES QUE EXISTAN:\n' +
+  '- Para LLM/APIs: anthropic.com, openai.com, deepseek.com, github.com, huggingface.co\n' +
+  '- Para frameworks: github.com repos (verificados), documentacion oficial\n' +
+  '- Para GitHub repos: usa URLs reales de github.com/user/repo que sean trending\n' +
+  '- Para articulos: dev.to, medium.com, hashnode.com, blogs oficiales\n' +
+  'NO INVENTES URLs. Si no tienes seguridad, usa "github.com" o "comunidad.dev" como sourceName.\n\n' +
+  'JSON array SOLO, sin texto extra:\n' +
+  '[{"title":"...","description":"...","sourceUrl":"https://...","sourceName":"...","category":"LLM|AGENTES|HERRAMIENTAS|GITHUB_REPO|BUENAS_PRACTICAS|INVESTIGACION","tags":["..."],"keyPoints":["..."]}'
     }],
     'Generacion de noticias',
     4000

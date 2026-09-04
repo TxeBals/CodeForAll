@@ -24,7 +24,7 @@ const STRICT_URL = process.env.NEWS_STRICT_URL !== '0';
 const FORCE = process.env.NEWS_FORCE === '1' ||
   process.env.NEWS_FORCE === 'true' ||
   process.argv.includes('--force');
-FORCE = true;
+
 const POSTS_FILE = path.join(__dirname, '..', 'data', 'posts.json');
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 
